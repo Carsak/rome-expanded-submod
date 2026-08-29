@@ -1184,8 +1184,8 @@ building barracks
 				recruit "warband axe scythian" 2 requires building_factions { barbarian, } and is_player and religion s_paganism >= 10
 				recruit "barb scythian hoplite" 1 requires building_factions { barbarian, } and is_player and religion s_paganism >= 10
 				recruit "barbarian legionary" 0 requires building_factions { barbarian, } and is_player and religion c_paganism >= 10
-				recruit "carthaginian medium infantry" 1 requires building_factions { carthaginian, } and is_player and religion punic >= 10
-				recruit "carthaginian heavy infantry" 0 requires building_factions { carthaginian, } and is_player and religion punic >= 10
+				recruit "carthaginian medium infantry" 1 requires factions { carthaginian, } and is_player and religion punic >= 20
+				recruit "carthaginian heavy infantry" 0 requires factions { carthaginian, } and is_player and religion punic >= 40
 				recruit "east hillmen" 2 requires building_factions { eastern, } and factions { eastern, } and not factions { pontus, anatolian_faction_01, anatolian_faction_02, rebel_judea, } and is_player and religion zoroastrian >= 10 or religion oscan >= 10
 				recruit "east hillmen" 2 requires building_factions { eastern, } and factions { pontus, anatolian_faction_01, } and is_player and religion zoroastrian >= 10
 				recruit "east hillmen" 2 requires building_factions { eastern, egyptian, } and factions { anatolian_faction_02, rebel_judea, } and is_player and religion judaism >= 10
