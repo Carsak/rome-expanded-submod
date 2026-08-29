@@ -1609,7 +1609,7 @@ stat_mental					5, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 400, 90, 40, 60, 400
+stat_cost					1, 600, 210, 40, 60, 400
 recruit_priority_offset		0
 ownership					slave, rebel_slave, dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, thracian_faction_02
 ethnicity					dacia, Dacia
@@ -1639,7 +1639,7 @@ stat_mental					5, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 400, 90, 40, 60, 400
+stat_cost					1, 600, 210, 40, 60, 400
 recruit_priority_offset		0
 ownership					slave, rebel_slave, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, latin_faction_05
 ethnicity					gauls, Central_Gaul
@@ -1669,7 +1669,7 @@ stat_mental					5, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 400, 90, 40, 60, 400
+stat_cost					1, 600, 210, 40, 60, 400
 recruit_priority_offset		0
 ownership					slave, rebel_slave, germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10
 ethnicity					germans, Germania_Superior
@@ -1699,7 +1699,7 @@ stat_mental					5, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 400, 90, 40, 60, 400
+stat_cost					1, 600, 210, 40, 60, 400
 recruit_priority_offset		0
 ownership					slave, rebel_slave, scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08
 ethnicity					scythia, Scythia
@@ -1729,7 +1729,7 @@ stat_mental					5, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 400, 90, 40, 60, 400
+stat_cost					1, 600, 210, 40, 60, 400
 recruit_priority_offset		0
 ownership					slave, rebel_slave
 ethnicity					slave, Central_Gaul
@@ -1759,7 +1759,7 @@ stat_mental					9, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 600, 160, 60, 90, 600
+stat_cost					1, 900, 240, 60, 90, 600
 recruit_priority_offset		0
 ownership					slave, rebel_slave, dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, thracian_faction_02
 ethnicity					dacia, Dacia, don't_allow_mixed, don't_allow_regional, don't_allow_custom
@@ -1790,7 +1790,7 @@ stat_mental					9, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 600, 160, 60, 90, 600
+stat_cost					1, 900, 240, 60, 90, 600
 recruit_priority_offset		0
 ownership					slave, rebel_slave, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18
 ethnicity					gauls, Central_Gaul
@@ -1820,7 +1820,7 @@ stat_mental					9, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 600, 160, 60, 90, 600
+stat_cost					1, 900, 240, 60, 90, 600
 recruit_priority_offset		0
 ownership					slave, rebel_slave, germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10
 ethnicity					germans, Germania_Superior
@@ -1850,7 +1850,7 @@ stat_mental					9, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 600, 160, 60, 90, 600
+stat_cost					1, 900, 240, 60, 90, 600
 recruit_priority_offset		0
 ownership					slave, rebel_slave
 ethnicity					slave, Central_Gaul
@@ -1880,7 +1880,7 @@ stat_mental					13, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 790, 190, 80, 120, 790
+stat_cost					2, 1185, 285, 80, 120, 790
 recruit_priority_offset		0
 ownership					slave, rebel_slave, germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10
 ethnicity					germans, Germania_Superior
@@ -1910,7 +1910,7 @@ stat_mental					13, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 500, 170, 50, 80, 500
+stat_cost					1, 750, 255, 50, 80, 500
 recruit_priority_offset		0
 ownership					slave, rebel_slave, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05
 ethnicity					britons, Brittania_Superior
@@ -1933,7 +1933,7 @@ stat_mental					9, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 620, 180, 50, 80, 620
+stat_cost					1, 930, 270, 50, 80, 620
 
 
 type						barb chariot heavy briton
@@ -1960,7 +1960,7 @@ stat_mental					13, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 580, 190, 60, 90, 580
+stat_cost					2, 870, 285, 60, 90, 580
 recruit_priority_offset		0
 ownership					slave, rebel_slave, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05
 ethnicity					britons, Brittania_Superior
@@ -1983,7 +1983,7 @@ stat_mental					11, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 680, 190, 60, 90, 680
+stat_cost					2, 1020, 285, 60, 90, 680
 
 
 type						barb chariot heavy slave
@@ -2010,7 +2010,7 @@ stat_mental					13, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 580, 190, 60, 90, 580
+stat_cost					2, 870, 285, 60, 90, 580
 recruit_priority_offset		0
 ownership					slave, rebel_slave
 ethnicity					slave, Brittania_Superior, don't_allow_regional
@@ -2033,7 +2033,7 @@ stat_mental					11, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 680, 190, 60, 90, 680
+stat_cost					2, 1020, 285, 60, 90, 680
 
 
 type						barb horse archers scythian
@@ -2060,7 +2060,7 @@ stat_mental					5, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 540, 110, 60, 80, 540
+stat_cost					1, 810, 210, 60, 80, 540
 recruit_priority_offset		0
 ownership					slave, rebel_slave, scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08
 ethnicity					scythia, Scythia, don't_allow_mixed, don't_allow_regional, don't_allow_custom
@@ -2091,7 +2091,7 @@ stat_mental					5, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 540, 110, 60, 80, 540
+stat_cost					1, 810, 210, 60, 80, 540
 recruit_priority_offset		0
 ownership					slave, rebel_slave
 ethnicity					slave, Scythia, don't_allow_regional
@@ -2122,7 +2122,7 @@ stat_mental					9, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 900, 170, 90, 140, 900
+stat_cost					1, 1350, 255, 90, 140, 900
 recruit_priority_offset		0
 ownership					slave, rebel_slave, scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08
 ethnicity					scythia, Scythia, don't_allow_mixed, don't_allow_regional, don't_allow_custom
@@ -2152,7 +2152,7 @@ stat_mental					11, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 600, 140, 60, 90, 600
+stat_cost					2, 900, 210, 60, 90, 600
 recruit_priority_offset		0
 ownership					slave, rebel_slave, scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08
 ethnicity					scythia, Scythia
@@ -2183,7 +2183,7 @@ stat_mental					9, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 630, 170, 70, 100, 630
+stat_cost					2, 945, 255, 70, 100, 630
 recruit_priority_offset		0
 ownership					slave, rebel_slave, scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08
 ethnicity					scythia, Scythia, don't_allow_mixed, don't_allow_regional, don't_allow_custom
@@ -2213,7 +2213,7 @@ stat_mental					9, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 660, 130, 70, 100, 660
+stat_cost					2, 990, 210, 70, 100, 660
 recruit_priority_offset		0
 ownership					slave, rebel_slave, scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08
 ethnicity					scythia, Scythia, don't_allow_mixed, don't_allow_regional, don't_allow_custom
@@ -3293,7 +3293,7 @@ stat_mental					5, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 330, 110, 40, 50, 330
+stat_cost					1, 495, 210, 40, 50, 330
 recruit_priority_offset		0
 ownership					slave, rebel_slave, carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic
 ethnicity					carthage, Africa
@@ -3337,7 +3337,7 @@ stat_mental					9, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 510, 140, 60, 80, 510
+stat_cost					1, 765, 210, 60, 80, 510
 recruit_priority_offset		0
 ownership					slave, rebel_slave, carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage
 ethnicity					carthage, Africa
@@ -3371,7 +3371,7 @@ stat_mental					9, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 510, 140, 60, 80, 510
+stat_cost					1, 765, 210, 60, 80, 510
 recruit_priority_offset		0
 ownership					slave, rebel_slave, spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic
 ethnicity					spain, Celtiberia
@@ -3410,7 +3410,7 @@ stat_mental					9, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 510, 140, 60, 80, 510
+stat_cost					1, 765, 210, 60, 80, 510
 recruit_priority_offset		0
 ownership					slave, rebel_slave, numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert
 ethnicity					numidia, Numidia
@@ -3667,7 +3667,7 @@ stat_mental					11, disciplined, highly_trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 780, 340, 80, 120, 780
+stat_cost					2, 1170, 510, 80, 120, 780
 recruit_priority_offset		0
 ownership					slave, rebel_slave, carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage
 ethnicity					carthage, Africa, don't_allow_regional
@@ -3697,7 +3697,7 @@ stat_mental					9, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 420, 130, 50, 70, 420
+stat_cost					1, 630, 210, 50, 70, 420
 recruit_priority_offset		0
 ownership					slave, rebel_slave, numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert
 ethnicity					numidia, Numidia
@@ -3732,7 +3732,7 @@ stat_mental					9, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 520, 140, 60, 80, 520
+stat_cost					1, 780, 210, 60, 80, 520
 recruit_priority_offset		0
 ownership					slave, rebel_slave, numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert
 ethnicity					numidia, Numidia
@@ -3796,7 +3796,7 @@ stat_mental					9, normal, untrained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 1300, 280, 130, 200, 1300
+stat_cost					2, 1950, 420, 130, 200, 1300
 recruit_priority_offset		0
 ownership					slave, rebel_slave, carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage
 ethnicity					carthage, Africa
@@ -3830,7 +3830,7 @@ stat_mental					9, normal, untrained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 2520, 490, 260, 380, 2520
+stat_cost					2, 3780, 735, 260, 380, 2520
 recruit_priority_offset		0
 ownership					slave, rebel_slave, carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage
 ethnicity					carthage, Africa
@@ -3864,7 +3864,7 @@ stat_mental					9, normal, untrained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 2780, 590, 280, 420, 2780
+stat_cost					2, 4170, 885, 280, 420, 2780
 recruit_priority_offset		0
 ownership					slave, rebel_slave, carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage
 ethnicity					carthage, Africa
@@ -4318,7 +4318,7 @@ stat_mental					5, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 370, 110, 40, 60, 370
+stat_cost					1, 555, 210, 40, 60, 370
 recruit_priority_offset		0
 ownership					slave, rebel_slave, pontus, anatolian_faction_01, caucasian_faction_04
 ethnicity					pontus, Pontus
@@ -4340,7 +4340,7 @@ stat_mental					5, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 400, 100, 40, 60, 400
+stat_cost					1, 600, 210, 40, 60, 400
 
 
 type						east heavy cavalry
@@ -4367,7 +4367,7 @@ stat_mental					9, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 630, 160, 70, 100, 630
+stat_cost					1, 945, 240, 70, 100, 630
 recruit_priority_offset		0
 ownership					slave, rebel_slave, pontus, anatolian_faction_01, caucasian_faction_04
 ethnicity					pontus, Pontus
@@ -4397,7 +4397,7 @@ stat_mental					9, normal, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 940, 190, 100, 150, 940
+stat_cost					2, 1410, 285, 100, 150, 940
 recruit_priority_offset		0
 ownership					slave, rebel_slave, parthia, rebel_parthia, armenia, seleucid, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, pontus
 ethnicity					armenia, Armenia
@@ -4431,7 +4431,7 @@ stat_mental					9, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 870, 190, 90, 130, 870
+stat_cost					2, 1305, 285, 90, 130, 870
 recruit_priority_offset		0
 ownership					slave, rebel_slave, pontus, anatolian_faction_01, caucasian_faction_04, hellenic_faction_10
 ethnicity					pontus, Pontus, don't_allow_regional
@@ -4454,7 +4454,7 @@ stat_mental					9, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 770, 190, 90, 130, 770
+stat_cost					2, 1155, 285, 90, 130, 770
 
 
 type						east persian cavalry
@@ -4481,7 +4481,7 @@ stat_mental					9, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 790, 140, 80, 120, 790
+stat_cost					1, 1185, 210, 80, 120, 790
 recruit_priority_offset		0
 ownership					slave, rebel_slave, parthia, rebel_parthia, pontus
 ethnicity					parthia, Rhages, don't_allow_regional
@@ -4512,7 +4512,7 @@ stat_mental					9, normal, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 1230, 190, 130, 190, 1230
+stat_cost					2, 1845, 285, 130, 190, 1230
 recruit_priority_offset		0
 ownership					slave, rebel_slave, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04
 ethnicity					armenia, Armenia
@@ -4542,7 +4542,7 @@ stat_mental					5, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 440, 110, 50, 70, 440
+stat_cost					1, 660, 210, 50, 70, 440
 recruit_priority_offset		0
 ownership					slave, rebel_slave, parthia, rebel_parthia, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, pontus
 ethnicity					armenia, Armenia
@@ -4574,7 +4574,7 @@ stat_mental					9, normal, untrained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 940, 140, 100, 150, 940
+stat_cost					2, 1410, 210, 100, 150, 940
 recruit_priority_offset		0
 ownership					slave, rebel_slave, parthia, rebel_parthia, caucasian_faction_03
 ethnicity					parthia, Rhages
@@ -4605,7 +4605,7 @@ stat_mental					9, normal, untrained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 2520, 490, 260, 380, 2520
+stat_cost					2, 3780, 735, 260, 380, 2520
 recruit_priority_offset		0
 ownership					slave, rebel_slave, parthia, rebel_parthia, caucasian_faction_03, caucasian_faction_04
 ethnicity					parthia, Rhages
@@ -4636,7 +4636,7 @@ stat_mental					11, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 920, 210, 100, 140, 920
+stat_cost					2, 1380, 315, 100, 140, 920
 recruit_priority_offset		0
 ownership					slave, rebel_slave, pontus, anatolian_faction_01
 ethnicity					pontus, Pontus
@@ -4659,7 +4659,7 @@ stat_mental					11, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 920, 210, 100, 140, 920
+stat_cost					2, 1380, 315, 100, 140, 920
 
 
 type						east chariot archer
@@ -4686,7 +4686,7 @@ stat_mental					11, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 650, 330, 70, 100, 650
+stat_cost					2, 975, 495, 70, 100, 650
 recruit_priority_offset		0
 ownership					slave, rebel_slave, pontus, anatolian_faction_01
 ethnicity					pontus, Pontus
@@ -4709,7 +4709,7 @@ stat_mental					9, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 650, 330, 70, 100, 650
+stat_cost					2, 975, 495, 70, 100, 650
 
 
 type						east generals cavalry early
@@ -5055,7 +5055,7 @@ stat_mental					11, impetuous, trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 980, 160, 100, 150, 980
+stat_cost					2, 1470, 240, 100, 150, 980
 recruit_priority_offset		0
 ownership					slave, rebel_slave, egypt
 ethnicity					egypt, Nile_Delta
@@ -5078,7 +5078,7 @@ stat_mental					9, impetuous, trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 980, 160, 100, 150, 980
+stat_cost					2, 1470, 240, 100, 150, 980
 
 
 type						egyptian nile infantry
@@ -5219,7 +5219,7 @@ stat_mental					9, normal, trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 370, 140, 40, 60, 370
+stat_cost					1, 555, 210, 40, 60, 370
 recruit_priority_offset		0
 ownership					slave, rebel_slave, egypt
 ethnicity					egypt, Nile_Delta
@@ -5249,7 +5249,7 @@ stat_mental					9, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 420, 140, 50, 70, 420
+stat_cost					1, 630, 210, 50, 70, 420
 recruit_priority_offset		0
 ownership					slave, rebel_slave, egyptian
 ethnicity					egypt, Nubia, don't_allow_mixed, don't_allow_regional, don't_allow_custom
@@ -5279,7 +5279,7 @@ stat_mental					11, disciplined, highly_trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 760, 240, 80, 120, 760
+stat_cost					2, 1140, 360, 80, 120, 760
 recruit_priority_offset		0
 ownership					slave, rebel_slave, egypt
 ethnicity					egypt, Macedonia, don't_allow_regional, don't_allow_custom
@@ -5309,7 +5309,7 @@ stat_mental					5, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 420, 110, 50, 70, 420
+stat_cost					1, 630, 210, 50, 70, 420
 recruit_priority_offset		0
 ownership					slave, rebel_slave, egyptian
 ethnicity					egypt, Nile_Delta
@@ -5340,7 +5340,7 @@ stat_mental					9, normal, trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 2690, 490, 270, 410, 2690
+stat_cost					2, 4035, 735, 270, 410, 2690
 recruit_priority_offset		0
 ownership					slave, rebel_slave, egyptian
 ethnicity					egypt, Nile_Delta
@@ -5371,7 +5371,7 @@ stat_mental					5, normal, trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 1320, 270, 140, 200, 1320
+stat_cost					2, 1980, 405, 140, 200, 1320
 recruit_priority_offset		0
 ownership					slave, rebel_slave, egyptian
 ethnicity					egypt, Nile_Delta
@@ -6035,7 +6035,7 @@ stat_mental					9, normal, trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 370, 140, 40, 60, 370
+stat_cost					1, 555, 210, 40, 60, 370
 recruit_priority_offset		0
 ownership					slave, rebel_slave, macedon, hellenic_faction_13
 ethnicity					macedon, Macedonia
@@ -6065,7 +6065,7 @@ stat_mental					5, normal, trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 340, 110, 40, 60, 340
+stat_cost					1, 510, 210, 40, 60, 340
 recruit_priority_offset		0
 ownership					slave, rebel_slave, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, seleucid, thrace, thracian_faction_01, illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05
 ethnicity					greek_cities, Sicilia_Graecus
@@ -6102,7 +6102,7 @@ stat_mental					9, normal, trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 330, 120, 40, 50, 330
+stat_cost					1, 495, 210, 40, 50, 330
 recruit_priority_offset		0
 ownership					slave, rebel_slave, greek, thrace, thracian_faction_01, illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05
 ethnicity					greek_cities, Sicilia_Graecus
@@ -6131,7 +6131,7 @@ stat_mental					9, normal, trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 400, 120, 40, 50, 400
+stat_cost					1, 600, 210, 40, 50, 400
 
 
 type						greek heavy cavalry
@@ -6158,7 +6158,7 @@ stat_mental					9, normal, trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 690, 160, 70, 110, 690
+stat_cost					1, 1035, 240, 70, 110, 690
 recruit_priority_offset		0
 ownership					slave, rebel_slave, macedon, hellenic_faction_13
 ethnicity					macedon, Macedonia, don't_allow_regional, don't_allow_custom
@@ -6188,7 +6188,7 @@ stat_mental					11, disciplined, highly_trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 760, 240, 80, 120, 760
+stat_cost					2, 1140, 360, 80, 120, 760
 recruit_priority_offset		0
 ownership					slave, rebel_slave, macedon, hellenic_faction_13, seleucid
 ethnicity					macedon, Macedonia, don't_allow_regional, don't_allow_custom
@@ -6353,7 +6353,7 @@ stat_mental					5, normal, trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 1320, 270, 140, 200, 1320
+stat_cost					2, 1980, 405, 140, 200, 1320
 recruit_priority_offset		0
 ownership					slave, rebel_slave, seleucid, hellenic_faction_13, pontus
 ethnicity					seleucid, Syria
@@ -6383,7 +6383,7 @@ stat_mental					9, normal, trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 2690, 490, 270, 410, 2690
+stat_cost					2, 4035, 735, 270, 410, 2690
 recruit_priority_offset		0
 ownership					slave, rebel_slave, seleucid, hellenic_faction_13, pontus
 ethnicity					seleucid, Syria
@@ -6413,7 +6413,7 @@ stat_mental					9, normal, trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 2970, 590, 300, 450, 2970
+stat_cost					2, 4455, 885, 300, 450, 2970
 recruit_priority_offset		0
 ownership					slave, rebel_slave, seleucid, pontus
 ethnicity					seleucid, Syria
@@ -6582,7 +6582,7 @@ stat_mental					11, impetuous, trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 980, 160, 100, 150, 980
+stat_cost					2, 1470, 240, 100, 150, 980
 recruit_priority_offset		0
 ownership					slave, rebel_slave, seleucid
 ethnicity					seleucid, Syria
@@ -6605,7 +6605,7 @@ stat_mental					9, impetuous, trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 980, 160, 100, 150, 980
+stat_cost					2, 1470, 240, 100, 150, 980
 
 
 type						roman peasant
@@ -7363,7 +7363,7 @@ stat_mental					5, normal, trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 420, 110, 50, 70, 420
+stat_cost					1, 630, 210, 50, 70, 420
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman, latin_faction_01, latin_faction_02, latin_faction_03, latin_faction_04, rebel_latin
 ethnicity					romans_brutii, Bruttium
@@ -7396,7 +7396,7 @@ stat_mental					7, normal, trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 470, 110, 50, 70, 470
+stat_cost					1, 705, 210, 50, 70, 470
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman
 ethnicity					romans_brutii, Bruttium
@@ -7421,7 +7421,7 @@ stat_mental					7, normal, trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 470, 110, 50, 70, 470
+stat_cost					1, 705, 210, 50, 70, 470
 
 
 type						roman medium cavalry
@@ -7448,7 +7448,7 @@ stat_mental					7, normal, highly_trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 520, 120, 60, 80, 520
+stat_cost					1, 780, 210, 60, 80, 520
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman
 ethnicity					romans_brutii, Bruttium
@@ -7481,7 +7481,7 @@ stat_mental					11, disciplined, highly_trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 790, 190, 80, 120, 790
+stat_cost					2, 1185, 285, 80, 120, 790
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman
 ethnicity					romans_brutii, Bruttium
@@ -7514,7 +7514,7 @@ stat_mental					11, disciplined, highly_trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 840, 240, 90, 130, 840
+stat_cost					2, 1260, 360, 90, 130, 840
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman
 ethnicity					romans_brutii, Bruttium
@@ -7862,7 +7862,7 @@ stat_mental					13, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 780, 140, 80, 120, 780
+stat_cost					2, 1170, 210, 80, 120, 780
 recruit_priority_offset		0
 ownership					slave, rebel_slave
 ethnicity					slave, Aetolia, don't_allow_regional
@@ -7886,7 +7886,7 @@ stat_mental					13, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 780, 140, 80, 120, 780
+stat_cost					2, 1170, 210, 80, 120, 780
 
 
 type						rebel judaean zealots
@@ -8155,7 +8155,7 @@ stat_mental					9, disciplined, highly_trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 1200, 200, 80, 120, 1200
+stat_cost					1, 1800, 300, 80, 120, 1200
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman, barbarian, carthaginian, greek, egyptian, eastern, tracian_illyrian, italic
 ethnicity					slave, Scythia, don't_allow_regional
@@ -8185,7 +8185,7 @@ stat_mental					5, disciplined, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 800, 150, 60, 90, 800
+stat_cost					1, 1200, 225, 60, 90, 800
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman, barbarian, carthaginian, greek, egyptian, eastern, tracian_illyrian, italic
 ethnicity					dacia, Scythia, don't_allow_regional
@@ -8410,7 +8410,7 @@ stat_mental					9, disciplined, highly_trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 750, 160, 60, 80, 750
+stat_cost					1, 1125, 240, 60, 80, 750
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman, barbarian, carthaginian, greek, egyptian, eastern, tracian_illyrian, italic
 ethnicity					carthage, Numidia
@@ -8445,7 +8445,7 @@ stat_mental					5, disciplined, highly_trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 750, 150, 50, 80, 750
+stat_cost					1, 1125, 225, 50, 80, 750
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman, barbarian, carthaginian, greek, egyptian, eastern, tracian_illyrian, italic
 ethnicity					armenia, Jawf, don't_allow_regional
@@ -8478,7 +8478,7 @@ stat_mental					5, disciplined, highly_trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 700, 140, 50, 70, 700
+stat_cost					1, 1050, 210, 50, 70, 700
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman, barbarian, carthaginian, greek, egyptian, eastern, tracian_illyrian, italic
 ethnicity					armenia, Jawf, don't_allow_regional
@@ -8511,7 +8511,7 @@ stat_mental					5, disciplined, highly_trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 750, 140, 70, 100, 750
+stat_cost					1, 1125, 210, 70, 100, 750
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman, barbarian, carthaginian, greek, egyptian, eastern, tracian_illyrian, italic
 ethnicity					armenia, Jawf, don't_allow_regional
@@ -8607,7 +8607,7 @@ stat_mental					5, disciplined, highly_trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 800, 130, 50, 80, 800
+stat_cost					1, 1200, 210, 50, 80, 800
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman, barbarian, carthaginian, greek, egyptian, eastern, tracian_illyrian, italic
 ethnicity					britons, Brittania_Superior
@@ -8638,7 +8638,7 @@ stat_mental					9, disciplined, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 4000, 530, 270, 410, 4000
+stat_cost					2, 4000, 795, 270, 410, 4000
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman, barbarian, carthaginian, greek, egyptian, eastern, tracian_illyrian, italic
 ethnicity					numidia, Numidia
@@ -8669,7 +8669,7 @@ stat_mental					11, disciplined, highly_trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 2500, 250, 100, 150, 2500
+stat_cost					1, 3750, 375, 100, 150, 2500
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman, barbarian, carthaginian, greek, egyptian, eastern, tracian_illyrian, italic
 ethnicity					dacia, Dacia
@@ -8700,7 +8700,7 @@ stat_mental					11, disciplined, highly_trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 850, 160, 50, 90, 850
+stat_cost					1, 1275, 240, 50, 90, 850
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman, barbarian, carthaginian, greek, egyptian, eastern, tracian_illyrian, italic
 ethnicity					slave, Thrace, don't_allow_regional
@@ -8730,7 +8730,7 @@ stat_mental					11, disciplined, highly_trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 1400, 240, 100, 150, 1400
+stat_cost					1, 2100, 360, 100, 150, 1400
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman, barbarian, carthaginian, greek, egyptian, eastern, tracian_illyrian, italic
 ethnicity					macedon, Thessalia
@@ -8761,7 +8761,7 @@ stat_mental					7, disciplined, highly_trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 1000, 200, 80, 120, 1000
+stat_cost					1, 1500, 300, 80, 120, 1000
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman, barbarian, carthaginian, greek, egyptian, eastern, tracian_illyrian, italic
 ethnicity					slave, Media
@@ -8818,7 +8818,7 @@ stat_mental					9, disciplined, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 4800, 630, 310, 470, 4800
+stat_cost					2, 7200, 945, 310, 470, 4800
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman, barbarian, carthaginian, greek, egyptian, eastern, tracian_illyrian, italic
 
@@ -9135,7 +9135,7 @@ stat_mental					9, disciplined, highly_trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 1000, 170, 70, 100, 1000
+stat_cost					1, 1500, 255, 70, 100, 1000
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman, barbarian, carthaginian, greek, egyptian, eastern, tracian_illyrian, italic
 ethnicity					slave, Taraconenis
@@ -9165,7 +9165,7 @@ stat_mental					7, disciplined, highly_trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 1000, 170, 70, 100, 1000
+stat_cost					1, 1500, 255, 70, 100, 1000
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman, barbarian, carthaginian, greek, egyptian, eastern, tracian_illyrian, italic
 ethnicity					slave, Campania
@@ -9194,7 +9194,7 @@ stat_mental					9, disciplined, highly_trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 800, 170, 50, 90, 800
+stat_cost					1, 1200, 255, 50, 90, 800
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman, barbarian, carthaginian, greek, egyptian, eastern, tracian_illyrian, italic
 ethnicity					slave, Thrace
@@ -9298,7 +9298,7 @@ stat_mental					5, disciplined, highly_trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 800, 140, 60, 90, 800
+stat_cost					1, 1200, 210, 60, 90, 800
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman, barbarian, carthaginian, greek, egyptian, eastern, tracian_illyrian, italic
 ethnicity					slave, Elymais, don't_allow_regional
@@ -9357,7 +9357,7 @@ stat_mental					9, normal, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 1890, 530, 190, 290, 1890
+stat_cost					1, 2835, 795, 190, 290, 1890
 recruit_priority_offset		0
 ownership					slave, rebel_slave
 ethnicity					slave, Crete
@@ -10137,7 +10137,7 @@ stat_mental					5, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 480, 120, 50, 80, 480
+stat_cost					1, 720, 210, 50, 80, 480
 recruit_priority_offset		0
 ownership					slave, rebel_slave, desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08
 ethnicity					desert_faction_03, Jawf, don't_allow_regional
@@ -10170,7 +10170,7 @@ stat_mental					5, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 470, 110, 50, 70, 470
+stat_cost					1, 705, 210, 50, 70, 470
 recruit_priority_offset		0
 ownership					slave, rebel_slave, desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08
 ethnicity					desert_faction_03, Jawf, don't_allow_regional
@@ -10203,7 +10203,7 @@ stat_mental					5, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 650, 110, 70, 100, 650
+stat_cost					1, 975, 210, 70, 100, 650
 recruit_priority_offset		0
 ownership					slave, rebel_slave, desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08
 ethnicity					desert_faction_03, Jawf, don't_allow_regional
@@ -10267,7 +10267,7 @@ stat_mental					5, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 370, 110, 40, 60, 370
+stat_cost					1, 555, 210, 40, 60, 370
 recruit_priority_offset		0
 ownership					slave, rebel_slave, anatolian_faction_02, rebel_judea
 ethnicity					slave, Judaea
@@ -10291,7 +10291,7 @@ stat_mental					5, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 400, 100, 40, 60, 400
+stat_cost					1, 600, 210, 40, 60, 400
 
 
 type						judaean heavy cavalry
@@ -10318,7 +10318,7 @@ stat_mental					9, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 630, 160, 70, 100, 630
+stat_cost					1, 945, 240, 70, 100, 630
 recruit_priority_offset		0
 ownership					slave, rebel_slave, anatolian_faction_02, rebel_judea
 ethnicity					slave, Judaea
@@ -10515,7 +10515,7 @@ stat_mental					9, impetuous, trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 650, 180, 70, 100, 650
+stat_cost					1, 975, 270, 70, 100, 650
 recruit_priority_offset		0
 ownership					slave, rebel_slave, numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_04, desert_faction_05, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert, hellenic_faction_08
 ethnicity					numidia, Numidia
@@ -10622,7 +10622,7 @@ stat_mental					5, normal, untrained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 550, 150, 60, 100, 550
+stat_cost					1, 825, 225, 60, 100, 550
 recruit_priority_offset		0
 ownership					slave, rebel_slave, steppe_faction_06
 
@@ -10717,7 +10717,7 @@ stat_mental					11, normal, trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 440, 130, 40, 70, 440
+stat_cost					1, 660, 210, 40, 70, 440
 recruit_priority_offset		0
 ownership					slave, rebel_slave, thrace, thracian_faction_01, thracian_faction_02, hellenic_faction_11, hellenic_faction_18
 ethnicity					thrace, Thrace, don't_allow_regional
@@ -10747,7 +10747,7 @@ stat_mental					7, normal, trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 590, 160, 70, 100, 590
+stat_cost					1, 885, 240, 70, 100, 590
 recruit_priority_offset		0
 ownership					slave, rebel_slave, parthia, rebel_parthia, caucasian_faction_03
 ethnicity					parthia, Elymais
@@ -10778,7 +10778,7 @@ stat_mental					7, normal, trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 590, 160, 70, 100, 590
+stat_cost					1, 885, 240, 70, 100, 590
 recruit_priority_offset		0
 ownership					slave, rebel_slave, armenia, caucasian_faction_01, caucasian_faction_02, hellenic_faction_10
 ethnicity					armenia, Armenia
@@ -10808,7 +10808,7 @@ stat_mental					13, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 890, 210, 100, 150, 890
+stat_cost					2, 1335, 315, 100, 150, 890
 recruit_priority_offset		0
 ownership					slave, rebel_slave, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, hellenic_faction_02
 ethnicity					gauls, Central_Gaul
@@ -10838,7 +10838,7 @@ stat_mental					13, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 890, 210, 100, 150, 890
+stat_cost					2, 1335, 315, 100, 150, 890
 recruit_priority_offset		0
 ownership					slave, rebel_slave, spain, iberian_faction_01, iberian_faction_02, iberian_faction_07
 ethnicity					spain, Celtiberia
@@ -10994,7 +10994,7 @@ stat_mental					13, disciplined, highly_trained
 stat_charge_dist 			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 1220, 360, 120, 180, 1220
+stat_cost					2, 1830, 540, 120, 180, 1220
 recruit_priority_offset		0
 ownership					slave, rebel_slave, armenia, caucasian_faction_01, caucasian_faction_02
 ethnicity					armenia, Armenia, don't_allow_regional
@@ -11292,7 +11292,7 @@ stat_mental					5, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 330, 120, 40, 50, 330
+stat_cost					1, 495, 210, 40, 50, 330
 recruit_priority_offset		0
 ownership					slave, rebel_slave, numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert
 ethnicity					numidia, Numidia
@@ -11327,7 +11327,7 @@ stat_mental					11, disciplined, highly_trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 910, 340, 90, 140, 910
+stat_cost					2, 1365, 510, 90, 140, 910
 recruit_priority_offset		0
 ownership					slave, rebel_slave, numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert
 ethnicity					numidia, Numidia, don't_allow_regional
@@ -11364,7 +11364,7 @@ stat_mental					11, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 620, 330, 70, 100, 620
+stat_cost					2, 930, 495, 70, 100, 620
 recruit_priority_offset		0
 ownership					slave, rebel_slave, desert_faction_04, desert_faction_05, rebel_desert
 ethnicity					desert_faction_04, Nasamonea
@@ -11389,7 +11389,7 @@ stat_mental					9, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 620, 330, 70, 100, 620
+stat_cost					2, 930, 495, 70, 100, 620
 
 
 type						numidian chariot
@@ -11416,7 +11416,7 @@ stat_mental					11, disciplined, trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 660, 330, 70, 100, 660
+stat_cost					2, 990, 495, 70, 100, 660
 recruit_priority_offset		0
 ownership					slave, rebel_slave, desert_faction_04, desert_faction_05, rebel_desert
 ethnicity					desert_faction_04, Nasamonea
@@ -11440,7 +11440,7 @@ stat_mental					9, disciplined, trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 660, 330, 70, 100, 660
+stat_cost					2, 990, 495, 70, 100, 660
 
 
 type						tribal warlord
@@ -11584,7 +11584,7 @@ stat_mental					9, normal, trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 370, 140, 40, 70, 370
+stat_cost					1, 555, 210, 40, 70, 370
 recruit_priority_offset		0
 ownership					slave, rebel_slave, thrace, thracian_faction_01, thracian_faction_02
 ethnicity					thrace, Thrace
@@ -11614,7 +11614,7 @@ stat_mental					11, disciplined, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 780, 340, 80, 120, 780
+stat_cost					2, 1170, 510, 80, 120, 780
 recruit_priority_offset		0
 ownership					slave, rebel_slave, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, hellenic_faction_12
 ethnicity					iberian_faction_03, Taraconenis
@@ -11648,7 +11648,7 @@ stat_mental					11, disciplined, highly_trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 1100, 200, 100, 130, 1100
+stat_cost					2, 1650, 300, 100, 130, 1100
 recruit_priority_offset		0
 ownership					slave, rebel_slave, pontus, anatolian_faction_01, caucasian_faction_04
 ethnicity					pontus, Pontus
@@ -11717,7 +11717,7 @@ stat_mental					9, disciplined, highly_trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 690, 160, 70, 110, 690
+stat_cost					1, 1035, 240, 70, 110, 690
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman
 ethnicity					romans_brutii, Bruttium
@@ -11813,7 +11813,7 @@ stat_mental					9, normal, untrained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 2520, 490, 260, 380, 2520
+stat_cost					2, 3780, 735, 260, 380, 2520
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman
 ethnicity					romans_brutii, Bruttium
@@ -12023,7 +12023,7 @@ stat_mental					11, normal, highly_trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 700, 220, 70, 120, 700
+stat_cost					1, 1050, 330, 70, 120, 700
 recruit_priority_offset		0
 ownership					slave, rebel_slave, greek_cities, hellenic_faction_01, hellenic_faction_03, hellenic_faction_05, hellenic_faction_09, hellenic_faction_14, hellenic_faction_17, rebel_greek
 ethnicity					greek_cities, Crete
@@ -12053,7 +12053,7 @@ stat_mental					13, impetuous, highly_trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 1280, 230, 120, 170, 1280
+stat_cost					1, 1920, 345, 120, 170, 1280
 recruit_priority_offset		0
 ownership					slave, rebel_slave, dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03
 ethnicity					dacia, Dacia, don't_allow_mixed, don't_allow_regional, don't_allow_custom
@@ -12086,7 +12086,7 @@ stat_mental					11, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 780, 190, 80, 120, 780
+stat_cost					1, 1170, 285, 80, 120, 780
 recruit_priority_offset		0
 ownership					slave, rebel_slave, scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, hellenic_faction_04
 ethnicity					scythia, Scythia, don't_allow_mixed, don't_allow_regional, don't_allow_custom
@@ -12117,7 +12117,7 @@ stat_mental					11, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 1110, 190, 110, 160, 1110
+stat_cost					1, 1665, 285, 110, 160, 1110
 recruit_priority_offset		0
 ownership					slave, rebel_slave, scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, hellenic_faction_04
 ethnicity					scythia, Scythia, don't_allow_mixed, don't_allow_regional, don't_allow_custom
@@ -12177,7 +12177,7 @@ stat_mental					9, normal, trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 650, 160, 70, 100, 650
+stat_cost					1, 975, 240, 70, 100, 650
 recruit_priority_offset		0
 ownership					slave, rebel_slave, thrace, thracian_faction_01, thracian_faction_02
 ethnicity					thrace, Thrace, don't_allow_regional
@@ -12333,7 +12333,7 @@ stat_mental					5, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 360, 90, 40, 60, 360
+stat_cost					1, 540, 210, 40, 60, 360
 recruit_priority_offset		0
 ownership					slave, rebel_slave, germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05
 ethnicity					germans, Germania_Superior
@@ -12364,7 +12364,7 @@ stat_mental					5, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 400, 90, 40, 60, 400
+stat_cost					1, 600, 210, 40, 60, 400
 recruit_priority_offset		0
 ownership					slave, rebel_slave, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18
 ethnicity					gauls, Central_Gaul, don't_allow_mixed, don't_allow_regional, don't_allow_custom
@@ -12509,7 +12509,7 @@ stat_mental					11, disciplined, highly_trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 900, 200, 100, 150, 900
+stat_cost					1, 1350, 300, 100, 150, 900
 recruit_priority_offset		0
 ownership					slave, rebel_slave, dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03
 ethnicity					dacia, Dacia
@@ -12570,7 +12570,7 @@ stat_mental					13, disciplined, highly_trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 1500, 300, 180, 240, 1500
+stat_cost					2, 2250, 450, 180, 240, 1500
 recruit_priority_offset		0
 ownership					slave, rebel_slave, thrace, thracian_faction_01, thracian_faction_02
 ethnicity					thrace, Thrace
@@ -12890,7 +12890,7 @@ stat_mental					7, disciplined, trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 600, 150, 50, 70, 600
+stat_cost					1, 900, 225, 50, 70, 600
 recruit_priority_offset		0
 ownership					slave, rebel_slave, italic
 ethnicity					latin_faction_01, Campania
@@ -12917,7 +12917,7 @@ stat_mental					7, disciplined, trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 600, 150, 50, 70, 600
+stat_cost					1, 900, 225, 50, 70, 600
 
 
 type						italian alarii cohort
@@ -13013,7 +13013,7 @@ stat_mental					11, disciplined, highly_trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 990, 235, 100, 150, 990
+stat_cost					2, 1485, 353, 100, 150, 990
 recruit_priority_offset		0
 ownership					slave, rebel_slave, italic
 ethnicity					latin_faction_01, Campania
@@ -13048,7 +13048,7 @@ stat_mental					11, disciplined, highly_trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 1300, 270, 120, 170, 1300
+stat_cost					2, 1950, 405, 120, 170, 1300
 recruit_priority_offset		0
 ownership					slave, rebel_slave, italic
 ethnicity					latin_faction_01, Campania
@@ -13354,7 +13354,7 @@ stat_mental					5, normal, trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 420, 110, 50, 70, 420
+stat_cost					1, 630, 210, 50, 70, 420
 recruit_priority_offset		0
 ownership					slave, rebel_slave, rebel_egypt
 ethnicity					rebel_egypt, Nile_Delta, don't_allow_regional
@@ -13384,7 +13384,7 @@ stat_mental					9, normal, trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 570, 190, 60, 90, 570
+stat_cost					2, 855, 285, 60, 90, 570
 recruit_priority_offset		0
 ownership					slave, rebel_slave, rebel_egypt
 ethnicity					rebel_egypt, Nile_Delta
@@ -13414,7 +13414,7 @@ stat_mental					11, disciplined, trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 660, 330, 70, 100, 660
+stat_cost					2, 990, 495, 70, 100, 660
 recruit_priority_offset		0
 ownership					slave, rebel_slave, rebel_egypt
 ethnicity					rebel_egypt, Nile_Delta
@@ -13437,7 +13437,7 @@ stat_mental					9, disciplined, trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 660, 330, 70, 100, 660
+stat_cost					2, 990, 495, 70, 100, 660
  
  
 type						nile general's bodyguard early
