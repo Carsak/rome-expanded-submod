@@ -1,0 +1,650 @@
+[
+	{
+		"filename": "data\/data_controlled_features.json",
+		"checksum": 452237
+	},
+	{
+		"filename": "data\/export_descr_buildings.txt",
+		"checksum": 2768892181
+	},
+	{
+		"filename": "data\/export_descr_unit.txt",
+		"checksum": 3928558430
+	},
+	{
+		"filename": "data\/feral_descr_movement_multipliers.txt",
+		"checksum": 316650023
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/campaign_script.txt",
+		"checksum": 3028918825
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_disasters.txt",
+		"checksum": 1438114819
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_events.txt",
+		"checksum": 958099289
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_mercenaries.txt",
+		"checksum": 2938883793
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_regions.txt",
+		"checksum": 3764035863
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_regions_and_settlement_name_lookup.txt",
+		"checksum": 3803164226
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
+		"checksum": 1652079483
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_terrain.txt",
+		"checksum": 2561933815
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_win_conditions.txt",
+		"checksum": 1062694528
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/disasters.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_egypt.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_hellenic_faction_01.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/leader_pic_hellenic_faction_13.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map.rwm",
+		"checksum": 4260856799
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_anatolian_faction_01.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_anatolian_faction_02.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_armenia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_britanic_faction_01.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_britanic_faction_02.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_britanic_faction_03.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_britanic_faction_04.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_britanic_faction_05.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_britons.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_carthage.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_carthage_barcid.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_carthage_hannonid.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_carthage_magonid.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_caucasian_faction_01.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_caucasian_faction_02.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_caucasian_faction_03.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_caucasian_faction_04.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_climates.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_dacia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_dacian_faction_01.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_dacian_faction_02.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_dacian_faction_03.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_desert_faction_01.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_desert_faction_02.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_desert_faction_03.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_desert_faction_04.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_desert_faction_05.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_desert_faction_06.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_desert_faction_07.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_desert_faction_08.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_egypt.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_fe.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_features.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_gallic_faction_01.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_gallic_faction_02.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_gallic_faction_03.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_gallic_faction_04.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_gallic_faction_05.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_gallic_faction_06.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_gallic_faction_07.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_gallic_faction_08.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_gallic_faction_09.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_gallic_faction_10.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_gallic_faction_11.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_gallic_faction_12.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_gallic_faction_13.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_gallic_faction_14.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_gallic_faction_15.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_gallic_faction_16.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_gallic_faction_17.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_gallic_faction_18.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_gaul.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_gauls.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_german.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_germanic_faction_01.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_germanic_faction_02.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_germanic_faction_03.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_germanic_faction_04.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_germanic_faction_05.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_germanic_faction_06.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_germanic_faction_07.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_germanic_faction_08.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_germanic_faction_09.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_germanic_faction_10.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_germans.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_greek_cities.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_ground_types.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_heights.hgt",
+		"checksum": 599503001
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_heights.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_hellenic_faction_01.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_hellenic_faction_02.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_hellenic_faction_03.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_hellenic_faction_04.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_hellenic_faction_05.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_hellenic_faction_06.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_hellenic_faction_07.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_hellenic_faction_08.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_hellenic_faction_09.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_hellenic_faction_10.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_hellenic_faction_11.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_hellenic_faction_12.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_hellenic_faction_13.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_hellenic_faction_14.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_hellenic_faction_15.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_hellenic_faction_16.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_hellenic_faction_17.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_hellenic_faction_18.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_iberian_faction_01.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_iberian_faction_02.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_iberian_faction_03.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_iberian_faction_04.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_iberian_faction_05.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_iberian_faction_06.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_iberian_faction_07.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_iberian_faction_08.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_illyrian_faction_01.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_illyrian_faction_02.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_illyrian_faction_03.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_illyrian_faction_04.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_illyrian_faction_05.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_latin_faction_01.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_latin_faction_02.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_latin_faction_03.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_latin_faction_04.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_latin_faction_05.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_macedon.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_numidia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_parthia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_pontus.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_regions.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_romans_brutii.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_romans_julii.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_romans_scipii.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_roughness.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_scythia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_seleucid.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_snow.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_spain.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_steppe_faction_01.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_steppe_faction_02.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_steppe_faction_03.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_steppe_faction_06.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_steppe_faction_07.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_steppe_faction_08.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_thrace.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_thracian_faction_01.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_thracian_faction_02.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/map_trade_routes.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/radar_map1.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/radar_map2.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/spawn_scripts\/carthage_spawn_script.txt",
+		"checksum": 72479560
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/spawn_scripts\/desert_spawn_script.txt",
+		"checksum": 2775692944
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/spawn_scripts\/egypt_spawn_script.txt",
+		"checksum": 2080863967
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/spawn_scripts\/greek_spawn_script.txt",
+		"checksum": 3853242821
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/spawn_scripts\/iazyges_spawn_script.txt",
+		"checksum": 3087843049
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/spawn_scripts\/judea_spawn_script.txt",
+		"checksum": 3654671615
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/spawn_scripts\/latin_spawn_script.txt",
+		"checksum": 2337140660
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/spawn_scripts\/nuragic_spawn_script.txt",
+		"checksum": 3769138989
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/spawn_scripts\/parthia_spawn_script.txt",
+		"checksum": 1171687722
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/spawn_scripts\/roman_spawn_script.txt",
+		"checksum": 2145916323
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/spawn_scripts\/roxolani_spawn_script.txt",
+		"checksum": 373161323
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/spawn_scripts\/slave_spawn_script.txt",
+		"checksum": 705527626
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/spawn_scripts\/zoro_spawn_script.txt",
+		"checksum": 3803042700
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/water_surface.tga",
+		"checksum": "Blacklisted"
+	}
+]

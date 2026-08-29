@@ -1,0 +1,13 @@
+{
+    "Description": "Rome expanded submod",
+    "Mod Name": "Rome expanded submod",
+    "Supports Alex": false,
+    "Supports BI": true,
+    "Supports Rome": true,
+    "Tags": [
+        "Balance",
+        "Gameplay Logic"
+    ],
+    "Visibility": 1,
+    "Workshop ID": 0
+}
