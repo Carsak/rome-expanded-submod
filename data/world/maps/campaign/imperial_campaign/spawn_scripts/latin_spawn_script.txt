@@ -1,0 +1,33 @@
+script
+	declare_persistent_counter rebel_latin_spawned
+
+	if	I_CompareCounter rebel_latin_spawned == 0
+	&&	not FactionIsAlive rebel_latin
+
+		; Spawn if player
+		if	I_LocalFaction rebel_latin
+		&&	I_TurnNumber > 15
+		&&	not IsCapital
+		&&	HasResource samnite
+		&&	RandomPercent > 98
+			return true
+		end_if
+
+		if	I_TurnNumber > 355
+		&&	I_TurnNumber < 365
+		&&	SettlementName Maleventum
+		&&	RandomPercent > 50
+			return true
+		end_if
+		
+		if	I_TurnNumber > 365
+		&&	not IsCapital
+		&&	HasResource samnite
+		&&	SettlementLoyaltyLevel = loyalty_revolting
+		&&	RandomPercent > 95
+			return true
+		end_if
+	end_if
+
+	return false
+end_script

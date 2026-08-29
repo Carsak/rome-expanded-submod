@@ -1,0 +1,42 @@
+script
+	declare_persistent_counter arsaces_spawned
+
+	if	I_CompareCounter arsaces_spawned == 0
+	&&	not FactionIsAlive parthia
+
+		; Spawn if player
+		if	I_LocalFaction parthia
+		&&	I_TurnNumber > 15
+		&&	not IsCapital
+		&&	RandomPercent > 98
+			if SettlementName Arsakia
+				return true
+			end_if
+
+			if SettlementName Ecbatana
+				return true
+			end_if
+
+			if SettlementName Susa
+				return true
+			end_if
+		end_if
+
+		if	I_TurnNumber > 60
+		&&	I_TurnNumber < 70
+		&&	SettlementName Arsakia
+		&&	RandomPercent > 50
+			return true
+		end_if
+
+		if	I_TurnNumber > 70
+		&&	not IsCapital
+		&&	HasResource parthia
+		&&	SettlementLoyaltyLevel = loyalty_revolting
+		&&	RandomPercent > 95
+			return true
+		end_if
+	end_if
+	
+	return false
+end_script

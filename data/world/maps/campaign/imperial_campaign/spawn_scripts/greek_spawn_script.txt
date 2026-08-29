@@ -1,0 +1,33 @@
+script
+	declare_persistent_counter rebel_greek_spawned
+
+	if	I_CompareCounter rebel_greek_spawned == 0
+	&&	not FactionIsAlive rebel_greek
+
+		; Spawn if player
+		if	I_LocalFaction rebel_greek
+		&&	I_TurnNumber > 15
+		&&	not IsCapital
+		&&	HasResource hellenic
+		&&	RandomPercent > 98
+			return true
+		end_if
+
+		if	I_TurnNumber > 245
+		&&	I_TurnNumber < 255
+		&&	SettlementName Corinth
+		&&	RandomPercent > 50
+			return true
+		end_if
+		
+		if	I_TurnNumber > 255
+		&&	not IsCapital
+		&&	HasResource hellenic
+		&&	SettlementLoyaltyLevel = loyalty_revolting
+		&&	RandomPercent > 95
+			return true
+		end_if
+	end_if
+
+	return false
+end_script

@@ -1,0 +1,40 @@
+script
+	declare_persistent_counter rebel_nuragic_spawned
+
+	if	I_CompareCounter rebel_nuragic_spawned == 0
+	&&	not FactionIsAlive rebel_nuragic
+
+		; Spawn if player
+		if	I_LocalFaction rebel_nuragic
+		&&	I_TurnNumber > 15
+		&&	not IsCapital
+		&&	HasResource nuragic
+		&&	RandomPercent > 98
+			return true
+		end_if
+
+		if	I_TurnNumber > 100
+		&&	I_TurnNumber < 110
+		&&	SettlementName Olbia
+		&&	RandomPercent > 50
+			return true
+		end_if
+
+		if	I_TurnNumber > 110
+		&&	SettlementName Olbia
+		&&	SettlementLoyaltyLevel = loyalty_revolting
+		&&	RandomPercent > 95
+			return true
+		end_if
+		
+		if	I_TurnNumber > 110
+		&&	not IsCapital
+		&&	HasResource nuragic
+		&&	SettlementLoyaltyLevel = loyalty_revolting
+		&&	RandomPercent > 95
+			return true
+		end_if
+	end_if
+
+	return false
+end_script

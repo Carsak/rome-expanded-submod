@@ -1,0 +1,42 @@
+script
+	declare_persistent_counter rebel_rome_spawned
+	declare_persistent_counter caesar_spawned
+
+	if	I_CompareCounter rebel_rome_spawned == 0
+	&&	not FactionIsAlive rebel_romans
+
+		; Spawn if player
+		if	I_LocalFaction rebel_romans
+		&&	I_TurnNumber > 15
+		&&	not IsCapital
+		&&	HasResource italy
+		&&	RandomPercent > 98
+			return true
+		end_if
+
+		if	I_CompareCounter caesar_spawned == 0
+		&&	I_TurnNumber > 440
+		&&	I_TurnNumber < 450
+		&&	SettlementName Rome
+		&&	RandomPercent > 50
+			return true
+		end_if
+
+		if	I_TurnNumber > 450
+		&&	SettlementName Rome
+		&&	SettlementLoyaltyLevel = loyalty_revolting
+		&&	RandomPercent > 95
+			return true
+		end_if
+
+		if	I_TurnNumber > 450
+		&&	not IsCapital
+		&&	HasResource roman
+		&&	SettlementLoyaltyLevel = loyalty_revolting
+		&&	RandomPercent > 95
+			return true
+		end_if
+	end_if
+
+	return false
+end_script

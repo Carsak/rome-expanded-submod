@@ -1,0 +1,41 @@
+script
+	declare_persistent_counter rebel_judea_spawned
+	declare_persistent_counter maccabee_spawned
+
+	if	I_CompareCounter rebel_judea_spawned == 0
+	&&	not FactionIsAlive rebel_judea
+
+		; Spawn if player
+		if	I_LocalFaction rebel_judea
+		&&	I_TurnNumber > 15
+		&&	SettlementName Jerusalem
+		&&	RandomPercent > 98
+			return true
+		end_if
+
+		if	I_CompareCounter maccabee_spawned == 0
+		&&	I_TurnNumber > 205
+		&&	I_TurnNumber < 215
+		&&	SettlementName Jerusalem
+		&&	RandomPercent > 50
+			return true
+		end_if
+
+		if	I_TurnNumber > 215
+		&&	SettlementName Jerusalem
+		&&	SettlementLoyaltyLevel = loyalty_revolting
+		&&	RandomPercent > 95
+			return true
+		end_if
+		
+		if	I_TurnNumber > 215
+		&&	not IsCapital
+		&&	HasResource judaism
+		&&	SettlementLoyaltyLevel = loyalty_revolting
+		&&	RandomPercent > 95
+			return true
+		end_if
+	end_if
+	
+	return false
+end_script

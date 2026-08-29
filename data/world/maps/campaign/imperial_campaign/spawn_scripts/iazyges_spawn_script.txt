@@ -1,0 +1,31 @@
+script
+	declare_persistent_counter steppe_faction_04_spawned
+
+	if	I_CompareCounter steppe_faction_04_spawned == 0
+	&&	not FactionIsAlive steppe_faction_04
+		; Spawn if player
+		if	I_LocalFaction steppe_faction_04
+		&&	I_TurnNumber > 15
+		&&	SettlementName Domus_Dulcis_Domus
+		&&	RandomPercent > 98
+			return true
+		end_if
+		
+		if	I_TurnNumber > 140
+		&&	I_TurnNumber < 150
+		&&	SettlementName Domus_Dulcis_Domus
+		&&	RandomPercent > 50
+			return true
+		end_if
+
+		if	I_TurnNumber > 150
+		&&	not IsCapital
+		&&	HasResource s_paganism
+		&&	SettlementLoyaltyLevel = loyalty_revolting
+		&&	RandomPercent > 95
+			return true
+		end_if
+	end_if
+	
+	return false
+end_script

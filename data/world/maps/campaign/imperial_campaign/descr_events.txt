@@ -1,0 +1,120 @@
+event	volcano		eruption_at_etna
+date	9 summer
+position	104, 49
+scale	3
+warning
+
+event	plague		plague_in_macedonia
+date	14 winter
+position	138, 67
+
+event	historic	stoic_philosophy
+date	14 summer
+
+event	historic	hand_pump_invented
+date	14 winter
+
+event	historic	through_a_glass_clearly
+date	34 summer
+
+event	historic	archimedes_screw
+date	44 winter
+
+event	historic	greek_logic
+date	54 summer
+
+event	historic	star_catalogue
+date	64 winter
+
+event	plague		plague_in_alexandria
+date	64 summer
+position	178, 19
+
+event	historic	rites_of_bacchus_banned
+date	78 winter
+
+event	earthquake	earthquake_in_pontus
+date	84 summer
+position	190, 80
+scale	1
+visibility	everyone
+
+event	historic	concrete_invented
+date	94 winter
+
+event	volcano		eruption_at_vesuvius
+date	98 winter
+position	103, 65
+scale	4
+warning
+
+event	historic	philosophy_is_foppish
+date	103 winter
+
+event	historic	astronomy_advances
+date	114 summer
+
+event	historic	lex_aebutia
+date	114 winter
+
+event	historic	roman_stoicism
+date	120 summer
+
+event	historic	lex_papira
+date	120 winter
+
+event	plague		plague_in_italy
+date	144 summer
+position	96, 82
+position	95, 71
+position	102, 68
+position	114, 63
+
+event	historic	vestal_virgin_struck_down
+date	150 winter
+
+event	historic	de_rerum_natura
+date	166 winter
+
+event	plague		plague_in_asia_minor
+date	173 summer
+position	192, 68
+position	200, 55
+position	190, 80
+
+event	historic	lex_pompeia
+date	175 winter
+
+event	historic	a_new_religion
+date	194 summer
+
+event	plague		plague_in_italy
+date	204 winter
+position	96, 82
+position	95, 71
+position	102, 68
+position	114, 63
+
+event	historic	de_materia_medica
+date	214 summer
+
+event	historic	julian_calendar
+date	218 winter
+
+event	earthquake	earthquake_in_iberia
+date	258 summer
+position	36, 58
+scale	1
+visibility	everyone
+
+event	historic	the_aeneid
+date	269 winter
+
+event	historic	lex_adulteriis_coercendis
+date	271 summer
+
+event	historic	trouble_in_judea
+date	284 winter
+
+event	historic	lex_fufia_caninia
+date	286 summer

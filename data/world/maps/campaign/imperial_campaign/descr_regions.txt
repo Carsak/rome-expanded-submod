@@ -1,0 +1,2362 @@
+;
+; regions list
+;
+
+;;;;; BRITANNIA
+
+Britannia_Superior
+	legion: Britannica
+	Londinium
+	britons
+	Iceni
+	232 41 46
+	britain, c_paganism, owner_briton
+	5
+	3
+	c_paganism 100
+
+Britannia_Inferior
+	legion: Britannica
+	Eburacum
+	britanic_faction_01
+	Brigantes
+	232 41 198
+	britain, c_paganism, owner_briton
+	5
+	3
+	c_paganism 100
+
+Caledonia
+	legion: Britannica
+	Vanduara
+	britanic_faction_05
+	Brigantes
+	18 54 186
+	britain, c_paganism, owner_briton
+	5
+	2
+	c_paganism 100
+
+Hibernia; <------------ Ireland
+	legion: Hibernica
+	Tara
+	britanic_faction_04
+	Brigantes
+	187 170 89
+	britain, c_paganism, owner_briton
+	5
+	2
+	c_paganism 100
+
+Tribus_Silurii
+	legion: Victrix
+	Deva
+	britanic_faction_02
+	Silures
+	41 232 63
+	britain, c_paganism, owner_briton
+	5
+	3
+	c_paganism 100
+
+Cornovae
+	legion: Britannica
+	Iska
+	britanic_faction_03
+	Iceni
+	223 226 119
+	britain, c_paganism, owner_briton
+	5
+	3
+	c_paganism 100
+
+;;;;; GERMANIA
+
+Germania_Superior
+	legion: Primigenia
+	Trier
+	gallic_faction_12
+	Treveri
+	72 41 232
+	c_paganism, owner_gallic
+	5
+	4
+	c_paganism 60 g_paganism 40
+
+Germania_Inferior
+	legion: Minervia
+	Batavodurum
+	germanic_faction_01
+	Batavi
+	41 162 232
+	g_paganism, owner_german
+	5
+	4
+	c_paganism 30 g_paganism 70
+
+Agri_Decumates
+	legion: Barbaricorum
+	Mogontiacum
+	germanic_faction_03
+	Alamanni
+	63 232 41
+	g_paganism, owner_german
+	5
+	2
+	g_paganism 80 c_paganism 20
+
+Kimbrike_Chersonesos
+	legion: Barbaricorum
+	Alabu
+	germanic_faction_02
+	Saxones
+	240 231 87
+	g_paganism, owner_german
+	5
+	2
+	g_paganism 100
+
+Locus_Chatti
+	legion: Barbaricorum
+	Vicus_Chatti
+	germanic_faction_08
+	Chatti
+	233 196 214
+	g_paganism, owner_german
+	5
+	3
+	c_paganism 30 g_paganism 70
+
+Locus_Chauci
+	legion: Barbaricorum
+	Vicus_Chauci
+	germanic_faction_09
+	Batavi
+	101 131 98
+	g_paganism, owner_german
+	5
+	3
+	g_paganism 100
+
+Locus_Cherusci
+	legion: Barbaricorum
+	Vicus_Cherusci
+	germanic_faction_04
+	Chatti
+	232 198 41
+	g_paganism, owner_german
+	5
+	3
+	g_paganism 100
+
+Locus_Rugii
+	legion: Barbaricorum
+	Vicus_Rugii
+	germanic_faction_10
+	Goths
+	203 41 232
+	g_paganism, owner_german
+	5
+	2
+	g_paganism 100
+
+Locus_Suebi
+	legion: Barbaricorum
+	Vicus_Suebi
+	germans
+	Suebi
+	15 75 135
+	g_paganism, owner_german
+	5
+	3
+	g_paganism 100
+
+Luppia
+	legion: Barbaricorum
+	Luppia
+	germans
+	Chatti
+	236 184 121
+	g_paganism, owner_german
+	5
+	3
+	g_paganism 100
+
+Locus_Gothi
+	legion: Barbaricorum
+	Vicus_Gothi
+	germanic_faction_07
+	Goths
+	219 149 149
+	g_paganism, owner_german
+	5
+	2
+	g_paganism 100
+
+Locus_Gepidae
+	legion: Barbaricorum
+	Domus_Dulcis_Domus
+	germanic_faction_06
+	Gepids
+	58 177 95
+	g_paganism, owner_german
+	5
+	2
+	g_paganism 65 s_paganism 35
+
+Regnum_Marcomannii
+	legion: Barbaricorum
+	Vicus_Marcomannii
+	germanic_faction_05
+	Marcomanni
+	177 78 58
+	g_paganism, owner_german
+	5
+	3
+	g_paganism 100
+
+Tribus_Saxones
+	legion: Barbaricorum
+	Bordesholm
+	germanic_faction_02
+	Saxones
+	232 41 55
+	g_paganism, owner_german
+	5
+	3
+	g_paganism 100
+
+;;;;; GAUL
+
+Armorica
+	legion: Flavia_Gallicana
+	Condate_Redonum
+	gallic_faction_07
+	Veneti
+	232 41 135
+	c_paganism, owner_gallic
+	5
+	4
+	c_paganism 100
+
+Boihaemum
+	legion: Barbaricorum
+	Lovosice
+	gallic_faction_10
+	Boii
+	58 150 177
+	c_paganism, owner_gallic
+	5
+	4
+	c_paganism 75 g_paganism 25
+
+Central_Gaul
+	legion: Gallicana
+	Alesia
+	gallic_faction_09
+	Senones
+	31 75 37
+	c_paganism, owner_gallic
+	5
+	5
+	c_paganism 95 g_paganism 5
+
+Noricum
+	legion: Pia_Italica
+	Iuvavum
+	gallic_faction_04
+	Helvetii
+	230 41 232
+	c_paganism, owner_gallic
+	5
+	4
+	c_paganism 85 g_paganism 15
+
+Aquitania
+	legion: Gallicana
+	Lemonum
+	gallic_faction_05
+	Pictones
+	68 232 41
+	c_paganism, owner_gallic
+	5
+	5
+	c_paganism 100
+
+Lugdinensis
+	legion: Flavia_Gallicana
+	Lugdunum
+	gauls
+	Aedui
+	85 114 141
+	c_paganism, owner_gallic
+	5
+	5
+	c_paganism 95 g_paganism 5
+
+Narbonensis
+	legion: Flavia_Martis
+	Narbo_Martius
+	gallic_faction_06
+	Volcae
+	196 13 198
+	c_paganism, owner_gallic
+	5
+	7
+	hellenic 5 c_paganism 95
+
+Helvetis
+	legion: Pia_Italica
+	Aventicos
+	gallic_faction_16
+	Helvetii
+	55 113 88
+	c_paganism, owner_gallic
+	5
+	4
+	c_paganism 90 g_paganism 10
+
+Locus_Boii
+	legion: Barbaricorum
+	Vicus_Boii
+	gallic_faction_10
+	Boii
+	236 84 43
+	c_paganism, owner_gallic
+	5
+	4
+	c_paganism 100
+
+Tongeren
+	legion: Gallicana
+	Atuatuca
+	gallic_faction_08
+	Nervii
+	241 224 144
+	c_paganism, owner_gallic
+	5
+	3
+	c_paganism 60 g_paganism 40
+
+Transalpine_Gaul
+	legion: Iulia_Alpina
+	Massilia
+	hellenic_faction_02
+	Vocontii
+	117 198 13
+	hellenic, owner_greek
+	5
+	7
+	hellenic 40 c_paganism 60
+
+Belgica
+	legion: Gallicana
+	Mediomatrici
+	gallic_faction_17
+	Belgae
+	134 25 28
+	c_paganism, owner_gallic
+	5
+	4
+	c_paganism 80 g_paganism 20
+
+Raetia
+	legion: Pia_Italica
+	Kambodunon
+	latin_faction_05
+	Raetians
+	212 139 53
+	etruscan, owner_etruscan
+	5
+	3
+	etruscan 25 c_paganism 60 g_paganism 15
+
+Aquitania_Inferior
+	legion: Gallicana
+	Burdigala
+	iberian_faction_08
+	Iberians
+	158 82 27
+	spain, i_paganism, owner_iberian
+	5
+	5
+	c_paganism 50 i_paganism 50
+
+Locus_Ambiani
+	legion: Gallicana
+	Samarobriva
+	gallic_faction_08
+	Nervii
+	232 90 41
+	c_paganism, owner_gallic
+	5
+	4
+	c_paganism 60 g_paganism 40
+
+;;;;; IBERIA
+
+Baetica
+	legion: Hispana
+	Corduba
+	iberian_faction_06
+	Iberians
+	17 13 198
+	spain, i_paganism, owner_iberian
+	5
+	10
+	i_paganism 55 punic 35 c_paganism 10
+
+Baliares
+	legion: Hispana
+	Palma
+	carthage
+	Iberians
+	41 232 225
+	spain, i_paganism, owner_carthage
+	5
+	6
+	punic 65 i_paganism 35
+
+Cantabria
+	legion: Hispana
+	Vellika
+	iberian_faction_07
+	Iberians
+	252 226 105
+	spain, c_paganism, owner_celtiberian
+	5
+	2
+	c_paganism 90 i_paganism 10
+
+Celtiberia
+	legion: Hispana
+	Numantia
+	spain
+	Iberians
+	198 13 35
+	spain, c_paganism, owner_celtiberian
+	5
+	4
+	c_paganism 70 i_paganism 30
+
+Emporium
+	legion: Arabica
+	Dumatha
+	hellenic_faction_12
+	Iberians
+	13 171 244
+	spain, hellenic, owner_greek
+	5
+	5
+	hellenic 75 c_paganism 15 i_paganism 10
+
+Gallaecia
+	legion: Gemina
+	Asturica
+	iberian_faction_02
+	Iberians
+	13 157 198
+	spain, c_paganism, owner_celtiberian
+	5
+	3
+	c_paganism 95 i_paganism 5
+
+Hispania
+	legion: Hispana
+	Carthago_Nova
+	iberian_faction_05
+	Iberians
+	187 198 13
+	spain, i_paganism, owner_iberian
+	5
+	7
+	i_paganism 75 punic 15 c_paganism 10
+
+Lusitania
+	legion: Hispana
+	Scallabis
+	iberian_faction_01
+	Iberians
+	13 198 30
+	spain, c_paganism, owner_celtiberian
+	5
+	4
+	c_paganism 100
+
+Saguntum
+	legion: Hispana
+	Bostra
+	iberian_faction_04
+	Iberians
+	13 244 160
+	spain, i_paganism, owner_iberian
+	5
+	6
+	i_paganism 90 punic 5 c_paganism 5
+
+Taraconenis
+	legion: Gemina
+	Osca
+	iberian_faction_03
+	Iberians
+	13 196 198
+	spain, i_paganism, owner_iberian
+	5
+	7
+	c_paganism 35 i_paganism 65
+
+Turdulia
+	legion: Hispana
+	Ispal
+	iberian_faction_06
+	Iberians
+	215 141 223
+	spain, i_paganism, owner_iberian
+	5
+	8
+	i_paganism 65 punic 25 c_paganism 10
+
+;;;;; ITALY
+
+Aemilia
+	legion: Italica
+	Bononia
+	latin_faction_03
+	Boii
+	240 169 169
+	c_paganism, owner_gallic
+	5
+	8
+	roman 5 c_paganism 70 etruscan 25
+
+Akragas
+	legion: Siciliae
+	Akragas
+	hellenic_faction_14
+	Sicani
+	73 243 65
+	italy, hellenic, owner_carthage
+	5
+	9
+	hellenic 90 punic 10
+
+Apulia
+	legion: Italica
+	Venusia
+	greek_cities
+	Campanians
+	254 156 102
+	italy, samnite, owner_roman
+	5
+	8
+	hellenic 40 roman 20 samnite 40
+
+Bruttium
+	legion: Italica
+	Croton
+	hellenic_faction_06
+	Lucanians
+	13 170 198
+	italy, hellenic, owner_roman
+	5
+	6
+	hellenic 55 roman 15 samnite 30
+
+Calabria
+	legion: Italica
+	Tarentum
+	hellenic_faction_01
+	Calabrians
+	33 196 58
+	italy, hellenic, owner_roman
+	5
+	8
+	hellenic 50 roman 15 samnite 35
+
+Campania
+	legion: Italica
+	Capua
+	latin_faction_01
+	Campanians
+	198 13 174
+	italy, samnite, owner_roman
+	5
+	11
+	roman 20 samnite 80
+
+Cisalpine_Gaul
+	legion: Italica
+	Mediolanium
+	gallic_faction_02
+	Insubres
+	221 232 41
+	italy, c_paganism, owner_gallic
+	5
+	8
+	c_paganism 100
+
+Corsica
+	legion: Sardinica_et_Corsica
+	Alalia
+	latin_faction_03
+	Etruscans
+	217 117 103
+	nuragic, owner_etruscan
+	5
+	3
+	nuragic 25 etruscan 40 punic 15 c_paganism 5 hellenic 10 roman 5
+
+Etruria
+	legion: Italica
+	Arretium
+	latin_faction_03
+	Etruscans
+	157 198 13
+	italy, etruscan, owner_etruscan
+	5
+	8
+	roman 30 etruscan 65 c_paganism 5
+
+Latium
+	legion: Italica
+	Rome
+	romans_senate
+	Latins
+	52 13 198
+	rome, italy, roman, owner_roman
+	5
+	13
+	roman 100
+
+Liguria
+	legion: Italica
+	Segesta
+	gallic_faction_01
+	Ligurians
+	157 13 198
+	italy, c_paganism, owner_gallic
+	5
+	4
+	c_paganism 100
+
+Panormus
+	legion: Siciliae
+	Panormus
+	greek_cities
+	Sicani
+	147 31 31
+	italy, hellenic, owner_carthage
+	5
+	9
+	hellenic 70 punic 30
+
+;Picenum
+Picenum
+	legion: Italica
+	Asculum
+	latin_faction_02
+	Samnites
+	75 114 226
+	italy, samnite, owner_samnite
+	5
+	7
+	roman 5 etruscan 15 c_paganism 15 samnite 65
+
+;Sabinum
+Sabinum
+	legion: Italica
+	Narnia
+	latin_faction_02
+	Samnites
+	121 44 14
+	italy, samnite, owner_roman
+	5
+	5
+	roman 25 etruscan 15 samnite 60
+
+Samnium
+	legion: Italica
+	Maleventum
+	latin_faction_04
+	Samnites
+	107 30 152
+	italy, samnite, owner_samnite
+	5
+	6
+	roman 15 samnite 85
+
+Sardinia
+	legion: Sardinica_et_Corsica
+	Olbia
+	rebel_nuragic
+	Beronicensis
+	90 50 160
+	nuragic, owner_carthage
+	5
+	4
+	nuragic 85 punic 15
+
+Sardinia_Inferior
+	legion: Sardinica_et_Corsica
+	Caralis
+	rebel_nuragic
+	Beronicensis
+	198 35 13
+	nuragic, owner_carthage
+	5
+	5
+	nuragic 70 punic 30
+
+Sicilia_Graecus
+	legion: Siciliae
+	Syracuse
+	greek_cities
+	Syracusans
+	198 178 13
+	italy, hellenic, owner_greek
+	5
+	10
+	hellenic 90 roman 5 punic 5
+
+Sicilia_Poeni
+	legion: Siciliae
+	Lilybaeum
+	carthage
+	Sicani
+	65 17 202
+	italy, punic, owner_carthage
+	5
+	9
+	punic 85 hellenic 15
+
+Sicilia_Romanus
+	legion: Siciliae
+	Messana
+	greek_cities
+	Sicani
+	177 142 58
+	italy, hellenic, owner_samnite
+	5
+	9
+	hellenic 60 samnite 35 punic 5
+
+Umbria
+	legion: Italica
+	Ariminum
+	latin_faction_03
+	Umbrians
+	198 43 13
+	italy, etruscan, owner_roman
+	5
+	6
+	roman 38 etruscan 60 c_paganism 2
+
+Venetia
+	legion: Italica
+	Patavium
+	gallic_faction_03
+	Veneti
+	13 198 117
+	italy, c_paganism, owner_gallic
+	5
+	8
+	c_paganism 95 b_paganism 5
+
+;;;;; BALKANS
+
+Argedava
+	legion: Gemina
+	Argedava
+	dacia
+	Carpi
+	198 164 224
+	thrace, b_paganism, owner_dacian
+	5
+	7
+	c_paganism 15 b_paganism 85
+
+Arkovna
+	legion: Thracia
+	Arkovna
+	gallic_faction_14
+	Odrysae
+	189 115 115
+	thrace, b_paganism, owner_gallic
+	5
+	4
+	c_paganism 60 b_paganism 40
+
+Bulgaria
+	legion: Thracia
+	Philippopolis
+	thrace
+	Odrysae
+	236 101 130
+	thrace, b_paganism, owner_thracian
+	5
+	5
+	hellenic 15 c_paganism 35 b_paganism 50
+
+Dacia
+	legion: Gemina
+	Porrolissum
+	dacia
+	Carpi
+	72 177 58
+	thrace, b_paganism, owner_dacian
+	5
+	6
+	c_paganism 10 b_paganism 85 s_paganism 5
+
+Dalmatia
+	legion: Illyricorum
+	Deliminium
+	illyrian_faction_02
+	Illyrians
+	35 10 35
+	illyria, b_paganism, owner_illyrian
+	5
+	3
+	c_paganism 25 b_paganism 75
+
+Dardania
+	legion: Moesia_Superior
+	Naissos
+	illyrian_faction_04
+	Illyrians
+	244 96 13
+	illyria, b_paganism, owner_illyrian
+	5
+	4
+	c_paganism 50 b_paganism 50
+
+Edonis
+	legion: Macedonica
+	Philippoi
+	macedon
+	Edones
+	34 218 112
+	thrace, b_paganism, owner_greek
+	5
+	6
+	hellenic 60 c_paganism 20 b_paganism 20
+
+Epidamnia
+	legion: Illyricorum
+	Epidamnos
+	illyrian_faction_05
+	Illyrians
+	221 219 10
+	illyria, b_paganism, owner_illyrian
+	5
+	7
+	hellenic 25 c_paganism 10 b_paganism 65
+
+Illyria
+	legion: Illyricorum
+	Scodra
+	illyrian_faction_03
+	Illyrians
+	58 173 177
+	illyria, b_paganism, owner_illyrian
+	5
+	4
+	c_paganism 25 b_paganism 75
+
+Illyria_Pannonia
+	legion: Illyricorum
+	Salona
+	illyrian_faction_01
+	Illyrians
+	61 177 58
+	illyria, b_paganism, owner_illyrian
+	5
+	4
+	hellenic 20 c_paganism 5 b_paganism 70
+
+Locus_Biephi
+	legion: Gemina
+	Zarmizegetusa
+	dacian_faction_02
+	Iazyges
+	15 15 63
+	thrace, b_paganism, owner_dacian
+	5
+	5
+	c_paganism 15 g_paganism 15 b_paganism 70
+
+Locus_Serdi
+	legion: Flavia_Felix
+	Vicus_Serdi
+	thracian_faction_02
+	Serdicans
+	116 85 56
+	thrace, b_paganism, owner_dacian
+	5
+	5
+	c_paganism 60 b_paganism 40
+
+Moesia
+	legion: Moesia_Inferior
+	Seuthopolis
+	thrace
+	Odrysae
+	35 72 111
+	thrace, b_paganism, owner_thracian
+	5
+	4
+	hellenic 5 c_paganism 45 b_paganism 50
+
+Odessos
+	legion: Moesia_Inferior
+	Odessos
+	hellenic_faction_18
+	Odrysae
+	145 204 206
+	thrace, hellenic, owner_greek
+	5
+	5
+	hellenic 55 b_paganism 35 c_paganism 10
+
+Paionia
+	legion: Flavia_Felix
+	Bylazora
+	thracian_faction_01
+	Paionians
+	131 33 100
+	thrace, b_paganism, owner_dacian
+	5
+	5
+	hellenic 10 c_paganism 5 b_paganism 85
+
+Pannonia
+	legion: Adiutrix
+	Aquincum
+	gallic_faction_18
+	Scordisci
+	221 220 132
+	b_paganism, owner_gallic
+	5
+	4
+	c_paganism 60 b_paganism 30 g_paganism 10
+
+Pannonia_Inferior
+	legion: Adiutrix
+	Segestica
+	gallic_faction_15
+	Scordisci
+	131 61 33
+	illyria, b_paganism, owner_gallic
+	5
+	4
+	c_paganism 50 b_paganism 40 g_paganism 10
+
+Scorcouw
+	legion: Illyricorum
+	Singidun
+	gallic_faction_13
+	Illyrians
+	12 45 12
+	illyria, b_paganism, owner_gallic
+	5
+	3
+	c_paganism 25 b_paganism 75
+
+Shumen
+	legion: Moesia_Inferior
+	Shumen
+	thrace
+	Odrysae
+	219 228 167
+	thrace, b_paganism, owner_thracian
+	5
+	4
+	c_paganism 30 b_paganism 70
+
+Taulantii
+	legion: Illyricorum
+	Apollonia
+	illyrian_faction_05
+	Epirots
+	13 130 13
+	illyria, hellenic, owner_illyrian
+	5
+	6
+	hellenic 50 c_paganism 10 b_paganism 35 roman 5
+
+Thrace
+	legion: Thracia
+	Uscudama
+	thrace
+	Odrysae
+	218 246 61
+	thrace, b_paganism, owner_thracian
+	5
+	7
+	hellenic 5 c_paganism 35 b_paganism 60
+
+Tylis
+	legion: Claudia_Pia_Fidelis
+	Tylis
+	gallic_faction_14
+	Odrysae
+	70 70 70
+	b_paganism, owner_gallic
+	5
+	6
+	b_paganism 45 c_paganism 35 hellenic 20
+
+;;;;; GREECE
+
+Achaea
+	legion: Gemina
+	Aigion
+	hellenic_faction_14
+	Achaeans
+	212 232 41
+	greece, hellenic, owner_greek
+	5
+	6
+	hellenic 100
+
+Aetolia
+	legion: Gemina
+	Thermon
+	hellenic_faction_05
+	Aetolians
+	13 18 244
+	greece, hellenic, owner_greek
+	5
+	6
+	hellenic 100
+
+Arcadia
+	legion: Gemina
+	Megalopolis
+	hellenic_faction_14
+	Achaeans
+	226 122 198
+	greece, hellenic, owner_greek
+	5
+	5
+	hellenic 100
+
+Argolis
+	legion: Gemina
+	Argos
+	hellenic_faction_14
+	Achaeans
+	80 240 105
+	greece, hellenic, owner_greek
+	5
+	7
+	hellenic 100
+
+Attica
+	legion: Gemina
+	Athens
+	hellenic_faction_09
+	Athenians
+	58 177 106
+	greece, hellenic, owner_greek
+	5
+	10
+	hellenic 100
+
+Boeotia
+	legion: Gemina
+	Thebes
+	hellenic_faction_05
+	Boeotians
+	236 44 153
+	greece, hellenic, owner_greek
+	5
+	8
+	hellenic 100
+
+Chalkidiki
+	legion: Macedonica
+	Thessalonica
+	macedon
+	Edones
+	208 24 24
+	greece, hellenic, owner_greek
+	5
+	9
+	hellenic 85 c_paganism 10 b_paganism 5
+
+Crete
+	legion: Cretae
+	Knossos
+	hellenic_faction_07
+	Cretans
+	193 162 206
+	greece, hellenic, owner_greek
+	5
+	7
+	hellenic 100
+
+Elis
+	legion: Gemina
+	Elis
+	hellenic_faction_05
+	Aetolians
+	142 67 194
+	greece, hellenic, owner_greek
+	5
+	5
+	hellenic 100
+
+Epirus
+	legion: Illyricorum
+	Ambracia
+	hellenic_faction_13
+	Epirots
+	83 58 177
+	illyria, hellenic, owner_greek
+	5
+	5
+	hellenic 85 b_paganism 15
+
+Estaiotis
+	legion: Macedonica
+	Trikke
+	macedon
+	Thessalians
+	202 171 48
+	greece, hellenic, owner_greek
+	5
+	7
+	hellenic 100
+
+Euboea
+	legion: Gemina
+	Chalkis
+	hellenic_faction_09
+	Athenians
+	45 176 180
+	greece, hellenic, owner_greek
+	5
+	9
+	hellenic 95 judaism 5
+
+Laconia
+	legion: Gemina
+	Sparta
+	hellenic_faction_01
+	Helots
+	244 13 24
+	greece, sparta, hellenic, owner_greek
+	5
+	6
+	hellenic 100
+
+Macedonia
+	legion: Macedonica
+	Pella
+	macedon
+	Edones
+	177 58 145
+	greece, hellenic, owner_greek
+	5
+	9
+	hellenic 85 c_paganism 5 b_paganism 10
+
+Megaris
+	legion: Gemina
+	Megara
+	hellenic_faction_09
+	Achaeans
+	250 123 46
+	greece, hellenic, owner_greek
+	5
+	6
+	hellenic 100
+
+Messenia
+	legion: Gemina
+	Messeni
+	hellenic_faction_01
+	Achaeans
+	83 231 215
+	greece, hellenic, owner_greek
+	5
+	5
+	hellenic 100
+
+Peloponnesus
+	legion: Gemina
+	Corinth
+	hellenic_faction_14
+	Achaeans
+	225 192 192
+	greece, hellenic, owner_greek
+	5
+	9
+	hellenic 100
+
+Phocis
+	legion: Gemina
+	Delphi
+	hellenic_faction_05
+	Boeotians
+	65 157 79
+	greece, hellenic, owner_greek
+	5
+	4
+	hellenic 100
+
+Propontis
+	legion: Thracia
+	Byzantium
+	hellenic_faction_11
+	Sithones
+	118 131 33
+	thrace, hellenic, owner_greek
+	5
+	10
+	hellenic 90 c_paganism 5 b_paganism 5
+
+Rhodos
+	legion: Asianae
+	Rhodes
+	hellenic_faction_06
+	Rhodians
+	131 33 77
+	greece, hellenic, owner_greek
+	5
+	6
+	hellenic 100
+
+Thessalia
+	legion: Macedonica
+	Larissa
+	macedon
+	Thessalians
+	177 83 58
+	greece, thessaly, hellenic, owner_greek
+	5
+	8
+	hellenic 100
+
+Thracia_Chersonesos
+	legion: Thracia
+	Lysimachia
+	macedon
+	Sithones
+	221 205 156
+	thrace, hellenic, owner_greek
+	5
+	8
+	hellenic 90 b_paganism 10
+
+;;;;; ANATOLIA
+
+Aeolia
+	legion: Asianae
+	Pergamum
+	hellenic_faction_03
+	Lesbians
+	33 59 131
+	hellenic, owner_greek
+	5
+	9
+	hellenic 85 c_paganism 5 zoroastrian 10
+
+Bithynia
+	legion: Pontica
+	Nicomedia
+	anatolian_faction_01
+	Bithynians
+	202 17 122
+	hellenic, owner_pontic
+	5
+	9
+	hellenic 70 c_paganism 5 zoroastrian 25
+
+Cappadocia
+	legion: Fulminata
+	Mazaka
+	caucasian_faction_04
+	Cappadocians
+	177 58 148
+	zoroastrian, owner_armenian
+	5
+	6
+	hellenic 50 zoroastrian 35 c_paganism 15
+
+Caria
+	legion: Asianae
+	Halicarnasus
+	hellenic_faction_01
+	Ionians
+	236 213 59
+	hellenic, owner_egyptian
+	5
+	8
+	hellenic 80 egyptian 15 zoroastrian 5
+
+Cilicia
+	legion: Isaura
+	Tarsus
+	seleucid
+	Cilicians
+	17 202 52
+	zoroastrian, owner_greek
+	5
+	9
+	hellenic 50 zoroastrian 20 egyptian 20 c_paganism 10
+
+Ionia
+	legion: Asianae
+	Miletus
+	hellenic_faction_07
+	Ionians
+	253 141 77
+	hellenic, owner_egyptian
+	5
+	11
+	hellenic 70 egyptian 25 zoroastrian 5
+
+Galatia
+	legion: Galatiae
+	Ancyra
+	gallic_faction_11
+	Galatians
+	17 165 202
+	c_paganism, owner_gallic
+	5
+	6
+	c_paganism 60 hellenic 25 zoroastrian 15
+
+Hyperboria; <------------Sinope
+	legion: Pontica
+	Themiskyra
+	hellenic_faction_15
+	Paphlagonians
+	58 89 177
+	hellenic, owner_greek
+	5
+	6
+	hellenic 70 c_paganism 5 zoroastrian 25
+
+Lesbos
+	legion: Asianae
+	Mytilene
+	hellenic_faction_09
+	Lesbians
+	112 233 166
+	hellenic, owner_egyptian
+	5
+	6
+	hellenic 100
+
+Lycia
+	legion: Asianae
+	Xanthos
+	hellenic_faction_06
+	Lycians
+	131 83 77
+	hellenic, owner_egyptian
+	5
+	7
+	hellenic 80 egyptian 15 zoroastrian 5
+
+Lydia
+	legion: Asianae
+	Sardis
+	hellenic_faction_01
+	Ionians
+	149 109 127
+	zoroastrian, owner_greek
+	5
+	10
+	hellenic 60 egyptian 10 c_paganism 10 zoroastrian 20
+
+Mysia
+	legion: Asianae
+	Abydos
+	hellenic_faction_03
+	Lesbians
+	198 91 91
+	c_paganism, owner_greek
+	5
+	8
+	hellenic 50 c_paganism 30 zoroastrian 20
+
+Pamphylia
+	legion: Isaura
+	Perge
+	seleucid
+	Lycians
+	249 154 208
+	hellenic, owner_egyptian
+	5
+	6
+	hellenic 50 egyptian 25 zoroastrian 25
+
+Paphlagonia
+	legion: Pontica
+	Gangra
+	pontus
+	Paphlagonians
+	55 55 55
+	c_paganism, owner_pontic
+	5
+	6
+	hellenic 60 c_paganism 25 zoroastrian 15
+
+Phrygia
+	legion: Asianae
+	Phrygia_Apameia
+	hellenic_faction_03
+	Galatians
+	231 213 157
+	hellenic, owner_gallic
+	5
+	8
+	hellenic 55 c_paganism 30 zoroastrian 15
+
+Pisidia
+	legion: Isaura
+	Pisidia_Antioch
+	seleucid
+	Cilicians
+	152 200 116
+	zoroastrian, owner_greek
+	5
+	5
+	hellenic 55 c_paganism 20 zoroastrian 15 egyptian 10
+
+Pontus
+	legion: Pontica
+	Sinope
+	pontus
+	Paphlagonians
+	202 156 17
+	zoroastrian, owner_pontic
+	5
+	8
+	hellenic 60 zoroastrian 25 c_paganism 15
+
+;;;;; CAUCASUS
+
+Armenia
+	legion: Armeniaca
+	Artaxarta
+	armenia
+	Cappadocians
+	202 61 17
+	zoroastrian, owner_armenian
+	5
+	6
+	zoroastrian 45 oscan 30 hellenic 25
+
+Arzanene
+	legion: Armeniaca
+	Carcathiocerta
+	armenia
+	Cappadocians
+	227 240 117
+	persia, oscan, owner_armenian
+	5
+	5
+	zoroastrian 55 oscan 25 hellenic 20
+
+Atropatene
+	legion: Parthica
+	Phraaspa
+	caucasian_faction_03
+	Medes
+	61 239 246
+	persia, zoroastrian, owner_armenian
+	5
+	6
+	zoroastrian 65 hellenic 25 oscan 10
+
+Colchis
+	legion: Apollinaris
+	Kotais
+	hellenic_faction_10
+	Colchians
+	199 31 143
+	oscan, owner_oscan
+	5
+	4
+	oscan 60 hellenic 25 s_paganism 15
+
+Commagene
+	legion: Armeniaca
+	Samosata
+	armenia
+	Cappadocians
+	186 72 36
+	persia, zoroastrian, owner_armenian
+	5
+	6
+	zoroastrian 45 hellenic 35 mesopotamian 20
+
+Pontos_Paralios
+	legion: Fulminata
+	Trapezous
+	hellenic_faction_16
+	Colchians
+	103 39 140
+	hellenic, owner_greek
+	5
+	5
+	oscan 35 hellenic 40 zoroastrian 25
+		
+Rize
+	legion: Fulminata
+	Rize
+	hellenic_faction_16
+	Colchians
+	44 164 226
+	oscan, owner_greek
+	5
+	3
+	oscan 55 hellenic 30 zoroastrian 15
+
+Sophene
+	legion: Armeniaca
+	Arsamosata
+	armenia
+	Cappadocians
+	88 140 83
+	persia, oscan, owner_armenian
+	5
+	5
+	zoroastrian 50 oscan 25 hellenic 25
+
+Tribus_Sakae; <------------ Caucasian Albania
+	legion: Armeniaca
+	Campus_Sakae
+	caucasian_faction_02
+	Medes
+	58 177 75
+	persia, oscan, owner_oscan
+	5
+	3
+	oscan 55 zoroastrian 25 s_paganism 20
+
+Tribus_Sarmatae; <------------ Caucasian Iberia
+	legion: Armeniaca
+	Campus_Sarmatae
+	caucasian_faction_01
+	Medes
+	177 58 83
+	persia, oscan, owner_oscan
+	5
+	3
+	oscan 70 zoroastrian 20 s_paganism 10
+
+Urartu
+	legion: Parthica
+	Tushpa
+	parthia
+	Medes
+	134 107 115
+	persia, oscan, owner_greek
+	5
+	5
+	zoroastrian 55 oscan 25 hellenic 20
+
+;;;;; STEPPE
+
+Kamianka
+	legion: Scythica
+	Kamianka
+	scythia
+	Maeotae
+	148 160 193
+	s_paganism, owner_scythian
+	5
+	3
+	hellenic 5 s_paganism 95
+
+Maeotis
+	legion: Scythica
+	Tanais
+	scythia
+	Maeotae
+	131 89 33
+	s_paganism, owner_scythian
+	5
+	5
+	hellenic 30 s_paganism 70
+
+Pripet
+	legion: Barbaricorum
+	Vicus_Venedae
+	steppe_faction_03
+	Venedae
+	131 33 125
+	g_paganism, owner_scythian
+	5
+	2
+	g_paganism 75 s_paganism 25
+
+Scythia
+	legion: Scythica
+	Campus_Scythii
+	scythia
+	Roxolani
+	33 131 116
+	s_paganism, owner_scythian
+	5
+	3
+	hellenic 5 b_paganism 15 s_paganism 80
+
+Siracena
+	legion: Scythica
+	Siracena
+	steppe_faction_08
+	Maeotae
+	151 53 230
+	s_paganism, owner_scythian
+	5
+	2
+	hellenic 40 s_paganism 60
+
+Tribus_Alanni
+	legion: Scythica
+	Campus_Alanni
+	steppe_faction_01
+	Alans
+	235 186 142
+	s_paganism, owner_scythian
+	5
+	2
+	s_paganism 100
+
+Tribus_Aorsi
+	legion: Scythica
+	Campus_Aorsi
+	steppe_faction_01
+	Alans
+	177 170 58
+	s_paganism, owner_scythian
+	5
+	3
+	s_paganism 100
+
+Tribus_Dahae
+	legion: Scythica
+	Campus_Dahae
+	steppe_faction_06
+	Alans
+	232 245 132
+	s_paganism, owner_scythian
+	5
+	1
+	s_paganism 100
+
+Tribus_Getae
+	legion: Barbaricorum
+	Campus_Getae
+	dacian_faction_01
+	Troglodytae
+	131 33 38
+	thrace, b_paganism, owner_dacian
+	5
+	4
+	hellenic 10 b_paganism 80 s_paganism 10
+
+Tribus_Iazyges
+	legion: Barbaricorum
+	Campus_Iazyges
+	dacian_faction_03
+	Iazyges
+	33 100 131
+	thrace, b_paganism, owner_dacian
+	5
+	3
+	c_paganism 25 g_paganism 5 b_paganism 70
+
+Tribus_Massagetae
+	legion: Scythica
+	Campus_Massagetae
+	steppe_faction_07
+	Alans
+	42 120 59
+	s_paganism, owner_scythian
+	5
+	1
+	s_paganism 100
+
+Tribus_Thyssagetae
+	legion: Scythica
+	Campus_Thyssagetae
+	steppe_faction_07
+	Alans
+	18 88 127
+	s_paganism, owner_scythian
+	5
+	1
+	s_paganism 100
+
+Tyragetae
+	legion: Barbaricorum
+	Tyras
+	steppe_faction_02
+	Troglodytae
+	134 78 176
+	thrace, b_paganism, owner_scythian
+	5
+	3
+	hellenic 40 b_paganism 30 s_paganism 30
+
+;;;;; BLACK SEA
+
+Bosphorus
+	legion: Scythica
+	Pantikapaion
+	hellenic_faction_04
+	Bosphorans
+	17 74 202
+	hellenic, owner_greek
+	5
+	7
+	hellenic 80 s_paganism 20
+
+Scythica_Chersonesos
+	legion: Scythica
+	Kalos_Limen
+	hellenic_faction_17
+	Bosphorans
+	69 29 99
+	s_paganism, owner_greek
+	5
+	5
+	hellenic 50 s_paganism 50
+
+Sindica
+	legion: Scythica
+	Phanagoreia
+	hellenic_faction_04
+	Bosphorans
+	225 85 85
+	s_paganism, owner_greek
+	5
+	5
+	hellenic 50 s_paganism 20 zoroastrian 30
+
+Tauroi_Chersonesos
+	legion: Scythica
+	Chersonesos
+	hellenic_faction_17
+	Bosphorans
+	241 171 35
+	hellenic, owner_greek
+	5
+	5
+	hellenic 80 s_paganism 20
+
+Theodosian_Bosphorus
+	legion: Scythica
+	Theodosia
+	hellenic_faction_04
+	Bosphorans
+	140 194 36
+	hellenic, owner_greek
+	5
+	7
+	hellenic 80 s_paganism 20
+
+Tomis
+	legion: Claudia_Pia_Fidelis
+	Tomis
+	hellenic_faction_18
+	Odrysae
+	224 169 63
+	hellenic, owner_greek
+	5
+	6
+	hellenic 60 b_paganism 20 s_paganism 20
+
+;;;;; NEAR EAST
+
+Apamene
+	legion: Flavia_Firma
+	Apameia
+	seleucid
+	Syrians
+	65 102 203
+	syria, mesopotamian, owner_greek
+	5
+	9
+	hellenic 45 mesopotamian 35 zoroastrian 20
+
+Arab_Syria
+	legion: Flavia_Firma
+	Bosra
+	desert_faction_03
+	Nabataeans
+	173 155 155
+	arab, owner_greek
+	5
+	2
+	arab 60 mesopotamian 20 zoroastrian 10 hellenic 10
+
+Coele_Syria
+	legion: Flavia_Firma
+	Damascus
+	seleucid
+	Syrians
+	244 203 14
+	syria, mesopotamian, owner_greek
+	5
+	9
+	hellenic 35 mesopotamian 25 zoroastrian 25 arab 15
+
+Cyprus
+	legion: Cyprica
+	Salamis
+	egypt
+	Cypriots
+	126 144 111
+	hellenic, owner_egyptian
+	5
+	9
+	hellenic 70 egyptian 30
+
+Cyrrhestica
+	legion: Flavia_Firma
+	Cyrrhus
+	seleucid
+	Syrians
+	212 22 75
+	syria, mesopotamian, owner_greek
+	5
+	8
+	hellenic 45 mesopotamian 30 zoroastrian 25
+
+Gaza
+	legion: Palaestinae
+	Gaza
+	anatolian_faction_02
+	Judaeans
+	236 158 88
+	arab, owner_egyptian
+	5
+	7
+	hellenic 20 arab 30 egyptian 20 judaism 30
+
+Judaea
+	legion: Palaestinae
+	Jerusalem
+	anatolian_faction_02
+	Judaeans
+	244 13 29
+	jerusalem, judaism, owner_judaean
+	5
+	8
+	judaism 80 hellenic 10 arab 5 egyptian 5
+
+Phoenicia
+	legion: Gallicia
+	Sidon
+	anatolian_faction_02
+	Phoenicians
+	33 131 128
+	punic, owner_egyptian
+	5
+	10
+	hellenic 50 punic 25 judaism 15 mesopotamian 10
+
+Regnum_Palmyrae
+	legion: Flavia_Firma
+	Palmyra
+	seleucid
+	Palmyrans
+	175 171 244
+	syria, mesopotamian, owner_greek
+	5
+	4
+	mesopotamian 35 arab 30 hellenic 25 zoroastrian 10
+
+Syria
+	legion: Flavia_Firma
+	Antioch
+	seleucid
+	Syrians
+	13 244 165
+	syria, mesopotamian, owner_greek
+	5
+	12
+	hellenic 40 mesopotamian 30 zoroastrian 20 arab 10
+
+Tyrea
+	legion: Gallicia
+	Tyre
+	anatolian_faction_02
+	Phoenicians
+	198 98 9
+	punic, owner_egyptian
+	5
+	10
+	hellenic 50 punic 25 judaism 15 mesopotamian 10
+
+;;;;; MESOPOTAMIA
+
+Adiabene
+	legion: Parthica
+	Arbela
+	seleucid
+	Syrians
+	136 190 239
+	mesopotamian, owner_greek
+	5
+	5
+	mesopotamian 65 zoroastrian 25 hellenic 10
+
+Assyria
+	legion: Parthica
+	Hatra
+	seleucid
+	Syrians
+	244 122 13
+	mesopotamian, owner_greek
+	5
+	5
+	mesopotamian 70 zoroastrian 20 hellenic 10
+
+Babylonia
+	legion: Parthica
+	Seleucia
+	seleucid
+	Syrians
+	177 58 167
+	mesopotamian, owner_greek
+	5
+	12
+	mesopotamian 65 hellenic 25 zoroastrian 10
+
+Elymais
+	legion: Parthica
+	Susa
+	parthia
+	Elamites
+	72 58 177
+	persia, mesopotamian, owner_greek
+	5
+	7
+	zoroastrian 60 mesopotamian 25 hellenic 15
+
+Media
+	legion: Parthica
+	Ecbatana
+	parthia
+	Medes
+	128 22 27
+	persia, zoroastrian, owner_greek
+	5
+	6
+	hellenic 40 zoroastrian 60
+
+Mesopotamia
+	legion: Parthica
+	Uruk
+	seleucid
+	Syrians
+	58 112 53
+	mesopotamian, owner_greek
+	5
+	10
+	mesopotamian 75 zoroastrian 15 hellenic 10
+
+Mygdonius
+	legion: Parthica
+	Nisibis
+	seleucid
+	Syrians
+	72 99 173
+	mesopotamian, owner_greek
+	5
+	5
+	mesopotamian 60 zoroastrian 25 hellenic 15
+
+Osrhoene
+	legion: Parthica
+	Harran
+	seleucid
+	Syrians
+	49 138 41
+	mesopotamian, owner_greek
+	5
+	4
+	mesopotamian 70 hellenic 20 zoroastrian 10
+
+Rhages
+	legion: Parthica
+	Arsakia
+	parthia
+	Medes
+	58 167 177
+	parthia, persia, zoroastrian, owner_greek
+	5
+	7
+	hellenic 40 zoroastrian 60
+
+;;;;; EGYPT
+
+Hare
+	legion: Traiana
+	Hermopolis
+	egypt
+	Libyans
+	222 161 96
+	egypt, egyptian, owner_egyptian
+	5
+	9
+	hellenic 25 egyptian 75
+
+Middle_Egypt
+	legion: Traiana
+	Memphis
+	egypt
+	Libyans
+	122 13 244
+	egypt, egyptian, owner_egyptian
+	5
+	13
+	hellenic 35 egyptian 65
+
+Nile_Delta
+	legion: Traiana
+	Alexandria
+	egypt
+	Libyans
+	244 13 214
+	egypt, egyptian, owner_egyptian
+	5
+	15
+	hellenic 35 arab 5 egyptian 60
+
+Pelousion
+	legion: Traiana
+	Pelousion
+	egypt
+	Libyans
+	166 130 74
+	egypt, egyptian, owner_egyptian
+	5
+	10
+	hellenic 15 arab 35 egyptian 50
+
+Thebais
+	legion: Traiana
+	Waset
+	egypt
+	Libyans
+	241 244 13
+	egypt, egyptian, owner_egyptian
+	5
+	10
+	hellenic 20 egyptian 80
+
+Thinis
+	legion: Traiana
+	Ptolemais
+	egypt
+	Libyans
+	145 13 13
+	egypt, egyptian, owner_egyptian
+	5
+	9
+	hellenic 25 egyptian 75
+
+;;;;; AFRICA
+
+Africa
+	legion: Augusta
+	Carthage
+	carthage
+	Poeni
+	202 191 17
+	punic, owner_carthage
+	5
+	12
+	punic 95 berber 5
+
+Byzacium
+	legion: Augusta
+	Thapsus
+	carthage
+	Poeni
+	31 202 17
+	punic, owner_carthage
+	5
+	10
+	punic 80 berber 20
+
+Cydamus
+	legion: Cyrenaica
+	Cydamus
+	desert_faction_05
+	Libyans
+	247 130 14
+	berber, owner_berber
+	5
+	1
+	berber 100
+
+Cyrenaica
+	legion: Cyrenaica
+	Cyrene
+	hellenic_faction_08
+	Libyans
+	244 171 13
+	hellenic, owner_greek
+	5
+	8
+	hellenic 70 berber 20 egyptian 10
+
+Fezzan
+	legion: Cyrenaica
+	Garama
+	desert_faction_05
+	Libyans
+	109 149 124
+	berber, owner_berber
+	5
+	1
+	berber 100
+
+Iol
+	legion: Mauretanica
+	Iol
+	desert_faction_02
+	Moors
+	152 44 4
+	punic, owner_carthage
+	5
+	4
+	punic 85 berber 15
+
+Libya
+	legion: Cyrenaica
+	Paraitonion
+	egypt
+	Libyans
+	42 232 77
+	egyptian, owner_egyptian
+	5
+	3
+	hellenic 50 berber 20 egyptian 30
+
+Libyan_Syrtica
+	legion: Cyrenaica
+	Automala
+	desert_faction_04
+	Libyans
+	167 163 169
+	berber, owner_berber
+	5
+	1
+	berber 100
+
+Mauretania
+	legion: Mauretanica
+	Walilt
+	numidia
+	Moors
+	202 126 17
+	berber, owner_berber
+	5
+	4
+	punic 10 berber 90
+
+Nasamonea
+	legion: Cyrenaica
+	Augila
+	desert_faction_04
+	Libyans
+	116 168 215
+	berber, owner_berber
+	5
+	1
+	berber 100
+
+Numidia
+	legion: Augusta
+	Cirta
+	numidia
+	Moors
+	17 83 202
+	berber, owner_berber
+	5
+	6
+	punic 15 berber 85
+
+Qattara
+	legion: Cyrenaica
+	Siwa
+	desert_faction_03
+	Libyans
+	222 187 187
+	berber, owner_berber
+	5
+	1
+	berber 40 egyptian 60
+
+Sahara; <------------ massayesili
+	legion: Mauretanica
+	Nepte
+	desert_faction_02
+	Gaetuli
+	135 41 232
+	berber, owner_berber
+	5
+	1
+	punic 25 berber 75
+
+Siga; <------------ massayesili
+	legion: Mauretanica
+	Siga
+	desert_faction_02
+	Gaetuli
+	75 144 50
+	berber, owner_berber
+	5
+	3
+	punic 15 berber 85
+
+Syrtica
+	legion: Cyrenaica
+	Charax
+	desert_faction_04
+	Libyans
+	243 160 242
+	berber, owner_carthage
+	5
+	1
+	berber 100
+
+Tingitana
+	legion: Mauretanica
+	Tingi
+	desert_faction_01
+	Moors
+	237 244 41
+	berber, owner_carthage
+	5
+	5
+	punic 60 berber 40
+
+Tripolitania
+	legion: Flavia_Salutis
+	Lepcis_Magna
+	desert_faction_05
+	Poeni
+	202 17 48
+	punic, owner_carthage
+	5
+	5
+	punic 60 berber 40
+
+;;;;; ARABIA
+
+Hejaz
+	legion: Nabatae
+	Hegra
+	desert_faction_06
+	Lihyanites
+	223 170 41
+	arab, owner_arab
+	5
+	2
+	arab 100
+
+Jawf
+	legion: Nabatae
+	Dumat
+	desert_faction_07
+	Nabataeans
+	69 183 236
+	arab, owner_arab
+	5
+	2
+	arab 100
+
+Karak
+	legion: Nabatae
+	Kharkha
+	desert_faction_03
+	Nabataeans
+	134 93 131
+	arab, owner_arab
+	5
+	2
+	arab 90 judaism 10
+
+Khaybar
+	legion: Nabatae
+	Khaybar
+	desert_faction_08
+	Nabataeans
+	251 66 30
+	arab, owner_arab
+	5
+	2
+	arab 100
+
+Nabataea
+	legion: Nabatae
+	Petra
+	desert_faction_03
+	Nabataeans
+	35 244 13
+	arab, owner_arab
+	5
+	4
+	arab 90 egyptian 5 judaism 5
+
+Negev
+	legion: Nabatae
+	Avdat
+	desert_faction_03
+	Nabataeans
+	239 158 232
+	arab, owner_arab
+	5
+	3
+	arab 100
+
+Rhinocorura
+	legion: Nabatae
+	Rhinocorura
+	desert_faction_03
+	Nabataeans
+	12 77 138
+	arab, owner_arab
+	5
+	3
+	arab 55 egyptian 30 judaism 15
+
+Tayma
+	legion: Nabatae
+	Tayma
+	desert_faction_07
+	Nabataeans
+	153 129 122
+	arab, owner_arab
+	5
+	3
+	arab 100
+
+;;;;; BARBARICORUM
+
+Gaetulia; <------------ Barbaricum
+	legion: Barbaricorum
+	Dimmidi
+	numidia
+	Gaetuli
+	244 13 138
+	none
+	5
+	1
+	arab 20 berber 20 mesopotamian 20 g_paganism 20 s_paganism 20
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

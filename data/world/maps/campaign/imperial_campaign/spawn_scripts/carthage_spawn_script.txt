@@ -1,0 +1,53 @@
+script
+	declare_persistent_counter rebel_carthage_spawned
+
+	if	I_CompareCounter rebel_carthage_spawned == 0
+	&&	not FactionIsAlive rebel_carthage
+
+		; Spawn if player
+		if	I_LocalFaction rebel_carthage
+		&&	I_TurnNumber > 15
+		&&	not IsCapital
+		&&	HasResource punic
+		&&	RandomPercent > 98
+			return true
+		end_if
+
+		if	I_TurnNumber < 100
+		&&	I_SettlementOwnerCulture Panormus = roman
+		&&	I_SettlementOwnerCulture Akragas = roman
+		&&	not I_SettlementOwner Panormus = rebel_romans
+		&&	not I_SettlementOwner Akragas = rebel_romans
+		&&	RandomPercent > 50
+			if SettlementName Capua
+				return true
+			end_if
+
+			if SettlementName Tarentum
+				return true
+			end_if
+		end_if
+
+		if	I_TurnNumber > 100
+		&&	I_TurnNumber < 110
+		&&	RandomPercent > 50
+			if SettlementName Capua
+				return true
+			end_if
+
+			if SettlementName Tarentum
+				return true
+			end_if
+		end_if
+
+		if	I_TurnNumber > 110
+		&&	not IsCapital
+		&&	HasResource punic
+		&&	SettlementLoyaltyLevel = loyalty_revolting
+		&&	RandomPercent > 95
+			return true
+		end_if
+	end_if
+
+	return false
+end_script

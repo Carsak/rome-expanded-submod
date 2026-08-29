@@ -1,0 +1,710 @@
+romans_julii
+imperator
+short_campaign outlive_factions
+gauls gallic_faction_01 gallic_faction_10
+
+romans_brutii
+imperator
+short_campaign outlive_factions
+macedon hellenic_faction_01 hellenic_faction_13
+
+romans_scipii
+imperator
+short_campaign outlive_factions
+carthage numidia greek_cities
+
+macedon
+hold_regions Pella Ambracia Alexandria Antioch Seleucia
+take_regions 100
+short_campaign outlive_factions
+hellenic_faction_01 hellenic_faction_14 gallic_faction_14
+
+egypt
+hold_regions Alexandria Pella Thessalonica Antioch Seleucia
+take_regions 100
+short_campaign outlive_factions
+seleucid macedon
+
+seleucid
+hold_regions Antioch Pella Seleucia Alexandria Thessalonica
+take_regions 100
+short_campaign outlive_factions
+egypt macedon
+
+parthia
+hold_regions Arsakia Antioch Seleucia Uruk Phraaspa
+take_regions 100
+short_campaign outlive_factions
+armenia seleucid
+
+pontus
+hold_regions Pergamum Sinope Themiskyra Chersonesos Kotais
+take_regions 100
+short_campaign outlive_factions
+hellenic_faction_15 gallic_faction_11 hellenic_faction_04
+
+gauls
+take_rome
+short_campaign outlive_factions
+romans_julii gallic_faction_01 hellenic_faction_02
+
+germans
+take_rome
+short_campaign outlive_factions
+germanic_faction_01 germanic_faction_02 germanic_faction_03
+
+britons
+take_rome
+short_campaign outlive_factions
+britanic_faction_01 britanic_faction_02 britanic_faction_03
+
+armenia
+hold_regions Artaxarta Antioch Damascus Mazaka Phraaspa
+take_regions 100
+short_campaign outlive_factions
+caucasian_faction_01 caucasian_faction_02 caucasian_faction_03
+
+anatolian_faction_01
+hold_regions Nicomedia Pergamum Sardis Pisidia_Antioch Sinope
+take_regions 100
+short_campaign outlive_factions
+seleucid hellenic_faction_03 hellenic_faction_15
+
+anatolian_faction_02
+hold_regions Jerusalem Antioch Alexandria Memphis Seleucia
+take_regions 100
+short_campaign outlive_factions
+seleucid egypt
+
+caucasian_faction_01
+hold_regions Artaxarta Antioch Damascus Mazaka Phraaspa
+take_regions 100
+short_campaign outlive_factions
+armenia caucasian_faction_02 caucasian_faction_03
+
+caucasian_faction_02
+hold_regions Artaxarta Antioch Damascus Mazaka Phraaspa
+take_regions 100
+short_campaign outlive_factions
+armenia caucasian_faction_01 caucasian_faction_03
+
+caucasian_faction_03
+hold_regions Artaxarta Antioch Damascus Mazaka Phraaspa
+take_regions 100
+short_campaign outlive_factions
+armenia caucasian_faction_01 caucasian_faction_02
+
+caucasian_faction_04
+hold_regions Artaxarta Antioch Damascus Mazaka Phraaspa
+take_regions 100
+short_campaign outlive_factions
+armenia caucasian_faction_01 caucasian_faction_02
+
+dacia
+take_rome
+short_campaign outlive_factions
+dacian_faction_01 dacian_faction_02 dacian_faction_03
+
+dacian_faction_01
+take_rome
+short_campaign outlive_factions
+dacia dacian_faction_02 dacian_faction_03
+
+dacian_faction_02
+take_rome
+short_campaign outlive_factions
+dacia dacian_faction_01 dacian_faction_03
+
+dacian_faction_03
+take_rome
+short_campaign outlive_factions
+dacia dacian_faction_01 dacian_faction_02
+
+greek_cities
+hold_regions Syracuse Akragas Lilybaeum Messana Panormus
+take_regions 100
+short_campaign outlive_factions
+latin_faction_01 romans_scipii carthage_hannonid
+
+numidia
+hold_regions Cirta Iol Lepcis_Magna Nepte Siga 
+take_regions 100
+short_campaign outlive_factions
+carthage carthage_barcid desert_faction_02
+
+scythia
+take_rome
+short_campaign outlive_factions
+dacia steppe_faction_01 steppe_faction_02
+
+spain
+take_rome
+short_campaign outlive_factions
+iberian_faction_04 iberian_faction_05 iberian_faction_06
+
+thrace
+take_rome
+short_campaign outlive_factions
+macedon gallic_faction_14 hellenic_faction_18
+
+hellenic_faction_01
+hold_regions Sparta Ambracia Athens Knossos Pella
+take_regions 100
+short_campaign outlive_factions
+macedon hellenic_faction_09 hellenic_faction_14
+
+hellenic_faction_02
+hold_regions Massilia Alalia Caralis Dumatha Palma
+take_regions 100
+short_campaign outlive_factions
+gauls latin_faction_01 gallic_faction_06
+
+hellenic_faction_03
+hold_regions Pergamum Nicomedia Sardis Themiskyra Pisidia_Antioch
+take_regions 100
+short_campaign outlive_factions
+pontus seleucid anatolian_faction_01
+
+hellenic_faction_04
+hold_regions Pantikapaion Sinope Chersonesos Kotais Trapezous
+take_regions 100
+short_campaign outlive_factions
+pontus hellenic_faction_17 scythia
+
+hellenic_faction_05
+hold_regions Thermon Aigion Athens Knossos Pella
+take_regions 100
+short_campaign outlive_factions
+macedon hellenic_faction_13 hellenic_faction_14
+
+hellenic_faction_06
+hold_regions Rhodes Chalkis Halicarnasus Knossos Salamis
+take_regions 100
+short_campaign outlive_factions
+macedon hellenic_faction_07 hellenic_faction_08
+
+hellenic_faction_07
+hold_regions Knossos Alexandria Cyrene Rhodes Sparta
+take_regions 100
+short_campaign outlive_factions
+macedon hellenic_faction_06 hellenic_faction_08
+
+hellenic_faction_08
+hold_regions Cyrene Alexandria Pella Seleucia Sparta
+take_regions 100
+short_campaign outlive_factions
+egypt desert_faction_04 desert_faction_05
+
+hellenic_faction_09
+hold_regions Athens Sparta Pella Elis Halicarnasus
+take_regions 100
+short_campaign outlive_factions
+macedon hellenic_faction_01 hellenic_faction_05
+
+hellenic_faction_10
+hold_regions Kotais Trapezous Artaxarta Tushpa Mazaka
+take_regions 100
+short_campaign outlive_factions
+pontus armenia caucasian_faction_04
+
+hellenic_faction_11
+hold_regions Byzantium Nicomedia Tomis Odessos Themiskyra
+take_regions 100
+short_campaign outlive_factions
+thrace pontus hellenic_faction_18
+
+hellenic_faction_12
+hold_regions Dumatha Corduba Narbo_Martius Osca Palma
+take_regions 100
+short_campaign outlive_factions
+carthage spain iberian_faction_03
+
+hellenic_faction_13
+take_rome
+short_campaign outlive_factions
+macedon hellenic_faction_05 hellenic_faction_14
+
+hellenic_faction_14
+hold_regions Aigion Sparta Athens Thermon Pella
+take_regions 100
+short_campaign outlive_factions
+hellenic_faction_01 hellenic_faction_05 hellenic_faction_13
+
+hellenic_faction_15
+hold_regions Themiskyra Nicomedia Rize Pantikapaion Kotais
+take_regions 100
+short_campaign outlive_factions
+pontus armenia hellenic_faction_04
+
+hellenic_faction_16
+hold_regions Trapezous Themiskyra Nicomedia Pantikapaion Chersonesos
+take_regions 100
+short_campaign outlive_factions
+pontus armenia hellenic_faction_04
+
+hellenic_faction_17
+hold_regions Pantikapaion Sinope Chersonesos Kotais Trapezous
+take_regions 100
+short_campaign outlive_factions
+pontus hellenic_faction_04 scythia
+
+hellenic_faction_18
+hold_regions Pantikapaion Sinope Chersonesos Kotais Trapezous
+take_regions 100
+short_campaign outlive_factions
+thrace gallic_faction_14 hellenic_faction_11
+
+gallic_faction_01
+take_rome
+short_campaign outlive_factions
+romans_julii latin_faction_01 gallic_faction_02
+
+gallic_faction_02
+take_rome
+short_campaign outlive_factions
+romans_julii latin_faction_01 gallic_faction_01
+
+gallic_faction_03
+take_rome
+short_campaign outlive_factions
+romans_julii latin_faction_01 gallic_faction_02
+
+gallic_faction_04
+take_rome
+short_campaign outlive_factions
+romans_julii latin_faction_01 gallic_faction_03
+
+gallic_faction_05
+take_rome
+short_campaign outlive_factions
+gauls gallic_faction_06 gallic_faction_07
+
+gallic_faction_06
+take_rome
+short_campaign outlive_factions
+gauls hellenic_faction_02 hellenic_faction_12
+
+gallic_faction_07
+take_rome
+short_campaign outlive_factions
+britons gallic_faction_05 gallic_faction_08
+
+gallic_faction_08
+take_rome
+short_campaign outlive_factions
+britons gallic_faction_09 gallic_faction_12
+
+gallic_faction_09
+take_rome
+short_campaign outlive_factions
+gauls gallic_faction_08 gallic_faction_12
+
+gallic_faction_10
+take_rome
+short_campaign outlive_factions
+romans_julii gallic_faction_03 gallic_faction_04
+
+gallic_faction_11
+hold_regions Ancyra Pergamum Sardis Halicarnasus Sinope
+take_regions 100
+short_campaign outlive_factions
+pontus seleucid hellenic_faction_03
+
+gallic_faction_12
+take_rome
+short_campaign outlive_factions
+gauls gallic_faction_09 germanic_faction_05
+
+gallic_faction_13
+take_rome
+short_campaign outlive_factions
+romans_julii illyrian_faction_04 gallic_faction_15
+
+gallic_faction_14
+take_rome
+short_campaign outlive_factions
+macedon thrace hellenic_faction_11
+
+gallic_faction_15
+take_rome
+short_campaign outlive_factions
+romans_julii gallic_faction_03 gallic_faction_10
+
+gallic_faction_16
+take_rome
+short_campaign outlive_factions
+romans_julii latin_faction_01 gallic_faction_02
+
+gallic_faction_17
+take_rome
+short_campaign outlive_factions
+romans_julii gallic_faction_03 gallic_faction_10
+
+gallic_faction_18
+take_rome
+short_campaign outlive_factions
+romans_julii latin_faction_01 gallic_faction_02
+
+desert_faction_01
+hold_regions Tingi Walilt Iol Nepte Siga 
+take_regions 100
+short_campaign outlive_factions
+carthage carthage_barcid desert_faction_02
+
+desert_faction_02
+hold_regions Nepte Cirta Iol Lepcis_Magna Siga 
+take_regions 100
+short_campaign outlive_factions
+carthage carthage_barcid numidia
+
+desert_faction_03
+hold_regions Petra Alexandria Antioch Seleucia Cyrene
+take_regions 100
+short_campaign outlive_factions
+seleucid egypt desert_faction_06
+
+desert_faction_04
+hold_regions Augila Automala Charax Cyrene Alexandria
+take_regions 100
+short_campaign outlive_factions
+egypt hellenic_faction_08 desert_faction_05
+
+desert_faction_05
+hold_regions Augila Automala Charax Cyrene Garama
+take_regions 100
+short_campaign outlive_factions
+carthage carthage_magonid desert_faction_04
+
+desert_faction_06
+hold_regions Hegra Petra Alexandria Antioch Seleucia
+take_regions 100
+short_campaign outlive_factions
+seleucid egypt desert_faction_03
+
+desert_faction_07
+hold_regions Hegra Petra Alexandria Antioch Seleucia
+take_regions 100
+short_campaign outlive_factions
+seleucid egypt desert_faction_03
+
+desert_faction_08
+hold_regions Hegra Petra Alexandria Antioch Seleucia
+take_regions 100
+short_campaign outlive_factions
+seleucid egypt desert_faction_03
+
+iberian_faction_01
+hold_regions Vellika Corduba Dumatha Carthago_Nova Asturica
+take_regions 100
+short_campaign outlive_factions
+carthage iberian_faction_04 hellenic_faction_12
+
+iberian_faction_02
+hold_regions Asturica Corduba Dumatha Carthago_Nova Scallabis
+take_regions 100
+short_campaign outlive_factions
+carthage iberian_faction_05 hellenic_faction_12
+
+iberian_faction_03
+hold_regions Osca Corduba Dumatha Asturica Palma
+take_regions 100
+short_campaign outlive_factions
+carthage spain hellenic_faction_12
+
+iberian_faction_04
+hold_regions Bostra Corduba Dumatha Asturica Palma
+take_regions 100
+short_campaign outlive_factions
+carthage spain hellenic_faction_12
+
+iberian_faction_05
+hold_regions Carthago_Nova Corduba Dumatha Asturica Palma
+take_regions 100
+short_campaign outlive_factions
+carthage spain hellenic_faction_12
+
+iberian_faction_06
+hold_regions Ispal Corduba Carthago_Nova Dumatha Asturica
+take_regions 100
+short_campaign outlive_factions
+carthage spain iberian_faction_02
+
+iberian_faction_07
+hold_regions Scallabis Corduba Carthago_Nova Dumatha Asturica
+take_regions 100
+short_campaign outlive_factions
+carthage iberian_faction_05 iberian_faction_06
+
+iberian_faction_08
+hold_regions Burdigala Lemonum Massilia Dumatha Lugdunum
+take_regions 100
+short_campaign outlive_factions
+gauls hellenic_faction_02 hellenic_faction_12
+
+britanic_faction_01
+hold_regions Eburacum Deva Iska Tara Londinium
+take_regions 100
+short_campaign outlive_factions
+britons britanic_faction_02 britanic_faction_03
+
+britanic_faction_02
+hold_regions Deva Eburacum Iska Tara Londinium
+take_regions 100
+short_campaign outlive_factions
+britons britanic_faction_01 britanic_faction_03
+
+britanic_faction_03
+hold_regions Iska Deva Eburacum Tara Londinium
+take_regions 100
+short_campaign outlive_factions
+britons britanic_faction_01 britanic_faction_02
+
+britanic_faction_04
+hold_regions Tara Deva Eburacum Tara Londinium
+take_regions 100
+short_campaign outlive_factions
+britons britanic_faction_01 britanic_faction_02
+
+britanic_faction_05
+hold_regions Tara Deva Eburacum Tara Londinium
+take_regions 100
+short_campaign outlive_factions
+britons britanic_faction_01 britanic_faction_02
+
+germanic_faction_01
+take_rome
+short_campaign outlive_factions
+germans gallic_faction_08 germanic_faction_02
+
+germanic_faction_02
+take_rome
+short_campaign outlive_factions
+germans gallic_faction_08 gallic_faction_10
+
+germanic_faction_03
+take_rome
+short_campaign outlive_factions
+gallic_faction_10 gallic_faction_16 gallic_faction_08
+
+germanic_faction_04
+take_rome
+short_campaign outlive_factions
+germanic_faction_02 gallic_faction_10 gallic_faction_05
+
+germanic_faction_05
+take_rome
+short_campaign outlive_factions
+gallic_faction_10 dacian_faction_03 germanic_faction_06
+
+germanic_faction_06
+take_rome
+short_campaign outlive_factions
+germanic_faction_02 germanic_faction_05 gallic_faction_10
+
+germanic_faction_07
+take_rome
+short_campaign outlive_factions
+germanic_faction_02 dacian_faction_03 gallic_faction_10
+
+germanic_faction_08
+take_rome
+short_campaign outlive_factions
+germanic_faction_02 dacian_faction_03 gallic_faction_10
+
+germanic_faction_09
+take_rome
+short_campaign outlive_factions
+germanic_faction_02 dacian_faction_03 gallic_faction_10
+
+germanic_faction_10
+take_rome
+short_campaign outlive_factions
+germanic_faction_02 dacian_faction_03 gallic_faction_10
+
+thracian_faction_01
+take_rome
+short_campaign outlive_factions
+macedon illyrian_faction_04
+
+thracian_faction_02
+take_rome
+short_campaign outlive_factions
+macedon thrace
+
+illyrian_faction_01
+take_rome
+short_campaign outlive_factions
+macedon thracian_faction_01
+
+illyrian_faction_02
+take_rome
+short_campaign outlive_factions
+macedon thracian_faction_01
+
+illyrian_faction_03
+take_rome
+short_campaign outlive_factions
+macedon thracian_faction_01
+
+illyrian_faction_04
+take_rome
+short_campaign outlive_factions
+macedon thracian_faction_01
+
+illyrian_faction_05
+take_rome
+short_campaign outlive_factions
+macedon hellenic_faction_13
+
+steppe_faction_01
+take_rome
+short_campaign outlive_factions
+dacia scythia steppe_faction_02
+
+steppe_faction_02
+take_rome
+short_campaign outlive_factions
+dacia scythia steppe_faction_01
+
+steppe_faction_03
+hold_regions Campus_Alanni Campus_Scythii Vicus_Venedae Tanais Chersonesos
+take_regions 100
+short_campaign outlive_factions
+scythia steppe_faction_01 steppe_faction_02
+
+steppe_faction_04
+hold_regions Campus_Alanni Campus_Scythii Vicus_Venedae Tanais Chersonesos
+take_regions 100
+short_campaign outlive_factions
+scythia steppe_faction_02 steppe_faction_03
+
+steppe_faction_05
+hold_regions Campus_Alanni Campus_Scythii Vicus_Venedae Tanais Chersonesos
+take_regions 100
+short_campaign outlive_factions
+scythia steppe_faction_02 steppe_faction_03
+
+steppe_faction_06
+hold_regions Campus_Alanni Campus_Scythii Vicus_Venedae Tanais Chersonesos
+take_regions 100
+short_campaign outlive_factions
+scythia steppe_faction_02 steppe_faction_03
+
+steppe_faction_07
+hold_regions Campus_Alanni Campus_Scythii Vicus_Venedae Tanais Chersonesos
+take_regions 100
+short_campaign outlive_factions
+scythia steppe_faction_02 steppe_faction_03
+
+steppe_faction_08
+hold_regions Campus_Alanni Campus_Scythii Vicus_Venedae Tanais Chersonesos
+take_regions 100
+short_campaign outlive_factions
+scythia steppe_faction_02 steppe_faction_03
+
+latin_faction_01
+hold_regions Messana Rome Lilybaeum Syracuse Capua
+take_regions 100
+short_campaign outlive_factions
+romans_senate romans_julii romans_brutii romans_scipii
+
+latin_faction_02
+hold_regions Asculum Rome Capua Tarentum Ariminum
+take_regions 100
+short_campaign outlive_factions
+romans_senate romans_julii romans_brutii romans_scipii
+
+latin_faction_03
+hold_regions Arretium Rome Venusia Capua Lilybaeum
+take_regions 100
+short_campaign outlive_factions
+romans_senate romans_julii romans_brutii romans_scipii
+
+latin_faction_04
+hold_regions Maleventum Rome Tarentum Croton Ariminum
+take_regions 100
+short_campaign outlive_factions
+romans_senate romans_julii romans_brutii romans_scipii
+
+latin_faction_05
+hold_regions Arretium Rome Venusia Capua Lilybaeum
+take_regions 100
+short_campaign outlive_factions
+romans_senate romans_julii romans_brutii romans_scipii
+
+carthage_barcid
+hold_regions Carthage Rome Syracuse Carthago_Nova Bostra
+take_regions 100
+short_campaign outlive_factions
+romans_senate romans_julii romans_brutii romans_scipii
+
+carthage_hannonid
+hold_regions Carthage Rome Syracuse Carthago_Nova Bostra
+take_regions 100
+short_campaign outlive_factions
+romans_senate romans_julii romans_brutii romans_scipii
+
+carthage_magonid
+hold_regions Carthage Rome Syracuse Carthago_Nova Bostra
+take_regions 100
+short_campaign outlive_factions
+romans_senate romans_julii romans_brutii romans_scipii
+
+rebel_romans
+hold_regions Rome Narnia Tarentum Capua Carthage
+take_regions 100
+short_campaign outlive_factions
+romans_senate romans_julii romans_brutii romans_scipii
+
+rebel_carthage
+hold_regions Carthage Rome Syracuse Carthago_Nova Bostra
+take_regions 100
+short_campaign outlive_factions
+carthage carthage_barcid carthage_hannonid carthage_magonid
+
+rebel_parthia
+hold_regions Arsakia Antioch Seleucia Uruk Phraaspa
+take_regions 100
+short_campaign outlive_factions
+parthia seleucid
+
+rebel_judea
+hold_regions Jerusalem Antioch Alexandria Memphis Seleucia
+take_regions 100
+short_campaign outlive_factions
+anatolian_faction_02 seleucid egypt
+
+rebel_greek
+hold_regions Sparta Ambracia Athens Knossos Pella
+take_regions 100
+short_campaign outlive_factions
+macedon seleucid hellenic_faction_01
+
+rebel_egypt
+hold_regions Alexandria Pella Memphis Antioch Seleucia
+take_regions 100
+short_campaign outlive_factions
+anatolian_faction_02 seleucid egypt
+
+rebel_latin
+hold_regions Asculum Rome Capua Tarentum Ariminum
+take_regions 100
+short_campaign outlive_factions
+romans_senate romans_julii romans_brutii romans_scipii
+
+rebel_desert
+hold_regions Carthage Nepte Cirta Iol Siga 
+take_regions 100
+short_campaign outlive_factions
+carthage carthage_barcid carthage_hannonid carthage_magonid
+
+rebel_nuragic
+hold_regions Caralis Olbia Alalia Lilybaeum Panormus
+take_regions 100
+short_campaign outlive_factions
+romans_scipii carthage_hannonid carthage_magonid
+
+rebel_slave
+take_rome
+short_campaign outlive_factions
+romans_julii romans_brutii romans_scipii
