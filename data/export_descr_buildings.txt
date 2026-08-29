@@ -481,7 +481,7 @@ building core_building
 				religious_belief i_paganism 4 requires factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
 				religious_belief s_paganism 4 requires factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
 			}
-			construction  4 
+			construction  3 
 			cost  3200 
 			settlement_min city
 			upgrades
@@ -616,7 +616,7 @@ building core_building
 				religious_belief i_paganism 5 requires factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
 				religious_belief s_paganism 5 requires factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min large_city
 			upgrades
@@ -696,7 +696,7 @@ building defenses
 				happiness_bonus bonus 1 requires is_toggled "settlement condition"
 				law_bonus bonus 1 requires is_toggled "settlement condition"
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -715,7 +715,7 @@ building defenses
 				happiness_bonus bonus 1 requires is_toggled "settlement condition"
 				law_bonus bonus 2 requires is_toggled "settlement condition"
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -1090,7 +1090,7 @@ building barracks
 				recruit "merc barb scythian hoplite" 0 requires is_player and hidden_resource mercenary and religion s_paganism >= 20
 				recruit "merc east heavy infantry" 0 requires is_player and hidden_resource mercenary and religion zoroastrian >= 20 or religion oscan >= 20 or religion judaism >= 20
 			}
-			construction  4 
+			construction  3 
 			cost  2400 
 			settlement_min city
 			upgrades
@@ -1301,7 +1301,7 @@ building barracks
 				recruit "merc barb scythian hoplite" 0 requires is_player and hidden_resource mercenary and religion s_paganism >= 20
 				recruit "merc east heavy infantry" 0 requires is_player and hidden_resource mercenary and religion zoroastrian >= 20 or religion oscan >= 20 or religion judaism >= 20
 			}
-			construction  6 
+			construction  3 
 			cost  4800 
 			settlement_min large_city
 			upgrades
@@ -1554,7 +1554,7 @@ building barracks
 				recruit "merc barb scythian hoplite" 0 requires is_player and hidden_resource mercenary and religion s_paganism >= 20
 				recruit "merc east heavy infantry" 0 requires is_player and hidden_resource mercenary and religion zoroastrian >= 20 or religion oscan >= 20 or religion judaism >= 20
 			}
-			construction  7 
+			construction  3 
 			cost  9600 
 			settlement_min huge_city
 			upgrades
@@ -1819,7 +1819,7 @@ building equestrian
 				recruit "merc carthaginian medium cavalry" 0 requires is_player and hidden_resource mercenary and religion i_paganism >= 20
 				recruit "merc italian cavalry" 0 requires is_player and hidden_resource mercenary and religion samnite >= 20 or religion etruscan >= 20
 			}
-			construction  4 
+			construction  3 
 			cost  2400 
 			settlement_min city
 			upgrades
@@ -2024,7 +2024,7 @@ building equestrian
 
 				stage_races 1
 			}
-			construction  6 
+			construction  3 
 			cost  4800 
 			settlement_min large_city
 			upgrades
@@ -2247,7 +2247,7 @@ building equestrian
 
 				stage_races 2
 			}
-			construction  7 
+			construction  3 
 			cost  9600 
 			settlement_min huge_city
 			upgrades
@@ -2467,7 +2467,7 @@ building missiles
 				recruit "merc east archer" 0 requires is_player and hidden_resource mercenary and religion zoroastrian >= 20 or religion oscan >= 20
 				recruit "merc syrian archer" 0 requires hidden_resource syria and is_player and hidden_resource mercenary and religion mesopotamian >= 20
 			}
-			construction  4 
+			construction  3 
 			cost  2400 
 			settlement_min city
 			upgrades
@@ -2624,7 +2624,7 @@ building missiles
 				recruit "merc east archer" 0 requires is_player and hidden_resource mercenary and religion zoroastrian >= 20 or religion oscan >= 20
 				recruit "merc syrian archer" 0 requires hidden_resource syria and is_player and hidden_resource mercenary and religion mesopotamian >= 20
 			}
-			construction  6 
+			construction  3 
 			cost  4800 
 			settlement_min large_city
 			upgrades
@@ -2787,7 +2787,7 @@ building missiles
 				recruit "merc east archer" 0 requires is_player and hidden_resource mercenary and religion zoroastrian >= 20 or religion oscan >= 20
 				recruit "merc syrian archer" 0 requires hidden_resource syria and is_player and hidden_resource mercenary and religion mesopotamian >= 20
 			}
-			construction  7 
+			construction  3 
 			cost  9600 
 			settlement_min huge_city
 			upgrades
@@ -2851,7 +2851,7 @@ building market
 				agent_limit_settlement spy 1
 				agent_limit_settlement assassin 1
 			}
-			construction  4 
+			construction  3 
 			cost  2400 
 			settlement_min city
 			upgrades
@@ -2872,7 +2872,7 @@ building market
 				agent_limit_settlement spy 1
 				agent_limit_settlement assassin 1
 			}
-			construction  6 
+			construction  3 
 			cost  4800 
 			settlement_min large_city
 			upgrades
@@ -2894,7 +2894,7 @@ building market
 				agent_limit_settlement spy 1
 				agent_limit_settlement assassin 1
 			}
-			construction  7 
+			construction  3 
 			cost  9600 
 			settlement_min huge_city
 			upgrades
@@ -2964,7 +2964,7 @@ building smith
 				weapon_missile 1
 				armour 1
 			}
-			construction  4 
+			construction  3 
 			cost  2400 
 			settlement_min city
 			upgrades
@@ -3000,7 +3000,7 @@ building smith
 				weapon_missile 2
 				armour 2
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -3087,7 +3087,7 @@ building port_buildings
 
 				trade_fleet 3 ;trade_base_income_bonus bonus 2
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -3138,7 +3138,7 @@ building health
 			{
 				population_health_bonus bonus 3
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -3152,7 +3152,7 @@ building health
 			{
 				population_health_bonus bonus 4
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -3203,7 +3203,7 @@ building hinterland_farms
 			{
 				farming_level 3
 			}
-			construction  4 
+			construction  3 
 			cost  2400 
 			settlement_min city
 			upgrades
@@ -3217,7 +3217,7 @@ building hinterland_farms
 			{
 				farming_level 4
 			}
-			construction  6 
+			construction  3 
 			cost  4800 
 			settlement_min large_city
 			upgrades
@@ -3231,7 +3231,7 @@ building hinterland_farms
 			{
 				farming_level 5
 			}
-			construction  7 
+			construction  3 
 			cost  9600 
 			settlement_min huge_city
 			upgrades
@@ -3282,7 +3282,7 @@ building hinterland_roads
 			{
 				road_level 2
 			}
-			construction  4 
+			construction  3 
 			cost  2400 
 			settlement_min city
 			upgrades
@@ -3381,7 +3381,7 @@ building academic
 				religious_belief samnite 1 requires building_factions { latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, }
 				religious_belief zoroastrian 1 requires building_factions { parthia, rebel_parthia, armenia, caucasian_faction_03, caucasian_faction_04, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -3407,7 +3407,7 @@ building academic
 				religious_belief samnite 1 requires building_factions { latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, }
 				religious_belief zoroastrian 1 requires building_factions { parthia, rebel_parthia, armenia, caucasian_faction_03, caucasian_faction_04, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -3451,7 +3451,7 @@ building amphitheatres
 				happiness_bonus bonus 2
 				religious_belief roman 1
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -3470,7 +3470,7 @@ building amphitheatres
 				happiness_bonus bonus 3
 				religious_belief roman 1
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -3511,7 +3511,7 @@ building theatres
 				religious_belief hellenic 1 requires not building_factions { hellenic_faction_10, }
 				religious_belief oscan 1 requires building_factions { hellenic_faction_10, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -3527,7 +3527,7 @@ building theatres
 				religious_belief hellenic 1 requires not building_factions { hellenic_faction_10, }
 				religious_belief oscan 1 requires building_factions { hellenic_faction_10, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -3576,7 +3576,7 @@ building despotic_law
 				religious_belief punic 1 requires building_factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
 				religious_belief zoroastrian 1 requires building_factions { parthia, rebel_parthia, armenia, caucasian_faction_03, caucasian_faction_04, pontus, anatolian_faction_01, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -3596,7 +3596,7 @@ building despotic_law
 				religious_belief punic 1 requires building_factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
 				religious_belief zoroastrian 1 requires building_factions { parthia, rebel_parthia, armenia, caucasian_faction_03, caucasian_faction_04, pontus, anatolian_faction_01, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -3641,7 +3641,7 @@ building caravans
 				religious_belief oscan 1 requires building_factions { caucasian_faction_01, caucasian_faction_02, }
 				religious_belief zoroastrian 1 requires building_factions { parthia, rebel_parthia, armenia, caucasian_faction_03, caucasian_faction_04, pontus, anatolian_faction_01, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -3660,7 +3660,7 @@ building caravans
 				religious_belief oscan 1 requires building_factions { caucasian_faction_01, caucasian_faction_02, }
 				religious_belief zoroastrian 1 requires building_factions { parthia, rebel_parthia, armenia, caucasian_faction_03, caucasian_faction_04, pontus, anatolian_faction_01, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -3806,7 +3806,7 @@ building temple_of_battle
 				religious_belief b_paganism 8 requires building_factions { tracian_illyrian, barbarian, }
 				religious_belief samnite 8 requires building_factions { italic, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -3828,7 +3828,7 @@ building temple_of_battle
 				religious_belief b_paganism 10 requires building_factions { tracian_illyrian, barbarian, }
 				religious_belief samnite 10 requires building_factions { italic, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -3939,7 +3939,7 @@ building temple_of_battleforge
 				religious_belief oscan 8 requires building_factions { caucasian_faction_01, caucasian_faction_02, }
 				religious_belief nuragic 8 requires building_factions { rebel_nuragic, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -3966,7 +3966,7 @@ building temple_of_battleforge
 				religious_belief oscan 10 requires building_factions { caucasian_faction_01, caucasian_faction_02, }
 				religious_belief nuragic 10 requires building_factions { rebel_nuragic, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -4071,7 +4071,7 @@ building temple_of_farming
 				religious_belief hellenic 8 requires building_factions { greek, }
 				religious_belief samnite 8 requires building_factions { italic, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -4096,7 +4096,7 @@ building temple_of_farming
 				religious_belief hellenic 10 requires building_factions { greek, }
 				religious_belief samnite 10 requires building_factions { italic, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -4198,7 +4198,7 @@ building temple_of_fertility
 				religious_belief roman 8 requires building_factions { roman, }
 				religious_belief samnite 8 requires building_factions { italic, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -4222,7 +4222,7 @@ building temple_of_fertility
 				religious_belief roman 10 requires building_factions { roman, }
 				religious_belief samnite 10 requires building_factions { italic, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -4322,7 +4322,7 @@ building temple_of_forge
 				religious_belief hellenic 8 requires building_factions { greek, }
 				religious_belief roman 8 requires building_factions { roman, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -4347,7 +4347,7 @@ building temple_of_forge
 				religious_belief hellenic 10 requires building_factions { greek, }
 				religious_belief roman 10 requires building_factions { roman, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -4451,7 +4451,7 @@ building temple_of_fun
 				religious_belief roman 8 requires building_factions { roman, }
 				religious_belief samnite 8 requires building_factions { italic, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -4477,7 +4477,7 @@ building temple_of_fun
 				religious_belief roman 10 requires building_factions { roman, }
 				religious_belief samnite 10 requires building_factions { italic, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -4565,7 +4565,7 @@ building temple_of_governors
 				law_bonus bonus 4
 				religious_belief hellenic 8 requires building_factions { greek, eastern, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -4589,7 +4589,7 @@ building temple_of_governors
 				weapon_missile bonus 2
 				religious_belief hellenic 10 requires building_factions { greek, eastern, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -4703,7 +4703,7 @@ building temple_of_healing
 				religious_belief roman 8 requires building_factions { roman, }
 				religious_belief etruscan 8 requires building_factions { italic, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -4732,7 +4732,7 @@ building temple_of_healing
 				religious_belief roman 10 requires building_factions { roman, }
 				religious_belief etruscan 10 requires building_factions { italic, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -4826,7 +4826,7 @@ building temple_of_horse
 				religious_belief i_paganism 8 requires building_factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
 				religious_belief nuragic 8 requires building_factions { rebel_nuragic, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -4847,7 +4847,7 @@ building temple_of_horse
 				religious_belief i_paganism 10 requires building_factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
 				religious_belief nuragic 10 requires building_factions { rebel_nuragic, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -4941,7 +4941,7 @@ building temple_of_hunting
 				religious_belief i_paganism 8 requires building_factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
 				religious_belief hellenic 8 requires building_factions { greek, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -4964,7 +4964,7 @@ building temple_of_hunting
 				religious_belief i_paganism 10 requires building_factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
 				religious_belief hellenic 10 requires building_factions { greek, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -5082,7 +5082,7 @@ building temple_of_justice
 				religious_belief arab 8 requires building_factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
 				religious_belief nuragic 8 requires building_factions { rebel_nuragic, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -5114,7 +5114,7 @@ building temple_of_justice
 				religious_belief arab 10 requires building_factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
 				religious_belief nuragic 10 requires building_factions { rebel_nuragic, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -5208,7 +5208,7 @@ building temple_of_law
 				religious_belief egyptian 8 requires building_factions { egyptian, }
 				religious_belief roman 8 requires building_factions { roman, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -5233,7 +5233,7 @@ building temple_of_law
 				religious_belief egyptian 10 requires building_factions { egyptian, }
 				religious_belief roman 10 requires building_factions { roman, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -5337,7 +5337,7 @@ building temple_of_leadership
 				religious_belief roman 8 requires building_factions { roman, }
 				religious_belief etruscan 8 requires building_factions { italic, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -5363,7 +5363,7 @@ building temple_of_leadership
 				religious_belief roman 10 requires building_factions { roman, }
 				religious_belief etruscan 10 requires building_factions { italic, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -5465,7 +5465,7 @@ building temple_of_love
 				religious_belief oscan 8 requires building_factions { hellenic_faction_10, }
 				religious_belief samnite 8 requires building_factions { italic, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -5491,7 +5491,7 @@ building temple_of_love
 				religious_belief oscan 10 requires building_factions { hellenic_faction_10, }
 				religious_belief samnite 10 requires building_factions { italic, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -5577,7 +5577,7 @@ building temple_of_naval
 				religious_belief roman 8 requires building_factions { roman, }
 				religious_belief etruscan 8 requires building_factions { italic, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -5602,7 +5602,7 @@ building temple_of_naval
 				weapon_bladed bonus 1
 				armour bonus 1
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -5694,7 +5694,7 @@ building temple_of_one_god
 				religious_belief zoroastrian 8 requires building_factions { eastern, }
 				religious_belief egyptian 8 requires building_factions { egyptian, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -5715,7 +5715,7 @@ building temple_of_one_god
 				religious_belief zoroastrian 10 requires building_factions { eastern, }
 				religious_belief egyptian 10 requires building_factions { egyptian, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -5833,7 +5833,7 @@ building temple_of_trade
 				religious_belief oscan 8 requires building_factions { hellenic_faction_10, }
 				religious_belief samnite 8 requires building_factions { italic, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -5863,7 +5863,7 @@ building temple_of_trade
 				religious_belief oscan 10 requires building_factions { hellenic_faction_10, }
 				religious_belief samnite 10 requires building_factions { italic, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -5968,7 +5968,7 @@ building temple_of_victory
 				religious_belief zoroastrian 8 requires building_factions { eastern, }
 				religious_belief etruscan 8 requires building_factions { italic, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -5995,7 +5995,7 @@ building temple_of_victory
 				religious_belief zoroastrian 10 requires building_factions { eastern, }
 				religious_belief etruscan 10 requires building_factions { italic, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -6094,7 +6094,7 @@ building temple_of_violence
 				religious_belief roman 8 requires building_factions { roman, }
 				religious_belief samnite 8 requires building_factions { italic, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -6120,7 +6120,7 @@ building temple_of_violence
 				religious_belief roman 10 requires building_factions { roman, }
 				religious_belief samnite 10 requires building_factions { italic, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -6345,7 +6345,7 @@ building temple_of_judaism
 				trade_base_income_bonus bonus 4 requires not factions { anatolian_faction_02, rebel_judea, } and hidden_resource jerusalem
 				religious_belief judaism 8 
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -6363,7 +6363,7 @@ building temple_of_judaism
 				trade_base_income_bonus bonus 5 requires not factions { anatolian_faction_02, rebel_judea, } and hidden_resource jerusalem
 				religious_belief judaism 10 
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
