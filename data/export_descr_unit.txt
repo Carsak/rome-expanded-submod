@@ -6858,7 +6858,7 @@ stat_mental					7, normal, trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 440, 170, 50, 70, 440
+stat_cost					1, 528, 200, 50, 70, 440
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman
 ethnicity					romans_brutii, Bruttium
@@ -6890,7 +6890,7 @@ stat_mental					7, disciplined, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 490, 170, 50, 80, 490
+stat_cost					1, 588, 250, 50, 80, 490
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman
 ethnicity					romans_brutii, Bruttium
@@ -6923,7 +6923,7 @@ stat_mental					11, disciplined, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 500, 210, 50, 80, 500
+stat_cost					1, 600, 238, 50, 80, 500
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman
 ethnicity					romans_brutii, Bruttium
@@ -6955,7 +6955,7 @@ stat_mental					7, disciplined, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 430, 170, 50, 70, 430
+stat_cost					1, 516, 238, 50, 70, 430
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman
 ethnicity					romans_brutii, Bruttium
@@ -6987,7 +6987,7 @@ stat_mental					11, disciplined, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 610, 210, 70, 100, 610
+stat_cost					1, 732, 300, 70, 100, 610
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman
 ethnicity					romans_brutii, Bruttium
@@ -7020,7 +7020,7 @@ stat_mental					11, disciplined, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 1010, 310, 110, 160, 1010
+stat_cost					2, 1212, 434, 110, 160, 1010
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman
 ethnicity					romans_brutii, Bruttium
@@ -7052,7 +7052,7 @@ stat_mental					11, disciplined, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 740, 210, 80, 120, 740
+stat_cost					1, 888, 300, 80, 120, 740
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman
 ethnicity					romans_brutii, Bruttium
@@ -7085,7 +7085,7 @@ stat_mental					11, disciplined, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 1220, 310, 130, 190, 1220
+stat_cost					2, 1464, 434, 130, 190, 1220
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman
 ethnicity					romans_brutii, Bruttium
@@ -7117,7 +7117,7 @@ stat_mental					11, disciplined, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 810, 320, 90, 130, 810
+stat_cost					2, 972, 448, 90, 130, 810
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman
 ethnicity					romans_brutii, Bruttium
@@ -7150,7 +7150,7 @@ stat_mental					13, disciplined, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 860, 320, 90, 130, 860
+stat_cost					2, 1032, 448, 90, 130, 860
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman
 ethnicity					romans_brutii, Bruttium
@@ -7181,7 +7181,7 @@ stat_mental					11, normal, untrained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 900, 160, 90, 140, 900
+stat_cost					2, 1080, 224, 90, 140, 900
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman
 ethnicity					romans_brutii, Bruttium
