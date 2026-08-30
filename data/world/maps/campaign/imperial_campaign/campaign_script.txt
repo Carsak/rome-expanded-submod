@@ -3267,6 +3267,35 @@ script
 	end_monitor
 
 ;
+; Carthaginian Barracks Conversion
+;
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = convert_barracks_1
+		destroy_building "local" barracks
+		console_command create_building local muster_field
+	end_monitor
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = convert_barracks_2
+		destroy_building "local" barracks
+		console_command create_building local militia_barracks
+	end_monitor
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = convert_barracks_3
+		destroy_building "local" barracks
+		console_command create_building local city_barracks
+	end_monitor
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = convert_barracks_4
+		destroy_building "local" barracks
+		console_command create_building local army_barracks
+	end_monitor
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = convert_barracks_5
+		destroy_building "local" barracks
+		console_command create_building local royal_barracks
+	end_monitor
+
+;
 ; Rebel Spawn
 ;
 
