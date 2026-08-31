@@ -1570,8 +1570,8 @@ building barracks
 			capability
 			{
 			}
-			construction  1
-			cost  300
+			construction  2
+			cost  600
 			settlement_min town
 			upgrades
 			{
@@ -1582,8 +1582,8 @@ building barracks
 			capability
 			{
 			}
-			construction  1
-			cost  600
+			construction  3
+			cost  1200
 			settlement_min large_town
 			upgrades
 			{
@@ -1594,8 +1594,8 @@ building barracks
 			capability
 			{
 			}
-			construction  1
-			cost  1200
+			construction  3
+			cost  2400
 			settlement_min city
 			upgrades
 			{
@@ -1606,8 +1606,8 @@ building barracks
 			capability
 			{
 			}
-			construction  1
-			cost  2400
+			construction  3
+			cost  4800
 			settlement_min large_city
 			upgrades
 			{
@@ -1621,7 +1621,7 @@ building barracks
 building equestrian
 {
 	icon cavalry
-	levels stables cavalry_barracks hippodrome circus_maximus 
+	levels stables cavalry_barracks hippodrome circus_maximus convert_equestrian_1 convert_equestrian_2 convert_equestrian_3 convert_equestrian_4
 	{
 		stables requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
 		{
@@ -1719,6 +1719,7 @@ building equestrian
 			upgrades
 			{
 				cavalry_barracks
+				convert_equestrian_1 requires factions { carthaginian, } and is_player
 			}
 		}
 		cavalry_barracks requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
@@ -1877,6 +1878,7 @@ building equestrian
 			upgrades
 			{
 				hippodrome
+				convert_equestrian_2 requires factions { carthaginian, } and is_player
 			}
 		}
 		hippodrome requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
@@ -2082,6 +2084,7 @@ building equestrian
 			upgrades
 			{
 				circus_maximus
+				convert_equestrian_3 requires factions { carthaginian, } and is_player
 			}
 		}
 		circus_maximus requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
@@ -2304,6 +2307,55 @@ building equestrian
 			settlement_min huge_city
 			upgrades
 			{
+				convert_equestrian_4 requires factions { carthaginian, } and is_player
+			}
+		}
+		convert_equestrian_1 requires factions { carthaginian, } and is_player
+		{
+			capability
+			{
+			}
+			construction  3
+			cost  1200
+			settlement_min large_town
+			upgrades
+			{
+			}
+		}
+		convert_equestrian_2 requires factions { carthaginian, } and is_player
+		{
+			capability
+			{
+			}
+			construction  3
+			cost  2400
+			settlement_min city
+			upgrades
+			{
+			}
+		}
+		convert_equestrian_3 requires factions { carthaginian, } and is_player
+		{
+			capability
+			{
+			}
+			construction  3
+			cost  4800
+			settlement_min large_city
+			upgrades
+			{
+			}
+		}
+		convert_equestrian_4 requires factions { carthaginian, } and is_player
+		{
+			capability
+			{
+			}
+			construction  3
+			cost  9600
+			settlement_min huge_city
+			upgrades
+			{
 			}
 		}
 	}
@@ -2314,7 +2366,7 @@ building equestrian
 building missiles
 {
 	icon ranged
-	levels practice_field archery_range catapult_range siege_engineer 
+	levels practice_field archery_range catapult_range siege_engineer convert_missiles_1 convert_missiles_2 convert_missiles_3 convert_missiles_4
 	{
 		practice_field requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, } 
 		{
@@ -2395,6 +2447,7 @@ building missiles
 			upgrades
 			{
 				archery_range
+				convert_missiles_1 requires factions { carthaginian, } and is_player
 			}
 		}
 		archery_range requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
@@ -2525,6 +2578,7 @@ building missiles
 			upgrades
 			{
 				catapult_range
+				convert_missiles_2 requires factions { carthaginian, } and is_player
 			}
 		}
 		catapult_range requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
@@ -2682,6 +2736,7 @@ building missiles
 			upgrades
 			{
 				siege_engineer
+				convert_missiles_3 requires factions { carthaginian, } and is_player
 			}
 		}
 		siege_engineer requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
@@ -2841,6 +2896,55 @@ building missiles
 			}
 			construction  3 
 			cost  9600 
+			settlement_min huge_city
+			upgrades
+			{
+				convert_missiles_4 requires factions { carthaginian, } and is_player
+			}
+		}
+		convert_missiles_1 requires factions { carthaginian, } and is_player
+		{
+			capability
+			{
+			}
+			construction  3
+			cost  1200
+			settlement_min large_town
+			upgrades
+			{
+			}
+		}
+		convert_missiles_2 requires factions { carthaginian, } and is_player
+		{
+			capability
+			{
+			}
+			construction  3
+			cost  2400
+			settlement_min city
+			upgrades
+			{
+			}
+		}
+		convert_missiles_3 requires factions { carthaginian, } and is_player
+		{
+			capability
+			{
+			}
+			construction  3
+			cost  4800
+			settlement_min large_city
+			upgrades
+			{
+			}
+		}
+		convert_missiles_4 requires factions { carthaginian, } and is_player
+		{
+			capability
+			{
+			}
+			construction  3
+			cost  9600
 			settlement_min huge_city
 			upgrades
 			{

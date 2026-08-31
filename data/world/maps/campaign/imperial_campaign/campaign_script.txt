@@ -3291,6 +3291,54 @@ script
 	end_monitor
 
 ;
+; Carthaginian Equestrian Conversion
+;
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = convert_equestrian_1
+		destroy_building "local" equestrian
+		console_command create_building local stables
+	end_monitor
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = convert_equestrian_2
+		destroy_building "local" equestrian
+		console_command create_building local cavalry_barracks
+	end_monitor
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = convert_equestrian_3
+		destroy_building "local" equestrian
+		console_command create_building local hippodrome
+	end_monitor
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = convert_equestrian_4
+		destroy_building "local" equestrian
+		console_command create_building local circus_maximus
+	end_monitor
+
+;
+; Carthaginian Missile Range Conversion
+;
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = convert_missiles_1
+		destroy_building "local" missiles
+		console_command create_building local practice_field
+	end_monitor
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = convert_missiles_2
+		destroy_building "local" missiles
+		console_command create_building local archery_range
+	end_monitor
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = convert_missiles_3
+		destroy_building "local" missiles
+		console_command create_building local catapult_range
+	end_monitor
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = convert_missiles_4
+		destroy_building "local" missiles
+		console_command create_building local siege_engineer
+	end_monitor
+
+;
 ; Rebel Spawn
 ;
 

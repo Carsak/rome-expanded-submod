@@ -5,11 +5,11 @@
 	},
 	{
 		"filename": "data\/export_descr_buildings.txt",
-		"checksum": 2314358226
+		"checksum": 2081992143
 	},
 	{
 		"filename": "data\/export_descr_buildings_enums.txt",
-		"checksum": 1342962699
+		"checksum": 174066090
 	},
 	{
 		"filename": "data\/export_descr_unit.txt",
@@ -21,11 +21,11 @@
 	},
 	{
 		"filename": "data\/text\/export_buildings.txt",
-		"checksum": 337504536
+		"checksum": 161204613
 	},
 	{
 		"filename": "data\/text\/export_buildings_mac_ru.txt",
-		"checksum": 371983072
+		"checksum": 688259676
 	},
 	{
 		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_convert_barracks_1.tga",
@@ -60,6 +60,70 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_convert_equestrian_1.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_convert_equestrian_1_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_convert_equestrian_2.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_convert_equestrian_2_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_convert_equestrian_3.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_convert_equestrian_3_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_convert_equestrian_4.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_convert_equestrian_4_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_convert_missiles_1.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_convert_missiles_1_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_convert_missiles_2.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_convert_missiles_2_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_convert_missiles_3.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_convert_missiles_3_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_convert_missiles_4.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_convert_missiles_4_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/ui\/carthaginian\/buildings\/construction\/#carthaginian_convert_barracks_1.tga",
 		"checksum": "Blacklisted"
 	},
@@ -76,8 +140,40 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/carthaginian\/buildings\/construction\/#carthaginian_convert_equestrian_1.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/construction\/#carthaginian_convert_equestrian_2.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/construction\/#carthaginian_convert_equestrian_3.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/construction\/#carthaginian_convert_equestrian_4.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/construction\/#carthaginian_convert_missiles_1.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/construction\/#carthaginian_convert_missiles_2.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/construction\/#carthaginian_convert_missiles_3.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/construction\/#carthaginian_convert_missiles_4.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/campaign_script.txt",
-		"checksum": 953907153
+		"checksum": 2372588200
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_disasters.txt",
