@@ -5,7 +5,11 @@
 	},
 	{
 		"filename": "data\/export_descr_buildings.txt",
-		"checksum": 2768892181
+		"checksum": 3215849242
+	},
+	{
+		"filename": "data\/export_descr_buildings_enums.txt",
+		"checksum": 1342962699
 	},
 	{
 		"filename": "data\/export_descr_unit.txt",
@@ -16,8 +20,64 @@
 		"checksum": 316650023
 	},
 	{
+		"filename": "data\/text\/export_buildings.txt",
+		"checksum": 337504536
+	},
+	{
+		"filename": "data\/text\/export_buildings_mac_ru.txt",
+		"checksum": 371983072
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_convert_barracks_1.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_convert_barracks_1_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_convert_barracks_2.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_convert_barracks_2_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_convert_barracks_3.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_convert_barracks_3_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_convert_barracks_4.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_convert_barracks_4_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/construction\/#carthaginian_convert_barracks_1.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/construction\/#carthaginian_convert_barracks_2.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/construction\/#carthaginian_convert_barracks_3.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/construction\/#carthaginian_convert_barracks_4.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/campaign_script.txt",
-		"checksum": 3028918825
+		"checksum": 953907153
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_disasters.txt",
@@ -29,7 +89,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_mercenaries.txt",
-		"checksum": 2938883793
+		"checksum": 2830944674
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_regions.txt",

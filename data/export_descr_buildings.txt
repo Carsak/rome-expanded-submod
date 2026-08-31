@@ -730,7 +730,7 @@ building defenses
 building barracks
 {
 	icon infantry
-	levels muster_field militia_barracks city_barracks army_barracks royal_barracks convert_barracks_1 convert_barracks_2 convert_barracks_3 convert_barracks_4 convert_barracks_5
+	levels muster_field militia_barracks city_barracks army_barracks royal_barracks convert_barracks_1 convert_barracks_2 convert_barracks_3 convert_barracks_4
 	{
 		muster_field requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, } 
 		{
@@ -1310,7 +1310,7 @@ building barracks
 			upgrades
 			{
 				royal_barracks
-				convert_barracks_4 requires factions { carthaginian, } and is_player and not building_factions { carthaginian, }
+				convert_barracks_4 requires factions { carthaginian, } and is_player
 			}
 		}
 		royal_barracks requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
@@ -1563,7 +1563,6 @@ building barracks
 			settlement_min huge_city
 			upgrades
 			{
-				convert_barracks_5 requires factions { carthaginian, } and is_player and not building_factions { carthaginian, }
 			}
 		}
 		convert_barracks_1 requires factions { carthaginian, } and is_player
@@ -1610,18 +1609,6 @@ building barracks
 			construction  1
 			cost  2400
 			settlement_min large_city
-			upgrades
-			{
-			}
-		}
-		convert_barracks_5 requires factions { carthaginian, } and is_player
-		{
-			capability
-			{
-			}
-			construction  1
-			cost  4800
-			settlement_min huge_city
 			upgrades
 			{
 			}

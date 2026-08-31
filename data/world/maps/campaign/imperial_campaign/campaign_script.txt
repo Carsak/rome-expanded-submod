@@ -3290,11 +3290,6 @@ script
 		console_command create_building local army_barracks
 	end_monitor
 
-	monitor_event BuildingCompleted SettlementBuildingFinished = convert_barracks_5
-		destroy_building "local" barracks
-		console_command create_building local royal_barracks
-	end_monitor
-
 ;
 ; Rebel Spawn
 ;
