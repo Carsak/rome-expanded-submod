@@ -3897,7 +3897,7 @@ stat_mental					5, normal, trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 720, 110, 80, 110, 720
+stat_cost					1, 720, 250, 80, 110, 720
 recruit_priority_offset		0
 ownership					slave, rebel_slave, carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_04, desert_faction_05, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert
 ethnicity					carthage, Africa
@@ -3950,7 +3950,7 @@ stat_mental					5, normal, trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 930, 110, 100, 140, 930
+stat_cost					2, 930, 250, 100, 140, 930
 recruit_priority_offset		0
 ownership					slave, rebel_slave, carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage
 ethnicity					carthage, Africa
@@ -4884,7 +4884,7 @@ stat_mental					5, normal, trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 740, 120, 80, 120, 740
+stat_cost					1, 740, 250, 80, 120, 740
 recruit_priority_offset		0
 ownership					slave, rebel_slave, eastern
 ethnicity					armenia, Armenia
@@ -5401,7 +5401,7 @@ stat_mental					5, normal, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 720, 110, 80, 110, 720
+stat_cost					1, 720, 250, 80, 110, 720
 recruit_priority_offset		0
 ownership					slave, rebel_slave, egyptian
 ethnicity					egypt, Nile_Delta
@@ -5431,7 +5431,7 @@ stat_mental					5, normal, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 930, 110, 100, 140, 930
+stat_cost					2, 930, 250, 100, 140, 930
 recruit_priority_offset		0
 ownership					slave, rebel_slave, egyptian
 ethnicity					egypt, Nile_Delta
@@ -6511,7 +6511,7 @@ stat_mental					5, normal, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 720, 110, 80, 110, 720
+stat_cost					1, 720, 250, 80, 110, 720
 recruit_priority_offset		0
 ownership					slave, rebel_slave, greek, tracian_illyrian
 ethnicity					greek_cities, Sicilia_Graecus
@@ -6546,7 +6546,7 @@ stat_mental					5, normal, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 930, 110, 100, 140, 930
+stat_cost					2, 930, 250, 100, 140, 930
 recruit_priority_offset		0
 ownership					slave, rebel_slave, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, macedon, hellenic_faction_13
 ethnicity					greek_cities, Sicilia_Graecus
@@ -7676,7 +7676,7 @@ stat_mental					7, normal, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 830, 120, 90, 130, 830
+stat_cost					1, 830, 300, 90, 130, 830
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman
 ethnicity					romans_brutii, Bruttium
@@ -7708,7 +7708,7 @@ stat_mental					7, normal, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 1050, 120, 110, 160, 1050
+stat_cost					2, 1050, 300, 110, 160, 1050
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman
 ethnicity					romans_brutii, Bruttium
@@ -7740,7 +7740,7 @@ stat_mental					7, normal, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 460, 160, 50, 70, 460
+stat_cost					2, 460, 200, 50, 70, 460
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman
 ethnicity					romans_brutii, Bruttium
@@ -9105,7 +9105,7 @@ stat_mental					5, disciplined, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 1500, 140, 90, 140, 1500
+stat_cost					1, 1500, 300, 90, 140, 1500
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman, barbarian, carthaginian, greek, egyptian, eastern, tracian_illyrian, italic
 
