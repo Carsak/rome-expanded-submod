@@ -1,4 +1,4 @@
-; classification option (inside `building` and before first `levels`)
+﻿; classification option (inside `building` and before first `levels`)
 ; Example:
 ;	 classification core|defence|military|trade|water|culture|religious (deprecated, but recognised:fortification|infrastructure|other)
 ; This tells the game which category of the building browser to use.
@@ -798,7 +798,7 @@ building barracks
 			upgrades
 			{
 				militia_barracks
-				convert_barracks_1 requires factions { carthaginian, } and is_player
+				convert_barracks_1 requires factions { carthaginian, } and is_player and not hidden_resource barracks_built_by_carthaginian
 			}
 		}
 		militia_barracks requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
@@ -926,7 +926,7 @@ building barracks
 			upgrades
 			{
 				city_barracks
-				convert_barracks_2 requires factions { carthaginian, } and is_player
+				convert_barracks_2 requires factions { carthaginian, } and is_player and not hidden_resource barracks_built_by_carthaginian
 			}
 		}
 		city_barracks requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
@@ -1098,7 +1098,7 @@ building barracks
 			upgrades
 			{
 				army_barracks
-				convert_barracks_3 requires factions { carthaginian, } and is_player
+				convert_barracks_3 requires factions { carthaginian, } and is_player and not hidden_resource barracks_built_by_carthaginian
 			}
 		}
 		army_barracks requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
@@ -1310,7 +1310,7 @@ building barracks
 			upgrades
 			{
 				royal_barracks
-				convert_barracks_4 requires factions { carthaginian, } and is_player
+				convert_barracks_4 requires factions { carthaginian, } and is_player and not hidden_resource barracks_built_by_carthaginian
 			}
 		}
 		royal_barracks requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
@@ -1565,7 +1565,7 @@ building barracks
 			{
 			}
 		}
-		convert_barracks_1 requires factions { carthaginian, } and is_player
+		convert_barracks_1 requires factions { carthaginian, } and is_player and not hidden_resource barracks_built_by_carthaginian
 		{
 			capability
 			{
@@ -1577,7 +1577,7 @@ building barracks
 			{
 			}
 		}
-		convert_barracks_2 requires factions { carthaginian, } and is_player
+		convert_barracks_2 requires factions { carthaginian, } and is_player and not hidden_resource barracks_built_by_carthaginian
 		{
 			capability
 			{
@@ -1589,7 +1589,7 @@ building barracks
 			{
 			}
 		}
-		convert_barracks_3 requires factions { carthaginian, } and is_player
+		convert_barracks_3 requires factions { carthaginian, } and is_player and not hidden_resource barracks_built_by_carthaginian
 		{
 			capability
 			{
@@ -1601,7 +1601,7 @@ building barracks
 			{
 			}
 		}
-		convert_barracks_4 requires factions { carthaginian, } and is_player
+		convert_barracks_4 requires factions { carthaginian, } and is_player and not hidden_resource barracks_built_by_carthaginian
 		{
 			capability
 			{

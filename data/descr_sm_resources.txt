@@ -1,4 +1,4 @@
-"resources":
+﻿"resources":
 [
 
 	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -1518,6 +1518,43 @@
 		"subtype": "hidden",
 	},
 	"owner_thracian":
+	{
+		"subtype": "hidden",
+	},
+
+	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	;;     BARRACKS ORIGIN MARKERS       ;;
+	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	"barracks_built_by_tracian_illyrian":
+	{
+		"subtype": "hidden",
+	},
+	"barracks_built_by_barbarian":
+	{
+		"subtype": "hidden",
+	},
+	"barracks_built_by_carthaginian":
+	{
+		"subtype": "hidden",
+	},
+	"barracks_built_by_eastern":
+	{
+		"subtype": "hidden",
+	},
+	"barracks_built_by_egyptian":
+	{
+		"subtype": "hidden",
+	},
+	"barracks_built_by_greek":
+	{
+		"subtype": "hidden",
+	},
+	"barracks_built_by_roman":
+	{
+		"subtype": "hidden",
+	},
+	"barracks_built_by_italic":
 	{
 		"subtype": "hidden",
 	},
