@@ -1,4 +1,4 @@
-﻿; classification option (inside `building` and before first `levels`)
+; classification option (inside `building` and before first `levels`)
 ; Example:
 ;	 classification core|defence|military|trade|water|culture|religious (deprecated, but recognised:fortification|infrastructure|other)
 ; This tells the game which category of the building browser to use.
