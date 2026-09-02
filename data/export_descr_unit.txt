@@ -147,7 +147,7 @@ stat_mental					1, low, untrained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 150, 100, 20, 30, 150
+stat_cost					1, 150, 40, 20, 30, 150
 recruit_priority_offset		0
 ownership					slave, rebel_slave, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05
 ethnicity					britons, Brittania_Superior
@@ -175,7 +175,7 @@ stat_mental					1, low, untrained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 150, 100, 20, 30, 150
+stat_cost					1, 150, 40, 20, 30, 150
 recruit_priority_offset		0
 ownership					slave, rebel_slave, dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, thracian_faction_02
 ethnicity					dacia, Dacia
@@ -203,7 +203,7 @@ stat_mental					1, low, untrained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 150, 100, 20, 30, 150
+stat_cost					1, 150, 40, 20, 30, 150
 recruit_priority_offset		0
 ownership					slave, rebel_slave, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18
 ethnicity					gauls, Central_Gaul
@@ -231,7 +231,7 @@ stat_mental					1, low, untrained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 150, 100, 20, 30, 150
+stat_cost					1, 150, 40, 20, 30, 150
 recruit_priority_offset		0
 ownership					slave, rebel_slave, germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10
 ethnicity					germans, Germania_Superior
@@ -259,7 +259,7 @@ stat_mental					1, low, untrained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 150, 100, 20, 30, 150
+stat_cost					1, 150, 40, 20, 30, 150
 recruit_priority_offset		0
 ownership					slave, rebel_slave, scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08
 ethnicity					scythia, Scythia
@@ -287,7 +287,7 @@ stat_mental					1, low, untrained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 150, 100, 20, 30, 150
+stat_cost					1, 150, 40, 20, 30, 150
 recruit_priority_offset		0
 ownership					slave, rebel_slave
 ethnicity					slave, Germania_Superior
@@ -316,7 +316,7 @@ stat_mental					5, low, untrained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 220, 130, 30, 40, 220
+stat_cost					1, 220, 80, 30, 40, 220
 recruit_priority_offset		0
 ownership					slave, rebel_slave, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18
 ethnicity					gauls, Central_Gaul, don't_allow_mixed, don't_allow_regional, don't_allow_custom
@@ -339,7 +339,7 @@ stat_mental					5, low, untrained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 220, 130, 30, 40, 220
+stat_cost					1, 220, 80, 30, 40, 220
 
 
 type						barb peltast german
@@ -365,7 +365,7 @@ stat_mental					5, low, untrained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 220, 130, 30, 40, 220
+stat_cost					1, 220, 80, 30, 40, 220
 recruit_priority_offset		0
 ownership					slave, rebel_slave, germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10
 ethnicity					germans, Germania_Superior
@@ -387,7 +387,7 @@ stat_mental					5, low, untrained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 220, 130, 30, 40, 220
+stat_cost					1, 220, 80, 30, 40, 220
 
 
 type						barb slinger briton
@@ -412,7 +412,7 @@ stat_mental					5, low, untrained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 170, 170, 20, 30, 170
+stat_cost					1, 220, 95, 20, 30, 170
 recruit_priority_offset		0
 ownership					slave, rebel_slave, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05
 ethnicity					britons, Brittania_Superior
@@ -440,7 +440,7 @@ stat_mental					5, normal, untrained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 270, 170, 30, 40, 270
+stat_cost					1, 270, 95, 30, 40, 270
 recruit_priority_offset		0
 ownership					slave, rebel_slave, dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, thracian_faction_02
 ethnicity					dacia, Dacia
@@ -468,7 +468,7 @@ stat_mental					5, normal, untrained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 270, 170, 30, 40, 270
+stat_cost					1, 270, 95, 30, 40, 270
 recruit_priority_offset		0
 ownership					slave, rebel_slave, scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08
 ethnicity					scythia, Scythia
@@ -496,7 +496,7 @@ stat_mental					5, normal, untrained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 270, 170, 30, 40, 270
+stat_cost					1, 270, 95, 30, 40, 270
 recruit_priority_offset		0
 ownership					slave, rebel_slave
 ethnicity					slave, Germania_Superior
@@ -525,7 +525,7 @@ stat_mental					9, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 700, 180, 70, 110, 700
+stat_cost					1, 700, 110, 70, 110, 700
 recruit_priority_offset		0
 ownership					slave, rebel_slave, dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, thracian_faction_02
 ethnicity					dacia, Dacia
@@ -554,7 +554,7 @@ stat_mental					9, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 700, 180, 70, 110, 700
+stat_cost					1, 700, 110, 70, 110, 700
 recruit_priority_offset		0
 ownership					slave, rebel_slave, germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10
 ethnicity					germans, Germania_Superior
@@ -583,7 +583,7 @@ stat_mental					9, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 700, 180, 70, 110, 700
+stat_cost					1, 700, 110, 70, 110, 700
 recruit_priority_offset		0
 ownership					slave, rebel_slave, scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08
 ethnicity					scythia, Scythia
@@ -611,7 +611,7 @@ stat_mental					13, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 960, 200, 100, 150, 960
+stat_cost					2, 960, 110, 100, 150, 960
 recruit_priority_offset		0
 ownership					slave, rebel_slave, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18
 ethnicity					gauls, Central_Gaul
@@ -671,7 +671,7 @@ stat_mental					5, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 420, 200, 50, 70, 420
+stat_cost					1, 420, 110, 50, 70, 420
 recruit_priority_offset		0
 ownership					slave, rebel_slave, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05
 ethnicity					britons, Brittania_Superior
@@ -700,7 +700,7 @@ stat_mental					5, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 420, 200, 50, 70, 420
+stat_cost					1, 420, 110, 50, 70, 420
 recruit_priority_offset		0
 ownership					slave, rebel_slave, dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, thracian_faction_02
 ethnicity					dacia, Dacia
@@ -729,7 +729,7 @@ stat_mental					5, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 420, 200, 50, 70, 420
+stat_cost					1, 420, 110, 50, 70, 420
 recruit_priority_offset		0
 ownership					slave, rebel_slave, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18
 ethnicity					gauls, Central_Gaul, don't_allow_mixed, don't_allow_regional, don't_allow_custom
@@ -758,7 +758,7 @@ stat_mental					5, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 420, 200, 50, 70, 420
+stat_cost					1, 420, 110, 50, 70, 420
 recruit_priority_offset		0
 ownership					slave, rebel_slave
 ethnicity					slave, Germania_Superior
@@ -787,7 +787,7 @@ stat_mental					5, impetuous, trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 520, 200, 60, 80, 520
+stat_cost					1, 520, 110, 60, 80, 520
 recruit_priority_offset		0
 ownership					slave, rebel_slave, germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10
 ethnicity					germans, Germania_Superior
@@ -816,7 +816,7 @@ stat_mental					9, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 460, 170, 50, 70, 460
+stat_cost					1, 460, 110, 50, 70, 460
 recruit_priority_offset		0
 ownership					slave, rebel_slave, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05
 ethnicity					britons, Brittania_Superior
@@ -845,7 +845,7 @@ stat_mental					9, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 460, 170, 50, 70, 460
+stat_cost					1, 460, 110, 50, 70, 460
 recruit_priority_offset		0
 ownership					slave, rebel_slave, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18
 ethnicity					gauls, Central_Gaul, don't_allow_mixed, don't_allow_regional, don't_allow_custom
@@ -875,7 +875,7 @@ stat_mental					9, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 450, 170, 50, 70, 450
+stat_cost					1, 450, 110, 50, 70, 450
 recruit_priority_offset		0
 ownership					slave, rebel_slave, germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10
 ethnicity					germans, Germania_Superior
@@ -904,7 +904,7 @@ stat_mental					9, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 450, 170, 50, 70, 450
+stat_cost					1, 450, 110, 50, 70, 450
 recruit_priority_offset		0
 ownership					slave, rebel_slave, scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08
 ethnicity					scythia, Scythia
@@ -933,7 +933,7 @@ stat_mental					9, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 500, 170, 50, 80, 500
+stat_cost					1, 500, 110, 50, 80, 500
 recruit_priority_offset		0
 ownership					slave, rebel_slave, dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03
 ethnicity					dacia, Dacia
@@ -962,7 +962,7 @@ stat_mental					9, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 500, 170, 50, 80, 500
+stat_cost					1, 500, 110, 50, 80, 500
 recruit_priority_offset		0
 ownership					slave, rebel_slave, thrace, thracian_faction_01, thracian_faction_02
 ethnicity					thrace, Thrace
@@ -991,7 +991,7 @@ stat_mental					13, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 580, 200, 60, 90, 580
+stat_cost					1, 580, 110, 60, 90, 580
 recruit_priority_offset		0
 ownership					slave, rebel_slave, germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10
 ethnicity					germans, Germania_Superior
@@ -1020,7 +1020,7 @@ stat_mental					13, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 680, 210, 70, 110, 680
+stat_cost					1, 680, 110, 70, 110, 680
 recruit_priority_offset		0
 ownership					slave, rebel_slave, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05
 ethnicity					britons, Brittania_Superior
@@ -1049,7 +1049,7 @@ stat_mental					13, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 680, 210, 70, 110, 680
+stat_cost					1, 680, 110, 70, 110, 680
 recruit_priority_offset		0
 ownership					slave, rebel_slave, dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03
 ethnicity					dacia, Dacia
@@ -1078,7 +1078,7 @@ stat_mental					13, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 680, 210, 70, 110, 680
+stat_cost					1, 680, 110, 70, 110, 680
 recruit_priority_offset		0
 ownership					slave, rebel_slave, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, hellenic_faction_03, latin_faction_05
 ethnicity					gauls, Central_Gaul
@@ -1107,7 +1107,7 @@ stat_mental					11, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 380, 130, 40, 60, 380
+stat_cost					2, 380, 80, 40, 60, 380
 recruit_priority_offset		0
 ownership					slave, rebel_slave, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05
 ethnicity					britons, Brittania_Superior, don't_allow_mixed, don't_allow_regional, don't_allow_custom
@@ -1138,7 +1138,7 @@ stat_mental					11, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 430, 130, 50, 70, 430
+stat_cost					2, 430, 80, 50, 70, 430
 recruit_priority_offset		0
 ownership					slave, rebel_slave, dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03
 ethnicity					dacia, Dacia, don't_allow_mixed, don't_allow_regional, don't_allow_custom
@@ -1169,7 +1169,7 @@ stat_mental					11, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 430, 130, 50, 70, 430
+stat_cost					2, 430, 80, 50, 70, 430
 recruit_priority_offset		0
 ownership					slave, rebel_slave, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18
 ethnicity					gauls, Central_Gaul, don't_allow_mixed, don't_allow_regional, don't_allow_custom
@@ -1200,7 +1200,7 @@ stat_mental					11, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 430, 130, 50, 70, 430
+stat_cost					2, 430, 80, 50, 70, 430
 recruit_priority_offset		0
 ownership					slave, rebel_slave, germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10
 ethnicity					germans, Germania_Superior, don't_allow_mixed, don't_allow_regional, don't_allow_custom
@@ -1231,7 +1231,7 @@ stat_mental					11, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 430, 130, 50, 70, 430
+stat_cost					2, 430, 80, 50, 70, 430
 recruit_priority_offset		0
 ownership					slave, rebel_slave
 ethnicity					slave, Germania_Superior, don't_allow_regional
@@ -1262,7 +1262,7 @@ stat_mental					11, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 430, 130, 50, 70, 430
+stat_cost					2, 430, 80, 50, 70, 430
 recruit_priority_offset		0
 ownership					slave, rebel_slave, spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic
 ethnicity					spain, Celtiberia, don't_allow_mixed, don't_allow_regional, don't_allow_custom
@@ -1293,7 +1293,7 @@ stat_mental					13, normal, highly_trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 480, 90, 50, 80, 480
+stat_cost					2, 480, 60, 50, 80, 480
 recruit_priority_offset		0
 ownership					slave, rebel_slave, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05
 ethnicity					britons, Brittania_Superior
@@ -1321,7 +1321,7 @@ stat_mental					13, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 480, 90, 50, 80, 480
+stat_cost					2, 480, 60, 50, 80, 480
 recruit_priority_offset		0
 ownership					slave, rebel_slave, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18
 ethnicity					gauls, Central_Gaul
@@ -1349,7 +1349,7 @@ stat_mental					13, normal, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 480, 90, 50, 80, 480
+stat_cost					2, 480, 60, 50, 80, 480
 recruit_priority_offset		0
 ownership					slave, rebel_slave
 ethnicity					slave, Central_Gaul
