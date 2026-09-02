@@ -1719,7 +1719,7 @@ building equestrian
 			upgrades
 			{
 				cavalry_barracks
-				convert_equestrian_1 requires factions { carthaginian, } and is_player
+				convert_equestrian_1 requires factions { carthaginian, } and is_player and not hidden_resource equestrian_built_by_carthaginian
 			}
 		}
 		cavalry_barracks requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
@@ -1878,7 +1878,7 @@ building equestrian
 			upgrades
 			{
 				hippodrome
-				convert_equestrian_2 requires factions { carthaginian, } and is_player
+				convert_equestrian_2 requires factions { carthaginian, } and is_player and not hidden_resource equestrian_built_by_carthaginian
 			}
 		}
 		hippodrome requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
@@ -2084,7 +2084,7 @@ building equestrian
 			upgrades
 			{
 				circus_maximus
-				convert_equestrian_3 requires factions { carthaginian, } and is_player
+				convert_equestrian_3 requires factions { carthaginian, } and is_player and not hidden_resource equestrian_built_by_carthaginian
 			}
 		}
 		circus_maximus requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
@@ -2307,10 +2307,10 @@ building equestrian
 			settlement_min huge_city
 			upgrades
 			{
-				convert_equestrian_4 requires factions { carthaginian, } and is_player
+				convert_equestrian_4 requires factions { carthaginian, } and is_player and not hidden_resource equestrian_built_by_carthaginian
 			}
 		}
-		convert_equestrian_1 requires factions { carthaginian, } and is_player
+		convert_equestrian_1 requires factions { carthaginian, } and is_player and not hidden_resource equestrian_built_by_carthaginian
 		{
 			capability
 			{
@@ -2322,7 +2322,7 @@ building equestrian
 			{
 			}
 		}
-		convert_equestrian_2 requires factions { carthaginian, } and is_player
+		convert_equestrian_2 requires factions { carthaginian, } and is_player and not hidden_resource equestrian_built_by_carthaginian
 		{
 			capability
 			{
@@ -2334,7 +2334,7 @@ building equestrian
 			{
 			}
 		}
-		convert_equestrian_3 requires factions { carthaginian, } and is_player
+		convert_equestrian_3 requires factions { carthaginian, } and is_player and not hidden_resource equestrian_built_by_carthaginian
 		{
 			capability
 			{
@@ -2346,7 +2346,7 @@ building equestrian
 			{
 			}
 		}
-		convert_equestrian_4 requires factions { carthaginian, } and is_player
+		convert_equestrian_4 requires factions { carthaginian, } and is_player and not hidden_resource equestrian_built_by_carthaginian
 		{
 			capability
 			{
@@ -2447,7 +2447,7 @@ building missiles
 			upgrades
 			{
 				archery_range
-				convert_missiles_1 requires factions { carthaginian, } and is_player
+				convert_missiles_1 requires factions { carthaginian, } and is_player and not hidden_resource missiles_built_by_carthaginian
 			}
 		}
 		archery_range requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
@@ -2578,7 +2578,7 @@ building missiles
 			upgrades
 			{
 				catapult_range
-				convert_missiles_2 requires factions { carthaginian, } and is_player
+				convert_missiles_2 requires factions { carthaginian, } and is_player and not hidden_resource missiles_built_by_carthaginian
 			}
 		}
 		catapult_range requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
@@ -2736,7 +2736,7 @@ building missiles
 			upgrades
 			{
 				siege_engineer
-				convert_missiles_3 requires factions { carthaginian, } and is_player
+				convert_missiles_3 requires factions { carthaginian, } and is_player and not hidden_resource missiles_built_by_carthaginian
 			}
 		}
 		siege_engineer requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
@@ -2899,10 +2899,10 @@ building missiles
 			settlement_min huge_city
 			upgrades
 			{
-				convert_missiles_4 requires factions { carthaginian, } and is_player
+				convert_missiles_4 requires factions { carthaginian, } and is_player and not hidden_resource missiles_built_by_carthaginian
 			}
 		}
-		convert_missiles_1 requires factions { carthaginian, } and is_player
+		convert_missiles_1 requires factions { carthaginian, } and is_player and not hidden_resource missiles_built_by_carthaginian
 		{
 			capability
 			{
@@ -2914,7 +2914,7 @@ building missiles
 			{
 			}
 		}
-		convert_missiles_2 requires factions { carthaginian, } and is_player
+		convert_missiles_2 requires factions { carthaginian, } and is_player and not hidden_resource missiles_built_by_carthaginian
 		{
 			capability
 			{
@@ -2926,7 +2926,7 @@ building missiles
 			{
 			}
 		}
-		convert_missiles_3 requires factions { carthaginian, } and is_player
+		convert_missiles_3 requires factions { carthaginian, } and is_player and not hidden_resource missiles_built_by_carthaginian
 		{
 			capability
 			{
@@ -2938,7 +2938,7 @@ building missiles
 			{
 			}
 		}
-		convert_missiles_4 requires factions { carthaginian, } and is_player
+		convert_missiles_4 requires factions { carthaginian, } and is_player and not hidden_resource missiles_built_by_carthaginian
 		{
 			capability
 			{

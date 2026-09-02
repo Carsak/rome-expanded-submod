@@ -1558,4 +1558,74 @@
 	{
 		"subtype": "hidden",
 	},
+
+	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	;; EQUESTRIAN AND MISSILE ORIGIN MARKERS ;;
+	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	"equestrian_built_by_tracian_illyrian":
+	{
+		"subtype": "hidden",
+	},
+	"equestrian_built_by_barbarian":
+	{
+		"subtype": "hidden",
+	},
+	"equestrian_built_by_carthaginian":
+	{
+		"subtype": "hidden",
+	},
+	"equestrian_built_by_eastern":
+	{
+		"subtype": "hidden",
+	},
+	"equestrian_built_by_egyptian":
+	{
+		"subtype": "hidden",
+	},
+	"equestrian_built_by_greek":
+	{
+		"subtype": "hidden",
+	},
+	"equestrian_built_by_roman":
+	{
+		"subtype": "hidden",
+	},
+	"equestrian_built_by_italic":
+	{
+		"subtype": "hidden",
+	},
+
+	"missiles_built_by_tracian_illyrian":
+	{
+		"subtype": "hidden",
+	},
+	"missiles_built_by_barbarian":
+	{
+		"subtype": "hidden",
+	},
+	"missiles_built_by_carthaginian":
+	{
+		"subtype": "hidden",
+	},
+	"missiles_built_by_eastern":
+	{
+		"subtype": "hidden",
+	},
+	"missiles_built_by_egyptian":
+	{
+		"subtype": "hidden",
+	},
+	"missiles_built_by_greek":
+	{
+		"subtype": "hidden",
+	},
+	"missiles_built_by_roman":
+	{
+		"subtype": "hidden",
+	},
+	"missiles_built_by_italic":
+	{
+		"subtype": "hidden",
+	},
 ],
