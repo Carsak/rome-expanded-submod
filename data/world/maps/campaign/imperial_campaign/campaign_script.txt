@@ -1,4 +1,4 @@
-﻿script
+script
 
 ;
 ; Counters
@@ -40,6 +40,14 @@
 	declare_persistent_counter sos_socii_spawned
 	declare_persistent_counter rebel_purge
 	declare_persistent_counter is_rome
+	declare_persistent_counter re_barracks_muster_field_completed
+	declare_persistent_counter re_barracks_militia_barracks_completed
+	declare_persistent_counter re_barracks_city_barracks_completed
+	declare_persistent_counter re_barracks_army_barracks_completed
+	declare_persistent_counter re_barracks_royal_barracks_completed
+	declare_persistent_counter re_barracks_greek_marker_added
+	declare_persistent_counter re_barracks_roman_marker_added
+	declare_persistent_counter re_barracks_italic_marker_added
 
 ;
 ; Setup
@@ -3324,6 +3332,8 @@
 	; console-created replacement cannot leave the conversion available a second time.
 
 	monitor_event BuildingCompleted SettlementBuildingFinished = muster_field
+		inc_counter re_barracks_muster_field_completed 1
+		console_command check_persistent_var re_barracks_muster_field_completed
 		remove_hidden_resource local barracks_built_by_tracian_illyrian
 		remove_hidden_resource local barracks_built_by_barbarian
 		remove_hidden_resource local barracks_built_by_carthaginian
@@ -3349,17 +3359,25 @@
 			add_hidden_resource local barracks_built_by_egyptian
 		end_if
 		if I_SettlementOwnerCulture local = greek
+			inc_counter re_barracks_greek_marker_added 1
+			console_command check_persistent_var re_barracks_greek_marker_added
 			add_hidden_resource local barracks_built_by_greek
 		end_if
 		if I_SettlementOwnerCulture local = roman
+			inc_counter re_barracks_roman_marker_added 1
+			console_command check_persistent_var re_barracks_roman_marker_added
 			add_hidden_resource local barracks_built_by_roman
 		end_if
 		if I_SettlementOwnerCulture local = italic
+			inc_counter re_barracks_italic_marker_added 1
+			console_command check_persistent_var re_barracks_italic_marker_added
 			add_hidden_resource local barracks_built_by_italic
 		end_if
 	end_monitor
 
 	monitor_event BuildingCompleted SettlementBuildingFinished = militia_barracks
+		inc_counter re_barracks_militia_barracks_completed 1
+		console_command check_persistent_var re_barracks_militia_barracks_completed
 		remove_hidden_resource local barracks_built_by_tracian_illyrian
 		remove_hidden_resource local barracks_built_by_barbarian
 		remove_hidden_resource local barracks_built_by_carthaginian
@@ -3385,17 +3403,25 @@
 			add_hidden_resource local barracks_built_by_egyptian
 		end_if
 		if I_SettlementOwnerCulture local = greek
+			inc_counter re_barracks_greek_marker_added 1
+			console_command check_persistent_var re_barracks_greek_marker_added
 			add_hidden_resource local barracks_built_by_greek
 		end_if
 		if I_SettlementOwnerCulture local = roman
+			inc_counter re_barracks_roman_marker_added 1
+			console_command check_persistent_var re_barracks_roman_marker_added
 			add_hidden_resource local barracks_built_by_roman
 		end_if
 		if I_SettlementOwnerCulture local = italic
+			inc_counter re_barracks_italic_marker_added 1
+			console_command check_persistent_var re_barracks_italic_marker_added
 			add_hidden_resource local barracks_built_by_italic
 		end_if
 	end_monitor
 
 	monitor_event BuildingCompleted SettlementBuildingFinished = city_barracks
+		inc_counter re_barracks_city_barracks_completed 1
+		console_command check_persistent_var re_barracks_city_barracks_completed
 		remove_hidden_resource local barracks_built_by_tracian_illyrian
 		remove_hidden_resource local barracks_built_by_barbarian
 		remove_hidden_resource local barracks_built_by_carthaginian
@@ -3421,17 +3447,25 @@
 			add_hidden_resource local barracks_built_by_egyptian
 		end_if
 		if I_SettlementOwnerCulture local = greek
+			inc_counter re_barracks_greek_marker_added 1
+			console_command check_persistent_var re_barracks_greek_marker_added
 			add_hidden_resource local barracks_built_by_greek
 		end_if
 		if I_SettlementOwnerCulture local = roman
+			inc_counter re_barracks_roman_marker_added 1
+			console_command check_persistent_var re_barracks_roman_marker_added
 			add_hidden_resource local barracks_built_by_roman
 		end_if
 		if I_SettlementOwnerCulture local = italic
+			inc_counter re_barracks_italic_marker_added 1
+			console_command check_persistent_var re_barracks_italic_marker_added
 			add_hidden_resource local barracks_built_by_italic
 		end_if
 	end_monitor
 
 	monitor_event BuildingCompleted SettlementBuildingFinished = army_barracks
+		inc_counter re_barracks_army_barracks_completed 1
+		console_command check_persistent_var re_barracks_army_barracks_completed
 		remove_hidden_resource local barracks_built_by_tracian_illyrian
 		remove_hidden_resource local barracks_built_by_barbarian
 		remove_hidden_resource local barracks_built_by_carthaginian
@@ -3457,17 +3491,25 @@
 			add_hidden_resource local barracks_built_by_egyptian
 		end_if
 		if I_SettlementOwnerCulture local = greek
+			inc_counter re_barracks_greek_marker_added 1
+			console_command check_persistent_var re_barracks_greek_marker_added
 			add_hidden_resource local barracks_built_by_greek
 		end_if
 		if I_SettlementOwnerCulture local = roman
+			inc_counter re_barracks_roman_marker_added 1
+			console_command check_persistent_var re_barracks_roman_marker_added
 			add_hidden_resource local barracks_built_by_roman
 		end_if
 		if I_SettlementOwnerCulture local = italic
+			inc_counter re_barracks_italic_marker_added 1
+			console_command check_persistent_var re_barracks_italic_marker_added
 			add_hidden_resource local barracks_built_by_italic
 		end_if
 	end_monitor
 
 	monitor_event BuildingCompleted SettlementBuildingFinished = royal_barracks
+		inc_counter re_barracks_royal_barracks_completed 1
+		console_command check_persistent_var re_barracks_royal_barracks_completed
 		remove_hidden_resource local barracks_built_by_tracian_illyrian
 		remove_hidden_resource local barracks_built_by_barbarian
 		remove_hidden_resource local barracks_built_by_carthaginian
@@ -3493,12 +3535,18 @@
 			add_hidden_resource local barracks_built_by_egyptian
 		end_if
 		if I_SettlementOwnerCulture local = greek
+			inc_counter re_barracks_greek_marker_added 1
+			console_command check_persistent_var re_barracks_greek_marker_added
 			add_hidden_resource local barracks_built_by_greek
 		end_if
 		if I_SettlementOwnerCulture local = roman
+			inc_counter re_barracks_roman_marker_added 1
+			console_command check_persistent_var re_barracks_roman_marker_added
 			add_hidden_resource local barracks_built_by_roman
 		end_if
 		if I_SettlementOwnerCulture local = italic
+			inc_counter re_barracks_italic_marker_added 1
+			console_command check_persistent_var re_barracks_italic_marker_added
 			add_hidden_resource local barracks_built_by_italic
 		end_if
 	end_monitor
