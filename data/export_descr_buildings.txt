@@ -112,24 +112,6 @@ building core_building
 
 				agent diplomat 0 requires not factions { rebel_slave, }
 				agent_limit_settlement diplomat 1
-
-				religious_belief arab 1 requires factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
-				religious_belief berber 1 requires factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, }
-				religious_belief egyptian 1 requires factions { egyptian, }
-				religious_belief etruscan 1 requires factions { latin_faction_03, latin_faction_05, }
-				religious_belief hellenic 1 requires factions { greek_cities, macedon, pontus, seleucid, anatolian_faction_01, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_13, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
-				religious_belief judaism 1 requires factions { anatolian_faction_02, rebel_judea, }
-				religious_belief nuragic 1 requires factions { rebel_nuragic, }
-				religious_belief oscan 1 requires factions { caucasian_faction_01, caucasian_faction_02, hellenic_faction_10, }
-				religious_belief punic 1 requires factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
-				religious_belief roman 1 requires factions { roman, }
-				religious_belief samnite 1 requires factions { latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, }
-				religious_belief zoroastrian 1 requires factions { parthia, rebel_parthia, armenia, caucasian_faction_03, caucasian_faction_04, }
-				religious_belief b_paganism 1 requires factions { tracian_illyrian, dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
-				religious_belief c_paganism 1 requires factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, spain, iberian_faction_01, iberian_faction_02, iberian_faction_07, }
-				religious_belief g_paganism 1 requires factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
-				religious_belief i_paganism 1 requires factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
-				religious_belief s_paganism 1 requires factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
 			}
 			construction  1 
 			cost  400 
@@ -196,24 +178,6 @@ building core_building
 
 				agent diplomat 0 requires not factions { rebel_slave, }
 				agent_limit_settlement diplomat 1
-
-				religious_belief arab 2 requires factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
-				religious_belief berber 2 requires factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, }
-				religious_belief egyptian 2 requires factions { egyptian, }
-				religious_belief etruscan 2 requires factions { latin_faction_03, latin_faction_05, }
-				religious_belief hellenic 2 requires factions { greek_cities, macedon, pontus, seleucid, anatolian_faction_01, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_13, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
-				religious_belief judaism 2 requires factions { anatolian_faction_02, rebel_judea, }
-				religious_belief nuragic 2 requires factions { rebel_nuragic, }
-				religious_belief oscan 2 requires factions { caucasian_faction_01, caucasian_faction_02, hellenic_faction_10, }
-				religious_belief punic 2 requires factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
-				religious_belief roman 2 requires factions { roman, }
-				religious_belief samnite 2 requires factions { latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, }
-				religious_belief zoroastrian 2 requires factions { parthia, rebel_parthia, armenia, caucasian_faction_03, caucasian_faction_04, }
-				religious_belief b_paganism 2 requires factions { tracian_illyrian, dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
-				religious_belief c_paganism 2 requires factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, spain, iberian_faction_01, iberian_faction_02, iberian_faction_07, }
-				religious_belief g_paganism 2 requires factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
-				religious_belief i_paganism 2 requires factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
-				religious_belief s_paganism 2 requires factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
 			}
 			construction  2 
 			cost  800 
@@ -329,24 +293,6 @@ building core_building
 				agent diplomat 0 requires not factions { rebel_slave, }
 				agent_limit_settlement diplomat 1
 				happiness_bonus bonus 1 requires is_toggled "settlement condition" and not factions { seleucid, }
-
-				religious_belief arab 3 requires factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
-				religious_belief berber 3 requires factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, }
-				religious_belief egyptian 3 requires factions { egyptian, }
-				religious_belief etruscan 3 requires factions { latin_faction_03, latin_faction_05, }
-				religious_belief hellenic 3 requires factions { greek_cities, macedon, pontus, seleucid, anatolian_faction_01, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_13, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
-				religious_belief judaism 3 requires factions { anatolian_faction_02, rebel_judea, }
-				religious_belief nuragic 3 requires factions { rebel_nuragic, }
-				religious_belief oscan 3 requires factions { caucasian_faction_01, caucasian_faction_02, hellenic_faction_10, }
-				religious_belief punic 3 requires factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
-				religious_belief roman 3 requires factions { roman, }
-				religious_belief samnite 3 requires factions { latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, }
-				religious_belief zoroastrian 3 requires factions { parthia, rebel_parthia, armenia, caucasian_faction_03, caucasian_faction_04, }
-				religious_belief b_paganism 3 requires factions { tracian_illyrian, dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
-				religious_belief c_paganism 3 requires factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, spain, iberian_faction_01, iberian_faction_02, iberian_faction_07, }
-				religious_belief g_paganism 3 requires factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
-				religious_belief i_paganism 3 requires factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
-				religious_belief s_paganism 3 requires factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
 			}
 			construction  3 
 			cost  1600 
@@ -462,24 +408,6 @@ building core_building
 				agent diplomat 0 requires not factions { rebel_slave, }
 				agent_limit_settlement diplomat 1
 				happiness_bonus bonus 1 requires is_toggled "settlement condition" and not factions { seleucid, }
-
-				religious_belief arab 4 requires factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
-				religious_belief berber 4 requires factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, }
-				religious_belief egyptian 4 requires factions { egyptian, }
-				religious_belief etruscan 4 requires factions { latin_faction_03, latin_faction_05, }
-				religious_belief hellenic 4 requires factions { greek_cities, macedon, pontus, seleucid, anatolian_faction_01, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_13, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
-				religious_belief judaism 4 requires factions { anatolian_faction_02, rebel_judea, }
-				religious_belief nuragic 4 requires factions { rebel_nuragic, }
-				religious_belief oscan 4 requires factions { caucasian_faction_01, caucasian_faction_02, hellenic_faction_10, }
-				religious_belief punic 4 requires factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
-				religious_belief roman 4 requires factions { roman, }
-				religious_belief samnite 4 requires factions { latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, }
-				religious_belief zoroastrian 4 requires factions { parthia, rebel_parthia, armenia, caucasian_faction_03, caucasian_faction_04, }
-				religious_belief b_paganism 4 requires factions { tracian_illyrian, dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
-				religious_belief c_paganism 4 requires factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, spain, iberian_faction_01, iberian_faction_02, iberian_faction_07, }
-				religious_belief g_paganism 4 requires factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
-				religious_belief i_paganism 4 requires factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
-				religious_belief s_paganism 4 requires factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
 			}
 			construction  3 
 			cost  3200 
@@ -597,24 +525,6 @@ building core_building
 				agent diplomat 0 requires not factions { rebel_slave, }
 				agent_limit_settlement diplomat 1
 				happiness_bonus bonus 1 requires is_toggled "settlement condition" and not factions { seleucid, }
-
-				religious_belief arab 5 requires factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
-				religious_belief berber 5 requires factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, }
-				religious_belief egyptian 5 requires factions { egyptian, }
-				religious_belief etruscan 5 requires factions { latin_faction_03, latin_faction_05, }
-				religious_belief hellenic 5 requires factions { greek_cities, macedon, pontus, seleucid, anatolian_faction_01, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_13, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
-				religious_belief judaism 5 requires factions { anatolian_faction_02, rebel_judea, }
-				religious_belief nuragic 5 requires factions { rebel_nuragic, }
-				religious_belief oscan 5 requires factions { caucasian_faction_01, caucasian_faction_02, hellenic_faction_10, }
-				religious_belief punic 5 requires factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
-				religious_belief roman 5 requires factions { roman, }
-				religious_belief samnite 5 requires factions { latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, }
-				religious_belief zoroastrian 5 requires factions { parthia, rebel_parthia, armenia, caucasian_faction_03, caucasian_faction_04, }
-				religious_belief b_paganism 5 requires factions { tracian_illyrian, dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
-				religious_belief c_paganism 5 requires factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, spain, iberian_faction_01, iberian_faction_02, iberian_faction_07, }
-				religious_belief g_paganism 5 requires factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
-				religious_belief i_paganism 5 requires factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
-				religious_belief s_paganism 5 requires factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
 			}
 			construction  3 
 			cost  6400 
