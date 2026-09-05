@@ -1348,6 +1348,7 @@ building barracks
 				recruit "egyptian legionaries" 0 requires major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { egyptian, }
 				recruit "illyrian guard" 1 requires not is_player and not hidden_resource poverty and factions { illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
 				recruit "thracian elite warrior" 1 requires not is_player and not hidden_resource poverty and factions { thrace, thracian_faction_01, thracian_faction_02, }
+				recruit "thracian warriors" 0 requires not is_player and not hidden_resource poverty and factions { thrace, thracian_faction_01, thracian_faction_02, }
 				recruit "greek bastarnae" 2 requires not is_player and not hidden_resource poverty and factions { dacian_faction_01, thrace, thracian_faction_01, thracian_faction_02, }
 				recruit "greek royal pikemen" 1 requires not is_player and not hidden_resource poverty and factions { macedon, hellenic_faction_03, hellenic_faction_13, }
 				recruit "greek royal hypaspists" 0 requires not is_player and not hidden_resource poverty and factions { macedon, hellenic_faction_03, hellenic_faction_13, }
@@ -1467,6 +1468,7 @@ building barracks
 				recruit "greek bastarnae" 2 requires building_factions { barbarian, } and factions { barbarian, } and is_player and religion b_paganism >= 10
 				recruit "greek bastarnae" 2 requires building_factions { tracian_illyrian, } and factions { tracian_illyrian, } and is_player and religion b_paganism >= 10
 				recruit "thracian elite warrior" 1 requires building_factions { tracian_illyrian, } and is_player and religion b_paganism >= 10
+				recruit "thracian warriors" 0 requires building_factions { tracian_illyrian, } and is_player and religion b_paganism >= 10
 				recruit "greek royal pikemen" 1 requires building_factions { greek, } and is_player and religion hellenic >= 10
 				recruit "greek royal hypaspists" 0 requires building_factions { greek, } and is_player and religion hellenic >= 10
 				recruit "greek silver shield pikemen" 1 requires building_factions { greek, } and is_player and religion hellenic >= 10
@@ -2135,9 +2137,9 @@ building equestrian
 				recruit "barb noble cavalry dacian" 2 requires building_factions { tracian_illyrian, } and factions { thracian_faction_02, } and is_player and religion b_paganism >= 10
 				recruit "barb scythian nobles scythian" 2 requires building_factions { barbarian, } and is_player and religion s_paganism >= 10
 				recruit "barb noble horse archers scythian" 2 requires building_factions { barbarian, } and is_player and religion s_paganism >= 10
-				recruit "scythian cataphracts" 0 requires building_factions { barbarian, } and factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, } and is_player and religion s_paganism >= 10
+				recruit "scythian cataphracts" 1 requires building_factions { barbarian, } and factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, } and is_player and religion s_paganism >= 10
 				recruit "barb cataphract horse archers scythian" 1 requires building_factions { barbarian, } and factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, } and is_player and religion s_paganism >= 10
-				recruit "scythian cataphracts" 0 requires building_factions { greek, } and factions { hellenic_faction_04, } and is_player and religion s_paganism >= 10 or religion hellenic >= 10
+				recruit "scythian cataphracts" 1 requires building_factions { greek, } and factions { hellenic_faction_04, } and is_player and religion s_paganism >= 10 or religion hellenic >= 10
 				recruit "barb cataphract horse archers scythian" 1 requires building_factions { greek, } and factions { hellenic_faction_04, } and is_player and religion s_paganism >= 10 or religion hellenic >= 10
 				recruit "barb champion cavalry gaul" 1 requires building_factions { barbarian, } and is_player and religion c_paganism >= 10
 				recruit "barb champion cavalry gaul" 1 requires building_factions { greek, } and factions { hellenic_faction_02, } and is_player and religion c_paganism >= 10 or religion hellenic >= 10
@@ -2661,6 +2663,7 @@ building missiles
 				recruit "greek heavy peltast" 1 requires not is_player and not hidden_resource poverty and factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
 				recruit "greek onager" 1 requires not factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, macedon, hellenic_faction_13, } and not is_player and not hidden_resource poverty and factions { greek, tracian_illyrian, }
 				recruit "greek heavy onager" 0 requires not is_player and not hidden_resource poverty and factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, macedon, hellenic_faction_13, }
+				recruit "thracian heavy peltast" 0 requires not is_player and not hidden_resource poverty and factions { tracian_illyrian, }
 				recruit "roman archer" 2 requires not major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { roman, }
 				recruit "roman archer auxillia" 2 requires major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { roman, }
 				recruit "roman heavy onager" 0 requires not is_player and not hidden_resource poverty and factions { roman, }
@@ -2738,6 +2741,7 @@ building missiles
 				recruit "greek onager" 1 requires building_factions { greek, } and is_player and religion hellenic >= 10 or religion oscan >= 10
 				recruit "greek onager" 1 requires building_factions { tracian_illyrian, } and factions { tracian_illyrian, } and is_player and religion b_paganism >= 10
 				recruit "greek heavy onager" 0 requires building_factions { greek, } and is_player and religion hellenic >= 10 or religion oscan >= 10
+				recruit "thracian heavy peltast" 0 requires building_factions { tracian_illyrian, } and factions { tracian_illyrian, } and is_player and religion b_paganism >= 10
 				recruit "roman velite" 4 requires building_factions { roman, } and not major_event "marian_reforms" and is_player and religion roman >= 10
 				recruit "roman light infantry auxillia" 4 requires building_factions { roman, } and major_event "marian_reforms" and is_player and religion roman >= 10
 				recruit "roman archer" 2 requires building_factions { roman, } and not major_event "marian_reforms" and is_player and religion roman >= 10
