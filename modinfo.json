@@ -1,0 +1,14 @@
+{
+	"Description": "[b]Rome Expanded Submod[\/b] is a gameplay and balance add-on for Rome Expanded.\n\n[b]Military Building Conversion[\/b]\n\n• All player-controlled factions can convert captured barracks, stables and missile ranges into their own military buildings instead of demolishing and rebuilding them.\n\n• Conversion is available for all four tiers of each military branch and preserves the equivalent building tier.\n\n• Conversion building cards now use the appropriate culture's military-building artwork.\n\n[b]Balance Changes[\/b]\n\n• Roman infantry is more expensive to recruit and maintain.\n\n• Barbarian infantry upkeep has been reduced by 40%, compensating for barbarian factions' technological disadvantage compared with civilised factions.\n\n• Cavalry recruitment and upkeep costs have been substantially increased.\n\n• Siege engines now cost 300 denarii per turn in upkeep.\n\n• Building construction times are capped at three turns.\n\n• Mercenary replenishment is slower.\n\n• Long-campaign victory requirements have been reduced.\n\n[b]Religion and Conversion[\/b]\n\n• Governor buildings no longer provide passive religious conversion. This makes conversion a deliberate, gradual part of expansion rather than an automatic effect of settlement administration.\n\n• Build a temple in conquered settlements and station generals there: generals help spread your state religion, much like priests.\n\n• Nearby settlements of your religion support conversion. Each adjacent settlement adds a 5% conversion bonus, up to 15% from three such neighbours.\n\n[b]Campaign Improvements[\/b]\n\n• Fleet movement points increased from 100% to 300%. Naval raids and coastal landings have never been so easy ) \n\n• Fixed an issue that could prevent minor factions from recruiting units in settlements affected by the poverty hidden resource.\n\n[b]Requirements[\/b]\nRequires Rome Expanded.",
+	"Mod Name": "Rome expanded submod",
+	"Preview Image": "previewimage.jpg",
+	"Supports Alex": false,
+	"Supports BI": false,
+	"Supports Rome": true,
+	"Tags": [
+		"Balance",
+		"Gameplay Logic"
+	],
+	"Visibility": 2,
+	"Workshop ID": 3794342608
+}
