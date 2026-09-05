@@ -1286,39 +1286,39 @@ building barracks
 				recruit "nile elite guards" 1 requires building_factions { egyptian, } and is_player and religion egyptian >= 10
 				recruit "egyptian elite guards" 1 requires not is_player  and factions { egyptian, }
 				recruit "nile noble spearmen" 0 requires not major_event "marian_reforms" and building_factions { egyptian, } and is_player and religion egyptian >= 10
-				recruit "egyptian elite hypaspists" 0 requires not major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { egyptian, }
-				recruit "egyptian legionaries" 0 requires major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { egyptian, }
-				recruit "illyrian guard" 1 requires not is_player and not hidden_resource poverty and factions { illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
-				recruit "thracian elite warrior" 1 requires not is_player and not hidden_resource poverty and factions { thrace, thracian_faction_01, thracian_faction_02, }
-				recruit "thracian warriors" 0 requires not is_player and not hidden_resource poverty and factions { thrace, thracian_faction_01, thracian_faction_02, }
-				recruit "greek bastarnae" 2 requires not is_player and not hidden_resource poverty and factions { dacian_faction_01, thrace, thracian_faction_01, thracian_faction_02, }
-				recruit "greek royal pikemen" 1 requires not is_player and not hidden_resource poverty and factions { macedon, hellenic_faction_03, hellenic_faction_13, }
-				recruit "greek royal hypaspists" 0 requires not is_player and not hidden_resource poverty and factions { macedon, hellenic_faction_03, hellenic_faction_13, }
-				recruit "greek hoplite spartan" 1 requires hidden_resource sparta and not is_player and not hidden_resource poverty and factions { hellenic_faction_01, }
-				recruit "hypaspists" 2 requires not is_player and not hidden_resource poverty and factions { macedon, hellenic_faction_13, seleucid, egypt, }
-				recruit "rebel judaean zealots" 2 requires not is_player and not hidden_resource poverty and factions { anatolian_faction_02, rebel_judea, }
-				recruit "greek hoplite elite" 2 requires not is_player and not hidden_resource poverty and factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, italic, }
-				recruit "thorax swordsmen" 1 requires not is_player and not hidden_resource poverty and factions { greek_cities, hellenic_faction_02, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
-				recruit "greek thorakitai" 0 requires not is_player and not hidden_resource poverty and factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
-				recruit "greek argyraspid" 0 requires not is_player and not hidden_resource poverty and factions { seleucid, }
-				recruit "greek silver shield pikemen" 1 requires not is_player and not hidden_resource poverty and factions { seleucid, }
-				recruit "roman hastati" 4 requires not is_player and not hidden_resource poverty and not major_event "marian_reforms" and factions { roman, }
-				recruit "roman italian spearmen" 4 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and not major_event "marian_reforms" and factions { roman, }
-				recruit "roman sword auxillia" 4 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and not major_event "marian_reforms" and factions { roman, }
-				recruit "roman infantry auxillia" 4 requires not is_player and not hidden_resource poverty and major_event "marian_reforms" and factions { roman, }
-				recruit "roman princeps" 2 requires not is_player and not hidden_resource poverty and not major_event "marian_reforms" and factions { roman, }
-				recruit "roman triarii" 1 requires not is_player and not hidden_resource poverty and not major_event "marian_reforms" and factions { roman, }
-				recruit "roman legionary first cohort i" 1 requires hidden_resource rome and major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { roman, }
-				recruit "roman legionary cohort ii" 1 requires major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { roman, }
-				recruit "roman praetorian cohort i" 1 requires major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { roman, }
-				recruit "roman legionary first cohort ii" 0 requires hidden_resource rome and major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { roman, }
-				recruit "roman praetorian cohort urban i" 0 requires major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { roman, }
-				recruit "italian alarii cohort" 1 requires not is_player and not hidden_resource poverty and factions { italic, }
-				recruit "italian praetorian cohort" 0 requires not is_player and not hidden_resource poverty and factions { italic, }
-				recruit "merc barbarian infantry" 3 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and factions { carthage_barcid, rebel_carthage, } and religion c_paganism >= 10 or religion punic >= 10
-				recruit "merc greek hoplites" 3 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and factions { carthage, carthage_hannonid, carthage_magonid, rebel_carthage, } and religion hellenic >= 10 or religion punic >= 10
-				recruit "merc spanish infantry" 3 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and factions { carthage_barcid, rebel_carthage, } and religion i_paganism >= 10 or religion punic >= 10
-				recruit "merc samnite" 3 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and factions { carthage_hannonid, carthage_magonid, rebel_carthage, } and religion samnite >= 10 or religion etruscan >= 10 or religion punic >= 10
+				recruit "egyptian elite hypaspists" 0 requires not major_event "marian_reforms" and not is_player and factions { egyptian, }
+				recruit "egyptian legionaries" 0 requires major_event "marian_reforms" and not is_player and factions { egyptian, }
+				recruit "illyrian guard" 1 requires not is_player and factions { illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
+				recruit "thracian elite warrior" 1 requires not is_player and factions { thrace, thracian_faction_01, thracian_faction_02, }
+				recruit "thracian warriors" 0 requires not is_player and factions { thrace, thracian_faction_01, thracian_faction_02, }
+				recruit "greek bastarnae" 2 requires not is_player and factions { dacian_faction_01, thrace, thracian_faction_01, thracian_faction_02, }
+				recruit "greek royal pikemen" 1 requires not is_player and factions { macedon, hellenic_faction_03, hellenic_faction_13, }
+				recruit "greek royal hypaspists" 0 requires not is_player and factions { macedon, hellenic_faction_03, hellenic_faction_13, }
+				recruit "greek hoplite spartan" 1 requires hidden_resource sparta and not is_player and factions { hellenic_faction_01, }
+				recruit "hypaspists" 2 requires not is_player and factions { macedon, hellenic_faction_13, seleucid, egypt, }
+				recruit "rebel judaean zealots" 2 requires not is_player and factions { anatolian_faction_02, rebel_judea, }
+				recruit "greek hoplite elite" 2 requires not is_player and factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, italic, }
+				recruit "thorax swordsmen" 1 requires not is_player and factions { greek_cities, hellenic_faction_02, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
+				recruit "greek thorakitai" 0 requires not is_player and factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
+				recruit "greek argyraspid" 0 requires not is_player and factions { seleucid, }
+				recruit "greek silver shield pikemen" 1 requires not is_player and factions { seleucid, }
+				recruit "roman hastati" 4 requires not is_player and not major_event "marian_reforms" and factions { roman, }
+				recruit "roman italian spearmen" 4 requires not is_player and hidden_resource mercenary and not major_event "marian_reforms" and factions { roman, }
+				recruit "roman sword auxillia" 4 requires not is_player and hidden_resource mercenary and not major_event "marian_reforms" and factions { roman, }
+				recruit "roman infantry auxillia" 4 requires not is_player and major_event "marian_reforms" and factions { roman, }
+				recruit "roman princeps" 2 requires not is_player and not major_event "marian_reforms" and factions { roman, }
+				recruit "roman triarii" 1 requires not is_player and not major_event "marian_reforms" and factions { roman, }
+				recruit "roman legionary first cohort i" 1 requires hidden_resource rome and major_event "marian_reforms" and not is_player and factions { roman, }
+				recruit "roman legionary cohort ii" 1 requires major_event "marian_reforms" and not is_player and factions { roman, }
+				recruit "roman praetorian cohort i" 1 requires major_event "marian_reforms" and not is_player and factions { roman, }
+				recruit "roman legionary first cohort ii" 0 requires hidden_resource rome and major_event "marian_reforms" and not is_player and factions { roman, }
+				recruit "roman praetorian cohort urban i" 0 requires major_event "marian_reforms" and not is_player and factions { roman, }
+				recruit "italian alarii cohort" 1 requires not is_player and factions { italic, }
+				recruit "italian praetorian cohort" 0 requires not is_player and factions { italic, }
+				recruit "merc barbarian infantry" 3 requires not is_player and hidden_resource mercenary and factions { carthage_barcid, rebel_carthage, } and religion c_paganism >= 10 or religion punic >= 10
+				recruit "merc greek hoplites" 3 requires not is_player and hidden_resource mercenary and factions { carthage, carthage_hannonid, carthage_magonid, rebel_carthage, } and religion hellenic >= 10 or religion punic >= 10
+				recruit "merc spanish infantry" 3 requires not is_player and hidden_resource mercenary and factions { carthage_barcid, rebel_carthage, } and religion i_paganism >= 10 or religion punic >= 10
+				recruit "merc samnite" 3 requires not is_player and hidden_resource mercenary and factions { carthage_hannonid, carthage_magonid, rebel_carthage, } and religion samnite >= 10 or religion etruscan >= 10 or religion punic >= 10
 
 				; Human Recruitment
 
@@ -2734,45 +2734,45 @@ building missiles
 			{
 				; AI Recruitment
 
-				recruit "barb archer slave" 4 requires not is_player and not hidden_resource poverty and factions { rebel_slave, }
-				recruit "carthaginian peltast" 4 requires not is_player and not hidden_resource poverty and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
-				recruit "carthaginian slinger" 4 requires not is_player and not hidden_resource poverty and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
-				recruit "barb slinger briton" 4 requires not is_player and not hidden_resource poverty and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, }
-				recruit "warband archer german" 2 requires not is_player and not hidden_resource poverty and factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
-				recruit "warband archer dacian" 2 requires not is_player and not hidden_resource poverty and factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, thracian_faction_02, }
-				recruit "warband archer scythian" 2 requires not is_player and not hidden_resource poverty and factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
-				recruit "warband huntsman gaul" 2 requires not is_player and not hidden_resource poverty and factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
-				recruit "barb heavy peltast" 1 requires not is_player and not hidden_resource poverty and factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, }
-				recruit "barb ballista dacian" 2 requires not is_player and not hidden_resource poverty and factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
-				recruit "barb onager dacian" 1 requires not is_player and not hidden_resource poverty and factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
-				recruit "barb onager scythian" 1 requires not is_player and not hidden_resource poverty and factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
-				recruit "desert archers african" 1 requires not is_player and not hidden_resource poverty and factions { numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_04, desert_faction_05, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert, }
-				recruit "carthaginian onager" 1 requires not is_player and not hidden_resource poverty and factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_04, desert_faction_05, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert, }
-				recruit "carthaginian heavy onager" 0 requires not is_player and not hidden_resource poverty and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
-				recruit "east archer" 2 requires not is_player and not hidden_resource poverty and factions { eastern, }
-				recruit "east onager" 1 requires not is_player and not hidden_resource poverty and factions { eastern, }
-				recruit "egyptian archer elite" 1 requires not is_player and not hidden_resource poverty and factions { egyptian, }
-				recruit "egyptian heavy onager" 0 requires not is_player and not hidden_resource poverty and factions { egyptian, }
-				recruit "greek archer" 2 requires not factions { hellenic_faction_07, } and not is_player and not hidden_resource poverty and factions { greek, thrace, thracian_faction_01, }
-				recruit "greek heavy peltast" 1 requires not is_player and not hidden_resource poverty and factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
-				recruit "greek onager" 1 requires not factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, macedon, hellenic_faction_13, } and not is_player and not hidden_resource poverty and factions { greek, tracian_illyrian, }
-				recruit "greek heavy onager" 0 requires not is_player and not hidden_resource poverty and factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, macedon, hellenic_faction_13, }
-				recruit "thracian heavy peltast" 0 requires not is_player and not hidden_resource poverty and factions { tracian_illyrian, }
-				recruit "roman archer" 2 requires not major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { roman, }
-				recruit "roman archer auxillia" 2 requires major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { roman, }
-				recruit "roman heavy onager" 0 requires not is_player and not hidden_resource poverty and factions { roman, }
-				recruit "roman repeating ballista" 0 requires not is_player and not hidden_resource poverty and factions { roman, }
-				recruit "rhodian slingers" 4 requires not is_player and not hidden_resource poverty and factions { hellenic_faction_06, }
-				recruit "libyan infantry" 4 requires not is_player and not hidden_resource poverty and factions { hellenic_faction_08, }
-				recruit "cretan archers" 2 requires not is_player and not hidden_resource poverty and factions { hellenic_faction_07, }
-				recruit "illyrian" 2 requires not is_player and not hidden_resource poverty and factions { illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
-				recruit "italian archer" 2 requires not is_player and not hidden_resource poverty and factions { italic, }
-				recruit "elite persian archer" 2 requires hidden_resource persia and not is_player and not hidden_resource poverty and factions { parthia, rebel_parthia, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, }
-				recruit "greek syrian archer" 2 requires hidden_resource syria and not is_player and not hidden_resource poverty and factions { seleucid, }
-				recruit "merc balearic slingers" 2 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, } and religion i_paganism >= 10 or religion punic >= 10 or religion nuragic >= 10
-				recruit "merc cretan archers" 2 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, macedon, seleucid, hellenic_faction_01, hellenic_faction_09, } and religion hellenic >= 10
-				recruit "merc rhodian slingers" 2 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and factions { seleucid, } and religion hellenic >= 10
-				recruit "merc syrian archer" 2 requires hidden_resource syria and not is_player and hidden_resource mercenary and not hidden_resource poverty and religion mesopotamian >= 10 or religion hellenic >= 10 or religion egyptian >= 10 or religion roman >= 10 or religion zoroastrian >= 10
+				recruit "barb archer slave" 4 requires not is_player and factions { rebel_slave, }
+				recruit "carthaginian peltast" 4 requires not is_player and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
+				recruit "carthaginian slinger" 4 requires not is_player and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
+				recruit "barb slinger briton" 4 requires not is_player and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, }
+				recruit "warband archer german" 2 requires not is_player and factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
+				recruit "warband archer dacian" 2 requires not is_player and factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, thracian_faction_02, }
+				recruit "warband archer scythian" 2 requires not is_player and factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
+				recruit "warband huntsman gaul" 2 requires not is_player and factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
+				recruit "barb heavy peltast" 1 requires not is_player and factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, }
+				recruit "barb ballista dacian" 2 requires not is_player and factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
+				recruit "barb onager dacian" 1 requires not is_player and factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
+				recruit "barb onager scythian" 1 requires not is_player and factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
+				recruit "desert archers african" 1 requires not is_player and factions { numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_04, desert_faction_05, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert, }
+				recruit "carthaginian onager" 1 requires not is_player and factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_04, desert_faction_05, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert, }
+				recruit "carthaginian heavy onager" 0 requires not is_player and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
+				recruit "east archer" 2 requires not is_player and factions { eastern, }
+				recruit "east onager" 1 requires not is_player and factions { eastern, }
+				recruit "egyptian archer elite" 1 requires not is_player and factions { egyptian, }
+				recruit "egyptian heavy onager" 0 requires not is_player and factions { egyptian, }
+				recruit "greek archer" 2 requires not factions { hellenic_faction_07, } and not is_player and factions { greek, thrace, thracian_faction_01, }
+				recruit "greek heavy peltast" 1 requires not is_player and factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
+				recruit "greek onager" 1 requires not factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, macedon, hellenic_faction_13, } and not is_player and factions { greek, tracian_illyrian, }
+				recruit "greek heavy onager" 0 requires not is_player and factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, macedon, hellenic_faction_13, }
+				recruit "thracian heavy peltast" 0 requires not is_player and factions { tracian_illyrian, }
+				recruit "roman archer" 2 requires not major_event "marian_reforms" and not is_player and factions { roman, }
+				recruit "roman archer auxillia" 2 requires major_event "marian_reforms" and not is_player and factions { roman, }
+				recruit "roman heavy onager" 0 requires not is_player and factions { roman, }
+				recruit "roman repeating ballista" 0 requires not is_player and factions { roman, }
+				recruit "rhodian slingers" 4 requires not is_player and factions { hellenic_faction_06, }
+				recruit "libyan infantry" 4 requires not is_player and factions { hellenic_faction_08, }
+				recruit "cretan archers" 2 requires not is_player and factions { hellenic_faction_07, }
+				recruit "illyrian" 2 requires not is_player and factions { illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
+				recruit "italian archer" 2 requires not is_player and factions { italic, }
+				recruit "elite persian archer" 2 requires hidden_resource persia and not is_player and factions { parthia, rebel_parthia, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, }
+				recruit "greek syrian archer" 2 requires hidden_resource syria and not is_player and factions { seleucid, }
+				recruit "merc balearic slingers" 2 requires not is_player and hidden_resource mercenary and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, } and religion i_paganism >= 10 or religion punic >= 10 or religion nuragic >= 10
+				recruit "merc cretan archers" 2 requires not is_player and hidden_resource mercenary and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, macedon, seleucid, hellenic_faction_01, hellenic_faction_09, } and religion hellenic >= 10
+				recruit "merc rhodian slingers" 2 requires not is_player and hidden_resource mercenary and factions { seleucid, } and religion hellenic >= 10
+				recruit "merc syrian archer" 2 requires hidden_resource syria and not is_player and hidden_resource mercenary and religion mesopotamian >= 10 or religion hellenic >= 10 or religion egyptian >= 10 or religion roman >= 10 or religion zoroastrian >= 10
 			
 				; Human Recruitment
 
