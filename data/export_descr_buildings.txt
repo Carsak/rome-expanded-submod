@@ -112,6 +112,7 @@ building core_building
 
 				agent diplomat 0 requires not factions { rebel_slave, }
 				agent_limit_settlement diplomat 1
+				population_growth_bonus bonus 10 requires factions { barbarian, } and not is_player
 			}
 			construction  1 
 			cost  400 
@@ -6556,7 +6557,7 @@ building hinterland_natives
 				taxable_income_bonus bonus 8 requires not is_player and factions { romans_julii, romans_brutii, romans_scipii, } and hidden_resource poverty and not hidden_resource capital
 				taxable_income_bonus bonus 4 requires not is_player and not factions { romans_julii, romans_brutii, romans_scipii, } and hidden_resource poverty and not hidden_resource capital
 
-				law_bonus bonus 2 requires not is_player
+				;law_bonus bonus 2 requires not is_player
 
 				; Happiness bonus because the old traditions become a source of entertainment rather than an identity - Also gives us something to look at when no religious bonus is applied
 				happiness_bonus bonus 1 requires is_player and not hidden_resource b_paganism and not hidden_resource c_paganism and not hidden_resource i_paganism and not hidden_resource g_paganism and not hidden_resource s_paganism and not hidden_resource arab and not hidden_resource berber and not hidden_resource egyptian and not hidden_resource etruscan and not hidden_resource hellenic and not hidden_resource judaism and not hidden_resource mesopotamian and not hidden_resource nuragic and not hidden_resource oscan and not hidden_resource punic and not hidden_resource roman and not hidden_resource samnite and not hidden_resource zoroastrian
