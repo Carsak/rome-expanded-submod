@@ -112,7 +112,7 @@ building core_building
 
 				agent diplomat 0 requires not factions { rebel_slave, }
 				agent_limit_settlement diplomat 1
-				population_growth_bonus bonus 10 requires factions { barbarian, } and not is_player
+				population_growth_bonus bonus 10 requires factions { barbarian, tracian_illyrian, carthaginian, eastern, } and not is_player
 			}
 			construction  1 
 			cost  400 
