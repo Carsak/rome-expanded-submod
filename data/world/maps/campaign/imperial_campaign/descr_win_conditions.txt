@@ -17,7 +17,7 @@ macedon
 hold_regions Pella Ambracia Alexandria Antioch Seleucia
 take_regions 45
 short_campaign outlive_factions
-hellenic_faction_01 hellenic_faction_14 gallic_faction_14
+hellenic_faction_01 hellenic_faction_14 gallic_faction_14 seleucid
 
 egypt
 hold_regions Alexandria Pella Thessalonica Antioch Seleucia
