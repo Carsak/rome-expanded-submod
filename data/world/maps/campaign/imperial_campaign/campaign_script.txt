@@ -3395,7 +3395,7 @@ script
 	end_monitor
 
 ;
-; Submod changes. Carthaginian Barracks Conversion
+; Submod changes. All-Culture Barracks Conversion
 ;
 
 	; Track the culture that last built or upgraded every normal barracks level.  A marker is stored
@@ -3403,11 +3403,11 @@ script
 	; marker, remove all eight culture markers so each settlement has at most one barracks origin.
 	; The same operation is performed during first-time setup for starting barracks in a new campaign.
 	;
-	; export_descr_buildings.txt permits a Carthaginian conversion only when the settlement does not
-	; have barracks_built_by_carthaginian.  Therefore a Carthaginian player can convert captured
-	; foreign barracks, but cannot convert barracks last built or upgraded by a Carthaginian culture.
-	; Conversion completion explicitly replaces the foreign marker with the Carthaginian one, so a
-	; console-created replacement cannot leave the conversion available a second time.
+	; export_descr_buildings.txt permits a conversion for each player culture only when the settlement
+	; does not have its matching barracks_built_by_<culture> marker.  Therefore a player can convert
+	; captured foreign barracks, but cannot convert barracks last built or upgraded by the player's culture.
+	; Conversion completion explicitly replaces the foreign marker with the current settlement owner's
+	; culture marker, so a console-created replacement cannot leave the conversion available a second time.
 
 	monitor_event BuildingCompleted SettlementBuildingFinished = muster_field
 		inc_counter re_barracks_muster_field_completed 1
