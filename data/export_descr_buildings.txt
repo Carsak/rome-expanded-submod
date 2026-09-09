@@ -6756,6 +6756,10 @@ building hinterland_natives
 				recruit "merc east archer" 0 requires not is_player and not hidden_resource poverty and hidden_resource mercenary and not building_present_min_level missiles archery_range and religion zoroastrian >= 20 or religion oscan >= 20
 				recruit "merc syrian archer" 0 requires hidden_resource syria and not is_player and not hidden_resource poverty and hidden_resource mercenary and not building_present_min_level missiles archery_range and religion mesopotamian >= 20
 			}
+			faction_capability
+			{
+				trade_base_income_bonus bonus -4 requires hidden_resource rhodes_colossus
+			}
 			construction  1 
 			cost  1000 
 			settlement_min village

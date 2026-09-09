@@ -6121,6 +6121,13 @@ script
 ;
 
 	monitor_event SettlementTurnEnd
+		if SettlementName Rhodos
+		and not HasResource rhodes_colossus
+		    ; Prevent the Colossus of Rhodes' faction-wide +40% trade bonus from unbalancing the campaign.
+            ; This resource enables the native building's matching faction-wide trade penalty.
+			add_hidden_resource local rhodes_colossus
+		end_if
+
 		if not FactionType rebel_slave
 		and not FactionType slave
 

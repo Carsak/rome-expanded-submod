@@ -1424,6 +1424,10 @@
 	{
 		"subtype": "hidden",
 	},
+	"rhodes_colossus":
+	{
+		"subtype": "hidden",
+	},
 
 	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	;;				OWNERS				 ;;
