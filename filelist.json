@@ -4,6 +4,10 @@
 		"checksum": 452237
 	},
 	{
+		"filename": "data\/descr_engines.txt",
+		"checksum": 3463764858
+	},
+	{
 		"filename": "data\/descr_sm_resources.txt",
 		"checksum": 4041859599
 	},
@@ -28,8 +32,28 @@
 		"checksum": 2449408928
 	},
 	{
+		"filename": "data\/text\/export_buildings_mac_de.txt",
+		"checksum": 2877784205
+	},
+	{
+		"filename": "data\/text\/export_buildings_mac_es.txt",
+		"checksum": 1676747912
+	},
+	{
+		"filename": "data\/text\/export_buildings_mac_fr.txt",
+		"checksum": 3600940119
+	},
+	{
+		"filename": "data\/text\/export_buildings_mac_it.txt",
+		"checksum": 2662658557
+	},
+	{
 		"filename": "data\/text\/export_buildings_mac_ru.txt",
 		"checksum": 396590131
+	},
+	{
+		"filename": "data\/text\/export_buildings_mac_zh_cn.txt",
+		"checksum": 2946485736
 	},
 	{
 		"filename": "data\/ui\/barbarian\/buildings\/#barbarian_convert_barracks_1.tga",
