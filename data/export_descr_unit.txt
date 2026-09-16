@@ -1020,7 +1020,7 @@ stat_mental					13, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 680, 110, 70, 110, 680
+stat_cost					1, 680, 200, 70, 110, 680
 recruit_priority_offset		0
 ownership					slave, rebel_slave, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05
 ethnicity					britons, Brittania_Superior
@@ -1049,7 +1049,7 @@ stat_mental					13, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 680, 110, 70, 110, 680
+stat_cost					1, 680, 200, 70, 110, 680
 recruit_priority_offset		0
 ownership					slave, rebel_slave, dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03
 ethnicity					dacia, Dacia
@@ -1078,7 +1078,7 @@ stat_mental					13, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 680, 110, 70, 110, 680
+stat_cost					1, 680, 200, 70, 110, 680
 recruit_priority_offset		0
 ownership					slave, rebel_slave, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, hellenic_faction_03, latin_faction_05
 ethnicity					gauls, Central_Gaul
@@ -10854,7 +10854,7 @@ category					infantry
 class						heavy
 voice_type					Medium_1
 voice_indexes				0 1 2
-soldier						barbarian_legionary, 40, 0, 1.3
+soldier						barbarian_legionary, 60, 0, 1.3
 officer						barb_standard
 attributes					sea_faring, hide_forest, hardy
 formation					1, 2, 2, 3, 4, square, shield_wall
@@ -10871,7 +10871,7 @@ stat_mental					13, disciplined, trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 780, 280, 80, 120, 780
+stat_cost					1, 780, 280, 80, 120, 780
 recruit_priority_offset		0
 ownership					slave, rebel_slave, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18
 ethnicity					gauls, Central_Gaul
