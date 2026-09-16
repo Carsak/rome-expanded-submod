@@ -5,6 +5,8 @@ script
 ;
 
 	declare_persistent_counter first_time_setup
+	declare_persistent_counter early_marian_reforms_prompt_answered
+	declare_persistent_counter early_marian_reforms_enabled
 	declare_persistent_counter greek_wars_setup
 	declare_persistent_counter punic_wars_setup
 	declare_persistent_counter socii_wars_setup
@@ -54,6 +56,15 @@ script
 ;
 
 	if I_CompareCounter first_time_setup = 0
+		message_prompt
+		{
+			flag_counter early_marian_reforms_prompt_answered
+			result_counter early_marian_reforms_enabled
+
+			title ROME_EXPANDED_EARLY_MARIAN_REFORMS_TITLE
+			body ROME_EXPANDED_EARLY_MARIAN_REFORMS_BODY
+		}
+
 		set_counter first_time_setup 1
 
 		; Set vassals

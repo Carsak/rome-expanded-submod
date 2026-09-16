@@ -28,6 +28,34 @@
 		"checksum": 316650023
 	},
 	{
+		"filename": "data\/text\/expanded_bi.txt",
+		"checksum": 1240204518
+	},
+	{
+		"filename": "data\/text\/expanded_bi_mac_de.txt",
+		"checksum": 372671510
+	},
+	{
+		"filename": "data\/text\/expanded_bi_mac_es.txt",
+		"checksum": 688988075
+	},
+	{
+		"filename": "data\/text\/expanded_bi_mac_fr.txt",
+		"checksum": 1268070598
+	},
+	{
+		"filename": "data\/text\/expanded_bi_mac_it.txt",
+		"checksum": 2263594624
+	},
+	{
+		"filename": "data\/text\/expanded_bi_mac_ru.txt",
+		"checksum": 3515533248
+	},
+	{
+		"filename": "data\/text\/expanded_bi_mac_zh_cn.txt",
+		"checksum": 3438625708
+	},
+	{
 		"filename": "data\/text\/export_buildings.txt",
 		"checksum": 2449408928
 	},
@@ -1209,7 +1237,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/campaign_script.txt",
-		"checksum": 2310402254
+		"checksum": 1762456399
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_disasters.txt",
