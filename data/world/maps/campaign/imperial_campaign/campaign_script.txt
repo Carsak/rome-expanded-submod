@@ -56,15 +56,6 @@ script
 ;
 
 	if I_CompareCounter first_time_setup = 0
-		message_prompt
-		{
-			flag_counter early_marian_reforms_prompt_answered
-			result_counter early_marian_reforms_enabled
-
-			title ROME_EXPANDED_EARLY_MARIAN_REFORMS_TITLE
-			body ROME_EXPANDED_EARLY_MARIAN_REFORMS_BODY
-		}
-
 		set_counter first_time_setup 1
 
 		; Set vassals
@@ -966,8 +957,18 @@ script
 
 	monitor_event FactionTurnEnd
 		declare_counter still_alive
-
+		
 		if FactionIsLocal
+    		message_prompt
+    		{
+    			flag_counter early_marian_reforms_prompt_answered
+    			result_counter early_marian_reforms_enabled
+    
+    			title ROME_EXPANDED_EARLY_MARIAN_REFORMS_TITLE
+    			body ROME_EXPANDED_EARLY_MARIAN_REFORMS_BODY
+    			image marian_reform
+    		}
+    		
 			if DiplomaticStanceFromFaction romans_senate = AtWar
 			and I_CompareCounter rome_is_in_danger = 0
 				set_counter rome_is_in_danger 1
