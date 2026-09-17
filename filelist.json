@@ -28,6 +28,10 @@
 		"checksum": 316650023
 	},
 	{
+		"filename": "data\/major_event_scripts\/marian_reforms_trigger.txt",
+		"checksum": 3721754022
+	},
+	{
 		"filename": "data\/text\/expanded_bi.txt",
 		"checksum": 1193337204
 	},
@@ -1237,7 +1241,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/campaign_script.txt",
-		"checksum": 3333921127
+		"checksum": 3289865867
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_disasters.txt",
