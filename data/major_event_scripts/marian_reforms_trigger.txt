@@ -1,0 +1,24 @@
+script
+	declare_counter marian_count
+	
+	if I_TurnNumber > 325
+		return true
+	end_if
+	
+	if not MajorEventActive "marian_reforms"
+		;;check every settlement in the world
+		for_each settlement in world
+			if I_CompareCounter marian_count < 5
+			and I_SettlementLevel local >= huge_city
+			and I_SettlementOwnerCulture local == roman
+				inc_counter marian_count 1
+			end_if
+		
+			if I_CompareCounter marian_count = 5
+				return true
+			end_if
+		end_for
+	end_if
+
+	return false ;;don't trigger marian reforms
+end_script
