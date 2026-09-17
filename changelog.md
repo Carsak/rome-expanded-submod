@@ -11,6 +11,10 @@ This file records notable player-facing changes to Rome Expanded Submod. The new
 - When early reforms are disabled, the standard requirement remains five huge cities controlled by Roman factions.
 - Marian reforms still trigger automatically after turn 325 as a late-game fallback.
 
+### Fixed
+
+- Fixed the early Marian reforms prompt appearing again every turn after the player had already answered it.
+
 ## 2026-09-16
 
 ### Changed

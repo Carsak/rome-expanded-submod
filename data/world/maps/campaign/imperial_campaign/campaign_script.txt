@@ -959,16 +959,18 @@ script
 		declare_counter still_alive
 		
 		if FactionIsLocal
-    		message_prompt
-    		{
-    			flag_counter early_marian_reforms_prompt_answered
-    			result_counter early_marian_reforms_enabled
-    
-    			title ROME_EXPANDED_EARLY_MARIAN_REFORMS_TITLE
-    			body ROME_EXPANDED_EARLY_MARIAN_REFORMS_BODY
-    			image marian_reform
-    		}
-    		
+			if I_CompareCounter early_marian_reforms_prompt_answered = 0
+				message_prompt
+				{
+					flag_counter early_marian_reforms_prompt_answered
+					result_counter early_marian_reforms_enabled
+
+					title ROME_EXPANDED_EARLY_MARIAN_REFORMS_TITLE
+					body ROME_EXPANDED_EARLY_MARIAN_REFORMS_BODY
+					image marian_reform
+				}
+			end_if
+
 			if DiplomaticStanceFromFaction romans_senate = AtWar
 			and I_CompareCounter rome_is_in_danger = 0
 				set_counter rome_is_in_danger 1
