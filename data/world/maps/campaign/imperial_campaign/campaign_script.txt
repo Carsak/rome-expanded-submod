@@ -5,6 +5,8 @@ script
 ;
 
 	declare_persistent_counter first_time_setup
+	declare_persistent_counter early_marian_reforms_prompt_answered
+	declare_persistent_counter early_marian_reforms_enabled
 	declare_persistent_counter greek_wars_setup
 	declare_persistent_counter punic_wars_setup
 	declare_persistent_counter socii_wars_setup
@@ -40,6 +42,14 @@ script
 	declare_persistent_counter sos_socii_spawned
 	declare_persistent_counter rebel_purge
 	declare_persistent_counter is_rome
+	declare_persistent_counter re_barracks_muster_field_completed
+	declare_persistent_counter re_barracks_militia_barracks_completed
+	declare_persistent_counter re_barracks_city_barracks_completed
+	declare_persistent_counter re_barracks_army_barracks_completed
+	declare_persistent_counter re_barracks_royal_barracks_completed
+	declare_persistent_counter re_barracks_greek_marker_added
+	declare_persistent_counter re_barracks_roman_marker_added
+	declare_persistent_counter re_barracks_italic_marker_added
 
 ;
 ; Setup
@@ -68,6 +78,126 @@ script
 		for_each settlement in world
 			if not SettlementBuildingExists = native
 				console_command create_building local native
+			end_if
+
+			; Submod changes. First-time setup: assign an origin marker to each existing starting barracks.  Later
+			; construction and upgrades are handled by SettlementBuildingFinished monitors below.
+			if SettlementBuildingExists = muster_field
+			|| SettlementBuildingExists = militia_barracks
+			|| SettlementBuildingExists = city_barracks
+			|| SettlementBuildingExists = army_barracks
+			|| SettlementBuildingExists = royal_barracks
+				remove_hidden_resource local barracks_built_by_tracian_illyrian
+				remove_hidden_resource local barracks_built_by_barbarian
+				remove_hidden_resource local barracks_built_by_carthaginian
+				remove_hidden_resource local barracks_built_by_eastern
+				remove_hidden_resource local barracks_built_by_egyptian
+				remove_hidden_resource local barracks_built_by_greek
+				remove_hidden_resource local barracks_built_by_roman
+				remove_hidden_resource local barracks_built_by_italic
+
+				if I_SettlementOwnerCulture local = tracian_illyrian
+					add_hidden_resource local barracks_built_by_tracian_illyrian
+				end_if
+				if I_SettlementOwnerCulture local = barbarian
+					add_hidden_resource local barracks_built_by_barbarian
+				end_if
+				if I_SettlementOwnerCulture local = carthaginian
+					add_hidden_resource local barracks_built_by_carthaginian
+				end_if
+				if I_SettlementOwnerCulture local = eastern
+					add_hidden_resource local barracks_built_by_eastern
+				end_if
+				if I_SettlementOwnerCulture local = egyptian
+					add_hidden_resource local barracks_built_by_egyptian
+				end_if
+				if I_SettlementOwnerCulture local = greek
+					add_hidden_resource local barracks_built_by_greek
+				end_if
+				if I_SettlementOwnerCulture local = roman
+					add_hidden_resource local barracks_built_by_roman
+				end_if
+				if I_SettlementOwnerCulture local = italic
+					add_hidden_resource local barracks_built_by_italic
+				end_if
+			end_if
+
+			if SettlementBuildingExists = stables
+			|| SettlementBuildingExists = cavalry_barracks
+			|| SettlementBuildingExists = hippodrome
+			|| SettlementBuildingExists = circus_maximus
+				remove_hidden_resource local equestrian_built_by_tracian_illyrian
+				remove_hidden_resource local equestrian_built_by_barbarian
+				remove_hidden_resource local equestrian_built_by_carthaginian
+				remove_hidden_resource local equestrian_built_by_eastern
+				remove_hidden_resource local equestrian_built_by_egyptian
+				remove_hidden_resource local equestrian_built_by_greek
+				remove_hidden_resource local equestrian_built_by_roman
+				remove_hidden_resource local equestrian_built_by_italic
+
+				if I_SettlementOwnerCulture local = tracian_illyrian
+					add_hidden_resource local equestrian_built_by_tracian_illyrian
+				end_if
+				if I_SettlementOwnerCulture local = barbarian
+					add_hidden_resource local equestrian_built_by_barbarian
+				end_if
+				if I_SettlementOwnerCulture local = carthaginian
+					add_hidden_resource local equestrian_built_by_carthaginian
+				end_if
+				if I_SettlementOwnerCulture local = eastern
+					add_hidden_resource local equestrian_built_by_eastern
+				end_if
+				if I_SettlementOwnerCulture local = egyptian
+					add_hidden_resource local equestrian_built_by_egyptian
+				end_if
+				if I_SettlementOwnerCulture local = greek
+					add_hidden_resource local equestrian_built_by_greek
+				end_if
+				if I_SettlementOwnerCulture local = roman
+					add_hidden_resource local equestrian_built_by_roman
+				end_if
+				if I_SettlementOwnerCulture local = italic
+					add_hidden_resource local equestrian_built_by_italic
+				end_if
+			end_if
+
+			if SettlementBuildingExists = practice_field
+			|| SettlementBuildingExists = archery_range
+			|| SettlementBuildingExists = catapult_range
+			|| SettlementBuildingExists = siege_engineer
+				remove_hidden_resource local missiles_built_by_tracian_illyrian
+				remove_hidden_resource local missiles_built_by_barbarian
+				remove_hidden_resource local missiles_built_by_carthaginian
+				remove_hidden_resource local missiles_built_by_eastern
+				remove_hidden_resource local missiles_built_by_egyptian
+				remove_hidden_resource local missiles_built_by_greek
+				remove_hidden_resource local missiles_built_by_roman
+				remove_hidden_resource local missiles_built_by_italic
+
+				if I_SettlementOwnerCulture local = tracian_illyrian
+					add_hidden_resource local missiles_built_by_tracian_illyrian
+				end_if
+				if I_SettlementOwnerCulture local = barbarian
+					add_hidden_resource local missiles_built_by_barbarian
+				end_if
+				if I_SettlementOwnerCulture local = carthaginian
+					add_hidden_resource local missiles_built_by_carthaginian
+				end_if
+				if I_SettlementOwnerCulture local = eastern
+					add_hidden_resource local missiles_built_by_eastern
+				end_if
+				if I_SettlementOwnerCulture local = egyptian
+					add_hidden_resource local missiles_built_by_egyptian
+				end_if
+				if I_SettlementOwnerCulture local = greek
+					add_hidden_resource local missiles_built_by_greek
+				end_if
+				if I_SettlementOwnerCulture local = roman
+					add_hidden_resource local missiles_built_by_roman
+				end_if
+				if I_SettlementOwnerCulture local = italic
+					add_hidden_resource local missiles_built_by_italic
+				end_if
 			end_if
 
 			if IsCapital
@@ -827,8 +957,20 @@ script
 
 	monitor_event FactionTurnEnd
 		declare_counter still_alive
-
+		
 		if FactionIsLocal
+			if I_CompareCounter early_marian_reforms_prompt_answered = 0
+				message_prompt
+				{
+					flag_counter early_marian_reforms_prompt_answered
+					result_counter early_marian_reforms_enabled
+
+					title ROME_EXPANDED_EARLY_MARIAN_REFORMS_TITLE
+					body ROME_EXPANDED_EARLY_MARIAN_REFORMS_BODY
+					image marian_reform
+				}
+			end_if
+
 			if DiplomaticStanceFromFaction romans_senate = AtWar
 			and I_CompareCounter rome_is_in_danger = 0
 				set_counter rome_is_in_danger 1
@@ -3267,6 +3409,973 @@ script
 	end_monitor
 
 ;
+; Submod changes. All-Culture Barracks Conversion
+;
+
+	; Track the culture that last built or upgraded every normal barracks level.  A marker is stored
+	; as a hidden resource on the settlement: barracks_built_by_<culture>.  Before assigning a new
+	; marker, remove all eight culture markers so each settlement has at most one barracks origin.
+	; The same operation is performed during first-time setup for starting barracks in a new campaign.
+	;
+	; export_descr_buildings.txt permits a conversion for each player culture only when the settlement
+	; does not have its matching barracks_built_by_<culture> marker.  Therefore a player can convert
+	; captured foreign barracks, but cannot convert barracks last built or upgraded by the player's culture.
+	; Conversion completion explicitly replaces the foreign marker with the current settlement owner's
+	; culture marker, so a console-created replacement cannot leave the conversion available a second time.
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = muster_field
+		inc_counter re_barracks_muster_field_completed 1
+		console_command check_persistent_var re_barracks_muster_field_completed
+		remove_hidden_resource local barracks_built_by_tracian_illyrian
+		remove_hidden_resource local barracks_built_by_barbarian
+		remove_hidden_resource local barracks_built_by_carthaginian
+		remove_hidden_resource local barracks_built_by_eastern
+		remove_hidden_resource local barracks_built_by_egyptian
+		remove_hidden_resource local barracks_built_by_greek
+		remove_hidden_resource local barracks_built_by_roman
+		remove_hidden_resource local barracks_built_by_italic
+
+		if I_SettlementOwnerCulture local = tracian_illyrian
+			add_hidden_resource local barracks_built_by_tracian_illyrian
+		end_if
+		if I_SettlementOwnerCulture local = barbarian
+			add_hidden_resource local barracks_built_by_barbarian
+		end_if
+		if I_SettlementOwnerCulture local = carthaginian
+			add_hidden_resource local barracks_built_by_carthaginian
+		end_if
+		if I_SettlementOwnerCulture local = eastern
+			add_hidden_resource local barracks_built_by_eastern
+		end_if
+		if I_SettlementOwnerCulture local = egyptian
+			add_hidden_resource local barracks_built_by_egyptian
+		end_if
+		if I_SettlementOwnerCulture local = greek
+			inc_counter re_barracks_greek_marker_added 1
+			console_command check_persistent_var re_barracks_greek_marker_added
+			add_hidden_resource local barracks_built_by_greek
+		end_if
+		if I_SettlementOwnerCulture local = roman
+			inc_counter re_barracks_roman_marker_added 1
+			console_command check_persistent_var re_barracks_roman_marker_added
+			add_hidden_resource local barracks_built_by_roman
+		end_if
+		if I_SettlementOwnerCulture local = italic
+			inc_counter re_barracks_italic_marker_added 1
+			console_command check_persistent_var re_barracks_italic_marker_added
+			add_hidden_resource local barracks_built_by_italic
+		end_if
+	end_monitor
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = militia_barracks
+		inc_counter re_barracks_militia_barracks_completed 1
+		console_command check_persistent_var re_barracks_militia_barracks_completed
+		remove_hidden_resource local barracks_built_by_tracian_illyrian
+		remove_hidden_resource local barracks_built_by_barbarian
+		remove_hidden_resource local barracks_built_by_carthaginian
+		remove_hidden_resource local barracks_built_by_eastern
+		remove_hidden_resource local barracks_built_by_egyptian
+		remove_hidden_resource local barracks_built_by_greek
+		remove_hidden_resource local barracks_built_by_roman
+		remove_hidden_resource local barracks_built_by_italic
+
+		if I_SettlementOwnerCulture local = tracian_illyrian
+			add_hidden_resource local barracks_built_by_tracian_illyrian
+		end_if
+		if I_SettlementOwnerCulture local = barbarian
+			add_hidden_resource local barracks_built_by_barbarian
+		end_if
+		if I_SettlementOwnerCulture local = carthaginian
+			add_hidden_resource local barracks_built_by_carthaginian
+		end_if
+		if I_SettlementOwnerCulture local = eastern
+			add_hidden_resource local barracks_built_by_eastern
+		end_if
+		if I_SettlementOwnerCulture local = egyptian
+			add_hidden_resource local barracks_built_by_egyptian
+		end_if
+		if I_SettlementOwnerCulture local = greek
+			inc_counter re_barracks_greek_marker_added 1
+			console_command check_persistent_var re_barracks_greek_marker_added
+			add_hidden_resource local barracks_built_by_greek
+		end_if
+		if I_SettlementOwnerCulture local = roman
+			inc_counter re_barracks_roman_marker_added 1
+			console_command check_persistent_var re_barracks_roman_marker_added
+			add_hidden_resource local barracks_built_by_roman
+		end_if
+		if I_SettlementOwnerCulture local = italic
+			inc_counter re_barracks_italic_marker_added 1
+			console_command check_persistent_var re_barracks_italic_marker_added
+			add_hidden_resource local barracks_built_by_italic
+		end_if
+	end_monitor
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = city_barracks
+		inc_counter re_barracks_city_barracks_completed 1
+		console_command check_persistent_var re_barracks_city_barracks_completed
+		remove_hidden_resource local barracks_built_by_tracian_illyrian
+		remove_hidden_resource local barracks_built_by_barbarian
+		remove_hidden_resource local barracks_built_by_carthaginian
+		remove_hidden_resource local barracks_built_by_eastern
+		remove_hidden_resource local barracks_built_by_egyptian
+		remove_hidden_resource local barracks_built_by_greek
+		remove_hidden_resource local barracks_built_by_roman
+		remove_hidden_resource local barracks_built_by_italic
+
+		if I_SettlementOwnerCulture local = tracian_illyrian
+			add_hidden_resource local barracks_built_by_tracian_illyrian
+		end_if
+		if I_SettlementOwnerCulture local = barbarian
+			add_hidden_resource local barracks_built_by_barbarian
+		end_if
+		if I_SettlementOwnerCulture local = carthaginian
+			add_hidden_resource local barracks_built_by_carthaginian
+		end_if
+		if I_SettlementOwnerCulture local = eastern
+			add_hidden_resource local barracks_built_by_eastern
+		end_if
+		if I_SettlementOwnerCulture local = egyptian
+			add_hidden_resource local barracks_built_by_egyptian
+		end_if
+		if I_SettlementOwnerCulture local = greek
+			inc_counter re_barracks_greek_marker_added 1
+			console_command check_persistent_var re_barracks_greek_marker_added
+			add_hidden_resource local barracks_built_by_greek
+		end_if
+		if I_SettlementOwnerCulture local = roman
+			inc_counter re_barracks_roman_marker_added 1
+			console_command check_persistent_var re_barracks_roman_marker_added
+			add_hidden_resource local barracks_built_by_roman
+		end_if
+		if I_SettlementOwnerCulture local = italic
+			inc_counter re_barracks_italic_marker_added 1
+			console_command check_persistent_var re_barracks_italic_marker_added
+			add_hidden_resource local barracks_built_by_italic
+		end_if
+	end_monitor
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = army_barracks
+		inc_counter re_barracks_army_barracks_completed 1
+		console_command check_persistent_var re_barracks_army_barracks_completed
+		remove_hidden_resource local barracks_built_by_tracian_illyrian
+		remove_hidden_resource local barracks_built_by_barbarian
+		remove_hidden_resource local barracks_built_by_carthaginian
+		remove_hidden_resource local barracks_built_by_eastern
+		remove_hidden_resource local barracks_built_by_egyptian
+		remove_hidden_resource local barracks_built_by_greek
+		remove_hidden_resource local barracks_built_by_roman
+		remove_hidden_resource local barracks_built_by_italic
+
+		if I_SettlementOwnerCulture local = tracian_illyrian
+			add_hidden_resource local barracks_built_by_tracian_illyrian
+		end_if
+		if I_SettlementOwnerCulture local = barbarian
+			add_hidden_resource local barracks_built_by_barbarian
+		end_if
+		if I_SettlementOwnerCulture local = carthaginian
+			add_hidden_resource local barracks_built_by_carthaginian
+		end_if
+		if I_SettlementOwnerCulture local = eastern
+			add_hidden_resource local barracks_built_by_eastern
+		end_if
+		if I_SettlementOwnerCulture local = egyptian
+			add_hidden_resource local barracks_built_by_egyptian
+		end_if
+		if I_SettlementOwnerCulture local = greek
+			inc_counter re_barracks_greek_marker_added 1
+			console_command check_persistent_var re_barracks_greek_marker_added
+			add_hidden_resource local barracks_built_by_greek
+		end_if
+		if I_SettlementOwnerCulture local = roman
+			inc_counter re_barracks_roman_marker_added 1
+			console_command check_persistent_var re_barracks_roman_marker_added
+			add_hidden_resource local barracks_built_by_roman
+		end_if
+		if I_SettlementOwnerCulture local = italic
+			inc_counter re_barracks_italic_marker_added 1
+			console_command check_persistent_var re_barracks_italic_marker_added
+			add_hidden_resource local barracks_built_by_italic
+		end_if
+	end_monitor
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = royal_barracks
+		inc_counter re_barracks_royal_barracks_completed 1
+		console_command check_persistent_var re_barracks_royal_barracks_completed
+		remove_hidden_resource local barracks_built_by_tracian_illyrian
+		remove_hidden_resource local barracks_built_by_barbarian
+		remove_hidden_resource local barracks_built_by_carthaginian
+		remove_hidden_resource local barracks_built_by_eastern
+		remove_hidden_resource local barracks_built_by_egyptian
+		remove_hidden_resource local barracks_built_by_greek
+		remove_hidden_resource local barracks_built_by_roman
+		remove_hidden_resource local barracks_built_by_italic
+
+		if I_SettlementOwnerCulture local = tracian_illyrian
+			add_hidden_resource local barracks_built_by_tracian_illyrian
+		end_if
+		if I_SettlementOwnerCulture local = barbarian
+			add_hidden_resource local barracks_built_by_barbarian
+		end_if
+		if I_SettlementOwnerCulture local = carthaginian
+			add_hidden_resource local barracks_built_by_carthaginian
+		end_if
+		if I_SettlementOwnerCulture local = eastern
+			add_hidden_resource local barracks_built_by_eastern
+		end_if
+		if I_SettlementOwnerCulture local = egyptian
+			add_hidden_resource local barracks_built_by_egyptian
+		end_if
+		if I_SettlementOwnerCulture local = greek
+			inc_counter re_barracks_greek_marker_added 1
+			console_command check_persistent_var re_barracks_greek_marker_added
+			add_hidden_resource local barracks_built_by_greek
+		end_if
+		if I_SettlementOwnerCulture local = roman
+			inc_counter re_barracks_roman_marker_added 1
+			console_command check_persistent_var re_barracks_roman_marker_added
+			add_hidden_resource local barracks_built_by_roman
+		end_if
+		if I_SettlementOwnerCulture local = italic
+			inc_counter re_barracks_italic_marker_added 1
+			console_command check_persistent_var re_barracks_italic_marker_added
+			add_hidden_resource local barracks_built_by_italic
+		end_if
+	end_monitor
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = convert_barracks_1
+		remove_hidden_resource local barracks_built_by_tracian_illyrian
+		remove_hidden_resource local barracks_built_by_barbarian
+		remove_hidden_resource local barracks_built_by_carthaginian
+		remove_hidden_resource local barracks_built_by_eastern
+		remove_hidden_resource local barracks_built_by_egyptian
+		remove_hidden_resource local barracks_built_by_greek
+		remove_hidden_resource local barracks_built_by_roman
+		remove_hidden_resource local barracks_built_by_italic
+		if I_SettlementOwnerCulture local = tracian_illyrian
+			add_hidden_resource local barracks_built_by_tracian_illyrian
+		end_if
+		if I_SettlementOwnerCulture local = barbarian
+			add_hidden_resource local barracks_built_by_barbarian
+		end_if
+		if I_SettlementOwnerCulture local = carthaginian
+			add_hidden_resource local barracks_built_by_carthaginian
+		end_if
+		if I_SettlementOwnerCulture local = eastern
+			add_hidden_resource local barracks_built_by_eastern
+		end_if
+		if I_SettlementOwnerCulture local = egyptian
+			add_hidden_resource local barracks_built_by_egyptian
+		end_if
+		if I_SettlementOwnerCulture local = greek
+			add_hidden_resource local barracks_built_by_greek
+		end_if
+		if I_SettlementOwnerCulture local = roman
+			add_hidden_resource local barracks_built_by_roman
+		end_if
+		if I_SettlementOwnerCulture local = italic
+			add_hidden_resource local barracks_built_by_italic
+		end_if
+		destroy_building "local" barracks
+		console_command create_building local muster_field
+	end_monitor
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = convert_barracks_2
+		remove_hidden_resource local barracks_built_by_tracian_illyrian
+		remove_hidden_resource local barracks_built_by_barbarian
+		remove_hidden_resource local barracks_built_by_carthaginian
+		remove_hidden_resource local barracks_built_by_eastern
+		remove_hidden_resource local barracks_built_by_egyptian
+		remove_hidden_resource local barracks_built_by_greek
+		remove_hidden_resource local barracks_built_by_roman
+		remove_hidden_resource local barracks_built_by_italic
+		if I_SettlementOwnerCulture local = tracian_illyrian
+			add_hidden_resource local barracks_built_by_tracian_illyrian
+		end_if
+		if I_SettlementOwnerCulture local = barbarian
+			add_hidden_resource local barracks_built_by_barbarian
+		end_if
+		if I_SettlementOwnerCulture local = carthaginian
+			add_hidden_resource local barracks_built_by_carthaginian
+		end_if
+		if I_SettlementOwnerCulture local = eastern
+			add_hidden_resource local barracks_built_by_eastern
+		end_if
+		if I_SettlementOwnerCulture local = egyptian
+			add_hidden_resource local barracks_built_by_egyptian
+		end_if
+		if I_SettlementOwnerCulture local = greek
+			add_hidden_resource local barracks_built_by_greek
+		end_if
+		if I_SettlementOwnerCulture local = roman
+			add_hidden_resource local barracks_built_by_roman
+		end_if
+		if I_SettlementOwnerCulture local = italic
+			add_hidden_resource local barracks_built_by_italic
+		end_if
+		destroy_building "local" barracks
+		console_command create_building local militia_barracks
+	end_monitor
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = convert_barracks_3
+		remove_hidden_resource local barracks_built_by_tracian_illyrian
+		remove_hidden_resource local barracks_built_by_barbarian
+		remove_hidden_resource local barracks_built_by_carthaginian
+		remove_hidden_resource local barracks_built_by_eastern
+		remove_hidden_resource local barracks_built_by_egyptian
+		remove_hidden_resource local barracks_built_by_greek
+		remove_hidden_resource local barracks_built_by_roman
+		remove_hidden_resource local barracks_built_by_italic
+		if I_SettlementOwnerCulture local = tracian_illyrian
+			add_hidden_resource local barracks_built_by_tracian_illyrian
+		end_if
+		if I_SettlementOwnerCulture local = barbarian
+			add_hidden_resource local barracks_built_by_barbarian
+		end_if
+		if I_SettlementOwnerCulture local = carthaginian
+			add_hidden_resource local barracks_built_by_carthaginian
+		end_if
+		if I_SettlementOwnerCulture local = eastern
+			add_hidden_resource local barracks_built_by_eastern
+		end_if
+		if I_SettlementOwnerCulture local = egyptian
+			add_hidden_resource local barracks_built_by_egyptian
+		end_if
+		if I_SettlementOwnerCulture local = greek
+			add_hidden_resource local barracks_built_by_greek
+		end_if
+		if I_SettlementOwnerCulture local = roman
+			add_hidden_resource local barracks_built_by_roman
+		end_if
+		if I_SettlementOwnerCulture local = italic
+			add_hidden_resource local barracks_built_by_italic
+		end_if
+		destroy_building "local" barracks
+		console_command create_building local city_barracks
+	end_monitor
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = convert_barracks_4
+		remove_hidden_resource local barracks_built_by_tracian_illyrian
+		remove_hidden_resource local barracks_built_by_barbarian
+		remove_hidden_resource local barracks_built_by_carthaginian
+		remove_hidden_resource local barracks_built_by_eastern
+		remove_hidden_resource local barracks_built_by_egyptian
+		remove_hidden_resource local barracks_built_by_greek
+		remove_hidden_resource local barracks_built_by_roman
+		remove_hidden_resource local barracks_built_by_italic
+		if I_SettlementOwnerCulture local = tracian_illyrian
+			add_hidden_resource local barracks_built_by_tracian_illyrian
+		end_if
+		if I_SettlementOwnerCulture local = barbarian
+			add_hidden_resource local barracks_built_by_barbarian
+		end_if
+		if I_SettlementOwnerCulture local = carthaginian
+			add_hidden_resource local barracks_built_by_carthaginian
+		end_if
+		if I_SettlementOwnerCulture local = eastern
+			add_hidden_resource local barracks_built_by_eastern
+		end_if
+		if I_SettlementOwnerCulture local = egyptian
+			add_hidden_resource local barracks_built_by_egyptian
+		end_if
+		if I_SettlementOwnerCulture local = greek
+			add_hidden_resource local barracks_built_by_greek
+		end_if
+		if I_SettlementOwnerCulture local = roman
+			add_hidden_resource local barracks_built_by_roman
+		end_if
+		if I_SettlementOwnerCulture local = italic
+			add_hidden_resource local barracks_built_by_italic
+		end_if
+		destroy_building "local" barracks
+		console_command create_building local army_barracks
+	end_monitor
+
+;
+; Equestrian Origin Markers and Carthaginian Conversion
+;
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = stables
+		remove_hidden_resource local equestrian_built_by_tracian_illyrian
+		remove_hidden_resource local equestrian_built_by_barbarian
+		remove_hidden_resource local equestrian_built_by_carthaginian
+		remove_hidden_resource local equestrian_built_by_eastern
+		remove_hidden_resource local equestrian_built_by_egyptian
+		remove_hidden_resource local equestrian_built_by_greek
+		remove_hidden_resource local equestrian_built_by_roman
+		remove_hidden_resource local equestrian_built_by_italic
+		if I_SettlementOwnerCulture local = tracian_illyrian
+			add_hidden_resource local equestrian_built_by_tracian_illyrian
+		end_if
+		if I_SettlementOwnerCulture local = barbarian
+			add_hidden_resource local equestrian_built_by_barbarian
+		end_if
+		if I_SettlementOwnerCulture local = carthaginian
+			add_hidden_resource local equestrian_built_by_carthaginian
+		end_if
+		if I_SettlementOwnerCulture local = eastern
+			add_hidden_resource local equestrian_built_by_eastern
+		end_if
+		if I_SettlementOwnerCulture local = egyptian
+			add_hidden_resource local equestrian_built_by_egyptian
+		end_if
+		if I_SettlementOwnerCulture local = greek
+			add_hidden_resource local equestrian_built_by_greek
+		end_if
+		if I_SettlementOwnerCulture local = roman
+			add_hidden_resource local equestrian_built_by_roman
+		end_if
+		if I_SettlementOwnerCulture local = italic
+			add_hidden_resource local equestrian_built_by_italic
+		end_if
+	end_monitor
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = cavalry_barracks
+		remove_hidden_resource local equestrian_built_by_tracian_illyrian
+		remove_hidden_resource local equestrian_built_by_barbarian
+		remove_hidden_resource local equestrian_built_by_carthaginian
+		remove_hidden_resource local equestrian_built_by_eastern
+		remove_hidden_resource local equestrian_built_by_egyptian
+		remove_hidden_resource local equestrian_built_by_greek
+		remove_hidden_resource local equestrian_built_by_roman
+		remove_hidden_resource local equestrian_built_by_italic
+		if I_SettlementOwnerCulture local = tracian_illyrian
+			add_hidden_resource local equestrian_built_by_tracian_illyrian
+		end_if
+		if I_SettlementOwnerCulture local = barbarian
+			add_hidden_resource local equestrian_built_by_barbarian
+		end_if
+		if I_SettlementOwnerCulture local = carthaginian
+			add_hidden_resource local equestrian_built_by_carthaginian
+		end_if
+		if I_SettlementOwnerCulture local = eastern
+			add_hidden_resource local equestrian_built_by_eastern
+		end_if
+		if I_SettlementOwnerCulture local = egyptian
+			add_hidden_resource local equestrian_built_by_egyptian
+		end_if
+		if I_SettlementOwnerCulture local = greek
+			add_hidden_resource local equestrian_built_by_greek
+		end_if
+		if I_SettlementOwnerCulture local = roman
+			add_hidden_resource local equestrian_built_by_roman
+		end_if
+		if I_SettlementOwnerCulture local = italic
+			add_hidden_resource local equestrian_built_by_italic
+		end_if
+	end_monitor
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = hippodrome
+		remove_hidden_resource local equestrian_built_by_tracian_illyrian
+		remove_hidden_resource local equestrian_built_by_barbarian
+		remove_hidden_resource local equestrian_built_by_carthaginian
+		remove_hidden_resource local equestrian_built_by_eastern
+		remove_hidden_resource local equestrian_built_by_egyptian
+		remove_hidden_resource local equestrian_built_by_greek
+		remove_hidden_resource local equestrian_built_by_roman
+		remove_hidden_resource local equestrian_built_by_italic
+		if I_SettlementOwnerCulture local = tracian_illyrian
+			add_hidden_resource local equestrian_built_by_tracian_illyrian
+		end_if
+		if I_SettlementOwnerCulture local = barbarian
+			add_hidden_resource local equestrian_built_by_barbarian
+		end_if
+		if I_SettlementOwnerCulture local = carthaginian
+			add_hidden_resource local equestrian_built_by_carthaginian
+		end_if
+		if I_SettlementOwnerCulture local = eastern
+			add_hidden_resource local equestrian_built_by_eastern
+		end_if
+		if I_SettlementOwnerCulture local = egyptian
+			add_hidden_resource local equestrian_built_by_egyptian
+		end_if
+		if I_SettlementOwnerCulture local = greek
+			add_hidden_resource local equestrian_built_by_greek
+		end_if
+		if I_SettlementOwnerCulture local = roman
+			add_hidden_resource local equestrian_built_by_roman
+		end_if
+		if I_SettlementOwnerCulture local = italic
+			add_hidden_resource local equestrian_built_by_italic
+		end_if
+	end_monitor
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = circus_maximus
+		remove_hidden_resource local equestrian_built_by_tracian_illyrian
+		remove_hidden_resource local equestrian_built_by_barbarian
+		remove_hidden_resource local equestrian_built_by_carthaginian
+		remove_hidden_resource local equestrian_built_by_eastern
+		remove_hidden_resource local equestrian_built_by_egyptian
+		remove_hidden_resource local equestrian_built_by_greek
+		remove_hidden_resource local equestrian_built_by_roman
+		remove_hidden_resource local equestrian_built_by_italic
+		if I_SettlementOwnerCulture local = tracian_illyrian
+			add_hidden_resource local equestrian_built_by_tracian_illyrian
+		end_if
+		if I_SettlementOwnerCulture local = barbarian
+			add_hidden_resource local equestrian_built_by_barbarian
+		end_if
+		if I_SettlementOwnerCulture local = carthaginian
+			add_hidden_resource local equestrian_built_by_carthaginian
+		end_if
+		if I_SettlementOwnerCulture local = eastern
+			add_hidden_resource local equestrian_built_by_eastern
+		end_if
+		if I_SettlementOwnerCulture local = egyptian
+			add_hidden_resource local equestrian_built_by_egyptian
+		end_if
+		if I_SettlementOwnerCulture local = greek
+			add_hidden_resource local equestrian_built_by_greek
+		end_if
+		if I_SettlementOwnerCulture local = roman
+			add_hidden_resource local equestrian_built_by_roman
+		end_if
+		if I_SettlementOwnerCulture local = italic
+			add_hidden_resource local equestrian_built_by_italic
+		end_if
+	end_monitor
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = convert_equestrian_1
+		remove_hidden_resource local equestrian_built_by_tracian_illyrian
+		remove_hidden_resource local equestrian_built_by_barbarian
+		remove_hidden_resource local equestrian_built_by_carthaginian
+		remove_hidden_resource local equestrian_built_by_eastern
+		remove_hidden_resource local equestrian_built_by_egyptian
+		remove_hidden_resource local equestrian_built_by_greek
+		remove_hidden_resource local equestrian_built_by_roman
+		remove_hidden_resource local equestrian_built_by_italic
+		if I_SettlementOwnerCulture local = tracian_illyrian
+			add_hidden_resource local equestrian_built_by_tracian_illyrian
+		end_if
+		if I_SettlementOwnerCulture local = barbarian
+			add_hidden_resource local equestrian_built_by_barbarian
+		end_if
+		if I_SettlementOwnerCulture local = carthaginian
+			add_hidden_resource local equestrian_built_by_carthaginian
+		end_if
+		if I_SettlementOwnerCulture local = eastern
+			add_hidden_resource local equestrian_built_by_eastern
+		end_if
+		if I_SettlementOwnerCulture local = egyptian
+			add_hidden_resource local equestrian_built_by_egyptian
+		end_if
+		if I_SettlementOwnerCulture local = greek
+			add_hidden_resource local equestrian_built_by_greek
+		end_if
+		if I_SettlementOwnerCulture local = roman
+			add_hidden_resource local equestrian_built_by_roman
+		end_if
+		if I_SettlementOwnerCulture local = italic
+			add_hidden_resource local equestrian_built_by_italic
+		end_if
+		destroy_building "local" equestrian
+		console_command create_building local stables
+	end_monitor
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = convert_equestrian_2
+		remove_hidden_resource local equestrian_built_by_tracian_illyrian
+		remove_hidden_resource local equestrian_built_by_barbarian
+		remove_hidden_resource local equestrian_built_by_carthaginian
+		remove_hidden_resource local equestrian_built_by_eastern
+		remove_hidden_resource local equestrian_built_by_egyptian
+		remove_hidden_resource local equestrian_built_by_greek
+		remove_hidden_resource local equestrian_built_by_roman
+		remove_hidden_resource local equestrian_built_by_italic
+		if I_SettlementOwnerCulture local = tracian_illyrian
+			add_hidden_resource local equestrian_built_by_tracian_illyrian
+		end_if
+		if I_SettlementOwnerCulture local = barbarian
+			add_hidden_resource local equestrian_built_by_barbarian
+		end_if
+		if I_SettlementOwnerCulture local = carthaginian
+			add_hidden_resource local equestrian_built_by_carthaginian
+		end_if
+		if I_SettlementOwnerCulture local = eastern
+			add_hidden_resource local equestrian_built_by_eastern
+		end_if
+		if I_SettlementOwnerCulture local = egyptian
+			add_hidden_resource local equestrian_built_by_egyptian
+		end_if
+		if I_SettlementOwnerCulture local = greek
+			add_hidden_resource local equestrian_built_by_greek
+		end_if
+		if I_SettlementOwnerCulture local = roman
+			add_hidden_resource local equestrian_built_by_roman
+		end_if
+		if I_SettlementOwnerCulture local = italic
+			add_hidden_resource local equestrian_built_by_italic
+		end_if
+		destroy_building "local" equestrian
+		console_command create_building local cavalry_barracks
+	end_monitor
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = convert_equestrian_3
+		remove_hidden_resource local equestrian_built_by_tracian_illyrian
+		remove_hidden_resource local equestrian_built_by_barbarian
+		remove_hidden_resource local equestrian_built_by_carthaginian
+		remove_hidden_resource local equestrian_built_by_eastern
+		remove_hidden_resource local equestrian_built_by_egyptian
+		remove_hidden_resource local equestrian_built_by_greek
+		remove_hidden_resource local equestrian_built_by_roman
+		remove_hidden_resource local equestrian_built_by_italic
+		if I_SettlementOwnerCulture local = tracian_illyrian
+			add_hidden_resource local equestrian_built_by_tracian_illyrian
+		end_if
+		if I_SettlementOwnerCulture local = barbarian
+			add_hidden_resource local equestrian_built_by_barbarian
+		end_if
+		if I_SettlementOwnerCulture local = carthaginian
+			add_hidden_resource local equestrian_built_by_carthaginian
+		end_if
+		if I_SettlementOwnerCulture local = eastern
+			add_hidden_resource local equestrian_built_by_eastern
+		end_if
+		if I_SettlementOwnerCulture local = egyptian
+			add_hidden_resource local equestrian_built_by_egyptian
+		end_if
+		if I_SettlementOwnerCulture local = greek
+			add_hidden_resource local equestrian_built_by_greek
+		end_if
+		if I_SettlementOwnerCulture local = roman
+			add_hidden_resource local equestrian_built_by_roman
+		end_if
+		if I_SettlementOwnerCulture local = italic
+			add_hidden_resource local equestrian_built_by_italic
+		end_if
+		destroy_building "local" equestrian
+		console_command create_building local hippodrome
+	end_monitor
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = convert_equestrian_4
+		remove_hidden_resource local equestrian_built_by_tracian_illyrian
+		remove_hidden_resource local equestrian_built_by_barbarian
+		remove_hidden_resource local equestrian_built_by_carthaginian
+		remove_hidden_resource local equestrian_built_by_eastern
+		remove_hidden_resource local equestrian_built_by_egyptian
+		remove_hidden_resource local equestrian_built_by_greek
+		remove_hidden_resource local equestrian_built_by_roman
+		remove_hidden_resource local equestrian_built_by_italic
+		if I_SettlementOwnerCulture local = tracian_illyrian
+			add_hidden_resource local equestrian_built_by_tracian_illyrian
+		end_if
+		if I_SettlementOwnerCulture local = barbarian
+			add_hidden_resource local equestrian_built_by_barbarian
+		end_if
+		if I_SettlementOwnerCulture local = carthaginian
+			add_hidden_resource local equestrian_built_by_carthaginian
+		end_if
+		if I_SettlementOwnerCulture local = eastern
+			add_hidden_resource local equestrian_built_by_eastern
+		end_if
+		if I_SettlementOwnerCulture local = egyptian
+			add_hidden_resource local equestrian_built_by_egyptian
+		end_if
+		if I_SettlementOwnerCulture local = greek
+			add_hidden_resource local equestrian_built_by_greek
+		end_if
+		if I_SettlementOwnerCulture local = roman
+			add_hidden_resource local equestrian_built_by_roman
+		end_if
+		if I_SettlementOwnerCulture local = italic
+			add_hidden_resource local equestrian_built_by_italic
+		end_if
+		destroy_building "local" equestrian
+		console_command create_building local circus_maximus
+	end_monitor
+
+;
+; Missile Range Origin Markers and Carthaginian Conversion
+;
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = practice_field
+		remove_hidden_resource local missiles_built_by_tracian_illyrian
+		remove_hidden_resource local missiles_built_by_barbarian
+		remove_hidden_resource local missiles_built_by_carthaginian
+		remove_hidden_resource local missiles_built_by_eastern
+		remove_hidden_resource local missiles_built_by_egyptian
+		remove_hidden_resource local missiles_built_by_greek
+		remove_hidden_resource local missiles_built_by_roman
+		remove_hidden_resource local missiles_built_by_italic
+		if I_SettlementOwnerCulture local = tracian_illyrian
+			add_hidden_resource local missiles_built_by_tracian_illyrian
+		end_if
+		if I_SettlementOwnerCulture local = barbarian
+			add_hidden_resource local missiles_built_by_barbarian
+		end_if
+		if I_SettlementOwnerCulture local = carthaginian
+			add_hidden_resource local missiles_built_by_carthaginian
+		end_if
+		if I_SettlementOwnerCulture local = eastern
+			add_hidden_resource local missiles_built_by_eastern
+		end_if
+		if I_SettlementOwnerCulture local = egyptian
+			add_hidden_resource local missiles_built_by_egyptian
+		end_if
+		if I_SettlementOwnerCulture local = greek
+			add_hidden_resource local missiles_built_by_greek
+		end_if
+		if I_SettlementOwnerCulture local = roman
+			add_hidden_resource local missiles_built_by_roman
+		end_if
+		if I_SettlementOwnerCulture local = italic
+			add_hidden_resource local missiles_built_by_italic
+		end_if
+	end_monitor
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = archery_range
+		remove_hidden_resource local missiles_built_by_tracian_illyrian
+		remove_hidden_resource local missiles_built_by_barbarian
+		remove_hidden_resource local missiles_built_by_carthaginian
+		remove_hidden_resource local missiles_built_by_eastern
+		remove_hidden_resource local missiles_built_by_egyptian
+		remove_hidden_resource local missiles_built_by_greek
+		remove_hidden_resource local missiles_built_by_roman
+		remove_hidden_resource local missiles_built_by_italic
+		if I_SettlementOwnerCulture local = tracian_illyrian
+			add_hidden_resource local missiles_built_by_tracian_illyrian
+		end_if
+		if I_SettlementOwnerCulture local = barbarian
+			add_hidden_resource local missiles_built_by_barbarian
+		end_if
+		if I_SettlementOwnerCulture local = carthaginian
+			add_hidden_resource local missiles_built_by_carthaginian
+		end_if
+		if I_SettlementOwnerCulture local = eastern
+			add_hidden_resource local missiles_built_by_eastern
+		end_if
+		if I_SettlementOwnerCulture local = egyptian
+			add_hidden_resource local missiles_built_by_egyptian
+		end_if
+		if I_SettlementOwnerCulture local = greek
+			add_hidden_resource local missiles_built_by_greek
+		end_if
+		if I_SettlementOwnerCulture local = roman
+			add_hidden_resource local missiles_built_by_roman
+		end_if
+		if I_SettlementOwnerCulture local = italic
+			add_hidden_resource local missiles_built_by_italic
+		end_if
+	end_monitor
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = catapult_range
+		remove_hidden_resource local missiles_built_by_tracian_illyrian
+		remove_hidden_resource local missiles_built_by_barbarian
+		remove_hidden_resource local missiles_built_by_carthaginian
+		remove_hidden_resource local missiles_built_by_eastern
+		remove_hidden_resource local missiles_built_by_egyptian
+		remove_hidden_resource local missiles_built_by_greek
+		remove_hidden_resource local missiles_built_by_roman
+		remove_hidden_resource local missiles_built_by_italic
+		if I_SettlementOwnerCulture local = tracian_illyrian
+			add_hidden_resource local missiles_built_by_tracian_illyrian
+		end_if
+		if I_SettlementOwnerCulture local = barbarian
+			add_hidden_resource local missiles_built_by_barbarian
+		end_if
+		if I_SettlementOwnerCulture local = carthaginian
+			add_hidden_resource local missiles_built_by_carthaginian
+		end_if
+		if I_SettlementOwnerCulture local = eastern
+			add_hidden_resource local missiles_built_by_eastern
+		end_if
+		if I_SettlementOwnerCulture local = egyptian
+			add_hidden_resource local missiles_built_by_egyptian
+		end_if
+		if I_SettlementOwnerCulture local = greek
+			add_hidden_resource local missiles_built_by_greek
+		end_if
+		if I_SettlementOwnerCulture local = roman
+			add_hidden_resource local missiles_built_by_roman
+		end_if
+		if I_SettlementOwnerCulture local = italic
+			add_hidden_resource local missiles_built_by_italic
+		end_if
+	end_monitor
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = siege_engineer
+		remove_hidden_resource local missiles_built_by_tracian_illyrian
+		remove_hidden_resource local missiles_built_by_barbarian
+		remove_hidden_resource local missiles_built_by_carthaginian
+		remove_hidden_resource local missiles_built_by_eastern
+		remove_hidden_resource local missiles_built_by_egyptian
+		remove_hidden_resource local missiles_built_by_greek
+		remove_hidden_resource local missiles_built_by_roman
+		remove_hidden_resource local missiles_built_by_italic
+		if I_SettlementOwnerCulture local = tracian_illyrian
+			add_hidden_resource local missiles_built_by_tracian_illyrian
+		end_if
+		if I_SettlementOwnerCulture local = barbarian
+			add_hidden_resource local missiles_built_by_barbarian
+		end_if
+		if I_SettlementOwnerCulture local = carthaginian
+			add_hidden_resource local missiles_built_by_carthaginian
+		end_if
+		if I_SettlementOwnerCulture local = eastern
+			add_hidden_resource local missiles_built_by_eastern
+		end_if
+		if I_SettlementOwnerCulture local = egyptian
+			add_hidden_resource local missiles_built_by_egyptian
+		end_if
+		if I_SettlementOwnerCulture local = greek
+			add_hidden_resource local missiles_built_by_greek
+		end_if
+		if I_SettlementOwnerCulture local = roman
+			add_hidden_resource local missiles_built_by_roman
+		end_if
+		if I_SettlementOwnerCulture local = italic
+			add_hidden_resource local missiles_built_by_italic
+		end_if
+	end_monitor
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = convert_missiles_1
+		remove_hidden_resource local missiles_built_by_tracian_illyrian
+		remove_hidden_resource local missiles_built_by_barbarian
+		remove_hidden_resource local missiles_built_by_carthaginian
+		remove_hidden_resource local missiles_built_by_eastern
+		remove_hidden_resource local missiles_built_by_egyptian
+		remove_hidden_resource local missiles_built_by_greek
+		remove_hidden_resource local missiles_built_by_roman
+		remove_hidden_resource local missiles_built_by_italic
+		if I_SettlementOwnerCulture local = tracian_illyrian
+			add_hidden_resource local missiles_built_by_tracian_illyrian
+		end_if
+		if I_SettlementOwnerCulture local = barbarian
+			add_hidden_resource local missiles_built_by_barbarian
+		end_if
+		if I_SettlementOwnerCulture local = carthaginian
+			add_hidden_resource local missiles_built_by_carthaginian
+		end_if
+		if I_SettlementOwnerCulture local = eastern
+			add_hidden_resource local missiles_built_by_eastern
+		end_if
+		if I_SettlementOwnerCulture local = egyptian
+			add_hidden_resource local missiles_built_by_egyptian
+		end_if
+		if I_SettlementOwnerCulture local = greek
+			add_hidden_resource local missiles_built_by_greek
+		end_if
+		if I_SettlementOwnerCulture local = roman
+			add_hidden_resource local missiles_built_by_roman
+		end_if
+		if I_SettlementOwnerCulture local = italic
+			add_hidden_resource local missiles_built_by_italic
+		end_if
+		destroy_building "local" missiles
+		console_command create_building local practice_field
+	end_monitor
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = convert_missiles_2
+		remove_hidden_resource local missiles_built_by_tracian_illyrian
+		remove_hidden_resource local missiles_built_by_barbarian
+		remove_hidden_resource local missiles_built_by_carthaginian
+		remove_hidden_resource local missiles_built_by_eastern
+		remove_hidden_resource local missiles_built_by_egyptian
+		remove_hidden_resource local missiles_built_by_greek
+		remove_hidden_resource local missiles_built_by_roman
+		remove_hidden_resource local missiles_built_by_italic
+		if I_SettlementOwnerCulture local = tracian_illyrian
+			add_hidden_resource local missiles_built_by_tracian_illyrian
+		end_if
+		if I_SettlementOwnerCulture local = barbarian
+			add_hidden_resource local missiles_built_by_barbarian
+		end_if
+		if I_SettlementOwnerCulture local = carthaginian
+			add_hidden_resource local missiles_built_by_carthaginian
+		end_if
+		if I_SettlementOwnerCulture local = eastern
+			add_hidden_resource local missiles_built_by_eastern
+		end_if
+		if I_SettlementOwnerCulture local = egyptian
+			add_hidden_resource local missiles_built_by_egyptian
+		end_if
+		if I_SettlementOwnerCulture local = greek
+			add_hidden_resource local missiles_built_by_greek
+		end_if
+		if I_SettlementOwnerCulture local = roman
+			add_hidden_resource local missiles_built_by_roman
+		end_if
+		if I_SettlementOwnerCulture local = italic
+			add_hidden_resource local missiles_built_by_italic
+		end_if
+		destroy_building "local" missiles
+		console_command create_building local archery_range
+	end_monitor
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = convert_missiles_3
+		remove_hidden_resource local missiles_built_by_tracian_illyrian
+		remove_hidden_resource local missiles_built_by_barbarian
+		remove_hidden_resource local missiles_built_by_carthaginian
+		remove_hidden_resource local missiles_built_by_eastern
+		remove_hidden_resource local missiles_built_by_egyptian
+		remove_hidden_resource local missiles_built_by_greek
+		remove_hidden_resource local missiles_built_by_roman
+		remove_hidden_resource local missiles_built_by_italic
+		if I_SettlementOwnerCulture local = tracian_illyrian
+			add_hidden_resource local missiles_built_by_tracian_illyrian
+		end_if
+		if I_SettlementOwnerCulture local = barbarian
+			add_hidden_resource local missiles_built_by_barbarian
+		end_if
+		if I_SettlementOwnerCulture local = carthaginian
+			add_hidden_resource local missiles_built_by_carthaginian
+		end_if
+		if I_SettlementOwnerCulture local = eastern
+			add_hidden_resource local missiles_built_by_eastern
+		end_if
+		if I_SettlementOwnerCulture local = egyptian
+			add_hidden_resource local missiles_built_by_egyptian
+		end_if
+		if I_SettlementOwnerCulture local = greek
+			add_hidden_resource local missiles_built_by_greek
+		end_if
+		if I_SettlementOwnerCulture local = roman
+			add_hidden_resource local missiles_built_by_roman
+		end_if
+		if I_SettlementOwnerCulture local = italic
+			add_hidden_resource local missiles_built_by_italic
+		end_if
+		destroy_building "local" missiles
+		console_command create_building local catapult_range
+	end_monitor
+
+	monitor_event BuildingCompleted SettlementBuildingFinished = convert_missiles_4
+		remove_hidden_resource local missiles_built_by_tracian_illyrian
+		remove_hidden_resource local missiles_built_by_barbarian
+		remove_hidden_resource local missiles_built_by_carthaginian
+		remove_hidden_resource local missiles_built_by_eastern
+		remove_hidden_resource local missiles_built_by_egyptian
+		remove_hidden_resource local missiles_built_by_greek
+		remove_hidden_resource local missiles_built_by_roman
+		remove_hidden_resource local missiles_built_by_italic
+		if I_SettlementOwnerCulture local = tracian_illyrian
+			add_hidden_resource local missiles_built_by_tracian_illyrian
+		end_if
+		if I_SettlementOwnerCulture local = barbarian
+			add_hidden_resource local missiles_built_by_barbarian
+		end_if
+		if I_SettlementOwnerCulture local = carthaginian
+			add_hidden_resource local missiles_built_by_carthaginian
+		end_if
+		if I_SettlementOwnerCulture local = eastern
+			add_hidden_resource local missiles_built_by_eastern
+		end_if
+		if I_SettlementOwnerCulture local = egyptian
+			add_hidden_resource local missiles_built_by_egyptian
+		end_if
+		if I_SettlementOwnerCulture local = greek
+			add_hidden_resource local missiles_built_by_greek
+		end_if
+		if I_SettlementOwnerCulture local = roman
+			add_hidden_resource local missiles_built_by_roman
+		end_if
+		if I_SettlementOwnerCulture local = italic
+			add_hidden_resource local missiles_built_by_italic
+		end_if
+		destroy_building "local" missiles
+		console_command create_building local siege_engineer
+	end_monitor
+
+;
 ; Rebel Spawn
 ;
 
@@ -5026,6 +6135,13 @@ script
 ;
 
 	monitor_event SettlementTurnEnd
+		if SettlementName Rhodes
+		and not HasResource rhodes_colossus
+		    ; Prevent the Colossus of Rhodes' faction-wide +40% trade bonus from unbalancing the campaign.
+            ; This resource enables the native building's matching faction-wide trade penalty.
+			add_hidden_resource local rhodes_colossus
+		end_if
+
 		if not FactionType rebel_slave
 		and not FactionType slave
 
