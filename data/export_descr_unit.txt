@@ -400,7 +400,7 @@ soldier						barb_slinger, 40, 0, 0.9
 attributes					sea_faring, hide_improved_forest
 formation					1.6, 2, 3.2, 4, 3, square
 stat_health					1, 0
-stat_pri					4, 1, stone, 120, 40, missile, archery, blunt, none, 25, 0.73
+stat_pri					4, 1, stone, 120, 40, missile, archery, blunt, none, 25, 1
 stat_pri_attr				no
 stat_sec					3, 1, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -428,7 +428,7 @@ soldier						barb_archer, 40, 0, 0.9
 attributes					sea_faring, hide_improved_forest
 formation					1.2, 1.2, 2.4, 2.4, 3, square
 stat_health					1, 0
-stat_pri					7, 1, arrow, 120, 30, missile, archery, piercing, none, 25, 0.73
+stat_pri					7, 1, arrow, 120, 30, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					3, 1, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -456,7 +456,7 @@ soldier						barb_archer_scythia, 40, 0, 0.9
 attributes					sea_faring, hide_improved_forest
 formation					1.2, 1.2, 2.4, 2.4, 3, square
 stat_health					1, 0
-stat_pri					7, 1, arrow, 120, 30, missile, archery, piercing, none, 25, 0.73
+stat_pri					7, 1, arrow, 120, 30, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					3, 1, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -484,7 +484,7 @@ soldier						barb_archer_slave, 40, 0, 0.9
 attributes					sea_faring, hide_improved_forest
 formation					1.2, 1.2, 2.4, 2.4, 3, square
 stat_health					1, 0
-stat_pri					7, 1, arrow, 120, 30, missile, archery, piercing, none, 25, 0.73
+stat_pri					7, 1, arrow, 120, 30, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					3, 1, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -513,7 +513,7 @@ officer						barb_standard_dacia
 attributes					sea_faring, hide_improved_forest, hardy
 formation					1.2, 1.2, 2.4, 2.4, 4, square
 stat_health					1, 0
-stat_pri					8, 4, arrow, 170, 30, missile, archery, piercing, none, 25, 0.73
+stat_pri					8, 4, arrow, 170, 30, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					10, 4, no, 0, 0, melee, simple, piercing, sword, 25, 0.73
 stat_sec_attr				no
@@ -542,7 +542,7 @@ officer						barb_standard_germans
 attributes					sea_faring, hide_improved_forest, hardy
 formation					1.2, 1.2, 2.4, 2.4, 4, square
 stat_health					1, 0
-stat_pri					8, 4, arrow, 170, 30, missile, archery, piercing, none, 25, 0.73
+stat_pri					8, 4, arrow, 170, 30, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					10, 4, no, 0, 0, melee, simple, piercing, sword, 25, 0.73
 stat_sec_attr				no
@@ -571,7 +571,7 @@ officer						barb_standard_scythia
 attributes					sea_faring, hide_improved_forest, hardy
 formation					1.2, 1.2, 2.4, 2.4, 4, square
 stat_health					1, 0
-stat_pri					8, 4, arrow, 170, 30, missile, archery, piercing, none, 25, 0.73
+stat_pri					8, 4, arrow, 170, 30, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					10, 4, no, 0, 0, melee, simple, piercing, sword, 25, 0.73
 stat_sec_attr				no
@@ -599,7 +599,7 @@ soldier						warband_huntsman, 40, 0, 1.2
 attributes					sea_faring, hide_improved_forest, hide_long_grass, hide_anywhere, very_hardy
 formation					1.2, 1.2, 2.4, 2.4, 3, square
 stat_health					1, 0
-stat_pri					11, 4, arrow, 170, 30, missile, archery, piercing, none, 25, 0.73
+stat_pri					11, 4, arrow, 170, 30, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					11, 4, no, 0, 0, melee, simple, piercing, spear, 25, 0.73
 stat_sec_attr				light_spear, spear_bonus_4
@@ -1898,7 +1898,7 @@ mount_effect     			elephant -8, camel -4
 attributes					sea_faring, hide_forest, frighten_foot, cantabrian_circle
 formation					8.5, 9, 15, 15, 2, square
 stat_health					1, 2
-stat_pri					10, 4, arrow, 120, 60, missile, archery, piercing, none, 25, 0.73
+stat_pri					10, 4, arrow, 120, 60, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					10, 6, no, 0, 0, melee, blade, slashing, none, 25, 0.73
 stat_sec_attr				launching, ap
@@ -1921,7 +1921,7 @@ mount_effect     			elephant -8, camel -4
 attributes					sea_faring, hide_forest, frighten_foot, cantabrian_circle
 formation					8.5, 9, 15, 15, 2, square
 stat_health					1, 2
-stat_pri					10, 4, arrow, 120, 60, missile, archery, piercing, none, 25, 0.73
+stat_pri					10, 4, arrow, 120, 60, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					10, 6, no, 0, 0, melee, blade, slashing, none, 25, 0.73
 stat_sec_attr				launching, ap
@@ -2048,7 +2048,7 @@ mount_effect     			elephant -8, camel -4
 attributes					sea_faring, hide_forest, hardy, cantabrian_circle
 formation					3, 4, 6, 6, 4, square
 stat_health					1, 0
-stat_pri					7, 1, arrow, 120, 40, missile, archery, piercing, none, 25, 0.73
+stat_pri					7, 1, arrow, 120, 40, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					3, 2, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -2079,7 +2079,7 @@ mount_effect     			elephant -8, camel -4
 attributes					sea_faring, hide_forest, hardy, cantabrian_circle
 formation					3, 4, 6, 6, 4, square
 stat_health					1, 0
-stat_pri					7, 1, arrow, 120, 40, missile, archery, piercing, none, 25, 0.73
+stat_pri					7, 1, arrow, 120, 40, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					3, 2, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -2110,7 +2110,7 @@ mount_effect     			elephant -8, camel -4
 attributes					sea_faring, hide_forest, hardy, cantabrian_circle
 formation					1.5, 4, 3, 6, 4, square
 stat_health					1, 0
-stat_pri					8, 4, arrow, 170, 30, missile, archery, piercing, none, 25, 0.73
+stat_pri					8, 4, arrow, 170, 30, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					10, 6, no, 0, 0, melee, simple, piercing, sword, 25, 0.73
 stat_sec_attr				no
@@ -2201,7 +2201,7 @@ mount_effect     			elephant -8, camel -4
 attributes					sea_faring, hide_forest, cantabrian_circle
 formation					3, 4, 6, 6, 4, square
 stat_health					1, 0
-stat_pri					8, 4, arrow, 170, 30, missile, archery, piercing, none, 25, 0.73
+stat_pri					8, 4, arrow, 170, 30, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					7, 5, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -2743,7 +2743,7 @@ soldier						carthaginian_slinger, 40, 0, 0.8
 attributes					sea_faring, hide_forest, can_sap
 formation					1.6, 2, 3.2, 4, 3, square
 stat_health					1, 0
-stat_pri					4, 1, stone, 120, 40, missile, archery, blunt, none, 25, 0.73
+stat_pri					4, 1, stone, 120, 40, missile, archery, blunt, none, 25, 1
 stat_pri_attr				no
 stat_sec					3, 1, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -2785,7 +2785,7 @@ soldier						carthaginian_archer_desert, 40, 0, 0.8
 attributes					sea_faring, hide_forest, can_sap
 formation					1.6, 2, 3.2, 4, 3, square
 stat_health					1, 0
-stat_pri					7, 1, arrow, 120, 30, missile, archery, piercing, none, 25, 0.73
+stat_pri					7, 1, arrow, 120, 30, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					3, 1, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -3818,7 +3818,7 @@ mount_effect     			horse +4, chariot +8, camel +4
 attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted
 formation					7, 11, 13, 16, 1, square
 stat_health					1, 12
-stat_pri					6, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 0.73
+stat_pri					6, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					6, 8, no, 0, 0, melee, other, blunt, none, 25, 0.73
 stat_sec_attr				area, launching, ap
@@ -3852,7 +3852,7 @@ mount_effect     			horse +4, chariot +8, camel +4
 attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted
 formation					7, 11, 13, 16, 1, square
 stat_health					1, 12
-stat_pri					6, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 0.73
+stat_pri					6, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					6, 8, no, 0, 0, melee, other, blunt, none, 25, 0.73
 stat_sec_attr				area, launching, ap
@@ -4052,7 +4052,7 @@ soldier						persian_slinger, 40, 0, 0.8
 attributes					sea_faring, hide_forest, can_sap
 formation					1.6, 2, 3.2, 4, 3, square
 stat_health					1, 0
-stat_pri					4, 1, stone, 120, 40, missile, archery, blunt, none, 25, 0.73
+stat_pri					4, 1, stone, 120, 40, missile, archery, blunt, none, 25, 1
 stat_pri_attr				no
 stat_sec					3, 1, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -4083,7 +4083,7 @@ soldier						persian_elite_archer, 40, 0, 0.8
 attributes					sea_faring, hide_forest, can_sap
 formation					1.2, 1.2, 2.4, 2.4, 4, square
 stat_health					1, 0
-stat_pri					7, 1, arrow, 120, 30, missile, archery, piercing, none, 25, 0.73
+stat_pri					7, 1, arrow, 120, 30, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					3, 1, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -4469,7 +4469,7 @@ mount_effect     			elephant -8, camel -4
 attributes					sea_faring, hide_forest, cantabrian_circle
 formation					1.5, 4, 3, 6, 4, square
 stat_health					1, 0
-stat_pri					7, 3, arrow, 170, 30, missile, archery, piercing, none, 25, 0.73
+stat_pri					7, 3, arrow, 170, 30, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					9, 5, no, 0, 0, melee, simple, piercing, sword, 25, 0.73
 stat_sec_attr				no
@@ -4500,7 +4500,7 @@ mount_effect     			elephant -8, camel -4
 attributes					sea_faring, hide_forest, cantabrian_circle
 formation					1.5, 4, 3, 6, 4, square
 stat_health					1, 0
-stat_pri					7, 3, arrow, 170, 30, missile, archery, piercing, none, 25, 0.73
+stat_pri					7, 3, arrow, 170, 30, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					9, 5, no, 0, 0, melee, simple, piercing, sword, 25, 0.73
 stat_sec_attr				no
@@ -4530,7 +4530,7 @@ mount_effect     			elephant -8, camel -4
 attributes					sea_faring, hide_forest, cantabrian_circle
 formation					3, 4, 6, 6, 4, square
 stat_health					1, 0
-stat_pri					7, 1, arrow, 120, 40, missile, archery, piercing, none, 25, 0.73
+stat_pri					7, 1, arrow, 120, 40, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					3, 2, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -4593,7 +4593,7 @@ mount_effect     			horse +4, chariot +8, camel +4
 attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted
 formation					7, 11, 13, 16, 1, square
 stat_health					1, 12
-stat_pri					6, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 0.73
+stat_pri					6, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					6, 8, no, 0, 0, melee, other, blunt, none, 25, 0.73
 stat_sec_attr				area, launching, ap
@@ -4674,7 +4674,7 @@ mount_effect     			elephant -8, camel -4
 attributes					sea_faring, hide_forest, frighten_foot, cantabrian_circle
 formation					8.5, 9, 15, 15, 2, square
 stat_health					1, 2
-stat_pri					9, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 0.73
+stat_pri					9, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					9, 5, no, 0, 0, melee, blade, slashing, none, 25, 0.73
 stat_sec_attr				launching, ap
@@ -4697,7 +4697,7 @@ mount_effect     			elephant -8, camel -4
 attributes					sea_faring, hide_forest, frighten_foot, cantabrian_circle
 formation					8.5, 9, 15, 15, 2, square
 stat_health					1, 2
-stat_pri					9, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 0.73
+stat_pri					9, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					9, 5, no, 0, 0, melee, blade, slashing, none, 25, 0.73
 stat_sec_attr				launching, ap
@@ -4983,7 +4983,7 @@ soldier						egyptian_slinger, 40, 0, 0.8
 attributes					sea_faring, hide_forest, can_sap
 formation					1.6, 2, 3.2, 4, 3, square
 stat_health					1, 0
-stat_pri					4, 1, stone, 120, 40, missile, archery, blunt, none, 25, 0.73
+stat_pri					4, 1, stone, 120, 40, missile, archery, blunt, none, 25, 1
 stat_pri_attr				no
 stat_sec					3, 1, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -5012,7 +5012,7 @@ soldier						egyptian_archer, 40, 0, 0.8
 attributes					sea_faring, hide_forest, can_sap
 formation					1.2, 1.2, 2.4, 2.4, 4, square
 stat_health					1, 0
-stat_pri					7, 1, arrow, 120, 30, missile, archery, piercing, none, 25, 0.73
+stat_pri					7, 1, arrow, 120, 30, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					3, 1, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -5297,7 +5297,7 @@ mount_effect     			elephant -8, horse +2
 attributes					sea_faring, hide_forest, hardy, cantabrian_circle
 formation					3, 4, 5, 5, 4, square
 stat_health					1, 0
-stat_pri					7, 1, arrow, 120, 40, missile, archery, piercing, none, 25, 0.73
+stat_pri					7, 1, arrow, 120, 40, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					3, 2, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -5328,7 +5328,7 @@ mount_effect     			horse +4, chariot +8, camel +4
 attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted
 formation					7, 11, 13, 16, 1, square
 stat_health					1, 12
-stat_pri					6, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 0.73
+stat_pri					6, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					6, 8, no, 0, 0, melee, other, blunt, none, 25, 0.73
 stat_sec_attr				area, launching, ap
@@ -5597,7 +5597,7 @@ soldier						greek_archer, 40, 0, 0.8
 attributes					sea_faring, hide_forest, can_sap
 formation					1.6, 2, 3.2, 4, 3, square
 stat_health					1, 0
-stat_pri					7, 1, arrow, 120, 30, missile, archery, piercing, none, 25, 0.73
+stat_pri					7, 1, arrow, 120, 30, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					3, 1, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -6372,7 +6372,7 @@ mount_effect     			horse +4, chariot +8, camel +4
 attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted
 formation					7, 11, 13, 16, 1, square
 stat_health					1, 12
-stat_pri					6, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 0.73
+stat_pri					6, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					6, 8, no, 0, 0, melee, other, blunt, none, 25, 0.73
 stat_sec_attr				area, launching, ap
@@ -6402,7 +6402,7 @@ mount_effect     			horse +4, chariot +8, camel +4
 attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted
 formation					7, 11, 13, 16, 1, square
 stat_health					1, 12
-stat_pri					6, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 0.73
+stat_pri					6, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					6, 8, no, 0, 0, melee, other, blunt, none, 25, 0.73
 stat_sec_attr				area, launching, ap
@@ -6650,7 +6650,7 @@ soldier						roman_archer, 40, 0, 0.8
 attributes					sea_faring, hide_forest, can_sap
 formation					1.6, 2, 3.2, 4, 3, square
 stat_health					1, 0
-stat_pri					7, 1, arrow, 120, 30, missile, archery, piercing, none, 25, 0.73
+stat_pri					7, 1, arrow, 120, 30, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					3, 1, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -6682,7 +6682,7 @@ officer						roman_standard
 attributes					sea_faring, hide_forest, can_sap, hardy
 formation					1.2, 1.2, 2.4, 2.4, 4, square
 stat_health					1, 0
-stat_pri					8, 1, arrow, 170, 30, missile, archery, piercing, none, 25, 0.73
+stat_pri					8, 1, arrow, 170, 30, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					3, 1, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -7851,7 +7851,7 @@ mount_effect     			elephant -8, camel -4
 attributes					sea_faring, hide_forest, frighten_foot, cantabrian_circle
 formation					8.5, 9, 15, 15, 2, square
 stat_health					1, 2
-stat_pri					10, 4, arrow, 120, 60, missile, archery, piercing, none, 25, 0.73
+stat_pri					10, 4, arrow, 120, 60, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					10, 6, no, 0, 0, melee, blade, slashing, none, 25, 0.73
 stat_sec_attr				launching, ap
@@ -7875,7 +7875,7 @@ mount_effect     			elephant -8, camel -4
 attributes					sea_faring, hide_forest, frighten_foot, cantabrian_circle
 formation					8.5, 9, 15, 15, 2, square
 stat_health					1, 2
-stat_pri					10, 4, arrow, 120, 60, missile, archery, piercing, none, 25, 0.73
+stat_pri					10, 4, arrow, 120, 60, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					10, 6, no, 0, 0, melee, blade, slashing, none, 25, 0.73
 stat_sec_attr				launching, ap
@@ -8174,7 +8174,7 @@ mount_effect     			elephant -8, camel -4
 attributes					sea_faring, hide_forest, hardy, cantabrian_circle, mercenary_unit
 formation					3, 4, 6, 6, 4, square
 stat_health					1, 0
-stat_pri					7, 1, arrow, 120, 40, missile, archery, piercing, none, 25, 0.73
+stat_pri					7, 1, arrow, 120, 40, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					4, 2, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -8262,7 +8262,7 @@ soldier						greek_slinger_merc, 40, 0, 0.8
 attributes					sea_faring, hide_forest, can_sap, hardy, mercenary_unit
 formation					1.6, 2, 3.2, 4, 3, square
 stat_health					1, 0
-stat_pri					9, 3, bullet, 150, 40, missile, archery, blunt, none, 25, 0.73
+stat_pri					9, 3, bullet, 150, 40, missile, archery, blunt, none, 25, 1
 stat_pri_attr				no
 stat_sec					7, 3, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -8291,7 +8291,7 @@ soldier						greek_archer_merc, 40, 0, 0.8
 attributes					sea_faring, hide_forest, can_sap, hardy, mercenary_unit
 formation					1.6, 2, 3.2, 4, 3, square
 stat_health					1, 0
-stat_pri					11, 3, arrow, 170, 30, missile, archery, piercing, none, 25, 0.73
+stat_pri					11, 3, arrow, 170, 30, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					7, 3, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -8500,7 +8500,7 @@ mount_effect     			elephant -8, horse +2
 attributes					sea_faring, hide_forest, hardy, cantabrian_circle, mercenary_unit
 formation					3, 4, 5, 5, 4, square
 stat_health					1, 0
-stat_pri					7, 1, arrow, 120, 40, missile, archery, piercing, none, 25, 0.73
+stat_pri					7, 1, arrow, 120, 40, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					4, 2, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -8531,7 +8531,7 @@ soldier						carthaginian_slinger_merc, 40, 0, 0.8
 attributes					sea_faring, hide_forest, can_sap, hardy, mercenary_unit
 formation					1.6, 2, 3.2, 4, 3, square
 stat_health					1, 0
-stat_pri					9, 3, bullet, 150, 40, missile, archery, blunt, none, 25, 0.73
+stat_pri					9, 3, bullet, 150, 40, missile, archery, blunt, none, 25, 1
 stat_pri_attr				no
 stat_sec					7, 3, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -8627,7 +8627,7 @@ mount_effect     			horse +4, chariot +8, camel +4
 attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted, mercenary_unit
 formation					7, 11, 13, 16, 1, square
 stat_health					1, 12
-stat_pri					6, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 0.73
+stat_pri					6, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					7, 8, no, 0, 0, melee, other, blunt, none, 25, 0.73
 stat_sec_attr				area, launching, ap
@@ -8778,7 +8778,7 @@ soldier						east_armoured_archer, 40, 0, 0.8
 attributes					sea_faring, hide_forest, can_sap, hardy, mercenary_unit
 formation					1.2, 1.2, 2.4, 2.4, 4, square
 stat_health					1, 0
-stat_pri					8, 3, arrow, 170, 30, missile, archery, piercing, none, 25, 0.73
+stat_pri					8, 3, arrow, 170, 30, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					8, 3, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -8807,7 +8807,7 @@ mount_effect				horse +4, chariot +8, camel +4
 attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted, mercenary_unit
 formation					7, 11, 13, 16, 1, square
 stat_health					1, 12
-stat_pri					7, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 0.73
+stat_pri					7, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					6, 8, no, 0, 0, melee, other, blunt, none, 25, 0.73
 stat_sec_attr				area, launching, ap
@@ -8863,7 +8863,7 @@ soldier						ALEX_tribal_slingers, 40, 0, 0.8
 attributes					sea_faring, hide_forest, can_sap, hardy, mercenary_unit
 formation					1.6, 2, 3.2, 4, 3, square
 stat_health					1, 0
-stat_pri					6, 1, stone, 120, 40, missile, archery, blunt, none, 25, 0.73
+stat_pri					6, 1, stone, 120, 40, missile, archery, blunt, none, 25, 1
 stat_pri_attr				no
 stat_sec					4, 2, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -9035,7 +9035,7 @@ soldier						barb_archer_merc, 40, 0, 0.9
 attributes					sea_faring, hide_improved_forest, mercenary_unit
 formation					1.2, 1.2, 2.4, 2.4, 3, square
 stat_health					1, 0
-stat_pri					7, 1, arrow, 120, 30, missile, archery, piercing, none, 25, 0.73
+stat_pri					7, 1, arrow, 120, 30, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					4, 1, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -9065,7 +9065,7 @@ soldier						east_archer_merc, 40, 0, 0.8
 attributes					sea_faring, hide_forest, can_sap, mercenary_unit
 formation					1.2, 1.2, 2.4, 2.4, 4, square
 stat_health					1, 0
-stat_pri					7, 1, arrow, 120, 30, missile, archery, piercing, none, 25, 0.73
+stat_pri					7, 1, arrow, 120, 30, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					4, 1, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -9287,7 +9287,7 @@ mount_effect     			elephant -8, camel -4
 attributes					sea_faring, hide_forest, cantabrian_circle, mercenary_unit
 formation					3, 4, 6, 6, 4, square
 stat_health					1, 0
-stat_pri					7, 1, arrow, 120, 40, missile, archery, piercing, none, 25, 0.73
+stat_pri					7, 1, arrow, 120, 40, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					4, 2, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -9346,7 +9346,7 @@ mount_effect     			horse +4, chariot +8, camel +4
 attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted, mercenary_unit, no_custom
 formation					20, 25, 30, 35, 1, square
 stat_health					1, 30
-stat_pri					6, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 0.73
+stat_pri					6, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					6, 8, no, 0, 0, melee, other, blunt, none, 25, 0.73
 stat_sec_attr				area, launching, ap
@@ -10017,7 +10017,7 @@ soldier						greek_slinger_merc, 40, 0, 0.8
 attributes					sea_faring, hide_forest, can_sap, hardy
 formation					1.6, 2, 3.2, 4, 3, square
 stat_health					1, 0
-stat_pri					9, 3, bullet, 150, 40, missile, archery, blunt, none, 25, 0.73
+stat_pri					9, 3, bullet, 150, 40, missile, archery, blunt, none, 25, 1
 stat_pri_attr				no
 stat_sec					6, 3, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -10046,7 +10046,7 @@ soldier						greek_archer, 40, 0, 0.8
 attributes					sea_faring, hide_forest, can_sap, hardy
 formation					1.6, 2, 3.2, 4, 3, square
 stat_health					1, 0
-stat_pri					11, 3, arrow, 170, 30, missile, archery, piercing, none, 25, 0.73
+stat_pri					11, 3, arrow, 170, 30, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					6, 3, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -10192,7 +10192,7 @@ mount_effect     			elephant -8, horse +2
 attributes					sea_faring, hide_forest, hardy, cantabrian_circle
 formation					3, 4, 5, 5, 4, square
 stat_health					1, 0
-stat_pri					7, 1, arrow, 120, 40, missile, archery, piercing, none, 25, 0.73
+stat_pri					7, 1, arrow, 120, 40, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					3, 2, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -10541,7 +10541,7 @@ soldier						desert_archers_african, 40, 0, 0.8
 attributes					sea_faring, hide_improved_forest, hide_long_grass, very_hardy
 formation					1.2, 1.2, 2.4, 2.4, 2, square
 stat_health					1, 0
-stat_pri					9, 1, arrow, 120, 30, missile, archery, piercing, none, 25, 0.73
+stat_pri					9, 1, arrow, 120, 30, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					9, 1, no, 0, 0, melee, simple, piercing, sword, 25, 0.73
 stat_sec_attr				no
@@ -10611,7 +10611,7 @@ mount_effect				elephant -8, camel -4
 attributes					sea_faring, hide_forest, hardy, cantabrian_circle
 formation					3, 4, 6, 6, 4, square
 stat_health					1, 0
-stat_pri					7, 1, arrow, 120, 40, missile, archery, piercing, none, 25, 0.73
+stat_pri					7, 1, arrow, 120, 40, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					3, 2, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -11353,7 +11353,7 @@ mount_effect				elephant -8, camel -4
 attributes					sea_faring, hide_forest,  frighten_foot, cantabrian_circle
 formation					8.5, 9, 15, 15, 2, square
 stat_health					1, 2
-stat_pri					8, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 0.73
+stat_pri					8, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					9, 5, no, 0, 0, melee, blade, slashing, none, 25, 0.73
 stat_sec_attr				launching, ap
@@ -11378,7 +11378,7 @@ mount_effect				elephant -8, camel -4
 attributes					sea_faring, hide_forest,  frighten_foot, cantabrian_circle
 formation					8.5, 9, 15, 15, 2, square
 stat_health					1, 2
-stat_pri					8, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 0.73
+stat_pri					8, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					9, 5, no, 0, 0, melee, blade, slashing, none, 25, 0.73
 stat_sec_attr				launching, ap
@@ -11505,7 +11505,7 @@ soldier						carthaginian_slinger, 40, 0, 0.8
 attributes					sea_faring, hide_forest, can_sap
 formation					1.6, 2, 3.2, 4, 3, square
 stat_health					1, 0
-stat_pri					4, 1, stone, 120, 40, missile, archery, blunt, none, 25, 0.73
+stat_pri					4, 1, stone, 120, 40, missile, archery, blunt, none, 25, 1
 stat_pri_attr				no
 stat_sec					3, 1, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -11802,7 +11802,7 @@ mount_effect				horse +4, chariot +8, camel +4
 attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted
 formation					7, 11, 13, 16, 1, square
 stat_health					1, 12
-stat_pri					6, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 0.73
+stat_pri					6, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					6, 8, no, 0, 0, melee, other, blunt, none, 25, 0.73
 stat_sec_attr				area, launching, ap
@@ -11894,7 +11894,7 @@ ethnicity					romans_senate, Latium
 ;attributes					sea_faring, hide_forest, cantabrian_circle
 ;formation					1.5, 4, 3, 6, 4, square
 ;stat_health					1, 0
-;stat_pri					8, 3, arrow, 170, 30, missile, archery, piercing, none, 25, 0.73
+;stat_pri					8, 3, arrow, 170, 30, missile, archery, piercing, none, 25, 1
 ;stat_pri_attr				no
 ;stat_sec					9, 5, no, 0, 0, melee, simple, blunt, mace, 25, 0.73
 ;stat_sec_attr				ap
@@ -11923,7 +11923,7 @@ ethnicity					romans_senate, Latium
 ;attributes					sea_faring, hide_forest, can_sap, hardy
 ;formation					1.2, 1.2, 2.4, 2.4, 4, square
 ;stat_health					1, 0
-;stat_pri					10, 3, arrow, 170, 30, missile, archery, piercing, none, 25, 0.73
+;stat_pri					10, 3, arrow, 170, 30, missile, archery, piercing, none, 25, 1
 ;stat_pri_attr				no
 ;stat_sec					7, 3, no, 0, 0, melee, simple, blunt, mace, 25, 0.73
 ;stat_sec_attr				ap
@@ -11952,7 +11952,7 @@ officer						east_heavy_standard
 attributes					sea_faring, hide_forest, can_sap, hardy
 formation					1.2, 1.2, 2.4, 2.4, 4, square
 stat_health					1, 0
-stat_pri					9, 3, arrow, 170, 30, missile, archery, piercing, none, 25, 0.73
+stat_pri					9, 3, arrow, 170, 30, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					7, 3, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -11982,7 +11982,7 @@ officer						greek_standard
 attributes					sea_faring, hide_forest, can_sap, hardy
 formation					1.2, 1.2, 2.4, 2.4, 4, square
 stat_health					1, 0
-stat_pri					8, 3, arrow, 170, 30, missile, archery, piercing, none, 25, 0.73
+stat_pri					8, 3, arrow, 170, 30, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					7, 3, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -12106,7 +12106,7 @@ mount_effect				elephant -8, camel -4
 attributes					sea_faring, hide_forest, hardy, cantabrian_circle
 formation					1.5, 4, 3, 6, 4, square
 stat_health					1, 0
-stat_pri					8, 4, arrow, 170, 30, missile, archery, piercing, none, 25, 0.73
+stat_pri					8, 4, arrow, 170, 30, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					10, 6, no, 0, 0, melee, simple, piercing, sword, 25, 0.73
 stat_sec_attr				no
@@ -12497,7 +12497,7 @@ officer						greek_standard
 attributes					sea_faring, hide_forest, can_sap, hardy
 formation					1.2, 1.2, 2.4, 2.4, 4, square
 stat_health					1, 0
-stat_pri					10, 3, arrow, 170, 30, missile, archery, piercing, none, 25, 0.73
+stat_pri					10, 3, arrow, 170, 30, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					9, 3, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -12519,7 +12519,7 @@ soldier						egyptian_archer_elite_new, 40, 0, 1
 attributes					sea_faring, hide_forest, can_sap, hardy
 formation					1.2, 1.2, 2.4, 2.4, 4, square
 stat_health					1, 0
-stat_pri					10, 3, arrow, 170, 30, missile, archery, piercing, none, 25, 0.73
+stat_pri					10, 3, arrow, 170, 30, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					9, 3, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -12892,7 +12892,7 @@ officer						roman_standard
 attributes					sea_faring, hide_forest, can_sap, hardy
 formation					1.2, 1.2, 2.4, 2.4, 4, square
 stat_health					1, 0
-stat_pri					8, 1, arrow, 170, 30, missile, archery, piercing, none, 25, 0.73
+stat_pri					8, 1, arrow, 170, 30, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					3, 1, no, 0, 0, melee, simple, piercing, knife, 25, 0.73
 stat_sec_attr				no
@@ -13501,7 +13501,7 @@ mount_effect				elephant -8, camel -4
 attributes					sea_faring,  frighten_foot, general_unit, hardy
 formation					7, 9, 15, 15, 2, square
 stat_health					2, 5
-stat_pri					9, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 0.73
+stat_pri					9, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					12, 6, no, 0, 0, melee, blade, slashing, none, 25, 0.73
 stat_sec_attr				launching, ap
@@ -13524,7 +13524,7 @@ mount_effect				elephant -8, camel -4
 attributes					sea_faring,  frighten_foot, general_unit, hardy
 formation					7, 9, 15, 15, 2, square
 stat_health					2, 5
-stat_pri					9, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 0.73
+stat_pri					9, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 1
 stat_pri_attr				no
 stat_sec					12, 6, no, 0, 0, melee, blade, slashing, none, 25, 0.73
 stat_sec_attr				launching, ap
