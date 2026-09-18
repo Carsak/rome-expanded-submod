@@ -5119,7 +5119,7 @@ soldier						greek_pike_phalanx, 60, 0, 1
 attributes					sea_faring, hide_forest, can_sap
 formation					1, 1, 2, 2, 8, square, phalanx
 stat_health					1, 0
-stat_pri					8, 3, no, 0, 0, melee, blade, piercing, spear, 25, 1
+stat_pri					3, 1, no, 0, 0, melee, blade, piercing, spear, 25, 1
 stat_pri_attr				spear, long_pike, spear_bonus_8
 stat_sec					5, 2, no, 0, 0, melee, simple, piercing, sword, 25, 1
 stat_sec_attr				no
@@ -5148,7 +5148,7 @@ officer						greek_standard
 attributes					sea_faring, hide_forest, can_sap, hardy
 formation					1, 1, 2, 2, 5, square, phalanx
 stat_health					1, 0
-stat_pri					10, 4, no, 0, 0, melee, blade, piercing, spear, 25, 1
+stat_pri					4, 1, no, 0, 0, melee, blade, piercing, spear, 25, 1
 stat_pri_attr				spear, long_pike, spear_bonus_8
 stat_sec					5, 3, no, 0, 0, melee, simple, piercing, sword, 25, 1
 stat_sec_attr				no
@@ -5693,7 +5693,7 @@ stat_pri_armour				0, 3, 5, flesh, wood
 stat_sec_armour				0, 0, flesh
 stat_heat					2
 stat_ground					2, 0, 0, 0
-stat_mental					3, normal, highly_trained
+stat_mental					3, normal, trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
@@ -5726,11 +5726,11 @@ stat_pri_armour				6, 5, 5, leather, wood
 stat_sec_armour				0, 0, flesh
 stat_heat					3
 stat_ground					2, 0, 0, 0
-stat_mental					5, normal, highly_trained
+stat_mental					5, normal, trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 440, 170, 50, 70, 440
+stat_cost					1, 440, 200, 50, 70, 440
 recruit_priority_offset		0
 ownership					slave, rebel_slave, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, pontus, anatolian_faction_01
 ethnicity					greek_cities, Sicilia_Graecus
@@ -5822,11 +5822,11 @@ stat_pri_armour				0, 3, 2, flesh, wood
 stat_sec_armour				0, 0, flesh
 stat_heat					1
 stat_ground					2, 0, 0, 0
-stat_mental					3, normal, highly_trained
+stat_mental					3, normal, trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 410, 150, 40, 50, 410
+stat_cost					1, 410, 200, 40, 50, 410
 recruit_priority_offset		0
 ownership					slave, rebel_slave, macedon, hellenic_faction_03, hellenic_faction_13, seleucid, pontus
 ethnicity					macedon, Macedonia
@@ -5843,7 +5843,7 @@ soldier						greek_pike_phalanx, 60, 0, 1
 attributes					sea_faring, hide_forest, can_sap
 formation					1, 1, 2, 2, 8, square, phalanx
 stat_health					1, 0
-stat_pri					4, 1, no, 0, 0, melee, blade, piercing, spear, 25, 1
+stat_pri					3, 1, no, 0, 0, melee, blade, piercing, spear, 25, 1
 stat_pri_attr				spear, long_pike, spear_bonus_8
 stat_sec					5, 2, no, 0, 0, melee, simple, piercing, sword, 25, 1
 stat_sec_attr				no
@@ -5874,7 +5874,7 @@ officer						greek_standard
 attributes					sea_faring, hide_forest, can_sap, hardy
 formation					1, 1, 2, 2, 5, square, phalanx
 stat_health					1, 0
-stat_pri					5, 1, no, 0, 0, melee, blade, piercing, spear, 25, 1
+stat_pri					4, 1, no, 0, 0, melee, blade, piercing, spear, 25, 1
 stat_pri_attr				spear, long_pike, spear_bonus_8
 stat_sec					5, 3, no, 0, 0, melee, simple, piercing, sword, 25, 1
 stat_sec_attr				no
@@ -8834,7 +8834,7 @@ soldier						greek_pike_phalanx, 60, 0, 1
 attributes					sea_faring, hide_forest, can_sap, mercenary_unit
 formation					1, 1, 2, 2, 8, square, phalanx
 stat_health					1, 0
-stat_pri					8, 3, no, 0, 0, melee, blade, piercing, spear, 25, 1
+stat_pri					3, 1, no, 0, 0, melee, blade, piercing, spear, 25, 1
 stat_pri_attr				spear, long_pike, spear_bonus_8
 stat_sec					6, 2, no, 0, 0, melee, simple, piercing, sword, 25, 1
 stat_sec_attr				no

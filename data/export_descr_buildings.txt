@@ -3213,7 +3213,7 @@ building port_buildings
 				recruit "merc cilician pirate" 0 requires not is_player and hidden_resource mercenary  and religion b_paganism >= 20
 				recruit "merc cilician pirate" 0 requires is_player and hidden_resource mercenary and religion b_paganism >= 20
 
-				trade_fleet 2 ;trade_base_income_bonus bonus 2
+				trade_fleet 1 ;trade_base_income_bonus bonus 2
 			}
 			construction  3 
 			cost  1600 
@@ -3240,7 +3240,7 @@ building port_buildings
 				recruit "merc cilician pirate" 0 requires not is_player and hidden_resource mercenary  and religion b_paganism >= 20
 				recruit "merc cilician pirate" 0 requires is_player and hidden_resource mercenary and religion b_paganism >= 20
 
-				trade_fleet 3 ;trade_base_income_bonus bonus 2
+				trade_fleet 1 ;trade_base_income_bonus bonus 2
 			}
 			construction  3 
 			cost  3200 
@@ -3328,7 +3328,7 @@ building hinterland_farms
 		{
 			capability
 			{
-				farming_level 1
+				farming_level 2
 			}
 			construction  2 
 			cost  600 
@@ -3342,7 +3342,7 @@ building hinterland_farms
 		{
 			capability
 			{
-				farming_level 2
+				farming_level 3
 			}
 			construction  3 
 			cost  1200 
@@ -3356,7 +3356,7 @@ building hinterland_farms
 		{
 			capability
 			{
-				farming_level 3
+				farming_level 5
 			}
 			construction  3 
 			cost  2400 
@@ -3370,7 +3370,7 @@ building hinterland_farms
 		{
 			capability
 			{
-				farming_level 4
+				farming_level 7
 			}
 			construction  3 
 			cost  4800 
@@ -3384,7 +3384,7 @@ building hinterland_farms
 		{
 			capability
 			{
-				farming_level 5
+				farming_level 9
 			}
 			construction  3 
 			cost  9600 

@@ -1615,7 +1615,7 @@ relative	Lucius Manlius, 	none,		Lucius_A Manlius, end
 
 faction	romans_julii, craftsman_caesar
 superfaction romans_senate
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -1771,7 +1771,7 @@ relative	Numerius_B Fabius, 	Domitia,	end
 
 faction	romans_brutii, craftsman_smith
 superfaction romans_senate
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -1944,7 +1944,7 @@ relative	Quintus Valerius,	Sabina,		Quintus_A Valerius,	Publius_D Valerius,	end
 
 faction	romans_scipii, craftsman_stalin
 superfaction romans_senate
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -4115,7 +4115,7 @@ relative	Carthalo,	none,		Misdes,	end
 
 faction	carthage_barcid, craftsman_stalin
 superfaction carthage
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -4293,7 +4293,7 @@ relative	Himilco, 	none,		Bostar,	Mago,	end
 
 faction	carthage_hannonid, craftsman_caesar
 superfaction carthage
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -4464,7 +4464,7 @@ relative	Bomilkar,	Alcippe,		Hasdrubal,	end
 
 faction	carthage_magonid, craftsman_alexander
 superfaction carthage
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -4623,7 +4623,7 @@ relative	Theages, 	Xanthe,		Mago_B,	end
 
 
 faction	pontus, craftsman_henry
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -4719,7 +4719,7 @@ relative	Mithridatic,	none, 	Ariobarzanes, Pharnaces,	end
 
 
 faction	gauls, balanced_caesar
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -4790,7 +4790,7 @@ relative	Rianorix, 	Esselt,		Taximagulus,	Verica,	Glasobrin,	end
 
 
 faction	germans, craftsman_smith
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -4881,7 +4881,7 @@ relative	Rodulf, 	Olga,	end
 
 
 faction	britons, religious_mao
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -4939,7 +4939,7 @@ relative	Gerennus, 	none,		Catellus, Iseult,	Verica,	Wotecorix,	end
 
 
 faction	armenia, craftsman_stalin
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -5102,7 +5102,7 @@ relative	Zipoetes, 	Pao,		Eminos,	Hurriya,	end
 
 
 faction	dacia, bureaucrat_alexander
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -5200,7 +5200,7 @@ relative	Dual, 			Birkita,		Fallon,	Scylurus,	end
 
 
 faction	greek_cities, fortified_turtle
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -5284,7 +5284,7 @@ relative	Hiero, 	Philistis,		Gelon,	Cleon,	end
 
 
 faction	numidia, balanced_henry
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -5369,7 +5369,7 @@ relative	Gaia, 	none,		Massinissa,	Pherusa,	end
 
 
 faction	scythia, craftsman_genghis
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -5494,7 +5494,7 @@ relative	Belnirari, 	Branka,		Madyes,	Atheas,	Ara,	end
 
 
 faction	spain, fortified_mao
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -5557,7 +5557,7 @@ relative	Matugenus, 	Keynea,		Avaros,	Verica,	Bittor,	end
 
 
 faction	thrace, craftsman_mao
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -5716,7 +5716,7 @@ relative	Orsoaltios,	none,		Adaeus_A,	end
 
 
 faction	hellenic_faction_01, fortified_caesar
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -5826,7 +5826,7 @@ relative	Eudamidas, 	Eunice,		end
 
 
 faction	hellenic_faction_02, trader_stalin
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -5895,7 +5895,7 @@ relative	Machaon, 	Pylia,		Lysippos,	end
 
 
 faction	hellenic_faction_03, religious_napoleon
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -5970,7 +5970,7 @@ relative	Eumenes_A,	none,	Philetaerus_A,	end
 
 
 faction	hellenic_faction_04, trader_stalin
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -6103,7 +6103,7 @@ relative	Leukon,	Alcathoe,	Spartokos_B,	end
 
 
 faction	hellenic_faction_05, balanced_henry
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -6278,7 +6278,7 @@ relative	Thrasybulus of Elis, 	Thisbe,		end
 
 
 faction	hellenic_faction_06, sailor_turtle
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -6343,7 +6343,7 @@ relative	Memnon of Rhodes, 	Berenike,		Mentor of Rhodes,	end
 
 
 faction	hellenic_faction_07, sailor_turtle
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -6397,7 +6397,7 @@ relative	Oroissus, 	Ione,		Telys,	Epichares,	end
 
 
 faction	hellenic_faction_08, fortified_napoleon
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -6453,7 +6453,7 @@ relative	Magas,		Arsinoe,	Demetrius,	Berenice_A,	end
 
 
 faction	hellenic_faction_09, fortified_turtle
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -6544,7 +6544,7 @@ relative	Chremonides, 	Thaleia,		end
 
 
 faction	hellenic_faction_10, balanced_smith
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -6599,7 +6599,7 @@ relative	Kuji, 	Hippolyta,		Perseas,	Saulaces,	end
 
 
 faction	hellenic_faction_11, sailor_smith
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -6650,7 +6650,7 @@ relative	Damon, 	Sophia,		Lyssimachos,	end
 
 
 faction	hellenic_faction_12, sailor_smith
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -6712,7 +6712,7 @@ relative	Telephos, 	Arisbe,	end
 
 
 faction	hellenic_faction_13, craftsman_henry
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -6797,7 +6797,7 @@ relative	Alexandros,	Agape,	Pylas,	Pyris,	end
 
 
 faction	hellenic_faction_14, trader_napoleon
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -6854,7 +6854,7 @@ relative	Aegialeus,	Dirce,	end
 
 
 faction	hellenic_faction_15, fortified_henry
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -6917,7 +6917,7 @@ relative	Kapys, 		Cyrene,		Anchises,	end
 
 
 faction	hellenic_faction_16, balanced_smith
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -6993,7 +6993,7 @@ relative	Eos, 			Timandra,	end
 
 
 faction	hellenic_faction_17, trader_stalin
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -7078,7 +7078,7 @@ relative	Theos, 			Chlo,	end
 
 
 faction	hellenic_faction_18, trader_henry
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -7165,7 +7165,7 @@ relative	Tros, 			Baucis,	end
 
 
 faction	latin_faction_01, fortified_smith
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -7218,7 +7218,7 @@ relative	Cios, 	none,		Gellius,	end
 
 
 faction	latin_faction_02, comfortable_napoleon
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -7280,7 +7280,7 @@ relative	Lucius Saturius, 	Porcia,		Lucius_A Saturius,	end
 
 
 faction	latin_faction_03, comfortable_smith
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -7378,7 +7378,7 @@ relative	Maesa, 	none,		Lars,	Aulus,	end
 
 
 faction	latin_faction_04, comfortable_napoleon
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -7437,7 +7437,7 @@ relative	Gaius Pontius,	Arria,		Herennius Pontius, Lucius Pontius,	end
 
 
 faction	latin_faction_05, fortified_smith
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -7484,7 +7484,7 @@ relative	Catuomarus Ancharius,	Claudilla,		Opiter Ancharius, Vellius Ancharius,	
 
 
 faction	gallic_faction_01, fortified_stalin
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -7534,7 +7534,7 @@ relative	Sennianus, 	Iseult,	end
 
 
 faction	gallic_faction_02, religious_smith
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -7585,7 +7585,7 @@ relative	Viridomaros, 	Cunoarda,		Vindex,	end
 
 
 faction	gallic_faction_03, balanced_napoleon
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -7639,7 +7639,7 @@ relative	Dumnorix, 	Iseult,		Motius,	end
 
 
 faction	gallic_faction_04, trader_henry
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -7685,7 +7685,7 @@ relative	Morirex, 	Barita,		Mabon,	Budic,	end
 
 
 faction	gallic_faction_05, religious_stalin
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -7735,7 +7735,7 @@ relative	Adcobrovatus of Lemonum, 	Eudaf,		Maglocunus,	Calpornus,	end
 
 
 faction	gallic_faction_06, bureaucrat_napoleon
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -7782,7 +7782,7 @@ relative	Voteporix of Alesia, 	Verica,		Aneirin,	Cerethreus,	end
 
 
 faction	gallic_faction_07, religious_henry
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -7827,7 +7827,7 @@ relative	Casticos of Vesontio, 	Keyne,		Caratawc,	Ceanatis,	end
 
 
 faction	gallic_faction_08, religious_stalin
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -7903,7 +7903,7 @@ relative	Diviciacus, 	Boudicca,		Boduognatus,	end
 
 
 faction	gallic_faction_09, religious_alexander
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -7964,7 +7964,7 @@ relative	Enestinus, 	Boudicca,	end
 
 
 faction	gallic_faction_10, balanced_napoleon
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -8062,7 +8062,7 @@ relative	Voteporix, 	Cuniovenda,		Senaculus,	Enemnogenus,	Tincommius,	end
 
 
 faction	gallic_faction_11, religious_napoleon
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -8117,7 +8117,7 @@ relative	Lutarius, 		Iseult,		Rianorix,	end
 
 
 faction	gallic_faction_12, religious_mao
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -8167,7 +8167,7 @@ relative	Cingetorix, 	Cartimandua,	end
 
 
 faction	gallic_faction_13, bureaucrat_caesar
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -8210,7 +8210,7 @@ relative	Cerethrius, 	none,		Bathanatos,	end
 
 
 faction	gallic_faction_14, trader_mao
-denari	5000
+denari	9999
 settlement
 {
 	level village
@@ -8283,7 +8283,7 @@ relative	Orsoaltius, 	none,		Cersibaulus,	end
 
 
 faction	gallic_faction_15, fortified_henry
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -8329,7 +8329,7 @@ relative	Bato, 	Boudecea,		Bolgios,	Conan,	end
 
 
 faction	gallic_faction_16, religious_smith
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -8376,7 +8376,7 @@ relative	Enemnogenus, 	Eudaf,		Eporedorix,	end
 
 
 faction	gallic_faction_17, balanced_stalin
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -8428,7 +8428,7 @@ relative	Brigomaglos, 	Epona,		Vindomorucius,	end
 
 
 faction	gallic_faction_18, fortified_henry
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -8476,7 +8476,7 @@ relative	Prasutagus, 	Rosmerta,		Eporedorix,	end
 
 
 faction	desert_faction_01, religious_henry
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -8525,7 +8525,7 @@ relative	Gisgo, 	Raisa,		Tabnit,	end
 
 
 faction	desert_faction_02, religious_alexander
-denari	5000
+denari	9999
 settlement
 {
 	level village
@@ -8585,7 +8585,7 @@ relative	Syphax, 	Thyia,		Juba,	end
 
 
 faction	desert_faction_03, religious_mao
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -8746,7 +8746,7 @@ relative	Malchos, 	Shaqilath,	end
 
 
 faction	desert_faction_04, bureaucrat_alexander
-denari	5000
+denari	9999
 settlement
 {
 	level village
@@ -8799,7 +8799,7 @@ relative	Balhanno, 	Agapia,		Thero,	end
 
 
 faction	desert_faction_05, bureaucrat_caesar
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -8865,7 +8865,7 @@ relative	Ahiram, 	Thyia,		Philosir,	end
 
 
 faction	desert_faction_06, fortified_mao
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -8947,7 +8947,7 @@ relative	Talmi, 	Zaynab,		Hannu,	Amatlat,	Amr,	end
 
 
 faction	desert_faction_07, religious_stalin
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -8997,7 +8997,7 @@ relative	Talmi, 	Zaynab,		Hannu,	Amatlat,	Amr,	end
 
 
 faction	desert_faction_08, trader_genghis
-denari	5000
+denari	9999
 settlement
 {
 	level village
@@ -9039,7 +9039,7 @@ relative	Talmi, 	Zaynab,		Hannu,	Amatlat,	Amr,	end
 
 
 faction	iberian_faction_01, fortified_stalin
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -9090,7 +9090,7 @@ relative	Viriathus, 	Esselta,		Tautalus,	end
 
 
 faction	iberian_faction_02, balanced_caesar
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -9144,7 +9144,7 @@ relative	Caraunios, 	Barita,		Caros,	end
 
 
 faction	iberian_faction_03, balanced_caesar
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -9194,7 +9194,7 @@ relative	Lucco, 	Keynea,		Elazar,	end
 
 
 faction	iberian_faction_04, bureaucrat_napoleon
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -9248,7 +9248,7 @@ relative	Rhetogenes, 	Verica,		Dunixi,	end
 
 
 faction	iberian_faction_05, bureaucrat_caesar
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -9301,7 +9301,7 @@ relative	Matugenus, 	Verctissa,		Gergori,	end
 
 
 faction	iberian_faction_06, trader_mao
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -9356,7 +9356,7 @@ relative	Arganthonios, 	Euda,		Curius,	Txeru,	end
 
 
 faction	iberian_faction_07, bureaucrat_alexander
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -9407,7 +9407,7 @@ relative	Larus, 		Verctissa,		Gabirel,	end
 
 
 faction	iberian_faction_08, religious_henry
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -9456,7 +9456,7 @@ relative	Huevos, 	Belisama,		end
 
 
 faction	britanic_faction_01, balanced_alexander
-denari	5000
+denari	9999
 settlement
 {
 	level village
@@ -9495,7 +9495,7 @@ relative	Belenus, 	Boudicca,		Drustan,	Vellocatus,	end
 
 
 faction	britanic_faction_02, bureaucrat_stalin
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -9539,7 +9539,7 @@ relative	Prasutagus, 	Barita,		Wotecorix,	end
 
 
 faction	britanic_faction_03, trader_henry
-denari	5000
+denari	9999
 settlement
 {
 	level village
@@ -9580,7 +9580,7 @@ relative	Ivomagus, 	Bebba,			end
 
 
 faction	britanic_faction_04, balanced_osama
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -9625,7 +9625,7 @@ relative	Cadwaladur, 	Huctia,			end
 
 
 faction	britanic_faction_05, balanced_osama
-denari	5000
+denari	9999
 settlement
 {
 	level village
@@ -9664,7 +9664,7 @@ relative	Argentocoxos, 	Belisama,		Calgacus,	Ambiorix,	end
 
 
 faction	germanic_faction_01, balanced_mao
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -9709,7 +9709,7 @@ relative	Ricburgis, 	Biua,		Gundioc,	end
 
 
 faction	germanic_faction_02, balanced_mao
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -9772,7 +9772,7 @@ relative	Tancred, 	Ramis,	end
 
 
 faction	germanic_faction_03, balanced_smith
-denari	5000
+denari	9999
 settlement
 {
 	level village
@@ -9814,7 +9814,7 @@ relative	Hema, 		Edith,		end
 
 
 faction	germanic_faction_04, fortified_mao
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -9857,7 +9857,7 @@ relative	Ariogaisus, 	Aurinia,		Kuonrad,	Vangio,	end
 
 
 faction	germanic_faction_05, balanced_henry
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -9899,7 +9899,7 @@ relative	Hariulfus, 	Herlinda,		Hanhavaldi, Theodoric,	end
 
 
 faction	germanic_faction_06, balanced_mao
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -9943,7 +9943,7 @@ relative	Adalmun, 	Edith,		Eraric,	Dodonis,	end
 
 
 faction	germanic_faction_07, fortified_caesar
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -9986,7 +9986,7 @@ relative	Vencaslac, 	Ulrike,		end
 
 
 faction	germanic_faction_08, fortified_caesar
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -10030,7 +10030,7 @@ relative	Rando, 	Bebelina,		end
 
 
 faction	germanic_faction_09, fortified_stalin
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -10074,7 +10074,7 @@ relative	Horsa, 	Ludwiga,		end
 
 
 faction	germanic_faction_10, trader_napoleon
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -10118,7 +10118,7 @@ relative	Clovis, 	Priska,		end
 
 
 faction	dacian_faction_01, balanced_stalin
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -10173,7 +10173,7 @@ relative	Vezina, 	Birkita,		Scorilo,	Cotiso,	end
 
 
 faction	dacian_faction_02, fortified_napoleon
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -10222,7 +10222,7 @@ relative	Duras, 	Dita,		Deceneu,	Ata,	end
 
 
 faction	dacian_faction_03, balanced_stalin
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -10272,7 +10272,7 @@ relative	Saulius, 	Afina,		end
 
 
 faction	thracian_faction_01, bureaucrat_stalin
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -10333,7 +10333,7 @@ relative	Dropion Paeonian,	Karia,		end
 
 
 faction	thracian_faction_02, bureaucrat_stalin
-denari	5000
+denari	9999
 settlement
 {
 	level village
@@ -10375,7 +10375,7 @@ relative	Iptacens,	Cerzula,		end
 
 
 faction	illyrian_faction_01, trader_mao
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -10424,7 +10424,7 @@ relative	Pytros, 	Eptarys,		Skaris,	Gaidres,	end
 
 
 faction	illyrian_faction_02, sailor_mao
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -10473,7 +10473,7 @@ relative	Desakenthos, 	Ketripora,		Ziper,	Brinkazis,	end
 
 
 faction	illyrian_faction_03, sailor_mao
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -10526,7 +10526,7 @@ relative	Pleuratus of Illyria, 	none,		Agron of Illyria,	end
 
 
 faction	illyrian_faction_04, religious_caesar
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -10580,7 +10580,7 @@ relative	Longarus, 	Enkeleida,		end
 
 
 faction	illyrian_faction_05, religious_caesar
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -10654,7 +10654,7 @@ relative	Mytilos, 	Triteuta,	end
 
 
 faction	anatolian_faction_01, trader_napoleon
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -10707,7 +10707,7 @@ relative	Nicomedes,	Dynamis,	end
 
 
 faction	anatolian_faction_02, religious_caesar
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -10766,7 +10766,7 @@ relative	Solomon,	Beth,		Aaron,	end
 
 
 faction	caucasian_faction_01, comfortable_smith
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -10813,7 +10813,7 @@ relative	Pharnavazid,	Arao,	Samara,	end
 
 
 faction	caucasian_faction_02, religious_smith
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -10864,7 +10864,7 @@ relative	Rimsin,		Erato,		Tigran,	end
 
 
 faction	caucasian_faction_03, balanced_alexander
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -10921,7 +10921,7 @@ relative	Ariobarzanes,	Pao,		Darius,	Asinnalus,	end
 
 
 faction	caucasian_faction_04, religious_napoleon
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -10984,7 +10984,7 @@ relative	Ariaramnes, 	Lila,		Ariarathes,	end
 
 
 faction	steppe_faction_01, balanced_genghis
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -11048,7 +11048,7 @@ relative	Partatua,	Pigat,	end
 
 
 faction	steppe_faction_02, trader_genghis
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -11106,7 +11106,7 @@ relative	Scylurus,	Arao,		Skunxa,	end
 
 
 faction	steppe_faction_03, religious_genghis
-denari	5000
+denari	9999
 settlement
 {
 	level village
@@ -11148,7 +11148,7 @@ relative	Ziaelas,	Amastris,		Eminos,	end
 
 
 faction	steppe_faction_06, balanced_genghis
-denari	5000
+denari	9999
 settlement
 {
 	level village
@@ -11191,7 +11191,7 @@ relative	Taxakis,	Hupaya,		Kharahostes,	end
 
 
 faction	steppe_faction_07, religious_genghis
-denari	5000
+denari	9999
 settlement
 {
 	level village
@@ -11234,7 +11234,7 @@ relative	Amorges,	Roxana,		Skula,	end
 
 
 faction	steppe_faction_08, balanced_genghis
-denari	5000
+denari	9999
 settlement
 {
 	level town
