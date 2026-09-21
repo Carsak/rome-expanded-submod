@@ -2,6 +2,13 @@
 
 This file records notable player-facing changes to Rome Expanded Submod. The newest changes are listed first.
 
+## 2026-09-21
+
+### Changed
+
+- Replaced building weapon upgrades with armour, morale, and law bonuses. The weapon upgrades doubled weapon lethality instead of merely adding +1 attack, causing battles to end much too quickly.
+- Added a 20% taxable-income bonus to the player's capital. This supports the difficult early campaign without scaling across the whole empire, so its relative impact decreases as expansion makes the late game easier.
+
 ## 2026-09-17
 
 ### Added

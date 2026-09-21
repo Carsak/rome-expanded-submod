@@ -112,7 +112,7 @@ building core_building
 
 				agent diplomat 0 requires not factions { rebel_slave, }
 				agent_limit_settlement diplomat 1
-				population_growth_bonus bonus 10 requires factions { barbarian, tracian_illyrian, carthaginian, eastern, } and not is_player
+				population_growth_bonus bonus 7
 			}
 			construction  1 
 			cost  400 
@@ -3082,11 +3082,10 @@ building smith
 				recruit "egyptian chariot scythed" 0 requires building_factions { egyptian, } and is_player and religion egyptian >= 10
 				recruit "greek chariot scythed" 0 requires building_factions { greek, } and is_player and religion hellenic >= 10
 
-				weapon_simple 1
-				weapon_bladed 1
+				armour 1
 			}
 			construction  3 
-			cost  1200 
+			cost  2000 
 			settlement_min large_town
 			upgrades
 			{
@@ -3114,13 +3113,10 @@ building smith
 				recruit "egyptian chariot scythed" 1 requires building_factions { egyptian, } and is_player and religion egyptian >= 10
 				recruit "greek chariot scythed" 1 requires building_factions { greek, } and is_player and religion hellenic >= 10
 
-				weapon_simple 1
-				weapon_bladed 1
-				weapon_missile 1
-				armour 1
+				armour 2
 			}
 			construction  3 
-			cost  2400 
+			cost  4000 
 			settlement_min city
 			upgrades
 			{
@@ -3150,9 +3146,8 @@ building smith
 				recruit "greek chariot scythed" 2 requires building_factions { greek, } and is_player and religion hellenic >= 10
 				recruit "theban sacred band spearmen" 0 requires building_factions { greek, } and is_player and religion hellenic >= 10 or religion oscan >= 10
 
-				weapon_simple 2
-				weapon_bladed 2
-				weapon_missile 2
+
+                recruits_morale_bonus bonus 2
 				armour 2
 			}
 			construction  3 
@@ -4033,8 +4028,9 @@ building temple_of_battleforge
 			{
 				recruit "barb naked fanatics gauls" 0 requires factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
 				happiness_bonus bonus 2
-				weapon_simple bonus 1
+				law_bonus bonus 1
 				recruits_exp_bonus bonus 1
+				
 				religious_belief c_paganism 4 requires building_factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_07, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
 				religious_belief i_paganism 4 requires building_factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
 				religious_belief zoroastrian 4 requires building_factions { armenia, caucasian_faction_03, caucasian_faction_04, }
@@ -4059,8 +4055,9 @@ building temple_of_battleforge
 				recruit "barb naked fanatics gauls" 1 requires factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
 				recruit "iberian sword maidens" 0 requires factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
 				happiness_bonus bonus 3
-				weapon_simple bonus 1
+				law_bonus bonus 1
 				recruits_exp_bonus bonus 2
+				
 				religious_belief c_paganism 6 requires building_factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_07, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
 				religious_belief i_paganism 6 requires building_factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
 				religious_belief zoroastrian 6 requires building_factions { armenia, caucasian_faction_03, caucasian_faction_04, }
@@ -4085,9 +4082,10 @@ building temple_of_battleforge
 				recruit "barb naked fanatics gauls" 2 requires factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
 				recruit "iberian sword maidens" 1 requires factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
 				happiness_bonus bonus 4
-				weapon_simple bonus 1
+				law_bonus bonus 1
 				recruits_exp_bonus bonus 2
 				armour bonus 1
+				
 				religious_belief c_paganism 8 requires building_factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_07, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
 				religious_belief i_paganism 8 requires building_factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
 				religious_belief zoroastrian 8 requires building_factions { armenia, caucasian_faction_03, caucasian_faction_04, }
@@ -4111,10 +4109,11 @@ building temple_of_battleforge
 			{
 				recruit "barb naked fanatics gauls" 3 requires factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
 				recruit "iberian sword maidens" 2 requires factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
-				happiness_bonus bonus 5
-				weapon_simple bonus 1
+				happiness_bonus bonus 4
+				law_bonus bonus 2
 				recruits_exp_bonus bonus 3
 				armour bonus 1
+				
 				religious_belief c_paganism 10 requires building_factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_07, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
 				religious_belief i_paganism 10 requires building_factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
 				religious_belief zoroastrian 10 requires building_factions { armenia, caucasian_faction_03, caucasian_faction_04, }
@@ -4403,7 +4402,8 @@ building temple_of_forge
 			capability
 			{
 				happiness_bonus bonus 1
-				weapon_simple bonus 1
+				recruits_morale_bonus bonus 1
+				
 				religious_belief b_paganism 2 requires building_factions { tracian_illyrian, barbarian, }
 				religious_belief hellenic 2 requires building_factions { greek, }
 				religious_belief roman 2 requires building_factions { roman, }
@@ -4424,8 +4424,8 @@ building temple_of_forge
 			capability
 			{
 				happiness_bonus bonus 2
-				weapon_simple bonus 1
-				weapon_bladed bonus 1
+                recruits_morale_bonus bonus 2
+                
 				religious_belief b_paganism 4 requires building_factions { tracian_illyrian, barbarian, }
 				religious_belief hellenic 4 requires building_factions { greek, }
 				religious_belief roman 4 requires building_factions { roman, }
@@ -4446,9 +4446,9 @@ building temple_of_forge
 			capability
 			{
 				happiness_bonus bonus 3
-				weapon_simple bonus 1
-				weapon_bladed bonus 1
+                recruits_morale_bonus bonus 2
 				armour bonus 1
+				
 				religious_belief b_paganism 6 requires building_factions { tracian_illyrian, barbarian, }
 				religious_belief hellenic 6 requires building_factions { greek, }
 				religious_belief roman 6 requires building_factions { roman, }
@@ -4469,10 +4469,10 @@ building temple_of_forge
 			capability
 			{
 				happiness_bonus bonus 4
-				weapon_simple bonus 1
-				weapon_bladed bonus 1
+                recruits_morale_bonus bonus 2
 				armour bonus 1
 				recruits_exp_bonus bonus 1
+				
 				religious_belief b_paganism 8 requires building_factions { tracian_illyrian, barbarian, }
 				religious_belief hellenic 8 requires building_factions { greek, }
 				religious_belief roman 8 requires building_factions { roman, }
@@ -4493,11 +4493,11 @@ building temple_of_forge
 			capability
 			{
 				happiness_bonus bonus 5
-				weapon_simple bonus 1
-				weapon_bladed bonus 1
+                recruits_morale_bonus bonus 2
 				armour bonus 1
 				recruits_exp_bonus bonus 2
 				law_bonus bonus 2
+				
 				religious_belief b_paganism 10 requires building_factions { tracian_illyrian, barbarian, }
 				religious_belief hellenic 10 requires building_factions { greek, }
 				religious_belief roman 10 requires building_factions { roman, }
@@ -5381,9 +5381,9 @@ building temple_of_law
 			
 				happiness_bonus bonus 5
 				law_bonus bonus 5
-				weapon_simple bonus 1
-				weapon_bladed bonus 1
+				recruits_morale_bonus bonus 1
 				armour bonus 1
+				
 				religious_belief s_paganism 10 requires building_factions { barbarian, }
 				religious_belief egyptian 10 requires building_factions { egyptian, }
 				religious_belief roman 10 requires building_factions { roman, }
@@ -5751,10 +5751,10 @@ building temple_of_naval
 				recruit "naval corvus quinquireme" 1 requires factions { roman, greek, carthaginian, eastern, egyptian, }
 				religious_belief roman 10 requires building_factions { roman, }
 				religious_belief etruscan 10 requires building_factions { italic, }
+				
 				happiness_bonus bonus 5
 				law_bonus bonus 2
-				weapon_simple bonus 1
-				weapon_bladed bonus 1
+				recruits_morale_bonus bonus 1
 				armour bonus 1
 			}
 			construction  3 
@@ -6540,27 +6540,25 @@ building hinterland_natives
 			{
 				; AI only handicap bonus
 				; Capital and no poverty
-				taxable_income_bonus bonus 25 requires not is_player and factions { romans_julii, romans_brutii, romans_scipii, } and not hidden_resource poverty and hidden_resource capital
-				taxable_income_bonus bonus 20 requires not is_player and factions { carthage_barcid, carthage_hannonid, carthage_magonid, } and not hidden_resource poverty and hidden_resource capital
+				taxable_income_bonus bonus 25 requires not is_player and factions { romans_julii, romans_brutii, romans_scipii, carthage_barcid, carthage_hannonid, carthage_magonid, } and not hidden_resource poverty and hidden_resource capital
 				taxable_income_bonus bonus 15 requires not is_player and not factions { romans_julii, romans_brutii, romans_scipii, carthage_barcid, carthage_hannonid, carthage_magonid, } and not hidden_resource poverty and hidden_resource capital
 
 				; Capital and poverty
-				taxable_income_bonus bonus 50 requires not is_player and factions { romans_julii, romans_brutii, romans_scipii, } and hidden_resource poverty and hidden_resource capital
-				taxable_income_bonus bonus 40 requires not is_player and factions { carthage_barcid, carthage_hannonid, carthage_magonid, } and hidden_resource poverty and hidden_resource capital
+				taxable_income_bonus bonus 50 requires not is_player and factions { romans_julii, romans_brutii, romans_scipii, carthage_barcid, carthage_hannonid, carthage_magonid, } and hidden_resource poverty and hidden_resource capital
 				taxable_income_bonus bonus 30 requires not is_player and not factions { romans_julii, romans_brutii, romans_scipii, carthage_barcid, carthage_hannonid, carthage_magonid, } and hidden_resource poverty and hidden_resource capital
 
 				; No Capital and no poverty
-				taxable_income_bonus bonus 4 requires not is_player and factions { romans_julii, romans_brutii, romans_scipii, } and not hidden_resource poverty and not hidden_resource capital
+				taxable_income_bonus bonus 4 requires not is_player and factions { romans_julii, romans_brutii, romans_scipii, carthage_barcid, carthage_hannonid, carthage_magonid, } and not hidden_resource poverty and not hidden_resource capital
 				taxable_income_bonus bonus 2 requires not is_player and not factions { romans_julii, romans_brutii, romans_scipii, } and not hidden_resource poverty and not hidden_resource capital
 
 				; No Capital and poverty
-				taxable_income_bonus bonus 8 requires not is_player and factions { romans_julii, romans_brutii, romans_scipii, } and hidden_resource poverty and not hidden_resource capital
+				taxable_income_bonus bonus 8 requires not is_player and factions { romans_julii, romans_brutii, romans_scipii, carthage_barcid, carthage_hannonid, carthage_magonid, } and hidden_resource poverty and not hidden_resource capital
 				taxable_income_bonus bonus 4 requires not is_player and not factions { romans_julii, romans_brutii, romans_scipii, } and hidden_resource poverty and not hidden_resource capital
-
-				;law_bonus bonus 2 requires not is_player
 
 				; Happiness bonus because the old traditions become a source of entertainment rather than an identity - Also gives us something to look at when no religious bonus is applied
 				happiness_bonus bonus 1 requires is_player and not hidden_resource b_paganism and not hidden_resource c_paganism and not hidden_resource i_paganism and not hidden_resource g_paganism and not hidden_resource s_paganism and not hidden_resource arab and not hidden_resource berber and not hidden_resource egyptian and not hidden_resource etruscan and not hidden_resource hellenic and not hidden_resource judaism and not hidden_resource mesopotamian and not hidden_resource nuragic and not hidden_resource oscan and not hidden_resource punic and not hidden_resource roman and not hidden_resource samnite and not hidden_resource zoroastrian
+				
+				taxable_income_bonus bonus 20 requires hidden_resource capital and is_player
 
 				; Capital of our faction should always resist foreign cultures unless there is HEAVY foreign interference
 				religious_belief arab 5 requires factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, } and hidden_resource capital
