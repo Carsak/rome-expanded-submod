@@ -2,6 +2,12 @@
 
 This file records notable player-facing changes to Rome Expanded Submod. The newest changes are listed first.
 
+## 2026-09-22
+
+### Changed
+
+- Increased upkeep for all warhound units to better reflect their battlefield value: Briton, Dacian, and Gaulish units from 40 to 90; Germanic and Scythian units from 60 to 130; and Carthaginian and Roman units from 50 to 100 denarii per turn.
+
 ## 2026-09-21
 
 ### Changed
