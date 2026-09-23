@@ -2,6 +2,14 @@
 
 This file records notable player-facing changes to Rome Expanded Submod. The newest changes are listed first.
 
+## 2026-09-23
+
+### Changed
+
+- Increased Town Militia, Town Watch, Iberian Infantry, and Tribal Vigiles unit sizes from 40 to 60 soldiers, with higher recruitment and upkeep costs. This makes Carthage's particularly weak early infantry more viable, as these units were previously too small and ineffective to justify recruiting.
+- Reduced Naked Fanatics recruitment time from two turns to one, increased their recruitment cost from 430 to 645 denarii, and raised upkeep from 80 to 200 denarii per turn.
+- Increased Mercenary Naked Fanatics upkeep from 160 to 230 denarii per turn.
+
 ## 2026-09-22
 
 ### Changed

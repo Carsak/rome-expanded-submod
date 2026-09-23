@@ -1138,7 +1138,7 @@ stat_mental					11, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 430, 80, 50, 70, 430
+stat_cost					1, 645, 200, 50, 70, 645
 recruit_priority_offset		0
 ownership					slave, rebel_slave, dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03
 ethnicity					dacia, Dacia, don't_allow_mixed, don't_allow_regional, don't_allow_custom
@@ -1169,7 +1169,7 @@ stat_mental					11, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 430, 80, 50, 70, 430
+stat_cost					1, 645, 200, 50, 70, 645
 recruit_priority_offset		0
 ownership					slave, rebel_slave, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18
 ethnicity					gauls, Central_Gaul, don't_allow_mixed, don't_allow_regional, don't_allow_custom
@@ -1200,7 +1200,7 @@ stat_mental					11, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 430, 80, 50, 70, 430
+stat_cost					1, 645, 200, 50, 70, 645
 recruit_priority_offset		0
 ownership					slave, rebel_slave, germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10
 ethnicity					germans, Germania_Superior, don't_allow_mixed, don't_allow_regional, don't_allow_custom
@@ -1231,7 +1231,7 @@ stat_mental					11, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 430, 80, 50, 70, 430
+stat_cost					1, 645, 200, 50, 70, 645
 recruit_priority_offset		0
 ownership					slave, rebel_slave
 ethnicity					slave, Germania_Superior, don't_allow_regional
@@ -1262,7 +1262,7 @@ stat_mental					11, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 430, 80, 50, 70, 430
+stat_cost					1, 645, 200, 50, 70, 645
 recruit_priority_offset		0
 ownership					slave, rebel_slave, spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic
 ethnicity					spain, Celtiberia, don't_allow_mixed, don't_allow_regional, don't_allow_custom
@@ -2819,7 +2819,7 @@ category					infantry
 class						light
 voice_type					Light_1
 voice_indexes				0 1 2
-soldier						carthage_town_militia, 40, 0, 1
+soldier						carthage_town_militia, 60, 0, 1
 attributes					sea_faring, hide_forest, can_sap
 formation					1, 1, 2, 2, 5, square
 stat_health					1, 0
@@ -2835,7 +2835,7 @@ stat_mental					3, normal, trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 150, 100, 20, 30, 150
+stat_cost					1, 300, 150, 20, 30, 150
 recruit_priority_offset		0
 ownership					slave, rebel_slave, carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic
 ethnicity					carthage, Africa
@@ -2896,7 +2896,7 @@ ethnicity					iberian_faction_07, Cantabria
 ethnicity					iberian_faction_08, Aquitania_Inferior
 ethnicity					rebel_nuragic, Sardinia
 rebalance_statblock
-soldier						carthaginian_infantry, 40, 0, 1
+soldier						carthaginian_infantry, 60, 0, 1
 attributes					sea_faring, hide_forest, can_sap
 formation					1, 1, 2, 2, 4, square
 stat_health					1, 0
@@ -2912,7 +2912,7 @@ stat_mental					7, normal, trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 260, 170, 30, 40, 260
+stat_cost					1, 400, 200, 30, 40, 260
 
 
 type						carthaginian medium infantry
@@ -6812,7 +6812,7 @@ category					infantry
 class						light
 voice_type					Light_1
 voice_indexes				0 1 2
-soldier						roman_city_militia, 40, 0, 1
+soldier						roman_city_militia, 60, 0, 1
 attributes					sea_faring, hide_forest, can_sap
 formation					1, 1, 2, 2, 5, square
 stat_health					1, 0
@@ -6828,7 +6828,7 @@ stat_mental					3, low, trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 150, 100, 20, 30, 150
+stat_cost					1, 300, 150, 20, 30, 150
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman
 ethnicity					romans_brutii, Bruttium
@@ -9015,7 +9015,7 @@ stat_mental					11, disciplined, highly_trained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 800, 160, 60, 90, 800
+stat_cost					1, 800, 230, 60, 90, 800
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman, barbarian, carthaginian, greek, egyptian, eastern, tracian_illyrian, italic
 ethnicity					britons, Britannia_Superior, don't_allow_mixed, don't_allow_regional, don't_allow_custom
@@ -11079,7 +11079,7 @@ category					infantry
 class						light
 voice_type					Light_1
 voice_indexes				0 1 2
-soldier						tribal_city_militia, 40, 0, 1
+soldier						tribal_city_militia, 60, 0, 1
 attributes					sea_faring, hide_forest, can_sap
 formation					1, 1, 2, 2, 5, square
 stat_health					1, 0
@@ -11095,7 +11095,7 @@ stat_mental					3, low, trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 250, 100, 30, 40, 250
+stat_cost					1, 450, 150, 30, 40, 450
 recruit_priority_offset		0
 ownership					slave, rebel_slave, carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_04, desert_faction_05, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert
 ethnicity					carthage, Africa
