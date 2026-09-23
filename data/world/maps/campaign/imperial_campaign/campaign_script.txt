@@ -526,7 +526,7 @@ script
 
 		spawn_army
 			faction seleucid
-			character Demodamas of Apamea, named character, age 48, , x 253, y 50
+			character Demodamas of Miletus, named character, age 48, , x 253, y 50
 			unit greek general's guard cavalry early, exp 1 armour 0 weapon_lvl 0
 			unit greek cavalry, exp 0 armour 0 weapon_lvl 0
 			unit greek levy pikemen, exp 0 armour 0 weapon_lvl 0
@@ -534,21 +534,21 @@ script
 			unit greek peltast, exp 0 armour 0 weapon_lvl 0
 		end
 
-		console_command give_trait "Demodamas of Apamea" hellenic 1
-		console_command give_trait "Demodamas of Apamea" LoyaltyStarter 1
-		console_command give_trait "Demodamas of Apamea" NaturalMilitarySkill 2
-		console_command give_trait "Demodamas of Apamea" GoodAdministrator 2
-		console_command give_trait "Demodamas of Apamea" GoodCommander 2
-		console_command give_trait "Demodamas of Apamea" GoodAttacker 2
-		console_command give_trait "Demodamas of Apamea" GoodBuilder 2
-		console_command give_trait "Demodamas of Apamea" Intelligent 2
-		console_command give_trait "Demodamas of Apamea" PublicFaith 3
-		console_command give_trait "Demodamas of Apamea" Energetic 3
-		console_command give_trait "Demodamas of Apamea" Upright 2
-		console_command give_trait "Demodamas of Apamea" Brave 2
-		console_command give_trait "Demodamas of Apamea" Scout 3
-		console_command give_ancillary "Demodamas of Apamea" surveyor
-		console_command give_ancillary "Demodamas of Apamea" scribe_ancillary
+		console_command give_trait "Demodamas of Miletus" hellenic 1
+		console_command give_trait "Demodamas of Miletus" LoyaltyStarter 1
+		console_command give_trait "Demodamas of Miletus" NaturalMilitarySkill 2
+		console_command give_trait "Demodamas of Miletus" GoodAdministrator 2
+		console_command give_trait "Demodamas of Miletus" GoodCommander 2
+		console_command give_trait "Demodamas of Miletus" GoodAttacker 2
+		console_command give_trait "Demodamas of Miletus" GoodBuilder 2
+		console_command give_trait "Demodamas of Miletus" Intelligent 2
+		console_command give_trait "Demodamas of Miletus" PublicFaith 3
+		console_command give_trait "Demodamas of Miletus" Energetic 3
+		console_command give_trait "Demodamas of Miletus" Upright 2
+		console_command give_trait "Demodamas of Miletus" Brave 2
+		console_command give_trait "Demodamas of Miletus" Scout 3
+		console_command give_ancillary "Demodamas of Miletus" surveyor
+		console_command give_ancillary "Demodamas of Miletus" scribe_ancillary
 
 		spawn_army
 			faction seleucid
@@ -636,7 +636,7 @@ script
 		spawn_army
 			faction seleucid
 			character Andragoras of Hecatompylos, named character, age 32, , x 253, y 78
-			unit east generals cavalry early, exp 1 armour 0 weapon_lvl 0
+			unit greek general's guard cavalry early, exp 1 armour 0 weapon_lvl 0
 			unit merc eastern infantry, exp 0 armour 0 weapon_lvl 0
 			unit merc eastern infantry, exp 0 armour 0 weapon_lvl 0
 			unit merc eastern infantry, exp 0 armour 0 weapon_lvl 0
@@ -698,8 +698,29 @@ script
 
 		spawn_army
 			faction seleucid
+			character Theodotus of Rhodes, named character, age 20, , x 205, y 43
+			unit greek general's guard cavalry early, exp 1 armour 0 weapon_lvl 0
+			unit greek levy pikemen, exp 0 armour 0 weapon_lvl 0
+			unit greek levy pikemen, exp 0 armour 0 weapon_lvl 0
+			unit merc rhodian slingers, exp 0 armour 0 weapon_lvl 0
+			unit merc rhodian slingers, exp 0 armour 0 weapon_lvl 0
+		end
+
+		console_command give_trait "Theodotus of Rhodes" hellenic 1
+		console_command give_trait "Theodotus of Rhodes" LoyaltyStarter 1
+		console_command give_trait "Theodotus of Rhodes" NaturalMilitarySkill 3
+		console_command give_trait "Theodotus of Rhodes" GoodCommander 2
+		console_command give_trait "Theodotus of Rhodes" Energetic 1
+		console_command give_trait "Theodotus of Rhodes" Brave 2
+		console_command give_trait "Theodotus of Rhodes" Upright 1
+		console_command give_trait "Theodotus of Rhodes" Intelligent 2
+		console_command give_trait "Theodotus of Rhodes" TacticalSkill 2
+		console_command give_ancillary "Theodotus of Rhodes" mercenary_captain
+
+		spawn_army
+			faction seleucid
 			character Nidintu-Bel of Babylonia, named character, age 20, , x 229, y 58
-			unit east generals cavalry early, exp 1 armour 0 weapon_lvl 0
+			unit greek general's guard cavalry early, exp 1 armour 0 weapon_lvl 0
 			unit merc eastern infantry, exp 0 armour 0 weapon_lvl 0
 			unit merc eastern infantry, exp 0 armour 0 weapon_lvl 0
 			unit merc syrian archer, exp 0 armour 0 weapon_lvl 0
@@ -799,7 +820,7 @@ script
 		if not I_LocalFaction seleucid
 			console_command give_trait "Patroclus of Macedonia" AIBattleBonus 1
 			console_command give_trait "Pleistarchus Antipatrid" AIBattleBonus 1
-			console_command give_trait "Demodamas of Apamea" AIBattleBonus 1
+			console_command give_trait "Demodamas of Miletus" AIBattleBonus 1
 			console_command give_trait "Heraclitus of Laodicea" AIBattleBonus 1
 			console_command give_trait "Nicanor of Seleuceia" AIBattleBonus 1
 			console_command give_trait "Philotas of Pella" AIBattleBonus 1
@@ -807,6 +828,7 @@ script
 			console_command give_trait "Andragoras of Hecatompylos" AIBattleBonus 1
 			console_command give_trait "Zeuxis of Macedonia" AIBattleBonus 1
 			console_command give_trait "Molon of Macedonia" AIBattleBonus 1
+			console_command give_trait "Theodotus of Rhodes" AIBattleBonus 1
 			console_command give_trait "Nidintu-Bel of Babylonia" AIBattleBonus 1
 		end_if
 		if not I_LocalFaction hellenic_faction_08
@@ -1717,1603 +1739,12 @@ script
 		end_if
 	end_monitor
 
-	; Faction Death Script
-
-	monitor_event HordeFormed
-		if not FactionIsLocal
-			; Check for living family members
-			declare_counter num_family
-
-			for_each character in faction
-				if AgentType = named character
-					inc_counter num_family 1
-
-					console_command give_trait local Immovable 2
-				end_if
-			end_for
-
-			; When no living family kill the faction
-			if I_CompareCounter num_family = 0
-				for_each character in faction
-					console_command kill_character local
-				end_for
-			end_if
-		end_if
-	end_monitor
-
-	monitor_event GeneralCaptureSettlement
-		remove_hidden_resource local capital
-		remove_hidden_resource local poverty
-		remove_hidden_resource local converted
-		remove_hidden_resource local convert1
-		remove_hidden_resource local convert2
-		remove_hidden_resource local convert3
-		remove_hidden_resource local convert4
-		remove_hidden_resource local convert5
-		remove_hidden_resource local cv1
-		remove_hidden_resource local cv2
-		remove_hidden_resource local cv3
-		remove_hidden_resource local cv4
-		remove_hidden_resource local cv5
-		remove_hidden_resource local cv6
-		remove_hidden_resource local cv7
-		remove_hidden_resource local cv8
-		remove_hidden_resource local cv9
-		remove_hidden_resource local cv10
-		remove_hidden_resource local cv11
-		remove_hidden_resource local cv12
-		remove_hidden_resource local cv13
-		remove_hidden_resource local cv14
-		remove_hidden_resource local cv15
-		remove_hidden_resource local cv16
-		remove_hidden_resource local cv17
-		remove_hidden_resource local cv18
-		remove_hidden_resource local cv19
-		remove_hidden_resource local cv20
-
-		if FactionIsLocal
-			console_command create_building local temporary
-
-			; Kill agents recruited from a town
-			for_each faction in world
-				if not FactionIsLocal
-				and not FactionType slave
-					for_each character in faction
-						if not IsGeneral
-						and not AgentType = admiral
-							if HomeSettlementBuildingExists = temporary
-								console_command kill_character local
-							end_if
-						end_if
-					end_for
-				end_if
-			end_for
-
-			declare_counter is_destroyed
-
-			if SettlementName Abydos
-				set_counter is_destroyed 1
-				destroy_building "Abydos" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Achaea
-				set_counter is_destroyed 1
-				destroy_building "Achaea" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Aigion
-				set_counter is_destroyed 1
-				destroy_building "Aigion" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Akragas
-				set_counter is_destroyed 1
-				destroy_building "Akragas" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Alabu
-				set_counter is_destroyed 1
-				destroy_building "Alabu" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Alalia
-				set_counter is_destroyed 1
-				destroy_building "Alalia" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Alesia
-				set_counter is_destroyed 1
-				destroy_building "Alesia" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Ambracia
-				set_counter is_destroyed 1
-				destroy_building "Ambracia" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Ancyra
-				set_counter is_destroyed 1
-				destroy_building "Ancyra" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Antioch
-				set_counter is_destroyed 1
-				destroy_building "Antioch" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Apameia
-				set_counter is_destroyed 1
-				destroy_building "Apameia" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Apollonia
-				set_counter is_destroyed 1
-				destroy_building "Apollonia" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Aquincum
-				set_counter is_destroyed 1
-				destroy_building "Aquincum" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Arbela
-				set_counter is_destroyed 1
-				destroy_building "Arbela" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Argedava
-				set_counter is_destroyed 1
-				destroy_building "Argedava" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Argos
-				set_counter is_destroyed 1
-				destroy_building "Argos" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Ariminum
-				set_counter is_destroyed 1
-				destroy_building "Ariminum" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Arkovna
-				set_counter is_destroyed 1
-				destroy_building "Arkovna" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Arretium
-				set_counter is_destroyed 1
-				destroy_building "Arretium" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Arsakia
-				set_counter is_destroyed 1
-				destroy_building "Arsakia" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Arsamosata
-				set_counter is_destroyed 1
-				destroy_building "Arsamosata" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Artaxarta
-				set_counter is_destroyed 1
-				destroy_building "Artaxarta" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Asculum
-				set_counter is_destroyed 1
-				destroy_building "Asculum" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Asturica
-				set_counter is_destroyed 1
-				destroy_building "Asturica" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Athens
-				set_counter is_destroyed 1
-				destroy_building "Athens" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Atuatuca
-				set_counter is_destroyed 1
-				destroy_building "Atuatuca" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Augila
-				set_counter is_destroyed 1
-				destroy_building "Augila" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Automala
-				set_counter is_destroyed 1
-				destroy_building "Automala" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Avdat
-				set_counter is_destroyed 1
-				destroy_building "Avdat" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Aventicos
-				set_counter is_destroyed 1
-				destroy_building "Aventicos" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Batavodurum
-				set_counter is_destroyed 1
-				destroy_building "Batavodurum" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Bononia
-				set_counter is_destroyed 1
-				destroy_building "Bononia" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Bordesholm
-				set_counter is_destroyed 1
-				destroy_building "Bordesholm" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Bosra
-				set_counter is_destroyed 1
-				destroy_building "Bosra" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Bostra
-				set_counter is_destroyed 1
-				destroy_building "Bostra" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Burdigala
-				set_counter is_destroyed 1
-				destroy_building "Burdigala" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Bylazora
-				set_counter is_destroyed 1
-				destroy_building "Bylazora" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Byzantium
-				set_counter is_destroyed 1
-				destroy_building "Byzantium" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Campus_Alanni
-				set_counter is_destroyed 1
-				destroy_building "Campus_Alanni" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Campus_Aorsi
-				set_counter is_destroyed 1
-				destroy_building "Campus_Aorsi" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Campus_Dahae
-				set_counter is_destroyed 1
-				destroy_building "Campus_Dahae" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Campus_Getae
-				set_counter is_destroyed 1
-				destroy_building "Campus_Getae" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Campus_Iazyges
-				set_counter is_destroyed 1
-				destroy_building "Campus_Iazyges" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Campus_Massagetae
-				set_counter is_destroyed 1
-				destroy_building "Campus_Massagetae" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Campus_Sakae
-				set_counter is_destroyed 1
-				destroy_building "Campus_Sakae" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Campus_Sarmatae
-				set_counter is_destroyed 1
-				destroy_building "Campus_Sarmatae" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Campus_Scythii
-				set_counter is_destroyed 1
-				destroy_building "Campus_Scythii" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Campus_Thyssagetae
-				set_counter is_destroyed 1
-				destroy_building "Campus_Thyssagetae" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Capua
-				set_counter is_destroyed 1
-				destroy_building "Capua" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Caralis
-				set_counter is_destroyed 1
-				destroy_building "Caralis" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Carcathiocerta
-				set_counter is_destroyed 1
-				destroy_building "Carcathiocerta" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Carthage
-				set_counter is_destroyed 1
-				destroy_building "Carthage" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Carthago_Nova
-				set_counter is_destroyed 1
-				destroy_building "Carthago_Nova" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Chalkis
-				set_counter is_destroyed 1
-				destroy_building "Chalkis" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Charax
-				set_counter is_destroyed 1
-				destroy_building "Charax" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Chersonesos
-				set_counter is_destroyed 1
-				destroy_building "Chersonesos" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Cirta
-				set_counter is_destroyed 1
-				destroy_building "Cirta" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Condate_Redonum
-				set_counter is_destroyed 1
-				destroy_building "Condate_Redonum" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Corduba
-				set_counter is_destroyed 1
-				destroy_building "Corduba" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Corinth
-				set_counter is_destroyed 1
-				destroy_building "Corinth" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Croton
-				set_counter is_destroyed 1
-				destroy_building "Croton" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Cydamus
-				set_counter is_destroyed 1
-				destroy_building "Cydamus" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Cyrene
-				set_counter is_destroyed 1
-				destroy_building "Cyrene" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Cyrrhus
-				set_counter is_destroyed 1
-				destroy_building "Cyrrhus" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Damascus
-				set_counter is_destroyed 1
-				destroy_building "Damascus" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Deliminium
-				set_counter is_destroyed 1
-				destroy_building "Deliminium" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Delphi
-				set_counter is_destroyed 1
-				destroy_building "Delphi" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Deva
-				set_counter is_destroyed 1
-				destroy_building "Deva" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Domus_Dulcis_Domus
-				set_counter is_destroyed 1
-				destroy_building "Domus_Dulcis_Domus" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Dumat
-				set_counter is_destroyed 1
-				destroy_building "Dumat" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Dumatha
-				set_counter is_destroyed 1
-				destroy_building "Dumatha" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Eburacum
-				set_counter is_destroyed 1
-				destroy_building "Eburacum" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Ecbatana
-				set_counter is_destroyed 1
-				destroy_building "Ecbatana" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Elis
-				set_counter is_destroyed 1
-				destroy_building "Elis" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Epidamnos
-				set_counter is_destroyed 1
-				destroy_building "Epidamnos" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Gangra
-				set_counter is_destroyed 1
-				destroy_building "Gangra" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Garama
-				set_counter is_destroyed 1
-				destroy_building "Garama" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Gaza
-				set_counter is_destroyed 1
-				destroy_building "Gaza" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Halicarnasus
-				set_counter is_destroyed 1
-				destroy_building "Halicarnasus" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Harran
-				set_counter is_destroyed 1
-				destroy_building "Harran" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Hatra
-				set_counter is_destroyed 1
-				destroy_building "Hatra" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Hegra
-				set_counter is_destroyed 1
-				destroy_building "Hegra" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Hermopolis
-				set_counter is_destroyed 1
-				destroy_building "Hermopolis" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Iol
-				set_counter is_destroyed 1
-				destroy_building "Iol" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Iska
-				set_counter is_destroyed 1
-				destroy_building "Iska" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Ispal
-				set_counter is_destroyed 1
-				destroy_building "Ispal" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Iuvavum
-				set_counter is_destroyed 1
-				destroy_building "Iuvavum" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Jerusalem
-				set_counter is_destroyed 1
-				destroy_building "Jerusalem" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Kalos_Limen
-				set_counter is_destroyed 1
-				destroy_building "Kalos_Limen" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Kambodunon
-				set_counter is_destroyed 1
-				destroy_building "Kambodunon" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Kamianka
-				set_counter is_destroyed 1
-				destroy_building "Kamianka" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Kharkha
-				set_counter is_destroyed 1
-				destroy_building "Kharkha" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Khaybar
-				set_counter is_destroyed 1
-				destroy_building "Khaybar" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Knossos
-				set_counter is_destroyed 1
-				destroy_building "Knossos" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Kotais
-				set_counter is_destroyed 1
-				destroy_building "Kotais" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Larissa
-				set_counter is_destroyed 1
-				destroy_building "Larissa" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Lemonum
-				set_counter is_destroyed 1
-				destroy_building "Lemonum" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Lepcis_Magna
-				set_counter is_destroyed 1
-				destroy_building "Lepcis_Magna" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Lilybaeum
-				set_counter is_destroyed 1
-				destroy_building "Lilybaeum" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Londinium
-				set_counter is_destroyed 1
-				destroy_building "Londinium" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Lovosice
-				set_counter is_destroyed 1
-				destroy_building "Lovosice" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Lugdunum
-				set_counter is_destroyed 1
-				destroy_building "Lugdunum" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Luppia
-				set_counter is_destroyed 1
-				destroy_building "Luppia" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Lysimachia
-				set_counter is_destroyed 1
-				destroy_building "Lysimachia" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Maleventum
-				set_counter is_destroyed 1
-				destroy_building "Maleventum" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Massilia
-				set_counter is_destroyed 1
-				destroy_building "Massilia" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Mazaka
-				set_counter is_destroyed 1
-				destroy_building "Mazaka" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Mediolanium
-				set_counter is_destroyed 1
-				destroy_building "Mediolanium" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Mediomatrici
-				set_counter is_destroyed 1
-				destroy_building "Mediomatrici" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Megalopolis
-				set_counter is_destroyed 1
-				destroy_building "Megalopolis" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Megara
-				set_counter is_destroyed 1
-				destroy_building "Megara" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Memphis
-				set_counter is_destroyed 1
-				destroy_building "Memphis" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Messana
-				set_counter is_destroyed 1
-				destroy_building "Messana" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Messeni
-				set_counter is_destroyed 1
-				destroy_building "Messeni" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Miletus
-				set_counter is_destroyed 1
-				destroy_building "Miletus" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Mogontiacum
-				set_counter is_destroyed 1
-				destroy_building "Mogontiacum" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Mytilene
-				set_counter is_destroyed 1
-				destroy_building "Mytilene" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Naissos
-				set_counter is_destroyed 1
-				destroy_building "Naissos" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Narbo_Martius
-				set_counter is_destroyed 1
-				destroy_building "Narbo_Martius" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Narnia
-				set_counter is_destroyed 1
-				destroy_building "Narnia" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Nepte
-				set_counter is_destroyed 1
-				destroy_building "Nepte" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Nicomedia
-				set_counter is_destroyed 1
-				destroy_building "Nicomedia" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Nisibis
-				set_counter is_destroyed 1
-				destroy_building "Nisibis" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Numantia
-				set_counter is_destroyed 1
-				destroy_building "Numantia" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Odessos
-				set_counter is_destroyed 1
-				destroy_building "Odessos" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Olbia
-				set_counter is_destroyed 1
-				destroy_building "Olbia" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Osca
-				set_counter is_destroyed 1
-				destroy_building "Osca" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Palma
-				set_counter is_destroyed 1
-				destroy_building "Palma" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Palmyra
-				set_counter is_destroyed 1
-				destroy_building "Palmyra" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Panormus
-				set_counter is_destroyed 1
-				destroy_building "Panormus" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Pantikapaion
-				set_counter is_destroyed 1
-				destroy_building "Pantikapaion" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Paraitonion
-				set_counter is_destroyed 1
-				destroy_building "Paraitonion" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Patavium
-				set_counter is_destroyed 1
-				destroy_building "Patavium" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Pella
-				set_counter is_destroyed 1
-				destroy_building "Pella" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Pelousion
-				set_counter is_destroyed 1
-				destroy_building "Pelousion" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Pergamum
-				set_counter is_destroyed 1
-				destroy_building "Pergamum" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Perge
-				set_counter is_destroyed 1
-				destroy_building "Perge" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Petra
-				set_counter is_destroyed 1
-				destroy_building "Petra" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Phanagoreia
-				set_counter is_destroyed 1
-				destroy_building "Phanagoreia" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Philippoi
-				set_counter is_destroyed 1
-				destroy_building "Philippoi" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Philippopolis
-				set_counter is_destroyed 1
-				destroy_building "Philippopolis" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Phraaspa
-				set_counter is_destroyed 1
-				destroy_building "Phraaspa" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Phrygia_Apameia
-				set_counter is_destroyed 1
-				destroy_building "Phrygia_Apameia" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Pisidia_Antioch
-				set_counter is_destroyed 1
-				destroy_building "Pisidia_Antioch" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Porrolissum
-				set_counter is_destroyed 1
-				destroy_building "Porrolissum" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Ptolemais
-				set_counter is_destroyed 1
-				destroy_building "Ptolemais" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Rhinocorura
-				set_counter is_destroyed 1
-				destroy_building "Rhinocorura" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Rhodes
-				set_counter is_destroyed 1
-				destroy_building "Rhodes" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Rize
-				set_counter is_destroyed 1
-				destroy_building "Rize" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Rome
-				set_counter is_destroyed 1
-				destroy_building "Rome" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Salamis
-				set_counter is_destroyed 1
-				destroy_building "Salamis" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Salona
-				set_counter is_destroyed 1
-				destroy_building "Salona" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Samarobriva
-				set_counter is_destroyed 1
-				destroy_building "Samarobriva" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Samosata
-				set_counter is_destroyed 1
-				destroy_building "Samosata" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Sardis
-				set_counter is_destroyed 1
-				destroy_building "Sardis" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Scallabis
-				set_counter is_destroyed 1
-				destroy_building "Scallabis" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Scodra
-				set_counter is_destroyed 1
-				destroy_building "Scodra" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Segesta
-				set_counter is_destroyed 1
-				destroy_building "Segesta" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Segestica
-				set_counter is_destroyed 1
-				destroy_building "Segestica" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Seleucia
-				set_counter is_destroyed 1
-				destroy_building "Seleucia" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Seuthopolis
-				set_counter is_destroyed 1
-				destroy_building "Seuthopolis" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Shumen
-				set_counter is_destroyed 1
-				destroy_building "Shumen" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Sidon
-				set_counter is_destroyed 1
-				destroy_building "Sidon" temporary
-				if not HasResource greece
-					add_hidden_resource local greece
-				end_if
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Siga
-				set_counter is_destroyed 1
-				destroy_building "Siga" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Singidun
-				set_counter is_destroyed 1
-				destroy_building "Singidun" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Sinope
-				set_counter is_destroyed 1
-				destroy_building "Sinope" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Siracena
-				set_counter is_destroyed 1
-				destroy_building "Siracena" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Siwa
-				set_counter is_destroyed 1
-				destroy_building "Siwa" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Sparta
-				set_counter is_destroyed 1
-				destroy_building "Sparta" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Susa
-				set_counter is_destroyed 1
-				destroy_building "Susa" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Syracuse
-				set_counter is_destroyed 1
-				destroy_building "Syracuse" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Tanais
-				set_counter is_destroyed 1
-				destroy_building "Tanais" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Tara
-				set_counter is_destroyed 1
-				destroy_building "Tara" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Tarentum
-				set_counter is_destroyed 1
-				destroy_building "Tarentum" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Tarsus
-				set_counter is_destroyed 1
-				destroy_building "Tarsus" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Taymar
-				set_counter is_destroyed 1
-				destroy_building "Taymar" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Thapsus
-				set_counter is_destroyed 1
-				destroy_building "Thapsus" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Thebes
-				set_counter is_destroyed 1
-				destroy_building "Thebes" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Themiskyra
-				set_counter is_destroyed 1
-				destroy_building "Themiskyra" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Theodosia
-				set_counter is_destroyed 1
-				destroy_building "Theodosia" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Thermon
-				set_counter is_destroyed 1
-				destroy_building "Thermon" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Thessalonica
-				set_counter is_destroyed 1
-				destroy_building "Thessalonica" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Tingi
-				set_counter is_destroyed 1
-				destroy_building "Tingi" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Tomis
-				set_counter is_destroyed 1
-				destroy_building "Tomis" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Trapezous
-				set_counter is_destroyed 1
-				destroy_building "Trapezous" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Trier
-				set_counter is_destroyed 1
-				destroy_building "Trier" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Trikke
-				set_counter is_destroyed 1
-				destroy_building "Trikke" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Tushpa
-				set_counter is_destroyed 1
-				destroy_building "Tushpa" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Tylis
-				set_counter is_destroyed 1
-				destroy_building "Tylis" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Tyras
-				set_counter is_destroyed 1
-				destroy_building "Tyras" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Tyre
-				set_counter is_destroyed 1
-				destroy_building "Tyre" temporary
-				if not HasResource greece
-					add_hidden_resource local greece
-				end_if
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Uruk
-				set_counter is_destroyed 1
-				destroy_building "Uruk" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Uscudama
-				set_counter is_destroyed 1
-				destroy_building "Uscudama" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Vanduara
-				set_counter is_destroyed 1
-				destroy_building "Vanduara" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Vellika
-				set_counter is_destroyed 1
-				destroy_building "Vellika" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Venusia
-				set_counter is_destroyed 1
-				destroy_building "Venusia" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Vicus_Boii
-				set_counter is_destroyed 1
-				destroy_building "Vicus_Boii" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Vicus_Chatti
-				set_counter is_destroyed 1
-				destroy_building "Vicus_Chatti" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Vicus_Chauci
-				set_counter is_destroyed 1
-				destroy_building "Vicus_Chauci" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Vicus_Cherusci
-				set_counter is_destroyed 1
-				destroy_building "Vicus_Cherusci" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Vicus_Gothi
-				set_counter is_destroyed 1
-				destroy_building "Vicus_Gothi" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Vicus_Marcomannii
-				set_counter is_destroyed 1
-				destroy_building "Vicus_Marcomannii" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Vicus_Rugii
-				set_counter is_destroyed 1
-				destroy_building "Vicus_Rugii" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Vicus_Serdi
-				set_counter is_destroyed 1
-				destroy_building "Vicus_Serdi" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Vicus_Suebi
-				set_counter is_destroyed 1
-				destroy_building "Vicus_Suebi" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Vicus_Venedae
-				set_counter is_destroyed 1
-				destroy_building "Vicus_Venedae" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Walilt
-				set_counter is_destroyed 1
-				destroy_building "Walilt" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Waset
-				set_counter is_destroyed 1
-				destroy_building "Waset" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Xanthos
-				set_counter is_destroyed 1
-				destroy_building "Xanthos" temporary
-			end_if
-
-			if I_CompareCounter is_destroyed = 0
-			if SettlementName Zarmizegetusa
-				destroy_building "Zarmizegetusa" temporary
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-			end_if
-		end_if
-	end_monitor
-
-;
-; Rebel Spawn
-;
-
-	monitor_event FactionTurnStart FactionType rebel_romans
-		if I_CompareCounter rebel_rome_spawned = 0
-			set_counter rebel_rome_spawned 1
-
-			for_each character in faction
-				if IsFactionLeader
-					console_command give_trait local Fertile 3
-					console_command give_trait local HaleAndHearty 3
-					console_command give_trait local BattleScarred 2
-					console_command give_trait local HighPersonalSecurity 3
-
-					if FactionIsLocal
-						console_command go_to_char local
-					end_if
-				end_if
-
-				if AgentType = named character
-					console_command give_trait local roman 1
-
-					if Trait NaturalMilitarySkill < 1
-					and RandomPercent > 80
-						console_command give_trait local NaturalMilitarySkill 3
-					end_if
-
-					if Trait NaturalMilitarySkill < 1
-					and RandomPercent > 66
-						console_command give_trait local NaturalMilitarySkill 2
-					end_if
-
-					if Trait NaturalMilitarySkill < 1
-						console_command give_trait local NaturalMilitarySkill 1
-					end_if
-				end_if
-			end_for
-
-			console_command add_money rebel_romans, 10000
+	monitor_event FactionTurnEnd FactionType slave
+		if not I_LocalFaction rebel_carthage
 			terminate_monitor
 		end_if
-	end_monitor
 
-	monitor_event FactionTurnStart FactionType rebel_carthage
-		if I_CompareCounter rebel_carthage_spawned = 0
-			set_counter rebel_carthage_spawned 1
-
+		if FactionIsAlive rebel_carthage
 			declare_counter is_not_ready
 
 			if I_TurnNumber < 100
@@ -3367,14 +1798,230 @@ script
 					console_command give_ancillary "Hamilcar Barca" wrestler
 					console_command give_ancillary "Hamilcar Barca" priest_of_Asklepios
 
-					if not I_LocalFaction rebel_carthage
-						console_command give_trait "Hamilcar Barca" AIBattleBonus 1
-					end_if
-
-					console_command change_character_faction "Hamilcar Barca" rebel_carthage
-
-					console_command set_heir "Hamilcar Barca"
+					terminate_monitor
 				end_if
+			end_if
+		end_if
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType slave
+		if not I_LocalFaction rebel_judea
+			terminate_monitor
+		end_if
+
+		if FactionIsAlive rebel_judea
+			declare_counter is_not_ready
+
+			if I_TurnNumber < 205
+				for_each faction in world
+					if I_CompareCounter is_not_ready < 1
+						if I_FactionNearTile local_faction 0 200, 32
+							set_counter is_not_ready 1
+						end_if
+					end_if
+				end_for
+
+				if I_CompareCounter is_not_ready < 1
+					spawn_army
+						faction slave
+						character Hasmonaeus Hasmonaeus, named character, age 20, , x 200, y 32
+						unit east pontic general, exp 0 armour 0 weapon_lvl 0
+						unit mountain slinger, exp 0 armour 0 weapon_lvl 0
+						unit mountain slinger, exp 0 armour 0 weapon_lvl 0
+						unit mountain slinger, exp 0 armour 0 weapon_lvl 0
+						unit rebel judaean zealots, exp 0 armour 0 weapon_lvl 0
+						unit rebel judaean zealots, exp 0 armour 0 weapon_lvl 0
+						unit rebel judaean zealots, exp 0 armour 0 weapon_lvl 0
+						unit rebel judaean zealots, exp 0 armour 0 weapon_lvl 0
+						unit judaean heavy cavalry, exp 0 armour 0 weapon_lvl 0
+						unit judaean heavy cavalry, exp 0 armour 0 weapon_lvl 0
+					end
+
+					console_command give_trait "Hasmonaeus Hasmonaeus" judaism 1
+					console_command give_trait "Hasmonaeus Hasmonaeus" LoyaltyStarter 1
+					console_command give_trait "Hasmonaeus Hasmonaeus" NaturalMilitarySkill 2
+					console_command give_trait "Hasmonaeus Hasmonaeus" Energetic 2
+					console_command give_trait "Hasmonaeus Hasmonaeus" KindRuler 2
+					console_command give_trait "Hasmonaeus Hasmonaeus" GoodTrader 2
+					console_command give_trait "Hasmonaeus Hasmonaeus" GoodBuilder 2
+					console_command give_trait "Hasmonaeus Hasmonaeus" GoodDefender 2
+					console_command give_trait "Hasmonaeus Hasmonaeus" HaleAndHearty 3
+					console_command give_trait "Hasmonaeus Hasmonaeus" GoodSiegeAttacker 3
+					console_command give_trait "Hasmonaeus Hasmonaeus" Upright 2
+					console_command give_trait "Hasmonaeus Hasmonaeus" PublicFaith 3
+
+					terminate_monitor
+				end_if
+			end_if
+		end_if
+	end_monitor
+
+	monitor_event FactionTurnEnd FactionType slave
+		if not I_LocalFaction parthia
+			terminate_monitor
+		end_if
+
+		if FactionIsAlive parthia
+			declare_counter is_not_ready
+
+			if I_TurnNumber < 60
+				for_each faction in world
+					if I_CompareCounter is_not_ready < 1
+						if I_FactionNearTile local_faction 0 254, 78
+							set_counter is_not_ready 1
+						end_if
+					end_if
+				end_for
+
+				if I_CompareCounter is_not_ready < 1
+					spawn_army
+						faction slave
+						character Phriapites of Asaak, named character, age 20, , x 254, y 78
+						unit east generals cavalry, exp 0 armour 0 weapon_lvl 0
+						unit persian swordsmen, exp 0 armour 0 weapon_lvl 0
+						unit persian swordsmen, exp 0 armour 0 weapon_lvl 0
+						unit persian swordsmen, exp 0 armour 0 weapon_lvl 0
+						unit east persian cavalry, exp 0 armour 0 weapon_lvl 0
+						unit east persian cavalry, exp 0 armour 0 weapon_lvl 0
+						unit east persian cavalry, exp 0 armour 0 weapon_lvl 0
+						unit east persian cavalry, exp 0 armour 0 weapon_lvl 0
+						unit east heavy cataphract, exp 0 armour 0 weapon_lvl 0
+						unit east camel cataphract, exp 0 armour 0 weapon_lvl 0
+					end
+
+					console_command give_trait "Phriapites of Asaak" zoroastrian 1
+					console_command give_trait "Phriapites of Asaak" LoyaltyStarter 1
+					console_command give_trait "Phriapites of Asaak" NaturalMilitarySkill 2
+					console_command give_trait "Phriapites of Asaak" HaleAndHearty 3
+					console_command give_trait "Phriapites of Asaak" Intelligent 2
+					console_command give_trait "Phriapites of Asaak" Austere 2
+					console_command give_trait "Phriapites of Asaak" Energetic 2
+					console_command give_trait "Phriapites of Asaak" LogisticalSkill 1
+					console_command give_trait "Phriapites of Asaak" GoodTaxman 1
+					console_command give_trait "Phriapites of Asaak" GoodTrader 1
+					console_command give_trait "Phriapites of Asaak" GoodBuilder 1
+					console_command give_trait "Phriapites of Asaak" HighPersonalSecurity 2
+					console_command give_trait "Phriapites of Asaak" NightBattleCapable 1
+					console_command give_ancillary "Phriapites of Asaak" chirugeon
+
+					terminate_monitor
+				end_if
+			end_if
+		end_if
+	end_monitor
+
+	; Faction Death Script
+
+	monitor_event HordeFormed
+		if not FactionIsLocal
+			; Check for living family members
+			declare_counter num_family
+
+			for_each character in faction
+				if AgentType = named character
+					inc_counter num_family 1
+
+					console_command give_trait local Immovable 2
+				end_if
+			end_for
+
+			; When no living family kill the faction
+			if I_CompareCounter num_family = 0
+				for_each character in faction
+					console_command kill_character local
+				end_for
+			end_if
+		end_if
+	end_monitor
+
+	monitor_event GeneralCaptureSettlement
+		remove_hidden_resource local capital
+		remove_hidden_resource local poverty
+
+		if FactionIsLocal
+			console_command create_building local temporary
+
+			; Kill agents recruited from a town
+			for_each faction in world
+				if not FactionIsLocal
+				and not FactionType slave
+					for_each character in faction
+						if not IsGeneral
+						and not AgentType = admiral
+							if HomeSettlementBuildingExists = temporary
+								console_command kill_character local
+							end_if
+						end_if
+					end_for
+				end_if
+			end_for
+
+			destroy_building "local" temporary
+		end_if
+	end_monitor
+
+;
+; Emergent Spawns
+;
+
+	monitor_event FactionTurnStart FactionType parthia
+		if I_CompareCounter parthia_spawned = 0
+			set_counter parthia_spawned 1
+
+			if not FactionIsLocal
+				declare_counter is_not_ready
+
+				if I_TurnNumber < 60
+					for_each faction in world
+						if I_CompareCounter is_not_ready < 1
+							if I_FactionNearTile local_faction 0 254, 78
+								set_counter is_not_ready 1
+							end_if
+						end_if
+					end_for
+
+					if I_CompareCounter is_not_ready < 1
+						spawn_army
+							faction slave
+							character Phriapites of Asaak, named character, age 20, , x 254, y 78
+							unit east generals cavalry, exp 0 armour 0 weapon_lvl 0
+							unit persian swordsmen, exp 0 armour 0 weapon_lvl 0
+							unit persian swordsmen, exp 0 armour 0 weapon_lvl 0
+							unit persian swordsmen, exp 0 armour 0 weapon_lvl 0
+							unit east persian cavalry, exp 0 armour 0 weapon_lvl 0
+							unit east persian cavalry, exp 0 armour 0 weapon_lvl 0
+							unit east persian cavalry, exp 0 armour 0 weapon_lvl 0
+							unit east persian cavalry, exp 0 armour 0 weapon_lvl 0
+							unit east heavy cataphract, exp 0 armour 0 weapon_lvl 0
+							unit east camel cataphract, exp 0 armour 0 weapon_lvl 0
+						end
+
+						console_command give_trait "Phriapites of Asaak" zoroastrian 1
+						console_command give_trait "Phriapites of Asaak" LoyaltyStarter 1
+						console_command give_trait "Phriapites of Asaak" NaturalMilitarySkill 2
+						console_command give_trait "Phriapites of Asaak" HaleAndHearty 3
+						console_command give_trait "Phriapites of Asaak" Intelligent 2
+						console_command give_trait "Phriapites of Asaak" Austere 2
+						console_command give_trait "Phriapites of Asaak" Energetic 2
+						console_command give_trait "Phriapites of Asaak" LogisticalSkill 1
+						console_command give_trait "Phriapites of Asaak" GoodTaxman 1
+						console_command give_trait "Phriapites of Asaak" GoodTrader 1
+						console_command give_trait "Phriapites of Asaak" GoodBuilder 1
+						console_command give_trait "Phriapites of Asaak" HighPersonalSecurity 2
+						console_command give_trait "Phriapites of Asaak" NightBattleCapable 1
+						console_command give_ancillary "Phriapites of Asaak" chirugeon
+
+						if not I_LocalFaction parthia
+							console_command give_trait "Phriapites of Asaak" AIBattleBonus 1
+						end_if
+					end_if
+				end_if
+			end_if
+
+			if I_CharacterNameNearTile slave, Hasmonaeus Hasmonaeus, 0 254, 78
+				console_command change_character_faction "Phriapites of Asaak" parthia
+
+				console_command set_heir "Phriapites of Asaak"
 			end_if
 
 			for_each character in faction
@@ -3383,7 +2030,234 @@ script
 					console_command give_trait local HaleAndHearty 3
 					console_command give_trait local BattleScarred 2
 					console_command give_trait local HighPersonalSecurity 3
-					
+
+					if FactionIsLocal
+						console_command go_to_char local
+					end_if
+				end_if
+
+				if AgentType = named character
+					console_command give_trait local zoroastrian 1
+
+					if Trait NaturalMilitarySkill < 1
+					and RandomPercent > 80
+						console_command give_trait local NaturalMilitarySkill 3
+					end_if
+
+					if Trait NaturalMilitarySkill < 1
+					and RandomPercent > 66
+						console_command give_trait local NaturalMilitarySkill 2
+					end_if
+
+					if Trait NaturalMilitarySkill < 1
+						console_command give_trait local NaturalMilitarySkill 1
+					end_if
+				end_if
+			end_for
+
+			console_command add_money parthia, 10000
+			terminate_monitor
+		end_if
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType steppe_faction_04
+		if I_CompareCounter steppe_faction_04_spawned = 0
+			set_counter steppe_faction_04_spawned 1
+
+			for_each character in faction
+				if IsFactionLeader
+					console_command give_trait local Fertile 3
+					console_command give_trait local HaleAndHearty 3
+					console_command give_trait local BattleScarred 2
+					console_command give_trait local HighPersonalSecurity 3
+
+					if FactionIsLocal
+						console_command go_to_char local
+					end_if
+				end_if
+
+				if AgentType = named character
+					console_command give_trait local s_paganism 1
+
+					if Trait NaturalMilitarySkill < 1
+					and RandomPercent > 80
+						console_command give_trait local NaturalMilitarySkill 3
+					end_if
+
+					if Trait NaturalMilitarySkill < 1
+					and RandomPercent > 66
+						console_command give_trait local NaturalMilitarySkill 2
+					end_if
+
+					if Trait NaturalMilitarySkill < 1
+						console_command give_trait local NaturalMilitarySkill 1
+					end_if
+				end_if
+			end_for
+
+			console_command add_money steppe_faction_04, 10000
+			terminate_monitor
+		end_if
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType steppe_faction_05
+		if I_CompareCounter steppe_faction_05_spawned = 0
+			set_counter steppe_faction_05_spawned 1
+
+			for_each character in faction
+				if IsFactionLeader
+					console_command give_trait local Fertile 3
+					console_command give_trait local HaleAndHearty 3
+					console_command give_trait local BattleScarred 2
+					console_command give_trait local HighPersonalSecurity 3
+
+					if FactionIsLocal
+						console_command go_to_char local
+					end_if
+				end_if
+
+				if AgentType = named character
+					console_command give_trait local s_paganism 1
+
+					if Trait NaturalMilitarySkill < 1
+					and RandomPercent > 80
+						console_command give_trait local NaturalMilitarySkill 3
+					end_if
+
+					if Trait NaturalMilitarySkill < 1
+					and RandomPercent > 66
+						console_command give_trait local NaturalMilitarySkill 2
+					end_if
+
+					if Trait NaturalMilitarySkill < 1
+						console_command give_trait local NaturalMilitarySkill 1
+					end_if
+				end_if
+			end_for
+
+			console_command add_money steppe_faction_05, 10000
+			terminate_monitor
+		end_if
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType rebel_romans
+		if I_CompareCounter rebel_rome_spawned = 0
+			set_counter rebel_rome_spawned 1
+
+			for_each character in faction
+				if IsFactionLeader
+					console_command give_trait local Fertile 3
+					console_command give_trait local HaleAndHearty 3
+					console_command give_trait local BattleScarred 2
+					console_command give_trait local HighPersonalSecurity 3
+
+					if FactionIsLocal
+						console_command go_to_char local
+					end_if
+				end_if
+
+				if AgentType = named character
+					console_command give_trait local roman 1
+
+					if Trait NaturalMilitarySkill < 1
+					and RandomPercent > 80
+						console_command give_trait local NaturalMilitarySkill 3
+					end_if
+
+					if Trait NaturalMilitarySkill < 1
+					and RandomPercent > 66
+						console_command give_trait local NaturalMilitarySkill 2
+					end_if
+
+					if Trait NaturalMilitarySkill < 1
+						console_command give_trait local NaturalMilitarySkill 1
+					end_if
+				end_if
+			end_for
+
+			console_command add_money rebel_romans, 10000
+			terminate_monitor
+		end_if
+	end_monitor
+
+	monitor_event FactionTurnStart FactionType rebel_carthage
+		if I_CompareCounter rebel_carthage_spawned = 0
+			set_counter rebel_carthage_spawned 1
+
+			if not FactionIsLocal
+				declare_counter is_not_ready
+
+				if I_TurnNumber < 100
+					for_each faction in world
+						if I_CompareCounter is_not_ready < 1
+							if I_FactionNearTile local_faction 0 95, 51
+								set_counter is_not_ready 1
+							end_if
+						end_if
+					end_for
+
+					if I_CompareCounter is_not_ready < 1
+						spawn_army
+							faction slave
+							character Hamilcar Barca, named character, age 20, , x 95, y 51
+							unit carthaginian general's cavalry, exp 0 armour 0 weapon_lvl 0
+							unit merc libyan infantry, exp 0 armour 0 weapon_lvl 0
+							unit merc libyan infantry, exp 0 armour 0 weapon_lvl 0
+							unit merc libyan infantry, exp 0 armour 0 weapon_lvl 0
+							unit merc libyan infantry, exp 0 armour 0 weapon_lvl 0
+							unit merc numidian cavalry, exp 0 armour 0 weapon_lvl 0
+							unit merc numidian cavalry, exp 0 armour 0 weapon_lvl 0
+							unit merc numidian cavalry, exp 0 armour 0 weapon_lvl 0
+							unit merc balearic slingers, exp 0 armour 0 weapon_lvl 0
+							unit merc balearic slingers, exp 0 armour 0 weapon_lvl 0
+						end
+
+						console_command give_trait "Hamilcar Barca" punic 1
+						console_command give_trait "Hamilcar Barca" LoyaltyStarter 1
+						console_command give_trait "Hamilcar Barca" NaturalMilitarySkill 3
+						console_command give_trait "Hamilcar Barca" GoodCommander 2
+						console_command give_trait "Hamilcar Barca" GoodAttacker 1
+						console_command give_trait "Hamilcar Barca" GoodDefender 2
+						console_command give_trait "Hamilcar Barca" GoodAmbusher 1
+						console_command give_trait "Hamilcar Barca" HaleAndHearty 3
+						console_command give_trait "Hamilcar Barca" Brave 2
+						console_command give_trait "Hamilcar Barca" BattleScarred 2
+						console_command give_trait "Hamilcar Barca" Energetic 3
+						console_command give_trait "Hamilcar Barca" Intelligent 2
+						console_command give_trait "Hamilcar Barca" TacticalSkill 3
+						console_command give_trait "Hamilcar Barca" LogisticalSkill 3
+						console_command give_trait "Hamilcar Barca" HatesRoman 2
+						console_command give_trait "Hamilcar Barca" HighPersonalSecurity 3
+						console_command give_trait "Hamilcar Barca" NightBattleCapable 1
+						console_command give_ancillary "Hamilcar Barca" mercenary_captain
+						console_command give_ancillary "Hamilcar Barca" drillmaster
+						console_command give_ancillary "Hamilcar Barca" chirugeon
+						console_command give_ancillary "Hamilcar Barca" swordbearer
+						console_command give_ancillary "Hamilcar Barca" bodyguard
+						console_command give_ancillary "Hamilcar Barca" heroic_saviour
+						console_command give_ancillary "Hamilcar Barca" wrestler
+						console_command give_ancillary "Hamilcar Barca" priest_of_Asklepios
+
+						if not I_LocalFaction rebel_carthage
+							console_command give_trait "Hamilcar Barca" AIBattleBonus 1
+						end_if
+					end_if
+				end_if
+			end_if
+
+			if I_CharacterNameNearTile slave, Hamilcar Barca, 0 95, 51
+				console_command change_character_faction "Hamilcar Barca" rebel_carthage
+
+				console_command set_heir "Hamilcar Barca"
+			end_if
+
+			for_each character in faction
+				if IsFactionLeader
+					console_command give_trait local Fertile 3
+					console_command give_trait local HaleAndHearty 3
+					console_command give_trait local BattleScarred 2
+					console_command give_trait local HighPersonalSecurity 3
+
 					if FactionIsLocal
 						console_command go_to_char local
 					end_if
@@ -3438,7 +2312,7 @@ script
 					console_command give_trait local HaleAndHearty 3
 					console_command give_trait local BattleScarred 2
 					console_command give_trait local HighPersonalSecurity 3
-					
+
 					if FactionIsLocal
 						console_command go_to_char local
 					end_if
@@ -3472,54 +2346,58 @@ script
 		if I_CompareCounter rebel_judea_spawned = 0
 			set_counter rebel_judea_spawned 1
 
-			declare_counter is_not_ready
+			if not FactionIsLocal
+				declare_counter is_not_ready
 
-			if I_TurnNumber < 205
-				for_each faction in world
+				if I_TurnNumber < 205
+					for_each faction in world
+						if I_CompareCounter is_not_ready < 1
+							if I_FactionNearTile local_faction 0 200, 32
+								set_counter is_not_ready 1
+							end_if
+						end_if
+					end_for
+
 					if I_CompareCounter is_not_ready < 1
-						if I_FactionNearTile local_faction 0 200, 32
-							set_counter is_not_ready 1
+						spawn_army
+							faction slave
+							character Hasmonaeus Hasmonaeus, named character, age 20, , x 200, y 32
+							unit east pontic general, exp 0 armour 0 weapon_lvl 0
+							unit east slinger, exp 0 armour 0 weapon_lvl 0
+							unit east slinger, exp 0 armour 0 weapon_lvl 0
+							unit east slinger, exp 0 armour 0 weapon_lvl 0
+							unit rebel judaean zealots, exp 0 armour 0 weapon_lvl 0
+							unit rebel judaean zealots, exp 0 armour 0 weapon_lvl 0
+							unit rebel judaean zealots, exp 0 armour 0 weapon_lvl 0
+							unit rebel judaean zealots, exp 0 armour 0 weapon_lvl 0
+							unit judaean heavy cavalry, exp 0 armour 0 weapon_lvl 0
+							unit judaean heavy cavalry, exp 0 armour 0 weapon_lvl 0
+						end
+
+						console_command give_trait "Hasmonaeus Hasmonaeus" judaism 1
+						console_command give_trait "Hasmonaeus Hasmonaeus" LoyaltyStarter 1
+						console_command give_trait "Hasmonaeus Hasmonaeus" NaturalMilitarySkill 2
+						console_command give_trait "Hasmonaeus Hasmonaeus" Energetic 2
+						console_command give_trait "Hasmonaeus Hasmonaeus" KindRuler 2
+						console_command give_trait "Hasmonaeus Hasmonaeus" GoodTrader 2
+						console_command give_trait "Hasmonaeus Hasmonaeus" GoodBuilder 2
+						console_command give_trait "Hasmonaeus Hasmonaeus" GoodDefender 2
+						console_command give_trait "Hasmonaeus Hasmonaeus" HaleAndHearty 3
+						console_command give_trait "Hasmonaeus Hasmonaeus" GoodSiegeAttacker 3
+						console_command give_trait "Hasmonaeus Hasmonaeus" Upright 2
+						console_command give_trait "Hasmonaeus Hasmonaeus" PublicFaith 3
+
+						if not I_LocalFaction rebel_judea
+							console_command give_trait "Hasmonaeus Hasmonaeus" AIBattleBonus 1
 						end_if
 					end_if
-				end_for
-
-				if I_CompareCounter is_not_ready < 1
-					spawn_army
-						faction slave
-						character Hasmonaeus Hasmonaeus, named character, age 20, , x 200, y 32
-						unit east pontic general, exp 0 armour 0 weapon_lvl 0
-						unit east slinger, exp 0 armour 0 weapon_lvl 0
-						unit east slinger, exp 0 armour 0 weapon_lvl 0
-						unit east slinger, exp 0 armour 0 weapon_lvl 0
-						unit rebel judaean zealots, exp 0 armour 0 weapon_lvl 0
-						unit rebel judaean zealots, exp 0 armour 0 weapon_lvl 0
-						unit rebel judaean zealots, exp 0 armour 0 weapon_lvl 0
-						unit rebel judaean zealots, exp 0 armour 0 weapon_lvl 0
-						unit judaean heavy cavalry, exp 0 armour 0 weapon_lvl 0
-						unit judaean heavy cavalry, exp 0 armour 0 weapon_lvl 0
-					end
-
-					console_command give_trait "Hasmonaeus Hasmonaeus" judaism 1
-					console_command give_trait "Hasmonaeus Hasmonaeus" LoyaltyStarter 1
-					console_command give_trait "Hasmonaeus Hasmonaeus" NaturalMilitarySkill 2
-					console_command give_trait "Hasmonaeus Hasmonaeus" Energetic 2
-					console_command give_trait "Hasmonaeus Hasmonaeus" KindRuler 2
-					console_command give_trait "Hasmonaeus Hasmonaeus" GoodTrader 2
-					console_command give_trait "Hasmonaeus Hasmonaeus" GoodBuilder 2
-					console_command give_trait "Hasmonaeus Hasmonaeus" GoodDefender 2
-					console_command give_trait "Hasmonaeus Hasmonaeus" HaleAndHearty 3
-					console_command give_trait "Hasmonaeus Hasmonaeus" GoodSiegeAttacker 3
-					console_command give_trait "Hasmonaeus Hasmonaeus" Upright 2
-					console_command give_trait "Hasmonaeus Hasmonaeus" PublicFaith 3
-
-					if not I_LocalFaction rebel_judea
-						console_command give_trait "Hasmonaeus Hasmonaeus" AIBattleBonus 1
-					end_if
-
-					console_command change_character_faction "Hasmonaeus Hasmonaeus" rebel_judea
-
-					console_command set_heir "Hasmonaeus Hasmonaeus"
 				end_if
+			end_if
+
+			if I_CharacterNameNearTile slave, Hasmonaeus Hasmonaeus, 0 200, 32
+				console_command change_character_faction "Hasmonaeus Hasmonaeus" rebel_judea
+
+				console_command set_heir "Hasmonaeus Hasmonaeus"
 			end_if
 
 			for_each character in faction
@@ -3528,7 +2406,7 @@ script
 					console_command give_trait local HaleAndHearty 3
 					console_command give_trait local BattleScarred 2
 					console_command give_trait local HighPersonalSecurity 3
-					
+
 					if FactionIsLocal
 						console_command go_to_char local
 					end_if
@@ -3568,7 +2446,7 @@ script
 					console_command give_trait local HaleAndHearty 3
 					console_command give_trait local BattleScarred 2
 					console_command give_trait local HighPersonalSecurity 3
-					
+
 					if FactionIsLocal
 						console_command go_to_char local
 					end_if
@@ -3608,7 +2486,7 @@ script
 					console_command give_trait local HaleAndHearty 3
 					console_command give_trait local BattleScarred 2
 					console_command give_trait local HighPersonalSecurity 3
-					
+
 					if FactionIsLocal
 						console_command go_to_char local
 					end_if
@@ -3648,7 +2526,7 @@ script
 					console_command give_trait local HaleAndHearty 3
 					console_command give_trait local BattleScarred 2
 					console_command give_trait local HighPersonalSecurity 3
-					
+
 					if FactionIsLocal
 						console_command go_to_char local
 					end_if
@@ -3688,7 +2566,7 @@ script
 					console_command give_trait local HaleAndHearty 3
 					console_command give_trait local BattleScarred 2
 					console_command give_trait local HighPersonalSecurity 3
-					
+
 					if FactionIsLocal
 						console_command go_to_char local
 					end_if
@@ -3728,7 +2606,7 @@ script
 					console_command give_trait local HaleAndHearty 3
 					console_command give_trait local BattleScarred 2
 					console_command give_trait local HighPersonalSecurity 3
-					
+
 					if FactionIsLocal
 						console_command go_to_char local
 					end_if
@@ -4661,6 +3539,10 @@ script
 		end_if
 	end_monitor
 
+;
+; Rebel Threats from Abroad
+;
+
 	monitor_event FactionTurnStart FactionType rebel_slave
 		if FactionIsLocal
 			terminate_monitor
@@ -4849,178 +3731,6 @@ script
 		end_if
 	end_monitor
 
-	monitor_event FactionTurnStart FactionType parthia
-		if I_CompareCounter parthia_spawned = 0
-			set_counter parthia_spawned 1
-
-			declare_counter is_not_ready
-
-			if I_TurnNumber < 60
-				for_each faction in world
-					if I_CompareCounter is_not_ready < 1
-						if I_FactionNearTile local_faction 0 254, 78
-							set_counter is_not_ready 1
-						end_if
-					end_if
-				end_for
-
-				if I_CompareCounter is_not_ready < 1
-					spawn_army
-						faction slave
-						character Phriapites of Asaak, named character, age 20, , x 254, y 78
-						unit east generals cavalry, exp 0 armour 0 weapon_lvl 0
-						unit persian swordsmen, exp 0 armour 0 weapon_lvl 0
-						unit persian swordsmen, exp 0 armour 0 weapon_lvl 0
-						unit persian swordsmen, exp 0 armour 0 weapon_lvl 0
-						unit east persian cavalry, exp 0 armour 0 weapon_lvl 0
-						unit east persian cavalry, exp 0 armour 0 weapon_lvl 0
-						unit east persian cavalry, exp 0 armour 0 weapon_lvl 0
-						unit east persian cavalry, exp 0 armour 0 weapon_lvl 0
-						unit east heavy cataphract, exp 0 armour 0 weapon_lvl 0
-						unit east camel cataphract, exp 0 armour 0 weapon_lvl 0
-					end
-
-					console_command give_trait "Phriapites of Asaak" zoroastrian 1
-					console_command give_trait "Phriapites of Asaak" LoyaltyStarter 1
-					console_command give_trait "Phriapites of Asaak" NaturalMilitarySkill 2
-					console_command give_trait "Phriapites of Asaak" HaleAndHearty 3
-					console_command give_trait "Phriapites of Asaak" Intelligent 2
-					console_command give_trait "Phriapites of Asaak" Austere 2
-					console_command give_trait "Phriapites of Asaak" Energetic 2
-					console_command give_trait "Phriapites of Asaak" LogisticalSkill 1
-					console_command give_trait "Phriapites of Asaak" GoodTaxman 1
-					console_command give_trait "Phriapites of Asaak" GoodTrader 1
-					console_command give_trait "Phriapites of Asaak" GoodBuilder 1
-					console_command give_trait "Phriapites of Asaak" HighPersonalSecurity 2
-					console_command give_trait "Phriapites of Asaak" NightBattleCapable 1
-					console_command give_ancillary "Phriapites of Asaak" chirugeon
-
-					if not I_LocalFaction parthia
-						console_command give_trait "Phriapites of Asaak" AIBattleBonus 1
-					end_if
-
-					console_command change_character_faction "Phriapites of Asaak" parthia
-
-					console_command set_heir "Phriapites of Asaak"
-				end_if
-			end_if
-
-			for_each character in faction
-				if IsFactionLeader
-					console_command give_trait local Fertile 3
-					console_command give_trait local HaleAndHearty 3
-					console_command give_trait local BattleScarred 2
-					console_command give_trait local HighPersonalSecurity 3
-					
-					if FactionIsLocal
-						console_command go_to_char local
-					end_if
-				end_if
-
-				if AgentType = named character
-					console_command give_trait local zoroastrian 1
-
-					if Trait NaturalMilitarySkill < 1
-					and RandomPercent > 80
-						console_command give_trait local NaturalMilitarySkill 3
-					end_if
-
-					if Trait NaturalMilitarySkill < 1
-					and RandomPercent > 66
-						console_command give_trait local NaturalMilitarySkill 2
-					end_if
-
-					if Trait NaturalMilitarySkill < 1
-						console_command give_trait local NaturalMilitarySkill 1
-					end_if
-				end_if
-			end_for
-
-			console_command add_money parthia, 10000
-			terminate_monitor
-		end_if
-	end_monitor
-
-	monitor_event FactionTurnStart FactionType steppe_faction_04
-		if I_CompareCounter steppe_faction_04_spawned = 0
-			set_counter steppe_faction_04_spawned 1
-
-			for_each character in faction
-				if IsFactionLeader
-					console_command give_trait local Fertile 3
-					console_command give_trait local HaleAndHearty 3
-					console_command give_trait local BattleScarred 2
-					console_command give_trait local HighPersonalSecurity 3
-					
-					if FactionIsLocal
-						console_command go_to_char local
-					end_if
-				end_if
-
-				if AgentType = named character
-					console_command give_trait local s_paganism 1
-
-					if Trait NaturalMilitarySkill < 1
-					and RandomPercent > 80
-						console_command give_trait local NaturalMilitarySkill 3
-					end_if
-
-					if Trait NaturalMilitarySkill < 1
-					and RandomPercent > 66
-						console_command give_trait local NaturalMilitarySkill 2
-					end_if
-
-					if Trait NaturalMilitarySkill < 1
-						console_command give_trait local NaturalMilitarySkill 1
-					end_if
-				end_if
-			end_for
-
-			console_command add_money steppe_faction_04, 10000
-			terminate_monitor
-		end_if
-	end_monitor
-
-	monitor_event FactionTurnStart FactionType steppe_faction_05
-		if I_CompareCounter steppe_faction_05_spawned = 0
-			set_counter steppe_faction_05_spawned 1
-
-			for_each character in faction
-				if IsFactionLeader
-					console_command give_trait local Fertile 3
-					console_command give_trait local HaleAndHearty 3
-					console_command give_trait local BattleScarred 2
-					console_command give_trait local HighPersonalSecurity 3
-					
-					if FactionIsLocal
-						console_command go_to_char local
-					end_if
-				end_if
-
-				if AgentType = named character
-					console_command give_trait local s_paganism 1
-
-					if Trait NaturalMilitarySkill < 1
-					and RandomPercent > 80
-						console_command give_trait local NaturalMilitarySkill 3
-					end_if
-
-					if Trait NaturalMilitarySkill < 1
-					and RandomPercent > 66
-						console_command give_trait local NaturalMilitarySkill 2
-					end_if
-
-					if Trait NaturalMilitarySkill < 1
-						console_command give_trait local NaturalMilitarySkill 1
-					end_if
-				end_if
-			end_for
-
-			console_command add_money steppe_faction_05, 10000
-			terminate_monitor
-		end_if
-	end_monitor
-
 ;
 ; Native Culture Script
 ;
@@ -5031,9 +3741,11 @@ script
 
 			; Calculate is_culture to identify owner
 
+			declare_counter is_type
 			declare_counter is_culture
 
 			if FactionCultureType barbarian
+				set_counter is_type 1
 
 				; Britanic Factions
 				if FactionType britons
@@ -5123,6 +3835,7 @@ script
 
 				; Greek Factions
 				if FactionCultureType greek
+					set_counter is_type 2
 					set_counter is_culture 9
 
 					if FactionType hellenic_faction_10
@@ -5133,16 +3846,19 @@ script
 				if I_CompareCounter is_culture = 0
 					; Roman Factions
 					if FactionCultureType roman
+						set_counter is_type 7
 						set_counter is_culture 22
 					end_if
 
 				if I_CompareCounter is_culture = 0
 					if FactionCultureType egyptian
+						set_counter is_type 8
 						set_counter is_culture 23
 					end_if
 
 				if I_CompareCounter is_culture = 0
 					if FactionCultureType carthaginian
+						set_counter is_type 3
 
 						; Carthage Factions
 						if FactionType carthage
@@ -5169,6 +3885,8 @@ script
 
 				if I_CompareCounter is_culture = 0
 					if FactionCultureType eastern
+						set_counter is_type 4
+
 						if FactionType pontus
 						|| FactionType anatolian_faction_01
 							set_counter is_culture 14
@@ -5200,6 +3918,7 @@ script
 
 				if I_CompareCounter is_culture = 0
 					if FactionCultureType tracian_illyrian
+						set_counter is_type 5
 						set_counter is_culture 18
 
 						if FactionType thrace
@@ -5212,6 +3931,7 @@ script
 				; Italic Factions
 				if I_CompareCounter is_culture = 0
 					if FactionCultureType italic
+						set_counter is_type 6
 						set_counter is_culture 20
 
 						if FactionType latin_faction_03
@@ -5227,6 +3947,17 @@ script
 				end_if
 			end_if
 
+			; Culture Type
+			;1 - barbarian - 1,2,3,4,5,6,7,8
+			;2 - greek - 9
+			;3 - carthaginian - 11,12,13
+			;4 - eastern - 10,14,15,16,17 (10 - hellenic_faction_10)
+			;5 - tracian_illyrian - 18,19
+			;6 - italic - 20,21
+			;7 - roman - 22
+			;8 - egyptian - 23
+
+			; Owner
 			;1	- owner_briton
 			;2	- owner_dacian
 			;3	- owner_german
@@ -5251,26 +3982,39 @@ script
 			;22	- owner_roman
 			;23	- owner_egyptian
 
+			declare_counter still_type
 			declare_counter still_culture
 
 			if HasResource owner_greek
 				if not I_CompareCounter is_culture = 9
+					set_counter still_type 1
 					set_counter still_culture 1
 					remove_hidden_resource local owner_greek
+					if I_CompareCounter is_culture = 14
+						set_counter still_culture 2
+					end_if
 				end_if
 			end_if
 
 			if I_CompareCounter still_culture = 0
 				if HasResource owner_gallic
 					if not I_CompareCounter is_culture = 7
+						if not I_CompareCounter is_type = 1
+							set_counter still_type 1
+						end_if
 						set_counter still_culture 1
 						remove_hidden_resource local owner_gallic
+						if I_CompareCounter is_culture = 1
+						|| I_CompareCounter is_culture = 4
+							set_counter still_culture 2
+						end_if
 					end_if
 				end_if
 
 			if I_CompareCounter still_culture = 0
 				if HasResource owner_egyptian
 					if not I_CompareCounter is_culture = 23
+						set_counter still_type 1
 						set_counter still_culture 1
 						remove_hidden_resource local owner_egyptian
 					end_if
@@ -5279,6 +4023,7 @@ script
 			if I_CompareCounter still_culture = 0
 				if HasResource owner_roman
 					if not I_CompareCounter is_culture = 22
+						set_counter still_type 1
 						set_counter still_culture 1
 						remove_hidden_resource local owner_roman
 					end_if
@@ -5287,6 +4032,9 @@ script
 			if I_CompareCounter still_culture = 0
 				if HasResource owner_carthage
 					if not I_CompareCounter is_culture = 11
+						if not I_CompareCounter is_type = 3
+							set_counter still_type 1
+						end_if
 						set_counter still_culture 1
 						remove_hidden_resource local owner_carthage
 					end_if
@@ -5295,6 +4043,9 @@ script
 			if I_CompareCounter still_culture = 0
 				if HasResource owner_german
 					if not I_CompareCounter is_culture = 3
+						if not I_CompareCounter is_type = 1
+							set_counter still_type 1
+						end_if
 						set_counter still_culture 1
 						remove_hidden_resource local owner_german
 					end_if
@@ -5303,6 +4054,9 @@ script
 			if I_CompareCounter still_culture = 0
 				if HasResource owner_scythian
 					if not I_CompareCounter is_culture = 6
+						if not I_CompareCounter is_type = 1
+							set_counter still_type 1
+						end_if
 						set_counter still_culture 1
 						remove_hidden_resource local owner_scythian
 					end_if
@@ -5311,14 +4065,24 @@ script
 			if I_CompareCounter still_culture = 0
 				if HasResource owner_dacian
 					if not I_CompareCounter is_culture = 2
+						if not I_CompareCounter is_type = 1
+							set_counter still_type 1
+						end_if
 						set_counter still_culture 1
 						remove_hidden_resource local owner_dacian
+						if I_CompareCounter is_culture = 18
+						|| I_CompareCounter is_culture = 19
+							set_counter still_culture 2
+						end_if
 					end_if
 				end_if
 
 			if I_CompareCounter still_culture = 0
 				if HasResource owner_berber
 					if not I_CompareCounter is_culture = 12
+						if not I_CompareCounter is_type = 3
+							set_counter still_type 1
+						end_if
 						set_counter still_culture 1
 						remove_hidden_resource local owner_berber
 					end_if
@@ -5327,6 +4091,9 @@ script
 			if I_CompareCounter still_culture = 0
 				if HasResource owner_arab
 					if not I_CompareCounter is_culture = 13
+						if not I_CompareCounter is_type = 3
+							set_counter still_type 1
+						end_if
 						set_counter still_culture 1
 						remove_hidden_resource local owner_arab
 					end_if
@@ -5335,6 +4102,9 @@ script
 			if I_CompareCounter still_culture = 0
 				if HasResource owner_iberian
 					if not I_CompareCounter is_culture = 5
+						if not I_CompareCounter is_type = 1
+							set_counter still_type 1
+						end_if
 						set_counter still_culture 1
 						remove_hidden_resource local owner_iberian
 					end_if
@@ -5343,54 +4113,97 @@ script
 			if I_CompareCounter still_culture = 0
 				if HasResource owner_celtiberian
 					if not I_CompareCounter is_culture = 4
+						if not I_CompareCounter is_type = 1
+							set_counter still_type 1
+						end_if
 						set_counter still_culture 1
 						remove_hidden_resource local owner_celtiberian
+						if I_CompareCounter is_culture = 1
+						|| I_CompareCounter is_culture = 7
+							set_counter still_culture 2
+						end_if
 					end_if
 				end_if
 
 			if I_CompareCounter still_culture = 0
 				if HasResource owner_briton
 					if not I_CompareCounter is_culture = 1
+						if not I_CompareCounter is_type = 1
+							set_counter still_type 1
+						end_if
 						set_counter still_culture 1
 						remove_hidden_resource local owner_briton
+						if I_CompareCounter is_culture = 4
+						|| I_CompareCounter is_culture = 7
+							set_counter still_culture 2
+						end_if
 					end_if
 				end_if
 
 			if I_CompareCounter still_culture = 0
 				if HasResource owner_illyrian
 					if not I_CompareCounter is_culture = 18
+						if not I_CompareCounter is_type = 5
+							set_counter still_type 1
+						end_if
 						set_counter still_culture 1
 						remove_hidden_resource local owner_illyrian
+						if I_CompareCounter is_culture = 2
+						|| I_CompareCounter is_culture = 19
+							set_counter still_culture 2
+						end_if
 					end_if
 				end_if
 
 			if I_CompareCounter still_culture = 0
 				if HasResource owner_thracian
 					if not I_CompareCounter is_culture = 19
+						if not I_CompareCounter is_type = 5
+							set_counter still_type 1
+						end_if
 						set_counter still_culture 1
 						remove_hidden_resource local owner_thracian
+						if I_CompareCounter is_culture = 2
+						|| I_CompareCounter is_culture = 18
+							set_counter still_culture 2
+						end_if
 					end_if
 				end_if
 
 			if I_CompareCounter still_culture = 0
 				if HasResource owner_armenian
 					if not I_CompareCounter is_culture = 17
+						if not I_CompareCounter is_type = 4
+							set_counter still_type 1
+						end_if
 						set_counter still_culture 1
 						remove_hidden_resource local owner_armenian
+						if I_CompareCounter is_culture = 15
+							set_counter still_culture 2
+						end_if
 					end_if
 				end_if
 
 			if I_CompareCounter still_culture = 0
 				if HasResource owner_pontic
 					if not I_CompareCounter is_culture = 14
+						if not I_CompareCounter is_type = 4
+							set_counter still_type 1
+						end_if
 						set_counter still_culture 1
 						remove_hidden_resource local owner_pontic
+						if I_CompareCounter is_culture = 9
+							set_counter still_culture 2
+						end_if
 					end_if
 				end_if
 
 			if I_CompareCounter still_culture = 0
 				if HasResource owner_oscan
 					if not I_CompareCounter is_culture = 10
+						if not I_CompareCounter is_type = 3
+							set_counter still_type 1
+						end_if
 						set_counter still_culture 1
 						remove_hidden_resource local owner_oscan
 					end_if
@@ -5399,6 +4212,9 @@ script
 			if I_CompareCounter still_culture = 0
 				if HasResource owner_etruscan
 					if not I_CompareCounter is_culture = 21
+						if not I_CompareCounter is_type = 6
+							set_counter still_type 1
+						end_if
 						set_counter still_culture 1
 						remove_hidden_resource local owner_etruscan
 					end_if
@@ -5407,6 +4223,9 @@ script
 			if I_CompareCounter still_culture = 0
 				if HasResource owner_samnite
 					if not I_CompareCounter is_culture = 20
+						if not I_CompareCounter is_type = 6
+							set_counter still_type 1
+						end_if
 						set_counter still_culture 1
 						remove_hidden_resource local owner_samnite
 					end_if
@@ -5415,6 +4234,9 @@ script
 			if I_CompareCounter still_culture = 0
 				if HasResource owner_judaean
 					if not I_CompareCounter is_culture = 16
+						if not I_CompareCounter is_type = 4
+							set_counter still_type 1
+						end_if
 						set_counter still_culture 1
 						remove_hidden_resource local owner_judaean
 					end_if
@@ -5423,13 +4245,22 @@ script
 			if I_CompareCounter still_culture = 0
 				if HasResource owner_parthian
 					if not I_CompareCounter is_culture = 15
+						if not I_CompareCounter is_type = 4
+							set_counter still_type 1
+						end_if
 						set_counter still_culture 1
 						remove_hidden_resource local owner_parthian
+						if I_CompareCounter is_culture = 17
+							set_counter still_culture 2
+						end_if
 					end_if
 				end_if
 
 				if HasResource owner_nuragic
 					if not I_CompareCounter is_culture = 8
+						if not I_CompareCounter is_type = 1
+							set_counter still_type 1
+						end_if
 						set_counter still_culture 1
 						remove_hidden_resource local owner_nuragic
 					end_if
@@ -5454,6 +4285,13 @@ script
 			end_if
 			end_if
 			end_if
+			end_if
+
+			; When settlement has switched culture, update the general resource - used for converting buildings
+			if I_CompareCounter still_type > 0
+				if not HasResource general
+					add_hidden_resource local general
+				end_if
 			end_if
 
 			; When settlement has switched faction, update the owner resource
@@ -5576,6 +4414,37 @@ script
 							end_if
 						end_if
 					end_if
+				end_if
+
+				; Remove conversions when new owner is a different religion
+
+				if I_CompareCounter still_culture = 1
+					remove_hidden_resource local converted
+					remove_hidden_resource local convert1
+					remove_hidden_resource local convert2
+					remove_hidden_resource local convert3
+					remove_hidden_resource local convert4
+					remove_hidden_resource local convert5
+					remove_hidden_resource local cv1
+					remove_hidden_resource local cv2
+					remove_hidden_resource local cv3
+					remove_hidden_resource local cv4
+					remove_hidden_resource local cv5
+					remove_hidden_resource local cv6
+					remove_hidden_resource local cv7
+					remove_hidden_resource local cv8
+					remove_hidden_resource local cv9
+					remove_hidden_resource local cv10
+					remove_hidden_resource local cv11
+					remove_hidden_resource local cv12
+					remove_hidden_resource local cv13
+					remove_hidden_resource local cv14
+					remove_hidden_resource local cv15
+					remove_hidden_resource local cv16
+					remove_hidden_resource local cv17
+					remove_hidden_resource local cv18
+					remove_hidden_resource local cv19
+					remove_hidden_resource local cv20
 				end_if
 			end_if
 
@@ -6307,6 +5176,896 @@ script
 			add_hidden_resource local poverty
 		end_if
 
+		if HasResource bonus
+			remove_hidden_resource local bonus
+
+			if not HasResource poverty
+
+				; Mercenary
+				declare_counter merc_assist
+
+				; Infantry troops
+
+				if HasResource infantry
+					if FactionCultureType barbarian
+						if HasResource owner_gallic
+							inc_counter merc_assist 1
+							console_command add_money local -400
+							console_command create_unit local_settlement "barb warguard gaul" 1
+						end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource owner_german
+								inc_counter merc_assist 1
+								console_command add_money local -400
+								console_command create_unit local_settlement "warband dhaxe german" 1
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource owner_dacian
+								inc_counter merc_assist 1
+								console_command add_money local -400
+
+								if not FactionType dacian_faction_01
+									console_command create_unit local_settlement "barb warguard dacian" 1
+								end_if
+
+								if FactionType dacian_faction_01
+									console_command create_unit local_settlement "greek bastarnae" 1
+								end_if
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource owner_iberian
+								inc_counter merc_assist 1
+								console_command add_money local -400
+								console_command create_unit local_settlement "spanish scutarii" 1
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource owner_briton
+								inc_counter merc_assist 1
+								console_command add_money local -400
+								console_command create_unit local_settlement "barb warguard briton" 1
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource owner_celtiberian
+								inc_counter merc_assist 1
+								console_command add_money local -400
+								console_command create_unit local_settlement "spanish bull warriors" 1
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if FactionType rebel_nuragic
+								inc_counter merc_assist 1
+								console_command add_money local -400
+								console_command create_unit local_settlement "nuragic bull warriors" 1
+							end_if
+
+							if FactionType rebel_slave
+								inc_counter merc_assist 1
+								console_command add_money local -400
+								console_command create_unit local_settlement "roman samnite gladiator" 1
+							end_if
+						end_if
+						end_if
+						end_if
+						end_if
+						end_if
+						end_if
+					end_if
+
+					if not FactionCultureType barbarian
+						if FactionCultureType egyptian
+							if FactionType egypt
+								inc_counter merc_assist 1
+								console_command add_money local -400
+								console_command create_unit local_settlement "egyptian elite guards" 1
+							end_if
+
+							if FactionType rebel_egypt
+								inc_counter merc_assist 1
+								console_command add_money local -400
+								console_command create_unit local_settlement "nile elite guards" 1
+							end_if
+						end_if
+
+						if I_CompareCounter merc_assist = 0
+							if FactionCultureType greek
+								if FactionType seleucid
+									inc_counter merc_assist 1
+									console_command add_money local -400
+									console_command create_unit local_settlement "greek silver shield pikemen" 1
+								end_if
+
+								if I_CompareCounter merc_assist = 0
+									if FactionType macedon
+									|| FactionType hellenic_faction_13
+										inc_counter merc_assist 1
+										console_command add_money local -400
+										console_command create_unit local_settlement "greek royal pikemen" 1
+									end_if
+
+									if I_CompareCounter merc_assist = 0
+										if not FactionType hellenic_faction_03
+											inc_counter merc_assist 1
+											console_command add_money local -400
+											console_command create_unit local_settlement "greek hoplite elite" 1
+										end_if
+
+										if FactionType hellenic_faction_03
+											inc_counter merc_assist 1
+											console_command add_money local -400
+											console_command create_unit local_settlement "barb warguard gaul" 1
+										end_if
+									end_if
+								end_if
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if FactionCultureType roman
+								inc_counter merc_assist 1
+								console_command add_money local -400
+
+								if not MajorEventActive "marian_reforms"
+									console_command create_unit local_settlement "roman princeps" 1
+								end_if
+
+								if MajorEventActive "marian_reforms"
+									console_command create_unit local_settlement "roman legionary cohort i" 1
+								end_if
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource owner_carthage
+								inc_counter merc_assist 1
+								console_command add_money local -400
+
+								if not MajorEventActive "marian_reforms"
+									console_command create_unit local_settlement "carthaginian medium infantry" 1
+								end_if
+
+								if MajorEventActive "marian_reforms"
+									console_command create_unit local_settlement "carthaginian heavy infantry" 1
+								end_if
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if FactionCultureType tracian_illyrian
+								inc_counter merc_assist 1
+								console_command add_money local -400
+
+								if HasResource owner_illyrian
+									console_command create_unit local_settlement "illyrian ravager" 1
+								end_if
+
+								if HasResource owner_thracian
+									console_command create_unit local_settlement "greek bastarnae" 1
+								end_if
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if FactionCultureType italic
+								inc_counter merc_assist 1
+								console_command add_money local -400
+
+								if not FactionType latin_faction_05
+									console_command create_unit local_settlement "greek hoplite elite" 1
+								end_if
+
+								if FactionType latin_faction_05
+									console_command create_unit local_settlement "barb warguard gaul" 1
+								end_if
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource owner_pontic
+								inc_counter merc_assist 1
+								console_command add_money local -400
+
+								if not MajorEventActive "marian_reforms"
+									console_command create_unit local_settlement "east hoplite" 1
+								end_if
+
+								if MajorEventActive "marian_reforms"
+									console_command create_unit local_settlement "east hoplite brazen shield" 1
+								end_if
+							end_if
+
+							if HasResource owner_judaean
+								inc_counter merc_assist 1
+								console_command add_money local -400
+								console_command create_unit local_settlement "rebel judaean zealots" 1
+							end_if
+						end_if
+						end_if
+						end_if
+						end_if
+						end_if
+						end_if
+					end_if
+				end_if
+
+				if I_CompareCounter merc_assist = 0
+
+					; Cavalry troops
+
+					if HasResource cavalry
+						if HasResource owner_scythian
+							inc_counter merc_assist 1
+							console_command add_money local -400
+							console_command create_unit local_settlement "barb noble horse archers scythian" 1
+						end_if
+
+						if not FactionCultureType barbarian
+							if HasResource owner_berber
+								if FactionType numidia
+								|| FactionType desert_faction_01
+								|| FactionType desert_faction_02
+									inc_counter merc_assist 1
+									console_command add_money local -400
+									console_command create_unit local_settlement "numidian camel riders" 1
+								end_if
+
+								if I_CompareCounter merc_assist = 0
+									if FactionType desert_faction_04
+									|| FactionType desert_faction_05
+									|| FactionType rebel_desert
+										inc_counter merc_assist 1
+										console_command add_money local -400
+										console_command create_unit local_settlement "numidian medium cavalry" 1
+									end_if
+								end_if
+							end_if
+
+							if I_CompareCounter merc_assist = 0
+								if HasResource owner_arab
+									inc_counter merc_assist 1
+									console_command add_money local -400
+									console_command create_unit local_settlement "bedouin archers" 1
+								end_if
+
+							if I_CompareCounter merc_assist = 0
+								if FactionType armenia
+								|| FactionType caucasian_faction_01
+								|| FactionType caucasian_faction_02
+									inc_counter merc_assist 1
+									console_command add_money local -400
+									console_command create_unit local_settlement "armenian cavalry" 1
+								end_if
+
+							if I_CompareCounter merc_assist = 0
+								if HasResource owner_parthian
+								|| FactionType caucasian_faction_03
+									inc_counter merc_assist 1
+									console_command add_money local -400
+									console_command create_unit local_settlement "parthian median cavalry" 1
+								end_if
+
+								if FactionType caucasian_faction_04
+									inc_counter merc_assist 1
+									console_command add_money local -400
+									console_command create_unit local_settlement "east heavy cavalry" 1
+								end_if
+							end_if
+							end_if
+							end_if
+						end_if
+					end_if
+				end_if
+
+				; Elite Tier
+
+				if I_CompareCounter merc_assist = 0
+				and HasResource mercenary
+					if RandomPercent > 97
+						if HasResource elephants
+							if HasResource syria
+							and Treasury > 4000
+							and RandomPercent > 50
+								inc_counter merc_assist 1
+								console_command add_money local -4000
+								console_command create_unit local_settlement "merc armoured syrian elephant" 1
+							end_if
+
+							if I_CompareCounter merc_assist = 0
+								if Treasury > 3000
+									inc_counter merc_assist 1
+									console_command add_money local -3000
+									console_command create_unit local_settlement "merc elephants" 1
+								end_if
+							end_if
+						end_if
+
+						if I_CompareCounter merc_assist = 0
+							if Treasury > 2000
+								if HasResource thrace
+								and HasResource b_paganism
+									inc_counter merc_assist 1
+									console_command add_money local -2000
+									console_command create_unit local_settlement "merc wolf warrior" 1
+								end_if
+
+								if I_CompareCounter merc_assist = 0
+									if HasResource owner_gallic
+									and HasResource c_paganism
+									and RandomPercent > 50
+										inc_counter merc_assist 1
+										console_command add_money local -1000
+										console_command create_unit local_settlement "merc kerns" 1
+									end_if
+
+								if I_CompareCounter merc_assist = 0
+									if HasResource engine
+										inc_counter merc_assist 1
+										console_command add_money local -1000
+										console_command create_unit local_settlement "merc onagers" 1
+									end_if
+								end_if
+								end_if
+							end_if
+						end_if
+					end_if
+
+					; High Tier
+
+					if I_CompareCounter merc_assist = 0
+					and RandomPercent > 91
+						if HasResource hellenic
+						|| HasResource egyptian
+							if RandomPercent > 66
+								inc_counter merc_assist 1
+								console_command add_money local -700
+								console_command create_unit local_settlement "merc greek pikemen" 1
+							end_if
+
+							if I_CompareCounter merc_assist = 0
+								if RandomPercent > 66
+									inc_counter merc_assist 1
+									console_command add_money local -700
+									console_command create_unit local_settlement "merc cretan archers" 1
+								end_if
+
+								if I_CompareCounter merc_assist = 0
+									inc_counter merc_assist 1
+									console_command add_money local -700
+									console_command create_unit local_settlement "merc rhodian slingers" 1
+								end_if
+							end_if
+						end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource c_paganism
+								if RandomPercent > 50
+									inc_counter merc_assist 1
+									console_command add_money local -700
+									console_command create_unit local_settlement "merc warband sword" 1
+								end_if
+
+								if I_CompareCounter merc_assist = 0
+									inc_counter merc_assist 1
+									console_command add_money local -700
+									console_command create_unit local_settlement "merc barb naked fanatics" 1
+								end_if
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource b_paganism
+								if HasResource thrace
+									if RandomPercent > 66
+										inc_counter merc_assist 1
+										console_command add_money local -700
+										console_command create_unit local_settlement "merc bastarnae" 1
+									end_if
+
+									if I_CompareCounter merc_assist = 0
+									and RandomPercent > 66
+										inc_counter merc_assist 1
+										console_command add_money local -700
+										console_command create_unit local_settlement "merc warband falx" 1
+									end_if
+								end_if
+
+								if I_CompareCounter merc_assist = 0
+									if HasResource navy
+										inc_counter merc_assist 1
+										console_command add_money local -700
+										console_command create_unit local_settlement "merc cilician pirate" 1
+									end_if
+								end_if
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource g_paganism
+								inc_counter merc_assist 1
+								console_command add_money local -700
+								console_command create_unit local_settlement "merc warband spear" 1
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource berber
+								inc_counter merc_assist 1
+								console_command add_money local -700
+								console_command create_unit local_settlement "merc numidian cavalry" 1
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource s_paganism
+								if RandomPercent > 50
+									inc_counter merc_assist 1
+									console_command add_money local -700
+									console_command create_unit local_settlement "merc sarmatian cavalry" 1
+								end_if
+
+								if I_CompareCounter merc_assist = 0
+									inc_counter merc_assist 1
+									console_command add_money local -700
+									console_command create_unit local_settlement "merc barb scythian hoplite" 1
+								end_if
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource i_paganism
+								if RandomPercent > 50
+									inc_counter merc_assist 1
+									console_command add_money local -700
+									console_command create_unit local_settlement "merc warband sword" 1
+								end_if
+
+								if I_CompareCounter merc_assist = 0
+									inc_counter merc_assist 1
+									console_command add_money local -700
+									console_command create_unit local_settlement "merc balearic slingers" 1
+								end_if
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource punic
+								if HasResource greece
+									if RandomPercent > 75
+										inc_counter merc_assist 1
+										console_command add_money local -700
+										console_command create_unit local_settlement "merc greek pikemen" 1
+									end_if
+
+									if I_CompareCounter merc_assist = 0
+									and RandomPercent > 75
+										inc_counter merc_assist 1
+										console_command add_money local -700
+										console_command create_unit local_settlement "merc rhodian slingers" 1
+									end_if
+								end_if
+
+								if not HasResource greece
+									if RandomPercent > 75
+										inc_counter merc_assist 1
+										console_command add_money local -700
+										console_command create_unit local_settlement "merc numidian cavalry" 1
+									end_if
+
+									if I_CompareCounter merc_assist = 0
+									and RandomPercent > 75
+										inc_counter merc_assist 1
+										console_command add_money local -700
+										console_command create_unit local_settlement "merc balearic slingers" 1
+									end_if
+								end_if
+
+								if I_CompareCounter merc_assist = 0
+									if RandomPercent > 75
+										inc_counter merc_assist 1
+										console_command add_money local -700
+										console_command create_unit local_settlement "merc cretan archers" 1
+									end_if
+
+									if I_CompareCounter merc_assist = 0
+										inc_counter merc_assist 1
+										console_command add_money local -700
+										console_command create_unit local_settlement "merc warband sword" 1
+									end_if
+								end_if
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource nuragic
+								if RandomPercent > 66
+									inc_counter merc_assist 1
+									console_command add_money local -700
+									console_command create_unit local_settlement "merc guerilla fighters" 1
+								end_if
+
+								if I_CompareCounter merc_assist = 0
+								and RandomPercent > 66
+									inc_counter merc_assist 1
+									console_command add_money local -700
+									console_command create_unit local_settlement "merc warband sword" 1
+								end_if
+
+								if I_CompareCounter merc_assist = 0
+									inc_counter merc_assist 1
+									console_command add_money local -700
+									console_command create_unit local_settlement "merc balearic slingers" 1
+								end_if
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource syria
+								inc_counter merc_assist 1
+								console_command add_money local -700
+								console_command create_unit local_settlement "merc syrian archer" 1
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource britain
+								inc_counter merc_assist 1
+								console_command add_money local -700
+								console_command create_unit local_settlement "merc barb naked fanatics" 1
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource thessaly
+								inc_counter merc_assist 1
+								console_command add_money local -700
+								console_command create_unit local_settlement "merc thessalian cavalry" 1
+							end_if
+						end_if
+						end_if
+						end_if
+						end_if
+						end_if
+						end_if
+						end_if
+						end_if
+						end_if
+						end_if
+						end_if
+					end_if
+
+					; Mid Tier
+
+					if I_CompareCounter merc_assist = 0
+					and RandomPercent > 85
+						if HasResource c_paganism
+						|| HasResource g_paganism
+							inc_counter merc_assist 1
+							console_command add_money local -500
+							console_command create_unit local_settlement "merc barbarian cavalry" 1
+						end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource zoroastrian
+								if HasResource camels
+									if RandomPercent > 66
+										inc_counter merc_assist 1
+										console_command add_money local -500
+										console_command create_unit local_settlement "merc parthian camel riders"
+									end_if
+								end_if
+
+								if I_CompareCounter merc_assist = 0
+									if RandomPercent > 66
+										inc_counter merc_assist 1
+										console_command add_money local -500
+										console_command create_unit local_settlement "merc median cavalry" 1
+									end_if
+
+									if I_CompareCounter merc_assist = 0
+										inc_counter merc_assist 1
+										console_command add_money local -500
+										console_command create_unit local_settlement "merc east horse archer" 1
+									end_if
+								end_if
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource thrace
+								if RandomPercent > 50
+									inc_counter merc_assist 1
+									console_command add_money local -500
+									console_command create_unit local_settlement "merc sarissa cavalry" 1
+								end_if
+
+								if I_CompareCounter merc_assist = 0
+									inc_counter merc_assist 1
+									console_command add_money local -500
+									console_command create_unit local_settlement "merc thracian militia cavalry" 1
+								end_if
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource arab
+							|| HasResource egyptian
+								if HasResource camels
+									if RandomPercent > 66
+										inc_counter merc_assist 1
+										console_command add_money local -500
+										console_command create_unit local_settlement "merc bedouin" 1
+									end_if
+
+									if I_CompareCounter merc_assist = 0
+									and RandomPercent > 66
+										inc_counter merc_assist 1
+										console_command add_money local -500
+										console_command create_unit local_settlement "merc bedouin archers" 1
+									end_if
+								end_if
+
+								if I_CompareCounter merc_assist = 0
+									inc_counter merc_assist 1
+									console_command add_money local -500
+									console_command create_unit local_settlement "merc arab cavalry" 1
+								end_if
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource berber
+							and HasResource camels
+								if RandomPercent > 50
+									inc_counter merc_assist 1
+									console_command add_money local -500
+									console_command create_unit local_settlement "merc bedouin" 1
+								end_if
+
+								if I_CompareCounter merc_assist = 0
+									inc_counter merc_assist 1
+									console_command add_money local -500
+									console_command create_unit local_settlement "merc bedouin archers" 1
+								end_if
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource samnite
+							|| HasResource etruscan
+							|| HasResource roman
+								inc_counter merc_assist 1
+								console_command add_money local -500
+								console_command create_unit local_settlement "merc italian cavalry" 1
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource s_paganism
+								inc_counter merc_assist 1
+								console_command add_money local -500
+								console_command create_unit local_settlement "merc horse archers" 1
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource i_paganism
+								if RandomPercent > 50
+									inc_counter merc_assist 1
+									console_command add_money local -500
+									console_command create_unit local_settlement "merc carthaginian medium cavalry"
+								end_if
+
+								if I_CompareCounter merc_assist = 0
+									inc_counter merc_assist 1
+									console_command add_money local -500
+									console_command create_unit local_settlement "merc barbarian cavalry" 1
+								end_if
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource judaism
+								inc_counter merc_assist 1
+								console_command add_money local -500
+								console_command create_unit local_settlement "merc arab cavalry" 1
+							end_if
+						end_if
+						end_if
+						end_if
+						end_if
+						end_if
+						end_if
+						end_if
+						end_if
+					end_if
+
+					; Low Tier
+
+					if I_CompareCounter merc_assist = 0
+					and RandomPercent > 79
+						if HasResource hellenic
+						|| HasResource egyptian
+							inc_counter merc_assist 1
+							console_command add_money local -400
+							console_command create_unit local_settlement "merc greek hoplites" 1
+						end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource c_paganism
+							|| HasResource g_paganism
+								inc_counter merc_assist 1
+								console_command add_money local -400
+								console_command create_unit local_settlement "merc barbarian infantry" 1
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource mesopotamian
+							|| HasResource arab
+							|| HasResource zoroastrian
+							|| HasResource oscan
+							|| HasResource judaism
+								inc_counter merc_assist 1
+								console_command add_money local -400
+								console_command create_unit local_settlement "merc east heavy infantry" 1
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource roman
+							|| HasResource samnite
+							|| HasResource etruscan
+								inc_counter merc_assist 1
+								console_command add_money local -400
+								console_command create_unit local_settlement "merc samnite" 1
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource thrace
+								inc_counter merc_assist 1
+								console_command add_money local -400
+								console_command create_unit local_settlement "merc thracian" 1
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource illyria
+								inc_counter merc_assist 1
+								console_command add_money local -400
+								console_command create_unit local_settlement "merc illyrian" 1
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource i_paganism
+								inc_counter merc_assist 1
+								console_command add_money local -400
+								console_command create_unit local_settlement "merc spanish infantry" 1
+							end_if
+						end_if
+						end_if
+						end_if
+						end_if
+						end_if
+						end_if
+					end_if
+
+					; Cheap Tier
+
+					if I_CompareCounter merc_assist = 0
+					and RandomPercent > 73
+						if HasResource hellenic
+							inc_counter merc_assist 1
+							console_command add_money local -300
+							console_command create_unit local_settlement "merc peltast" 1
+						end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource c_paganism
+							|| HasResource g_paganism
+								inc_counter merc_assist 1
+								console_command add_money local -300
+								console_command create_unit local_settlement "merc tribal slingers" 1
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource mesopotamian
+							|| HasResource zoroastrian
+							|| HasResource oscan
+								if RandomPercent > 50
+									inc_counter merc_assist 1
+									console_command add_money local -300
+									console_command create_unit local_settlement "merc east archer" 1
+								end_if
+
+								if I_CompareCounter merc_assist = 0
+									inc_counter merc_assist 1
+									console_command add_money local -300
+									console_command create_unit local_settlement "merc eastern infantry" 1
+								end_if
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource berber
+							|| HasResource punic
+								inc_counter merc_assist 1
+								console_command add_money local -300
+								console_command create_unit local_settlement "merc libyan infantry" 1
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource arab
+								if RandomPercent > 50
+									inc_counter merc_assist 1
+									console_command add_money local -300
+									console_command create_unit local_settlement "merc egyptian infantry" 1
+								end_if
+
+								if I_CompareCounter merc_assist = 0
+									inc_counter merc_assist 1
+									console_command add_money local -300
+									console_command create_unit local_settlement "merc eastern infantry" 1
+								end_if
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource egyptian
+								inc_counter merc_assist 1
+								console_command add_money local -300
+								console_command create_unit local_settlement "merc egyptian infantry" 1
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource s_paganism
+								inc_counter merc_assist 1
+								console_command add_money local -300
+								console_command create_unit local_settlement "merc barb archer" 1
+							end_if
+
+						if I_CompareCounter merc_assist = 0
+							if HasResource judaism
+								if RandomPercent > 50
+									inc_counter merc_assist 1
+									console_command add_money local -300
+									console_command create_unit local_settlement "merc peltast" 1
+								end_if
+
+								if I_CompareCounter merc_assist = 0
+									inc_counter merc_assist 1
+									console_command add_money local -300
+									console_command create_unit local_settlement "merc eastern infantry" 1
+								end_if
+							end_if
+						end_if
+						end_if
+						end_if
+						end_if
+						end_if
+						end_if
+						end_if
+					end_if
+				end_if
+
+				; Handicap
+
+				if I_CompareCounter merc_assist = 0
+					if HasResource infantry
+					and RandomPercent > 60
+						if HasResource owner_roman
+							inc_counter merc_assist 1
+							console_command add_money local -400
+
+							if not MajorEventActive "marian_reforms"
+								console_command create_unit local_settlement "roman princeps" 1
+							end_if
+
+							if MajorEventActive "marian_reforms"
+								console_command create_unit local_settlement "roman legionary cohort i" 1
+							end_if
+						end_if
+
+						if HasResource owner_carthage
+							inc_counter merc_assist 1
+							console_command add_money local -400
+
+							if not MajorEventActive "marian_reforms"
+								console_command create_unit local_settlement "carthaginian medium infantry" 1
+							end_if
+
+							if MajorEventActive "marian_reforms"
+								console_command create_unit local_settlement "carthaginian heavy infantry" 1
+							end_if
+						end_if
+					end_if
+				end_if
+
+				; Remove mercenary resource when mercenaries were hired
+
+				if I_CompareCounter merc_assist > 0
+				and HasResource mercenary
+					remove_hidden_resource local mercenary
+				end_if
+			end_if
+		end_if
+
 		if not HasResource mercenary
 			if FactionIsLocal
 			and RandomPercent > 75
@@ -6463,955 +6222,317 @@ script
 ;
 
 	monitor_event UnitTrained
+		if UnitType merc barbarian infantry
+		|| UnitType merc greek hoplites
+		|| UnitType merc eastern infantry
+		|| UnitType merc spanish infantry
+		|| UnitType merc thracian
+		|| UnitType merc samnite
+		|| UnitType merc warband falx
+		|| UnitType merc warband sword
+		|| UnitType merc warband spear
+		|| UnitType merc peltast
+		|| UnitType merc libyan infantry
+		|| UnitType merc barbarian cavalry
+		|| UnitType merc arab cavalry
+		|| UnitType merc numidian cavalry
+		|| UnitType merc horse archers
+		|| UnitType merc east horse archer
+		|| UnitType merc bastarnae
+		|| UnitType merc greek pikemen
+		|| UnitType merc egyptian infantry
+		|| UnitType merc barb naked fanatics
+		|| UnitType merc tribal slingers
+		|| UnitType merc barb archer
+		|| UnitType merc east archer
+		|| UnitType merc illyrian
+		|| UnitType merc east heavy infantry
+		|| UnitType merc balearic slingers
+		|| UnitType merc cretan archers
+		|| UnitType merc rhodian slingers
+		|| UnitType merc syrian archer
+		|| UnitType merc bedouin archers
+		|| UnitType merc bedouin
+		|| UnitType merc elephants
+		|| UnitType merc onagers
+		|| UnitType merc sarmatian cavalry
+		|| UnitType merc thracian militia cavalry
+		|| UnitType merc median cavalry
+		|| UnitType merc carthaginian medium cavalry
+		|| UnitType merc italian cavalry
+		|| UnitType merc cilician pirate
+		|| UnitType merc parthian camel riders
+		|| UnitType merc guerilla fighters
+		|| UnitType merc barb scythian hoplite
+		|| UnitType merc kerns
+		|| UnitType merc wolf warrior
+		|| UnitType merc sarissa cavalry
+		|| UnitType merc armoured syrian elephant
+		|| UnitType merc thessalian cavalry
+			remove_hidden_resource local mercenary
+		end_if
 
 		; Only handle bonus troops when not besieged
 
 		if SettlementOrderLevel besieged = 0
 
-			; Ship
-			if not TrainedUnitCategory ship
+			if not FactionIsLocal
+			and not FactionType slave
 
-				if UnitType merc barbarian infantry
-				|| UnitType merc greek hoplites
-				|| UnitType merc eastern infantry
-				|| UnitType merc spanish infantry
-				|| UnitType merc thracian
-				|| UnitType merc samnite
-				|| UnitType merc warband falx
-				|| UnitType merc warband sword
-				|| UnitType merc warband spear
-				|| UnitType merc peltast
-				|| UnitType merc libyan infantry
-				|| UnitType merc barbarian cavalry
-				|| UnitType merc arab cavalry
-				|| UnitType merc numidian cavalry
-				|| UnitType merc horse archers
-				|| UnitType merc east horse archer
-				|| UnitType merc bastarnae
-				|| UnitType merc greek pikemen
-				|| UnitType merc egyptian infantry
-				|| UnitType merc barb naked fanatics
-				|| UnitType merc tribal slingers
-				|| UnitType merc barb archer
-				|| UnitType merc east archer
-				|| UnitType merc illyrian
-				|| UnitType merc balearic slingers
-				|| UnitType merc cretan archers
-				|| UnitType merc rhodian slingers
-				|| UnitType merc syrian archer
-				|| UnitType merc bedouin archers
-				|| UnitType merc bedouin
-				|| UnitType merc elephants
-				|| UnitType merc onagers
-				|| UnitType merc sarmatian cavalry
-				|| UnitType merc thracian militia cavalry
-				|| UnitType merc median cavalry
-				|| UnitType merc carthaginian medium cavalry
-				|| UnitType merc italian cavalry
-				|| UnitType merc cilician pirate
-				|| UnitType merc guerilla fighters
-				|| UnitType merc barb scythian hoplite
-				|| UnitType merc east heavy infantry
-				|| UnitType merc wolf warrior
-				|| UnitType merc sarissa cavalry
-				|| UnitType merc armoured syrian elephant
-				|| UnitType merc thessalian cavalry
-					remove_hidden_resource local mercenary
-				end_if
+				; Chance for bonus troops
 
-				if not FactionIsLocal
-				and not FactionType slave
-				and not HasResource poverty
+				declare_counter is_garrison
 
-					; Chance for bonus troops
-
-					if Treasury > 1000
-					and not LosingMoney
-
-						declare_counter is_garrison
-
-						for_each army in settlement
-							if ArmyIsGarrison
-								for_each unit in army
-									inc_counter is_garrison 1
-								end_for
-							end_if
+				for_each army in settlement
+					if ArmyIsGarrison
+						for_each unit in army
+							inc_counter is_garrison 1
 						end_for
-
-						if I_CompareCounter is_garrison <= 16
-
-							; Mercenary
-							declare_counter merc_assist
-
-							if GovernorInResidence
-							|| IsCapital
-								if RandomPercent > 60
-								|| SettlementBuildingExists = waystation
-
-									; Infantry troops
-
-									if HasResource infantry
-										if FactionCultureType barbarian
-											if HasResource owner_gallic
-												inc_counter merc_assist 1
-												console_command add_money local -400
-												console_command create_unit local_settlement "barb warguard gaul" 1
-											end_if
-
-											if I_CompareCounter merc_assist = 0
-												if HasResource owner_german
-													inc_counter merc_assist 1
-													console_command add_money local -400
-													console_command create_unit local_settlement "warband dhaxe german" 1
-												end_if
-
-											if I_CompareCounter merc_assist = 0
-												if HasResource owner_dacian
-													inc_counter merc_assist 1
-													console_command add_money local -400
-
-													if not FactionType dacian_faction_01
-														console_command create_unit local_settlement "barb warguard dacian" 1
-													end_if
-
-													if FactionType dacian_faction_01
-														console_command create_unit local_settlement "greek bastarnae" 1
-													end_if
-												end_if
-
-											if I_CompareCounter merc_assist = 0
-												if HasResource owner_iberian
-													inc_counter merc_assist 1
-													console_command add_money local -400
-													console_command create_unit local_settlement "spanish scutarii" 1
-												end_if
-
-											if I_CompareCounter merc_assist = 0
-												if HasResource owner_briton
-													inc_counter merc_assist 1
-													console_command add_money local -400
-													console_command create_unit local_settlement "barb warguard briton" 1
-												end_if
-
-											if I_CompareCounter merc_assist = 0
-												if HasResource owner_celtiberian
-													inc_counter merc_assist 1
-													console_command add_money local -400
-													console_command create_unit local_settlement "spanish bull warriors" 1
-												end_if
-
-												if FactionType rebel_slave
-													inc_counter merc_assist 1
-													console_command add_money local -400
-													console_command create_unit local_settlement "roman samnite gladiator" 1
-												end_if
-											end_if
-											end_if
-											end_if
-											end_if
-											end_if
-										end_if
-
-										if not FactionCultureType barbarian
-											if FactionCultureType egyptian
-												if FactionType egypt
-													inc_counter merc_assist 1
-													console_command add_money local -400
-													console_command create_unit local_settlement "egyptian elite guards" 1
-												end_if
-
-												if FactionType rebel_egypt
-													inc_counter merc_assist 1
-													console_command add_money local -400
-													console_command create_unit local_settlement "nile elite guards" 1
-												end_if
-											end_if
-
-											if I_CompareCounter merc_assist = 0
-												if FactionCultureType greek
-													if FactionType seleucid
-														inc_counter merc_assist 1
-														console_command add_money local -400
-														console_command create_unit local_settlement "greek silver shield pikemen" 1
-													end_if
-
-													if I_CompareCounter merc_assist = 0
-														if FactionType macedon
-														|| FactionType hellenic_faction_13
-															inc_counter merc_assist 1
-															console_command add_money local -400
-															console_command create_unit local_settlement "greek royal pikemen" 1
-														end_if
-
-														if I_CompareCounter merc_assist = 0
-															if not FactionType hellenic_faction_03
-																inc_counter merc_assist 1
-																console_command add_money local -400
-																console_command create_unit local_settlement "greek hoplite elite" 1
-															end_if
-
-															if FactionType hellenic_faction_03
-																inc_counter merc_assist 1
-																console_command add_money local -400
-																console_command create_unit local_settlement "barb warguard gaul" 1
-															end_if
-														end_if
-													end_if
-												end_if
-
-											if I_CompareCounter merc_assist = 0
-												if FactionCultureType roman
-													inc_counter merc_assist 1
-													console_command add_money local -400
-
-													if not MajorEventActive "marian_reforms"
-														console_command create_unit local_settlement "roman princeps" 1
-													end_if
-
-													if MajorEventActive "marian_reforms"
-														console_command create_unit local_settlement "roman legionary cohort i" 1
-													end_if
-												end_if
-
-											if I_CompareCounter merc_assist = 0
-												if HasResource owner_carthage
-													inc_counter merc_assist 1
-													console_command add_money local -400
-
-													if not MajorEventActive "marian_reforms"
-														console_command create_unit local_settlement "carthaginian medium infantry" 1
-													end_if
-
-													if MajorEventActive "marian_reforms"
-														console_command create_unit local_settlement "carthaginian heavy infantry" 1
-													end_if
-												end_if
-
-											if I_CompareCounter merc_assist = 0
-												if FactionCultureType tracian_illyrian
-													inc_counter merc_assist 1
-													console_command add_money local -400
-
-													if HasResource owner_illyrian
-														console_command create_unit local_settlement "illyrian ravager" 1
-													end_if
-
-													if HasResource owner_thracian
-														console_command create_unit local_settlement "greek bastarnae" 1
-													end_if
-												end_if
-
-											if I_CompareCounter merc_assist = 0
-												if FactionCultureType italic
-													inc_counter merc_assist 1
-													console_command add_money local -400
-
-													if not FactionType latin_faction_05
-														console_command create_unit local_settlement "greek hoplite elite" 1
-													end_if
-
-													if FactionType latin_faction_05
-														console_command create_unit local_settlement "barb warguard gaul" 1
-													end_if
-												end_if
-
-											if I_CompareCounter merc_assist = 0
-												if HasResource owner_pontic
-													inc_counter merc_assist 1
-													console_command add_money local -400
-
-													if not MajorEventActive "marian_reforms"
-														console_command create_unit local_settlement "east hoplite" 1
-													end_if
-
-													if MajorEventActive "marian_reforms"
-														console_command create_unit local_settlement "east hoplite brazen shield" 1
-													end_if
-												end_if
-
-												if HasResource owner_judaean
-													inc_counter merc_assist 1
-													console_command add_money local -400
-													console_command create_unit local_settlement "rebel judaean zealots" 1
-												end_if
-											end_if
-											end_if
-											end_if
-											end_if
-											end_if
-											end_if
-										end_if
-									end_if
-
-									if I_CompareCounter merc_assist = 0
-
-										; Cavalry troops
-
-										if HasResource cavalry
-											if FactionCultureType barbarian
-												if HasResource owner_scythian
-													inc_counter merc_assist 1
-													console_command add_money local -400
-													console_command create_unit local_settlement "barb noble horse archers scythian" 1
-												end_if
-
-												if FactionType rebel_nuragic
-													inc_counter merc_assist 1
-													console_command add_money local -400
-													console_command create_unit local_settlement "iberian medium cavalry" 1
-												end_if
-											end_if
-
-											if not FactionCultureType barbarian
-												if I_CompareCounter merc_assist = 0
-													if HasResource owner_berber
-														if FactionType numidia
-														|| FactionType desert_faction_01
-														|| FactionType desert_faction_02
-															inc_counter merc_assist 1
-															console_command add_money local -400
-															console_command create_unit local_settlement "numidian camel riders" 1
-														end_if
-
-												if I_CompareCounter merc_assist = 0
-													if FactionType desert_faction_04
-													|| FactionType desert_faction_05
-													|| FactionType rebel_desert
-														inc_counter merc_assist 1
-														console_command add_money local -400
-														console_command create_unit local_settlement "numidian medium cavalry" 1
-													end_if
-												end_if
-												end_if
-
-												if I_CompareCounter merc_assist = 0
-													if HasResource owner_arab
-														inc_counter merc_assist 1
-														console_command add_money local -400
-														console_command create_unit local_settlement "bedouin archers" 1
-													end_if
-
-												if I_CompareCounter merc_assist = 0
-													if FactionType armenia
-													|| FactionType caucasian_faction_01
-													|| FactionType caucasian_faction_02
-														inc_counter merc_assist 1
-														console_command add_money local -400
-														console_command create_unit local_settlement "armenian cavalry" 1
-													end_if
-
-												if I_CompareCounter merc_assist = 0
-													if HasResource owner_parthian
-													|| FactionType caucasian_faction_03
-														inc_counter merc_assist 1
-														console_command add_money local -400
-														console_command create_unit local_settlement "parthian median cavalry" 1
-													end_if
-
-													if FactionType caucasian_faction_04
-														inc_counter merc_assist 1
-														console_command add_money local -400
-														console_command create_unit local_settlement "east heavy cavalry" 1
-													end_if
-												end_if
-												end_if
-												end_if
-												end_if
-											end_if
-										end_if
-									end_if
-								end_if
-
-								; Elite Tier
-
-								if I_CompareCounter merc_assist = 0
-								and HasResource mercenary
-									if RandomPercent > 97
-										if HasResource elephants
-											if HasResource syria
-											and Treasury > 4000
-											and RandomPercent > 50
-												inc_counter merc_assist 1
-												console_command add_money local -4000
-												console_command create_unit local_settlement "merc armoured syrian elephant" 1
-											end_if
-
-											if I_CompareCounter merc_assist = 0
-												if Treasury > 3000
-													inc_counter merc_assist 1
-													console_command add_money local -3000
-													console_command create_unit local_settlement "merc elephants" 1
-												end_if
-											end_if
-										end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource thrace
-											and HasResource b_paganism
-											and Treasury > 2000
-												inc_counter merc_assist 1
-												console_command add_money local -2000
-												console_command create_unit local_settlement "merc wolf warrior" 1
-											end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource engine
-												inc_counter merc_assist 1
-												console_command add_money local -1000
-												console_command create_unit local_settlement "merc onagers" 1
-											end_if
-										end_if
-										end_if
-									end_if
-
-									; High Tier
-
-									if I_CompareCounter merc_assist = 0
-									and RandomPercent > 91
-										if HasResource hellenic
-										|| HasResource egyptian
-											if RandomPercent > 66
-												inc_counter merc_assist 1
-												console_command add_money local -700
-												console_command create_unit local_settlement "merc greek pikemen" 1
-											end_if
-
-											if I_CompareCounter merc_assist = 0
-												if RandomPercent > 66
-													inc_counter merc_assist 1
-													console_command add_money local -700
-													console_command create_unit local_settlement "merc cretan archers" 1
-												end_if
-
-												if I_CompareCounter merc_assist = 0
-													inc_counter merc_assist 1
-													console_command add_money local -700
-													console_command create_unit local_settlement "merc rhodian slingers" 1
-												end_if
-											end_if
-										end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource c_paganism
-												if RandomPercent > 50
-													inc_counter merc_assist 1
-													console_command add_money local -700
-													console_command create_unit local_settlement "merc warband sword" 1
-												end_if
-
-												if I_CompareCounter merc_assist = 0
-													inc_counter merc_assist 1
-													console_command add_money local -700
-													console_command create_unit local_settlement "merc barb naked fanatics" 1
-												end_if
-											end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource b_paganism
-												if HasResource thrace
-													if RandomPercent > 66
-														inc_counter merc_assist 1
-														console_command add_money local -700
-														console_command create_unit local_settlement "merc bastarnae" 1
-													end_if
-
-													if I_CompareCounter merc_assist = 0
-													and RandomPercent > 66
-														inc_counter merc_assist 1
-														console_command add_money local -700
-														console_command create_unit local_settlement "merc warband falx" 1
-													end_if
-												end_if
-
-												if I_CompareCounter merc_assist = 0
-													if HasResource navy
-														inc_counter merc_assist 1
-														console_command add_money local -700
-														console_command create_unit local_settlement "merc cilician pirate" 1
-													end_if
-												end_if
-											end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource g_paganism
-												inc_counter merc_assist 1
-												console_command add_money local -700
-												console_command create_unit local_settlement "merc warband spear" 1
-											end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource berber
-												inc_counter merc_assist 1
-												console_command add_money local -700
-												console_command create_unit local_settlement "merc numidian cavalry" 1
-											end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource s_paganism
-												if RandomPercent > 50
-													inc_counter merc_assist 1
-													console_command add_money local -700
-													console_command create_unit local_settlement "merc sarmatian cavalry" 1
-												end_if
-
-												if I_CompareCounter merc_assist = 0
-													inc_counter merc_assist 1
-													console_command add_money local -700
-													console_command create_unit local_settlement "merc barb scythian hoplite" 1
-												end_if
-											end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource i_paganism
-												if RandomPercent > 50
-													inc_counter merc_assist 1
-													console_command add_money local -700
-													console_command create_unit local_settlement "merc warband sword" 1
-												end_if
-
-												if I_CompareCounter merc_assist = 0
-													inc_counter merc_assist 1
-													console_command add_money local -700
-													console_command create_unit local_settlement "merc balearic slingers" 1
-												end_if
-											end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource punic
-												if HasResource greece
-													if RandomPercent > 75
-														inc_counter merc_assist 1
-														console_command add_money local -700
-														console_command create_unit local_settlement "merc greek pikemen" 1
-													end_if
-
-													if I_CompareCounter merc_assist = 0
-													and RandomPercent > 75
-														inc_counter merc_assist 1
-														console_command add_money local -700
-														console_command create_unit local_settlement "merc rhodian slingers" 1
-													end_if
-												end_if
-
-												if not HasResource greece
-													if RandomPercent > 75
-														inc_counter merc_assist 1
-														console_command add_money local -700
-														console_command create_unit local_settlement "merc numidian cavalry" 1
-													end_if
-
-													if I_CompareCounter merc_assist = 0
-													and RandomPercent > 75
-														inc_counter merc_assist 1
-														console_command add_money local -700
-														console_command create_unit local_settlement "merc balearic slingers" 1
-													end_if
-												end_if
-
-												if I_CompareCounter merc_assist = 0
-													if RandomPercent > 75
-														inc_counter merc_assist 1
-														console_command add_money local -700
-														console_command create_unit local_settlement "merc cretan archers" 1
-													end_if
-
-													if I_CompareCounter merc_assist = 0
-														inc_counter merc_assist 1
-														console_command add_money local -700
-														console_command create_unit local_settlement "merc warband sword" 1
-													end_if
-												end_if
-											end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource nuragic
-												if RandomPercent > 66
-													inc_counter merc_assist 1
-													console_command add_money local -700
-													console_command create_unit local_settlement "merc guerilla fighters" 1
-												end_if
-
-												if I_CompareCounter merc_assist = 0
-												and RandomPercent > 66
-													inc_counter merc_assist 1
-													console_command add_money local -700
-													console_command create_unit local_settlement "merc warband sword" 1
-												end_if
-
-												if I_CompareCounter merc_assist = 0
-													inc_counter merc_assist 1
-													console_command add_money local -700
-													console_command create_unit local_settlement "merc balearic slingers" 1
-												end_if
-											end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource syria
-												inc_counter merc_assist 1
-												console_command add_money local -700
-												console_command create_unit local_settlement "merc syrian archer" 1
-											end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource britain
-												inc_counter merc_assist 1
-												console_command add_money local -700
-												console_command create_unit local_settlement "merc barb naked fanatics" 1
-											end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource thessaly
-												inc_counter merc_assist 1
-												console_command add_money local -700
-												console_command create_unit local_settlement "merc thessalian cavalry" 1
-											end_if
-										end_if
-										end_if
-										end_if
-										end_if
-										end_if
-										end_if
-										end_if
-										end_if
-										end_if
-										end_if
-										end_if
-									end_if
-
-									; Mid Tier
-
-									if I_CompareCounter merc_assist = 0
-									and RandomPercent > 85
-										if HasResource c_paganism
-										|| HasResource g_paganism
-											inc_counter merc_assist 1
-											console_command add_money local -500
-											console_command create_unit local_settlement "merc barbarian cavalry" 1
-										end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource zoroastrian
-												if RandomPercent > 50
-													inc_counter merc_assist 1
-													console_command add_money local -500
-													console_command create_unit local_settlement "merc median cavalry" 1
-												end_if
-
-												if I_CompareCounter merc_assist = 0
-													inc_counter merc_assist 1
-													console_command add_money local -500
-													console_command create_unit local_settlement "merc east horse archer" 1
-												end_if
-											end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource thrace
-												if RandomPercent > 50
-													inc_counter merc_assist 1
-													console_command add_money local -500
-													console_command create_unit local_settlement "merc sarissa cavalry" 1
-												end_if
-
-												if I_CompareCounter merc_assist = 0
-													inc_counter merc_assist 1
-													console_command add_money local -500
-													console_command create_unit local_settlement "merc thracian militia cavalry" 1
-												end_if
-											end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource arab
-											|| HasResource egyptian
-												if HasResource camels
-													if RandomPercent > 66
-														inc_counter merc_assist 1
-														console_command add_money local -500
-														console_command create_unit local_settlement "merc bedouin" 1
-													end_if
-
-													if I_CompareCounter merc_assist = 0
-													and RandomPercent > 66
-														inc_counter merc_assist 1
-														console_command add_money local -500
-														console_command create_unit local_settlement "merc bedouin archers" 1
-													end_if
-												end_if
-
-												if I_CompareCounter merc_assist = 0
-													inc_counter merc_assist 1
-													console_command add_money local -500
-													console_command create_unit local_settlement "merc arab cavalry" 1
-												end_if
-											end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource berber
-											and HasResource camels
-												if RandomPercent > 50
-													inc_counter merc_assist 1
-													console_command add_money local -500
-													console_command create_unit local_settlement "merc bedouin" 1
-												end_if
-
-												if I_CompareCounter merc_assist = 0
-													inc_counter merc_assist 1
-													console_command add_money local -500
-													console_command create_unit local_settlement "merc bedouin archers" 1
-												end_if
-											end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource samnite
-											|| HasResource etruscan
-											|| HasResource roman
-												inc_counter merc_assist 1
-												console_command add_money local -500
-												console_command create_unit local_settlement "merc italian cavalry" 1
-											end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource s_paganism
-												inc_counter merc_assist 1
-												console_command add_money local -500
-												console_command create_unit local_settlement "merc horse archers" 1
-											end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource i_paganism
-												if RandomPercent > 50
-													inc_counter merc_assist 1
-													console_command add_money local -500
-													console_command create_unit local_settlement "merc carthaginian medium cavalry"
-												end_if
-
-												if I_CompareCounter merc_assist = 0
-													inc_counter merc_assist 1
-													console_command add_money local -500
-													console_command create_unit local_settlement "merc barbarian cavalry" 1
-												end_if
-											end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource judaism
-												inc_counter merc_assist 1
-												console_command add_money local -500
-												console_command create_unit local_settlement "merc arab cavalry" 1
-											end_if
-										end_if
-										end_if
-										end_if
-										end_if
-										end_if
-										end_if
-										end_if
-										end_if
-									end_if
-
-									; Low Tier
-
-									if I_CompareCounter merc_assist = 0
-									and RandomPercent > 79
-										if HasResource hellenic
-										|| HasResource egyptian
-											inc_counter merc_assist 1
-											console_command add_money local -400
-											console_command create_unit local_settlement "merc greek hoplites" 1
-										end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource c_paganism
-											|| HasResource g_paganism
-												inc_counter merc_assist 1
-												console_command add_money local -400
-												console_command create_unit local_settlement "merc barbarian infantry" 1
-											end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource mesopotamian
-											|| HasResource arab
-											|| HasResource zoroastrian
-											|| HasResource oscan
-											|| HasResource judaism
-												inc_counter merc_assist 1
-												console_command add_money local -400
-												console_command create_unit local_settlement "merc east heavy infantry" 1
-											end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource roman
-											|| HasResource samnite
-											|| HasResource etruscan
-												inc_counter merc_assist 1
-												console_command add_money local -400
-												console_command create_unit local_settlement "merc samnite" 1
-											end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource thrace
-												inc_counter merc_assist 1
-												console_command add_money local -400
-												console_command create_unit local_settlement "merc thracian" 1
-											end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource illyria
-												inc_counter merc_assist 1
-												console_command add_money local -400
-												console_command create_unit local_settlement "merc illyrian" 1
-											end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource i_paganism
-												inc_counter merc_assist 1
-												console_command add_money local -400
-												console_command create_unit local_settlement "merc spanish infantry" 1
-											end_if
-										end_if
-										end_if
-										end_if
-										end_if
-										end_if
-										end_if
-									end_if
-
-									; Cheap Tier
-
-									if I_CompareCounter merc_assist = 0
-									and RandomPercent > 73
-										if HasResource hellenic
-											inc_counter merc_assist 1
-											console_command add_money local -300
-											console_command create_unit local_settlement "merc peltast" 1
-										end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource c_paganism
-											|| HasResource g_paganism
-												inc_counter merc_assist 1
-												console_command add_money local -300
-												console_command create_unit local_settlement "merc tribal slingers" 1
-											end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource mesopotamian
-											|| HasResource zoroastrian
-											|| HasResource oscan
-												if RandomPercent > 50
-													inc_counter merc_assist 1
-													console_command add_money local -300
-													console_command create_unit local_settlement "merc east archer" 1
-												end_if
-
-												if I_CompareCounter merc_assist = 0
-													inc_counter merc_assist 1
-													console_command add_money local -300
-													console_command create_unit local_settlement "merc eastern infantry" 1
-												end_if
-											end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource berber
-											|| HasResource punic
-												inc_counter merc_assist 1
-												console_command add_money local -300
-												console_command create_unit local_settlement "merc libyan infantry" 1
-											end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource arab
-												if RandomPercent > 50
-													inc_counter merc_assist 1
-													console_command add_money local -300
-													console_command create_unit local_settlement "merc egyptian infantry" 1
-												end_if
-
-												if I_CompareCounter merc_assist = 0
-													inc_counter merc_assist 1
-													console_command add_money local -300
-													console_command create_unit local_settlement "merc eastern infantry" 1
-												end_if
-											end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource egyptian
-												inc_counter merc_assist 1
-												console_command add_money local -300
-												console_command create_unit local_settlement "merc egyptian infantry" 1
-											end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource s_paganism
-												inc_counter merc_assist 1
-												console_command add_money local -300
-												console_command create_unit local_settlement "merc barb archer" 1
-											end_if
-
-										if I_CompareCounter merc_assist = 0
-											if HasResource judaism
-												if RandomPercent > 50
-													inc_counter merc_assist 1
-													console_command add_money local -300
-													console_command create_unit local_settlement "merc peltast" 1
-												end_if
-
-												if I_CompareCounter merc_assist = 0
-													inc_counter merc_assist 1
-													console_command add_money local -300
-													console_command create_unit local_settlement "merc eastern infantry" 1
-												end_if
-											end_if
-										end_if
-										end_if
-										end_if
-										end_if
-										end_if
-										end_if
-										end_if
-									end_if
-								end_if
-							end_if
-
-							; Handicap
-
-							if I_CompareCounter merc_assist = 0
-								if HasResource infantry
-								and RandomPercent > 60
-									if HasResource owner_roman
-										inc_counter merc_assist 1
-										console_command add_money local -400
-
-										if not MajorEventActive "marian_reforms"
-											console_command create_unit local_settlement "roman princeps" 1
-										end_if
-
-										if MajorEventActive "marian_reforms"
-											console_command create_unit local_settlement "roman legionary cohort i" 1
-										end_if
-									end_if
-
-									if HasResource owner_carthage
-										inc_counter merc_assist 1
-										console_command add_money local -400
-
-										if not MajorEventActive "marian_reforms"
-											console_command create_unit local_settlement "carthaginian medium infantry" 1
-										end_if
-
-										if MajorEventActive "marian_reforms"
-											console_command create_unit local_settlement "carthaginian heavy infantry" 1
-										end_if
-									end_if
-								end_if
-							end_if
-
-							; Remove mercenary resource when mercenaries were hired
-
-							if I_CompareCounter merc_assist > 0
-							and HasResource mercenary
-								remove_hidden_resource local mercenary
-							end_if
+					end_if
+				end_for
+
+				if I_CompareCounter is_garrison <= 16
+
+					if GovernorInResidence
+					|| IsCapital
+						if RandomPercent > 60
+						|| SettlementBuildingExists = waystation
+							add_hidden_resource local bonus
 						end_if
 					end_if
+				end_if
+			end_if
+		end_if
+	end_monitor
+
+;
+; Building Conversion
+;
+
+	monitor_event SettlementTurnStart
+		if FactionIsLocal
+		and SettlementBuildingExists = convert
+			remove_hidden_resource local general
+
+			declare_counter is_infantry
+			declare_counter is_cavalry
+			declare_counter is_missile
+			declare_counter is_smithy
+			declare_counter is_navy
+
+			; Infantry
+			if SettlementBuildingExists = muster_field
+				set_counter is_infantry 1
+			end_if
+
+			if I_CompareCounter is_infantry = 0
+				if SettlementBuildingExists = militia_barracks
+					set_counter is_infantry 2
+				end_if
+
+			if I_CompareCounter is_infantry = 0
+				if SettlementBuildingExists = city_barracks
+					set_counter is_infantry 3
+				end_if
+
+			if I_CompareCounter is_infantry = 0
+				if SettlementBuildingExists = army_barracks
+					set_counter is_infantry 4
+				end_if
+
+			if I_CompareCounter is_infantry = 0
+				if SettlementBuildingExists = royal_barracks
+					set_counter is_infantry 5
+				end_if
+			end_if
+			end_if
+			end_if
+			end_if
+
+			; Cavalry
+			if SettlementBuildingExists = stables
+				set_counter is_cavalry 1
+			end_if
+
+			if I_CompareCounter is_cavalry = 0
+				if SettlementBuildingExists = cavalry_barracks
+					set_counter is_cavalry 2
+				end_if
+
+			if I_CompareCounter is_cavalry = 0
+				if SettlementBuildingExists = hippodrome
+					set_counter is_cavalry 3
+				end_if
+
+			if I_CompareCounter is_cavalry = 0
+				if SettlementBuildingExists = circus_maximus
+					set_counter is_cavalry 4
+				end_if
+			end_if
+			end_if
+			end_if
+
+			; Missile
+			if SettlementBuildingExists = practice_field
+				set_counter is_missile 1
+			end_if
+
+			if I_CompareCounter is_missile = 0
+				if SettlementBuildingExists = archery_range
+					set_counter is_missile 2
+				end_if
+
+			if I_CompareCounter is_missile = 0
+				if SettlementBuildingExists = catapult_range
+					set_counter is_missile 3
+				end_if
+
+			if I_CompareCounter is_missile = 0
+				if SettlementBuildingExists = siege_engineer
+					set_counter is_missile 4
+				end_if
+			end_if
+			end_if
+			end_if
+
+			; Smithy
+			if SettlementBuildingExists = blacksmith
+				set_counter is_smithy 1
+			end_if
+
+			if I_CompareCounter is_smithy = 0
+				if SettlementBuildingExists = smiths_workshop
+					set_counter is_smithy 2
+				end_if
+
+			if I_CompareCounter is_smithy = 0
+				if SettlementBuildingExists = foundry
+					set_counter is_smithy 3
+				end_if
+			end_if
+			end_if
+
+			; Navy
+			if SettlementBuildingExists = port
+				set_counter is_navy 1
+			end_if
+
+			if I_CompareCounter is_navy = 0
+				if SettlementBuildingExists = shipwright
+					set_counter is_navy 2
+				end_if
+
+			if I_CompareCounter is_navy = 0
+				if SettlementBuildingExists = dockyard
+					set_counter is_navy 3
+				end_if
+			end_if
+			end_if
+
+			destroy_building "local" convert
+
+			if I_CompareCounter is_infantry > 0
+				if I_CompareCounter is_infantry = 1
+					destroy_building "local" muster_field
+					console_command create_building local muster_field
+				end_if
+
+				if I_CompareCounter is_infantry = 2
+					destroy_building "local" militia_barracks
+					console_command create_building local militia_barracks
+				end_if
+
+				if I_CompareCounter is_infantry = 3
+					destroy_building "local" city_barracks
+					console_command create_building local city_barracks
+				end_if
+
+				if I_CompareCounter is_infantry = 4
+					destroy_building "local" army_barracks
+					console_command create_building local army_barracks
+				end_if
+
+				if I_CompareCounter is_infantry = 5
+					destroy_building "local" royal_barracks
+					console_command create_building local royal_barracks
+				end_if
+			end_if
+
+			if I_CompareCounter is_cavalry > 0
+				if I_CompareCounter is_cavalry = 1
+					destroy_building "local" stables
+					console_command create_building local stables
+				end_if
+
+				if I_CompareCounter is_cavalry = 2
+					destroy_building "local" cavalry_barracks
+					console_command create_building local cavalry_barracks
+				end_if
+
+				if I_CompareCounter is_cavalry = 3
+					destroy_building "local" hippodrome
+					console_command create_building local hippodrome
+				end_if
+
+				if I_CompareCounter is_cavalry = 4
+					destroy_building "local" circus_maximus
+					console_command create_building local circus_maximus
+				end_if
+			end_if
+
+			if I_CompareCounter is_missile > 0
+				if I_CompareCounter is_missile = 1
+					destroy_building "local" practice_field
+					console_command create_building local practice_field
+				end_if
+
+				if I_CompareCounter is_missile = 2
+					destroy_building "local" archery_range
+					console_command create_building local archery_range
+				end_if
+
+				if I_CompareCounter is_missile = 3
+					destroy_building "local" catapult_range
+					console_command create_building local catapult_range
+				end_if
+
+				if I_CompareCounter is_missile = 4
+					destroy_building "local" siege_engineer
+					console_command create_building local siege_engineer
+				end_if
+			end_if
+
+			if I_CompareCounter is_smithy > 0
+				if I_CompareCounter is_smithy = 1
+					destroy_building "local" blacksmith
+					console_command create_building local blacksmith
+				end_if
+
+				if I_CompareCounter is_smithy = 2
+					destroy_building "local" smiths_workshop
+					console_command create_building local smiths_workshop
+				end_if
+
+				if I_CompareCounter is_smithy = 3
+					destroy_building "local" foundry
+					console_command create_building local foundry
+				end_if
+			end_if
+
+			if I_CompareCounter is_navy > 0
+				if I_CompareCounter is_navy = 1
+					destroy_building "local" port
+					console_command create_building local port
+				end_if
+
+				if I_CompareCounter is_navy = 2
+					destroy_building "local" shipwright
+					console_command create_building local shipwright
+				end_if
+
+				if I_CompareCounter is_navy = 3
+					destroy_building "local" dockyard
+					console_command create_building local dockyard
 				end_if
 			end_if
 		end_if
@@ -7865,12 +6986,12 @@ script
 					faction slave
 					character Mattathias Hasmonaeus, named character, age 52, , x 200, y 30
 					unit east pontic general, exp 6 armour 3 weapon_lvl 3
-					unit east slinger, exp 6 armour 2 weapon_lvl 2
-					unit east slinger, exp 6 armour 2 weapon_lvl 2
-					unit east slinger, exp 6 armour 2 weapon_lvl 2
-					unit east slinger, exp 6 armour 2 weapon_lvl 2
-					unit east slinger, exp 6 armour 2 weapon_lvl 2
-					unit east slinger, exp 6 armour 2 weapon_lvl 2
+					unit mountain slinger, exp 6 armour 2 weapon_lvl 2
+					unit mountain slinger, exp 6 armour 2 weapon_lvl 2
+					unit mountain slinger, exp 6 armour 2 weapon_lvl 2
+					unit mountain slinger, exp 6 armour 2 weapon_lvl 2
+					unit mountain slinger, exp 6 armour 2 weapon_lvl 2
+					unit mountain slinger, exp 6 armour 2 weapon_lvl 2
 					unit east noble spearmen, exp 6 armour 2 weapon_lvl 2
 					unit east noble spearmen, exp 6 armour 2 weapon_lvl 2
 					unit east noble spearmen, exp 6 armour 2 weapon_lvl 2
@@ -7898,10 +7019,10 @@ script
 					faction slave
 					character John Hasmonaeus, named character, age 32, , x 200, y 31
 					unit east pontic general, exp 6 armour 3 weapon_lvl 3
-					unit east slinger, exp 6 armour 2 weapon_lvl 2
-					unit east slinger, exp 6 armour 2 weapon_lvl 2
-					unit east slinger, exp 6 armour 2 weapon_lvl 2
-					unit east slinger, exp 6 armour 2 weapon_lvl 2
+					unit mountain slinger, exp 6 armour 2 weapon_lvl 2
+					unit mountain slinger, exp 6 armour 2 weapon_lvl 2
+					unit mountain slinger, exp 6 armour 2 weapon_lvl 2
+					unit mountain slinger, exp 6 armour 2 weapon_lvl 2
 					unit east noble spearmen, exp 6 armour 2 weapon_lvl 2
 					unit east noble spearmen, exp 6 armour 2 weapon_lvl 2
 					unit rebel judaean zealots, exp 6 armour 2 weapon_lvl 2
@@ -7926,10 +7047,10 @@ script
 					faction slave
 					character Simon Hasmonaeus, named character, age 30, , x 200, y 32
 					unit east pontic general, exp 6 armour 3 weapon_lvl 3
-					unit east slinger, exp 6 armour 2 weapon_lvl 2
-					unit east slinger, exp 6 armour 2 weapon_lvl 2
-					unit east slinger, exp 6 armour 2 weapon_lvl 2
-					unit east slinger, exp 6 armour 2 weapon_lvl 2
+					unit mountain slinger, exp 6 armour 2 weapon_lvl 2
+					unit mountain slinger, exp 6 armour 2 weapon_lvl 2
+					unit mountain slinger, exp 6 armour 2 weapon_lvl 2
+					unit mountain slinger, exp 6 armour 2 weapon_lvl 2
 					unit east noble spearmen, exp 6 armour 2 weapon_lvl 2
 					unit east noble spearmen, exp 6 armour 2 weapon_lvl 2
 					unit rebel judaean zealots, exp 6 armour 2 weapon_lvl 2
@@ -7959,10 +7080,10 @@ script
 					faction slave
 					character Judas Hasmonaeus, named character, age 28, , x 201, y 30
 					unit east pontic general, exp 6 armour 3 weapon_lvl 3
-					unit east slinger, exp 6 armour 2 weapon_lvl 2
-					unit east slinger, exp 6 armour 2 weapon_lvl 2
-					unit east slinger, exp 6 armour 2 weapon_lvl 2
-					unit east slinger, exp 6 armour 2 weapon_lvl 2
+					unit mountain slinger, exp 6 armour 2 weapon_lvl 2
+					unit mountain slinger, exp 6 armour 2 weapon_lvl 2
+					unit mountain slinger, exp 6 armour 2 weapon_lvl 2
+					unit mountain slinger, exp 6 armour 2 weapon_lvl 2
 					unit east noble spearmen, exp 6 armour 2 weapon_lvl 2
 					unit east noble spearmen, exp 6 armour 2 weapon_lvl 2
 					unit rebel judaean zealots, exp 6 armour 2 weapon_lvl 2
@@ -7992,10 +7113,10 @@ script
 					faction slave
 					character Eleazar Hasmonaeus, named character, age 25, , x 201, y 31
 					unit east pontic general, exp 6 armour 3 weapon_lvl 3
-					unit east slinger, exp 6 armour 2 weapon_lvl 2
-					unit east slinger, exp 6 armour 2 weapon_lvl 2
-					unit east slinger, exp 6 armour 2 weapon_lvl 2
-					unit east slinger, exp 6 armour 2 weapon_lvl 2
+					unit mountain slinger, exp 6 armour 2 weapon_lvl 2
+					unit mountain slinger, exp 6 armour 2 weapon_lvl 2
+					unit mountain slinger, exp 6 armour 2 weapon_lvl 2
+					unit mountain slinger, exp 6 armour 2 weapon_lvl 2
 					unit east noble spearmen, exp 6 armour 2 weapon_lvl 2
 					unit east noble spearmen, exp 6 armour 2 weapon_lvl 2
 					unit rebel judaean zealots, exp 6 armour 2 weapon_lvl 2
@@ -8019,10 +7140,10 @@ script
 					faction slave
 					character Jonathan Hasmonaeus, named character, age 21, , x 201, y 32
 					unit east pontic general, exp 6 armour 3 weapon_lvl 3
-					unit east slinger, exp 6 armour 2 weapon_lvl 2
-					unit east slinger, exp 6 armour 2 weapon_lvl 2
-					unit east slinger, exp 6 armour 2 weapon_lvl 2
-					unit east slinger, exp 6 armour 2 weapon_lvl 2
+					unit mountain slinger, exp 6 armour 2 weapon_lvl 2
+					unit mountain slinger, exp 6 armour 2 weapon_lvl 2
+					unit mountain slinger, exp 6 armour 2 weapon_lvl 2
+					unit mountain slinger, exp 6 armour 2 weapon_lvl 2
 					unit east noble spearmen, exp 6 armour 2 weapon_lvl 2
 					unit east noble spearmen, exp 6 armour 2 weapon_lvl 2
 					unit rebel judaean zealots, exp 6 armour 2 weapon_lvl 2
