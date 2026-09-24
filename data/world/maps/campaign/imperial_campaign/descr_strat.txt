@@ -4790,7 +4790,7 @@ relative	Theages, 	Xanthe,		Mago_B,	end
 
 
 faction	pontus, religious_leonidas
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -4957,7 +4957,7 @@ relative	Rianorix, 	Esselt,		Taximagulus,	Verica,	Glasobrin,	end
 
 
 faction	germans, craftsman_leonidas
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -5883,7 +5883,7 @@ relative	Orsoaltios,	none,		Adaeus_A,	end
 
 
 faction	hellenic_faction_01, fortified_leonidas
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -6137,7 +6137,7 @@ relative	Eumenes_A,	none,	Philetaerus_A,	end
 
 
 faction	hellenic_faction_04, trader_leonidas
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -6270,7 +6270,7 @@ relative	Leukon,	Alcathoe,	Spartokos_B,	end
 
 
 faction	hellenic_faction_05, fortified_leonidas
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -7033,7 +7033,7 @@ relative	Aegialeus,	Dirce,	end
 
 
 faction	hellenic_faction_15, balanced_leonidas
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -7096,7 +7096,7 @@ relative	Kapys, 		Cyrene,		Anchises,	end
 
 
 faction	hellenic_faction_16, religious_leonidas
-denari	5000
+denari	9999
 settlement
 {
 	level large_town
@@ -7257,7 +7257,7 @@ relative	Theos, 			Chlo,	end
 
 
 faction	hellenic_faction_18, trader_leonidas
-denari	5000
+denari	9999
 settlement
 {
 	level town
@@ -10253,7 +10253,7 @@ relative	Horsa, 	Ludwiga,		end
 
 
 faction	germanic_faction_10, balanced_leonidas
-denari	5000
+denari	9999
 settlement
 {
 	level town

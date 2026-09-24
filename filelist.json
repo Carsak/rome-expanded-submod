@@ -9,19 +9,19 @@
 	},
 	{
 		"filename": "data\/descr_sm_resources.txt",
-		"checksum": 4041859599
+		"checksum": 653616639
 	},
 	{
 		"filename": "data\/export_descr_buildings.txt",
-		"checksum": 2080572412
+		"checksum": 1049520096
 	},
 	{
 		"filename": "data\/export_descr_buildings_enums.txt",
-		"checksum": 174066090
+		"checksum": 2425076404
 	},
 	{
 		"filename": "data\/export_descr_unit.txt",
-		"checksum": 1677583074
+		"checksum": 4009397812
 	},
 	{
 		"filename": "data\/feral_descr_movement_multipliers.txt",
@@ -61,31 +61,31 @@
 	},
 	{
 		"filename": "data\/text\/export_buildings.txt",
-		"checksum": 2449408928
+		"checksum": 924317262
 	},
 	{
 		"filename": "data\/text\/export_buildings_mac_de.txt",
-		"checksum": 2877784205
+		"checksum": 2906985809
 	},
 	{
 		"filename": "data\/text\/export_buildings_mac_es.txt",
-		"checksum": 1676747912
+		"checksum": 3662789746
 	},
 	{
 		"filename": "data\/text\/export_buildings_mac_fr.txt",
-		"checksum": 3600940119
+		"checksum": 386059464
 	},
 	{
 		"filename": "data\/text\/export_buildings_mac_it.txt",
-		"checksum": 2662658557
+		"checksum": 3292371808
 	},
 	{
 		"filename": "data\/text\/export_buildings_mac_ru.txt",
-		"checksum": 396590131
+		"checksum": 2471682625
 	},
 	{
 		"filename": "data\/text\/export_buildings_mac_zh_cn.txt",
-		"checksum": 2946485736
+		"checksum": 2488304483
 	},
 	{
 		"filename": "data\/ui\/barbarian\/buildings\/#barbarian_convert_barracks_1.tga",
@@ -1241,7 +1241,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/campaign_script.txt",
-		"checksum": 3263886523
+		"checksum": 2648033191
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_disasters.txt",
@@ -1265,7 +1265,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 2445433973
+		"checksum": 1724163033
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_terrain.txt",
@@ -1817,7 +1817,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/spawn_scripts\/carthage_spawn_script.txt",
-		"checksum": 72479560
+		"checksum": 1662522324
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/spawn_scripts\/desert_spawn_script.txt",

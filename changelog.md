@@ -4,6 +4,10 @@ This file records notable player-facing changes to Rome Expanded Submod. The new
 
 ## 2026-09-24
 
+### Changed
+
+- Temporarily disabled the submod's conversion of captured barracks, stables, and missile ranges because the upstream Rome Expanded mod now provides its own military-building conversion system.
+
 ### Fixed
 
 - Restored 0.55 lethality for every melee weapon after the latest Rome Expanded merge reset several units to higher values.
