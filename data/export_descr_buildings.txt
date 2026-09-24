@@ -112,24 +112,7 @@ building core_building
 
 				agent diplomat 0 requires not factions { rebel_slave, }
 				agent_limit_settlement diplomat 1
-
-				religious_belief arab 1 requires factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
-				religious_belief berber 1 requires factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, }
-				religious_belief egyptian 1 requires factions { egyptian, }
-				religious_belief etruscan 1 requires factions { latin_faction_03, latin_faction_05, }
-				religious_belief hellenic 1 requires factions { greek_cities, macedon, pontus, seleucid, anatolian_faction_01, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_13, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
-				religious_belief judaism 1 requires factions { anatolian_faction_02, rebel_judea, }
-				religious_belief nuragic 1 requires factions { rebel_nuragic, }
-				religious_belief oscan 1 requires factions { caucasian_faction_01, caucasian_faction_02, hellenic_faction_10, }
-				religious_belief punic 1 requires factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
-				religious_belief roman 1 requires factions { roman, }
-				religious_belief samnite 1 requires factions { latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, }
-				religious_belief zoroastrian 1 requires factions { parthia, rebel_parthia, armenia, caucasian_faction_03, caucasian_faction_04, }
-				religious_belief b_paganism 1 requires factions { tracian_illyrian, dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
-				religious_belief c_paganism 1 requires factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, spain, iberian_faction_01, iberian_faction_02, iberian_faction_07, }
-				religious_belief g_paganism 1 requires factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
-				religious_belief i_paganism 1 requires factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
-				religious_belief s_paganism 1 requires factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
+				population_growth_bonus bonus 7
 			}
 			construction  1 
 			cost  400 
@@ -196,24 +179,6 @@ building core_building
 
 				agent diplomat 0 requires not factions { rebel_slave, }
 				agent_limit_settlement diplomat 1
-
-				religious_belief arab 1 requires factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
-				religious_belief berber 1 requires factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, }
-				religious_belief egyptian 1 requires factions { egyptian, }
-				religious_belief etruscan 1 requires factions { latin_faction_03, latin_faction_05, }
-				religious_belief hellenic 1 requires factions { greek_cities, macedon, pontus, seleucid, anatolian_faction_01, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_13, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
-				religious_belief judaism 1 requires factions { anatolian_faction_02, rebel_judea, }
-				religious_belief nuragic 1 requires factions { rebel_nuragic, }
-				religious_belief oscan 1 requires factions { caucasian_faction_01, caucasian_faction_02, hellenic_faction_10, }
-				religious_belief punic 1 requires factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
-				religious_belief roman 1 requires factions { roman, }
-				religious_belief samnite 1 requires factions { latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, }
-				religious_belief zoroastrian 1 requires factions { parthia, rebel_parthia, armenia, caucasian_faction_03, caucasian_faction_04, }
-				religious_belief b_paganism 1 requires factions { tracian_illyrian, dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
-				religious_belief c_paganism 1 requires factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, spain, iberian_faction_01, iberian_faction_02, iberian_faction_07, }
-				religious_belief g_paganism 1 requires factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
-				religious_belief i_paganism 1 requires factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
-				religious_belief s_paganism 1 requires factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
 			}
 			construction  2 
 			cost  800 
@@ -329,24 +294,6 @@ building core_building
 				agent diplomat 0 requires not factions { rebel_slave, }
 				agent_limit_settlement diplomat 1
 				happiness_bonus bonus 1 requires is_toggled "settlement condition" and not factions { seleucid, }
-
-				religious_belief arab 2 requires factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
-				religious_belief berber 2 requires factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, }
-				religious_belief egyptian 2 requires factions { egyptian, }
-				religious_belief etruscan 2 requires factions { latin_faction_03, latin_faction_05, }
-				religious_belief hellenic 2 requires factions { greek_cities, macedon, pontus, seleucid, anatolian_faction_01, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_13, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
-				religious_belief judaism 2 requires factions { anatolian_faction_02, rebel_judea, }
-				religious_belief nuragic 2 requires factions { rebel_nuragic, }
-				religious_belief oscan 2 requires factions { caucasian_faction_01, caucasian_faction_02, hellenic_faction_10, }
-				religious_belief punic 2 requires factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
-				religious_belief roman 2 requires factions { roman, }
-				religious_belief samnite 2 requires factions { latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, }
-				religious_belief zoroastrian 2 requires factions { parthia, rebel_parthia, armenia, caucasian_faction_03, caucasian_faction_04, }
-				religious_belief b_paganism 2 requires factions { tracian_illyrian, dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
-				religious_belief c_paganism 2 requires factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, spain, iberian_faction_01, iberian_faction_02, iberian_faction_07, }
-				religious_belief g_paganism 2 requires factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
-				religious_belief i_paganism 2 requires factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
-				religious_belief s_paganism 2 requires factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
 			}
 			construction  3 
 			cost  1600 
@@ -462,26 +409,8 @@ building core_building
 				agent diplomat 0 requires not factions { rebel_slave, }
 				agent_limit_settlement diplomat 1
 				happiness_bonus bonus 1 requires is_toggled "settlement condition" and not factions { seleucid, }
-
-				religious_belief arab 2 requires factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
-				religious_belief berber 2 requires factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, }
-				religious_belief egyptian 2 requires factions { egyptian, }
-				religious_belief etruscan 2 requires factions { latin_faction_03, latin_faction_05, }
-				religious_belief hellenic 2 requires factions { greek_cities, macedon, pontus, seleucid, anatolian_faction_01, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_13, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
-				religious_belief judaism 2 requires factions { anatolian_faction_02, rebel_judea, }
-				religious_belief nuragic 2 requires factions { rebel_nuragic, }
-				religious_belief oscan 2 requires factions { caucasian_faction_01, caucasian_faction_02, hellenic_faction_10, }
-				religious_belief punic 2 requires factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
-				religious_belief roman 2 requires factions { roman, }
-				religious_belief samnite 2 requires factions { latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, }
-				religious_belief zoroastrian 2 requires factions { parthia, rebel_parthia, armenia, caucasian_faction_03, caucasian_faction_04, }
-				religious_belief b_paganism 2 requires factions { tracian_illyrian, dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
-				religious_belief c_paganism 2 requires factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, spain, iberian_faction_01, iberian_faction_02, iberian_faction_07, }
-				religious_belief g_paganism 2 requires factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
-				religious_belief i_paganism 2 requires factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
-				religious_belief s_paganism 2 requires factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
 			}
-			construction  4 
+			construction  3 
 			cost  3200 
 			settlement_min city
 			upgrades
@@ -597,26 +526,8 @@ building core_building
 				agent diplomat 0 requires not factions { rebel_slave, }
 				agent_limit_settlement diplomat 1
 				happiness_bonus bonus 1 requires is_toggled "settlement condition" and not factions { seleucid, }
-
-				religious_belief arab 3 requires factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
-				religious_belief berber 3 requires factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, }
-				religious_belief egyptian 3 requires factions { egyptian, }
-				religious_belief etruscan 3 requires factions { latin_faction_03, latin_faction_05, }
-				religious_belief hellenic 3 requires factions { greek_cities, macedon, pontus, seleucid, anatolian_faction_01, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_13, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
-				religious_belief judaism 3 requires factions { anatolian_faction_02, rebel_judea, }
-				religious_belief nuragic 3 requires factions { rebel_nuragic, }
-				religious_belief oscan 3 requires factions { caucasian_faction_01, caucasian_faction_02, hellenic_faction_10, }
-				religious_belief punic 3 requires factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
-				religious_belief roman 3 requires factions { roman, }
-				religious_belief samnite 3 requires factions { latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, }
-				religious_belief zoroastrian 3 requires factions { parthia, rebel_parthia, armenia, caucasian_faction_03, caucasian_faction_04, }
-				religious_belief b_paganism 3 requires factions { tracian_illyrian, dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
-				religious_belief c_paganism 3 requires factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, spain, iberian_faction_01, iberian_faction_02, iberian_faction_07, }
-				religious_belief g_paganism 3 requires factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
-				religious_belief i_paganism 3 requires factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
-				religious_belief s_paganism 3 requires factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min large_city
 			upgrades
@@ -696,7 +607,7 @@ building defenses
 				happiness_bonus bonus 1 requires is_toggled "settlement condition"
 				law_bonus bonus 1 requires is_toggled "settlement condition"
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -715,7 +626,7 @@ building defenses
 				happiness_bonus bonus 1 requires is_toggled "settlement condition"
 				law_bonus bonus 2 requires is_toggled "settlement condition"
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -730,7 +641,7 @@ building defenses
 building barracks
 {
 	icon infantry
-	levels muster_field militia_barracks city_barracks army_barracks royal_barracks 
+	levels muster_field militia_barracks city_barracks army_barracks royal_barracks convert_barracks_1 convert_barracks_2 convert_barracks_3 convert_barracks_4
 	{
 		muster_field requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
 		{
@@ -738,24 +649,24 @@ building barracks
 			{
 				; AI Recruitment
 
-				recruit "barb infantry slave" 0 requires not is_player and not hidden_resource poverty and factions { rebel_slave, }
-				recruit "carthaginian city militia" 0 requires not is_player and not hidden_resource poverty and not major_event "marian_reforms" and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
-				recruit "barb infantry briton" 0 requires not is_player and not hidden_resource poverty and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, }
-				recruit "barb infantry dacian" 0 requires not is_player and not hidden_resource poverty and factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, thracian_faction_02, }
-				recruit "barb infantry gaul" 0 requires not is_player and not hidden_resource poverty and factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
-				recruit "warband spear german" 0 requires not is_player and not hidden_resource poverty and factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
-				recruit "barb infantry scythia" 0 requires not is_player and not hidden_resource poverty and factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
-				recruit "east infantry" 0 requires not is_player and not hidden_resource poverty and factions { eastern, }
-				recruit "greek hoplite militia" 0 requires not is_player and not hidden_resource poverty and factions { anatolian_faction_01, } and religion hellenic >= 50
-				recruit "greek levy pikemen" 0 requires not is_player and not hidden_resource poverty and factions { pontus, } and religion hellenic >= 50
-				recruit "greek hoplite militia" 0 requires not is_player and not hidden_resource poverty and factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, thrace, thracian_faction_01, illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
-				recruit "roman city militia" 0 requires not is_player and not hidden_resource poverty and factions { roman, }
-				recruit "egyptian nubian spearmen" 0 requires not is_player and not hidden_resource poverty and factions { egyptian, }
-				recruit "egyptian nile infantry" 0 requires not is_player and not hidden_resource poverty and factions { egyptian, }
-				recruit "greek levy pikemen" 0 requires not is_player and not hidden_resource poverty and factions { macedon, hellenic_faction_03, hellenic_faction_13, seleucid, }
-				recruit "italian spearmen" 0 requires not is_player and not hidden_resource poverty and factions { italic, }
-				recruit "numidian levy" 0 requires not is_player and not hidden_resource poverty and not major_event "marian_reforms" and factions { numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_04, desert_faction_05, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert, }
-				recruit "desert vigiles" 0 requires not is_player and not hidden_resource poverty and major_event "marian_reforms" and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_04, desert_faction_05, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert, }
+				recruit "barb infantry slave" 0 requires not is_player  and factions { rebel_slave, }
+				recruit "carthaginian city militia" 0 requires not is_player  and not major_event "marian_reforms" and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
+				recruit "barb infantry briton" 0 requires not is_player  and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, }
+				recruit "barb infantry dacian" 0 requires not is_player  and factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, thracian_faction_02, }
+				recruit "barb infantry gaul" 0 requires not is_player  and factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
+				recruit "warband spear german" 0 requires not is_player  and factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
+				recruit "barb infantry scythia" 0 requires not is_player  and factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
+				recruit "east infantry" 0 requires not is_player  and factions { eastern, }
+				recruit "greek hoplite militia" 0 requires not is_player  and factions { anatolian_faction_01, } and religion hellenic >= 50
+				recruit "greek levy pikemen" 0 requires not is_player  and factions { pontus, } and religion hellenic >= 50
+				recruit "greek hoplite militia" 0 requires not is_player  and factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, thrace, thracian_faction_01, illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
+				recruit "roman city militia" 0 requires not is_player  and factions { roman, }
+				recruit "egyptian nubian spearmen" 0 requires not is_player  and factions { egyptian, }
+				recruit "egyptian nile infantry" 0 requires not is_player  and factions { egyptian, }
+				recruit "greek levy pikemen" 0 requires not is_player  and factions { macedon, hellenic_faction_03, hellenic_faction_13, seleucid, }
+				recruit "italian spearmen" 0 requires not is_player  and factions { italic, }
+				recruit "numidian levy" 0 requires not is_player  and not major_event "marian_reforms" and factions { numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_04, desert_faction_05, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert, }
+				recruit "desert vigiles" 0 requires not is_player  and major_event "marian_reforms" and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_04, desert_faction_05, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert, }
 
 				; Human Recruitment
 
@@ -798,6 +709,14 @@ building barracks
 			upgrades
 			{
 				militia_barracks
+				convert_barracks_1 requires factions { tracian_illyrian, } and is_player and not hidden_resource barracks_built_by_tracian_illyrian
+				convert_barracks_1 requires factions { barbarian, } and is_player and not hidden_resource barracks_built_by_barbarian
+				convert_barracks_1 requires factions { carthaginian, } and is_player and not hidden_resource barracks_built_by_carthaginian
+				convert_barracks_1 requires factions { eastern, } and is_player and not hidden_resource barracks_built_by_eastern
+				convert_barracks_1 requires factions { egyptian, } and is_player and not hidden_resource barracks_built_by_egyptian
+				convert_barracks_1 requires factions { greek, } and is_player and not hidden_resource barracks_built_by_greek
+				convert_barracks_1 requires factions { roman, } and is_player and not hidden_resource barracks_built_by_roman
+				convert_barracks_1 requires factions { italic, } and is_player and not hidden_resource barracks_built_by_italic
 			}
 		}
 		militia_barracks requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
@@ -899,16 +818,16 @@ building barracks
 
 				; Merc Recruitment
 
-				recruit "merc barbarian infantry" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion c_paganism >= 20 or religion g_paganism >= 20
-				recruit "merc greek hoplites" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion hellenic >= 20 or religion egyptian >= 20
-				recruit "merc eastern infantry" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion arab >= 20 or religion zoroastrian >= 20 or religion oscan >= 20
-				recruit "merc spanish infantry" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion i_paganism >= 20
-				recruit "merc thracian" 0 requires hidden_resource thrace and not is_player and hidden_resource mercenary and not hidden_resource poverty and religion b_paganism >= 20
-				recruit "merc samnite" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion samnite >= 20 or religion etruscan >= 20
-				recruit "merc warband falx" 0 requires hidden_resource thrace and not is_player and hidden_resource mercenary and not hidden_resource poverty and religion b_paganism >= 20
-				recruit "merc warband sword" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion c_paganism >= 20 or religion i_paganism >= 20 or religion nuragic >= 20
-				recruit "merc warband spear" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion g_paganism >= 20
-				recruit "merc guerilla fighters" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion nuragic >= 20
+				recruit "merc barbarian infantry" 0 requires not is_player and hidden_resource mercenary  and religion c_paganism >= 20 or religion g_paganism >= 20
+				recruit "merc greek hoplites" 0 requires not is_player and hidden_resource mercenary  and religion hellenic >= 20 or religion egyptian >= 20
+				recruit "merc eastern infantry" 0 requires not is_player and hidden_resource mercenary  and religion arab >= 20 or religion zoroastrian >= 20 or religion oscan >= 20
+				recruit "merc spanish infantry" 0 requires not is_player and hidden_resource mercenary  and religion i_paganism >= 20
+				recruit "merc thracian" 0 requires hidden_resource thrace and not is_player and hidden_resource mercenary  and religion b_paganism >= 20
+				recruit "merc samnite" 0 requires not is_player and hidden_resource mercenary  and religion samnite >= 20 or religion etruscan >= 20
+				recruit "merc warband falx" 0 requires hidden_resource thrace and not is_player and hidden_resource mercenary  and religion b_paganism >= 20
+				recruit "merc warband sword" 0 requires not is_player and hidden_resource mercenary  and religion c_paganism >= 20 or religion i_paganism >= 20 or religion nuragic >= 20
+				recruit "merc warband spear" 0 requires not is_player and hidden_resource mercenary  and religion g_paganism >= 20
+				recruit "merc guerilla fighters" 0 requires not is_player and hidden_resource mercenary  and religion nuragic >= 20
 
 				recruit "merc barbarian infantry" 0 requires is_player and hidden_resource mercenary and religion c_paganism >= 20 or religion g_paganism >= 20
 				recruit "merc greek hoplites" 0 requires is_player and hidden_resource mercenary and religion hellenic >= 20 or religion egyptian >= 20
@@ -927,6 +846,14 @@ building barracks
 			upgrades
 			{
 				city_barracks
+				convert_barracks_2 requires factions { tracian_illyrian, } and is_player and not hidden_resource barracks_built_by_tracian_illyrian
+				convert_barracks_2 requires factions { barbarian, } and is_player and not hidden_resource barracks_built_by_barbarian
+				convert_barracks_2 requires factions { carthaginian, } and is_player and not hidden_resource barracks_built_by_carthaginian
+				convert_barracks_2 requires factions { eastern, } and is_player and not hidden_resource barracks_built_by_eastern
+				convert_barracks_2 requires factions { egyptian, } and is_player and not hidden_resource barracks_built_by_egyptian
+				convert_barracks_2 requires factions { greek, } and is_player and not hidden_resource barracks_built_by_greek
+				convert_barracks_2 requires factions { roman, } and is_player and not hidden_resource barracks_built_by_roman
+				convert_barracks_2 requires factions { italic, } and is_player and not hidden_resource barracks_built_by_italic
 			}
 		}
 		city_barracks requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
@@ -1077,16 +1004,16 @@ building barracks
 
 				; Merc Recruitment
 
-				recruit "merc bastarnae" 0 requires hidden_resource thrace and not is_player and hidden_resource mercenary and not hidden_resource poverty and religion b_paganism >= 20
-				recruit "merc greek pikemen" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion hellenic >= 20
-				recruit "merc egyptian infantry" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion arab >= 20 or religion egyptian >= 20
-				recruit "merc warband falx" 0 requires hidden_resource thrace and not is_player and hidden_resource mercenary and not hidden_resource poverty and religion b_paganism >= 20
-				recruit "merc warband sword" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion c_paganism >= 20 or religion i_paganism >= 20 or religion nuragic >= 20
-				recruit "merc warband spear" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion g_paganism >= 20
-				recruit "merc guerilla fighters" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion nuragic >= 20
-				recruit "merc barb naked fanatics" 0 requires hidden_resource britain and not is_player and hidden_resource mercenary and not hidden_resource poverty and religion c_paganism >= 20
-				recruit "merc barb scythian hoplite" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion s_paganism >= 20
-				recruit "merc east heavy infantry" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion zoroastrian >= 20 or religion oscan >= 20 or religion judaism >= 20
+				recruit "merc bastarnae" 0 requires hidden_resource thrace and not is_player and hidden_resource mercenary  and religion b_paganism >= 20
+				recruit "merc greek pikemen" 0 requires not is_player and hidden_resource mercenary  and religion hellenic >= 20
+				recruit "merc egyptian infantry" 0 requires not is_player and hidden_resource mercenary  and religion arab >= 20 or religion egyptian >= 20
+				recruit "merc warband falx" 0 requires hidden_resource thrace and not is_player and hidden_resource mercenary  and religion b_paganism >= 20
+				recruit "merc warband sword" 0 requires not is_player and hidden_resource mercenary  and religion c_paganism >= 20 or religion i_paganism >= 20 or religion nuragic >= 20
+				recruit "merc warband spear" 0 requires not is_player and hidden_resource mercenary  and religion g_paganism >= 20
+				recruit "merc guerilla fighters" 0 requires not is_player and hidden_resource mercenary  and religion nuragic >= 20
+				recruit "merc barb naked fanatics" 0 requires hidden_resource britain and not is_player and hidden_resource mercenary  and religion c_paganism >= 20
+				recruit "merc barb scythian hoplite" 0 requires not is_player and hidden_resource mercenary  and religion s_paganism >= 20
+				recruit "merc east heavy infantry" 0 requires not is_player and hidden_resource mercenary  and religion zoroastrian >= 20 or religion oscan >= 20 or religion judaism >= 20
 
 				recruit "merc barbarian infantry" 0 requires is_player and hidden_resource mercenary and religion c_paganism >= 20 or religion g_paganism >= 20
 				recruit "merc greek hoplites" 0 requires is_player and hidden_resource mercenary and religion hellenic >= 20 or religion egyptian >= 20
@@ -1105,12 +1032,20 @@ building barracks
 				recruit "merc barb scythian hoplite" 0 requires is_player and hidden_resource mercenary and religion s_paganism >= 20
 				recruit "merc east heavy infantry" 0 requires is_player and hidden_resource mercenary and religion zoroastrian >= 20 or religion oscan >= 20 or religion judaism >= 20
 			}
-			construction  4 
+			construction  3 
 			cost  2400 
 			settlement_min city
 			upgrades
 			{
 				army_barracks
+				convert_barracks_3 requires factions { tracian_illyrian, } and is_player and not hidden_resource barracks_built_by_tracian_illyrian
+				convert_barracks_3 requires factions { barbarian, } and is_player and not hidden_resource barracks_built_by_barbarian
+				convert_barracks_3 requires factions { carthaginian, } and is_player and not hidden_resource barracks_built_by_carthaginian
+				convert_barracks_3 requires factions { eastern, } and is_player and not hidden_resource barracks_built_by_eastern
+				convert_barracks_3 requires factions { egyptian, } and is_player and not hidden_resource barracks_built_by_egyptian
+				convert_barracks_3 requires factions { greek, } and is_player and not hidden_resource barracks_built_by_greek
+				convert_barracks_3 requires factions { roman, } and is_player and not hidden_resource barracks_built_by_roman
+				convert_barracks_3 requires factions { italic, } and is_player and not hidden_resource barracks_built_by_italic
 			}
 		}
 		army_barracks requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
@@ -1120,60 +1055,18 @@ building barracks
 				; AI Recruitment
 
 				recruit "barb infantry slave" 4 requires not is_player and not hidden_resource poverty and factions { rebel_slave, }
-				recruit "carthaginian infantry" 2 requires not is_player and not hidden_resource poverty and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
-				recruit "warband sword briton" 2 requires not is_player and not hidden_resource poverty and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, }
-				recruit "warband sword dacia" 2 requires not is_player and not hidden_resource poverty and factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
-				recruit "warband sword gaul" 2 requires not is_player and not hidden_resource poverty and factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
-				recruit "warband axe german" 2 requires not is_player and not hidden_resource poverty and factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
-				recruit "warband axe scythian" 2 requires not is_player and not hidden_resource poverty and factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
-				recruit "warband falx dacian" 2 requires not is_player and not hidden_resource poverty and factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
-				recruit "berber axemen" 2 requires not is_player and not hidden_resource poverty and factions { numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_04, desert_faction_05, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert, }
-				recruit "east hillmen" 2 requires not is_player and not hidden_resource poverty and factions { eastern, }
-				recruit "greek hoplite" 2 requires not is_player and not hidden_resource poverty and factions { pontus, anatolian_faction_01, } and religion hellenic >= 50
-				recruit "warband spear illyrian" 2 requires not is_player and not hidden_resource poverty and factions { illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
-				recruit "warband falx thracian" 2 requires not is_player and not hidden_resource poverty and factions { thrace, thracian_faction_01, thracian_faction_02, }
-				recruit "greek hoplite" 2 requires not is_player and not hidden_resource poverty and factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
-				recruit "roman hastati" 2 requires not is_player and not hidden_resource poverty and not major_event "marian_reforms" and factions { roman, }
-				recruit "roman italian spearmen" 2 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and not major_event "marian_reforms" and factions { roman, }
-				recruit "roman sword auxillia" 2 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and not major_event "marian_reforms" and factions { roman, }
-				recruit "roman infantry auxillia" 2 requires not is_player and not hidden_resource poverty and major_event "marian_reforms" and factions { roman, }
-				recruit "nile infantry" 2 requires not is_player and not hidden_resource poverty and factions { egyptian, }
-				recruit "egyptian infantry" 2 requires not is_player and not hidden_resource poverty and factions { egyptian, }
-				recruit "greek pikemen" 2 requires not is_player and not hidden_resource poverty and factions { macedon, hellenic_faction_03, hellenic_faction_13, seleucid, }
-				recruit "samnite" 2 requires not is_player and not hidden_resource poverty and factions { italic, }
-
-				recruit "merc barbarian infantry" 2 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and factions { carthage_barcid, rebel_carthage, } and religion c_paganism >= 10 or religion punic >= 10
-				recruit "merc greek hoplites" 2 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and factions { carthage, carthage_hannonid, carthage_magonid, rebel_carthage, } and religion hellenic >= 10 or religion punic >= 10
-				recruit "merc spanish infantry" 2 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and factions { carthage_barcid, rebel_carthage, } and religion i_paganism >= 10 or religion punic >= 10
-				recruit "merc samnite" 2 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and factions { carthage_hannonid, carthage_magonid, rebel_carthage, } and religion samnite >= 10 or religion etruscan >= 10 or religion punic >= 10
-
+				recruit "iberian spearmen" 0 requires not is_player and not hidden_resource poverty and factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
 				recruit "iberian guerilla fighters" 1 requires not is_player and not hidden_resource poverty and factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
 				recruit "barb warguard gaul" 1 requires not is_player and not hidden_resource poverty and factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, hellenic_faction_03, latin_faction_05, }
 				recruit "barb warguard briton" 1 requires not is_player and not hidden_resource poverty and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, }
+				recruit "barbarian legionary" 0 requires not is_player and not hidden_resource poverty and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
 				recruit "barb warguard dacian" 1 requires not is_player and not hidden_resource poverty and factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
 				recruit "warband dhaxe german" 1 requires not is_player and not hidden_resource poverty and factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
 				recruit "barb scythian hoplite" 1 requires not is_player and not hidden_resource poverty and factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
-				recruit "numidian desert warriors" 1 requires not is_player and not hidden_resource poverty and factions { numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_04, desert_faction_05, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert, }
-				recruit "carthaginian medium infantry" 1 requires not is_player and not hidden_resource poverty and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
-				recruit "east heavy infantry" 1 requires not is_player and not hidden_resource poverty and factions { armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, anatolian_faction_02, rebel_judea, parthia, rebel_parthia, }
-				recruit "east hoplite" 1 requires not is_player and not hidden_resource poverty and factions { pontus, anatolian_faction_01, }
-				recruit "illyrian ravager" 1 requires not is_player and not hidden_resource poverty and factions { illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
-				recruit "greek hoplite elite" 1 requires not is_player and not hidden_resource poverty and factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, italic, }
-				recruit "italian swordsmen" 1 requires not is_player and not hidden_resource poverty and factions { italic, }
-				recruit "greek bastarnae" 1 requires not is_player and not hidden_resource poverty and factions { dacian_faction_01, thrace, thracian_faction_01, thracian_faction_02, }
-				recruit "roman princeps" 1 requires not is_player and not hidden_resource poverty and not major_event "marian_reforms" and factions { roman, }
-				recruit "roman legionary cohort i" 1 requires not is_player and not hidden_resource poverty and major_event "marian_reforms" and factions { roman, }
-				recruit "nile axemen" 1 requires not is_player and not hidden_resource poverty and factions { egyptian, }
-				recruit "hypaspists" 1 requires not is_player and not hidden_resource poverty and factions { macedon, hellenic_faction_13, seleucid, egypt, }
-				recruit "rebel judaean zealots" 1 requires not is_player and not hidden_resource poverty and factions { anatolian_faction_02, rebel_judea, }
-
-				recruit "iberian spearmen" 0 requires not is_player and not hidden_resource poverty and factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
-				recruit "barb noble spearmen" 0 requires not is_player and not hidden_resource poverty and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
-				recruit "barb gothic spearmen" 0 requires not is_player and not hidden_resource poverty and factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
-				recruit "dacian noble spearmen" 0 requires not is_player and not hidden_resource poverty and factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
+				recruit "warband axe scythian" 2 requires not is_player and not hidden_resource poverty and factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
 				recruit "carthaginian heavy infantry" 0 requires not is_player and not hidden_resource poverty and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
-				recruit "numidian spearmen" 0 requires not is_player and not hidden_resource poverty and factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, }
-				recruit "hillmen" 0 requires not is_player and not hidden_resource poverty and factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
+				recruit "numidian spearmen" 0 requires not major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, }
+				recruit "hillmen" 0 requires not major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
 				recruit "numidian legionaries" 0 requires major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_04, desert_faction_05, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert, }
 				recruit "east hoplite brazen shield" 0 requires not is_player and not hidden_resource poverty and factions { pontus, anatolian_faction_01, }
 				recruit "east noble spearmen" 0 requires not is_player and not hidden_resource poverty and factions { armenia, anatolian_faction_02, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, rebel_judea, }
@@ -1183,15 +1076,28 @@ building barracks
 				recruit "egyptian elite guards" 0 requires not is_player and not hidden_resource poverty and factions { egyptian, }
 				recruit "illyrian guard" 0 requires not is_player and not hidden_resource poverty and factions { illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
 				recruit "thracian elite warrior" 0 requires not is_player and not hidden_resource poverty and factions { thrace, thracian_faction_01, thracian_faction_02, }
+				recruit "greek bastarnae" 1 requires not is_player and not hidden_resource poverty and factions { dacian_faction_01, thrace, thracian_faction_01, thracian_faction_02, }
 				recruit "greek royal pikemen" 0 requires not is_player and not hidden_resource poverty and factions { macedon, hellenic_faction_03, hellenic_faction_13, }
 				recruit "greek silver shield pikemen" 0 requires not is_player and not hidden_resource poverty and factions { seleucid, }
 				recruit "greek hoplite spartan" 0 requires hidden_resource sparta and not is_player and not hidden_resource poverty and factions { hellenic_faction_01, }
+				recruit "roman hastati" 2 requires not is_player and not hidden_resource poverty and not major_event "marian_reforms" and factions { roman, }
+				recruit "roman italian spearmen" 2 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and not major_event "marian_reforms" and factions { roman, }
+				recruit "roman sword auxillia" 2 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and not major_event "marian_reforms" and factions { roman, }
+				recruit "roman infantry auxillia" 2 requires not is_player and not hidden_resource poverty and major_event "marian_reforms" and factions { roman, }
+				recruit "roman princeps" 1 requires not is_player and not hidden_resource poverty and not major_event "marian_reforms" and factions { roman, }
 				recruit "roman triarii" 0 requires not is_player and not hidden_resource poverty and not major_event "marian_reforms" and factions { roman, }
 				recruit "roman legionary first cohort i" 0 requires hidden_resource rome and major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { roman, }
 				recruit "roman legionary cohort ii" 0 requires major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { roman, }
 				recruit "roman praetorian cohort i" 0 requires major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { roman, }
+				recruit "hypaspists" 1 requires not is_player and not hidden_resource poverty and factions { macedon, hellenic_faction_13, seleucid, egypt, }
+				recruit "rebel judaean zealots" 1 requires not is_player and not hidden_resource poverty and factions { anatolian_faction_02, rebel_judea, }
+				recruit "greek hoplite elite" 1 requires not is_player and not hidden_resource poverty and factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, italic, }
 				recruit "italian alarii cohort" 0 requires not is_player and not hidden_resource poverty and factions { italic, }
 				recruit "thorax swordsmen" 0 requires not is_player and not hidden_resource poverty and factions { greek_cities, hellenic_faction_02, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
+				recruit "merc barbarian infantry" 2 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and factions { carthage_barcid, rebel_carthage, } and religion c_paganism >= 10 or religion punic >= 10
+				recruit "merc greek hoplites" 2 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and factions { carthage, carthage_hannonid, carthage_magonid, rebel_carthage, } and religion hellenic >= 10 or religion punic >= 10
+				recruit "merc spanish infantry" 2 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and factions { carthage_barcid, rebel_carthage, } and religion i_paganism >= 10 or religion punic >= 10
+				recruit "merc samnite" 2 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and factions { carthage_hannonid, carthage_magonid, rebel_carthage, } and religion samnite >= 10 or religion etruscan >= 10 or religion punic >= 10
 
 				; Human Recruitment
 
@@ -1230,9 +1136,9 @@ building barracks
 				recruit "dacian noble spearmen" 0 requires building_factions { barbarian, } and is_player and religion b_paganism >= 10
 				recruit "warband axe scythian" 2 requires building_factions { barbarian, } and is_player and religion s_paganism >= 10
 				recruit "barb scythian hoplite" 1 requires building_factions { barbarian, } and is_player and religion s_paganism >= 10
-				recruit "barb noble spearmen" 0 requires building_factions { barbarian, } and is_player and religion c_paganism >= 10
-				recruit "carthaginian medium infantry" 1 requires building_factions { carthaginian, } and is_player and religion punic >= 10
-				recruit "carthaginian heavy infantry" 0 requires building_factions { carthaginian, } and is_player and religion punic >= 10
+				recruit "barbarian legionary" 0 requires building_factions { barbarian, } and is_player and religion c_paganism >= 10 and major_event "marian_reforms"
+				recruit "carthaginian medium infantry" 1 requires building_factions { carthaginian, } and is_player and religion punic >= 20
+				recruit "carthaginian heavy infantry" 0 requires building_factions { carthaginian, } and is_player and religion punic >= 40
 				recruit "east hillmen" 2 requires building_factions { eastern, } and factions { eastern, } and not factions { pontus, anatolian_faction_01, anatolian_faction_02, rebel_judea, } and is_player and religion zoroastrian >= 10 or religion oscan >= 10
 				recruit "east hillmen" 2 requires building_factions { eastern, } and factions { pontus, anatolian_faction_01, } and is_player and religion zoroastrian >= 10
 				recruit "east hillmen" 2 requires building_factions { eastern, egyptian, } and factions { anatolian_faction_02, rebel_judea, } and is_player and religion judaism >= 10
@@ -1318,16 +1224,16 @@ building barracks
 
 				; Merc Recruitment
 
-				recruit "merc bastarnae" 0 requires hidden_resource thrace and not is_player and hidden_resource mercenary and not hidden_resource poverty and religion b_paganism >= 20
-				recruit "merc greek pikemen" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion hellenic >= 20
-				recruit "merc egyptian infantry" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion arab >= 20 or religion egyptian >= 20
-				recruit "merc warband falx" 0 requires hidden_resource thrace and not is_player and hidden_resource mercenary and not hidden_resource poverty and religion b_paganism >= 20
-				recruit "merc warband sword" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion c_paganism >= 20 or religion i_paganism >= 20 or religion nuragic >= 20
-				recruit "merc warband spear" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion g_paganism >= 20
-				recruit "merc guerilla fighters" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion nuragic >= 20
-				recruit "merc barb naked fanatics" 0 requires hidden_resource britain and not is_player and hidden_resource mercenary and not hidden_resource poverty and religion c_paganism >= 20
-				recruit "merc barb scythian hoplite" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion s_paganism >= 20
-				recruit "merc east heavy infantry" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion zoroastrian >= 20 or religion oscan >= 20 or religion judaism >= 20
+				recruit "merc bastarnae" 0 requires hidden_resource thrace and not is_player and hidden_resource mercenary  and religion b_paganism >= 20
+				recruit "merc greek pikemen" 0 requires not is_player and hidden_resource mercenary  and religion hellenic >= 20
+				recruit "merc egyptian infantry" 0 requires not is_player and hidden_resource mercenary  and religion arab >= 20 or religion egyptian >= 20
+				recruit "merc warband falx" 0 requires hidden_resource thrace and not is_player and hidden_resource mercenary  and religion b_paganism >= 20
+				recruit "merc warband sword" 0 requires not is_player and hidden_resource mercenary  and religion c_paganism >= 20 or religion i_paganism >= 20 or religion nuragic >= 20
+				recruit "merc warband spear" 0 requires not is_player and hidden_resource mercenary  and religion g_paganism >= 20
+				recruit "merc guerilla fighters" 0 requires not is_player and hidden_resource mercenary  and religion nuragic >= 20
+				recruit "merc barb naked fanatics" 0 requires hidden_resource britain and not is_player and hidden_resource mercenary  and religion c_paganism >= 20
+				recruit "merc barb scythian hoplite" 0 requires not is_player and hidden_resource mercenary  and religion s_paganism >= 20
+				recruit "merc east heavy infantry" 0 requires not is_player and hidden_resource mercenary  and religion zoroastrian >= 20 or religion oscan >= 20 or religion judaism >= 20
 
 				recruit "merc barbarian infantry" 0 requires is_player and hidden_resource mercenary and religion c_paganism >= 20 or religion g_paganism >= 20
 				recruit "merc greek hoplites" 0 requires is_player and hidden_resource mercenary and religion hellenic >= 20 or religion egyptian >= 20
@@ -1346,12 +1252,20 @@ building barracks
 				recruit "merc barb scythian hoplite" 0 requires is_player and hidden_resource mercenary and religion s_paganism >= 20
 				recruit "merc east heavy infantry" 0 requires is_player and hidden_resource mercenary and religion zoroastrian >= 20 or religion oscan >= 20 or religion judaism >= 20
 			}
-			construction  6 
+			construction  3 
 			cost  4800 
 			settlement_min large_city
 			upgrades
 			{
 				royal_barracks
+				convert_barracks_4 requires factions { tracian_illyrian, } and is_player and not hidden_resource barracks_built_by_tracian_illyrian
+				convert_barracks_4 requires factions { barbarian, } and is_player and not hidden_resource barracks_built_by_barbarian
+				convert_barracks_4 requires factions { carthaginian, } and is_player and not hidden_resource barracks_built_by_carthaginian
+				convert_barracks_4 requires factions { eastern, } and is_player and not hidden_resource barracks_built_by_eastern
+				convert_barracks_4 requires factions { egyptian, } and is_player and not hidden_resource barracks_built_by_egyptian
+				convert_barracks_4 requires factions { greek, } and is_player and not hidden_resource barracks_built_by_greek
+				convert_barracks_4 requires factions { roman, } and is_player and not hidden_resource barracks_built_by_roman
+				convert_barracks_4 requires factions { italic, } and is_player and not hidden_resource barracks_built_by_italic
 			}
 		}
 		royal_barracks requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
@@ -1361,104 +1275,67 @@ building barracks
 				; AI Recruitment
 
 				recruit "barb infantry slave" 6 requires not is_player and not hidden_resource poverty and factions { rebel_slave, }
-				recruit "carthaginian infantry" 4 requires not is_player and not hidden_resource poverty and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
-				recruit "warband sword briton" 4 requires not is_player and not hidden_resource poverty and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, }
-				recruit "warband sword dacia" 4 requires not is_player and not hidden_resource poverty and factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
-				recruit "warband sword gaul" 4 requires not is_player and not hidden_resource poverty and factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
-				recruit "warband axe german" 4 requires not is_player and not hidden_resource poverty and factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
+				recruit "spanish scutarii" 0 requires not is_player and not hidden_resource poverty and factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
+				recruit "spanish bull warriors" 0 requires not is_player and not hidden_resource poverty and factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_07, rebel_nuragic, }
+				recruit "iberian spearmen" 1 requires not is_player and not hidden_resource poverty and factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
+				recruit "iberian guerilla fighters" 2 requires not is_player and not hidden_resource poverty and factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
+				recruit "barb warguard gaul" 2 requires not is_player and not hidden_resource poverty and factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, hellenic_faction_03, latin_faction_05, }
+				recruit "barb warguard briton" 2 requires not is_player and not hidden_resource poverty and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, }
+				recruit "barbarian legionary" 1 requires not is_player and not hidden_resource poverty and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
+				recruit "barb druidic warriors" 0 requires not is_player and not hidden_resource poverty and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, }
+				recruit "barb warguard dacian" 2 requires not is_player and not hidden_resource poverty and factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
+				recruit "warband dhaxe german" 2 requires not is_player and not hidden_resource poverty and factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
+				recruit "barb scythian hoplite" 2 requires not is_player and not hidden_resource poverty and factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
 				recruit "warband axe scythian" 4 requires not is_player and not hidden_resource poverty and factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
-				recruit "warband falx dacian" 4 requires not is_player and not hidden_resource poverty and factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
-				recruit "berber axemen" 4 requires not is_player and not hidden_resource poverty and factions { numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_04, desert_faction_05, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert, }
-				recruit "east hillmen" 4 requires not is_player and not hidden_resource poverty and factions { eastern, }
-				recruit "greek hoplite" 4 requires not is_player and not hidden_resource poverty and factions { pontus, anatolian_faction_01, } and religion hellenic >= 50
-				recruit "warband spear illyrian" 4 requires not is_player and not hidden_resource poverty and factions { illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
-				recruit "warband falx thracian" 4 requires not is_player and not hidden_resource poverty and factions { thrace, thracian_faction_01, thracian_faction_02, }
-				recruit "greek hoplite" 4 requires not is_player and not hidden_resource poverty and factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
+				recruit "carthaginian heavy infantry" 1 requires not is_player and not hidden_resource poverty and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
+				recruit "carthaginian noble spearmen" 0 requires not major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
+				recruit "carthaginian legionaries" 0 requires major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
+				recruit "numidian noble spearmen" 0 requires not major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, }
+				recruit "mountain men" 0 requires not major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
+				recruit "numidian desert cohort" 0 requires major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_04, desert_faction_05, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert, }
+				recruit "east hoplite brazen shield" 1 requires not is_player and not hidden_resource poverty and factions { pontus, anatolian_faction_01, }
+				recruit "pontic legionaries" 0 requires not is_player and not hidden_resource poverty and factions { pontus, caucasian_faction_04, }
+				recruit "east noble spearmen" 1 requires not is_player and not hidden_resource poverty and factions { armenia, anatolian_faction_02, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, rebel_judea, }
+				recruit "east legionary" 1 requires major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { armenia, anatolian_faction_02, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, rebel_judea, }
+				recruit "east noble mace warriors" 0 requires not is_player and not hidden_resource poverty and factions { armenia, anatolian_faction_01, anatolian_faction_02, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, rebel_judea, parthia, rebel_parthia, }
+				recruit "georgian elite warrior" 0 requires not is_player and not hidden_resource poverty and factions { caucasian_faction_01, caucasian_faction_02, hellenic_faction_10, }
+				recruit "persian swordsmen" 1 requires not is_player and not hidden_resource poverty and factions { parthia, rebel_parthia, }
+				recruit "nile elite guards" 1 requires building_factions { egyptian, } and is_player and religion egyptian >= 10
+				recruit "egyptian elite guards" 1 requires not is_player and not hidden_resource poverty and factions { egyptian, }
+				recruit "nile noble spearmen" 0 requires not major_event "marian_reforms" and building_factions { egyptian, } and is_player and religion egyptian >= 10
+				recruit "egyptian elite hypaspists" 0 requires not major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { egyptian, }
+				recruit "egyptian legionaries" 0 requires major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { egyptian, }
+				recruit "illyrian guard" 1 requires not is_player and not hidden_resource poverty and factions { illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
+				recruit "thracian elite warrior" 1 requires not is_player and not hidden_resource poverty and factions { thrace, thracian_faction_01, thracian_faction_02, }
+				recruit "thracian warriors" 0 requires not is_player and not hidden_resource poverty and factions { thrace, thracian_faction_01, thracian_faction_02, }
+				recruit "greek bastarnae" 2 requires not is_player and not hidden_resource poverty and factions { dacian_faction_01, thrace, thracian_faction_01, thracian_faction_02, }
+				recruit "greek royal pikemen" 1 requires not is_player and not hidden_resource poverty and factions { macedon, hellenic_faction_03, hellenic_faction_13, }
+				recruit "greek royal hypaspists" 0 requires not is_player and not hidden_resource poverty and factions { macedon, hellenic_faction_03, hellenic_faction_13, }
+				recruit "greek hoplite spartan" 1 requires hidden_resource sparta and not is_player and not hidden_resource poverty and factions { hellenic_faction_01, }
+				recruit "hypaspists" 2 requires not is_player and not hidden_resource poverty and factions { macedon, hellenic_faction_13, seleucid, egypt, }
+				recruit "rebel judaean zealots" 2 requires not is_player and not hidden_resource poverty and factions { anatolian_faction_02, rebel_judea, }
+				recruit "greek hoplite elite" 2 requires not is_player and not hidden_resource poverty and factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, italic, }
+				recruit "thorax swordsmen" 1 requires not is_player and not hidden_resource poverty and factions { greek_cities, hellenic_faction_02, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
+				recruit "greek thorakitai" 0 requires not is_player and not hidden_resource poverty and factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
+				recruit "greek argyraspid" 0 requires not is_player and not hidden_resource poverty and factions { seleucid, }
+				recruit "greek silver shield pikemen" 1 requires not is_player and not hidden_resource poverty and factions { seleucid, }
 				recruit "roman hastati" 4 requires not is_player and not hidden_resource poverty and not major_event "marian_reforms" and factions { roman, }
 				recruit "roman italian spearmen" 4 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and not major_event "marian_reforms" and factions { roman, }
 				recruit "roman sword auxillia" 4 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and not major_event "marian_reforms" and factions { roman, }
 				recruit "roman infantry auxillia" 4 requires not is_player and not hidden_resource poverty and major_event "marian_reforms" and factions { roman, }
-				recruit "nile infantry" 4 requires not is_player and not hidden_resource poverty and factions { egyptian, }
-				recruit "egyptian infantry" 4 requires not is_player and not hidden_resource poverty and factions { egyptian, }
-				recruit "greek pikemen" 4 requires not is_player and not hidden_resource poverty and factions { macedon, hellenic_faction_03, hellenic_faction_13, seleucid, }
-				recruit "samnite" 4 requires not is_player and not hidden_resource poverty and factions { italic, }
-
-				recruit "merc barbarian infantry" 4 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and factions { carthage_barcid, rebel_carthage, } and religion c_paganism >= 10 or religion punic >= 10
-				recruit "merc greek hoplites" 4 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and factions { carthage, carthage_hannonid, carthage_magonid, rebel_carthage, } and religion hellenic >= 10 or religion punic >= 10
-				recruit "merc spanish infantry" 4 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and factions { carthage_barcid, rebel_carthage, } and religion i_paganism >= 10 or religion punic >= 10
-				recruit "merc samnite" 4 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and factions { carthage_hannonid, carthage_magonid, rebel_carthage, } and religion samnite >= 10 or religion etruscan >= 10 or religion punic >= 10
-
-				recruit "iberian guerilla fighters" 2 requires not is_player and not hidden_resource poverty and factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
-				recruit "barb warguard gaul" 2 requires not is_player and not hidden_resource poverty and factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, hellenic_faction_03, latin_faction_05, }
-				recruit "barb warguard briton" 2 requires not is_player and not hidden_resource poverty and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, }
-				recruit "barb warguard dacian" 2 requires not is_player and not hidden_resource poverty and factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
-				recruit "warband dhaxe german" 2 requires not is_player and not hidden_resource poverty and factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
-				recruit "barb scythian hoplite" 2 requires not is_player and not hidden_resource poverty and factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
-				recruit "numidian desert warriors" 2 requires not is_player and not hidden_resource poverty and factions { numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_04, desert_faction_05, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert, }
-				recruit "carthaginian medium infantry" 2 requires not is_player and not hidden_resource poverty and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
-				recruit "east heavy infantry" 2 requires not is_player and not hidden_resource poverty and factions { armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, anatolian_faction_02, rebel_judea, parthia, rebel_parthia, }
-				recruit "east hoplite" 2 requires not is_player and not hidden_resource poverty and factions { pontus, anatolian_faction_01, }
-				recruit "illyrian ravager" 2 requires not is_player and not hidden_resource poverty and factions { illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
-				recruit "greek hoplite elite" 2 requires not is_player and not hidden_resource poverty and factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, italic, }
-				recruit "italian swordsmen" 2 requires not is_player and not hidden_resource poverty and factions { italic, }
-				recruit "greek bastarnae" 2 requires not is_player and not hidden_resource poverty and factions { dacian_faction_01, thrace, thracian_faction_01, thracian_faction_02, }
 				recruit "roman princeps" 2 requires not is_player and not hidden_resource poverty and not major_event "marian_reforms" and factions { roman, }
-				recruit "roman legionary cohort i" 2 requires not is_player and not hidden_resource poverty and major_event "marian_reforms" and factions { roman, }
-				recruit "nile axemen" 2 requires not is_player and not hidden_resource poverty and factions { egyptian, }
-				recruit "hypaspists" 2 requires not is_player and not hidden_resource poverty and factions { macedon, hellenic_faction_13, seleucid, egypt, }
-				recruit "rebel judaean zealots" 2 requires not is_player and not hidden_resource poverty and factions { anatolian_faction_02, rebel_judea, }
-
-				recruit "iberian spearmen" 1 requires not is_player and not hidden_resource poverty and factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
-				recruit "barb noble spearmen" 1 requires not is_player and not hidden_resource poverty and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
-				recruit "barb gothic spearmen" 1 requires not is_player and not hidden_resource poverty and factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
-				recruit "dacian noble spearmen" 1 requires not is_player and not hidden_resource poverty and factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
-				recruit "carthaginian heavy infantry" 1 requires not is_player and not hidden_resource poverty and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
-				recruit "numidian spearmen" 1 requires not is_player and not hidden_resource poverty and factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, }
-				recruit "hillmen" 1 requires not is_player and not hidden_resource poverty and factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
-				recruit "numidian legionaries" 1 requires major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_04, desert_faction_05, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert, }
-				recruit "east hoplite brazen shield" 1 requires not is_player and not hidden_resource poverty and factions { pontus, anatolian_faction_01, }
-				recruit "east noble spearmen" 1 requires not is_player and not hidden_resource poverty and factions { armenia, anatolian_faction_02, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, rebel_judea, }
-				recruit "east legionary" 1 requires major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { armenia, anatolian_faction_02, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, rebel_judea, }
-				recruit "persian swordsmen" 1 requires not is_player and not hidden_resource poverty and factions { parthia, rebel_parthia, }
-				recruit "nile elite guards" 1 requires not is_player and not hidden_resource poverty and factions { egyptian, }
-				recruit "egyptian elite guards" 1 requires not is_player and not hidden_resource poverty and factions { egyptian, }
-				recruit "illyrian guard" 1 requires not is_player and not hidden_resource poverty and factions { illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
-				recruit "thracian elite warrior" 1 requires not is_player and not hidden_resource poverty and factions { thrace, thracian_faction_01, thracian_faction_02, }
-				recruit "greek royal pikemen" 1 requires not is_player and not hidden_resource poverty and factions { macedon, hellenic_faction_03, hellenic_faction_13, }
-				recruit "greek silver shield pikemen" 1 requires not is_player and not hidden_resource poverty and factions { seleucid, }
-				recruit "greek hoplite spartan" 1 requires hidden_resource sparta and not is_player and not hidden_resource poverty and factions { hellenic_faction_01, }
 				recruit "roman triarii" 1 requires not is_player and not hidden_resource poverty and not major_event "marian_reforms" and factions { roman, }
 				recruit "roman legionary first cohort i" 1 requires hidden_resource rome and major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { roman, }
 				recruit "roman legionary cohort ii" 1 requires major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { roman, }
 				recruit "roman praetorian cohort i" 1 requires major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { roman, }
-				recruit "italian alarii cohort" 1 requires not is_player and not hidden_resource poverty and factions { italic, }
-				recruit "thorax swordsmen" 1 requires not is_player and not hidden_resource poverty and factions { greek_cities, hellenic_faction_02, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
-
-				recruit "spanish scutarii" 0 requires not is_player and not hidden_resource poverty and factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
-				recruit "spanish bull warriors" 0 requires not is_player and not hidden_resource poverty and factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_07, }
-				recruit "nuragic bull warriors" 0 requires not is_player and not hidden_resource poverty and factions { rebel_nuragic, }
-				recruit "barbarian legionary" 0 requires major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
-				recruit "barb druidic warriors" 0 requires not is_player and not hidden_resource poverty and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, }
-				recruit "celtic kerns" 0 requires not is_player and not hidden_resource poverty and factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
-				recruit "carthaginian noble spearmen" 0 requires not is_player and not hidden_resource poverty and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
-				recruit "carthaginian legionaries" 0 requires major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
-				recruit "numidian noble spearmen" 0 requires not is_player and not hidden_resource poverty and factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, }
-				recruit "mountain men" 0 requires not is_player and not hidden_resource poverty and factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
-				recruit "numidian desert cohort" 0 requires major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_04, desert_faction_05, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert, }
-				recruit "pontic legionaries" 0 requires not is_player and not hidden_resource poverty and factions { pontus, caucasian_faction_04, }
-				recruit "east noble mace warriors" 0 requires not is_player and not hidden_resource poverty and factions { armenia, anatolian_faction_01, anatolian_faction_02, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, rebel_judea, parthia, rebel_parthia, }
-				recruit "georgian elite warrior" 0 requires not is_player and not hidden_resource poverty and factions { caucasian_faction_01, caucasian_faction_02, hellenic_faction_10, }
-				recruit "nile noble spearmen" 0 requires building_factions { egyptian, } and is_player and religion egyptian >= 10
-				recruit "egyptian elite hypaspists" 0 requires not is_player and not hidden_resource poverty and factions { egyptian, }
-				recruit "ptolemaic royal guard" 0 requires not is_player and not hidden_resource poverty and factions { egyptian, }
-				recruit "egyptian legionaries" 0 requires major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { egyptian, }
-				recruit "thracian warriors" 0 requires not is_player and not hidden_resource poverty and factions { thrace, thracian_faction_01, thracian_faction_02, }
-				recruit "greek royal hypaspists" 0 requires not is_player and not hidden_resource poverty and factions { macedon, hellenic_faction_03, hellenic_faction_13, }
-				recruit "greek thorakitai" 0 requires not is_player and not hidden_resource poverty and factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
-				recruit "greek argyraspid" 0 requires not is_player and not hidden_resource poverty and factions { seleucid, }
 				recruit "roman legionary first cohort ii" 0 requires hidden_resource rome and major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { roman, }
 				recruit "roman praetorian cohort urban i" 0 requires major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { roman, }
+				recruit "italian alarii cohort" 1 requires not is_player and not hidden_resource poverty and factions { italic, }
 				recruit "italian praetorian cohort" 0 requires not is_player and not hidden_resource poverty and factions { italic, }
+				recruit "merc barbarian infantry" 3 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and factions { carthage_barcid, rebel_carthage, } and religion c_paganism >= 10 or religion punic >= 10
+				recruit "merc greek hoplites" 3 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and factions { carthage, carthage_hannonid, carthage_magonid, rebel_carthage, } and religion hellenic >= 10 or religion punic >= 10
+				recruit "merc spanish infantry" 3 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and factions { carthage_barcid, rebel_carthage, } and religion i_paganism >= 10 or religion punic >= 10
+				recruit "merc samnite" 3 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and factions { carthage_hannonid, carthage_magonid, rebel_carthage, } and religion samnite >= 10 or religion etruscan >= 10 or religion punic >= 10
 
 				; Human Recruitment
 
@@ -1644,9 +1521,57 @@ building barracks
 				recruit "merc east heavy infantry" 0 requires is_player and hidden_resource mercenary and religion zoroastrian >= 20 or religion oscan >= 20 or religion judaism >= 20
 				recruit "merc kerns" 0 requires is_player and hidden_resource mercenary and religion c_paganism >= 20
 			}
-			construction  7 
+			construction  3 
 			cost  9600 
 			settlement_min huge_city
+			upgrades
+			{
+			}
+		}
+		convert_barracks_1 requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, } and is_player
+		{
+			capability
+			{
+			}
+			construction  2
+			cost  600
+			settlement_min town
+			upgrades
+			{
+			}
+		}
+		convert_barracks_2 requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, } and is_player
+		{
+			capability
+			{
+			}
+			construction  3
+			cost  1200
+			settlement_min large_town
+			upgrades
+			{
+			}
+		}
+		convert_barracks_3 requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, } and is_player
+		{
+			capability
+			{
+			}
+			construction  3
+			cost  2400
+			settlement_min city
+			upgrades
+			{
+			}
+		}
+		convert_barracks_4 requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, } and is_player
+		{
+			capability
+			{
+			}
+			construction  3
+			cost  4800
+			settlement_min large_city
 			upgrades
 			{
 			}
@@ -1659,7 +1584,7 @@ building barracks
 building equestrian
 {
 	icon cavalry
-	levels stables cavalry_barracks hippodrome circus_maximus 
+	levels stables cavalry_barracks hippodrome circus_maximus convert_equestrian_1 convert_equestrian_2 convert_equestrian_3 convert_equestrian_4
 	{
 		stables requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
 		{
@@ -1740,11 +1665,11 @@ building equestrian
 
 				; Merc Recruitment
 
-				recruit "merc barbarian cavalry" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion c_paganism >= 20 or religion g_paganism >= 20 or religion i_paganism >= 20
-				recruit "merc arab cavalry" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion arab >= 20
-				recruit "merc numidian cavalry" 0 requires not hidden_resource greece and not is_player and hidden_resource mercenary and not hidden_resource poverty and religion punic >= 20 or religion berber >= 20
-				recruit "merc horse archers" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion s_paganism >= 20
-				recruit "merc east horse archer" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion zoroastrian >= 20
+				recruit "merc barbarian cavalry" 0 requires not is_player and hidden_resource mercenary  and religion c_paganism >= 20 or religion g_paganism >= 20 or religion i_paganism >= 20
+				recruit "merc arab cavalry" 0 requires not is_player and hidden_resource mercenary  and religion arab >= 20
+				recruit "merc numidian cavalry" 0 requires not hidden_resource greece and not is_player and hidden_resource mercenary  and religion punic >= 20 or religion berber >= 20
+				recruit "merc horse archers" 0 requires not is_player and hidden_resource mercenary  and religion s_paganism >= 20
+				recruit "merc east horse archer" 0 requires not is_player and hidden_resource mercenary  and religion zoroastrian >= 20
 
 				recruit "merc barbarian cavalry" 0 requires is_player and hidden_resource mercenary and religion c_paganism >= 20 or religion g_paganism >= 20 or religion i_paganism >= 20
 				recruit "merc arab cavalry" 0 requires is_player and hidden_resource mercenary and religion arab >= 20
@@ -1758,6 +1683,14 @@ building equestrian
 			upgrades
 			{
 				cavalry_barracks
+				convert_equestrian_1 requires factions { tracian_illyrian, } and is_player and not hidden_resource equestrian_built_by_tracian_illyrian
+				convert_equestrian_1 requires factions { barbarian, } and is_player and not hidden_resource equestrian_built_by_barbarian
+				convert_equestrian_1 requires factions { carthaginian, } and is_player and not hidden_resource equestrian_built_by_carthaginian
+				convert_equestrian_1 requires factions { eastern, } and is_player and not hidden_resource equestrian_built_by_eastern
+				convert_equestrian_1 requires factions { egyptian, } and is_player and not hidden_resource equestrian_built_by_egyptian
+				convert_equestrian_1 requires factions { greek, } and is_player and not hidden_resource equestrian_built_by_greek
+				convert_equestrian_1 requires factions { roman, } and is_player and not hidden_resource equestrian_built_by_roman
+				convert_equestrian_1 requires factions { italic, } and is_player and not hidden_resource equestrian_built_by_italic
 			}
 		}
 		cavalry_barracks requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
@@ -1919,12 +1852,20 @@ building equestrian
 				recruit "merc italian cavalry" 0 requires is_player and hidden_resource mercenary and religion samnite >= 20 or religion etruscan >= 20
 				recruit "merc parthian camel riders" 0 requires hidden_resource persia and resource camels and is_player and hidden_resource mercenary and religion zoroastrian >= 20
 			}
-			construction  4 
+			construction  3 
 			cost  2400 
 			settlement_min city
 			upgrades
 			{
 				hippodrome
+				convert_equestrian_2 requires factions { tracian_illyrian, } and is_player and not hidden_resource equestrian_built_by_tracian_illyrian
+				convert_equestrian_2 requires factions { barbarian, } and is_player and not hidden_resource equestrian_built_by_barbarian
+				convert_equestrian_2 requires factions { carthaginian, } and is_player and not hidden_resource equestrian_built_by_carthaginian
+				convert_equestrian_2 requires factions { eastern, } and is_player and not hidden_resource equestrian_built_by_eastern
+				convert_equestrian_2 requires factions { egyptian, } and is_player and not hidden_resource equestrian_built_by_egyptian
+				convert_equestrian_2 requires factions { greek, } and is_player and not hidden_resource equestrian_built_by_greek
+				convert_equestrian_2 requires factions { roman, } and is_player and not hidden_resource equestrian_built_by_roman
+				convert_equestrian_2 requires factions { italic, } and is_player and not hidden_resource equestrian_built_by_italic
 			}
 		}
 		hippodrome requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
@@ -2136,12 +2077,20 @@ building equestrian
 
 				stage_races 1
 			}
-			construction  6 
+			construction  3 
 			cost  4800 
 			settlement_min large_city
 			upgrades
 			{
 				circus_maximus
+				convert_equestrian_3 requires factions { tracian_illyrian, } and is_player and not hidden_resource equestrian_built_by_tracian_illyrian
+				convert_equestrian_3 requires factions { barbarian, } and is_player and not hidden_resource equestrian_built_by_barbarian
+				convert_equestrian_3 requires factions { carthaginian, } and is_player and not hidden_resource equestrian_built_by_carthaginian
+				convert_equestrian_3 requires factions { eastern, } and is_player and not hidden_resource equestrian_built_by_eastern
+				convert_equestrian_3 requires factions { egyptian, } and is_player and not hidden_resource equestrian_built_by_egyptian
+				convert_equestrian_3 requires factions { greek, } and is_player and not hidden_resource equestrian_built_by_greek
+				convert_equestrian_3 requires factions { roman, } and is_player and not hidden_resource equestrian_built_by_roman
+				convert_equestrian_3 requires factions { italic, } and is_player and not hidden_resource equestrian_built_by_italic
 			}
 		}
 		circus_maximus requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
@@ -2347,11 +2296,11 @@ building equestrian
 
 				; Merc Recruitment
 
-				recruit "merc elephants" 0 requires resource elephants and not factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, seleucid, hellenic_faction_13, pontus, } and not is_player and hidden_resource mercenary and not hidden_resource poverty
-				recruit "merc elephants" 0 requires not resource elephants and factions { hellenic_faction_13, } and not is_player and hidden_resource mercenary and not hidden_resource poverty and hidden_resource capital
-				recruit "merc armoured syrian elephant" 0 requires hidden_resource syria and resource elephants and not is_player and hidden_resource mercenary and not hidden_resource poverty and religion mesopotamian >= 20
-				recruit "merc sarmatian cavalry" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion s_paganism >= 20
-				recruit "merc wolf warrior" 0 requires hidden_resource thrace and not is_player and hidden_resource mercenary and not hidden_resource poverty and religion b_paganism >= 20
+				recruit "merc elephants" 0 requires resource elephants and not factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, seleucid, hellenic_faction_13, pontus, } and not is_player and hidden_resource mercenary 
+				recruit "merc elephants" 0 requires not resource elephants and factions { hellenic_faction_13, } and not is_player and hidden_resource mercenary  and hidden_resource capital
+				recruit "merc armoured syrian elephant" 0 requires hidden_resource syria and resource elephants and not is_player and hidden_resource mercenary  and religion mesopotamian >= 20
+				recruit "merc sarmatian cavalry" 0 requires not is_player and hidden_resource mercenary  and religion s_paganism >= 20
+				recruit "merc wolf warrior" 0 requires hidden_resource thrace and not is_player and hidden_resource mercenary  and religion b_paganism >= 20
 
 				recruit "merc elephants" 0 requires resource elephants and is_player and hidden_resource mercenary
 				recruit "merc armoured syrian elephant" 0 requires hidden_resource syria and resource elephants and is_player and hidden_resource mercenary and religion mesopotamian >= 20
@@ -2373,8 +2322,64 @@ building equestrian
 
 				stage_races 2
 			}
-			construction  7 
+			construction  3 
 			cost  9600 
+			settlement_min huge_city
+			upgrades
+			{
+				convert_equestrian_4 requires factions { tracian_illyrian, } and is_player and not hidden_resource equestrian_built_by_tracian_illyrian
+				convert_equestrian_4 requires factions { barbarian, } and is_player and not hidden_resource equestrian_built_by_barbarian
+				convert_equestrian_4 requires factions { carthaginian, } and is_player and not hidden_resource equestrian_built_by_carthaginian
+				convert_equestrian_4 requires factions { eastern, } and is_player and not hidden_resource equestrian_built_by_eastern
+				convert_equestrian_4 requires factions { egyptian, } and is_player and not hidden_resource equestrian_built_by_egyptian
+				convert_equestrian_4 requires factions { greek, } and is_player and not hidden_resource equestrian_built_by_greek
+				convert_equestrian_4 requires factions { roman, } and is_player and not hidden_resource equestrian_built_by_roman
+				convert_equestrian_4 requires factions { italic, } and is_player and not hidden_resource equestrian_built_by_italic
+			}
+		}
+		convert_equestrian_1 requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, } and is_player
+		{
+			capability
+			{
+			}
+			construction  3
+			cost  1200
+			settlement_min large_town
+			upgrades
+			{
+			}
+		}
+		convert_equestrian_2 requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, } and is_player
+		{
+			capability
+			{
+			}
+			construction  3
+			cost  2400
+			settlement_min city
+			upgrades
+			{
+			}
+		}
+		convert_equestrian_3 requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, } and is_player
+		{
+			capability
+			{
+			}
+			construction  3
+			cost  4800
+			settlement_min large_city
+			upgrades
+			{
+			}
+		}
+		convert_equestrian_4 requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, } and is_player
+		{
+			capability
+			{
+			}
+			construction  3
+			cost  9600
 			settlement_min huge_city
 			upgrades
 			{
@@ -2388,7 +2393,7 @@ building equestrian
 building missiles
 {
 	icon ranged
-	levels practice_field archery_range catapult_range siege_engineer 
+	levels practice_field archery_range catapult_range siege_engineer convert_missiles_1 convert_missiles_2 convert_missiles_3 convert_missiles_4
 	{
 		practice_field requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
 		{
@@ -2396,27 +2401,27 @@ building missiles
 			{
 				; AI Recruitment
 
-				recruit "barb archer slave" 0 requires not is_player and not hidden_resource poverty and factions { rebel_slave, }
-				recruit "carthaginian peltast" 0 requires not is_player and not hidden_resource poverty and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
-				recruit "carthaginian slinger" 0 requires not is_player and not hidden_resource poverty and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
-				recruit "barb peltast gaul" 0 requires not is_player and not hidden_resource poverty and factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
-				recruit "barb peltast german" 0 requires not is_player and not hidden_resource poverty and factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
-				recruit "barb slinger briton" 0 requires not is_player and not hidden_resource poverty and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, }
-				recruit "barb archer dacian" 0 requires not is_player and not hidden_resource poverty and factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, thracian_faction_02, }
-				recruit "barb archer scythian" 0 requires not is_player and not hidden_resource poverty and factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
-				recruit "east peltast" 0 requires not is_player and not hidden_resource poverty and factions { pontus, anatolian_faction_01, anatolian_faction_02, rebel_judea, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, }
-				recruit "east slinger" 0 requires not is_player and not hidden_resource poverty and factions { parthia, rebel_parthia, anatolian_faction_02, rebel_judea, }
-				recruit "east slinger" 0 requires not is_player and not hidden_resource poverty and factions { pontus, } and religion zoroastrian >= 50
-				recruit "egyptian peltast" 0 requires not is_player and not hidden_resource poverty and factions { egyptian, }
-				recruit "egyptian slingers" 0 requires not is_player and not hidden_resource poverty and factions { egyptian, }
-				recruit "greek peltast" 0 requires not is_player and not hidden_resource poverty and factions { greek, tracian_illyrian, italic, }
-				recruit "roman velite" 0 requires not major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { roman, }
-				recruit "roman light infantry auxillia" 0 requires major_event "marian_reforms" and not is_player and not hidden_resource poverty and factions { roman, }
-				recruit "rhodian slingers" 0 requires not is_player and not hidden_resource poverty and factions { hellenic_faction_06, }
-				recruit "libyan infantry" 0 requires not is_player and not hidden_resource poverty and factions { hellenic_faction_08, }
-				recruit "numidian javelinmen" 0 requires not is_player and not hidden_resource poverty and factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, }
-				recruit "tribal javelinmen" 0 requires not is_player and not hidden_resource poverty and factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
-				recruit "tribal slinger" 0 requires not is_player and not hidden_resource poverty and factions { numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_04, desert_faction_05, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert, }
+				recruit "barb archer slave" 0 requires not is_player  and factions { rebel_slave, }
+				recruit "carthaginian peltast" 0 requires not is_player  and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
+				recruit "carthaginian slinger" 0 requires not is_player  and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
+				recruit "barb peltast gaul" 0 requires not is_player  and factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
+				recruit "barb peltast german" 0 requires not is_player  and factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
+				recruit "barb slinger briton" 0 requires not is_player  and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, }
+				recruit "barb archer dacian" 0 requires not is_player  and factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, thracian_faction_02, }
+				recruit "barb archer scythian" 0 requires not is_player  and factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
+				recruit "east peltast" 0 requires not is_player  and factions { pontus, anatolian_faction_01, anatolian_faction_02, rebel_judea, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, }
+				recruit "east slinger" 0 requires not is_player  and factions { parthia, rebel_parthia, anatolian_faction_02, rebel_judea, }
+				recruit "east slinger" 0 requires not is_player  and factions { pontus, } and religion zoroastrian >= 50
+				recruit "egyptian peltast" 0 requires not is_player  and factions { egyptian, }
+				recruit "egyptian slingers" 0 requires not is_player  and factions { egyptian, }
+				recruit "greek peltast" 0 requires not is_player  and factions { greek, tracian_illyrian, italic, }
+				recruit "roman velite" 0 requires not major_event "marian_reforms" and not is_player  and factions { roman, }
+				recruit "roman light infantry auxillia" 0 requires major_event "marian_reforms" and not is_player  and factions { roman, }
+				recruit "rhodian slingers" 0 requires not is_player  and factions { hellenic_faction_06, }
+				recruit "libyan infantry" 0 requires not is_player  and factions { hellenic_faction_08, }
+				recruit "numidian javelinmen" 0 requires not is_player  and factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, }
+				recruit "tribal javelinmen" 0 requires not is_player  and factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
+				recruit "tribal slinger" 0 requires not is_player  and factions { numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_04, desert_faction_05, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert, }
 
 				; Human Recruitment
 
@@ -2457,8 +2462,8 @@ building missiles
 
 				; Merc Recruitment
 
-				recruit "merc peltast" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion hellenic >= 20
-				recruit "merc libyan infantry" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion berber >= 20 or religion punic >= 20
+				recruit "merc peltast" 0 requires not is_player and hidden_resource mercenary  and religion hellenic >= 20
+				recruit "merc libyan infantry" 0 requires not is_player and hidden_resource mercenary  and religion berber >= 20 or religion punic >= 20
 
 				recruit "merc peltast" 0 requires is_player and hidden_resource mercenary and religion hellenic >= 20
 				recruit "merc libyan infantry" 0 requires is_player and hidden_resource mercenary and religion berber >= 20 or religion punic >= 20
@@ -2469,6 +2474,14 @@ building missiles
 			upgrades
 			{
 				archery_range
+				convert_missiles_1 requires factions { tracian_illyrian, } and is_player and not hidden_resource missiles_built_by_tracian_illyrian
+				convert_missiles_1 requires factions { barbarian, } and is_player and not hidden_resource missiles_built_by_barbarian
+				convert_missiles_1 requires factions { carthaginian, } and is_player and not hidden_resource missiles_built_by_carthaginian
+				convert_missiles_1 requires factions { eastern, } and is_player and not hidden_resource missiles_built_by_eastern
+				convert_missiles_1 requires factions { egyptian, } and is_player and not hidden_resource missiles_built_by_egyptian
+				convert_missiles_1 requires factions { greek, } and is_player and not hidden_resource missiles_built_by_greek
+				convert_missiles_1 requires factions { roman, } and is_player and not hidden_resource missiles_built_by_roman
+				convert_missiles_1 requires factions { italic, } and is_player and not hidden_resource missiles_built_by_italic
 			}
 		}
 		archery_range requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
@@ -2580,14 +2593,14 @@ building missiles
 
 				; Merc Recruitment
 
-				recruit "merc illyrian" 0 requires hidden_resource illyria and not is_player and hidden_resource mercenary and not hidden_resource poverty and religion b_paganism >= 20
-				recruit "merc balearic slingers" 0 requires not hidden_resource greece and not is_player and hidden_resource mercenary and not hidden_resource poverty and religion i_paganism >= 20 or religion punic >= 20 or religion nuragic >= 20
-				recruit "merc cretan archers" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion hellenic >= 20
-				recruit "merc rhodian slingers" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion hellenic >= 20
-				recruit "merc tribal slingers" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion c_paganism >= 20 or religion g_paganism >= 20
-				recruit "merc barb archer" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion s_paganism >= 20
-				recruit "merc east archer" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion zoroastrian >= 20 or religion oscan >= 20
-				recruit "merc syrian archer" 0 requires hidden_resource syria and not is_player and hidden_resource mercenary and not hidden_resource poverty and religion mesopotamian >= 20
+				recruit "merc illyrian" 0 requires hidden_resource illyria and not is_player and hidden_resource mercenary  and religion b_paganism >= 20
+				recruit "merc balearic slingers" 0 requires not hidden_resource greece and not is_player and hidden_resource mercenary  and religion i_paganism >= 20 or religion punic >= 20 or religion nuragic >= 20
+				recruit "merc cretan archers" 0 requires not is_player and hidden_resource mercenary  and religion hellenic >= 20
+				recruit "merc rhodian slingers" 0 requires not is_player and hidden_resource mercenary  and religion hellenic >= 20
+				recruit "merc tribal slingers" 0 requires not is_player and hidden_resource mercenary  and religion c_paganism >= 20 or religion g_paganism >= 20
+				recruit "merc barb archer" 0 requires not is_player and hidden_resource mercenary  and religion s_paganism >= 20
+				recruit "merc east archer" 0 requires not is_player and hidden_resource mercenary  and religion zoroastrian >= 20 or religion oscan >= 20
+				recruit "merc syrian archer" 0 requires hidden_resource syria and not is_player and hidden_resource mercenary  and religion mesopotamian >= 20
 
 				recruit "merc peltast" 0 requires is_player and hidden_resource mercenary and religion hellenic >= 20
 				recruit "merc libyan infantry" 0 requires is_player and hidden_resource mercenary and religion berber >= 20 or religion punic >= 20
@@ -2600,12 +2613,20 @@ building missiles
 				recruit "merc east archer" 0 requires is_player and hidden_resource mercenary and religion zoroastrian >= 20 or religion oscan >= 20
 				recruit "merc syrian archer" 0 requires hidden_resource syria and is_player and hidden_resource mercenary and religion mesopotamian >= 20
 			}
-			construction  4 
+			construction  3 
 			cost  2400 
 			settlement_min city
 			upgrades
 			{
 				catapult_range
+				convert_missiles_2 requires factions { tracian_illyrian, } and is_player and not hidden_resource missiles_built_by_tracian_illyrian
+				convert_missiles_2 requires factions { barbarian, } and is_player and not hidden_resource missiles_built_by_barbarian
+				convert_missiles_2 requires factions { carthaginian, } and is_player and not hidden_resource missiles_built_by_carthaginian
+				convert_missiles_2 requires factions { eastern, } and is_player and not hidden_resource missiles_built_by_eastern
+				convert_missiles_2 requires factions { egyptian, } and is_player and not hidden_resource missiles_built_by_egyptian
+				convert_missiles_2 requires factions { greek, } and is_player and not hidden_resource missiles_built_by_greek
+				convert_missiles_2 requires factions { roman, } and is_player and not hidden_resource missiles_built_by_roman
+				convert_missiles_2 requires factions { italic, } and is_player and not hidden_resource missiles_built_by_italic
 			}
 		}
 		catapult_range requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
@@ -2756,14 +2777,14 @@ building missiles
 
 				; Merc Recruitment
 
-				recruit "merc onagers" 0 requires hidden_resource engine and not is_player and hidden_resource mercenary and not hidden_resource poverty
-				recruit "merc balearic slingers" 0 requires not hidden_resource greece and not is_player and hidden_resource mercenary and not hidden_resource poverty and religion i_paganism >= 20 or religion punic >= 20 or religion nuragic >= 20
-				recruit "merc cretan archers" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion hellenic >= 20
-				recruit "merc rhodian slingers" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion hellenic >= 20
-				recruit "merc tribal slingers" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion c_paganism >= 20 or religion g_paganism >= 20
-				recruit "merc barb archer" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion s_paganism >= 20
-				recruit "merc east archer" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion zoroastrian >= 20 or religion oscan >= 20
-				recruit "merc syrian archer" 0 requires hidden_resource syria and not is_player and hidden_resource mercenary and not hidden_resource poverty and religion mesopotamian >= 20
+				recruit "merc onagers" 0 requires hidden_resource engine and not is_player and hidden_resource mercenary 
+				recruit "merc balearic slingers" 0 requires not hidden_resource greece and not is_player and hidden_resource mercenary  and religion i_paganism >= 20 or religion punic >= 20 or religion nuragic >= 20
+				recruit "merc cretan archers" 0 requires not is_player and hidden_resource mercenary  and religion hellenic >= 20
+				recruit "merc rhodian slingers" 0 requires not is_player and hidden_resource mercenary  and religion hellenic >= 20
+				recruit "merc tribal slingers" 0 requires not is_player and hidden_resource mercenary  and religion c_paganism >= 20 or religion g_paganism >= 20
+				recruit "merc barb archer" 0 requires not is_player and hidden_resource mercenary  and religion s_paganism >= 20
+				recruit "merc east archer" 0 requires not is_player and hidden_resource mercenary  and religion zoroastrian >= 20 or religion oscan >= 20
+				recruit "merc syrian archer" 0 requires hidden_resource syria and not is_player and hidden_resource mercenary  and religion mesopotamian >= 20
 
 				recruit "merc onagers" 0 requires hidden_resource engine and is_player and hidden_resource mercenary
 				recruit "merc peltast" 0 requires is_player and hidden_resource mercenary and religion hellenic >= 20
@@ -2777,12 +2798,20 @@ building missiles
 				recruit "merc east archer" 0 requires is_player and hidden_resource mercenary and religion zoroastrian >= 20 or religion oscan >= 20
 				recruit "merc syrian archer" 0 requires hidden_resource syria and is_player and hidden_resource mercenary and religion mesopotamian >= 20
 			}
-			construction  6 
+			construction  3 
 			cost  4800 
 			settlement_min large_city
 			upgrades
 			{
 				siege_engineer
+				convert_missiles_3 requires factions { tracian_illyrian, } and is_player and not hidden_resource missiles_built_by_tracian_illyrian
+				convert_missiles_3 requires factions { barbarian, } and is_player and not hidden_resource missiles_built_by_barbarian
+				convert_missiles_3 requires factions { carthaginian, } and is_player and not hidden_resource missiles_built_by_carthaginian
+				convert_missiles_3 requires factions { eastern, } and is_player and not hidden_resource missiles_built_by_eastern
+				convert_missiles_3 requires factions { egyptian, } and is_player and not hidden_resource missiles_built_by_egyptian
+				convert_missiles_3 requires factions { greek, } and is_player and not hidden_resource missiles_built_by_greek
+				convert_missiles_3 requires factions { roman, } and is_player and not hidden_resource missiles_built_by_roman
+				convert_missiles_3 requires factions { italic, } and is_player and not hidden_resource missiles_built_by_italic
 			}
 		}
 		siege_engineer requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
@@ -2943,14 +2972,14 @@ building missiles
 
 				; Merc Recruitment
 
-				recruit "merc onagers" 0 requires hidden_resource engine and not is_player and hidden_resource mercenary and not hidden_resource poverty
-				recruit "merc balearic slingers" 0 requires not hidden_resource greece and not is_player and hidden_resource mercenary and not hidden_resource poverty and religion i_paganism >= 20 or religion punic >= 20 or religion nuragic >= 20
-				recruit "merc cretan archers" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion hellenic >= 20
-				recruit "merc rhodian slingers" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion hellenic >= 20
-				recruit "merc tribal slingers" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion c_paganism >= 20 or religion g_paganism >= 20
-				recruit "merc barb archer" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion s_paganism >= 20
-				recruit "merc east archer" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion zoroastrian >= 20 or religion oscan >= 20
-				recruit "merc syrian archer" 0 requires hidden_resource syria and not is_player and hidden_resource mercenary and not hidden_resource poverty and religion mesopotamian >= 20
+				recruit "merc onagers" 0 requires hidden_resource engine and not is_player and hidden_resource mercenary 
+				recruit "merc balearic slingers" 0 requires not hidden_resource greece and not is_player and hidden_resource mercenary  and religion i_paganism >= 20 or religion punic >= 20 or religion nuragic >= 20
+				recruit "merc cretan archers" 0 requires not is_player and hidden_resource mercenary  and religion hellenic >= 20
+				recruit "merc rhodian slingers" 0 requires not is_player and hidden_resource mercenary  and religion hellenic >= 20
+				recruit "merc tribal slingers" 0 requires not is_player and hidden_resource mercenary  and religion c_paganism >= 20 or religion g_paganism >= 20
+				recruit "merc barb archer" 0 requires not is_player and hidden_resource mercenary  and religion s_paganism >= 20
+				recruit "merc east archer" 0 requires not is_player and hidden_resource mercenary  and religion zoroastrian >= 20 or religion oscan >= 20
+				recruit "merc syrian archer" 0 requires hidden_resource syria and not is_player and hidden_resource mercenary  and religion mesopotamian >= 20
 
 				recruit "merc onagers" 0 requires hidden_resource engine and is_player and hidden_resource mercenary
 				recruit "merc peltast" 0 requires is_player and hidden_resource mercenary and religion hellenic >= 20
@@ -2964,8 +2993,64 @@ building missiles
 				recruit "merc east archer" 0 requires is_player and hidden_resource mercenary and religion zoroastrian >= 20 or religion oscan >= 20
 				recruit "merc syrian archer" 0 requires hidden_resource syria and is_player and hidden_resource mercenary and religion mesopotamian >= 20
 			}
-			construction  7 
+			construction  3 
 			cost  9600 
+			settlement_min huge_city
+			upgrades
+			{
+				convert_missiles_4 requires factions { tracian_illyrian, } and is_player and not hidden_resource missiles_built_by_tracian_illyrian
+				convert_missiles_4 requires factions { barbarian, } and is_player and not hidden_resource missiles_built_by_barbarian
+				convert_missiles_4 requires factions { carthaginian, } and is_player and not hidden_resource missiles_built_by_carthaginian
+				convert_missiles_4 requires factions { eastern, } and is_player and not hidden_resource missiles_built_by_eastern
+				convert_missiles_4 requires factions { egyptian, } and is_player and not hidden_resource missiles_built_by_egyptian
+				convert_missiles_4 requires factions { greek, } and is_player and not hidden_resource missiles_built_by_greek
+				convert_missiles_4 requires factions { roman, } and is_player and not hidden_resource missiles_built_by_roman
+				convert_missiles_4 requires factions { italic, } and is_player and not hidden_resource missiles_built_by_italic
+			}
+		}
+		convert_missiles_1 requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, } and is_player
+		{
+			capability
+			{
+			}
+			construction  3
+			cost  1200
+			settlement_min large_town
+			upgrades
+			{
+			}
+		}
+		convert_missiles_2 requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, } and is_player
+		{
+			capability
+			{
+			}
+			construction  3
+			cost  2400
+			settlement_min city
+			upgrades
+			{
+			}
+		}
+		convert_missiles_3 requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, } and is_player
+		{
+			capability
+			{
+			}
+			construction  3
+			cost  4800
+			settlement_min large_city
+			upgrades
+			{
+			}
+		}
+		convert_missiles_4 requires factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, } and is_player
+		{
+			capability
+			{
+			}
+			construction  3
+			cost  9600
 			settlement_min huge_city
 			upgrades
 			{
@@ -3028,7 +3113,7 @@ building market
 				agent_limit_settlement spy 1
 				agent_limit_settlement assassin 1
 			}
-			construction  4 
+			construction  3 
 			cost  2400 
 			settlement_min city
 			upgrades
@@ -3049,7 +3134,7 @@ building market
 				agent_limit_settlement spy 1
 				agent_limit_settlement assassin 1
 			}
-			construction  6 
+			construction  3 
 			cost  4800 
 			settlement_min large_city
 			upgrades
@@ -3071,7 +3156,7 @@ building market
 				agent_limit_settlement spy 1
 				agent_limit_settlement assassin 1
 			}
-			construction  7 
+			construction  3 
 			cost  9600 
 			settlement_min huge_city
 			upgrades
@@ -3092,11 +3177,11 @@ building smith
 		{
 			capability
 			{
-				recruit "barb chariot light briton" 0 requires not is_player and not hidden_resource poverty and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, }
-				recruit "east scythed chariot" 0 requires not is_player and not hidden_resource poverty and factions { pontus, anatolian_faction_01, }
-				recruit "egyptian chariot" 0 requires not is_player and not hidden_resource poverty and factions { egyptian, }
-				recruit "egyptian chariot scythed" 0 requires not is_player and not hidden_resource poverty and factions { egyptian, }
-				recruit "greek chariot scythed" 0 requires not is_player and not hidden_resource poverty and factions { seleucid, }
+				recruit "barb chariot light briton" 0 requires not is_player  and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, }
+				recruit "east scythed chariot" 0 requires not is_player  and factions { pontus, anatolian_faction_01, }
+				recruit "egyptian chariot" 0 requires not is_player  and factions { egyptian, }
+				recruit "egyptian chariot scythed" 0 requires not is_player  and factions { egyptian, }
+				recruit "greek chariot scythed" 0 requires not is_player  and factions { seleucid, }
 
 				recruit "barb chariot light briton" 0 requires building_factions { barbarian, } and is_player and religion c_paganism >= 10
 				recruit "east scythed chariot" 0 requires building_factions { eastern, } and is_player and religion zoroastrian >= 10 or religion hellenic >= 10
@@ -3104,11 +3189,10 @@ building smith
 				recruit "egyptian chariot scythed" 0 requires building_factions { egyptian, } and is_player and religion egyptian >= 10
 				recruit "greek chariot scythed" 0 requires building_factions { greek, } and is_player and religion hellenic >= 10
 
-				weapon_simple 1
-				weapon_bladed 1
+				armour 1
 			}
 			construction  3 
-			cost  1200 
+			cost  2000 
 			settlement_min large_town
 			upgrades
 			{
@@ -3119,13 +3203,13 @@ building smith
 		{
 			capability
 			{
-				recruit "barb chariot light briton" 1 requires not is_player and not hidden_resource poverty and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, }
-				recruit "east scythed chariot" 1 requires not is_player and not hidden_resource poverty and factions { pontus, anatolian_faction_01, }
-				recruit "egyptian chariot" 1 requires not is_player and not hidden_resource poverty and factions { egyptian, }
-				recruit "egyptian chariot scythed" 1 requires not is_player and not hidden_resource poverty and factions { egyptian, }
-				recruit "greek chariot scythed" 1 requires not is_player and not hidden_resource poverty and factions { seleucid, }
-				recruit "barb chariot heavy briton" 0 requires not is_player and not hidden_resource poverty and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, }
-				recruit "east chariot archer" 0 requires not is_player and not hidden_resource poverty and factions { pontus, anatolian_faction_01, }
+				recruit "barb chariot light briton" 1 requires not is_player  and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, }
+				recruit "east scythed chariot" 1 requires not is_player  and factions { pontus, anatolian_faction_01, }
+				recruit "egyptian chariot" 1 requires not is_player  and factions { egyptian, }
+				recruit "egyptian chariot scythed" 1 requires not is_player  and factions { egyptian, }
+				recruit "greek chariot scythed" 1 requires not is_player  and factions { seleucid, }
+				recruit "barb chariot heavy briton" 0 requires not is_player  and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, }
+				recruit "east chariot archer" 0 requires not is_player  and factions { pontus, anatolian_faction_01, }
 
 				recruit "barb chariot light briton" 1 requires building_factions { barbarian, } and is_player and religion c_paganism >= 10
 				recruit "barb chariot heavy briton" 0 requires building_factions { barbarian, } and is_player and religion c_paganism >= 10
@@ -3136,13 +3220,10 @@ building smith
 				recruit "egyptian chariot scythed" 1 requires building_factions { egyptian, } and is_player and religion egyptian >= 10
 				recruit "greek chariot scythed" 1 requires building_factions { greek, } and is_player and religion hellenic >= 10
 
-				weapon_simple 1
-				weapon_bladed 1
-				weapon_missile 1
-				armour 1
+				armour 2
 			}
-			construction  4 
-			cost  2400 
+			construction  3 
+			cost  4000 
 			settlement_min city
 			upgrades
 			{
@@ -3153,14 +3234,14 @@ building smith
 		{
 			capability
 			{
-				recruit "barb chariot light briton" 2 requires not is_player and not hidden_resource poverty and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, }
-				recruit "east scythed chariot" 2 requires not is_player and not hidden_resource poverty and factions { pontus, anatolian_faction_01, }
-				recruit "egyptian chariot" 2 requires not is_player and not hidden_resource poverty and factions { egyptian, }
-				recruit "egyptian chariot scythed" 2 requires not is_player and not hidden_resource poverty and factions { egyptian, }
-				recruit "greek chariot scythed" 2 requires not is_player and not hidden_resource poverty and factions { seleucid, }
-				recruit "barb chariot heavy briton" 1 requires not is_player and not hidden_resource poverty and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, }
-				recruit "east chariot archer" 1 requires not is_player and not hidden_resource poverty and factions { pontus, anatolian_faction_01, }
-				recruit "theban sacred band spearmen" 0 requires not is_player and not hidden_resource poverty and factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
+				recruit "barb chariot light briton" 2 requires not is_player  and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, }
+				recruit "east scythed chariot" 2 requires not is_player  and factions { pontus, anatolian_faction_01, }
+				recruit "egyptian chariot" 2 requires not is_player  and factions { egyptian, }
+				recruit "egyptian chariot scythed" 2 requires not is_player  and factions { egyptian, }
+				recruit "greek chariot scythed" 2 requires not is_player  and factions { seleucid, }
+				recruit "barb chariot heavy briton" 1 requires not is_player  and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, }
+				recruit "east chariot archer" 1 requires not is_player  and factions { pontus, anatolian_faction_01, }
+				recruit "theban sacred band spearmen" 0 requires not is_player  and factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
 
 				recruit "barb chariot light briton" 2 requires building_factions { barbarian, } and is_player and religion c_paganism >= 10
 				recruit "barb chariot heavy briton" 1 requires building_factions { barbarian, } and is_player and religion c_paganism >= 10
@@ -3172,12 +3253,11 @@ building smith
 				recruit "greek chariot scythed" 2 requires building_factions { greek, } and is_player and religion hellenic >= 10
 				recruit "theban sacred band spearmen" 0 requires building_factions { greek, } and is_player and religion hellenic >= 10 or religion oscan >= 10
 
-				weapon_simple 2
-				weapon_bladed 2
-				weapon_missile 2
+
+                recruits_morale_bonus bonus 2
 				armour 2
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -3203,10 +3283,10 @@ building port_buildings
 				recruit "naval biremes" 0
 				recruit "naval pirate ships" 0
 
-				recruit "cilician pirate" 0 requires not is_player and not hidden_resource poverty and factions { illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
+				recruit "cilician pirate" 0 requires not is_player  and factions { illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
 				recruit "cilician pirate" 0 requires building_factions { tracian_illyrian, } and is_player and religion b_paganism >= 10
 
-				recruit "merc cilician pirate" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion b_paganism >= 20
+				recruit "merc cilician pirate" 0 requires not is_player and hidden_resource mercenary  and religion b_paganism >= 20
 				recruit "merc cilician pirate" 0 requires is_player and hidden_resource mercenary and religion b_paganism >= 20
 
 				trade_fleet 1
@@ -3229,13 +3309,13 @@ building port_buildings
 				recruit "naval triremes" 0
 				recruit "naval pirate ships" 0
 
-				recruit "cilician pirate" 1 requires not is_player and not hidden_resource poverty and factions { illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
+				recruit "cilician pirate" 1 requires not is_player  and factions { illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
 				recruit "cilician pirate" 1 requires building_factions { tracian_illyrian, } and is_player and religion b_paganism >= 10
 
-				recruit "merc cilician pirate" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion b_paganism >= 20
+				recruit "merc cilician pirate" 0 requires not is_player and hidden_resource mercenary  and religion b_paganism >= 20
 				recruit "merc cilician pirate" 0 requires is_player and hidden_resource mercenary and religion b_paganism >= 20
 
-				trade_fleet 2
+				trade_fleet 1
 			}
 			construction  3 
 			cost  1600 
@@ -3256,15 +3336,15 @@ building port_buildings
 				recruit "naval quinquiremes" 0
 				recruit "naval pirate ships" 0
 
-				recruit "cilician pirate" 2 requires not is_player and not hidden_resource poverty and factions { illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
+				recruit "cilician pirate" 2 requires not is_player  and factions { illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
 				recruit "cilician pirate" 2 requires building_factions { tracian_illyrian, } and is_player and religion b_paganism >= 10
 
-				recruit "merc cilician pirate" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion b_paganism >= 20
+				recruit "merc cilician pirate" 0 requires not is_player and hidden_resource mercenary  and religion b_paganism >= 20
 				recruit "merc cilician pirate" 0 requires is_player and hidden_resource mercenary and religion b_paganism >= 20
 
-				trade_fleet 3
+				trade_fleet 1
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -3315,7 +3395,7 @@ building health
 			{
 				population_health_bonus bonus 3
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -3329,7 +3409,7 @@ building health
 			{
 				population_health_bonus bonus 4
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -3350,7 +3430,7 @@ building hinterland_farms
 		{
 			capability
 			{
-				farming_level 1
+				farming_level 2
 			}
 			construction  2 
 			cost  600 
@@ -3364,7 +3444,7 @@ building hinterland_farms
 		{
 			capability
 			{
-				farming_level 2
+				farming_level 3
 			}
 			construction  3 
 			cost  1200 
@@ -3378,9 +3458,9 @@ building hinterland_farms
 		{
 			capability
 			{
-				farming_level 3
+				farming_level 5
 			}
-			construction  4 
+			construction  3 
 			cost  2400 
 			settlement_min city
 			upgrades
@@ -3392,9 +3472,9 @@ building hinterland_farms
 		{
 			capability
 			{
-				farming_level 4
+				farming_level 7
 			}
-			construction  6 
+			construction  3 
 			cost  4800 
 			settlement_min large_city
 			upgrades
@@ -3406,9 +3486,9 @@ building hinterland_farms
 		{
 			capability
 			{
-				farming_level 5
+				farming_level 9
 			}
-			construction  7 
+			construction  3 
 			cost  9600 
 			settlement_min huge_city
 			upgrades
@@ -3459,7 +3539,7 @@ building hinterland_roads
 			{
 				road_level 2
 			}
-			construction  4 
+			construction  3 
 			cost  2400 
 			settlement_min city
 			upgrades
@@ -3558,7 +3638,7 @@ building academic
 				religious_belief samnite 1 requires building_factions { latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, }
 				religious_belief zoroastrian 1 requires building_factions { parthia, rebel_parthia, armenia, caucasian_faction_03, caucasian_faction_04, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -3584,7 +3664,7 @@ building academic
 				religious_belief samnite 1 requires building_factions { latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, }
 				religious_belief zoroastrian 1 requires building_factions { parthia, rebel_parthia, armenia, caucasian_faction_03, caucasian_faction_04, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -3628,7 +3708,7 @@ building amphitheatres
 				happiness_bonus bonus 2
 				religious_belief roman 1
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -3647,7 +3727,7 @@ building amphitheatres
 				happiness_bonus bonus 3
 				religious_belief roman 1
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -3688,7 +3768,7 @@ building theatres
 				religious_belief hellenic 1 requires not building_factions { hellenic_faction_10, }
 				religious_belief oscan 1 requires building_factions { hellenic_faction_10, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -3704,7 +3784,7 @@ building theatres
 				religious_belief hellenic 1 requires not building_factions { hellenic_faction_10, }
 				religious_belief oscan 1 requires building_factions { hellenic_faction_10, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -3753,7 +3833,7 @@ building despotic_law
 				religious_belief punic 1 requires building_factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
 				religious_belief zoroastrian 1 requires building_factions { parthia, rebel_parthia, armenia, caucasian_faction_03, caucasian_faction_04, pontus, anatolian_faction_01, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -3773,7 +3853,7 @@ building despotic_law
 				religious_belief punic 1 requires building_factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
 				religious_belief zoroastrian 1 requires building_factions { parthia, rebel_parthia, armenia, caucasian_faction_03, caucasian_faction_04, pontus, anatolian_faction_01, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -3818,7 +3898,7 @@ building caravans
 				religious_belief oscan 1 requires building_factions { caucasian_faction_01, caucasian_faction_02, }
 				religious_belief zoroastrian 1 requires building_factions { parthia, rebel_parthia, armenia, caucasian_faction_03, caucasian_faction_04, pontus, anatolian_faction_01, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -3837,7 +3917,7 @@ building caravans
 				religious_belief oscan 1 requires building_factions { caucasian_faction_01, caucasian_faction_02, }
 				religious_belief zoroastrian 1 requires building_factions { parthia, rebel_parthia, armenia, caucasian_faction_03, caucasian_faction_04, pontus, anatolian_faction_01, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -3983,7 +4063,7 @@ building temple_of_battle
 				religious_belief b_paganism 8 requires building_factions { tracian_illyrian, barbarian, }
 				religious_belief samnite 8 requires building_factions { italic, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -4005,7 +4085,7 @@ building temple_of_battle
 				religious_belief b_paganism 10 requires building_factions { tracian_illyrian, barbarian, }
 				religious_belief samnite 10 requires building_factions { italic, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -4056,8 +4136,9 @@ building temple_of_battleforge
 				recruit "barb naked fanatics gauls" 0 requires factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
 				recruit "east axemen armenia" 0 requires factions { armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, }
 				happiness_bonus bonus 2
-				weapon_simple bonus 1
+				law_bonus bonus 1
 				recruits_exp_bonus bonus 1
+				
 				religious_belief c_paganism 4 requires building_factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_07, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
 				religious_belief i_paganism 4 requires building_factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
 				religious_belief zoroastrian 4 requires building_factions { armenia, caucasian_faction_03, caucasian_faction_04, }
@@ -4083,8 +4164,9 @@ building temple_of_battleforge
 				recruit "east axemen armenia" 1 requires factions { armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, }
 				recruit "iberian sword maidens" 0 requires factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
 				happiness_bonus bonus 3
-				weapon_simple bonus 1
+				law_bonus bonus 1
 				recruits_exp_bonus bonus 2
+				
 				religious_belief c_paganism 6 requires building_factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_07, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
 				religious_belief i_paganism 6 requires building_factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
 				religious_belief zoroastrian 6 requires building_factions { armenia, caucasian_faction_03, caucasian_faction_04, }
@@ -4110,16 +4192,17 @@ building temple_of_battleforge
 				recruit "east axemen armenia" 2 requires factions { armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, }
 				recruit "iberian sword maidens" 1 requires factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
 				happiness_bonus bonus 4
-				weapon_simple bonus 1
+				law_bonus bonus 1
 				recruits_exp_bonus bonus 2
 				armour bonus 1
+				
 				religious_belief c_paganism 8 requires building_factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_07, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
 				religious_belief i_paganism 8 requires building_factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
 				religious_belief zoroastrian 8 requires building_factions { armenia, caucasian_faction_03, caucasian_faction_04, }
 				religious_belief oscan 8 requires building_factions { caucasian_faction_01, caucasian_faction_02, }
 				religious_belief nuragic 8 requires building_factions { rebel_nuragic, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -4137,17 +4220,18 @@ building temple_of_battleforge
 				recruit "barb naked fanatics gauls" 3 requires factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
 				recruit "east axemen armenia" 3 requires factions { armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, }
 				recruit "iberian sword maidens" 2 requires factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
-				happiness_bonus bonus 5
-				weapon_simple bonus 1
+				happiness_bonus bonus 4
+				law_bonus bonus 2
 				recruits_exp_bonus bonus 3
 				armour bonus 1
+				
 				religious_belief c_paganism 10 requires building_factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_07, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
 				religious_belief i_paganism 10 requires building_factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
 				religious_belief zoroastrian 10 requires building_factions { armenia, caucasian_faction_03, caucasian_faction_04, }
 				religious_belief oscan 10 requires building_factions { caucasian_faction_01, caucasian_faction_02, }
 				religious_belief nuragic 10 requires building_factions { rebel_nuragic, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -4252,7 +4336,7 @@ building temple_of_farming
 				religious_belief hellenic 8 requires building_factions { greek, }
 				religious_belief samnite 8 requires building_factions { italic, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -4277,7 +4361,7 @@ building temple_of_farming
 				religious_belief hellenic 10 requires building_factions { greek, }
 				religious_belief samnite 10 requires building_factions { italic, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -4379,7 +4463,7 @@ building temple_of_fertility
 				religious_belief roman 8 requires building_factions { roman, }
 				religious_belief samnite 8 requires building_factions { italic, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -4403,7 +4487,7 @@ building temple_of_fertility
 				religious_belief roman 10 requires building_factions { roman, }
 				religious_belief samnite 10 requires building_factions { italic, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -4429,7 +4513,8 @@ building temple_of_forge
 			capability
 			{
 				happiness_bonus bonus 1
-				weapon_simple bonus 1
+				recruits_morale_bonus bonus 1
+				
 				religious_belief b_paganism 2 requires building_factions { tracian_illyrian, barbarian, }
 				religious_belief hellenic 2 requires building_factions { greek, }
 				religious_belief roman 2 requires building_factions { roman, }
@@ -4450,8 +4535,8 @@ building temple_of_forge
 			capability
 			{
 				happiness_bonus bonus 2
-				weapon_simple bonus 1
-				weapon_bladed bonus 1
+                recruits_morale_bonus bonus 2
+                
 				religious_belief b_paganism 4 requires building_factions { tracian_illyrian, barbarian, }
 				religious_belief hellenic 4 requires building_factions { greek, }
 				religious_belief roman 4 requires building_factions { roman, }
@@ -4472,9 +4557,9 @@ building temple_of_forge
 			capability
 			{
 				happiness_bonus bonus 3
-				weapon_simple bonus 1
-				weapon_bladed bonus 1
+                recruits_morale_bonus bonus 2
 				armour bonus 1
+				
 				religious_belief b_paganism 6 requires building_factions { tracian_illyrian, barbarian, }
 				religious_belief hellenic 6 requires building_factions { greek, }
 				religious_belief roman 6 requires building_factions { roman, }
@@ -4495,15 +4580,15 @@ building temple_of_forge
 			capability
 			{
 				happiness_bonus bonus 4
-				weapon_simple bonus 1
-				weapon_bladed bonus 1
+                recruits_morale_bonus bonus 2
 				armour bonus 1
 				recruits_exp_bonus bonus 1
+				
 				religious_belief b_paganism 8 requires building_factions { tracian_illyrian, barbarian, }
 				religious_belief hellenic 8 requires building_factions { greek, }
 				religious_belief roman 8 requires building_factions { roman, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -4519,16 +4604,16 @@ building temple_of_forge
 			capability
 			{
 				happiness_bonus bonus 5
-				weapon_simple bonus 1
-				weapon_bladed bonus 1
+                recruits_morale_bonus bonus 2
 				armour bonus 1
 				recruits_exp_bonus bonus 2
 				law_bonus bonus 2
+				
 				religious_belief b_paganism 10 requires building_factions { tracian_illyrian, barbarian, }
 				religious_belief hellenic 10 requires building_factions { greek, }
 				religious_belief roman 10 requires building_factions { roman, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -4632,7 +4717,7 @@ building temple_of_fun
 				religious_belief roman 8 requires building_factions { roman, }
 				religious_belief samnite 8 requires building_factions { italic, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -4658,7 +4743,7 @@ building temple_of_fun
 				religious_belief roman 10 requires building_factions { roman, }
 				religious_belief samnite 10 requires building_factions { italic, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -4740,13 +4825,13 @@ building temple_of_governors
 
 			capability
 			{
-				recruit "merc thessalian cavalry" 0 requires not is_player and factions { macedon, } and hidden_resource mercenary and not hidden_resource poverty and religion hellenic >= 20
+				recruit "merc thessalian cavalry" 0 requires not is_player and factions { macedon, } and hidden_resource mercenary  and religion hellenic >= 20
 				recruit "merc thessalian cavalry" 0 requires is_player and factions { macedon, } and hidden_resource mercenary and religion hellenic >= 20
 				happiness_bonus bonus 4
 				law_bonus bonus 4
 				religious_belief hellenic 8 requires building_factions { greek, eastern, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -4761,7 +4846,7 @@ building temple_of_governors
 
 			capability
 			{
-				recruit "merc thessalian cavalry" 0 requires not is_player and factions { macedon, } and hidden_resource mercenary and not hidden_resource poverty and religion hellenic >= 20
+				recruit "merc thessalian cavalry" 0 requires not is_player and factions { macedon, } and hidden_resource mercenary  and religion hellenic >= 20
 				recruit "merc thessalian cavalry" 0 requires is_player and factions { macedon, } and hidden_resource mercenary and religion hellenic >= 20
 				happiness_bonus bonus 5
 				law_bonus bonus 5
@@ -4770,7 +4855,7 @@ building temple_of_governors
 				weapon_missile bonus 2
 				religious_belief hellenic 10 requires building_factions { greek, eastern, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -4884,7 +4969,7 @@ building temple_of_healing
 				religious_belief roman 8 requires building_factions { roman, }
 				religious_belief etruscan 8 requires building_factions { italic, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -4913,7 +4998,7 @@ building temple_of_healing
 				religious_belief roman 10 requires building_factions { roman, }
 				religious_belief etruscan 10 requires building_factions { italic, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -5007,7 +5092,7 @@ building temple_of_horse
 				religious_belief i_paganism 8 requires building_factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
 				religious_belief nuragic 8 requires building_factions { rebel_nuragic, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -5028,7 +5113,7 @@ building temple_of_horse
 				religious_belief i_paganism 10 requires building_factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
 				religious_belief nuragic 10 requires building_factions { rebel_nuragic, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -5122,7 +5207,7 @@ building temple_of_hunting
 				religious_belief i_paganism 8 requires building_factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
 				religious_belief hellenic 8 requires building_factions { greek, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -5145,7 +5230,7 @@ building temple_of_hunting
 				religious_belief i_paganism 10 requires building_factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
 				religious_belief hellenic 10 requires building_factions { greek, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -5263,7 +5348,7 @@ building temple_of_justice
 				religious_belief arab 8 requires building_factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
 				religious_belief nuragic 8 requires building_factions { rebel_nuragic, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -5295,7 +5380,7 @@ building temple_of_justice
 				religious_belief arab 10 requires building_factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
 				religious_belief nuragic 10 requires building_factions { rebel_nuragic, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -5389,7 +5474,7 @@ building temple_of_law
 				religious_belief egyptian 8 requires building_factions { egyptian, }
 				religious_belief roman 8 requires building_factions { roman, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -5406,14 +5491,14 @@ building temple_of_law
 			{
 				happiness_bonus bonus 5
 				law_bonus bonus 5
-				weapon_simple bonus 1
-				weapon_bladed bonus 1
+				recruits_morale_bonus bonus 1
 				armour bonus 1
+				
 				religious_belief s_paganism 10 requires building_factions { barbarian, }
 				religious_belief egyptian 10 requires building_factions { egyptian, }
 				religious_belief roman 10 requires building_factions { roman, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -5507,7 +5592,7 @@ building temple_of_leadership
 
 			capability
 			{
-				recruit "merc thessalian cavalry" 0 requires not is_player and not factions { macedon, } and hidden_resource thessaly and hidden_resource mercenary and not hidden_resource poverty and religion hellenic >= 20
+				recruit "merc thessalian cavalry" 0 requires not is_player and not factions { macedon, } and hidden_resource thessaly and hidden_resource mercenary  and religion hellenic >= 20
 				recruit "merc thessalian cavalry" 0 requires is_player and not factions { macedon, } and hidden_resource thessaly and hidden_resource mercenary and religion hellenic >= 20
 				happiness_bonus bonus 4
 				law_bonus bonus 4
@@ -5517,7 +5602,7 @@ building temple_of_leadership
 				religious_belief roman 8 requires building_factions { roman, }
 				religious_belief etruscan 8 requires building_factions { italic, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -5532,7 +5617,7 @@ building temple_of_leadership
 
 			capability
 			{
-				recruit "merc thessalian cavalry" 0 requires not is_player and not factions { macedon, } and hidden_resource thessaly and hidden_resource mercenary and not hidden_resource poverty and religion hellenic >= 20
+				recruit "merc thessalian cavalry" 0 requires not is_player and not factions { macedon, } and hidden_resource thessaly and hidden_resource mercenary  and religion hellenic >= 20
 				recruit "merc thessalian cavalry" 0 requires is_player and not factions { macedon, } and hidden_resource thessaly and hidden_resource mercenary and religion hellenic >= 20
 				happiness_bonus bonus 7
 				law_bonus bonus 5
@@ -5543,7 +5628,7 @@ building temple_of_leadership
 				religious_belief roman 10 requires building_factions { roman, }
 				religious_belief etruscan 10 requires building_factions { italic, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -5645,7 +5730,7 @@ building temple_of_love
 				religious_belief oscan 8 requires building_factions { hellenic_faction_10, }
 				religious_belief samnite 8 requires building_factions { italic, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -5671,7 +5756,7 @@ building temple_of_love
 				religious_belief oscan 10 requires building_factions { hellenic_faction_10, }
 				religious_belief samnite 10 requires building_factions { italic, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -5757,7 +5842,7 @@ building temple_of_naval
 				religious_belief roman 8 requires building_factions { roman, }
 				religious_belief etruscan 8 requires building_factions { italic, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -5776,13 +5861,13 @@ building temple_of_naval
 				recruit "naval corvus quinquireme" 1 requires factions { roman, greek, carthaginian, eastern, egyptian, }
 				religious_belief roman 10 requires building_factions { roman, }
 				religious_belief etruscan 10 requires building_factions { italic, }
+				
 				happiness_bonus bonus 5
 				law_bonus bonus 2
-				weapon_simple bonus 1
-				weapon_bladed bonus 1
+				recruits_morale_bonus bonus 1
 				armour bonus 1
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -5874,7 +5959,7 @@ building temple_of_one_god
 				religious_belief zoroastrian 8 requires building_factions { eastern, }
 				religious_belief egyptian 8 requires building_factions { egyptian, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -5895,7 +5980,7 @@ building temple_of_one_god
 				religious_belief zoroastrian 10 requires building_factions { eastern, }
 				religious_belief egyptian 10 requires building_factions { egyptian, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -6013,7 +6098,7 @@ building temple_of_trade
 				religious_belief oscan 8 requires building_factions { hellenic_faction_10, }
 				religious_belief samnite 8 requires building_factions { italic, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -6043,7 +6128,7 @@ building temple_of_trade
 				religious_belief oscan 10 requires building_factions { hellenic_faction_10, }
 				religious_belief samnite 10 requires building_factions { italic, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -6148,7 +6233,7 @@ building temple_of_victory
 				religious_belief zoroastrian 8 requires building_factions { eastern, }
 				religious_belief etruscan 8 requires building_factions { italic, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -6175,7 +6260,7 @@ building temple_of_victory
 				religious_belief zoroastrian 10 requires building_factions { eastern, }
 				religious_belief etruscan 10 requires building_factions { italic, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -6274,7 +6359,7 @@ building temple_of_violence
 				religious_belief roman 8 requires building_factions { roman, }
 				religious_belief samnite 8 requires building_factions { italic, }
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -6300,7 +6385,7 @@ building temple_of_violence
 				religious_belief roman 10 requires building_factions { roman, }
 				religious_belief samnite 10 requires building_factions { italic, }
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -6525,7 +6610,7 @@ building temple_of_judaism
 				trade_base_income_bonus bonus 4 requires not factions { anatolian_faction_02, rebel_judea, } and hidden_resource jerusalem
 				religious_belief judaism 8 
 			}
-			construction  5 
+			construction  3 
 			cost  3200 
 			settlement_min large_city
 			upgrades
@@ -6543,7 +6628,7 @@ building temple_of_judaism
 				trade_base_income_bonus bonus 5 requires not factions { anatolian_faction_02, rebel_judea, } and hidden_resource jerusalem
 				religious_belief judaism 10 
 			}
-			construction  6 
+			construction  3 
 			cost  6400 
 			settlement_min huge_city
 			upgrades
@@ -6565,27 +6650,25 @@ building hinterland_natives
 			{
 				; AI only handicap bonus
 				; Capital and no poverty
-				taxable_income_bonus bonus 25 requires not is_player and factions { romans_julii, romans_brutii, romans_scipii, } and not hidden_resource poverty and hidden_resource capital
-				taxable_income_bonus bonus 20 requires not is_player and factions { carthage_barcid, carthage_hannonid, carthage_magonid, } and not hidden_resource poverty and hidden_resource capital
+				taxable_income_bonus bonus 25 requires not is_player and factions { romans_julii, romans_brutii, romans_scipii, carthage_barcid, carthage_hannonid, carthage_magonid, } and not hidden_resource poverty and hidden_resource capital
 				taxable_income_bonus bonus 15 requires not is_player and not factions { romans_julii, romans_brutii, romans_scipii, carthage_barcid, carthage_hannonid, carthage_magonid, } and not hidden_resource poverty and hidden_resource capital
 
 				; Capital and poverty
-				taxable_income_bonus bonus 50 requires not is_player and factions { romans_julii, romans_brutii, romans_scipii, } and hidden_resource poverty and hidden_resource capital
-				taxable_income_bonus bonus 40 requires not is_player and factions { carthage_barcid, carthage_hannonid, carthage_magonid, } and hidden_resource poverty and hidden_resource capital
+				taxable_income_bonus bonus 50 requires not is_player and factions { romans_julii, romans_brutii, romans_scipii, carthage_barcid, carthage_hannonid, carthage_magonid, } and hidden_resource poverty and hidden_resource capital
 				taxable_income_bonus bonus 30 requires not is_player and not factions { romans_julii, romans_brutii, romans_scipii, carthage_barcid, carthage_hannonid, carthage_magonid, } and hidden_resource poverty and hidden_resource capital
 
 				; No Capital and no poverty
-				taxable_income_bonus bonus 4 requires not is_player and factions { romans_julii, romans_brutii, romans_scipii, } and not hidden_resource poverty and not hidden_resource capital
+				taxable_income_bonus bonus 4 requires not is_player and factions { romans_julii, romans_brutii, romans_scipii, carthage_barcid, carthage_hannonid, carthage_magonid, } and not hidden_resource poverty and not hidden_resource capital
 				taxable_income_bonus bonus 2 requires not is_player and not factions { romans_julii, romans_brutii, romans_scipii, } and not hidden_resource poverty and not hidden_resource capital
 
 				; No Capital and poverty
-				taxable_income_bonus bonus 8 requires not is_player and factions { romans_julii, romans_brutii, romans_scipii, } and hidden_resource poverty and not hidden_resource capital
+				taxable_income_bonus bonus 8 requires not is_player and factions { romans_julii, romans_brutii, romans_scipii, carthage_barcid, carthage_hannonid, carthage_magonid, } and hidden_resource poverty and not hidden_resource capital
 				taxable_income_bonus bonus 4 requires not is_player and not factions { romans_julii, romans_brutii, romans_scipii, } and hidden_resource poverty and not hidden_resource capital
-
-				law_bonus bonus 2 requires not is_player
 
 				; Happiness bonus because the old traditions become a source of entertainment rather than an identity - Also gives us something to look at when no religious bonus is applied
 				happiness_bonus bonus 1 requires is_player and not hidden_resource b_paganism and not hidden_resource c_paganism and not hidden_resource i_paganism and not hidden_resource g_paganism and not hidden_resource s_paganism and not hidden_resource arab and not hidden_resource berber and not hidden_resource egyptian and not hidden_resource etruscan and not hidden_resource hellenic and not hidden_resource judaism and not hidden_resource mesopotamian and not hidden_resource nuragic and not hidden_resource oscan and not hidden_resource punic and not hidden_resource roman and not hidden_resource samnite and not hidden_resource zoroastrian
+				
+				taxable_income_bonus bonus 20 requires hidden_resource capital and is_player
 
 				; Capital of our faction should always resist foreign cultures unless there is HEAVY foreign interference
 				religious_belief arab 5 requires factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, } and hidden_resource capital
@@ -6780,6 +6863,10 @@ building hinterland_natives
 				recruit "merc barb archer" 0 requires not is_player and not hidden_resource poverty and hidden_resource mercenary and not building_present_min_level missiles archery_range and religion s_paganism >= 20
 				recruit "merc east archer" 0 requires not is_player and not hidden_resource poverty and hidden_resource mercenary and not building_present_min_level missiles archery_range and religion zoroastrian >= 20 or religion oscan >= 20
 				recruit "merc syrian archer" 0 requires hidden_resource syria and not is_player and not hidden_resource poverty and hidden_resource mercenary and not building_present_min_level missiles archery_range and religion mesopotamian >= 20
+			}
+			faction_capability
+			{
+				trade_base_income_bonus bonus -4 requires hidden_resource rhodes_colossus
 			}
 			construction  1 
 			cost  1000 
