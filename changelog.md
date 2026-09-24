@@ -2,6 +2,12 @@
 
 This file records notable player-facing changes to Rome Expanded Submod. The newest changes are listed first.
 
+## 2026-09-24
+
+### Fixed
+
+- Restored 0.55 lethality for every melee weapon after the latest Rome Expanded merge reset several units to higher values.
+
 ## 2026-09-23
 
 ### Changed
