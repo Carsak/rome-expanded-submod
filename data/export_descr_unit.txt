@@ -11207,7 +11207,7 @@ ethnicity					hellenic_faction_14, Achaea
 type						celtic kerns
 dictionary					celtic_kerns	; Gaesatae
 category					infantry
-class						spearmen
+class						light
 voice_type					Medium_1
 voice_indexes				0 1 2
 soldier						celtic_kerns, 40, 0, 0.9
