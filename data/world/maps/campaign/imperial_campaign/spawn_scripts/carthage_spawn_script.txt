@@ -10,7 +10,10 @@ script
 		&&	not IsCapital
 		&&	HasResource punic
 		&&	RandomPercent > 98
-			return true
+			if	not SettlementName Sidon
+			&&	not SettlementName Tyre
+				return true
+			end_if
 		end_if
 
 		if	I_TurnNumber < 100
