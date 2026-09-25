@@ -1875,6 +1875,7 @@ script
 
 	monitor_event FactionTurnEnd FactionType slave
 		if not I_LocalFaction rebel_carthage
+		|| I_CompareCounter rebel_carthage_spawned > 0
 			terminate_monitor
 		end_if
 
@@ -1940,6 +1941,7 @@ script
 
 	monitor_event FactionTurnEnd FactionType slave
 		if not I_LocalFaction rebel_judea
+		|| I_CompareCounter rebel_judea_spawned > 0
 			terminate_monitor
 		end_if
 
@@ -1992,6 +1994,7 @@ script
 
 	monitor_event FactionTurnEnd FactionType slave
 		if not I_LocalFaction parthia
+		|| I_CompareCounter parthia_spawned > 0
 			terminate_monitor
 		end_if
 
@@ -2238,7 +2241,7 @@ script
 				end_if
 			end_if
 
-			if I_CharacterNameNearTile slave, Hasmonaeus Hasmonaeus, 0 254, 78
+			if I_CharacterNameNearTile slave, Phriapites of Asaak, 0 254, 78
 				console_command change_character_faction "Phriapites of Asaak" parthia
 
 				console_command set_heir "Phriapites of Asaak"
@@ -5468,7 +5471,6 @@ script
 						end_for
 
 						if I_CompareCounter is_garrison <= 16
-
 							set_counter is_bonus 1
 						end_if
 					end_if
@@ -5776,27 +5778,27 @@ script
 
 					if I_CompareCounter merc_assist = 0
 						if Treasury > 2000
-							if HasResource thrace
-							and HasResource b_paganism
+							if HasResource engine
+							and RandomPercent > 50
 								inc_counter merc_assist 1
-								console_command add_money local -2000
-								console_command create_unit local_settlement "merc wolf warrior" 1
+								console_command add_money local -1000
+								console_command create_unit local_settlement "merc onagers" 1
 							end_if
 
 							if I_CompareCounter merc_assist = 0
 								if HasResource owner_gallic
 								and HasResource c_paganism
-								and RandomPercent > 50
 									inc_counter merc_assist 1
 									console_command add_money local -1000
 									console_command create_unit local_settlement "merc kerns" 1
 								end_if
 
 							if I_CompareCounter merc_assist = 0
-								if HasResource engine
+								if HasResource thrace
+								and HasResource b_paganism
 									inc_counter merc_assist 1
-									console_command add_money local -1000
-									console_command create_unit local_settlement "merc onagers" 1
+									console_command add_money local -2000
+									console_command create_unit local_settlement "merc wolf warrior" 1
 								end_if
 							end_if
 							end_if
@@ -6585,7 +6587,6 @@ script
 			declare_counter is_cavalry
 			declare_counter is_missile
 			declare_counter is_smithy
-			declare_counter is_navy
 
 			; Government
 			if SettlementBuildingExists = governors_house
@@ -6741,28 +6742,6 @@ script
 				if SettlementBuildingExists = foundry
 					destroy_building "local" foundry
 					console_command create_building local foundry
-				end_if
-			end_if
-			end_if
-
-			; Navy
-			if SettlementBuildingExists = port
-				set_counter is_navy 1
-				destroy_building "local" port
-				console_command create_building local port
-			end_if
-
-			if I_CompareCounter is_navy = 0
-				if SettlementBuildingExists = shipwright
-					set_counter is_navy 1
-					destroy_building "local" shipwright
-					console_command create_building local shipwright
-				end_if
-
-			if I_CompareCounter is_navy = 0
-				if SettlementBuildingExists = dockyard
-					destroy_building "local" dockyard
-					console_command create_building local dockyard
 				end_if
 			end_if
 			end_if
