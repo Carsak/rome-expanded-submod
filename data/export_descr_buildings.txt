@@ -3204,7 +3204,7 @@ building port_buildings
 				recruit "naval pirate ships" 0
 
 				recruit "cilician pirate" 0 requires not is_player and not hidden_resource poverty and factions { illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
-				recruit "cilician pirate" 0 requires building_factions { tracian_illyrian, } and is_player and religion b_paganism >= 10
+				recruit "cilician pirate" 0 requires is_player and religion b_paganism >= 10
 
 				recruit "merc cilician pirate" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion b_paganism >= 20
 				recruit "merc cilician pirate" 0 requires is_player and hidden_resource mercenary and religion b_paganism >= 20
@@ -3230,7 +3230,7 @@ building port_buildings
 				recruit "naval pirate ships" 0
 
 				recruit "cilician pirate" 1 requires not is_player and not hidden_resource poverty and factions { illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
-				recruit "cilician pirate" 1 requires building_factions { tracian_illyrian, } and is_player and religion b_paganism >= 10
+				recruit "cilician pirate" 1 requires is_player and religion b_paganism >= 10
 
 				recruit "merc cilician pirate" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion b_paganism >= 20
 				recruit "merc cilician pirate" 0 requires is_player and hidden_resource mercenary and religion b_paganism >= 20
@@ -3257,7 +3257,7 @@ building port_buildings
 				recruit "naval pirate ships" 0
 
 				recruit "cilician pirate" 2 requires not is_player and not hidden_resource poverty and factions { illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
-				recruit "cilician pirate" 2 requires building_factions { tracian_illyrian, } and is_player and religion b_paganism >= 10
+				recruit "cilician pirate" 2 requires is_player and religion b_paganism >= 10
 
 				recruit "merc cilician pirate" 0 requires not is_player and hidden_resource mercenary and not hidden_resource poverty and religion b_paganism >= 20
 				recruit "merc cilician pirate" 0 requires is_player and hidden_resource mercenary and religion b_paganism >= 20

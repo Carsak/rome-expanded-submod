@@ -10535,7 +10535,11 @@ stat_food					60, 300
 stat_cost					1, 450, 200, 50, 70, 450
 recruit_priority_offset		0
 ownership					slave, rebel_slave, illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05
-ethnicity					pontus, Cilicia, don't_allow_regional
+ethnicity					illyrian_faction_01, Illyria_Pannonia, don't_allow_regional
+ethnicity					illyrian_faction_02, Dalmatia, don't_allow_regional
+ethnicity					illyrian_faction_03, Illyria, don't_allow_regional
+ethnicity					illyrian_faction_04, Dardania, don't_allow_regional
+ethnicity					illyrian_faction_05, Epidamnia, don't_allow_regional
 
 
 type						rhodian slingers
