@@ -13015,7 +13015,7 @@ Trigger aigovernorimmmovable
           and not CharacterIsLocal
           and RandomPercent > 70
 
-    Affects Immovable  1  Chance  100 
+    Affects Immovable  1  Chance  1 
 
 ;------------------------------------------
 Trigger aigovernorimmmovable1
@@ -13026,7 +13026,7 @@ Trigger aigovernorimmmovable1
           and EndedInSettlement
           and RandomPercent > 90
 
-    Affects Immovable  1  Chance  100 
+    Affects Immovable  1  Chance  1
 
 ;------------------------------------------
 Trigger aigovernorimmmovable2
@@ -13037,7 +13037,7 @@ Trigger aigovernorimmmovable2
           and EndedInSettlement
           and RandomPercent > 90
 
-    Affects Immovable  1  Chance  100 
+    Affects Immovable  1  Chance  1 
 
 ;------------------------------------------
 Trigger removeimmmovable

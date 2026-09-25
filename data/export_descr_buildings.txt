@@ -3754,6 +3754,8 @@ building temple_of_battle
 			capability
 			{
 				happiness_bonus bonus 1
+				recruits_morale_bonus bonus 1
+				
 				religious_belief b_paganism 2 requires building_factions { tracian_illyrian, barbarian, }
 				religious_belief samnite 2 requires building_factions { italic, }
 			}
@@ -3775,7 +3777,8 @@ building temple_of_battle
 				recruit "barb naked fanatics slave" 0 requires factions { rebel_slave, }
 				recruit "barb naked fanatics dacian" 0 requires factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
 				happiness_bonus bonus 2
-				recruits_morale_bonus bonus 1
+				recruits_morale_bonus bonus 2
+				
 				religious_belief b_paganism 4 requires building_factions { tracian_illyrian, barbarian, }
 				religious_belief samnite 4 requires building_factions { italic, }
 			}
@@ -3797,7 +3800,8 @@ building temple_of_battle
 				recruit "barb naked fanatics slave" 1 requires factions { rebel_slave, }
 				recruit "barb naked fanatics dacian" 1 requires factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
 				happiness_bonus bonus 3
-				recruits_morale_bonus bonus 2
+				recruits_morale_bonus bonus 3
+				
 				religious_belief b_paganism 6 requires building_factions { tracian_illyrian, barbarian, }
 				religious_belief samnite 6 requires building_factions { italic, }
 			}
@@ -3819,7 +3823,8 @@ building temple_of_battle
 				recruit "barb naked fanatics slave" 2 requires factions { rebel_slave, }
 				recruit "barb naked fanatics dacian" 2 requires factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
 				happiness_bonus bonus 4
-				recruits_morale_bonus bonus 3
+				recruits_morale_bonus bonus 4
+				
 				religious_belief b_paganism 8 requires building_factions { tracian_illyrian, barbarian, }
 				religious_belief samnite 8 requires building_factions { italic, }
 			}
@@ -3841,7 +3846,8 @@ building temple_of_battle
 				recruit "barb naked fanatics slave" 4 requires factions { rebel_slave, }
 				recruit "barb naked fanatics dacian" 4 requires factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
 				happiness_bonus bonus 7
-				recruits_morale_bonus bonus 4
+				recruits_morale_bonus bonus 5
+				
 				religious_belief b_paganism 10 requires building_factions { tracian_illyrian, barbarian, }
 				religious_belief samnite 10 requires building_factions { italic, }
 			}
@@ -6700,8 +6706,8 @@ building convert
 			capability
 			{
 			}
-			construction  3 
-			cost  3000 
+			construction  7
+			cost  9900 
 			settlement_min town
 			upgrades
 			{

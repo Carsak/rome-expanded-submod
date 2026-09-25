@@ -7,9 +7,12 @@ This file records notable player-facing changes to Rome Expanded Submod. The new
 ### Changed
 
 - Temporarily disabled the submod's conversion of captured barracks, stables, and missile ranges because the upstream Rome Expanded mod now provides its own military-building conversion system.
+- Restored Rome Expanded's upkeep values for barbarian foot and missile units while retaining the submod's targeted upkeep balance for Naked Fanatics and Chosen Swordsmen. Cavalry upkeep remains unchanged.
+- Increased the conversion building's construction time from 3 to 7 turns and its cost from 3,000 to 9,900 denarii because a single conversion affects all eligible buildings in the settlement.
 
 ### Fixed
 
+- Fixed overly passive campaign behavior for Carthage by greatly reducing the chance for its AI governors to become immovable.
 - Restored 0.55 lethality for every melee weapon after the latest Rome Expanded merge reset several units to higher values.
 
 ## 2026-09-23
