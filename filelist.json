@@ -25,7 +25,7 @@
 	},
 	{
 		"filename": "data\/export_descr_unit.txt",
-		"checksum": 3102311860
+		"checksum": 2841593009
 	},
 	{
 		"filename": "data\/feral_descr_movement_multipliers.txt",
@@ -65,31 +65,31 @@
 	},
 	{
 		"filename": "data\/text\/export_buildings.txt",
-		"checksum": 924317262
+		"checksum": 3287741018
 	},
 	{
 		"filename": "data\/text\/export_buildings_mac_de.txt",
-		"checksum": 2906985809
+		"checksum": 2234175298
 	},
 	{
 		"filename": "data\/text\/export_buildings_mac_es.txt",
-		"checksum": 3662789746
+		"checksum": 3686413420
 	},
 	{
 		"filename": "data\/text\/export_buildings_mac_fr.txt",
-		"checksum": 386059464
+		"checksum": 1323662670
 	},
 	{
 		"filename": "data\/text\/export_buildings_mac_it.txt",
-		"checksum": 3292371808
+		"checksum": 2807636544
 	},
 	{
 		"filename": "data\/text\/export_buildings_mac_ru.txt",
-		"checksum": 2471682625
+		"checksum": 3898082930
 	},
 	{
 		"filename": "data\/text\/export_buildings_mac_zh_cn.txt",
-		"checksum": 2488304483
+		"checksum": 2141505862
 	},
 	{
 		"filename": "data\/ui\/barbarian\/buildings\/#barbarian_convert_barracks_1.tga",
@@ -1245,7 +1245,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/campaign_script.txt",
-		"checksum": 1657203272
+		"checksum": 3220327220
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_disasters.txt",
