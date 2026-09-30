@@ -2,6 +2,24 @@
 
 This file records notable player-facing changes to Rome Expanded Submod. The newest changes are listed first.
 
+## 2026-09-26
+
+### Changed
+
+- Restored Rome Expanded's original attack and charge values for seven pike units while reducing their primary pike lethality from 0.55 to 0.3
+
+| Unit type | Previous attack / charge | Restored attack / charge |
+|---|---:|---:|
+| `egyptian infantry` | 3 / 1 | 8 / 3 |
+| `egyptian elite guards` | 4 / 1 | 10 / 4 |
+| `greek levy pikemen` | 2 / 1 | 6 / 2 |
+| `greek pikemen` | 3 / 1 | 8 / 3 |
+| `greek royal pikemen` | 4 / 1 | 10 / 4 |
+| `greek silver shield pikemen` | 5 / 1 | 10 / 4 |
+| `merc greek pikemen` | 3 / 1 | 8 / 3 |
+
+- Exterminating settlements now give 20% public order bonus.
+
 ## 2026-09-24
 
 ### Changed

@@ -4679,15 +4679,15 @@ category					infantry
 class						spearmen
 voice_type					Heavy_1
 voice_indexes				0 1 2
-soldier						greek_pike_phalanx, 40, 0, 1
+soldier						greek_pike_phalanx, 60, 0, 1
 attributes					sea_faring, hide_forest, can_sap
 formation					1, 1, 2, 2, 5, square, phalanx
 stat_health					1, 0
-stat_pri					8, 3, no, 0, 0, melee, blade, piercing, spear, 25, 0.55
+stat_pri					8, 3, no, 0, 0, melee, blade, piercing, spear, 25, 0.3
 stat_pri_attr				spear, long_pike, spear_bonus_8
 stat_sec					5, 2, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
 stat_sec_attr				no
-stat_pri_armour				6, 5, 5, leather
+stat_pri_armour				6, 5, 2, leather
 stat_sec_armour				0, 0, flesh
 stat_heat					1
 stat_ground					2, 1, 0, -1
@@ -4695,7 +4695,7 @@ stat_mental					5, normal, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 470, 170, 50, 70, 470
+stat_cost					1, 470, 250, 50, 70, 470
 recruit_priority_offset		0
 ownership					slave, rebel_slave, pontus, anatolian_faction_01
 ethnicity					pontus, Pontus
@@ -4712,7 +4712,7 @@ officer						east_heavy_standard
 attributes					sea_faring, hide_forest, can_sap, hardy
 formation					1, 1, 2, 2, 8, square, phalanx
 stat_health					1, 0
-stat_pri					10, 4, no, 0, 0, melee, blade, piercing, spear, 25, 0.55
+stat_pri					10, 4, no, 0, 0, melee, blade, piercing, spear, 25, 0.3
 stat_pri_attr				spear, long_pike, spear_bonus_8
 stat_sec					5, 3, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
 stat_sec_attr				no
@@ -5561,7 +5561,7 @@ soldier						egyptian_spearman, 40, 0, 1
 attributes					sea_faring, hide_forest, can_sap
 formation					1, 1, 2, 2, 5, square, phalanx
 stat_health					1, 0
-stat_pri					7, 3, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
+stat_pri					7, 3, no, 0, 0, melee, simple, piercing, spear, 25, 0.3
 stat_pri_attr				spear, spear_bonus_8
 stat_sec					5, 2, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
 stat_sec_attr				no
@@ -5589,7 +5589,7 @@ soldier						greek_pike_phalanx, 60, 0, 1
 attributes					sea_faring, hide_forest, can_sap
 formation					1, 1, 2, 2, 8, square, phalanx
 stat_health					1, 0
-stat_pri					3, 1, no, 0, 0, melee, blade, piercing, spear, 25, 0.55
+stat_pri					8, 3, no, 0, 0, melee, blade, piercing, spear, 25, 0.3
 stat_pri_attr				spear, long_pike, spear_bonus_8
 stat_sec					5, 2, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
 stat_sec_attr				no
@@ -5618,7 +5618,7 @@ officer						greek_standard
 attributes					sea_faring, hide_forest, can_sap, hardy
 formation					1, 1, 2, 2, 5, square, phalanx
 stat_health					1, 0
-stat_pri					4, 1, no, 0, 0, melee, blade, piercing, spear, 25, 0.55
+stat_pri					10, 4, no, 0, 0, melee, blade, piercing, spear, 25, 0.3
 stat_pri_attr				spear, long_pike, spear_bonus_8
 stat_sec					5, 3, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
 stat_sec_attr				no
@@ -6257,7 +6257,7 @@ officer						greek_standard
 attributes					sea_faring, hide_forest, can_sap, very_hardy
 formation					1, 1, 2, 2, 5, square, phalanx
 stat_health					2, 0
-stat_pri					16, 4, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
+stat_pri					16, 4, no, 0, 0, melee, simple, piercing, spear, 25, 0.3
 stat_pri_attr				spear, long_pike, spear_bonus_8
 stat_sec					12, 3, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
 stat_sec_attr				no
@@ -6285,7 +6285,7 @@ soldier						greek_levy_pikeman, 60, 0, 1
 attributes					sea_faring, hide_forest, can_sap
 formation					1, 1, 2, 2, 8, square, phalanx
 stat_health					1, 0
-stat_pri					2, 1, no, 0, 0, melee, blade, piercing, spear, 25, 0.55
+stat_pri					6, 2, no, 0, 0, melee, blade, piercing, spear, 25, 0.3
 stat_pri_attr				spear, long_pike, spear_bonus_8
 stat_sec					3, 1, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
 stat_sec_attr				no
@@ -6297,7 +6297,7 @@ stat_mental					3, normal, trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 410, 200, 40, 50, 410
+stat_cost					1, 410, 150, 40, 50, 410
 recruit_priority_offset		0
 ownership					slave, rebel_slave, macedon, hellenic_faction_03, hellenic_faction_13, seleucid, pontus
 ethnicity					macedon, Macedonia
@@ -6314,7 +6314,7 @@ soldier						greek_pike_phalanx, 60, 0, 1
 attributes					sea_faring, hide_forest, can_sap
 formation					1, 1, 2, 2, 8, square, phalanx
 stat_health					1, 0
-stat_pri					3, 1, no, 0, 0, melee, blade, piercing, spear, 25, 0.55
+stat_pri					8, 3, no, 0, 0, melee, blade, piercing, spear, 25, 0.3
 stat_pri_attr				spear, long_pike, spear_bonus_8
 stat_sec					5, 2, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
 stat_sec_attr				no
@@ -6345,7 +6345,7 @@ officer						greek_standard
 attributes					sea_faring, hide_forest, can_sap, hardy
 formation					1, 1, 2, 2, 5, square, phalanx
 stat_health					1, 0
-stat_pri					4, 1, no, 0, 0, melee, blade, piercing, spear, 25, 0.55
+stat_pri					10, 4, no, 0, 0, melee, blade, piercing, spear, 25, 0.3
 stat_pri_attr				spear, long_pike, spear_bonus_8
 stat_sec					5, 3, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
 stat_sec_attr				no
@@ -6405,7 +6405,7 @@ officer						greek_standard
 attributes					sea_faring, hide_forest, can_sap, hardy
 formation					1, 1, 2, 2, 8, square, phalanx
 stat_health					1, 0
-stat_pri					5, 1, no, 0, 0, melee, blade, piercing, spear, 25, 0.55
+stat_pri					10, 4, no, 0, 0, melee, blade, piercing, spear, 25, 0.3
 stat_pri_attr				spear, long_pike, spear_bonus_8
 stat_sec					5, 3, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
 stat_sec_attr				no
@@ -6474,7 +6474,7 @@ stat_mental					11, impetuous, untrained
 stat_charge_dist			40
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 790, 130, 80, 120, 790
+stat_cost					2, 790, 200, 80, 120, 790
 recruit_priority_offset		0
 ownership					slave, rebel_slave, dacian_faction_01, thrace, thracian_faction_01, thracian_faction_02
 ethnicity					thrace, Thrace, don't_allow_mixed, don't_allow_regional, don't_allow_custom
@@ -9304,7 +9304,7 @@ soldier						greek_pike_phalanx, 60, 0, 1
 attributes					sea_faring, hide_forest, can_sap, mercenary_unit
 formation					1, 1, 2, 2, 8, square, phalanx
 stat_health					1, 0
-stat_pri					3, 1, no, 0, 0, melee, blade, piercing, spear, 25, 0.55
+stat_pri					8, 3, no, 0, 0, melee, blade, piercing, spear, 25, 0.3
 stat_pri_attr				spear, long_pike, spear_bonus_8
 stat_sec					6, 2, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
 stat_sec_attr				no
@@ -10378,7 +10378,7 @@ officer						greek_standard
 attributes					sea_faring, general_unit, hide_forest, very_hardy, general_unit_upgrade "marian_reforms"
 formation					1, 1, 2, 2, 5, square, phalanx
 stat_health					2, 0
-stat_pri					16, 4, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
+stat_pri					16, 4, no, 0, 0, melee, simple, piercing, spear, 25, 0.3
 stat_pri_attr				spear, long_pike, spear_bonus_8
 stat_sec					12, 3, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
 stat_sec_attr				no
@@ -11184,7 +11184,7 @@ officer						greek_standard
 attributes					sea_faring, hide_forest, can_sap, very_hardy
 formation					1, 1, 2, 2, 5, square, phalanx
 stat_health					1, 0
-stat_pri					12, 4, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
+stat_pri					12, 4, no, 0, 0, melee, simple, piercing, spear, 25, 0.3
 stat_pri_attr				spear, long_pike, spear_bonus_8
 stat_sec					8, 3, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
 stat_sec_attr				no
@@ -13648,7 +13648,7 @@ officer						greek_standard
 attributes					sea_faring, hide_forest, can_sap, hardy
 formation					1, 1, 2, 2, 8, square, phalanx
 stat_health					1, 0
-stat_pri					13, 4, no, 0, 0, melee, blade, piercing, spear, 25, 0.55
+stat_pri					13, 4, no, 0, 0, melee, blade, piercing, spear, 25, 0.3
 stat_pri_attr				spear, long_pike, spear_bonus_8
 stat_sec					7, 3, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
 stat_sec_attr				no
@@ -13678,7 +13678,7 @@ officer						greek_standard
 attributes					sea_faring, hide_forest, can_sap, hardy
 formation					1, 1, 2, 2, 5, square, phalanx
 stat_health					1, 0
-stat_pri					12, 4, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
+stat_pri					12, 4, no, 0, 0, melee, simple, piercing, spear, 25, 0.3
 stat_pri_attr				spear, spear_bonus_8
 stat_sec					8, 3, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
 stat_sec_attr				no
@@ -14582,7 +14582,7 @@ soldier						egyptian_spearman, 40, 0, 1
 attributes					sea_faring, hide_forest, can_sap
 formation					1, 1, 2, 2, 5, square, phalanx
 stat_health					1, 0
-stat_pri					7, 3, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
+stat_pri					7, 3, no, 0, 0, melee, simple, piercing, spear, 25, 0.3
 stat_pri_attr				spear, spear_bonus_8
 stat_sec					5, 2, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
 stat_sec_attr				no

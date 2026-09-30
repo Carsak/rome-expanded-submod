@@ -6004,9 +6004,9 @@ Trait AIBattleBonus
         EffectsDescription AI_Battle_Bonus_effects_desc
         Threshold  1 
         
-        Effect TroopMorale  3
-        Effect HitPoints  3
-		Effect SiegeEngineering 30
+        Effect TroopMorale  3 
+        Effect HitPoints  3 
+        Effect SiegeEngineering  20 
 
 ;------------------------------------------
 Trait GoodMerchant

@@ -6594,6 +6594,7 @@ building hinterland_natives
 
 				; Massacring a populaton drives away future growth for some time to come - only for the player since the AI doesn't know how to counter this
 				population_growth_bonus bonus -5 requires is_player and hidden_resource exterminated
+				law_bonus bonus 4 requires hidden_resource exterminated
 
 				; Merc Recruitment - barracks
 
