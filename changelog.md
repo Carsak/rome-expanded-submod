@@ -2,6 +2,12 @@
 
 This file records notable player-facing changes to Rome Expanded Submod. The newest changes are listed first.
 
+## 2026-09-30
+
+### Changed
+
+- Restricted swimming to light infantry and foot javelin skirmishers. Cavalry, elephants, heavy infantry, archers, and slingers can no longer swim.
+
 ## 2026-09-26
 
 ### Changed

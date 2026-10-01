@@ -458,7 +458,7 @@ class						missile
 voice_type					Light_1
 voice_indexes				0 1 2
 soldier						barb_slinger, 40, 0, 0.9
-attributes					sea_faring, hide_improved_forest, can_swim
+attributes					sea_faring, hide_improved_forest
 formation					1.6, 2, 3.2, 4, 3, square
 stat_health					1, 0
 stat_pri					4, 1, stone, 120, 40, missile, archery, blunt, none, 25, 1
@@ -894,7 +894,7 @@ voice_type					Light_1
 voice_indexes				0 1 2
 soldier						warband_spearman_germans, 60, 0, 1.2
 officer						barb_standard_germans
-attributes					sea_faring, hide_improved_forest, can_swim
+attributes					sea_faring, hide_improved_forest
 formation					1, 1, 2, 2, 5, square, shield_wall
 stat_health					1, 0
 stat_pri					9, 5, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
@@ -933,7 +933,7 @@ voice_type					Heavy_1
 voice_indexes				0 1 2
 soldier						warband_sword_britons, 40, 0, 1.2
 officer						barb_standard
-attributes					sea_faring, hide_improved_forest, can_swim, warcry
+attributes					sea_faring, hide_improved_forest, warcry
 formation					1.2, 1.2, 2.4, 2.4, 4, square
 stat_health					1, 0
 stat_pri					10, 4, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
@@ -967,7 +967,7 @@ voice_type					Heavy_1
 voice_indexes				0 1 2
 soldier						warband_sword_gauls, 40, 0, 1.2
 officer						barb_standard_gauls
-attributes					sea_faring, hide_improved_forest, can_swim, warcry
+attributes					sea_faring, hide_improved_forest, warcry
 formation					1.2, 1.2, 2.4, 2.4, 4, square
 stat_health					1, 0
 stat_pri					10, 4, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
@@ -1015,7 +1015,7 @@ voice_type					Light_1
 voice_indexes				0 1 2
 soldier						warband_axe, 40, 0, 1.2
 officer						barb_standard_germans
-attributes					sea_faring, hide_improved_forest, can_swim, warcry
+attributes					sea_faring, hide_improved_forest, warcry
 formation					1.2, 1.2, 2.4, 2.4, 4, square
 stat_health					1, 0
 stat_pri					11, 5, no, 0, 0, melee, blade, piercing, axe, 25, 0.55
@@ -1054,7 +1054,7 @@ voice_type					Light_1
 voice_indexes				0 1 2
 soldier						warband_axe_scythia, 40, 0, 1.2
 officer						barb_standard_scythia
-attributes					sea_faring, hide_improved_forest, can_swim, warcry
+attributes					sea_faring, hide_improved_forest, warcry
 formation					1.2, 1.2, 2.4, 2.4, 4, square
 stat_health					1, 0
 stat_pri					11, 5, no, 0, 0, melee, blade, piercing, axe, 25, 0.55
@@ -1083,7 +1083,7 @@ voice_type					Heavy_1
 voice_indexes				0 1 2
 soldier						warband_falx, 40, 0, 1.5
 officer						barb_standard_dacia
-attributes					sea_faring, hide_improved_forest, can_swim, warcry
+attributes					sea_faring, hide_improved_forest, warcry
 formation					1.2, 1.2, 2.4, 2.4, 4, square
 stat_health					1, 0
 stat_pri					13, 5, no, 0, 0, melee, blade, slashing, axe, 25, 0.55
@@ -1112,7 +1112,7 @@ voice_type					Heavy_1
 voice_indexes				0 1 2
 soldier						warband_falx, 40, 0, 1.5
 officer						greek_standard
-attributes					sea_faring, hide_improved_forest, can_swim, warcry
+attributes					sea_faring, hide_improved_forest, warcry
 formation					1.2, 1.2, 2.4, 2.4, 4, square
 stat_health					1, 0
 stat_pri					13, 5, no, 0, 0, melee, blade, slashing, axe, 25, 0.55
@@ -1141,7 +1141,7 @@ voice_type					Heavy_1
 voice_indexes				0 1 2
 soldier						warband_dhaxe, 40, 0, 1.5
 officer						barb_standard_germans
-attributes					sea_faring, hide_improved_forest, hardy, can_swim, warcry
+attributes					sea_faring, hide_improved_forest, hardy, warcry
 formation					1.2, 1.2, 2.4, 2.4, 3, square
 stat_health					1, 0
 stat_pri					18, 5, no, 0, 0, melee, blade, piercing, axe, 25, 0.55
@@ -1290,7 +1290,7 @@ voice_type					Heavy_1
 voice_indexes				0 1 2
 soldier						warband_woad, 40, 0, 1.5
 officer						barb_standard
-attributes					sea_faring, hide_improved_forest, hardy, can_swim, warcry
+attributes					sea_faring, hide_improved_forest, hardy, warcry
 formation					1.2, 1.2, 2.4, 2.4, 3, square
 stat_health					1, 0
 stat_pri					13, 5, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
@@ -1326,7 +1326,7 @@ class						heavy
 voice_type					Light_1
 voice_indexes				0 1 2
 soldier						barb_naked_fanatic_dacia, 40, 0, 1.5
-attributes					sea_faring, hide_improved_forest, hardy, can_swim, warcry
+attributes					sea_faring, hide_improved_forest, hardy, warcry
 formation					1.2, 1.2, 2.4, 2.4, 4, square
 stat_health					1, 0
 stat_pri					13, 5, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
@@ -1357,7 +1357,7 @@ class						heavy
 voice_type					Light_1
 voice_indexes				0 1 2
 soldier						barb_naked_fanatic, 40, 0, 1.5
-attributes					sea_faring, hide_improved_forest, hardy, can_swim, warcry
+attributes					sea_faring, hide_improved_forest, hardy, warcry
 formation					1.2, 1.2, 2.4, 2.4, 4, square
 stat_health					1, 0
 stat_pri					13, 5, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
@@ -1406,7 +1406,7 @@ class						heavy
 voice_type					Light_1
 voice_indexes				0 1 2
 soldier						barb_naked_fanatic_germans, 40, 0, 1.5
-attributes					sea_faring, hide_improved_forest, hardy, can_swim, warcry
+attributes					sea_faring, hide_improved_forest, hardy, warcry
 formation					1.2, 1.2, 2.4, 2.4, 4, square
 stat_health					1, 0
 stat_pri					13, 5, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
@@ -1447,7 +1447,7 @@ class						heavy
 voice_type					Light_1
 voice_indexes				0 1 2
 soldier						barb_naked_fanatic, 40, 0, 1.5
-attributes					sea_faring, hide_improved_forest, hardy, can_swim, warcry
+attributes					sea_faring, hide_improved_forest, hardy, warcry
 formation					1.2, 1.2, 2.4, 2.4, 4, square
 stat_health					1, 0
 stat_pri					13, 5, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
@@ -1478,7 +1478,7 @@ class						heavy
 voice_type					Light_1
 voice_indexes				0 1 2
 soldier						barb_naked_fanatic_spain, 40, 0, 1.5
-attributes					sea_faring, hide_improved_forest, hardy, can_swim, warcry
+attributes					sea_faring, hide_improved_forest, hardy, warcry
 formation					1.2, 1.2, 2.4, 2.4, 4, square
 stat_health					1, 0
 stat_pri					13, 5, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
@@ -1625,7 +1625,7 @@ class						heavy
 voice_type					Medium_1
 voice_indexes				0 1 2
 soldier						barb_night_raider, 40, 0, 1.2
-attributes					sea_faring, hide_forest, frighten_foot, hardy, can_swim, warcry
+attributes					sea_faring, hide_forest, frighten_foot, hardy, warcry
 formation					1.2, 1.2, 2.4, 2.4, 4, square
 stat_health					1, 0
 stat_pri					14, 6, no, 0, 0, melee, blade, piercing, axe, 25, 0.55
@@ -1910,7 +1910,7 @@ voice_indexes				0 1 2
 soldier						barb_cavalry_dacia, 27, 0, 1
 mount						medium horse
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim
+attributes					sea_faring, hide_forest
 formation					1.5, 4, 3, 6, 4, square, wedge
 stat_health					1, 0
 stat_pri					8, 7, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
@@ -1940,7 +1940,7 @@ voice_indexes				0 1 2
 soldier						barb_cavalry, 27, 0, 1
 mount						medium horse
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim
+attributes					sea_faring, hide_forest
 formation					1.5, 4, 3, 6, 4, square, wedge
 stat_health					1, 0
 stat_pri					8, 7, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
@@ -1988,7 +1988,7 @@ voice_indexes				0 1 2
 soldier						barb_cavalry_germans, 27, 0, 1
 mount						medium horse
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim
+attributes					sea_faring, hide_forest
 formation					1.5, 4, 3, 6, 4, square, wedge
 stat_health					1, 0
 stat_pri					8, 7, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
@@ -2028,7 +2028,7 @@ voice_indexes				0 1 2
 soldier						barb_cavalry_scythia, 27, 0, 1
 mount						medium horse
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim
+attributes					sea_faring, hide_forest
 formation					1.5, 4, 3, 6, 4, square, wedge
 stat_health					1, 0
 stat_pri					8, 7, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
@@ -2058,7 +2058,7 @@ voice_indexes				0 1 2
 soldier						barb_cavalry_slave, 27, 0, 1
 mount						medium horse
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim
+attributes					sea_faring, hide_forest
 formation					1.5, 4, 3, 6, 4, square, wedge
 stat_health					1, 0
 stat_pri					8, 7, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
@@ -2437,7 +2437,7 @@ voice_indexes				0 1 2
 soldier						barb_horse_archer, 27, 0, 1
 mount						light horse
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, hardy, can_swim, cantabrian_circle
+attributes					sea_faring, hide_forest, hardy, cantabrian_circle
 formation					3, 4, 6, 6, 4, square
 stat_health					1, 0
 stat_pri					7, 1, arrow, 120, 40, missile, archery, piercing, none, 25, 1
@@ -2468,7 +2468,7 @@ voice_indexes				0 1 2
 soldier						barb_horse_archer, 27, 0, 1
 mount						light horse
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, hardy, can_swim, cantabrian_circle
+attributes					sea_faring, hide_forest, hardy, cantabrian_circle
 formation					3, 4, 6, 6, 4, square
 stat_health					1, 0
 stat_pri					7, 1, arrow, 120, 40, missile, archery, piercing, none, 25, 1
@@ -2529,7 +2529,7 @@ voice_type					Female_1
 soldier						barb_headhunting_maiden, 27, 0, 1
 mount						light horse
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim
+attributes					sea_faring, hide_forest
 formation					3, 4, 6, 6, 4, square, wedge
 stat_health					1, 0
 stat_pri					9, 8, no, 0, 0, melee, simple, blunt, mace, 25, 0.55
@@ -3192,7 +3192,7 @@ class						missile
 voice_type					Light_1
 voice_indexes				0 1 2
 soldier						carthaginian_slinger, 40, 0, 0.8
-attributes					sea_faring, hide_forest, can_sap, can_swim
+attributes					sea_faring, hide_forest, can_sap
 formation					1.6, 2, 3.2, 4, 3, square
 stat_health					1, 0
 stat_pri					4, 1, stone, 120, 40, missile, archery, blunt, none, 25, 1
@@ -3737,7 +3737,7 @@ voice_indexes				0 1 2
 soldier						carthaginian_cavalry, 27, 0, 1
 mount						medium horse
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim
+attributes					sea_faring, hide_forest
 formation					1.5, 4, 3, 6, 4, square, wedge
 stat_health					1, 0
 stat_pri					7, 4, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
@@ -3781,7 +3781,7 @@ voice_indexes				0 1 2
 soldier						carthaginian_medium_cavalry, 27, 0, 1
 mount						medium horse
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim
+attributes					sea_faring, hide_forest
 formation					1.5, 4, 3, 6, 4, square, wedge
 stat_health					1, 0
 stat_pri					8, 6, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
@@ -3815,7 +3815,7 @@ voice_indexes				0 1 2
 soldier						carthaginian_medium_cavalry_spain, 27, 0, 1
 mount						medium horse
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim
+attributes					sea_faring, hide_forest
 formation					1.5, 4, 3, 6, 4, square, wedge
 stat_health					1, 0
 stat_pri					8, 6, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
@@ -3854,7 +3854,7 @@ voice_indexes				0 1 2
 soldier						carthaginian_medium_cavalry_numidia, 27, 0, 1
 mount						medium horse
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim
+attributes					sea_faring, hide_forest
 formation					1.5, 4, 3, 6, 4, square, wedge
 stat_health					1, 0
 stat_pri					8, 6, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
@@ -4141,7 +4141,7 @@ voice_indexes				0 1 2
 soldier						carthage_numidian_cavalry, 27, 0, 1
 mount						light horse
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, hardy, can_swim, cantabrian_circle
+attributes					sea_faring, hide_forest, hardy, cantabrian_circle
 formation					3, 4, 6, 6, 4, square
 stat_health					1, 0
 stat_pri					9, 3, javelin, 50, 6, thrown, archery, piercing, spear, 25, 1.3
@@ -4176,7 +4176,7 @@ voice_indexes				0 1 2
 soldier						numidian_camel_rider, 27, 0, 1
 mount						camel
 mount_effect     			elephant -8, horse +2
-attributes					sea_faring, hide_forest, hardy, can_swim
+attributes					sea_faring, hide_forest, hardy
 formation					3, 4, 5, 5, 4, square
 stat_health					1, 0
 stat_pri					8, 6, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
@@ -4249,7 +4249,7 @@ voice_indexes				0 1 2
 soldier						carthaginian_elephant_crew, 6, 6, 1
 mount						elephant forest
 mount_effect     			horse +4, chariot +8, camel +4
-attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted, can_swim
+attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted
 formation					7, 9, 13, 13, 1, square
 stat_health					1, 10
 stat_pri					0, 0, no, 0, 0, no, no, no, none, 25, 0.55
@@ -4283,7 +4283,7 @@ voice_indexes				0 1 2
 soldier						carthaginian_elephant_crew, 18, 6, 1
 mount						elephant african
 mount_effect     			horse +4, chariot +8, camel +4
-attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted, can_swim
+attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted
 formation					7, 11, 13, 16, 1, square
 stat_health					1, 12
 stat_pri					6, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 1
@@ -4317,7 +4317,7 @@ voice_indexes				0 1 2
 soldier						carthaginian_big_elephant_crew, 18, 6, 1
 mount						elephant african cataphract
 mount_effect     			horse +4, chariot +8, camel +4
-attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted, can_swim
+attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted
 formation					7, 11, 13, 16, 1, square
 stat_health					1, 12
 stat_pri					6, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 1
@@ -4517,7 +4517,7 @@ class						missile
 voice_type					Light_1
 voice_indexes				0 1 2
 soldier						persian_slinger, 40, 0, 0.8
-attributes					sea_faring, hide_forest, can_sap, can_swim
+attributes					sea_faring, hide_forest, can_sap
 formation					1.6, 2, 3.2, 4, 3, square
 stat_health					1, 0
 stat_pri					4, 1, stone, 120, 40, missile, archery, blunt, none, 25, 1
@@ -4771,7 +4771,7 @@ voice_indexes				0 1 2
 soldier						east_cavalry, 27, 0, 1
 mount						light horse
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim, cantabrian_circle
+attributes					sea_faring, hide_forest, cantabrian_circle
 formation					3, 4, 6, 6, 4, square
 stat_health					1, 0
 stat_pri					7, 2, javelin, 50, 6, thrown, archery, piercing, spear, 25, 1.3
@@ -4793,7 +4793,7 @@ ethnicity					pontus, Pontus
 rebalance_statblock
 soldier						east_cavalry, 27, 0, 1
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim, cantabrian_circle
+attributes					sea_faring, hide_forest, cantabrian_circle
 formation					3, 4, 6, 6, 4, square
 stat_health					1, 0
 stat_pri					7, 2, javelin, 50, 6, thrown, archery, piercing, spear, 25, 1.3
@@ -4995,7 +4995,7 @@ voice_indexes				0 1 2
 soldier						east_horse_archer, 27, 0, 1
 mount						light horse
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim, cantabrian_circle
+attributes					sea_faring, hide_forest, cantabrian_circle
 formation					3, 4, 6, 6, 4, square
 stat_health					1, 0
 stat_pri					7, 1, arrow, 120, 40, missile, archery, piercing, none, 25, 1
@@ -5058,7 +5058,7 @@ voice_indexes				0 1 2
 soldier						east_elephant_archer, 18, 6, 1
 mount						elephant african
 mount_effect     			horse +4, chariot +8, camel +4
-attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted, can_swim
+attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted
 formation					7, 11, 13, 16, 1, square
 stat_health					1, 12
 stat_pri					6, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 1
@@ -5450,7 +5450,7 @@ class						missile
 voice_type					Light_1
 voice_indexes				0 1 2
 soldier						egyptian_slinger, 40, 0, 0.8
-attributes					sea_faring, hide_forest, can_sap, can_swim
+attributes					sea_faring, hide_forest, can_sap
 formation					1.6, 2, 3.2, 4, 3, square
 stat_health					1, 0
 stat_pri					4, 1, stone, 120, 40, missile, archery, blunt, none, 25, 1
@@ -5674,7 +5674,7 @@ voice_indexes				0 1 2
 soldier						greek_light_lancer, 27, 0, 1
 mount						light horse
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim
+attributes					sea_faring, hide_forest
 formation					1.5, 4, 3, 6, 4, square, wedge
 stat_health					1, 0
 stat_pri					7, 9, no, 0, 0, melee, blade, piercing, spear, 25, 0.55
@@ -5704,7 +5704,7 @@ voice_indexes				0 1 2
 soldier						egyptian_nubian_cavalry, 27, 0, 1
 mount						medium horse
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim
+attributes					sea_faring, hide_forest
 formation					3, 4, 6, 6, 4, square, wedge
 stat_health					1, 0
 stat_pri					8, 6, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
@@ -5764,7 +5764,7 @@ voice_indexes				0 1 2
 soldier						egyptian_camel_archer, 27, 0, 1
 mount						camel
 mount_effect     			elephant -8, horse +2
-attributes					sea_faring, hide_forest, hardy, can_swim, cantabrian_circle
+attributes					sea_faring, hide_forest, hardy, cantabrian_circle
 formation					3, 4, 5, 5, 4, square
 stat_health					1, 0
 stat_pri					7, 1, arrow, 120, 40, missile, archery, piercing, none, 25, 1
@@ -5795,7 +5795,7 @@ voice_indexes				0 1 2
 soldier						greek_elephant_archer, 18, 6, 1
 mount						elephant african
 mount_effect     			horse +4, chariot +8, camel +4
-attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted, can_swim
+attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted
 formation					7, 11, 13, 16, 1, square
 stat_health					1, 12
 stat_pri					6, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 1
@@ -5826,7 +5826,7 @@ voice_indexes				0 1 2
 soldier						greek_elephant_archer, 6, 6, 1
 mount						elephant forest
 mount_effect     			horse +4, chariot +8, camel +4
-attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted, can_swim
+attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted
 formation					7, 9, 13, 13, 1, square
 stat_health					1, 10
 stat_pri					0, 0, no, 0, 0, no, no, no, none, 25, 0.55
@@ -6459,7 +6459,7 @@ class						heavy
 voice_type					Medium_1
 voice_indexes				0 1 2
 soldier						greek_thracoan, 40, 0, 1.2
-attributes					sea_faring, hide_improved_forest, can_swim
+attributes					sea_faring, hide_improved_forest
 formation					1.2, 1.2, 2.4, 2.4, 4, square
 stat_health					2, 0
 stat_pri					14, 6, no, 0, 0, melee, blade, piercing, axe, 25, 0.55
@@ -6491,7 +6491,7 @@ voice_indexes				0 1 2
 soldier						greek_light_lancer, 27, 0, 1
 mount						light horse
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim
+attributes					sea_faring, hide_forest
 formation					1.5, 4, 3, 6, 4, square, wedge
 stat_health					1, 0
 stat_pri					7, 9, no, 0, 0, melee, blade, piercing, spear, 25, 0.55
@@ -6521,7 +6521,7 @@ voice_indexes				0 1 2
 soldier						greek_javelin_cavalry, 27, 0, 1
 mount						light horse
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim, cantabrian_circle
+attributes					sea_faring, hide_forest, cantabrian_circle
 formation					3, 4, 6, 6, 4, square
 stat_health					1, 0
 stat_pri					6, 1, javelin, 50, 6, thrown, archery, piercing, spear, 25, 1.3
@@ -6558,7 +6558,7 @@ voice_indexes				0 1 2
 soldier						greek_medium_cavalry, 27, 0, 1
 mount						medium horse
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim
+attributes					sea_faring, hide_forest
 formation					1.5, 4, 3, 6, 4, square, wedge
 stat_health					1, 0
 stat_pri					6, 5, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
@@ -6587,7 +6587,7 @@ ethnicity					seleucid, Syria
 rebalance_statblock
 soldier						greek_medium_cavalry, 27, 0, 1
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, hardy, can_swim
+attributes					sea_faring, hide_forest, hardy
 formation					1.5, 4, 3, 6, 4, square, wedge
 stat_health					1, 0
 stat_pri					6, 5, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
@@ -6809,7 +6809,7 @@ voice_indexes				0 1 2
 soldier						greek_elephant_archer, 6, 6, 1
 mount						elephant forest
 mount_effect     			horse +4, chariot +8, camel +4
-attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted, can_swim
+attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted
 formation					7, 9, 13, 13, 1, square
 stat_health					1, 10
 stat_pri					0, 0, no, 0, 0, no, no, no, none, 25, 0.55
@@ -6839,7 +6839,7 @@ voice_indexes				0 1 2
 soldier						greek_elephant_archer, 18, 6, 1
 mount						elephant african
 mount_effect     			horse +4, chariot +8, camel +4
-attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted, can_swim
+attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted
 formation					7, 11, 13, 16, 1, square
 stat_health					1, 12
 stat_pri					6, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 1
@@ -6869,7 +6869,7 @@ voice_indexes				0 1 2
 soldier						greek_big_elephant_archer, 18, 6, 1
 mount						elephant african cataphract
 mount_effect     			horse +4, chariot +8, camel +4
-attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted, can_swim
+attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted
 formation					7, 11, 13, 16, 1, square
 stat_health					1, 12
 stat_pri					6, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 1
@@ -7819,7 +7819,7 @@ voice_indexes				0 1 2
 soldier						roman_equites, 27, 0, 1
 mount						light horse
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, hardy, can_swim
+attributes					sea_faring, hide_forest, hardy
 formation					1.5, 4, 3, 6, 4, square, wedge
 stat_health					1, 0
 stat_pri					6, 5, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
@@ -7852,7 +7852,7 @@ voice_indexes				0 1 2
 soldier						roman_cavalry_auxillia, 27, 0, 1
 mount						light horse
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim, cantabrian_circle
+attributes					sea_faring, hide_forest, cantabrian_circle
 formation					3, 4, 6, 6, 4, square
 stat_health					1, 0
 stat_pri					7, 2, javelin, 50, 6, thrown, archery, piercing, spear, 25, 1.3
@@ -7877,7 +7877,7 @@ ethnicity					romans_senate, Latium
 rebalance_statblock
 soldier						roman_cavalry_auxillia, 27, 0, 1
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim, cantabrian_circle
+attributes					sea_faring, hide_forest, cantabrian_circle
 formation					3, 4, 6, 6, 4, square
 stat_health					1, 0
 stat_pri					7, 2, javelin_with_pilum_skin, 50, 6, thrown, archery, piercing, spear, 25, 1.3
@@ -8581,7 +8581,7 @@ class						heavy
 voice_type					Medium_1
 voice_indexes				0 1 2
 soldier						greek_thracoan, 40, 0, 1
-attributes					sea_faring, hide_improved_forest, can_sap, can_swim, warcry, mercenary_unit
+attributes					sea_faring, hide_improved_forest, can_sap, warcry, mercenary_unit
 formation					1.2, 1.2, 2.4, 2.4, 4, square
 stat_health					2, 0
 stat_pri					12, 5, no, 0, 0, melee, blade, piercing, axe, 25, 0.55
@@ -8641,7 +8641,7 @@ voice_indexes				0 1 2
 soldier						barb_horse_archer_merc, 27, 0, 1
 mount						light horse
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, hardy, can_swim, cantabrian_circle, mercenary_unit
+attributes					sea_faring, hide_forest, hardy, cantabrian_circle, mercenary_unit
 formation					3, 4, 6, 6, 4, square
 stat_health					1, 0
 stat_pri					7, 1, arrow, 120, 40, missile, archery, piercing, none, 25, 1
@@ -8729,7 +8729,7 @@ class						missile
 voice_type					Light_1
 voice_indexes				0 1 2
 soldier						greek_slinger_merc, 40, 0, 0.8
-attributes					sea_faring, hide_forest, can_sap, hardy, can_swim, mercenary_unit
+attributes					sea_faring, hide_forest, can_sap, hardy, mercenary_unit
 formation					1.6, 2, 3.2, 4, 3, square
 stat_health					1, 0
 stat_pri					9, 3, bullet, 150, 40, missile, archery, blunt, none, 25, 1
@@ -8758,7 +8758,7 @@ class						missile
 voice_type					Light_1
 voice_indexes				0 1 2
 soldier						greek_archer_merc, 40, 0, 0.8
-attributes					sea_faring, hide_forest, can_sap, hardy, can_swim, mercenary_unit
+attributes					sea_faring, hide_forest, can_sap, hardy, mercenary_unit
 formation					1.6, 2, 3.2, 4, 3, square
 stat_health					1, 0
 stat_pri					11, 3, arrow, 170, 30, missile, archery, piercing, none, 25, 1
@@ -8866,7 +8866,7 @@ voice_indexes				0 1 2
 soldier						carthage_numidian_cavalry_merc, 27, 0, 1
 mount						light horse
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, hardy, can_swim, cantabrian_circle, mercenary_unit
+attributes					sea_faring, hide_forest, hardy, cantabrian_circle, mercenary_unit
 formation					3, 4, 6, 6, 4, square
 stat_health					1, 0
 stat_pri					9, 3, javelin, 50, 6, thrown, archery, piercing, spear, 25, 1.3
@@ -8901,7 +8901,7 @@ voice_indexes				0 1 2
 soldier						east_bedouin, 27, 0, 1
 mount						light horse
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, hardy, can_swim, mercenary_unit
+attributes					sea_faring, hide_forest, hardy, mercenary_unit
 formation					3, 4, 6, 6, 4, square, wedge
 stat_health					1, 0
 stat_pri					8, 4, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
@@ -8934,7 +8934,7 @@ voice_indexes				0 1 2
 soldier						east_bedouin, 27, 0, 1
 mount						camel
 mount_effect     			elephant -8, horse +2
-attributes					sea_faring, hide_forest, hardy, can_swim, mercenary_unit
+attributes					sea_faring, hide_forest, hardy, mercenary_unit
 formation					3, 4, 5, 5, 4, square, wedge
 stat_health					1, 0
 stat_pri					8, 4, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
@@ -8967,7 +8967,7 @@ voice_indexes				0 1 2
 soldier						east_bedouin_archer, 27, 0, 1
 mount						camel
 mount_effect     			elephant -8, horse +2
-attributes					sea_faring, hide_forest, hardy, can_swim, cantabrian_circle, mercenary_unit
+attributes					sea_faring, hide_forest, hardy, cantabrian_circle, mercenary_unit
 formation					3, 4, 5, 5, 4, square
 stat_health					1, 0
 stat_pri					7, 1, arrow, 120, 40, missile, archery, piercing, none, 25, 1
@@ -8998,7 +8998,7 @@ class						missile
 voice_type					Light_1
 voice_indexes				0 1 2
 soldier						carthaginian_slinger_merc, 40, 0, 0.8
-attributes					sea_faring, hide_forest, can_sap, hardy, can_swim, mercenary_unit
+attributes					sea_faring, hide_forest, can_sap, hardy, mercenary_unit
 formation					1.6, 2, 3.2, 4, 3, square
 stat_health					1, 0
 stat_pri					9, 3, bullet, 150, 40, missile, archery, blunt, none, 25, 1
@@ -9063,7 +9063,7 @@ voice_indexes				0 1 2
 soldier						barb_cavalry_merc, 27, 0, 1
 mount						medium horse
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim, mercenary_unit
+attributes					sea_faring, hide_forest, mercenary_unit
 formation					1.5, 4, 3, 6, 4, square, wedge
 stat_health					1, 0
 stat_pri					9, 7, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
@@ -9094,7 +9094,7 @@ voice_indexes				0 1 2
 soldier						greek_elephant_crew_merc, 18, 6, 1
 mount						elephant african
 mount_effect     			horse +4, chariot +8, camel +4
-attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted, can_swim, mercenary_unit
+attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted, mercenary_unit
 formation					7, 11, 13, 16, 1, square
 stat_health					1, 12
 stat_pri					6, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 1
@@ -9156,7 +9156,7 @@ voice_indexes				0 1 2
 soldier						thracian_militia_cavalry, 27, 0, 1
 mount						light horse
 mount_effect				elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim, cantabrian_circle, mercenary_unit
+attributes					sea_faring, hide_forest, cantabrian_circle, mercenary_unit
 formation					3, 4, 6, 6, 4, square
 stat_health					1, 0
 stat_pri					9, 1, javelin, 50, 6, thrown, archery, piercing, spear, 25, 1.3
@@ -9274,7 +9274,7 @@ voice_indexes				0 1 2
 soldier						east_big_elephant_archer, 18, 6, 1
 mount						elephant african cataphract
 mount_effect				horse +4, chariot +8, camel +4
-attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted, can_swim, mercenary_unit
+attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted, mercenary_unit
 formation					7, 11, 13, 16, 1, square
 stat_health					1, 12
 stat_pri					7, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 1
@@ -9330,7 +9330,7 @@ class						missile
 voice_type					Light_1
 voice_indexes				0 1 2
 soldier						ALEX_tribal_slingers, 40, 0, 0.8
-attributes					sea_faring, hide_forest, can_sap, hardy, can_swim, mercenary_unit
+attributes					sea_faring, hide_forest, can_sap, hardy, mercenary_unit
 formation					1.6, 2, 3.2, 4, 3, square
 stat_health					1, 0
 stat_pri					6, 1, stone, 120, 40, missile, archery, blunt, none, 25, 1
@@ -9385,7 +9385,7 @@ class						heavy
 voice_type					Heavy_1
 voice_indexes				0 1 2
 soldier						warband_falx_merc, 40, 0, 1.5
-attributes					sea_faring, hide_improved_forest, can_sap, can_swim, warcry, mercenary_unit
+attributes					sea_faring, hide_improved_forest, can_sap, warcry, mercenary_unit
 formation					1.2, 1.2, 2.4, 2.4, 4, square
 stat_health					1, 0
 stat_pri					14, 5, no, 0, 0, melee, blade, slashing, axe, 25, 0.55
@@ -9470,7 +9470,7 @@ class						heavy
 voice_type					Light_1
 voice_indexes				0 1 2
 soldier						barb_naked_fanatic_merc, 40, 0, 1.5
-attributes					sea_faring, hide_improved_forest, hardy, can_swim, warcry, mercenary_unit
+attributes					sea_faring, hide_improved_forest, hardy, warcry, mercenary_unit
 formation					1.2, 1.2, 2.4, 2.4, 4, square
 stat_health					1, 0
 stat_pri					14, 5, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
@@ -9591,7 +9591,7 @@ voice_indexes				0 1 2
 soldier						carthaginian_medium_cavalry_merc, 27, 0, 1
 mount						medium horse
 mount_effect				elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim, mercenary_unit
+attributes					sea_faring, hide_forest, mercenary_unit
 formation					1.5, 4, 3, 6, 4, square, wedge
 stat_health					1, 0
 stat_pri					8, 6, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
@@ -9621,7 +9621,7 @@ voice_indexes				0 1 2
 soldier						roman_italian_cavalry, 27, 0, 1
 mount						medium horse
 mount_effect				elephant -8, camel -4
-attributes					sea_faring, hide_forest, hardy, can_swim, mercenary_unit
+attributes					sea_faring, hide_forest, hardy, mercenary_unit
 formation					1.5, 4, 3, 6, 4, square, wedge
 stat_health					1, 0
 stat_pri					9, 6, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
@@ -9650,7 +9650,7 @@ voice_type					Light_1
 soldier						sarissa_cavalry_merc, 27, 0, 1
 mount						light horse
 mount_effect				elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim, mercenary_unit
+attributes					sea_faring, hide_forest, mercenary_unit
 formation					1.5, 4, 3, 6, 4, square, wedge
 stat_health					1, 0
 stat_pri					8, 10, no, 0, 0, melee, blade, piercing, spear, 25, 0.55
@@ -9754,7 +9754,7 @@ voice_indexes				0 1 2
 soldier						east_horse_archer_merc, 27, 0, 1
 mount						light horse
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim, cantabrian_circle, mercenary_unit
+attributes					sea_faring, hide_forest, cantabrian_circle, mercenary_unit
 formation					3, 4, 6, 6, 4, square
 stat_health					1, 0
 stat_pri					7, 1, arrow, 120, 40, missile, archery, piercing, none, 25, 1
@@ -9813,7 +9813,7 @@ voice_indexes				0 1 2
 soldier						merc_persian_sparabara_cavalry, 27, 0, 1
 mount						camel
 mount_effect				elephant -8, horse +2
-attributes					sea_faring, hide_forest, hardy, can_swim, mercenary_unit
+attributes					sea_faring, hide_forest, hardy, mercenary_unit
 formation					3, 4, 5, 5, 4, square
 stat_health					1, 0
 stat_pri					6, 6, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
@@ -9871,7 +9871,7 @@ voice_indexes				0 1 2
 soldier						greek_elephant_crew_merc, 26, 2, 1
 mount						elephant oliphant
 mount_effect     			horse +4, chariot +8, camel +4
-attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted, can_swim, mercenary_unit, no_custom
+attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted, mercenary_unit, no_custom
 formation					20, 25, 30, 35, 1, square
 stat_health					1, 30
 stat_pri					6, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 1
@@ -10453,7 +10453,7 @@ voice_type					Light_1
 voice_indexes				0 1 2
 soldier						warband_spearman_germans, 60, 0, 1.2
 officer						greek_standard
-attributes					sea_faring, hide_improved_forest, can_swim
+attributes					sea_faring, hide_improved_forest
 formation					1, 1, 2, 2, 5, square, shield_wall
 stat_health					1, 0
 stat_pri					9, 5, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
@@ -10549,7 +10549,7 @@ class						missile
 voice_type					Light_1
 voice_indexes				0 1 2
 soldier						greek_slinger_merc, 40, 0, 0.8
-attributes					sea_faring, hide_forest, can_sap, hardy, can_swim
+attributes					sea_faring, hide_forest, can_sap, hardy
 formation					1.6, 2, 3.2, 4, 3, square
 stat_health					1, 0
 stat_pri					9, 3, bullet, 150, 40, missile, archery, blunt, none, 25, 1
@@ -10658,7 +10658,7 @@ voice_indexes				0 1 2
 soldier						east_bedouin, 27, 0, 1
 mount						light horse
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, hardy, can_swim
+attributes					sea_faring, hide_forest, hardy
 formation					3, 4, 6, 6, 4, square, wedge
 stat_health					1, 0
 stat_pri					7, 4, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
@@ -10691,7 +10691,7 @@ voice_indexes				0 1 2
 soldier						east_bedouin, 27, 0, 1
 mount						camel
 mount_effect     			elephant -8, horse +2
-attributes					sea_faring, hide_forest, hardy, can_swim
+attributes					sea_faring, hide_forest, hardy
 formation					3, 4, 5, 5, 4, square, wedge
 stat_health					1, 0
 stat_pri					7, 4, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
@@ -10724,7 +10724,7 @@ voice_indexes				0 1 2
 soldier						east_bedouin_archer, 27, 0, 1
 mount						camel
 mount_effect     			elephant -8, horse +2
-attributes					sea_faring, hide_forest, hardy, can_swim, cantabrian_circle
+attributes					sea_faring, hide_forest, hardy, cantabrian_circle
 formation					3, 4, 5, 5, 4, square
 stat_health					1, 0
 stat_pri					7, 1, arrow, 120, 40, missile, archery, piercing, none, 25, 1
@@ -10771,7 +10771,7 @@ stat_mental					9, disciplined, trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 430, 100, 70, 100, 670
+stat_cost					1, 670, 200, 70, 100, 670
 recruit_priority_offset		0
 ownership					slave, rebel_slave, macedon, hellenic_faction_13, seleucid, egypt
 ethnicity					macedon, Macedonia
@@ -10788,7 +10788,7 @@ voice_indexes				0 1 2
 soldier						east_cavalry, 27, 0, 1
 mount						light horse
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim, cantabrian_circle
+attributes					sea_faring, hide_forest, cantabrian_circle
 formation					3, 4, 6, 6, 4, square
 stat_health					1, 0
 stat_pri					7, 2, javelin, 50, 6, thrown, archery, piercing, spear, 25, 1.3
@@ -10812,7 +10812,7 @@ ethnicity					rebel_judea, Judaea
 rebalance_statblock
 soldier						east_cavalry, 27, 0, 1
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim, cantabrian_circle
+attributes					sea_faring, hide_forest, cantabrian_circle
 formation					3, 4, 6, 6, 4, square
 stat_health					1, 0
 stat_pri					7, 2, javelin, 50, 6, thrown, archery, piercing, spear, 25, 1.3
@@ -11046,7 +11046,7 @@ voice_indexes				0 1 2
 soldier						berber_lancers, 27, 0, 1
 mount						medium horse
 mount_effect				elephant -4, camel -4
-attributes					sea_faring, hide_forest, very_hardy, can_swim
+attributes					sea_faring, hide_forest, very_hardy
 formation					1.5, 4, 3, 6, 4, square, wedge
 stat_health					1, 0
 stat_pri					9, 8, no, 0, 0, melee, blade, piercing, spear, 25, 0.55
@@ -11154,7 +11154,7 @@ voice_type					Medium_1
 soldier						ALEX_dahae_mounted_archers, 27, 0, 1
 mount						light horse alex
 mount_effect				elephant -8, camel -4
-attributes					sea_faring, hide_forest, hardy, can_swim, cantabrian_circle
+attributes					sea_faring, hide_forest, hardy, cantabrian_circle
 formation					3, 4, 6, 6, 4, square
 stat_health					1, 0
 stat_pri					7, 1, arrow, 120, 40, missile, archery, piercing, none, 25, 1
@@ -11262,7 +11262,7 @@ class						missile
 voice_type					Light_1
 voice_indexes				0 1 2
 soldier						celtic_slingers, 40, 0, 0.9
-attributes					sea_faring, hide_improved_forest, hide_long_grass, can_swim
+attributes					sea_faring, hide_improved_forest, hide_long_grass
 formation					1.6, 2, 3.2, 4, 3, square
 stat_health					1, 0
 stat_pri					4, 1, stone, 120, 40, missile, archery, blunt, none, 25, 1
@@ -11318,7 +11318,7 @@ class						missile
 voice_type					Medium_1
 voice_indexes				0 1 2
 soldier						mountain_slinger, 40, 0, 0.8
-attributes					sea_faring, hide_improved_forest, hide_long_grass, can_sap, hardy, can_swim
+attributes					sea_faring, hide_improved_forest, hide_long_grass, can_sap, hardy
 formation					1.6, 2, 3.2, 4, 3, square
 stat_health					1, 0
 stat_pri					4, 1, stone, 120, 40, missile, archery, blunt, none, 25, 1
@@ -11347,7 +11347,7 @@ class						missile
 voice_type					Medium_1
 voice_indexes				0 1 2
 soldier						mountain_slinger, 40, 0, 0.8
-attributes					sea_faring, hide_improved_forest, hide_long_grass, can_sap, hardy, can_swim
+attributes					sea_faring, hide_improved_forest, hide_long_grass, can_sap, hardy
 formation					1.6, 2, 3.2, 4, 3, square
 stat_health					1, 0
 stat_pri					4, 1, stone, 120, 40, missile, archery, blunt, none, 25, 1
@@ -11453,7 +11453,7 @@ voice_indexes				0 1 2
 soldier						thracian_militia_cavalry, 27, 0, 1
 mount						light horse
 mount_effect				elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim, cantabrian_circle
+attributes					sea_faring, hide_forest, cantabrian_circle
 formation					3, 4, 6, 6, 4, square
 stat_health					1, 0
 stat_pri					9, 1, javelin, 50, 6, thrown, archery, piercing, spear, 25, 1.3
@@ -12081,7 +12081,7 @@ voice_indexes				0 1 2
 soldier						numidian_levy_cavalry, 27, 0, 1
 mount						light horse
 mount_effect				elephant -8, camel -4
-attributes					sea_faring, hide_forest, hardy, can_swim
+attributes					sea_faring, hide_forest, hardy
 formation					1.5, 4, 3, 6, 4, square, wedge
 stat_health					1, 0
 stat_pri					5, 5, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
@@ -12306,7 +12306,7 @@ class						missile
 voice_type					Light_1
 voice_indexes				0 1 2
 soldier						carthaginian_slinger_numidia, 40, 0, 0.8
-attributes					sea_faring, hide_forest, can_sap, can_swim
+attributes					sea_faring, hide_forest, can_sap
 formation					1.6, 2, 3.2, 4, 3, square
 stat_health					1, 0
 stat_pri					4, 1, stone, 120, 40, missile, archery, blunt, none, 25, 1
@@ -12374,7 +12374,7 @@ voice_type					Light_1
 soldier						sarissa_cavalry, 27, 0, 1
 mount						light horse
 mount_effect				elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim
+attributes					sea_faring, hide_forest
 formation					1.5, 4, 3, 6, 4, square, wedge
 stat_health					1, 0
 stat_pri					7, 10, no, 0, 0, melee, blade, piercing, spear, 25, 0.55
@@ -12603,7 +12603,7 @@ voice_indexes				0 1 2
 soldier						roman_elephant_crew, 18, 6, 1
 mount						elephant african
 mount_effect				horse +4, chariot +8, camel +4
-attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted, can_swim
+attributes					sea_faring, can_run_amok, frighten_foot, frighten_mounted
 formation					7, 11, 13, 16, 1, square
 stat_health					1, 12
 stat_pri					6, 3, arrow, 120, 60, missile, archery, piercing, none, 25, 1
@@ -12774,7 +12774,7 @@ voice_indexes				0 1 2
 soldier						desert_levy_cavalry, 27, 0, 1
 mount						camel
 mount_effect				elephant -8, horse +2
-attributes					sea_faring, hide_forest, hardy, can_swim
+attributes					sea_faring, hide_forest, hardy
 formation					3, 4, 5, 5, 4, square
 stat_health					1, 0
 stat_pri					5, 6, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
@@ -12804,7 +12804,7 @@ voice_indexes				0 1 2
 soldier						persian_sparabara_cavalry, 27, 0, 1
 mount						camel
 mount_effect				elephant -8, horse +2
-attributes					sea_faring, hide_forest, hardy, can_swim
+attributes					sea_faring, hide_forest, hardy
 formation					3, 4, 5, 5, 4, square
 stat_health					1, 0
 stat_pri					5, 6, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
@@ -13299,7 +13299,7 @@ voice_indexes				0 1 2
 soldier						barb_horse_peltast, 27, 0, 1
 mount						light horse
 mount_effect				elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim, cantabrian_circle
+attributes					sea_faring, hide_forest, cantabrian_circle
 formation					3, 4, 6, 6, 4, square
 stat_health					1, 0
 stat_pri					7, 1, javelin, 50, 6, thrown, archery, piercing, spear, 25, 1.3
@@ -13354,7 +13354,7 @@ voice_indexes				0 1 2
 soldier						barb_heavy_peltast_cavalry, 27, 0, 1
 mount						light horse
 mount_effect				elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim, cantabrian_circle
+attributes					sea_faring, hide_forest, cantabrian_circle
 formation					3, 4, 6, 6, 4, square
 stat_health					1, 0
 stat_pri					7, 1, javelin, 50, 6, thrown, archery, piercing, spear, 25, 1.3
@@ -13485,7 +13485,7 @@ voice_indexes				0 1 2
 soldier						barb_scout_riders, 27, 0, 1
 mount						light horse
 mount_effect				elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim
+attributes					sea_faring, hide_forest
 formation					1.5, 4, 3, 6, 4, square, wedge
 stat_health					1, 0
 stat_pri					8, 7, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
@@ -13614,7 +13614,7 @@ voice_type					Heavy_1
 voice_indexes				0 1 2
 soldier						warband_sword_dacia, 40, 0, 1.2
 officer						barb_standard_dacia
-attributes					sea_faring, hide_improved_forest, can_swim, warcry
+attributes					sea_faring, hide_improved_forest, warcry
 formation					1.2, 1.2, 2.4, 2.4, 4, square
 stat_health					1, 0
 stat_pri					10, 4, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
@@ -13704,7 +13704,7 @@ voice_type					Light_1 barbarian
 voice_indexes				0 1 2
 soldier						carthaginian_slinger_numidia, 40, 0, 0.8
 officer						carthaginian_standard
-attributes					sea_faring, hide_forest, can_sap, hardy, can_swim
+attributes					sea_faring, hide_forest, can_sap, hardy
 formation					1.6, 2, 3.2, 4, 3, square
 stat_health					1, 0
 stat_pri					9, 3, bullet, 150, 40, missile, archery, blunt, none, 25, 1
@@ -14269,7 +14269,7 @@ voice_indexes				0 1 2
 soldier						roman_cavalry_auxillia, 34, 0, 1
 mount						light horse
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim, cantabrian_circle
+attributes					sea_faring, hide_forest, cantabrian_circle
 formation					3, 4, 6, 6, 4, square
 stat_health					1, 0
 stat_pri					7, 2, javelin, 50, 6, thrown, archery, piercing, spear, 25, 1.3
@@ -14296,7 +14296,7 @@ ethnicity					rebel_latin, Samnium
 rebalance_statblock
 soldier						roman_cavalry_auxillia, 34, 0, 1
 mount_effect     			elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim, cantabrian_circle
+attributes					sea_faring, hide_forest, cantabrian_circle
 formation					3, 4, 6, 6, 4, square
 stat_health					1, 0
 stat_pri					7, 2, javelin_with_pilum_skin, 50, 6, thrown, archery, piercing, spear, 25, 1.3
@@ -14733,7 +14733,7 @@ voice_indexes				0 1 2
 soldier						egyptian_cavalry, 27, 0, 1
 mount						light horse
 mount_effect				elephant -8, camel -4
-attributes					sea_faring, hide_forest, can_swim
+attributes					sea_faring, hide_forest
 formation					3, 4, 6, 6, 4, square, wedge
 stat_health					1, 0
 stat_pri					6, 5, no, 0, 0, melee, simple, blunt, mace, 25, 0.55
