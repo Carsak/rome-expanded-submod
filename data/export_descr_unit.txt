@@ -4724,7 +4724,7 @@ stat_mental					9, disciplined, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 690, 360, 70, 110, 690
+stat_cost					1, 800, 360, 70, 110, 800
 recruit_priority_offset		0
 ownership					slave, rebel_slave, pontus, anatolian_faction_01
 ethnicity					pontus, Pontus, don't_allow_regional
@@ -6235,7 +6235,7 @@ stat_mental					9, normal, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 640, 210, 70, 100, 640
+stat_cost					1, 640, 300, 70, 100, 640
 recruit_priority_offset		0
 ownership					slave, rebel_slave, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, latin_faction_01, latin_faction_02, latin_faction_03, latin_faction_04, rebel_latin
 ethnicity					greek_cities, Sicilia_Graecus
@@ -10771,7 +10771,7 @@ stat_mental					9, disciplined, trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 670, 200, 70, 100, 670
+stat_cost					1, 670, 230, 70, 100, 670
 recruit_priority_offset		0
 ownership					slave, rebel_slave, macedon, hellenic_faction_13, seleucid, egypt
 ethnicity					macedon, Macedonia
