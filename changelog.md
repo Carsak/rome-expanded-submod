@@ -9,6 +9,10 @@ This file records notable player-facing changes to Rome Expanded Submod. The new
 - Egyptian settlement revolts now form a civil war led by the Egyptian rebel faction instead of becoming generic rebels. If the rebels defeat the original Egyptian faction, they assume the regular Egyptian identity.
 - Settlement revolts in Fabian, Valerian, and Claudian Rome now join a shared Roman rebel faction, allowing one rebel state to fight all three Roman houses.
 
+### Changed
+
+- Removed obsolete scripts, hidden resources, and UI assets from the submod's disabled military-building conversion system. Rome Expanded's current conversion system remains unchanged.
+
 ## 2026-09-30
 
 ### Changed
