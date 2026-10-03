@@ -27,7 +27,7 @@
 
 		;; the tier and trade value
 		"tier": 5,
-		"trade value": 15,
+		"trade value": 7,
 
 		;; tags (groups) that this resource belongs to
 		"tags":
@@ -73,7 +73,7 @@
 
 		;; the tier and trade value
 		"tier": 4,
-		"trade value": 10,
+		"trade value": 5,
 
 		;; tags (groups) that this resource belongs to
 		"tags":
@@ -116,7 +116,7 @@
 
 		;; the tier and trade value
 		"tier":		1,
-		"trade value": 2,
+		"trade value": 1,
 
 		;; tags (groups) that this resource belongs to
 		"tags":
@@ -156,7 +156,7 @@
 
 		;; the tier and trade value
 		"tier":		1,
-		"trade value": 4,
+		"trade value": 2,
 
 		;; tags (groups) that this resource belongs to
 		"tags":
@@ -194,7 +194,7 @@
 
 		;; the tier and trade value
 		"tier":		3,
-		"trade value": 7,
+		"trade value": 3,
 
 		;; how much growth should one unit of this resource provide
 		"growth modifier": 1,
@@ -237,7 +237,7 @@
 
 		;; the tier and trade value
 		"tier":		2,
-		"trade value": 5,
+		"trade value": 2,
 
 		;; tags (groups) that this resource belongs to
 		"tags":
@@ -277,7 +277,7 @@
 
 		;; the tier and trade value
 		"tier":		2,
-		"trade value": 6,
+		"trade value": 3,
 
 		;; tags (groups) that this resource belongs to
 		"tags":
@@ -317,7 +317,7 @@
 
 		;; the tier and trade value
 		"tier":		2,
-		"trade value": 5,
+		"trade value": 2,
 
 		;; tags (groups) that this resource belongs to
 		"tags":
@@ -357,7 +357,7 @@
 
 		;; the tier and trade value
 		"tier":		2,
-		"trade value": 6,
+		"trade value": 3,
 
 		;; tags (groups) that this resource belongs to
 		"tags":
@@ -450,7 +450,7 @@
 
 		;; the tier and trade value
 		"tier":		3,
-		"trade value": 8,
+		"trade value": 4,
 
 		;; tags (groups) that this resource belongs to
 		"tags":
@@ -490,7 +490,7 @@
 
 		;; the tier and trade value
 		"tier":		3,
-		"trade value": 7,
+		"trade value": 3,
 
 		;; tags (groups) that this resource belongs to
 		"tags":
@@ -530,7 +530,7 @@
 
 		;; the tier and trade value
 		"tier":		1,
-		"trade value": 2,
+		"trade value": 1,
 
 		;; tags (groups) that this resource belongs to
 		"tags":
@@ -570,7 +570,7 @@
 
 		;; the tier and trade value
 		"tier":		4,
-		"trade value": 10,
+		"trade value": 5,
 
 		;; tags (groups) that this resource belongs to
 		"tags":
@@ -610,7 +610,7 @@
 
 		;; the tier and trade value
 		"tier":		4,
-		"trade value": 9,
+		"trade value": 4,
 
 		;; tags (groups) that this resource belongs to
 		"tags":
@@ -650,7 +650,7 @@
 
 		;; the tier and trade value
 		"tier":		3,
-		"trade value": 7,
+		"trade value": 3,
 
 		;; tags (groups) that this resource belongs to
 		"tags":
@@ -690,7 +690,7 @@
 
 		;; the tier and trade value
 		"tier":		1,
-		"trade value": 4,
+		"trade value": 2,
 
 		;; tags (groups) that this resource belongs to
 		"tags":
@@ -730,7 +730,7 @@
 
 		;; the tier and trade value
 		"tier":		1,
-		"trade value": 2,
+		"trade value": 1,
 
 		;; tags (groups) that this resource belongs to
 		"tags":
@@ -770,7 +770,7 @@
 
 		;; the tier and trade value
 		"tier":		1,
-		"trade value": 4,
+		"trade value": 2,
 
 		;; tags (groups) that this resource belongs to
 		"tags":
@@ -810,7 +810,7 @@
 
 		;; the tier and trade value
 		"tier":		2,
-		"trade value": 5,
+		"trade value": 2,
 
 		;; tags (groups) that this resource belongs to
 		"tags":
@@ -850,7 +850,7 @@
 
 		;; the tier and trade value
 		"tier":		1,
-		"trade value": 3,
+		"trade value": 1,
 
 		;; tags (groups) that this resource belongs to
 		"tags":
@@ -890,7 +890,7 @@
 
 		;; the tier and trade value
 		"tier":		3,
-		"trade value": 8,
+		"trade value": 4,
 
 		;; tags (groups) that this resource belongs to
 		"tags":
