@@ -2,6 +2,13 @@
 
 This file records notable player-facing changes to Rome Expanded Submod. The newest changes are listed first.
 
+## 2026-10-03
+
+### Added
+
+- Egyptian settlement revolts now form a civil war led by the Egyptian rebel faction instead of becoming generic rebels. If the rebels defeat the original Egyptian faction, they assume the regular Egyptian identity.
+- Settlement revolts in Fabian, Valerian, and Claudian Rome now join a shared Roman rebel faction, allowing one rebel state to fight all three Roman houses.
+
 ## 2026-09-30
 
 ### Changed

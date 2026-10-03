@@ -8,6 +8,10 @@
 		"checksum": 3463764858
 	},
 	{
+		"filename": "data\/descr_sm_factions.txt",
+		"checksum": 921034670
+	},
+	{
 		"filename": "data\/descr_sm_resources.txt",
 		"checksum": 4041859599
 	},
@@ -25,7 +29,7 @@
 	},
 	{
 		"filename": "data\/export_descr_unit.txt",
-		"checksum": 3868765644
+		"checksum": 2927529378
 	},
 	{
 		"filename": "data\/feral_descr_movement_multipliers.txt",
@@ -1245,7 +1249,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/campaign_script.txt",
-		"checksum": 3220327220
+		"checksum": 2673286448
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_disasters.txt",
