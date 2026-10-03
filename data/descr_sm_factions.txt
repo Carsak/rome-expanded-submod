@@ -30,33 +30,14 @@
 			"surnames": "romans_julii_surnames",
 		},
 
-		;;horde information
-		"horde":
-		{
-			"horde units":
-			[
-				"roman peasant",
-			],
+		;;shared Roman rebel faction for the three playable Roman houses
+		"shadow faction": "rebel_romans",
 
-			"min horde units": 1,
-			"max horde units": 1,
+		;;unlimited rebel provinces may join the Roman civil war
+		"shadow max provinces": -1,
 
-			;;remove this amount of horde units from the max every time we re-horde
-			"horde unit reduction per horde": 1,
-
-			;;gain one random horde unit per this amount of population in this settlement, up to the cap
-			"population to horde units": 100,
-
-			;;minimum number of named characters we should have when we first go horde
-			"min named characters": 0,
-
-			;;maximum percentage of armies horde units can fill
-			"max horde unit army percent": 100,
-
-			;;the amount of horde units to disband every time we get a settlement
-			;;if amount of settlements exceeds the numbers in this array, 100% disband assumed
-			"horde unit disband per settlement": [ 100, ],
-		},
+		;;the loyalist house never switches identity to the rebel faction
+		"allow shadow switchback": false,
 
 		"logos":
 		{
@@ -119,33 +100,14 @@
 			"surnames": "romans_brutii_surnames",
 		},
 
-		;;horde information
-		"horde":
-		{
-			"horde units":
-			[
-				"roman peasant",
-			],
+		;;shared Roman rebel faction for the three playable Roman houses
+		"shadow faction": "rebel_romans",
 
-			"min horde units": 1,
-			"max horde units": 1,
+		;;unlimited rebel provinces may join the Roman civil war
+		"shadow max provinces": -1,
 
-			;;remove this amount of horde units from the max every time we re-horde
-			"horde unit reduction per horde": 1,
-
-			;;gain one random horde unit per this amount of population in this settlement, up to the cap
-			"population to horde units": 100,
-
-			;;minimum number of named characters we should have when we first go horde
-			"min named characters": 0,
-
-			;;maximum percentage of armies horde units can fill
-			"max horde unit army percent": 100,
-
-			;;the amount of horde units to disband every time we get a settlement
-			;;if amount of settlements exceeds the numbers in this array, 100% disband assumed
-			"horde unit disband per settlement": [ 100, ],
-		},
+		;;the loyalist house never switches identity to the rebel faction
+		"allow shadow switchback": false,
 
 		"logos":
 		{
@@ -208,33 +170,14 @@
 			"surnames": "romans_scipii_surnames",
 		},
 
-		;;horde information
-		"horde":
-		{
-			"horde units":
-			[
-				"roman peasant",
-			],
+		;;shared Roman rebel faction for the three playable Roman houses
+		"shadow faction": "rebel_romans",
 
-			"min horde units": 1,
-			"max horde units": 1,
+		;;unlimited rebel provinces may join the Roman civil war
+		"shadow max provinces": -1,
 
-			;;remove this amount of horde units from the max every time we re-horde
-			"horde unit reduction per horde": 1,
-
-			;;gain one random horde unit per this amount of population in this settlement, up to the cap
-			"population to horde units": 100,
-
-			;;minimum number of named characters we should have when we first go horde
-			"min named characters": 0,
-
-			;;maximum percentage of armies horde units can fill
-			"max horde unit army percent": 100,
-
-			;;the amount of horde units to disband every time we get a settlement
-			;;if amount of settlements exceeds the numbers in this array, 100% disband assumed
-			"horde unit disband per settlement": [ 100, ],
-		},
+		;;the loyalist house never switches identity to the rebel faction
+		"allow shadow switchback": false,
 
 		"logos":
 		{
@@ -831,33 +774,14 @@
 			"surnames": "egypt_surnames",
 		},
 
-		;;horde information
-		"horde":
-		{
-			"horde units":
-			[
-				"egyptian peasant",
-			],
+		;;shadow faction (explicitly circular with rebel_egypt)
+		"shadow faction": "rebel_egypt",
 
-			"min horde units": 1,
-			"max horde units": 1,
+		;;unlimited rebel provinces may join the civil war
+		"shadow max provinces": -1,
 
-			;;remove this amount of horde units from the max every time we re-horde
-			"horde unit reduction per horde": 1,
-
-			;;gain one random horde unit per this amount of population in this settlement, up to the cap
-			"population to horde units": 100,
-
-			;;minimum number of named characters we should have when we first go horde
-			"min named characters": 0,
-
-			;;maximum percentage of armies horde units can fill
-			"max horde unit army percent": 100,
-
-			;;the amount of horde units to disband every time we get a settlement
-			;;if amount of settlements exceeds the numbers in this array, 100% disband assumed
-			"horde unit disband per settlement": [ 100, ],
-		},
+		;;loyalist Egypt never switches identity to the rebel faction
+		"allow shadow switchback": false,
 		
 		"logos":
 		{
@@ -10643,34 +10567,6 @@
 			"strength": 1.5,
 		},
 
-		;;horde information
-		"horde":
-		{
-			"horde units":
-			[
-				"roman peasant",
-			],
-
-			"min horde units": 1,
-			"max horde units": 1,
-
-			;;remove this amount of horde units from the max every time we re-horde
-			"horde unit reduction per horde": 1,
-
-			;;gain one random horde unit per this amount of population in this settlement, up to the cap
-			"population to horde units": 100,
-
-			;;minimum number of named characters we should have when we first go horde
-			"min named characters": 0,
-
-			;;maximum percentage of armies horde units can fill
-			"max horde unit army percent": 100,
-
-			;;the amount of horde units to disband every time we get a settlement
-			;;if amount of settlements exceeds the numbers in this array, 100% disband assumed
-			"horde unit disband per settlement": [ 100, ],
-		},
-
 		"logos":
 		{
 			"loading screen icon": "data/ui/faction_icons/rebel_romans.tga",
@@ -11216,6 +11112,15 @@
 			"women":    "nile_women",
 			"surnames": "blank_surnames",
 		},
+
+		;;shadow faction (explicitly circular with egypt)
+		"shadow faction": "egypt",
+
+		;;unlimited loyalist provinces may rejoin Egypt through revolt
+		"shadow max provinces": -1,
+
+		;;victorious rebels switch back to the regular Egyptian identity
+		"allow shadow switchback": true,
 		
 		"emergence":
 		{
@@ -11248,34 +11153,6 @@
 			],
 			;;strength multiplier (compared to the strength of a regular revolt from the settlement)
 			"strength": 1.5,
-		},
-
-		;;horde information
-		"horde":
-		{
-			"horde units":
-			[
-				"egyptian peasant",
-			],
-
-			"min horde units": 1,
-			"max horde units": 1,
-
-			;;remove this amount of horde units from the max every time we re-horde
-			"horde unit reduction per horde": 1,
-
-			;;gain one random horde unit per this amount of population in this settlement, up to the cap
-			"population to horde units": 100,
-
-			;;minimum number of named characters we should have when we first go horde
-			"min named characters": 0,
-
-			;;maximum percentage of armies horde units can fill
-			"max horde unit army percent": 100,
-
-			;;the amount of horde units to disband every time we get a settlement
-			;;if amount of settlements exceeds the numbers in this array, 100% disband assumed
-			"horde unit disband per settlement": [ 100, ],
 		},
 		
 		"logos":
