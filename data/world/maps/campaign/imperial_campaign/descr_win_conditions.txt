@@ -74,7 +74,7 @@ anatolian_faction_02
 hold_regions Jerusalem Antioch Alexandria Memphis Seleucia
 take_regions 45
 short_campaign outlive_factions
-seleucid egypt
+egypt
 
 caucasian_faction_01
 hold_regions Artaxarta Antioch Damascus Mazaka Phraaspa
