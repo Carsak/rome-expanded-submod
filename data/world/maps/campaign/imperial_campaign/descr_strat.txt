@@ -6475,6 +6475,10 @@ settlement
 	{
 		type barracks muster_field
 	}
+	building
+	{
+		type rhodes_colossus rhodes_colossus
+	}
 }
 
 character	Memnon of Rhodes, named character, leader, age 29, , x 161, y 45

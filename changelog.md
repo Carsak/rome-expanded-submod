@@ -2,6 +2,12 @@
 
 This file records notable player-facing changes to Rome Expanded Submod. The newest changes are listed first.
 
+## 2026-10-04
+
+### Changed
+
+- The Colossus of Rhodes now has a unique upkeep building in Rhodes that offsets half of its faction-wide trade bonus. The upkeep follows ownership of the settlement and no longer affects unrelated factions or settlements.
+
 ## 2026-10-03
 
 ### Added
