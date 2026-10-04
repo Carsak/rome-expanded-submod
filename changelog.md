@@ -2,24 +2,25 @@
 
 This file records notable player-facing changes to Rome Expanded Submod. The newest changes are listed first.
 
-## 2026-10-04
-
-### Changed
-
-- The Colossus of Rhodes now has a unique upkeep building in Rhodes that offsets half of its faction-wide trade bonus. The upkeep follows ownership of the settlement and no longer affects unrelated factions or settlements.
-
-## 2026-10-03
+## 2026-10-04 — Steam Workshop Release
 
 ### Added
 
 - Added a player-only imperial corruption expense that scales from 1,500 denarii at 15 settlements to a maximum of 20,000 denarii at 50 settlements.
 - Egyptian settlement revolts now form a civil war led by the Egyptian rebel faction instead of becoming generic rebels. If the rebels defeat the original Egyptian faction, they assume the regular Egyptian identity.
 - Settlement revolts in Fabian, Valerian, and Claudian Rome now join a shared Roman rebel faction, allowing one rebel state to fight all three Roman houses.
+- Jewish temples from the second tier onward now grant Judean factions +1, +2, +3, and +5 morale to units recruited in their settlement.
 
 ### Changed
 
 - Halved the trade value of every campaign resource, rounding odd values down, to reduce land and sea trade income and slow economic snowballing.
-- Removed obsolete scripts, hidden resources, and UI assets from the submod's disabled military-building conversion system. Rome Expanded's current conversion system remains unchanged.
+- Increased Greek Elite Hoplite upkeep from 210 to 300 denarii and Hypaspist upkeep from 200 to 230 denarii per turn.
+- Reduced Pontic Brazen Shield Hoplite recruitment time from two turns to one and increased their recruitment cost from 690 to 800 denarii.
+- Judea's short campaign now requires it to outlive Egypt, but no longer the Seleucid Empire.
+
+### Fixed
+
+- Fixed the Colossus of Rhodes balance penalty affecting Nabataea and other unrelated settlements. A unique upkeep building in Rhodes now fully offsets the wonder's faction-wide +40% trade bonus and follows ownership of the city.
 
 ## 2026-09-30
 
