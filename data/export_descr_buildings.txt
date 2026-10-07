@@ -6338,7 +6338,7 @@ building temple_of_judaism
 				happiness_bonus bonus 2 requires factions { anatolian_faction_02, rebel_judea, }
 				law_bonus bonus 2 requires factions { anatolian_faction_02, rebel_judea, }
 				trade_base_income_bonus bonus 2 requires not factions { anatolian_faction_02, rebel_judea, } and hidden_resource jerusalem
-				recruits_morale_bonus bonus 1 requires factions { anatolian_faction_02, rebel_judea, }
+				recruits_morale_bonus bonus 2 requires factions { anatolian_faction_02, rebel_judea, }
 				religious_belief judaism 4 
 			}
 			construction  2 
@@ -6357,7 +6357,7 @@ building temple_of_judaism
 				happiness_bonus bonus 3 requires factions { anatolian_faction_02, rebel_judea, }
 				law_bonus bonus 3 requires factions { anatolian_faction_02, rebel_judea, }
 				trade_base_income_bonus bonus 3 requires not factions { anatolian_faction_02, rebel_judea, } and hidden_resource jerusalem
-				recruits_morale_bonus bonus 2 requires factions { anatolian_faction_02, rebel_judea, }
+				recruits_morale_bonus bonus 3 requires factions { anatolian_faction_02, rebel_judea, }
 				religious_belief judaism 6 
 			}
 			construction  3 
@@ -6376,7 +6376,7 @@ building temple_of_judaism
 				happiness_bonus bonus 4 requires factions { anatolian_faction_02, rebel_judea, }
 				law_bonus bonus 4 requires factions { anatolian_faction_02, rebel_judea, }
 				trade_base_income_bonus bonus 4 requires not factions { anatolian_faction_02, rebel_judea, } and hidden_resource jerusalem
-				recruits_morale_bonus bonus 3 requires factions { anatolian_faction_02, rebel_judea, }
+				recruits_morale_bonus bonus 4 requires factions { anatolian_faction_02, rebel_judea, }
 				religious_belief judaism 8 
 			}
 			construction  3 
