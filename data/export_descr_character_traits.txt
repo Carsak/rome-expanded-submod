@@ -14630,6 +14630,438 @@ Trigger agent_religion_mesopotamian_father
     Affects mesopotamian  1  Chance  100
 
 ;------------------------------------------
+Trigger agent_religion_hellenic_adopted
+    WhenToTest OfferedForAdoption
+
+    Condition FactionLeaderTrait hellenic >= 1
+
+    Affects hellenic  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_roman_adopted
+    WhenToTest OfferedForAdoption
+
+    Condition FactionLeaderTrait roman >= 1
+
+    Affects roman  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_c_paganism_adopted
+    WhenToTest OfferedForAdoption
+
+    Condition FactionLeaderTrait c_paganism >= 1
+
+    Affects c_paganism  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_g_paganism_adopted
+    WhenToTest OfferedForAdoption
+
+    Condition FactionLeaderTrait g_paganism >= 1
+
+    Affects g_paganism  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_i_paganism_adopted
+    WhenToTest OfferedForAdoption
+
+    Condition FactionLeaderTrait i_paganism >= 1
+
+    Affects i_paganism  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_b_paganism_adopted
+    WhenToTest OfferedForAdoption
+
+    Condition FactionLeaderTrait b_paganism >= 1
+
+    Affects b_paganism  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_s_paganism_adopted
+    WhenToTest OfferedForAdoption
+
+    Condition FactionLeaderTrait s_paganism >= 1
+
+    Affects s_paganism  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_zoroastrian_adopted
+    WhenToTest OfferedForAdoption
+
+    Condition FactionLeaderTrait zoroastrian >= 1
+
+    Affects zoroastrian  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_punic_adopted
+    WhenToTest OfferedForAdoption
+
+    Condition FactionLeaderTrait punic >= 1
+
+    Affects punic  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_berber_adopted
+    WhenToTest OfferedForAdoption
+
+    Condition FactionLeaderTrait berber >= 1
+
+    Affects berber  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_arab_adopted
+    WhenToTest OfferedForAdoption
+
+    Condition FactionLeaderTrait arab >= 1
+
+    Affects arab  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_egyptian_adopted
+    WhenToTest OfferedForAdoption
+
+    Condition FactionLeaderTrait egyptian >= 1
+
+    Affects egyptian  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_judaism_adopted
+    WhenToTest OfferedForAdoption
+
+    Condition FactionLeaderTrait judaism >= 1
+
+    Affects judaism  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_samnite_adopted
+    WhenToTest OfferedForAdoption
+
+    Condition FactionLeaderTrait samnite >= 1
+
+    Affects samnite  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_etruscan_adopted
+    WhenToTest OfferedForAdoption
+
+    Condition FactionLeaderTrait etruscan >= 1
+
+    Affects etruscan  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_nuragic_adopted
+    WhenToTest OfferedForAdoption
+
+    Condition FactionLeaderTrait nuragic >= 1
+
+    Affects nuragic  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_oscan_adopted
+    WhenToTest OfferedForAdoption
+
+    Condition FactionLeaderTrait oscan >= 1
+
+    Affects oscan  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_mesopotamian_adopted
+    WhenToTest OfferedForAdoption
+
+    Condition FactionLeaderTrait mesopotamian >= 1
+
+    Affects mesopotamian  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_hellenic_married
+    WhenToTest OfferedForMarriage
+
+    Condition FactionLeaderTrait hellenic >= 1
+
+    Affects hellenic  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_roman_married
+    WhenToTest OfferedForMarriage
+
+    Condition FactionLeaderTrait roman >= 1
+
+    Affects roman  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_c_paganism_married
+    WhenToTest OfferedForMarriage
+
+    Condition FactionLeaderTrait c_paganism >= 1
+
+    Affects c_paganism  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_g_paganism_married
+    WhenToTest OfferedForMarriage
+
+    Condition FactionLeaderTrait g_paganism >= 1
+
+    Affects g_paganism  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_i_paganism_married
+    WhenToTest OfferedForMarriage
+
+    Condition FactionLeaderTrait i_paganism >= 1
+
+    Affects i_paganism  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_b_paganism_married
+    WhenToTest OfferedForMarriage
+
+    Condition FactionLeaderTrait b_paganism >= 1
+
+    Affects b_paganism  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_s_paganism_married
+    WhenToTest OfferedForMarriage
+
+    Condition FactionLeaderTrait s_paganism >= 1
+
+    Affects s_paganism  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_zoroastrian_married
+    WhenToTest OfferedForMarriage
+
+    Condition FactionLeaderTrait zoroastrian >= 1
+
+    Affects zoroastrian  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_punic_married
+    WhenToTest OfferedForMarriage
+
+    Condition FactionLeaderTrait punic >= 1
+
+    Affects punic  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_berber_married
+    WhenToTest OfferedForMarriage
+
+    Condition FactionLeaderTrait berber >= 1
+
+    Affects berber  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_arab_married
+    WhenToTest OfferedForMarriage
+
+    Condition FactionLeaderTrait arab >= 1
+
+    Affects arab  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_egyptian_married
+    WhenToTest OfferedForMarriage
+
+    Condition FactionLeaderTrait egyptian >= 1
+
+    Affects egyptian  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_judaism_married
+    WhenToTest OfferedForMarriage
+
+    Condition FactionLeaderTrait judaism >= 1
+
+    Affects judaism  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_samnite_married
+    WhenToTest OfferedForMarriage
+
+    Condition FactionLeaderTrait samnite >= 1
+
+    Affects samnite  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_etruscan_married
+    WhenToTest OfferedForMarriage
+
+    Condition FactionLeaderTrait etruscan >= 1
+
+    Affects etruscan  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_nuragic_married
+    WhenToTest OfferedForMarriage
+
+    Condition FactionLeaderTrait nuragic >= 1
+
+    Affects nuragic  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_oscan_married
+    WhenToTest OfferedForMarriage
+
+    Condition FactionLeaderTrait oscan >= 1
+
+    Affects oscan  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_mesopotamian_married
+    WhenToTest OfferedForMarriage
+
+    Condition FactionLeaderTrait mesopotamian >= 1
+
+    Affects mesopotamian  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_hellenic_adopted2
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionLeaderTrait hellenic >= 1
+
+    Affects hellenic  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_roman_adopted2
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionLeaderTrait roman >= 1
+
+    Affects roman  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_c_paganism_adopted2
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionLeaderTrait c_paganism >= 1
+
+    Affects c_paganism  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_g_paganism_adopted2
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionLeaderTrait g_paganism >= 1
+
+    Affects g_paganism  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_i_paganism_adopted2
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionLeaderTrait i_paganism >= 1
+
+    Affects i_paganism  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_b_paganism_adopted2
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionLeaderTrait b_paganism >= 1
+
+    Affects b_paganism  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_s_paganism_adopted2
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionLeaderTrait s_paganism >= 1
+
+    Affects s_paganism  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_zoroastrian_adopted2
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionLeaderTrait zoroastrian >= 1
+
+    Affects zoroastrian  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_punic_adopted2
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionLeaderTrait punic >= 1
+
+    Affects punic  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_berber_adopted2
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionLeaderTrait berber >= 1
+
+    Affects berber  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_arab_adopted2
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionLeaderTrait arab >= 1
+
+    Affects arab  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_egyptian_adopted2
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionLeaderTrait egyptian >= 1
+
+    Affects egyptian  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_judaism_adopted2
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionLeaderTrait judaism >= 1
+
+    Affects judaism  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_samnite_adopted2
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionLeaderTrait samnite >= 1
+
+    Affects samnite  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_etruscan_adopted2
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionLeaderTrait etruscan >= 1
+
+    Affects etruscan  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_nuragic_adopted2
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionLeaderTrait nuragic >= 1
+
+    Affects nuragic  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_oscan_adopted2
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionLeaderTrait oscan >= 1
+
+    Affects oscan  1  Chance  100
+
+;------------------------------------------
+Trigger agent_religion_mesopotamian_adopted2
+    WhenToTest LesserGeneralOfferedForAdoption
+
+    Condition FactionLeaderTrait mesopotamian >= 1
+
+    Affects mesopotamian  1  Chance  100
+
+;------------------------------------------
 Trigger wife1a
     WhenToTest CharacterMarries
 

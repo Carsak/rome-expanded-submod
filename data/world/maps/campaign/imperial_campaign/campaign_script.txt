@@ -10,6 +10,7 @@ script
 	declare_persistent_counter greek_wars_setup
 	declare_persistent_counter punic_wars_setup
 	declare_persistent_counter socii_wars_setup
+	declare_persistent_counter syrian_wars_setup
 	declare_persistent_counter rebel_rome_spawned
 	declare_persistent_counter rebel_carthage_spawned
 	declare_persistent_counter rebel_parthia_spawned
@@ -1552,7 +1553,8 @@ script
 		end_if
 
 		if FactionIsAlive rebel_slave
-			if I_CompareCounter rebel_purge = 4
+			if I_CompareCounter rebel_purge = 2
+			|| I_CompareCounter rebel_purge = 5
 			|| I_CompareCounter rebel_purge = 8
 				for_each character in faction
 					if AgentType = merchant
@@ -1700,19 +1702,19 @@ script
 								if I_CompareCounter is_traitor > 0
 									if RandomPercent > 97
 										set_counter is_traitor 0
-										console_command change_character_faction local_character rebel_slave
+										console_command change_character_faction local_character slave
 									end_if
 
 									if I_CompareCounter is_traitor > 3
 										if RandomPercent > 91
 											set_counter is_traitor 0
-											console_command change_character_faction local_character rebel_slave
+											console_command change_character_faction local_character slave
 										end_if
 
 										if I_CompareCounter is_traitor > 7
 											if RandomPercent > 85
 												set_counter is_traitor 0
-												console_command change_character_faction local_character rebel_slave
+												console_command change_character_faction local_character slave
 											end_if
 										end_if
 									end_if
@@ -6638,32 +6640,6 @@ script
 		end_if
 	end_monitor
 
-	; Egypt launches 2nd Syrian War
-	monitor_event FactionTurnStart FactionType egypt
-		if FactionIsLocal
-			terminate_monitor
-		end_if
-
-		if I_CompareCounter mercenary_spawned > 0
-			if not DiplomaticStanceFromFaction seleucid = AtWar
-				if DiplomaticStanceFromFaction seleucid = Allied
-					console_command diplomatic_stance egypt seleucid neutral
-				end_if
-
-				console_command diplomatic_stance egypt seleucid war
-			end_if
-
-			if not DiplomaticStanceFromFaction macedon = AtWar
-				if DiplomaticStanceFromFaction macedon = Allied
-					console_command diplomatic_stance macedon egypt neutral
-				end_if
-
-				console_command diplomatic_stance macedon egypt war
-			end_if
-			terminate_monitor
-		end_if
-	end_monitor
-
 	monitor_event FactionTurnStart FactionType rebel_desert
 		if FactionIsLocal
 			terminate_monitor
@@ -7266,24 +7242,6 @@ script
 		end_if
 	end_monitor
 
-	; Egypt launches 6th Syrian War
-	monitor_event FactionTurnStart FactionType egypt
-		if FactionIsLocal
-			terminate_monitor
-		end_if
-
-		if I_CompareCounter maccabee_spawned > 0
-			if not DiplomaticStanceFromFaction seleucid = AtWar
-				if DiplomaticStanceFromFaction seleucid = Allied
-					console_command diplomatic_stance egypt seleucid neutral
-				end_if
-
-				console_command diplomatic_stance egypt seleucid war
-			end_if
-			terminate_monitor
-		end_if
-	end_monitor
-
 ;
 ;			CHREMONIDEAN WAR
 ;
@@ -7391,23 +7349,6 @@ script
 		end_if
 	end_monitor
 
-	monitor_event FactionTurnStart FactionType carthage_barcid
-		if I_CompareCounter greek_wars_setup > 0
-			if not FactionIsLocal
-			and I_SettlementOwner Ispal = iberian_faction_06
-				if not DiplomaticStanceFromFaction iberian_faction_06 = AtWar
-					if DiplomaticStanceFromFaction iberian_faction_06 = Allied
-						console_command diplomatic_stance carthage_barcid iberian_faction_06 neutral
-					end_if
-
-					console_command diplomatic_stance carthage_barcid iberian_faction_06 war
-				end_if
-			end_if
-
-			terminate_monitor
-		end_if
-	end_monitor
-
 	monitor_event FactionTurnStart FactionType egypt
 		if I_CompareCounter greek_wars_setup > 1
 			if not DiplomaticStanceFromFaction hellenic_faction_01 = Allied
@@ -7445,12 +7386,15 @@ script
 	end_monitor
 
 	monitor_event FactionTurnStart FactionType carthage_barcid
+		if FactionIsLocal
+			terminate_monitor
+		end_if
+
 		if I_CompareCounter greek_wars_setup = 3
 		and RandomPercent > 75
 			set_counter greek_wars_setup 4
 
-			if not FactionIsLocal
-			and I_SettlementOwner Carthago_Nova = iberian_faction_05
+			if I_SettlementOwner Carthago_Nova = iberian_faction_05
 				if not DiplomaticStanceFromFaction iberian_faction_05 = AtWar
 					if DiplomaticStanceFromFaction iberian_faction_05 = Allied
 						console_command diplomatic_stance carthage_barcid iberian_faction_05 neutral
@@ -7461,6 +7405,18 @@ script
 			end_if
 
 			terminate_monitor
+		end_if
+
+		if I_CompareCounter greek_wars_setup > 0
+			if I_SettlementOwner Ispal = iberian_faction_06
+				if not DiplomaticStanceFromFaction iberian_faction_06 = AtWar
+					if DiplomaticStanceFromFaction iberian_faction_06 = Allied
+						console_command diplomatic_stance carthage_barcid iberian_faction_06 neutral
+					end_if
+
+					console_command diplomatic_stance carthage_barcid iberian_faction_06 war
+				end_if
+			end_if
 		end_if
 	end_monitor
 
@@ -7554,6 +7510,118 @@ script
 			end_if
 
 			terminate_monitor
+		end_if
+	end_monitor
+
+;
+;		SYRIAN WARS
+;
+
+	monitor_event FactionTurnStart FactionType egypt
+		if FactionIsLocal
+			terminate_monitor
+		end_if
+
+		; Egypt launches 6th Syrian War
+
+		if I_CompareCounter syrian_wars_setup = 4
+		and I_TurnNumber > 200
+		and I_TurnNumber < 210
+		and RandomPercent > 50
+			inc_counter syrian_wars_setup 1
+
+			if not DiplomaticStanceFromFaction seleucid = AtWar
+				if DiplomaticStanceFromFaction seleucid = Allied
+					console_command diplomatic_stance egypt seleucid neutral
+				end_if
+
+				console_command diplomatic_stance egypt seleucid war
+			end_if
+			terminate_monitor
+		end_if
+
+		; Seleucid launches 5th Syrian War
+
+		if I_CompareCounter syrian_wars_setup = 3
+		and I_TurnNumber > 130
+		and I_TurnNumber < 150
+		and RandomPercent > 50
+			inc_counter syrian_wars_setup 1
+
+			if not DiplomaticStanceFromFaction seleucid = AtWar
+				if DiplomaticStanceFromFaction seleucid = Allied
+					console_command diplomatic_stance seleucid egypt neutral
+				end_if
+
+				console_command diplomatic_stance seleucid egypt war
+			end_if
+
+			if not DiplomaticStanceFromFaction macedon = AtWar
+				if DiplomaticStanceFromFaction macedon = Allied
+					console_command diplomatic_stance macedon egypt neutral
+				end_if
+
+				console_command diplomatic_stance macedon egypt war
+			end_if
+		end_if
+
+		; Seleucid launches 4th Syrian War
+
+		if I_CompareCounter syrian_wars_setup = 2
+		and I_TurnNumber > 100
+		and I_TurnNumber < 110
+		and RandomPercent > 50
+			inc_counter syrian_wars_setup 1
+
+			if not DiplomaticStanceFromFaction seleucid = AtWar
+				if DiplomaticStanceFromFaction seleucid = Allied
+					console_command diplomatic_stance seleucid egypt neutral
+				end_if
+
+				console_command diplomatic_stance seleucid egypt war
+			end_if
+		end_if
+
+		; Seleucid launches 3rd Syrian War
+
+		if I_CompareCounter syrian_wars_setup = 1
+		and I_TurnNumber > 45
+		and I_TurnNumber < 60
+		and RandomPercent > 50
+			inc_counter syrian_wars_setup 1
+
+			if not DiplomaticStanceFromFaction seleucid = AtWar
+				if DiplomaticStanceFromFaction seleucid = Allied
+					console_command diplomatic_stance seleucid egypt neutral
+				end_if
+
+				console_command diplomatic_stance seleucid egypt war
+			end_if
+		end_if
+
+		; Egypt launches 2nd Syrian War
+
+		if I_CompareCounter syrian_wars_setup = 0
+		and I_TurnNumber > 18
+		and I_TurnNumber < 35
+		and RandomPercent > 50
+			inc_counter syrian_wars_setup 1
+
+			if not DiplomaticStanceFromFaction seleucid = AtWar
+				if DiplomaticStanceFromFaction seleucid = Allied
+					console_command diplomatic_stance egypt seleucid neutral
+				end_if
+
+				console_command diplomatic_stance egypt seleucid war
+			end_if
+
+			if not DiplomaticStanceFromFaction macedon = AtWar
+				if DiplomaticStanceFromFaction macedon = Allied
+					console_command diplomatic_stance macedon egypt neutral
+				end_if
+
+				console_command diplomatic_stance macedon egypt war
+			end_if
 		end_if
 	end_monitor
 
@@ -8921,68 +8989,6 @@ script
 					console_command add_money romans_brutii, 10000
 				end_if
 			end_if
-		end_if
-	end_monitor
-
-	; Seleucid launches 3rd Syrian War
-	monitor_event FactionTurnStart FactionType egypt
-		if FactionIsLocal
-			terminate_monitor
-		end_if
-
-		if I_CompareCounter punic_wars_setup > 0
-			if not DiplomaticStanceFromFaction seleucid = AtWar
-				if DiplomaticStanceFromFaction seleucid = Allied
-					console_command diplomatic_stance seleucid egypt neutral
-				end_if
-
-				console_command diplomatic_stance seleucid egypt war
-			end_if
-			terminate_monitor
-		end_if
-	end_monitor
-
-	; Seleucid launches 4th Syrian War
-	monitor_event FactionTurnStart FactionType egypt
-		if FactionIsLocal
-			terminate_monitor
-		end_if
-
-		if I_CompareCounter punic_wars_setup > 2
-			if not DiplomaticStanceFromFaction seleucid = AtWar
-				if DiplomaticStanceFromFaction seleucid = Allied
-					console_command diplomatic_stance seleucid egypt neutral
-				end_if
-
-				console_command diplomatic_stance seleucid egypt war
-			end_if
-			terminate_monitor
-		end_if
-	end_monitor
-
-	; Seleucid launches 5th Syrian War
-	monitor_event FactionTurnStart FactionType egypt
-		if FactionIsLocal
-			terminate_monitor
-		end_if
-
-		if I_CompareCounter punic_wars_setup = 6
-			if not DiplomaticStanceFromFaction seleucid = AtWar
-				if DiplomaticStanceFromFaction seleucid = Allied
-					console_command diplomatic_stance seleucid egypt neutral
-				end_if
-
-				console_command diplomatic_stance seleucid egypt war
-			end_if
-
-			if not DiplomaticStanceFromFaction macedon = AtWar
-				if DiplomaticStanceFromFaction macedon = Allied
-					console_command diplomatic_stance macedon egypt neutral
-				end_if
-
-				console_command diplomatic_stance macedon egypt war
-			end_if
-			terminate_monitor
 		end_if
 	end_monitor
 
@@ -10637,7 +10643,6 @@ script
 		end_if
 	end_monitor
 
-
 ;
 ; Rome SOS when Rome is not Human
 ;
@@ -10667,7 +10672,6 @@ script
 			if I_CompareCounter sos_julii_spawned < 10
 			and not MajorEventActive "marian_reforms"
 				for_each settlement in faction
-
 					declare_counter is_garrison
 
 					for_each army in settlement
@@ -10703,9 +10707,7 @@ script
 			end_if
 
 			if MajorEventActive "marian_reforms"
-			and I_CompareCounter sos_julii_spawned < 20
 				for_each settlement in faction
-
 					declare_counter is_garrison
 
 					for_each army in settlement
@@ -10752,7 +10754,6 @@ script
 			if I_CompareCounter sos_brutii_spawned < 10
 			and not MajorEventActive "marian_reforms"
 				for_each settlement in faction
-
 					declare_counter is_garrison
 
 					for_each army in settlement
@@ -10788,9 +10789,7 @@ script
 			end_if
 
 			if MajorEventActive "marian_reforms"
-			and I_CompareCounter sos_brutii_spawned < 20
 				for_each settlement in faction
-
 					declare_counter is_garrison
 
 					for_each army in settlement
@@ -10837,7 +10836,6 @@ script
 			if I_CompareCounter sos_scipii_spawned < 10
 			and not MajorEventActive "marian_reforms"
 				for_each settlement in faction
-
 					declare_counter is_garrison
 
 					for_each army in settlement
@@ -10873,9 +10871,7 @@ script
 			end_if
 
 			if MajorEventActive "marian_reforms"
-			and I_CompareCounter sos_scipii_spawned < 20
 				for_each settlement in faction
-
 					declare_counter is_garrison
 
 					for_each army in settlement
@@ -10921,7 +10917,6 @@ script
 			if I_CompareCounter sos_senate_spawned < 10
 			and not MajorEventActive "marian_reforms"
 				for_each settlement in faction
-
 					declare_counter is_garrison
 
 					for_each army in settlement
@@ -10945,9 +10940,7 @@ script
 			end_if
 
 			if MajorEventActive "marian_reforms"
-			and I_CompareCounter sos_senate_spawned < 20
 				for_each settlement in faction
-
 					declare_counter is_garrison
 
 					for_each army in settlement
@@ -10979,30 +10972,27 @@ script
 				terminate_monitor
 			end_if
 
-			if I_CompareCounter sos_parthia_spawned < 30
-				for_each settlement in faction
+			for_each settlement in faction
+				declare_counter is_garrison
 
-					declare_counter is_garrison
-
-					for_each army in settlement
-						if ArmyIsGarrison
-							for_each unit in army
-								inc_counter is_garrison 1
-							end_for
-						end_if
-					end_for
-
-					if I_CompareCounter is_garrison <= 14
-					and RandomPercent > 75
-						inc_counter sos_parthia_spawned 1
-						console_command create_unit local_settlement "east heavy infantry" 2
-						console_command create_unit local_settlement "persian swordsmen" 1
-						console_command create_unit local_settlement "east persian cavalry" 2
-						console_command create_unit local_settlement "east heavy cataphract" 1
-						console_command add_money parthia, 10000
+				for_each army in settlement
+					if ArmyIsGarrison
+						for_each unit in army
+							inc_counter is_garrison 1
+						end_for
 					end_if
 				end_for
-			end_if
+
+				if I_CompareCounter is_garrison <= 14
+				and RandomPercent > 75
+					inc_counter sos_parthia_spawned 1
+					console_command create_unit local_settlement "east heavy infantry" 2
+					console_command create_unit local_settlement "persian swordsmen" 1
+					console_command create_unit local_settlement "east persian cavalry" 2
+					console_command create_unit local_settlement "east heavy cataphract" 1
+					console_command add_money parthia, 10000
+				end_if
+			end_for
 		end_if
 	end_monitor
 
@@ -11013,32 +11003,29 @@ script
 				terminate_monitor
 			end_if
 
-			if I_CompareCounter sos_caesar_spawned < 30
-				for_each settlement in faction
+			for_each settlement in faction
+				declare_counter is_garrison
 
-					declare_counter is_garrison
-
-					for_each army in settlement
-						if ArmyIsGarrison
-							for_each unit in army
-								inc_counter is_garrison 1
-							end_for
-						end_if
-					end_for
-
-					if I_CompareCounter is_garrison <= 12
-					and RandomPercent > 75
-						inc_counter sos_caesar_spawned 1
-						console_command create_unit local_settlement "roman legionary cohort i" 3
-						console_command create_unit local_settlement "roman legionary first cohort i" 1
-						console_command create_unit local_settlement "roman light infantry auxillia" 1
-						console_command create_unit local_settlement "roman archer auxillia" 1
-						console_command create_unit local_settlement "roman cavalry auxillia" 1
-						console_command create_unit local_settlement "roman heavy cavalry" 1
-						console_command add_money rebel_romans, 10000
+				for_each army in settlement
+					if ArmyIsGarrison
+						for_each unit in army
+							inc_counter is_garrison 1
+						end_for
 					end_if
 				end_for
-			end_if
+
+				if I_CompareCounter is_garrison <= 12
+				and RandomPercent > 75
+					inc_counter sos_caesar_spawned 1
+					console_command create_unit local_settlement "roman legionary cohort i" 3
+					console_command create_unit local_settlement "roman legionary first cohort i" 1
+					console_command create_unit local_settlement "roman light infantry auxillia" 1
+					console_command create_unit local_settlement "roman archer auxillia" 1
+					console_command create_unit local_settlement "roman cavalry auxillia" 1
+					console_command create_unit local_settlement "roman heavy cavalry" 1
+					console_command add_money rebel_romans, 10000
+				end_if
+			end_for
 		end_if
 	end_monitor
 
@@ -11049,224 +11036,218 @@ script
 				terminate_monitor
 			end_if
 
-			if I_CompareCounter sos_slave_spawned < 30
-				for_each settlement in faction
+			for_each settlement in faction
 
-					declare_counter is_garrison
+				declare_counter is_garrison
 
-					for_each army in settlement
-						if ArmyIsGarrison
-							for_each unit in army
-								inc_counter is_garrison 1
-							end_for
-						end_if
-					end_for
-
-					if I_CompareCounter is_garrison <= 14
-					and RandomPercent > 75
-						inc_counter sos_slave_spawned 1
-						console_command create_unit local_settlement "roman velite gladiator" 2
-						console_command create_unit local_settlement "roman samnite gladiator" 2
-						console_command create_unit local_settlement "roman mirmillo gladiator" 2
-						console_command add_money rebel_slave, 10000
+				for_each army in settlement
+					if ArmyIsGarrison
+						for_each unit in army
+							inc_counter is_garrison 1
+						end_for
 					end_if
 				end_for
-			end_if
+
+				if I_CompareCounter is_garrison <= 14
+				and RandomPercent > 75
+					inc_counter sos_slave_spawned 1
+					console_command create_unit local_settlement "roman velite gladiator" 2
+					console_command create_unit local_settlement "roman samnite gladiator" 2
+					console_command create_unit local_settlement "roman mirmillo gladiator" 2
+					console_command add_money rebel_slave, 10000
+				end_if
+			end_for
 		end_if
 	end_monitor
 
 	; Carthage reinforcements
 
 	monitor_event FactionTurnStart FactionType rebel_carthage
+		if I_CompareCounter is_rome = 0
+			terminate_monitor
+		end_if
+
 		if I_CompareCounter punic_wars_setup > 3
 			if FactionIsLocal
-			|| I_CompareCounter is_rome = 0
 			|| I_CompareCounter sos_punic_spawned >= 30
 				terminate_monitor
 			end_if
 
-			if I_CompareCounter sos_punic_spawned < 30
-				for_each settlement in faction
+			for_each settlement in faction
+				declare_counter is_garrison
 
-					declare_counter is_garrison
-
-					for_each army in settlement
-						if ArmyIsGarrison
-							for_each unit in army
-								inc_counter is_garrison 1
-							end_for
-						end_if
-					end_for
-
-					if I_CompareCounter is_garrison <= 11
-					and RandomPercent > 75
-						inc_counter sos_punic_spawned 1
-						console_command create_unit local_settlement "merc elephants" 1
-						console_command create_unit local_settlement "merc samnite" 1
-						console_command create_unit local_settlement "merc greek hoplites" 1
-						console_command create_unit local_settlement "merc spanish infantry" 1
-						console_command create_unit local_settlement "merc barbarian infantry" 1
-						console_command create_unit local_settlement "merc balearic slingers" 2
-						console_command create_unit local_settlement "merc numidian cavalry" 2
-						console_command add_money rebel_carthage, 10000
+				for_each army in settlement
+					if ArmyIsGarrison
+						for_each unit in army
+							inc_counter is_garrison 1
+						end_for
 					end_if
 				end_for
-			end_if
+
+				if I_CompareCounter is_garrison <= 11
+				and RandomPercent > 75
+					inc_counter sos_punic_spawned 1
+					console_command create_unit local_settlement "merc elephants" 1
+					console_command create_unit local_settlement "merc samnite" 1
+					console_command create_unit local_settlement "merc greek hoplites" 1
+					console_command create_unit local_settlement "merc spanish infantry" 1
+					console_command create_unit local_settlement "merc barbarian infantry" 1
+					console_command create_unit local_settlement "merc balearic slingers" 2
+					console_command create_unit local_settlement "merc numidian cavalry" 2
+					console_command add_money rebel_carthage, 10000
+				end_if
+			end_for
 		end_if
 	end_monitor
 
 	monitor_event FactionTurnStart FactionType carthage_barcid
+		if I_CompareCounter is_rome = 0
+			terminate_monitor
+		end_if
+
 		if I_CompareCounter punic_wars_setup > 3
-		and not FactionIsAlive rebel_carthage
 			if FactionIsLocal
-			|| I_CompareCounter is_rome = 0
 			|| I_CompareCounter sos_punic_spawned >= 30
 				terminate_monitor
 			end_if
 
-			if I_CompareCounter sos_punic_spawned < 30
-				for_each settlement in faction
+			for_each settlement in faction
+				declare_counter is_garrison
 
-					declare_counter is_garrison
-
-					for_each army in settlement
-						if ArmyIsGarrison
-							for_each unit in army
-								inc_counter is_garrison 1
-							end_for
-						end_if
-					end_for
-
-					if I_CompareCounter is_garrison <= 11
-					and RandomPercent > 75
-						inc_counter sos_punic_spawned 1
-						console_command create_unit local_settlement "merc elephants" 1
-						console_command create_unit local_settlement "merc samnite" 1
-						console_command create_unit local_settlement "merc greek hoplites" 1
-						console_command create_unit local_settlement "merc spanish infantry" 1
-						console_command create_unit local_settlement "merc barbarian infantry" 1
-						console_command create_unit local_settlement "merc balearic slingers" 2
-						console_command create_unit local_settlement "merc numidian cavalry" 2
-						console_command add_money carthage_barcid, 10000
+				for_each army in settlement
+					if ArmyIsGarrison
+						for_each unit in army
+							inc_counter is_garrison 1
+						end_for
 					end_if
 				end_for
-			end_if
+
+				if I_CompareCounter is_garrison <= 11
+				and RandomPercent > 75
+					inc_counter sos_punic_spawned 1
+					console_command create_unit local_settlement "merc elephants" 1
+					console_command create_unit local_settlement "merc samnite" 1
+					console_command create_unit local_settlement "merc greek hoplites" 1
+					console_command create_unit local_settlement "merc spanish infantry" 1
+					console_command create_unit local_settlement "merc barbarian infantry" 1
+					console_command create_unit local_settlement "merc balearic slingers" 2
+					console_command create_unit local_settlement "merc numidian cavalry" 2
+					console_command add_money carthage_barcid, 10000
+				end_if
+			end_for
 		end_if
 	end_monitor
 
 	monitor_event FactionTurnStart FactionType carthage_hannonid
+		if I_CompareCounter is_rome = 0
+			terminate_monitor
+		end_if
+
 		if I_CompareCounter punic_wars_setup > 3
-		and not FactionIsAlive rebel_carthage
 			if FactionIsLocal
-			|| I_CompareCounter is_rome = 0
 			|| I_CompareCounter sos_punic_spawned >= 30
 				terminate_monitor
 			end_if
 
-			if I_CompareCounter sos_punic_spawned < 30
-				for_each settlement in faction
+			for_each settlement in faction
+				declare_counter is_garrison
 
-					declare_counter is_garrison
-
-					for_each army in settlement
-						if ArmyIsGarrison
-							for_each unit in army
-								inc_counter is_garrison 1
-							end_for
-						end_if
-					end_for
-
-					if I_CompareCounter is_garrison <= 11
-					and RandomPercent > 75
-						inc_counter sos_punic_spawned 1
-						console_command create_unit local_settlement "merc elephants" 1
-						console_command create_unit local_settlement "merc samnite" 1
-						console_command create_unit local_settlement "merc greek hoplites" 1
-						console_command create_unit local_settlement "merc spanish infantry" 1
-						console_command create_unit local_settlement "merc barbarian infantry" 1
-						console_command create_unit local_settlement "merc balearic slingers" 2
-						console_command create_unit local_settlement "merc numidian cavalry" 2
-						console_command add_money carthage_hannonid, 10000
+				for_each army in settlement
+					if ArmyIsGarrison
+						for_each unit in army
+							inc_counter is_garrison 1
+						end_for
 					end_if
 				end_for
-			end_if
+
+				if I_CompareCounter is_garrison <= 11
+				and RandomPercent > 75
+					inc_counter sos_punic_spawned 1
+					console_command create_unit local_settlement "merc elephants" 1
+					console_command create_unit local_settlement "merc samnite" 1
+					console_command create_unit local_settlement "merc greek hoplites" 1
+					console_command create_unit local_settlement "merc spanish infantry" 1
+					console_command create_unit local_settlement "merc barbarian infantry" 1
+					console_command create_unit local_settlement "merc balearic slingers" 2
+					console_command create_unit local_settlement "merc numidian cavalry" 2
+					console_command add_money carthage_hannonid, 10000
+				end_if
+			end_for
 		end_if
 	end_monitor
 
 	monitor_event FactionTurnStart FactionType carthage_magonid
+		if I_CompareCounter is_rome = 0
+			terminate_monitor
+		end_if
+
 		if I_CompareCounter punic_wars_setup > 3
-		and not FactionIsAlive rebel_carthage
 			if FactionIsLocal
-			|| I_CompareCounter is_rome = 0
 			|| I_CompareCounter sos_punic_spawned >= 30
 				terminate_monitor
 			end_if
 
-			if I_CompareCounter sos_punic_spawned < 30
-				for_each settlement in faction
+			for_each settlement in faction
+				declare_counter is_garrison
 
-					declare_counter is_garrison
-
-					for_each army in settlement
-						if ArmyIsGarrison
-							for_each unit in army
-								inc_counter is_garrison 1
-							end_for
-						end_if
-					end_for
-
-					if I_CompareCounter is_garrison <= 11
-					and RandomPercent > 75
-						inc_counter sos_punic_spawned 1
-						console_command create_unit local_settlement "merc elephants" 1
-						console_command create_unit local_settlement "merc samnite" 1
-						console_command create_unit local_settlement "merc greek hoplites" 1
-						console_command create_unit local_settlement "merc spanish infantry" 1
-						console_command create_unit local_settlement "merc barbarian infantry" 1
-						console_command create_unit local_settlement "merc balearic slingers" 2
-						console_command create_unit local_settlement "merc numidian cavalry" 2
-						console_command add_money carthage_magonid, 10000
+				for_each army in settlement
+					if ArmyIsGarrison
+						for_each unit in army
+							inc_counter is_garrison 1
+						end_for
 					end_if
 				end_for
-			end_if
+
+				if I_CompareCounter is_garrison <= 11
+				and RandomPercent > 75
+					inc_counter sos_punic_spawned 1
+					console_command create_unit local_settlement "merc elephants" 1
+					console_command create_unit local_settlement "merc samnite" 1
+					console_command create_unit local_settlement "merc greek hoplites" 1
+					console_command create_unit local_settlement "merc spanish infantry" 1
+					console_command create_unit local_settlement "merc barbarian infantry" 1
+					console_command create_unit local_settlement "merc balearic slingers" 2
+					console_command create_unit local_settlement "merc numidian cavalry" 2
+					console_command add_money carthage_magonid, 10000
+				end_if
+			end_for
 		end_if
 	end_monitor
 
 	monitor_event FactionTurnStart FactionType carthage
+		if I_CompareCounter is_rome = 0
+			terminate_monitor
+		end_if
+
 		if I_CompareCounter punic_wars_setup > 3
-		and not FactionIsAlive rebel_carthage
-			if I_CompareCounter is_rome = 0
-			|| I_CompareCounter sos_punic_spawned >= 30
+			if I_CompareCounter sos_punic_spawned >= 30
 				terminate_monitor
 			end_if
 
-			if I_CompareCounter sos_punic_spawned < 30
-				for_each settlement in faction
+			for_each settlement in faction
+				declare_counter is_garrison
 
-					declare_counter is_garrison
-
-					for_each army in settlement
-						if ArmyIsGarrison
-							for_each unit in army
-								inc_counter is_garrison 1
-							end_for
-						end_if
-					end_for
-
-					if I_CompareCounter is_garrison <= 12
-					and RandomPercent > 75
-						inc_counter sos_punic_spawned 1
-						console_command create_unit local_settlement "merc elephants" 1
-						console_command create_unit local_settlement "merc samnite" 1
-						console_command create_unit local_settlement "merc greek hoplites" 1
-						console_command create_unit local_settlement "merc spanish infantry" 1
-						console_command create_unit local_settlement "merc barbarian infantry" 1
-						console_command create_unit local_settlement "merc balearic slingers" 2
-						console_command create_unit local_settlement "merc numidian cavalry" 2
-						console_command add_money carthage, 10000
+				for_each army in settlement
+					if ArmyIsGarrison
+						for_each unit in army
+							inc_counter is_garrison 1
+						end_for
 					end_if
 				end_for
-			end_if
+
+				if I_CompareCounter is_garrison <= 11
+				and RandomPercent > 75
+					inc_counter sos_punic_spawned 1
+					console_command create_unit local_settlement "merc elephants" 1
+					console_command create_unit local_settlement "merc samnite" 1
+					console_command create_unit local_settlement "merc greek hoplites" 1
+					console_command create_unit local_settlement "merc spanish infantry" 1
+					console_command create_unit local_settlement "merc barbarian infantry" 1
+					console_command create_unit local_settlement "merc balearic slingers" 2
+					console_command create_unit local_settlement "merc numidian cavalry" 2
+					console_command add_money carthage, 10000
+				end_if
+			end_for
 		end_if
 	end_monitor
 
@@ -11279,29 +11260,26 @@ script
 				terminate_monitor
 			end_if
 
-			if I_CompareCounter sos_socii_spawned < 30
-				for_each settlement in faction
+			for_each settlement in faction
+				declare_counter is_garrison
 
-					declare_counter is_garrison
-
-					for_each army in settlement
-						if ArmyIsGarrison
-							for_each unit in army
-								inc_counter is_garrison 1
-							end_for
-						end_if
-					end_for
-
-					if I_CompareCounter is_garrison <= 14
-					and RandomPercent > 75
-						inc_counter sos_socii_spawned 1
-						console_command create_unit local_settlement "italian alarii cohort" 3
-						console_command create_unit local_settlement "italian praetorian cohort" 2
-						console_command create_unit local_settlement "italian heavy cavalry" 1
-						console_command add_money rebel_latin, 10000
+				for_each army in settlement
+					if ArmyIsGarrison
+						for_each unit in army
+							inc_counter is_garrison 1
+						end_for
 					end_if
 				end_for
-			end_if
+
+				if I_CompareCounter is_garrison <= 14
+				and RandomPercent > 75
+					inc_counter sos_socii_spawned 1
+					console_command create_unit local_settlement "italian alarii cohort" 3
+					console_command create_unit local_settlement "italian praetorian cohort" 2
+					console_command create_unit local_settlement "italian heavy cavalry" 1
+					console_command add_money rebel_latin, 10000
+				end_if
+			end_for
 		end_if
 	end_monitor
 
