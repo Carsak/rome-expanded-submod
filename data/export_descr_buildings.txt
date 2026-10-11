@@ -71,45 +71,6 @@ building core_building
 				recruit "greek peasant" 0 requires is_player
 				recruit "roman peasant" 0 requires is_player
 
-				; AI Recruitment
-
-				recruit "barb chieftain cavalry early slave" 0 requires not is_player and factions { rebel_slave, }
-				recruit "barb british general briton" 0 requires not is_player and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, }
-				recruit "tribal warlord" 0 requires not is_player and factions { desert_faction_04, desert_faction_05, }
-				recruit "carthaginian general's cavalry early" 0 requires not is_player and not major_event "marian_reforms" and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
-				recruit "iberian general's cavalry early" 0 requires not is_player and not major_event "marian_reforms" and factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
-				recruit "numidian general's cavalry early" 0 requires not is_player and not major_event "marian_reforms" and factions { numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert, }
-				recruit "barb chieftain cavalry early dacian" 0 requires not is_player and not major_event "marian_reforms" and factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
-				recruit "barb chieftain cavalry early gaul" 0 requires not is_player and not major_event "marian_reforms" and factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
-				recruit "barb chieftain cavalry early german" 0 requires not is_player and not major_event "marian_reforms" and factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
-				recruit "barb chieftain cavalry early scythian" 0 requires not is_player and not major_event "marian_reforms" and factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
-				recruit "east generals cavalry early" 0 requires not is_player and not major_event "marian_reforms" and factions { parthia, rebel_parthia, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, }
-				recruit "east pontic generals early" 0 requires not is_player and not major_event "marian_reforms" and factions { pontus, anatolian_faction_01, anatolian_faction_02, rebel_judea, }
-				recruit "nile general's bodyguard early" 0 requires not is_player and not major_event "marian_reforms" and factions { egyptian, }
-				recruit "egyptian general's bodyguard early" 0 requires not is_player and not major_event "marian_reforms" and factions { egyptian, }
-				recruit "greek general's guard cavalry early" 0 requires not is_player and not major_event "marian_reforms" and factions { greek_cities, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, seleucid, macedon, hellenic_faction_13, }
-				recruit "thracian bodyguard early" 0 requires not is_player and not major_event "marian_reforms" and factions { thrace, thracian_faction_01, thracian_faction_02, illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
-				recruit "roman generals guard cavalry early" 0 requires not is_player and not major_event "marian_reforms" and factions { roman, }
-				recruit "spartan general" 0 requires not is_player and not major_event "marian_reforms" and factions { hellenic_faction_01, }
-				recruit "italian generals guard cavalry early" 0 requires not is_player and not major_event "marian_reforms" and factions { italic, }
-
-				recruit "carthaginian general's cavalry" 0 requires not is_player and major_event "marian_reforms" and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
-				recruit "iberian general's cavalry" 0 requires not is_player and major_event "marian_reforms" and factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
-				recruit "numidian general's cavalry" 0 requires not is_player and major_event "marian_reforms" and factions { numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_04, desert_faction_05, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert, }
-				recruit "barb chieftain cavalry dacian" 0 requires not is_player and major_event "marian_reforms" and factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
-				recruit "barb chieftain cavalry gaul" 0 requires not is_player and major_event "marian_reforms" and factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
-				recruit "barb chieftain cavalry german" 0 requires not is_player and major_event "marian_reforms" and factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
-				recruit "barb scythian general scythian" 0 requires not is_player and major_event "marian_reforms" and factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
-				recruit "east generals cavalry" 0 requires not is_player and major_event "marian_reforms" and factions { parthia, rebel_parthia, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, }
-				recruit "east pontic general" 0 requires not is_player and major_event "marian_reforms" and factions { pontus, anatolian_faction_01, anatolian_faction_02, rebel_judea, }
-				recruit "nile general's bodyguard" 0 requires not is_player and major_event "marian_reforms" and factions { egyptian, }
-				recruit "egyptian general's bodyguard" 0 requires not is_player and major_event "marian_reforms" and factions { egyptian, }
-				recruit "greek general's guard cavalry" 0 requires not is_player and major_event "marian_reforms" and factions { greek_cities, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, seleucid, macedon, hellenic_faction_13, }
-				recruit "thracian bodyguard" 0 requires not is_player and major_event "marian_reforms" and factions { thrace, thracian_faction_01, thracian_faction_02, illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
-				recruit "roman generals guard cavalry" 0 requires not is_player and major_event "marian_reforms" and factions { roman, }
-				recruit "spartan general late" 0 requires not is_player and major_event "marian_reforms" and factions { hellenic_faction_01, }
-				recruit "italian generals guard cavalry" 0 requires not is_player and major_event "marian_reforms" and factions { italic, }
-
 				agent diplomat 0 requires not factions { rebel_slave, }
 				agent_limit_settlement diplomat 1
 
@@ -155,45 +116,6 @@ building core_building
 				recruit "greek peasant" 0 requires is_player
 				recruit "roman peasant" 0 requires is_player
 
-				; AI Recruitment
-
-				recruit "barb chieftain cavalry early slave" 0 requires not is_player and factions { rebel_slave, }
-				recruit "barb british general briton" 1 requires not is_player and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, }
-				recruit "tribal warlord" 1 requires not is_player and factions { desert_faction_04, desert_faction_05, }
-				recruit "carthaginian general's cavalry early" 1 requires not is_player and not major_event "marian_reforms" and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
-				recruit "iberian general's cavalry early" 1 requires not is_player and not major_event "marian_reforms" and factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
-				recruit "numidian general's cavalry early" 1 requires not is_player and not major_event "marian_reforms" and factions { numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert, }
-				recruit "barb chieftain cavalry early dacian" 1 requires not is_player and not major_event "marian_reforms" and factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
-				recruit "barb chieftain cavalry early gaul" 1 requires not is_player and not major_event "marian_reforms" and factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
-				recruit "barb chieftain cavalry early german" 1 requires not is_player and not major_event "marian_reforms" and factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
-				recruit "barb chieftain cavalry early scythian" 1 requires not is_player and not major_event "marian_reforms" and factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
-				recruit "east generals cavalry early" 1 requires not is_player and not major_event "marian_reforms" and factions { parthia, rebel_parthia, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, }
-				recruit "east pontic generals early" 1 requires not is_player and not major_event "marian_reforms" and factions { pontus, anatolian_faction_01, anatolian_faction_02, rebel_judea, }
-				recruit "nile general's bodyguard early" 1 requires not is_player and not major_event "marian_reforms" and factions { egyptian, }
-				recruit "egyptian general's bodyguard early" 1 requires not is_player and not major_event "marian_reforms" and factions { egyptian, }
-				recruit "greek general's guard cavalry early" 1 requires not is_player and not major_event "marian_reforms" and factions { greek_cities, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, seleucid, macedon, hellenic_faction_13, }
-				recruit "thracian bodyguard early" 1 requires not is_player and not major_event "marian_reforms" and factions { thrace, thracian_faction_01, thracian_faction_02, illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
-				recruit "roman generals guard cavalry early" 1 requires not is_player and not major_event "marian_reforms" and factions { roman, }
-				recruit "spartan general" 1 requires not is_player and not major_event "marian_reforms" and factions { hellenic_faction_01, }
-				recruit "italian generals guard cavalry early" 1 requires not is_player and not major_event "marian_reforms" and factions { italic, }
-
-				recruit "carthaginian general's cavalry" 1 requires not is_player and major_event "marian_reforms" and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
-				recruit "iberian general's cavalry" 1 requires not is_player and major_event "marian_reforms" and factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
-				recruit "numidian general's cavalry" 1 requires not is_player and major_event "marian_reforms" and factions { numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_04, desert_faction_05, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert, }
-				recruit "barb chieftain cavalry dacian" 1 requires not is_player and major_event "marian_reforms" and factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
-				recruit "barb chieftain cavalry gaul" 1 requires not is_player and major_event "marian_reforms" and factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
-				recruit "barb chieftain cavalry german" 1 requires not is_player and major_event "marian_reforms" and factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
-				recruit "barb scythian general scythian" 1 requires not is_player and major_event "marian_reforms" and factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
-				recruit "east generals cavalry" 1 requires not is_player and major_event "marian_reforms" and factions { parthia, rebel_parthia, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, }
-				recruit "east pontic general" 1 requires not is_player and major_event "marian_reforms" and factions { pontus, anatolian_faction_01, anatolian_faction_02, rebel_judea, }
-				recruit "nile general's bodyguard" 1 requires not is_player and major_event "marian_reforms" and factions { egyptian, }
-				recruit "egyptian general's bodyguard" 1 requires not is_player and major_event "marian_reforms" and factions { egyptian, }
-				recruit "greek general's guard cavalry" 1 requires not is_player and major_event "marian_reforms" and factions { greek_cities, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, seleucid, macedon, hellenic_faction_13, }
-				recruit "thracian bodyguard" 1 requires not is_player and major_event "marian_reforms" and factions { thrace, thracian_faction_01, thracian_faction_02, illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
-				recruit "roman generals guard cavalry" 1 requires not is_player and major_event "marian_reforms" and factions { roman, }
-				recruit "spartan general late" 1 requires not is_player and major_event "marian_reforms" and factions { hellenic_faction_01, }
-				recruit "italian generals guard cavalry" 1 requires not is_player and major_event "marian_reforms" and factions { italic, }
-
 				agent diplomat 0 requires not factions { rebel_slave, }
 				agent_limit_settlement diplomat 1
 
@@ -238,45 +160,6 @@ building core_building
 				recruit "egyptian peasant" 0 requires is_player
 				recruit "greek peasant" 0 requires is_player
 				recruit "roman peasant" 0 requires is_player
-
-				; AI Recruitment
-
-				recruit "barb chieftain cavalry early slave" 0 requires not is_player and factions { rebel_slave, }
-				recruit "barb british general briton" 2 requires not is_player and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, }
-				recruit "tribal warlord" 2 requires not is_player and factions { desert_faction_04, desert_faction_05, }
-				recruit "carthaginian general's cavalry early" 2 requires not is_player and not major_event "marian_reforms" and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
-				recruit "iberian general's cavalry early" 2 requires not is_player and not major_event "marian_reforms" and factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
-				recruit "numidian general's cavalry early" 2 requires not is_player and not major_event "marian_reforms" and factions { numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert, }
-				recruit "barb chieftain cavalry early dacian" 2 requires not is_player and not major_event "marian_reforms" and factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
-				recruit "barb chieftain cavalry early gaul" 2 requires not is_player and not major_event "marian_reforms" and factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
-				recruit "barb chieftain cavalry early german" 2 requires not is_player and not major_event "marian_reforms" and factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
-				recruit "barb chieftain cavalry early scythian" 2 requires not is_player and not major_event "marian_reforms" and factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
-				recruit "east generals cavalry early" 2 requires not is_player and not major_event "marian_reforms" and factions { parthia, rebel_parthia, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, }
-				recruit "east pontic generals early" 2 requires not is_player and not major_event "marian_reforms" and factions { pontus, anatolian_faction_01, anatolian_faction_02, rebel_judea, }
-				recruit "nile general's bodyguard early" 2 requires not is_player and not major_event "marian_reforms" and factions { egyptian, }
-				recruit "egyptian general's bodyguard early" 2 requires not is_player and not major_event "marian_reforms" and factions { egyptian, }
-				recruit "greek general's guard cavalry early" 2 requires not is_player and not major_event "marian_reforms" and factions { greek_cities, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, seleucid, macedon, hellenic_faction_13, }
-				recruit "thracian bodyguard early" 2 requires not is_player and not major_event "marian_reforms" and factions { thrace, thracian_faction_01, thracian_faction_02, illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
-				recruit "roman generals guard cavalry early" 2 requires not is_player and not major_event "marian_reforms" and factions { roman, }
-				recruit "spartan general" 2 requires not is_player and not major_event "marian_reforms" and factions { hellenic_faction_01, }
-				recruit "italian generals guard cavalry early" 2 requires not is_player and not major_event "marian_reforms" and factions { italic, }
-
-				recruit "carthaginian general's cavalry" 2 requires not is_player and major_event "marian_reforms" and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
-				recruit "iberian general's cavalry" 2 requires not is_player and major_event "marian_reforms" and factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
-				recruit "numidian general's cavalry" 2 requires not is_player and major_event "marian_reforms" and factions { numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_04, desert_faction_05, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert, }
-				recruit "barb chieftain cavalry dacian" 2 requires not is_player and major_event "marian_reforms" and factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
-				recruit "barb chieftain cavalry gaul" 2 requires not is_player and major_event "marian_reforms" and factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
-				recruit "barb chieftain cavalry german" 2 requires not is_player and major_event "marian_reforms" and factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
-				recruit "barb scythian general scythian" 2 requires not is_player and major_event "marian_reforms" and factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
-				recruit "east generals cavalry" 2 requires not is_player and major_event "marian_reforms" and factions { parthia, rebel_parthia, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, }
-				recruit "east pontic general" 2 requires not is_player and major_event "marian_reforms" and factions { pontus, anatolian_faction_01, anatolian_faction_02, rebel_judea, }
-				recruit "nile general's bodyguard" 2 requires not is_player and major_event "marian_reforms" and factions { egyptian, }
-				recruit "egyptian general's bodyguard" 2 requires not is_player and major_event "marian_reforms" and factions { egyptian, }
-				recruit "greek general's guard cavalry" 2 requires not is_player and major_event "marian_reforms" and factions { greek_cities, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, seleucid, macedon, hellenic_faction_13, }
-				recruit "thracian bodyguard" 2 requires not is_player and major_event "marian_reforms" and factions { thrace, thracian_faction_01, thracian_faction_02, illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
-				recruit "roman generals guard cavalry" 2 requires not is_player and major_event "marian_reforms" and factions { roman, }
-				recruit "spartan general late" 2 requires not is_player and major_event "marian_reforms" and factions { hellenic_faction_01, }
-				recruit "italian generals guard cavalry" 2 requires not is_player and major_event "marian_reforms" and factions { italic, }
 
 				; Human Recruitment
 
@@ -371,45 +254,6 @@ building core_building
 				recruit "egyptian peasant" 0 requires is_player
 				recruit "greek peasant" 0 requires is_player
 				recruit "roman peasant" 0 requires is_player
-
-				; AI Recruitment
-
-				recruit "barb chieftain cavalry early slave" 0 requires not is_player and factions { rebel_slave, }
-				recruit "barb british general briton" 4 requires not is_player and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, }
-				recruit "tribal warlord" 4 requires not is_player and factions { desert_faction_04, desert_faction_05, }
-				recruit "carthaginian general's cavalry early" 4 requires not is_player and not major_event "marian_reforms" and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
-				recruit "iberian general's cavalry early" 4 requires not is_player and not major_event "marian_reforms" and factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
-				recruit "numidian general's cavalry early" 4 requires not is_player and not major_event "marian_reforms" and factions { numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert, }
-				recruit "barb chieftain cavalry early dacian" 4 requires not is_player and not major_event "marian_reforms" and factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
-				recruit "barb chieftain cavalry early gaul" 4 requires not is_player and not major_event "marian_reforms" and factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
-				recruit "barb chieftain cavalry early german" 4 requires not is_player and not major_event "marian_reforms" and factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
-				recruit "barb chieftain cavalry early scythian" 4 requires not is_player and not major_event "marian_reforms" and factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
-				recruit "east generals cavalry early" 4 requires not is_player and not major_event "marian_reforms" and factions { parthia, rebel_parthia, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, }
-				recruit "east pontic generals early" 4 requires not is_player and not major_event "marian_reforms" and factions { pontus, anatolian_faction_01, anatolian_faction_02, rebel_judea, }
-				recruit "nile general's bodyguard early" 4 requires not is_player and not major_event "marian_reforms" and factions { egyptian, }
-				recruit "egyptian general's bodyguard early" 4 requires not is_player and not major_event "marian_reforms" and factions { egyptian, }
-				recruit "greek general's guard cavalry early" 4 requires not is_player and not major_event "marian_reforms" and factions { greek_cities, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, seleucid, macedon, hellenic_faction_13, }
-				recruit "thracian bodyguard early" 4 requires not is_player and not major_event "marian_reforms" and factions { thrace, thracian_faction_01, thracian_faction_02, illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
-				recruit "roman generals guard cavalry early" 4 requires not is_player and not major_event "marian_reforms" and factions { roman, }
-				recruit "spartan general" 4 requires not is_player and not major_event "marian_reforms" and factions { hellenic_faction_01, }
-				recruit "italian generals guard cavalry early" 4 requires not is_player and not major_event "marian_reforms" and factions { italic, }
-
-				recruit "carthaginian general's cavalry" 4 requires not is_player and major_event "marian_reforms" and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
-				recruit "iberian general's cavalry" 4 requires not is_player and major_event "marian_reforms" and factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
-				recruit "numidian general's cavalry" 4 requires not is_player and major_event "marian_reforms" and factions { numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_04, desert_faction_05, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert, }
-				recruit "barb chieftain cavalry dacian" 4 requires not is_player and major_event "marian_reforms" and factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
-				recruit "barb chieftain cavalry gaul" 4 requires not is_player and major_event "marian_reforms" and factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
-				recruit "barb chieftain cavalry german" 4 requires not is_player and major_event "marian_reforms" and factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
-				recruit "barb scythian general scythian" 4 requires not is_player and major_event "marian_reforms" and factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
-				recruit "east generals cavalry" 4 requires not is_player and major_event "marian_reforms" and factions { parthia, rebel_parthia, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, }
-				recruit "east pontic general" 4 requires not is_player and major_event "marian_reforms" and factions { pontus, anatolian_faction_01, anatolian_faction_02, rebel_judea, }
-				recruit "nile general's bodyguard" 4 requires not is_player and major_event "marian_reforms" and factions { egyptian, }
-				recruit "egyptian general's bodyguard" 4 requires not is_player and major_event "marian_reforms" and factions { egyptian, }
-				recruit "greek general's guard cavalry" 4 requires not is_player and major_event "marian_reforms" and factions { greek_cities, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, seleucid, macedon, hellenic_faction_13, }
-				recruit "thracian bodyguard" 4 requires not is_player and major_event "marian_reforms" and factions { thrace, thracian_faction_01, thracian_faction_02, illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
-				recruit "roman generals guard cavalry" 4 requires not is_player and major_event "marian_reforms" and factions { roman, }
-				recruit "spartan general late" 4 requires not is_player and major_event "marian_reforms" and factions { hellenic_faction_01, }
-				recruit "italian generals guard cavalry" 4 requires not is_player and major_event "marian_reforms" and factions { italic, }
 
 				; Human Recruitment
 
@@ -506,45 +350,6 @@ building core_building
 				recruit "roman peasant" 0 requires is_player
 
 				recruit "roman praetorian cohort i" 0 requires major_event "marian_reforms" and factions { roman, }
-
-				; AI Recruitment
-
-				recruit "barb chieftain cavalry early slave" 0 requires not is_player and factions { rebel_slave, }
-				recruit "barb british general briton" 6 requires not is_player and factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, }
-				recruit "tribal warlord" 6 requires not is_player and factions { desert_faction_04, desert_faction_05, }
-				recruit "carthaginian general's cavalry early" 6 requires not is_player and not major_event "marian_reforms" and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
-				recruit "iberian general's cavalry early" 6 requires not is_player and not major_event "marian_reforms" and factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
-				recruit "numidian general's cavalry early" 6 requires not is_player and not major_event "marian_reforms" and factions { numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert, }
-				recruit "barb chieftain cavalry early dacian" 6 requires not is_player and not major_event "marian_reforms" and factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
-				recruit "barb chieftain cavalry early gaul" 6 requires not is_player and not major_event "marian_reforms" and factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
-				recruit "barb chieftain cavalry early german" 6 requires not is_player and not major_event "marian_reforms" and factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
-				recruit "barb chieftain cavalry early scythian" 6 requires not is_player and not major_event "marian_reforms" and factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
-				recruit "east generals cavalry early" 6 requires not is_player and not major_event "marian_reforms" and factions { parthia, rebel_parthia, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, }
-				recruit "east pontic generals early" 6 requires not is_player and not major_event "marian_reforms" and factions { pontus, anatolian_faction_01, anatolian_faction_02, rebel_judea, }
-				recruit "nile general's bodyguard early" 6 requires not is_player and not major_event "marian_reforms" and factions { egyptian, }
-				recruit "egyptian general's bodyguard early" 6 requires not is_player and not major_event "marian_reforms" and factions { egyptian, }
-				recruit "greek general's guard cavalry early" 6 requires not is_player and not major_event "marian_reforms" and factions { greek_cities, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, seleucid, macedon, hellenic_faction_13, }
-				recruit "thracian bodyguard early" 6 requires not is_player and not major_event "marian_reforms" and factions { thrace, thracian_faction_01, thracian_faction_02, illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
-				recruit "roman generals guard cavalry early" 6 requires not is_player and not major_event "marian_reforms" and factions { roman, }
-				recruit "spartan general" 6 requires not is_player and not major_event "marian_reforms" and factions { hellenic_faction_01, }
-				recruit "italian generals guard cavalry early" 6 requires not is_player and not major_event "marian_reforms" and factions { italic, }
-
-				recruit "carthaginian general's cavalry" 6 requires not is_player and major_event "marian_reforms" and factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
-				recruit "iberian general's cavalry" 6 requires not is_player and major_event "marian_reforms" and factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, }
-				recruit "numidian general's cavalry" 6 requires not is_player and major_event "marian_reforms" and factions { numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_04, desert_faction_05, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert, }
-				recruit "barb chieftain cavalry dacian" 6 requires not is_player and major_event "marian_reforms" and factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, }
-				recruit "barb chieftain cavalry gaul" 6 requires not is_player and major_event "marian_reforms" and factions { gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
-				recruit "barb chieftain cavalry german" 6 requires not is_player and major_event "marian_reforms" and factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, }
-				recruit "barb scythian general scythian" 6 requires not is_player and major_event "marian_reforms" and factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
-				recruit "east generals cavalry" 6 requires not is_player and major_event "marian_reforms" and factions { parthia, rebel_parthia, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, }
-				recruit "east pontic general" 6 requires not is_player and major_event "marian_reforms" and factions { pontus, anatolian_faction_01, anatolian_faction_02, rebel_judea, }
-				recruit "nile general's bodyguard" 6 requires not is_player and major_event "marian_reforms" and factions { egyptian, }
-				recruit "egyptian general's bodyguard" 6 requires not is_player and major_event "marian_reforms" and factions { egyptian, }
-				recruit "greek general's guard cavalry" 6 requires not is_player and major_event "marian_reforms" and factions { greek_cities, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, seleucid, macedon, hellenic_faction_13, }
-				recruit "thracian bodyguard" 6 requires not is_player and major_event "marian_reforms" and factions { thrace, thracian_faction_01, thracian_faction_02, illyrian_faction_01, illyrian_faction_02, illyrian_faction_03, illyrian_faction_04, illyrian_faction_05, }
-				recruit "roman generals guard cavalry" 6 requires not is_player and major_event "marian_reforms" and factions { roman, }
-				recruit "spartan general late" 6 requires not is_player and major_event "marian_reforms" and factions { hellenic_faction_01, }
-				recruit "italian generals guard cavalry" 6 requires not is_player and major_event "marian_reforms" and factions { italic, }
 
 				; Human Recruitment
 
@@ -4165,10 +3970,10 @@ building temple_of_farming
 	icon religion
 	levels temple_of_farming_shrine temple_of_farming_temple temple_of_farming_large_temple temple_of_farming_awesome_temple temple_of_farming_pantheon 
 	{
-		temple_of_farming_shrine requires factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, carthaginian, macedon, hellenic_faction_13, latin_faction_02, } and no_other_temple 
+		temple_of_farming_shrine requires factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, carthaginian, greek, latin_faction_02, } and no_other_temple 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, carthaginian, macedon, hellenic_faction_13, latin_faction_02, }
+			ai_destruction_hint requires not factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, carthaginian, greek, latin_faction_02, }
 
 			capability
 			{
@@ -4178,7 +3983,8 @@ building temple_of_farming
 				religious_belief punic 2 requires building_factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
 				religious_belief berber 2 requires building_factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, }
 				religious_belief arab 2 requires building_factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
-				religious_belief hellenic 2 requires building_factions { greek, }
+				religious_belief hellenic 2 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
+				religious_belief oscan 2 requires building_factions { hellenic_faction_10, }
 				religious_belief samnite 2 requires building_factions { italic, }
 			}
 			construction  1 
@@ -4189,10 +3995,10 @@ building temple_of_farming
 				temple_of_farming_temple
 			}
 		}
-		temple_of_farming_temple requires factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, carthaginian, macedon, hellenic_faction_13, latin_faction_02, }
+		temple_of_farming_temple requires factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, carthaginian, greek, latin_faction_02, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, carthaginian, macedon, hellenic_faction_13, latin_faction_02, }
+			ai_destruction_hint requires not factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, carthaginian, greek, latin_faction_02, }
 
 			capability
 			{
@@ -4202,7 +4008,8 @@ building temple_of_farming
 				religious_belief punic 4 requires building_factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
 				religious_belief berber 4 requires building_factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, }
 				religious_belief arab 4 requires building_factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
-				religious_belief hellenic 4 requires building_factions { greek, }
+				religious_belief hellenic 4 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
+				religious_belief oscan 4 requires building_factions { hellenic_faction_10, }
 				religious_belief samnite 4 requires building_factions { italic, }
 			}
 			construction  2 
@@ -4213,10 +4020,10 @@ building temple_of_farming
 				temple_of_farming_large_temple
 			}
 		}
-		temple_of_farming_large_temple requires factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, carthaginian, macedon, hellenic_faction_13, latin_faction_02, }
+		temple_of_farming_large_temple requires factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, carthaginian, greek, latin_faction_02, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, carthaginian, macedon, hellenic_faction_13, latin_faction_02, }
+			ai_destruction_hint requires not factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, carthaginian, greek, latin_faction_02, }
 
 			capability
 			{
@@ -4226,7 +4033,8 @@ building temple_of_farming
 				religious_belief punic 6 requires building_factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
 				religious_belief berber 6 requires building_factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, }
 				religious_belief arab 6 requires building_factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
-				religious_belief hellenic 6 requires building_factions { greek, }
+				religious_belief hellenic 6 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
+				religious_belief oscan 6 requires building_factions { hellenic_faction_10, }
 				religious_belief samnite 6 requires building_factions { italic, }
 			}
 			construction  3 
@@ -4237,10 +4045,10 @@ building temple_of_farming
 				temple_of_farming_awesome_temple
 			}
 		}
-		temple_of_farming_awesome_temple requires factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, carthaginian, macedon, hellenic_faction_13, latin_faction_02, }
+		temple_of_farming_awesome_temple requires factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, carthaginian, greek, latin_faction_02, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, carthaginian, macedon, hellenic_faction_13, latin_faction_02, }
+			ai_destruction_hint requires not factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, carthaginian, greek, latin_faction_02, }
 
 			capability
 			{
@@ -4249,7 +4057,8 @@ building temple_of_farming
 				religious_belief punic 8 requires building_factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
 				religious_belief berber 8 requires building_factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, }
 				religious_belief arab 8 requires building_factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
-				religious_belief hellenic 8 requires building_factions { greek, }
+				religious_belief hellenic 8 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
+				religious_belief oscan 8 requires building_factions { hellenic_faction_10, }
 				religious_belief samnite 8 requires building_factions { italic, }
 			}
 			construction  5 
@@ -4260,10 +4069,10 @@ building temple_of_farming
 				temple_of_farming_pantheon
 			}
 		}
-		temple_of_farming_pantheon requires factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, carthaginian, macedon, hellenic_faction_13, latin_faction_02, }
+		temple_of_farming_pantheon requires factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, carthaginian, greek, latin_faction_02, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, carthaginian, macedon, hellenic_faction_13, latin_faction_02, }
+			ai_destruction_hint requires not factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, carthaginian, greek, latin_faction_02, }
 
 			capability
 			{
@@ -4274,7 +4083,8 @@ building temple_of_farming
 				religious_belief punic 10 requires building_factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
 				religious_belief berber 10 requires building_factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, }
 				religious_belief arab 10 requires building_factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
-				religious_belief hellenic 10 requires building_factions { greek, }
+				religious_belief hellenic 10 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
+				religious_belief oscan 10 requires building_factions { hellenic_faction_10, }
 				religious_belief samnite 10 requires building_factions { italic, }
 			}
 			construction  6 
@@ -4295,10 +4105,10 @@ building temple_of_fertility
 	icon religion
 	levels temple_of_fertility_shrine temple_of_fertility_temple temple_of_fertility_large_temple temple_of_fertility_awesome_temple temple_of_fertility_pantheon 
 	{
-		temple_of_fertility_shrine requires factions { latin_faction_01, latin_faction_04, rebel_latin, germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, egyptian, rebel_romans, } and no_other_temple 
+		temple_of_fertility_shrine requires factions { latin_faction_01, latin_faction_04, rebel_latin, germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, egyptian, roman, } and no_other_temple 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { latin_faction_01, latin_faction_04, rebel_latin, germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, egyptian, rebel_romans, }
+			ai_destruction_hint requires not factions { latin_faction_01, latin_faction_04, rebel_latin, germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, egyptian, roman, }
 
 			capability
 			{
@@ -4318,10 +4128,10 @@ building temple_of_fertility
 				temple_of_fertility_temple
 			}
 		}
-		temple_of_fertility_temple requires factions { latin_faction_01, latin_faction_04, rebel_latin, germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, egyptian, rebel_romans, }
+		temple_of_fertility_temple requires factions { latin_faction_01, latin_faction_04, rebel_latin, germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, egyptian, roman, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { latin_faction_01, latin_faction_04, rebel_latin, germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, egyptian, rebel_romans, }
+			ai_destruction_hint requires not factions { latin_faction_01, latin_faction_04, rebel_latin, germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, egyptian, roman, }
 
 			capability
 			{
@@ -4341,10 +4151,10 @@ building temple_of_fertility
 				temple_of_fertility_large_temple
 			}
 		}
-		temple_of_fertility_large_temple requires factions { latin_faction_01, latin_faction_04, rebel_latin, germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, egyptian, rebel_romans, }
+		temple_of_fertility_large_temple requires factions { latin_faction_01, latin_faction_04, rebel_latin, germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, egyptian, roman, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { latin_faction_01, latin_faction_04, rebel_latin, germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, egyptian, rebel_romans, }
+			ai_destruction_hint requires not factions { latin_faction_01, latin_faction_04, rebel_latin, germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, egyptian, roman, }
 
 			capability
 			{
@@ -4364,10 +4174,10 @@ building temple_of_fertility
 				temple_of_fertility_awesome_temple
 			}
 		}
-		temple_of_fertility_awesome_temple requires factions { latin_faction_01, latin_faction_04, rebel_latin, egyptian, rebel_romans, }
+		temple_of_fertility_awesome_temple requires factions { latin_faction_01, latin_faction_04, rebel_latin, egyptian, roman, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { latin_faction_01, latin_faction_04, rebel_latin, egyptian, rebel_romans, }
+			ai_destruction_hint requires not factions { latin_faction_01, latin_faction_04, rebel_latin, egyptian, roman, }
 
 			capability
 			{
@@ -4387,10 +4197,10 @@ building temple_of_fertility
 				temple_of_fertility_pantheon
 			}
 		}
-		temple_of_fertility_pantheon requires factions { latin_faction_01, latin_faction_04, rebel_latin, egyptian, rebel_romans, }
+		temple_of_fertility_pantheon requires factions { latin_faction_01, latin_faction_04, rebel_latin, egyptian, roman, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { latin_faction_01, latin_faction_04, rebel_latin, egyptian, rebel_romans, }
+			ai_destruction_hint requires not factions { latin_faction_01, latin_faction_04, rebel_latin, egyptian, roman, }
 
 			capability
 			{
@@ -4421,17 +4231,18 @@ building temple_of_forge
 	icon religion
 	levels temple_of_forge_shrine temple_of_forge_temple temple_of_forge_large_temple temple_of_forge_awesome_temple temple_of_forge_pantheon 
 	{
-		temple_of_forge_shrine requires factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, seleucid, romans_julii, } and no_other_temple 
+		temple_of_forge_shrine requires factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, greek, roman, } and no_other_temple 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, seleucid, romans_julii, }
+			ai_destruction_hint requires not factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, greek, roman, }
 
 			capability
 			{
 				happiness_bonus bonus 1
 				weapon_simple bonus 1
 				religious_belief b_paganism 2 requires building_factions { tracian_illyrian, barbarian, }
-				religious_belief hellenic 2 requires building_factions { greek, }
+				religious_belief hellenic 2 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
+				religious_belief oscan 2 requires building_factions { hellenic_faction_10, }
 				religious_belief roman 2 requires building_factions { roman, }
 			}
 			construction  1 
@@ -4442,10 +4253,10 @@ building temple_of_forge
 				temple_of_forge_temple
 			}
 		}
-		temple_of_forge_temple requires factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, seleucid, romans_julii, }
+		temple_of_forge_temple requires factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, greek, roman, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, seleucid, romans_julii, }
+			ai_destruction_hint requires not factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, greek, roman, }
 
 			capability
 			{
@@ -4453,7 +4264,8 @@ building temple_of_forge
 				weapon_simple bonus 1
 				weapon_bladed bonus 1
 				religious_belief b_paganism 4 requires building_factions { tracian_illyrian, barbarian, }
-				religious_belief hellenic 4 requires building_factions { greek, }
+				religious_belief hellenic 4 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
+				religious_belief oscan 4 requires building_factions { hellenic_faction_10, }
 				religious_belief roman 4 requires building_factions { roman, }
 			}
 			construction  2 
@@ -4464,10 +4276,10 @@ building temple_of_forge
 				temple_of_forge_large_temple
 			}
 		}
-		temple_of_forge_large_temple requires factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, seleucid, romans_julii, }
+		temple_of_forge_large_temple requires factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, greek, roman, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, seleucid, romans_julii, }
+			ai_destruction_hint requires not factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, greek, roman, }
 
 			capability
 			{
@@ -4476,7 +4288,8 @@ building temple_of_forge
 				weapon_bladed bonus 1
 				armour bonus 1
 				religious_belief b_paganism 6 requires building_factions { tracian_illyrian, barbarian, }
-				religious_belief hellenic 6 requires building_factions { greek, }
+				religious_belief hellenic 6 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
+				religious_belief oscan 6 requires building_factions { hellenic_faction_10, }
 				religious_belief roman 6 requires building_factions { roman, }
 			}
 			construction  3 
@@ -4487,10 +4300,10 @@ building temple_of_forge
 				temple_of_forge_awesome_temple
 			}
 		}
-		temple_of_forge_awesome_temple requires factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, seleucid, romans_julii, }
+		temple_of_forge_awesome_temple requires factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, greek, roman, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, seleucid, romans_julii, }
+			ai_destruction_hint requires not factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, greek, roman, }
 
 			capability
 			{
@@ -4500,7 +4313,8 @@ building temple_of_forge
 				armour bonus 1
 				recruits_exp_bonus bonus 1
 				religious_belief b_paganism 8 requires building_factions { tracian_illyrian, barbarian, }
-				religious_belief hellenic 8 requires building_factions { greek, }
+				religious_belief hellenic 8 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
+				religious_belief oscan 8 requires building_factions { hellenic_faction_10, }
 				religious_belief roman 8 requires building_factions { roman, }
 			}
 			construction  5 
@@ -4511,10 +4325,10 @@ building temple_of_forge
 				temple_of_forge_pantheon
 			}
 		}
-		temple_of_forge_pantheon requires factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, seleucid, romans_julii, }
+		temple_of_forge_pantheon requires factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, greek, roman, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, seleucid, romans_julii, }
+			ai_destruction_hint requires not factions { dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, greek, roman, }
 
 			capability
 			{
@@ -4525,7 +4339,8 @@ building temple_of_forge
 				recruits_exp_bonus bonus 2
 				law_bonus bonus 2
 				religious_belief b_paganism 10 requires building_factions { tracian_illyrian, barbarian, }
-				religious_belief hellenic 10 requires building_factions { greek, }
+				religious_belief hellenic 10 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
+				religious_belief oscan 10 requires building_factions { hellenic_faction_10, }
 				religious_belief roman 10 requires building_factions { roman, }
 			}
 			construction  6 
@@ -4546,18 +4361,18 @@ building temple_of_fun
 	icon religion
 	levels temple_of_fun_shrine temple_of_fun_temple temple_of_fun_large_temple temple_of_fun_awesome_temple temple_of_fun_pantheon 
 	{
-		temple_of_fun_shrine requires factions { armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, tracian_illyrian, seleucid, rebel_romans, latin_faction_02, } and no_other_temple 
+		temple_of_fun_shrine requires factions { armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, tracian_illyrian, greek, roman, latin_faction_02, } and no_other_temple 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, tracian_illyrian, seleucid, rebel_romans, latin_faction_02, }
+			ai_destruction_hint requires not factions { armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, tracian_illyrian, greek, roman, latin_faction_02, }
 
 			capability
 			{
 				happiness_bonus bonus 2
 				religious_belief zoroastrian 2 requires building_factions { armenia, caucasian_faction_03, caucasian_faction_04, }
-				religious_belief oscan 2 requires building_factions { caucasian_faction_01, caucasian_faction_02, }
+				religious_belief oscan 2 requires building_factions { caucasian_faction_01, caucasian_faction_02, hellenic_faction_10, }
 				religious_belief b_paganism 2 requires building_factions { tracian_illyrian, barbarian, }
-				religious_belief hellenic 2 requires building_factions { greek, }
+				religious_belief hellenic 2 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
 				religious_belief roman 2 requires building_factions { roman, }
 				religious_belief samnite 2 requires building_factions { italic, }
 			}
@@ -4569,18 +4384,18 @@ building temple_of_fun
 				temple_of_fun_temple
 			}
 		}
-		temple_of_fun_temple requires factions { armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, tracian_illyrian, seleucid, rebel_romans, latin_faction_02, }
+		temple_of_fun_temple requires factions { armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, tracian_illyrian, greek, roman, latin_faction_02, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, tracian_illyrian, seleucid, rebel_romans, latin_faction_02, }
+			ai_destruction_hint requires not factions { armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, tracian_illyrian, greek, roman, latin_faction_02, }
 
 			capability
 			{
 				happiness_bonus bonus 4
 				religious_belief zoroastrian 4 requires building_factions { armenia, caucasian_faction_03, caucasian_faction_04, }
-				religious_belief oscan 4 requires building_factions { caucasian_faction_01, caucasian_faction_02, }
+				religious_belief oscan 4 requires building_factions { caucasian_faction_01, caucasian_faction_02, hellenic_faction_10, }
 				religious_belief b_paganism 4 requires building_factions { tracian_illyrian, barbarian, }
-				religious_belief hellenic 4 requires building_factions { greek, }
+				religious_belief hellenic 4 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
 				religious_belief roman 4 requires building_factions { roman, }
 				religious_belief samnite 4 requires building_factions { italic, }
 			}
@@ -4592,19 +4407,19 @@ building temple_of_fun
 				temple_of_fun_large_temple
 			}
 		}
-		temple_of_fun_large_temple requires factions { armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, tracian_illyrian, seleucid, rebel_romans, latin_faction_02, }
+		temple_of_fun_large_temple requires factions { armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, tracian_illyrian, greek, roman, latin_faction_02, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, tracian_illyrian, seleucid, rebel_romans, latin_faction_02, }
+			ai_destruction_hint requires not factions { armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, tracian_illyrian, greek, roman, latin_faction_02, }
 
 			capability
 			{
 				recruit "thracian elite cavalry" 0 requires factions { thrace, thracian_faction_01, thracian_faction_02, }
 				happiness_bonus bonus 6
 				religious_belief zoroastrian 6 requires building_factions { armenia, caucasian_faction_03, caucasian_faction_04, }
-				religious_belief oscan 6 requires building_factions { caucasian_faction_01, caucasian_faction_02, }
+				religious_belief oscan 6 requires building_factions { caucasian_faction_01, caucasian_faction_02, hellenic_faction_10, }
 				religious_belief b_paganism 6 requires building_factions { tracian_illyrian, barbarian, }
-				religious_belief hellenic 6 requires building_factions { greek, }
+				religious_belief hellenic 6 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
 				religious_belief roman 6 requires building_factions { roman, }
 				religious_belief samnite 6 requires building_factions { italic, }
 			}
@@ -4616,19 +4431,19 @@ building temple_of_fun
 				temple_of_fun_awesome_temple
 			}
 		}
-		temple_of_fun_awesome_temple requires factions { armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, tracian_illyrian, seleucid, rebel_romans, latin_faction_02, }
+		temple_of_fun_awesome_temple requires factions { armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, tracian_illyrian, greek, roman, latin_faction_02, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, tracian_illyrian, seleucid, rebel_romans, latin_faction_02, }
+			ai_destruction_hint requires not factions { armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, tracian_illyrian, greek, roman, latin_faction_02, }
 
 			capability
 			{
 				recruit "thracian elite cavalry" 1 requires factions { thrace, thracian_faction_01, thracian_faction_02, }
 				happiness_bonus bonus 8
 				religious_belief zoroastrian 8 requires building_factions { armenia, caucasian_faction_03, caucasian_faction_04, }
-				religious_belief oscan 8 requires building_factions { caucasian_faction_01, caucasian_faction_02, }
+				religious_belief oscan 8 requires building_factions { caucasian_faction_01, caucasian_faction_02, hellenic_faction_10, }
 				religious_belief b_paganism 8 requires building_factions { tracian_illyrian, barbarian, }
-				religious_belief hellenic 8 requires building_factions { greek, }
+				religious_belief hellenic 8 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
 				religious_belief roman 8 requires building_factions { roman, }
 				religious_belief samnite 8 requires building_factions { italic, }
 			}
@@ -4640,10 +4455,10 @@ building temple_of_fun
 				temple_of_fun_pantheon
 			}
 		}
-		temple_of_fun_pantheon requires factions { armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, tracian_illyrian, seleucid, rebel_romans, latin_faction_02, }
+		temple_of_fun_pantheon requires factions { armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, tracian_illyrian, greek, roman, latin_faction_02, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, tracian_illyrian, seleucid, rebel_romans, latin_faction_02, }
+			ai_destruction_hint requires not factions { armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, tracian_illyrian, greek, roman, latin_faction_02, }
 
 			capability
 			{
@@ -4652,9 +4467,9 @@ building temple_of_fun
 				population_growth_bonus bonus 2
 				law_bonus bonus 2
 				religious_belief zoroastrian 10 requires building_factions { armenia, caucasian_faction_03, caucasian_faction_04, }
-				religious_belief oscan 10 requires building_factions { caucasian_faction_01, caucasian_faction_02, }
+				religious_belief oscan 10 requires building_factions { caucasian_faction_01, caucasian_faction_02, hellenic_faction_10, }
 				religious_belief b_paganism 10 requires building_factions { tracian_illyrian, barbarian, }
-				religious_belief hellenic 10 requires building_factions { greek, }
+				religious_belief hellenic 10 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
 				religious_belief roman 10 requires building_factions { roman, }
 				religious_belief samnite 10 requires building_factions { italic, }
 			}
@@ -4676,16 +4491,17 @@ building temple_of_governors
 	icon religion
 	levels temple_of_governors_shrine temple_of_governors_temple temple_of_governors_large_temple temple_of_governors_awesome_temple temple_of_governors_pantheon 
 	{
-		temple_of_governors_shrine requires factions { pontus, anatolian_faction_01, macedon, hellenic_faction_13, hellenic_faction_17, } and no_other_temple 
+		temple_of_governors_shrine requires factions { pontus, anatolian_faction_01, greek, } and no_other_temple 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { pontus, anatolian_faction_01, macedon, hellenic_faction_13, hellenic_faction_17, }
+			ai_destruction_hint requires not factions { pontus, anatolian_faction_01, greek, }
 
 			capability
 			{
 				happiness_bonus bonus 1
 				law_bonus bonus 1
-				religious_belief hellenic 2 requires building_factions { greek, eastern, }
+				religious_belief hellenic 2 requires building_factions { greek, eastern, } and not building_factions { hellenic_faction_10, }
+				religious_belief oscan 2 requires building_factions { hellenic_faction_10, }
 			}
 			construction  1 
 			cost  400 
@@ -4695,16 +4511,17 @@ building temple_of_governors
 				temple_of_governors_temple
 			}
 		}
-		temple_of_governors_temple requires factions { pontus, anatolian_faction_01, macedon, hellenic_faction_13, hellenic_faction_17, }
+		temple_of_governors_temple requires factions { pontus, anatolian_faction_01, greek, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { pontus, anatolian_faction_01, macedon, hellenic_faction_13, hellenic_faction_17, }
+			ai_destruction_hint requires not factions { pontus, anatolian_faction_01, greek, }
 
 			capability
 			{
 				happiness_bonus bonus 2
 				law_bonus bonus 2
-				religious_belief hellenic 4 requires building_factions { greek, eastern, }
+				religious_belief hellenic 4 requires building_factions { greek, eastern, } and not building_factions { hellenic_faction_10, }
+				religious_belief oscan 4 requires building_factions { hellenic_faction_10, }
 			}
 			construction  2 
 			cost  800 
@@ -4714,16 +4531,17 @@ building temple_of_governors
 				temple_of_governors_large_temple
 			}
 		}
-		temple_of_governors_large_temple requires factions { pontus, anatolian_faction_01, macedon, hellenic_faction_13, hellenic_faction_17, }
+		temple_of_governors_large_temple requires factions { pontus, anatolian_faction_01, greek, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { pontus, anatolian_faction_01, macedon, hellenic_faction_13, hellenic_faction_17, }
+			ai_destruction_hint requires not factions { pontus, anatolian_faction_01, greek, }
 
 			capability
 			{
 				happiness_bonus bonus 3
 				law_bonus bonus 3
-				religious_belief hellenic 6 requires building_factions { greek, eastern, }
+				religious_belief hellenic 6 requires building_factions { greek, eastern, } and not building_factions { hellenic_faction_10, }
+				religious_belief oscan 6 requires building_factions { hellenic_faction_10, }
 			}
 			construction  3 
 			cost  1600 
@@ -4733,10 +4551,10 @@ building temple_of_governors
 				temple_of_governors_awesome_temple
 			}
 		}
-		temple_of_governors_awesome_temple requires factions { pontus, anatolian_faction_01, macedon, hellenic_faction_13, hellenic_faction_17, }
+		temple_of_governors_awesome_temple requires factions { pontus, anatolian_faction_01, greek, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { pontus, anatolian_faction_01, macedon, hellenic_faction_13, hellenic_faction_17, }
+			ai_destruction_hint requires not factions { pontus, anatolian_faction_01, greek, }
 
 			capability
 			{
@@ -4744,7 +4562,8 @@ building temple_of_governors
 				recruit "merc thessalian cavalry" 0 requires is_player and factions { macedon, } and hidden_resource mercenary and religion hellenic >= 20
 				happiness_bonus bonus 4
 				law_bonus bonus 4
-				religious_belief hellenic 8 requires building_factions { greek, eastern, }
+				religious_belief hellenic 8 requires building_factions { greek, eastern, } and not building_factions { hellenic_faction_10, }
+				religious_belief oscan 8 requires building_factions { hellenic_faction_10, }
 			}
 			construction  5 
 			cost  3200 
@@ -4754,10 +4573,10 @@ building temple_of_governors
 				temple_of_governors_pantheon
 			}
 		}
-		temple_of_governors_pantheon requires factions { pontus, anatolian_faction_01, macedon, hellenic_faction_13, hellenic_faction_17, }
+		temple_of_governors_pantheon requires factions { pontus, anatolian_faction_01, greek, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { pontus, anatolian_faction_01, macedon, hellenic_faction_13, hellenic_faction_17, }
+			ai_destruction_hint requires not factions { pontus, anatolian_faction_01, greek, }
 
 			capability
 			{
@@ -4768,7 +4587,8 @@ building temple_of_governors
 				farming_level bonus 2
 				recruits_exp_bonus bonus 2
 				weapon_missile bonus 2
-				religious_belief hellenic 10 requires building_factions { greek, eastern, }
+				religious_belief hellenic 10 requires building_factions { greek, eastern, } and not building_factions { hellenic_faction_10, }
+				religious_belief oscan 10 requires building_factions { hellenic_faction_10, }
 			}
 			construction  6 
 			cost  6400 
@@ -4788,10 +4608,10 @@ building temple_of_healing
 	icon religion
 	levels temple_of_healing_shrine temple_of_healing_temple temple_of_healing_large_temple temple_of_healing_awesome_temple temple_of_healing_pantheon 
 	{
-		temple_of_healing_shrine requires factions { slave, rebel_slave, carthaginian, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, seleucid, romans_julii, romans_brutii, romans_scipii, romans_senate, rebel_romans, latin_faction_03, latin_faction_05, } and no_other_temple 
+		temple_of_healing_shrine requires factions { slave, rebel_slave, carthaginian, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, greek, roman, latin_faction_03, latin_faction_05, } and no_other_temple 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { slave, rebel_slave, carthaginian, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, seleucid, romans_julii, romans_brutii, romans_scipii, romans_senate, rebel_romans, latin_faction_03, latin_faction_05, }
+			ai_destruction_hint requires not factions { slave, rebel_slave, carthaginian, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, greek, roman, latin_faction_03, latin_faction_05, }
 
 			capability
 			{
@@ -4801,7 +4621,8 @@ building temple_of_healing
 				religious_belief punic 2 requires building_factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
 				religious_belief berber 2 requires building_factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, }
 				religious_belief arab 2 requires building_factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
-				religious_belief hellenic 2 requires building_factions { greek, }
+				religious_belief hellenic 2 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
+				religious_belief oscan 2 requires building_factions { hellenic_faction_10, }
 				religious_belief roman 2 requires building_factions { roman, }
 				religious_belief etruscan 2 requires building_factions { italic, }
 			}
@@ -4813,10 +4634,10 @@ building temple_of_healing
 				temple_of_healing_temple
 			}
 		}
-		temple_of_healing_temple requires factions { slave, rebel_slave, carthaginian, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, seleucid, romans_julii, romans_brutii, romans_scipii, romans_senate, rebel_romans, latin_faction_03, latin_faction_05, }
+		temple_of_healing_temple requires factions { slave, rebel_slave, carthaginian, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, greek, roman, latin_faction_03, latin_faction_05, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { slave, rebel_slave, carthaginian, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, seleucid, romans_julii, romans_brutii, romans_scipii, romans_senate, rebel_romans, latin_faction_03, latin_faction_05, }
+			ai_destruction_hint requires not factions { slave, rebel_slave, carthaginian, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, greek, roman, latin_faction_03, latin_faction_05, }
 
 			capability
 			{
@@ -4826,7 +4647,8 @@ building temple_of_healing
 				religious_belief punic 4 requires building_factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
 				religious_belief berber 4 requires building_factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, }
 				religious_belief arab 4 requires building_factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
-				religious_belief hellenic 4 requires building_factions { greek, }
+				religious_belief hellenic 4 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
+				religious_belief oscan 4 requires building_factions { hellenic_faction_10, }
 				religious_belief roman 4 requires building_factions { roman, }
 				religious_belief etruscan 4 requires building_factions { italic, }
 			}
@@ -4838,10 +4660,10 @@ building temple_of_healing
 				temple_of_healing_large_temple
 			}
 		}
-		temple_of_healing_large_temple requires factions { slave, rebel_slave, carthaginian, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, seleucid, romans_julii, romans_brutii, romans_scipii, romans_senate, rebel_romans, latin_faction_03, latin_faction_05, }
+		temple_of_healing_large_temple requires factions { slave, rebel_slave, carthaginian, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, greek, roman, latin_faction_03, latin_faction_05, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { slave, rebel_slave, carthaginian, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, seleucid, romans_julii, romans_brutii, romans_scipii, romans_senate, rebel_romans, latin_faction_03, latin_faction_05, }
+			ai_destruction_hint requires not factions { slave, rebel_slave, carthaginian, britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, greek, roman, latin_faction_03, latin_faction_05, }
 
 			capability
 			{
@@ -4853,7 +4675,8 @@ building temple_of_healing
 				religious_belief punic 6 requires building_factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
 				religious_belief berber 6 requires building_factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, }
 				religious_belief arab 6 requires building_factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
-				religious_belief hellenic 6 requires building_factions { greek, }
+				religious_belief hellenic 6 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
+				religious_belief oscan 6 requires building_factions { hellenic_faction_10, }
 				religious_belief roman 6 requires building_factions { roman, }
 				religious_belief etruscan 6 requires building_factions { italic, }
 			}
@@ -4865,10 +4688,10 @@ building temple_of_healing
 				temple_of_healing_awesome_temple
 			}
 		}
-		temple_of_healing_awesome_temple requires factions { slave, rebel_slave, carthaginian, seleucid, romans_julii, romans_brutii, romans_scipii, romans_senate, rebel_romans, latin_faction_03, latin_faction_05, }
+		temple_of_healing_awesome_temple requires factions { slave, rebel_slave, carthaginian, greek, roman, latin_faction_03, latin_faction_05, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { slave, rebel_slave, carthaginian, seleucid, romans_julii, romans_brutii, romans_scipii, romans_senate, rebel_romans, latin_faction_03, latin_faction_05, }
+			ai_destruction_hint requires not factions { slave, rebel_slave, carthaginian, greek, roman, latin_faction_03, latin_faction_05, }
 
 			capability
 			{
@@ -4880,7 +4703,8 @@ building temple_of_healing
 				religious_belief punic 8 requires building_factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
 				religious_belief berber 8 requires building_factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, }
 				religious_belief arab 8 requires building_factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
-				religious_belief hellenic 8 requires building_factions { greek, }
+				religious_belief hellenic 8 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
+				religious_belief oscan 8 requires building_factions { hellenic_faction_10, }
 				religious_belief roman 8 requires building_factions { roman, }
 				religious_belief etruscan 8 requires building_factions { italic, }
 			}
@@ -4892,10 +4716,10 @@ building temple_of_healing
 				temple_of_healing_pantheon
 			}
 		}
-		temple_of_healing_pantheon requires factions { slave, rebel_slave, carthaginian, seleucid, romans_julii, romans_brutii, romans_scipii, romans_senate, rebel_romans, latin_faction_03, latin_faction_05, }
+		temple_of_healing_pantheon requires factions { slave, rebel_slave, carthaginian, greek, roman, latin_faction_03, latin_faction_05, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { slave, rebel_slave, carthaginian, seleucid, romans_julii, romans_brutii, romans_scipii, romans_senate, rebel_romans, latin_faction_03, latin_faction_05, }
+			ai_destruction_hint requires not factions { slave, rebel_slave, carthaginian, greek, roman, latin_faction_03, latin_faction_05, }
 
 			capability
 			{
@@ -4909,7 +4733,8 @@ building temple_of_healing
 				religious_belief punic 10 requires building_factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
 				religious_belief berber 10 requires building_factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, }
 				religious_belief arab 10 requires building_factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
-				religious_belief hellenic 10 requires building_factions { greek, }
+				religious_belief hellenic 10 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
+				religious_belief oscan 10 requires building_factions { hellenic_faction_10, }
 				religious_belief roman 10 requires building_factions { roman, }
 				religious_belief etruscan 10 requires building_factions { italic, }
 			}
@@ -5046,10 +4871,10 @@ building temple_of_hunting
 	icon religion
 	levels temple_of_hunting_shrine temple_of_hunting_temple temple_of_hunting_large_temple temple_of_hunting_awesome_temple temple_of_hunting_pantheon 
 	{
-		temple_of_hunting_shrine requires factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, macedon, hellenic_faction_13, } and no_other_temple 
+		temple_of_hunting_shrine requires factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, greek, } and no_other_temple 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, macedon, hellenic_faction_13, }
+			ai_destruction_hint requires not factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, greek, }
 
 			capability
 			{
@@ -5057,7 +4882,9 @@ building temple_of_hunting
 				weapon_missile bonus 1
 				religious_belief c_paganism 2 requires building_factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_07, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
 				religious_belief i_paganism 2 requires building_factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
-				religious_belief hellenic 2 requires building_factions { greek, }
+				religious_belief hellenic 2 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
+				religious_belief oscan 2 requires building_factions { hellenic_faction_10, }
+				religious_belief nuragic 2 requires building_factions { rebel_nuragic, }
 			}
 			construction  1 
 			cost  400 
@@ -5067,10 +4894,10 @@ building temple_of_hunting
 				temple_of_hunting_temple
 			}
 		}
-		temple_of_hunting_temple requires factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, macedon, hellenic_faction_13, }
+		temple_of_hunting_temple requires factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, greek, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, macedon, hellenic_faction_13, }
+			ai_destruction_hint requires not factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, greek, }
 
 			capability
 			{
@@ -5078,7 +4905,9 @@ building temple_of_hunting
 				weapon_missile bonus 2
 				religious_belief c_paganism 4 requires building_factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_07, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
 				religious_belief i_paganism 4 requires building_factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
-				religious_belief hellenic 4 requires building_factions { greek, }
+				religious_belief hellenic 4 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
+				religious_belief oscan 4 requires building_factions { hellenic_faction_10, }
+				religious_belief nuragic 4 requires building_factions { rebel_nuragic, }
 			}
 			construction  2 
 			cost  800 
@@ -5088,10 +4917,10 @@ building temple_of_hunting
 				temple_of_hunting_large_temple
 			}
 		}
-		temple_of_hunting_large_temple requires factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, macedon, hellenic_faction_13, }
+		temple_of_hunting_large_temple requires factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, greek, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, macedon, hellenic_faction_13, }
+			ai_destruction_hint requires not factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, greek, }
 
 			capability
 			{
@@ -5099,7 +4928,9 @@ building temple_of_hunting
 				weapon_missile bonus 3
 				religious_belief c_paganism 6 requires building_factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_07, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
 				religious_belief i_paganism 6 requires building_factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
-				religious_belief hellenic 6 requires building_factions { greek, }
+				religious_belief hellenic 6 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
+				religious_belief oscan 6 requires building_factions { hellenic_faction_10, }
+				religious_belief nuragic 6 requires building_factions { rebel_nuragic, }
 			}
 			construction  3 
 			cost  1600 
@@ -5109,10 +4940,10 @@ building temple_of_hunting
 				temple_of_hunting_awesome_temple
 			}
 		}
-		temple_of_hunting_awesome_temple requires factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, macedon, hellenic_faction_13, }
+		temple_of_hunting_awesome_temple requires factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, greek, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, macedon, hellenic_faction_13, }
+			ai_destruction_hint requires not factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, greek, }
 
 			capability
 			{
@@ -5120,7 +4951,9 @@ building temple_of_hunting
 				weapon_missile bonus 3
 				religious_belief c_paganism 8 requires building_factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_07, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
 				religious_belief i_paganism 8 requires building_factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
-				religious_belief hellenic 8 requires building_factions { greek, }
+				religious_belief hellenic 8 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
+				religious_belief oscan 8 requires building_factions { hellenic_faction_10, }
+				religious_belief nuragic 8 requires building_factions { rebel_nuragic, }
 			}
 			construction  5 
 			cost  3200 
@@ -5130,10 +4963,10 @@ building temple_of_hunting
 				temple_of_hunting_pantheon
 			}
 		}
-		temple_of_hunting_pantheon requires factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, macedon, hellenic_faction_13, }
+		temple_of_hunting_pantheon requires factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, greek, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, macedon, hellenic_faction_13, }
+			ai_destruction_hint requires not factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_07, iberian_faction_08, rebel_nuragic, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, greek, }
 
 			capability
 			{
@@ -5143,7 +4976,9 @@ building temple_of_hunting
 				farming_level bonus 2
 				religious_belief c_paganism 10 requires building_factions { spain, iberian_faction_01, iberian_faction_02, iberian_faction_07, gauls, gallic_faction_01, gallic_faction_02, gallic_faction_03, gallic_faction_04, gallic_faction_05, gallic_faction_06, gallic_faction_07, gallic_faction_08, gallic_faction_09, gallic_faction_10, gallic_faction_11, gallic_faction_12, gallic_faction_13, gallic_faction_14, gallic_faction_15, gallic_faction_16, gallic_faction_17, gallic_faction_18, }
 				religious_belief i_paganism 10 requires building_factions { iberian_faction_03, iberian_faction_04, iberian_faction_05, iberian_faction_06, iberian_faction_08, }
-				religious_belief hellenic 10 requires building_factions { greek, }
+				religious_belief hellenic 10 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
+				religious_belief oscan 10 requires building_factions { hellenic_faction_10, }
+				religious_belief nuragic 10 requires building_factions { rebel_nuragic, }
 			}
 			construction  6 
 			cost  6400 
@@ -5313,10 +5148,10 @@ building temple_of_law
 	icon religion
 	levels temple_of_law_shrine temple_of_law_temple temple_of_law_large_temple temple_of_law_awesome_temple temple_of_law_pantheon 
 	{
-		temple_of_law_shrine requires factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, egyptian, romans_brutii, romans_senate, } and no_other_temple 
+		temple_of_law_shrine requires factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, egyptian, roman, } and no_other_temple 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, egyptian, romans_brutii, romans_senate, }
+			ai_destruction_hint requires not factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, egyptian, roman, }
 
 			capability
 			{
@@ -5334,10 +5169,10 @@ building temple_of_law
 				temple_of_law_temple
 			}
 		}
-		temple_of_law_temple requires factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, egyptian, romans_brutii, romans_senate, }
+		temple_of_law_temple requires factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, egyptian, roman, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, egyptian, romans_brutii, romans_senate, }
+			ai_destruction_hint requires not factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, egyptian, roman, }
 
 			capability
 			{
@@ -5355,10 +5190,10 @@ building temple_of_law
 				temple_of_law_large_temple
 			}
 		}
-		temple_of_law_large_temple requires factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, egyptian, romans_brutii, romans_senate, }
+		temple_of_law_large_temple requires factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, egyptian, roman, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, egyptian, romans_brutii, romans_senate, }
+			ai_destruction_hint requires not factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, egyptian, roman, }
 
 			capability
 			{
@@ -5376,10 +5211,10 @@ building temple_of_law
 				temple_of_law_awesome_temple
 			}
 		}
-		temple_of_law_awesome_temple requires factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, egyptian, romans_brutii, romans_senate, }
+		temple_of_law_awesome_temple requires factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, egyptian, roman, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, egyptian, romans_brutii, romans_senate, }
+			ai_destruction_hint requires not factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, egyptian, roman, }
 
 			capability
 			{
@@ -5397,10 +5232,10 @@ building temple_of_law
 				temple_of_law_pantheon
 			}
 		}
-		temple_of_law_pantheon requires factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, egyptian, romans_brutii, romans_senate, }
+		temple_of_law_pantheon requires factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, egyptian, roman, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, egyptian, romans_brutii, romans_senate, }
+			ai_destruction_hint requires not factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, egyptian, roman, }
 
 			capability
 			{
@@ -5431,10 +5266,10 @@ building temple_of_leadership
 	icon religion
 	levels temple_of_leadership_shrine temple_of_leadership_temple temple_of_leadership_large_temple temple_of_leadership_awesome_temple temple_of_leadership_pantheon 
 	{
-		temple_of_leadership_shrine requires factions { latin_faction_03, latin_faction_05, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, romans_julii, romans_brutii, romans_scipii, romans_senate, rebel_romans, } and no_other_temple 
+		temple_of_leadership_shrine requires factions { latin_faction_03, latin_faction_05, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, greek, roman, } and no_other_temple 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { latin_faction_03, latin_faction_05, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, romans_julii, romans_brutii, romans_scipii, romans_senate, rebel_romans, }
+			ai_destruction_hint requires not factions { latin_faction_03, latin_faction_05, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, greek, roman, }
 
 			capability
 			{
@@ -5442,7 +5277,7 @@ building temple_of_leadership
 				law_bonus bonus 1
 				religious_belief zoroastrian 2 requires building_factions { armenia, caucasian_faction_03, caucasian_faction_04, }
 				religious_belief oscan 2 requires building_factions { caucasian_faction_01, caucasian_faction_02, hellenic_faction_10, }
-				religious_belief hellenic 2 requires building_factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
+				religious_belief hellenic 2 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
 				religious_belief roman 2 requires building_factions { roman, }
 				religious_belief etruscan 2 requires building_factions { italic, }
 			}
@@ -5454,10 +5289,10 @@ building temple_of_leadership
 				temple_of_leadership_temple
 			}
 		}
-		temple_of_leadership_temple requires factions { latin_faction_03, latin_faction_05, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, romans_julii, romans_brutii, romans_scipii, romans_senate, rebel_romans, }
+		temple_of_leadership_temple requires factions { latin_faction_03, latin_faction_05, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, greek, roman, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { latin_faction_03, latin_faction_05, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, romans_julii, romans_brutii, romans_scipii, romans_senate, rebel_romans, }
+			ai_destruction_hint requires not factions { latin_faction_03, latin_faction_05, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, greek, roman, }
 
 			capability
 			{
@@ -5465,7 +5300,7 @@ building temple_of_leadership
 				law_bonus bonus 2
 				religious_belief zoroastrian 4 requires building_factions { armenia, caucasian_faction_03, caucasian_faction_04, }
 				religious_belief oscan 4 requires building_factions { caucasian_faction_01, caucasian_faction_02, hellenic_faction_10, }
-				religious_belief hellenic 4 requires building_factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
+				religious_belief hellenic 4 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
 				religious_belief roman 4 requires building_factions { roman, }
 				religious_belief etruscan 4 requires building_factions { italic, }
 			}
@@ -5477,10 +5312,10 @@ building temple_of_leadership
 				temple_of_leadership_large_temple
 			}
 		}
-		temple_of_leadership_large_temple requires factions { latin_faction_03, latin_faction_05, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, romans_julii, romans_brutii, romans_scipii, romans_senate, rebel_romans, }
+		temple_of_leadership_large_temple requires factions { latin_faction_03, latin_faction_05, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, greek, roman, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { latin_faction_03, latin_faction_05, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, romans_julii, romans_brutii, romans_scipii, romans_senate, rebel_romans, }
+			ai_destruction_hint requires not factions { latin_faction_03, latin_faction_05, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, greek, roman, }
 
 			capability
 			{
@@ -5488,7 +5323,7 @@ building temple_of_leadership
 				law_bonus bonus 3
 				religious_belief zoroastrian 6 requires building_factions { armenia, caucasian_faction_03, caucasian_faction_04, }
 				religious_belief oscan 6 requires building_factions { caucasian_faction_01, caucasian_faction_02, hellenic_faction_10, }
-				religious_belief hellenic 6 requires building_factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
+				religious_belief hellenic 6 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
 				religious_belief roman 6 requires building_factions { roman, }
 				religious_belief etruscan 6 requires building_factions { italic, }
 			}
@@ -5500,10 +5335,10 @@ building temple_of_leadership
 				temple_of_leadership_awesome_temple
 			}
 		}
-		temple_of_leadership_awesome_temple requires factions { latin_faction_03, latin_faction_05, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, romans_julii, romans_brutii, romans_scipii, romans_senate, rebel_romans, }
+		temple_of_leadership_awesome_temple requires factions { latin_faction_03, latin_faction_05, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, greek, roman, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { latin_faction_03, latin_faction_05, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, romans_julii, romans_brutii, romans_scipii, romans_senate, rebel_romans, }
+			ai_destruction_hint requires not factions { latin_faction_03, latin_faction_05, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, greek, roman, }
 
 			capability
 			{
@@ -5513,7 +5348,7 @@ building temple_of_leadership
 				law_bonus bonus 4
 				religious_belief zoroastrian 8 requires building_factions { armenia, caucasian_faction_03, caucasian_faction_04, }
 				religious_belief oscan 8 requires building_factions { caucasian_faction_01, caucasian_faction_02, hellenic_faction_10, }
-				religious_belief hellenic 8 requires building_factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
+				religious_belief hellenic 8 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
 				religious_belief roman 8 requires building_factions { roman, }
 				religious_belief etruscan 8 requires building_factions { italic, }
 			}
@@ -5525,10 +5360,10 @@ building temple_of_leadership
 				temple_of_leadership_pantheon
 			}
 		}
-		temple_of_leadership_pantheon requires factions { latin_faction_03, latin_faction_05, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, romans_julii, romans_brutii, romans_scipii, romans_senate, rebel_romans, }
+		temple_of_leadership_pantheon requires factions { latin_faction_03, latin_faction_05, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, greek, roman, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { latin_faction_03, latin_faction_05, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, romans_julii, romans_brutii, romans_scipii, romans_senate, rebel_romans, }
+			ai_destruction_hint requires not factions { latin_faction_03, latin_faction_05, armenia, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, greek, roman, }
 
 			capability
 			{
@@ -5539,7 +5374,7 @@ building temple_of_leadership
 				population_growth_bonus bonus 2
 				religious_belief zoroastrian 10 requires building_factions { armenia, caucasian_faction_03, caucasian_faction_04, }
 				religious_belief oscan 10 requires building_factions { caucasian_faction_01, caucasian_faction_02, hellenic_faction_10, }
-				religious_belief hellenic 10 requires building_factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
+				religious_belief hellenic 10 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
 				religious_belief roman 10 requires building_factions { roman, }
 				religious_belief etruscan 10 requires building_factions { italic, }
 			}
@@ -5561,17 +5396,17 @@ building temple_of_love
 	icon religion
 	levels temple_of_love_shrine temple_of_love_temple temple_of_love_large_temple temple_of_love_awesome_temple temple_of_love_pantheon 
 	{
-		temple_of_love_shrine requires factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, pontus, anatolian_faction_01, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, latin_faction_01, latin_faction_04, rebel_latin, } and no_other_temple 
+		temple_of_love_shrine requires factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, pontus, anatolian_faction_01, greek, latin_faction_01, latin_faction_04, rebel_latin, } and no_other_temple 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, pontus, anatolian_faction_01, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, latin_faction_01, latin_faction_04, rebel_latin, }
+			ai_destruction_hint requires not factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, pontus, anatolian_faction_01, greek, latin_faction_01, latin_faction_04, rebel_latin, }
 
 			capability
 			{
 				happiness_bonus bonus 1
 				population_growth_bonus bonus 1
 				religious_belief s_paganism 2 requires building_factions { barbarian, }
-				religious_belief hellenic 2 requires building_factions { pontus, anatolian_faction_01, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
+				religious_belief hellenic 2 requires building_factions { greek, eastern, } and not building_factions { hellenic_faction_10, }
 				religious_belief oscan 2 requires building_factions { hellenic_faction_10, }
 				religious_belief samnite 2 requires building_factions { italic, }
 			}
@@ -5583,10 +5418,10 @@ building temple_of_love
 				temple_of_love_temple
 			}
 		}
-		temple_of_love_temple requires factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, pontus, anatolian_faction_01, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, latin_faction_01, latin_faction_04, rebel_latin, }
+		temple_of_love_temple requires factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, pontus, anatolian_faction_01, greek, latin_faction_01, latin_faction_04, rebel_latin, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, pontus, anatolian_faction_01, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, latin_faction_01, latin_faction_04, rebel_latin, }
+			ai_destruction_hint requires not factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, pontus, anatolian_faction_01, greek, latin_faction_01, latin_faction_04, rebel_latin, }
 
 			capability
 			{
@@ -5594,7 +5429,7 @@ building temple_of_love
 				happiness_bonus bonus 2
 				population_growth_bonus bonus 2
 				religious_belief s_paganism 4 requires building_factions { barbarian, }
-				religious_belief hellenic 4 requires building_factions { pontus, anatolian_faction_01, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
+				religious_belief hellenic 4 requires building_factions { greek, eastern, } and not building_factions { hellenic_faction_10, }
 				religious_belief oscan 4 requires building_factions { hellenic_faction_10, }
 				religious_belief samnite 4 requires building_factions { italic, }
 			}
@@ -5606,10 +5441,10 @@ building temple_of_love
 				temple_of_love_large_temple
 			}
 		}
-		temple_of_love_large_temple requires factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, pontus, anatolian_faction_01, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, latin_faction_01, latin_faction_04, rebel_latin, }
+		temple_of_love_large_temple requires factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, pontus, anatolian_faction_01, greek, latin_faction_01, latin_faction_04, rebel_latin, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, pontus, anatolian_faction_01, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, latin_faction_01, latin_faction_04, rebel_latin, }
+			ai_destruction_hint requires not factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, pontus, anatolian_faction_01, greek, latin_faction_01, latin_faction_04, rebel_latin, }
 
 			capability
 			{
@@ -5618,7 +5453,7 @@ building temple_of_love
 				happiness_bonus bonus 3
 				population_growth_bonus bonus 3
 				religious_belief s_paganism 6 requires building_factions { barbarian, }
-				religious_belief hellenic 6 requires building_factions { pontus, anatolian_faction_01, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
+				religious_belief hellenic 6 requires building_factions { greek, eastern, } and not building_factions { hellenic_faction_10, }
 				religious_belief oscan 6 requires building_factions { hellenic_faction_10, }
 				religious_belief samnite 6 requires building_factions { italic, }
 			}
@@ -5630,10 +5465,10 @@ building temple_of_love
 				temple_of_love_awesome_temple
 			}
 		}
-		temple_of_love_awesome_temple requires factions { pontus, anatolian_faction_01, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, latin_faction_01, latin_faction_04, rebel_latin, }
+		temple_of_love_awesome_temple requires factions { pontus, anatolian_faction_01, greek, latin_faction_01, latin_faction_04, rebel_latin, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { pontus, anatolian_faction_01, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, latin_faction_01, latin_faction_04, rebel_latin, }
+			ai_destruction_hint requires not factions { pontus, anatolian_faction_01, greek, latin_faction_01, latin_faction_04, rebel_latin, }
 
 			capability
 			{
@@ -5641,7 +5476,7 @@ building temple_of_love
 				recruit "barb scythian noblewomen scythian" 1 requires factions { scythia, steppe_faction_01, steppe_faction_02, steppe_faction_03, steppe_faction_04, steppe_faction_05, steppe_faction_06, steppe_faction_07, steppe_faction_08, }
 				happiness_bonus bonus 4
 				population_growth_bonus bonus 4
-				religious_belief hellenic 8 requires building_factions { pontus, anatolian_faction_01, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
+				religious_belief hellenic 8 requires building_factions { greek, eastern, } and not building_factions { hellenic_faction_10, }
 				religious_belief oscan 8 requires building_factions { hellenic_faction_10, }
 				religious_belief samnite 8 requires building_factions { italic, }
 			}
@@ -5653,10 +5488,10 @@ building temple_of_love
 				temple_of_love_pantheon
 			}
 		}
-		temple_of_love_pantheon requires factions { pontus, anatolian_faction_01, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, latin_faction_01, latin_faction_04, rebel_latin, }
+		temple_of_love_pantheon requires factions { pontus, anatolian_faction_01, greek, latin_faction_01, latin_faction_04, rebel_latin, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { pontus, anatolian_faction_01, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, latin_faction_01, latin_faction_04, rebel_latin, }
+			ai_destruction_hint requires not factions { pontus, anatolian_faction_01, greek, latin_faction_01, latin_faction_04, rebel_latin, }
 
 			capability
 			{
@@ -5667,7 +5502,7 @@ building temple_of_love
 				law_bonus bonus 2
 				trade_base_income_bonus bonus 2
 				recruits_exp_bonus bonus 1
-				religious_belief hellenic 10 requires building_factions { pontus, anatolian_faction_01, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
+				religious_belief hellenic 10 requires building_factions { greek, eastern, } and not building_factions { hellenic_faction_10, }
 				religious_belief oscan 10 requires building_factions { hellenic_faction_10, }
 				religious_belief samnite 10 requires building_factions { italic, }
 			}
@@ -5689,10 +5524,10 @@ building temple_of_naval
 	icon religion
 	levels temple_of_naval_shrine temple_of_naval_temple temple_of_naval_large_temple temple_of_naval_awesome_temple temple_of_naval_pantheon 
 	{
-		temple_of_naval_shrine requires factions { latin_faction_03, latin_faction_05, romans_scipii, } and no_other_temple and building_present_min_level port_buildings port
+		temple_of_naval_shrine requires factions { latin_faction_03, latin_faction_05, roman, } and no_other_temple and building_present_min_level port_buildings port
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { latin_faction_03, latin_faction_05, romans_scipii, }
+			ai_destruction_hint requires not factions { latin_faction_03, latin_faction_05, roman, }
 
 			capability
 			{
@@ -5708,10 +5543,10 @@ building temple_of_naval
 				temple_of_naval_temple
 			}
 		}
-		temple_of_naval_temple requires factions { latin_faction_03, latin_faction_05, romans_scipii, }
+		temple_of_naval_temple requires factions { latin_faction_03, latin_faction_05, roman, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { latin_faction_03, latin_faction_05, romans_scipii, }
+			ai_destruction_hint requires not factions { latin_faction_03, latin_faction_05, roman, }
 
 			capability
 			{
@@ -5727,10 +5562,10 @@ building temple_of_naval
 				temple_of_naval_large_temple
 			}
 		}
-		temple_of_naval_large_temple requires factions { latin_faction_03, latin_faction_05, romans_scipii, }
+		temple_of_naval_large_temple requires factions { latin_faction_03, latin_faction_05, roman, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { latin_faction_03, latin_faction_05, romans_scipii, }
+			ai_destruction_hint requires not factions { latin_faction_03, latin_faction_05, roman, }
 
 			capability
 			{
@@ -5746,10 +5581,10 @@ building temple_of_naval
 				temple_of_naval_awesome_temple
 			}
 		}
-		temple_of_naval_awesome_temple requires factions { latin_faction_03, latin_faction_05, romans_scipii, }
+		temple_of_naval_awesome_temple requires factions { latin_faction_03, latin_faction_05, roman, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { latin_faction_03, latin_faction_05, romans_scipii, }
+			ai_destruction_hint requires not factions { latin_faction_03, latin_faction_05, roman, }
 
 			capability
 			{
@@ -5765,10 +5600,10 @@ building temple_of_naval
 				temple_of_naval_pantheon
 			}
 		}
-		temple_of_naval_pantheon requires factions { latin_faction_03, latin_faction_05, romans_scipii, }
+		temple_of_naval_pantheon requires factions { latin_faction_03, latin_faction_05, roman, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { latin_faction_03, latin_faction_05, romans_scipii, }
+			ai_destruction_hint requires not factions { latin_faction_03, latin_faction_05, roman, }
 
 			capability
 			{
@@ -5913,10 +5748,10 @@ building temple_of_trade
 	icon religion
 	levels temple_of_trade_shrine temple_of_trade_temple temple_of_trade_large_temple temple_of_trade_awesome_temple temple_of_trade_pantheon 
 	{
-		temple_of_trade_shrine requires factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, carthaginian, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, romans_brutii, romans_senate, latin_faction_02, } and no_other_temple 
+		temple_of_trade_shrine requires factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, carthaginian, greek, roman, latin_faction_02, } and no_other_temple 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, carthaginian, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, romans_brutii, romans_senate, latin_faction_02, }
+			ai_destruction_hint requires not factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, carthaginian, greek, roman, latin_faction_02, }
 
 			capability
 			{
@@ -5926,9 +5761,9 @@ building temple_of_trade
 				religious_belief punic 2 requires building_factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
 				religious_belief berber 2 requires building_factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, }
 				religious_belief arab 2 requires building_factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
-				religious_belief hellenic 2 requires building_factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
-				religious_belief roman 2 requires building_factions { roman, }
+				religious_belief hellenic 2 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
 				religious_belief oscan 2 requires building_factions { hellenic_faction_10, }
+				religious_belief roman 2 requires building_factions { roman, }
 				religious_belief samnite 2 requires building_factions { italic, }
 			}
 			construction  1 
@@ -5939,10 +5774,10 @@ building temple_of_trade
 				temple_of_trade_temple
 			}
 		}
-		temple_of_trade_temple requires factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, carthaginian, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, romans_brutii, romans_senate, latin_faction_02, }
+		temple_of_trade_temple requires factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, carthaginian, greek, roman, latin_faction_02, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, carthaginian, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, romans_brutii, romans_senate, latin_faction_02, }
+			ai_destruction_hint requires not factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, carthaginian, greek, roman, latin_faction_02, }
 
 			capability
 			{
@@ -5952,9 +5787,9 @@ building temple_of_trade
 				religious_belief punic 4 requires building_factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
 				religious_belief berber 4 requires building_factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, }
 				religious_belief arab 4 requires building_factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
-				religious_belief hellenic 4 requires building_factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
-				religious_belief roman 4 requires building_factions { roman, }
+				religious_belief hellenic 4 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
 				religious_belief oscan 4 requires building_factions { hellenic_faction_10, }
+				religious_belief roman 4 requires building_factions { roman, }
 				religious_belief samnite 4 requires building_factions { italic, }
 			}
 			construction  2 
@@ -5965,10 +5800,10 @@ building temple_of_trade
 				temple_of_trade_large_temple
 			}
 		}
-		temple_of_trade_large_temple requires factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, carthaginian, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, romans_brutii, romans_senate, latin_faction_02, }
+		temple_of_trade_large_temple requires factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, carthaginian, greek, roman, latin_faction_02, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, carthaginian, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, romans_brutii, romans_senate, latin_faction_02, }
+			ai_destruction_hint requires not factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, carthaginian, greek, roman, latin_faction_02, }
 
 			capability
 			{
@@ -5980,9 +5815,9 @@ building temple_of_trade
 				religious_belief punic 6 requires building_factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
 				religious_belief berber 6 requires building_factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, }
 				religious_belief arab 6 requires building_factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
-				religious_belief hellenic 6 requires building_factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
-				religious_belief roman 6 requires building_factions { roman, }
+				religious_belief hellenic 6 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
 				religious_belief oscan 6 requires building_factions { hellenic_faction_10, }
+				religious_belief roman 6 requires building_factions { roman, }
 				religious_belief samnite 6 requires building_factions { italic, }
 			}
 			construction  3 
@@ -5993,10 +5828,10 @@ building temple_of_trade
 				temple_of_trade_awesome_temple
 			}
 		}
-		temple_of_trade_awesome_temple requires factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, carthaginian, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, romans_brutii, romans_senate, latin_faction_02, }
+		temple_of_trade_awesome_temple requires factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, carthaginian, greek, roman, latin_faction_02, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, carthaginian, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, romans_brutii, romans_senate, latin_faction_02, }
+			ai_destruction_hint requires not factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, carthaginian, greek, roman, latin_faction_02, }
 
 			capability
 			{
@@ -6008,9 +5843,9 @@ building temple_of_trade
 				religious_belief punic 8 requires building_factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
 				religious_belief berber 8 requires building_factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, }
 				religious_belief arab 8 requires building_factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
-				religious_belief hellenic 8 requires building_factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
-				religious_belief roman 8 requires building_factions { roman, }
+				religious_belief hellenic 8 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
 				religious_belief oscan 8 requires building_factions { hellenic_faction_10, }
+				religious_belief roman 8 requires building_factions { roman, }
 				religious_belief samnite 8 requires building_factions { italic, }
 			}
 			construction  5 
@@ -6021,10 +5856,10 @@ building temple_of_trade
 				temple_of_trade_pantheon
 			}
 		}
-		temple_of_trade_pantheon requires factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, carthaginian, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, romans_brutii, romans_senate, latin_faction_02, }
+		temple_of_trade_pantheon requires factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, carthaginian, greek, roman, latin_faction_02, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, carthaginian, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, romans_brutii, romans_senate, latin_faction_02, }
+			ai_destruction_hint requires not factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, carthaginian, greek, roman, latin_faction_02, }
 
 			capability
 			{
@@ -6038,9 +5873,9 @@ building temple_of_trade
 				religious_belief punic 10 requires building_factions { carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage, }
 				religious_belief berber 10 requires building_factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, }
 				religious_belief arab 10 requires building_factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, }
-				religious_belief hellenic 10 requires building_factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_17, hellenic_faction_18, rebel_greek, }
-				religious_belief roman 10 requires building_factions { roman, }
+				religious_belief hellenic 10 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
 				religious_belief oscan 10 requires building_factions { hellenic_faction_10, }
+				religious_belief roman 10 requires building_factions { roman, }
 				religious_belief samnite 10 requires building_factions { italic, }
 			}
 			construction  6 
@@ -6061,17 +5896,17 @@ building temple_of_victory
 	icon religion
 	levels temple_of_victory_shrine temple_of_victory_temple temple_of_victory_large_temple temple_of_victory_awesome_temple temple_of_victory_pantheon 
 	{
-		temple_of_victory_shrine requires factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_18, rebel_greek, parthia, rebel_parthia, latin_faction_03, latin_faction_05, } and no_other_temple 
+		temple_of_victory_shrine requires factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, greek, parthia, rebel_parthia, latin_faction_03, latin_faction_05, } and no_other_temple 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_18, rebel_greek, parthia, rebel_parthia, latin_faction_03, latin_faction_05, }
+			ai_destruction_hint requires not factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, greek, parthia, rebel_parthia, latin_faction_03, latin_faction_05, }
 
 			capability
 			{
 				recruit "warband woad briton" 0 requires factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, }
 				happiness_bonus bonus 1
 				religious_belief c_paganism 2 requires building_factions { barbarian, }
-				religious_belief hellenic 2 requires building_factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_18, rebel_greek, }
+				religious_belief hellenic 2 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
 				religious_belief oscan 2 requires building_factions { hellenic_faction_10, }
 				religious_belief zoroastrian 2 requires building_factions { eastern, }
 				religious_belief etruscan 2 requires building_factions { italic, }
@@ -6084,10 +5919,10 @@ building temple_of_victory
 				temple_of_victory_temple
 			}
 		}
-		temple_of_victory_temple requires factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_18, rebel_greek, parthia, rebel_parthia, latin_faction_03, latin_faction_05, }
+		temple_of_victory_temple requires factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, greek, parthia, rebel_parthia, latin_faction_03, latin_faction_05, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_18, rebel_greek, parthia, rebel_parthia, latin_faction_03, latin_faction_05, }
+			ai_destruction_hint requires not factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, greek, parthia, rebel_parthia, latin_faction_03, latin_faction_05, }
 
 			capability
 			{
@@ -6095,7 +5930,7 @@ building temple_of_victory
 				happiness_bonus bonus 2
 				recruits_exp_bonus bonus 1
 				religious_belief c_paganism 4 requires building_factions { barbarian, }
-				religious_belief hellenic 4 requires building_factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_18, rebel_greek, }
+				religious_belief hellenic 4 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
 				religious_belief oscan 4 requires building_factions { hellenic_faction_10, }
 				religious_belief zoroastrian 4 requires building_factions { eastern, }
 				religious_belief etruscan 4 requires building_factions { italic, }
@@ -6108,10 +5943,10 @@ building temple_of_victory
 				temple_of_victory_large_temple
 			}
 		}
-		temple_of_victory_large_temple requires factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_18, rebel_greek, parthia, rebel_parthia, latin_faction_03, latin_faction_05, }
+		temple_of_victory_large_temple requires factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, greek, parthia, rebel_parthia, latin_faction_03, latin_faction_05, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_18, rebel_greek, parthia, rebel_parthia, latin_faction_03, latin_faction_05, }
+			ai_destruction_hint requires not factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, greek, parthia, rebel_parthia, latin_faction_03, latin_faction_05, }
 
 			capability
 			{
@@ -6119,7 +5954,7 @@ building temple_of_victory
 				happiness_bonus bonus 3
 				recruits_exp_bonus bonus 2
 				religious_belief c_paganism 6 requires building_factions { barbarian, }
-				religious_belief hellenic 6 requires building_factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_18, rebel_greek, }
+				religious_belief hellenic 6 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
 				religious_belief oscan 6 requires building_factions { hellenic_faction_10, }
 				religious_belief zoroastrian 6 requires building_factions { eastern, }
 				religious_belief etruscan 6 requires building_factions { italic, }
@@ -6132,10 +5967,10 @@ building temple_of_victory
 				temple_of_victory_awesome_temple
 			}
 		}
-		temple_of_victory_awesome_temple requires factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_18, rebel_greek, parthia, rebel_parthia, latin_faction_03, latin_faction_05, }
+		temple_of_victory_awesome_temple requires factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, greek, parthia, rebel_parthia, latin_faction_03, latin_faction_05, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_18, rebel_greek, parthia, rebel_parthia, latin_faction_03, latin_faction_05, }
+			ai_destruction_hint requires not factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, greek, parthia, rebel_parthia, latin_faction_03, latin_faction_05, }
 
 			capability
 			{
@@ -6143,7 +5978,7 @@ building temple_of_victory
 				happiness_bonus bonus 4
 				recruits_exp_bonus bonus 3
 				religious_belief c_paganism 8 requires building_factions { barbarian, }
-				religious_belief hellenic 8 requires building_factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_18, rebel_greek, }
+				religious_belief hellenic 8 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
 				religious_belief oscan 8 requires building_factions { hellenic_faction_10, }
 				religious_belief zoroastrian 8 requires building_factions { eastern, }
 				religious_belief etruscan 8 requires building_factions { italic, }
@@ -6156,10 +5991,10 @@ building temple_of_victory
 				temple_of_victory_pantheon
 			}
 		}
-		temple_of_victory_pantheon requires factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_18, rebel_greek, parthia, rebel_parthia, latin_faction_03, latin_faction_05, }
+		temple_of_victory_pantheon requires factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, greek, parthia, rebel_parthia, latin_faction_03, latin_faction_05, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_10, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_18, rebel_greek, parthia, rebel_parthia, latin_faction_03, latin_faction_05, }
+			ai_destruction_hint requires not factions { britons, britanic_faction_01, britanic_faction_02, britanic_faction_03, britanic_faction_04, britanic_faction_05, greek, parthia, rebel_parthia, latin_faction_03, latin_faction_05, }
 
 			capability
 			{
@@ -6170,7 +6005,7 @@ building temple_of_victory
 				law_bonus bonus 2
 				trade_base_income_bonus bonus 2
 				religious_belief c_paganism 10 requires building_factions { barbarian, }
-				religious_belief hellenic 10 requires building_factions { greek_cities, hellenic_faction_01, hellenic_faction_02, hellenic_faction_03, hellenic_faction_04, hellenic_faction_05, hellenic_faction_06, hellenic_faction_07, hellenic_faction_08, hellenic_faction_09, hellenic_faction_11, hellenic_faction_12, hellenic_faction_14, hellenic_faction_15, hellenic_faction_16, hellenic_faction_18, rebel_greek, }
+				religious_belief hellenic 10 requires building_factions { greek, } and not building_factions { hellenic_faction_10, }
 				religious_belief oscan 10 requires building_factions { hellenic_faction_10, }
 				religious_belief zoroastrian 10 requires building_factions { eastern, }
 				religious_belief etruscan 10 requires building_factions { italic, }
@@ -6193,16 +6028,17 @@ building temple_of_violence
 	icon religion
 	levels temple_of_violence_shrine temple_of_violence_temple temple_of_violence_large_temple temple_of_violence_awesome_temple temple_of_violence_pantheon 
 	{
-		temple_of_violence_shrine requires factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, pontus, anatolian_faction_01, macedon, hellenic_faction_13, romans_julii, romans_scipii, latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, } and no_other_temple 
+		temple_of_violence_shrine requires factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, pontus, anatolian_faction_01, greek, roman, latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, } and no_other_temple 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, pontus, anatolian_faction_01, macedon, hellenic_faction_13, romans_julii, romans_scipii, latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, }
+			ai_destruction_hint requires not factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, pontus, anatolian_faction_01, greek, roman, latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, }
 
 			capability
 			{
 				happiness_bonus bonus 1
 				religious_belief g_paganism 2 requires building_factions { barbarian, }
-				religious_belief hellenic 2 requires building_factions { eastern, greek, }
+				religious_belief hellenic 2 requires building_factions { greek, eastern, } and not building_factions { hellenic_faction_10, }
+				religious_belief oscan 2 requires building_factions { hellenic_faction_10, }
 				religious_belief roman 2 requires building_factions { roman, }
 				religious_belief samnite 2 requires building_factions { italic, }
 			}
@@ -6214,17 +6050,18 @@ building temple_of_violence
 				temple_of_violence_temple
 			}
 		}
-		temple_of_violence_temple requires factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, pontus, anatolian_faction_01, macedon, hellenic_faction_13, romans_julii, romans_scipii, latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, }
+		temple_of_violence_temple requires factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, pontus, anatolian_faction_01, greek, roman, latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, pontus, anatolian_faction_01, macedon, hellenic_faction_13, romans_julii, romans_scipii, latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, }
+			ai_destruction_hint requires not factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, pontus, anatolian_faction_01, greek, roman, latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, }
 
 			capability
 			{
 				happiness_bonus bonus 2
 				recruits_exp_bonus bonus 1
 				religious_belief g_paganism 4 requires building_factions { barbarian, }
-				religious_belief hellenic 4 requires building_factions { eastern, greek, }
+				religious_belief hellenic 4 requires building_factions { greek, eastern, } and not building_factions { hellenic_faction_10, }
+				religious_belief oscan 4 requires building_factions { hellenic_faction_10, }
 				religious_belief roman 4 requires building_factions { roman, }
 				religious_belief samnite 4 requires building_factions { italic, }
 			}
@@ -6236,10 +6073,10 @@ building temple_of_violence
 				temple_of_violence_large_temple
 			}
 		}
-		temple_of_violence_large_temple requires factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, pontus, anatolian_faction_01, macedon, hellenic_faction_13, romans_julii, romans_scipii, latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, }
+		temple_of_violence_large_temple requires factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, pontus, anatolian_faction_01, greek, roman, latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, pontus, anatolian_faction_01, macedon, hellenic_faction_13, romans_julii, romans_scipii, latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, }
+			ai_destruction_hint requires not factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, pontus, anatolian_faction_01, greek, roman, latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, }
 
 			capability
 			{
@@ -6247,7 +6084,8 @@ building temple_of_violence
 				happiness_bonus bonus 3
 				recruits_exp_bonus bonus 2
 				religious_belief g_paganism 6 requires building_factions { barbarian, }
-				religious_belief hellenic 6 requires building_factions { eastern, greek, }
+				religious_belief hellenic 6 requires building_factions { greek, eastern, } and not building_factions { hellenic_faction_10, }
+				religious_belief oscan 6 requires building_factions { hellenic_faction_10, }
 				religious_belief roman 6 requires building_factions { roman, }
 				religious_belief samnite 6 requires building_factions { italic, }
 			}
@@ -6259,10 +6097,10 @@ building temple_of_violence
 				temple_of_violence_awesome_temple
 			}
 		}
-		temple_of_violence_awesome_temple requires factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, pontus, anatolian_faction_01, macedon, hellenic_faction_13, romans_julii, romans_scipii, latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, }
+		temple_of_violence_awesome_temple requires factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, pontus, anatolian_faction_01, greek, roman, latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, pontus, anatolian_faction_01, macedon, hellenic_faction_13, romans_julii, romans_scipii, latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, }
+			ai_destruction_hint requires not factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, pontus, anatolian_faction_01, greek, roman, latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, }
 
 			capability
 			{
@@ -6270,7 +6108,8 @@ building temple_of_violence
 				happiness_bonus bonus 4
 				recruits_exp_bonus bonus 3
 				religious_belief g_paganism 8 requires building_factions { barbarian, }
-				religious_belief hellenic 8 requires building_factions { eastern, greek, }
+				religious_belief hellenic 8 requires building_factions { greek, eastern, } and not building_factions { hellenic_faction_10, }
+				religious_belief oscan 8 requires building_factions { hellenic_faction_10, }
 				religious_belief roman 8 requires building_factions { roman, }
 				religious_belief samnite 8 requires building_factions { italic, }
 			}
@@ -6282,10 +6121,10 @@ building temple_of_violence
 				temple_of_violence_pantheon
 			}
 		}
-		temple_of_violence_pantheon requires factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, pontus, anatolian_faction_01, macedon, hellenic_faction_13, romans_julii, romans_scipii, latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, }
+		temple_of_violence_pantheon requires factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, pontus, anatolian_faction_01, greek, roman, latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, pontus, anatolian_faction_01, macedon, hellenic_faction_13, romans_julii, romans_scipii, latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, }
+			ai_destruction_hint requires not factions { germans, germanic_faction_01, germanic_faction_02, germanic_faction_03, germanic_faction_04, germanic_faction_05, germanic_faction_06, germanic_faction_07, germanic_faction_08, germanic_faction_09, germanic_faction_10, pontus, anatolian_faction_01, greek, roman, latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, }
 
 			capability
 			{
@@ -6296,7 +6135,8 @@ building temple_of_violence
 				trade_base_income_bonus bonus 2
 				population_health_bonus bonus 2
 				religious_belief g_paganism 10 requires building_factions { barbarian, }
-				religious_belief hellenic 10 requires building_factions { eastern, greek, }
+				religious_belief hellenic 10 requires building_factions { greek, eastern, } and not building_factions { hellenic_faction_10, }
+				religious_belief oscan 10 requires building_factions { hellenic_faction_10, }
 				religious_belief roman 10 requires building_factions { roman, }
 				religious_belief samnite 10 requires building_factions { italic, }
 			}
