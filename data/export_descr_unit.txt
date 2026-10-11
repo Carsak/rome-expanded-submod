@@ -3701,7 +3701,7 @@ officer						numidian_standard
 attributes					sea_faring, hide_forest, can_sap, hardy
 formation					1, 2, 2, 3, 4, square, shield_wall
 stat_health					1, 0
-stat_pri					11, 2, pilum, 35, 2, thrown, blade, piercing, spear, 25, 1.3
+stat_pri					7, 2, pilum, 35, 2, thrown, blade, piercing, spear, 25, 1.3
 stat_pri_attr				prec, thrown ap
 stat_sec					7, 2, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
 stat_sec_attr				no
@@ -3713,7 +3713,7 @@ stat_mental					9, disciplined, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 500, 220, 50, 80, 500
+stat_cost					2, 500, 250, 50, 80, 500
 recruit_priority_offset		0
 ownership					slave, rebel_slave, numidia, desert_faction_01, desert_faction_02, desert_faction_03, desert_faction_04, desert_faction_05, desert_faction_06, desert_faction_07, desert_faction_08, rebel_desert
 ethnicity					numidia, Numidia
@@ -4742,7 +4742,7 @@ officer						east_heavy_standard
 attributes					sea_faring, hide_forest, can_sap, hardy
 formation					1, 2, 2, 3, 4, square, shield_wall
 stat_health					1, 0
-stat_pri					11, 2, pilum, 35, 2, thrown, blade, piercing, spear, 25, 1.3
+stat_pri					7, 2, pilum, 35, 2, thrown, blade, piercing, spear, 25, 1.3
 stat_pri_attr				prec, thrown ap
 stat_sec					7, 2, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
 stat_sec_attr				no
@@ -4754,7 +4754,7 @@ stat_mental					9, disciplined, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 500, 220, 50, 80, 500
+stat_cost					2, 500, 250, 50, 80, 500
 recruit_priority_offset		0
 ownership					slave, rebel_slave, armenia, anatolian_faction_02, caucasian_faction_01, caucasian_faction_02, caucasian_faction_03, caucasian_faction_04, rebel_judea
 ethnicity					armenia, Armenia
@@ -6434,7 +6434,7 @@ officer						greek_standard
 attributes					sea_faring, hide_forest, can_sap, hardy
 formation					1, 1, 2, 2, 4, square, shield_wall
 stat_health					1, 0
-stat_pri					13, 3, pilum, 35, 2, thrown, blade, piercing, spear, 25, 1.3
+stat_pri					7, 3, pilum, 35, 2, thrown, blade, piercing, spear, 25, 1.3
 stat_pri_attr				prec, thrown ap
 stat_sec					9, 3, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
 stat_sec_attr				no
@@ -6446,7 +6446,7 @@ stat_mental					11, disciplined, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 740, 210, 80, 120, 740
+stat_cost					2, 740, 300, 80, 120, 740
 recruit_priority_offset		0
 ownership					slave, rebel_slave, seleucid
 ethnicity					seleucid, Syria
@@ -7317,7 +7317,7 @@ soldier						roman_hastati, 40, 0, 1
 attributes					sea_faring, hide_forest, can_sap
 formation					1, 2, 2, 3, 4, square
 stat_health					1, 0
-stat_pri					11, 2, pilum, 35, 2, thrown, blade, piercing, spear, 25, 1.3
+stat_pri					7, 2, pilum, 35, 2, thrown, blade, piercing, spear, 25, 1.3
 stat_pri_attr				prec, thrown ap
 stat_sec					7, 2, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
 stat_sec_attr				no
@@ -7349,7 +7349,7 @@ officer						roman_early_standard
 attributes					sea_faring, hide_forest, can_sap
 formation					1, 2, 2, 3, 4, square
 stat_health					1, 0
-stat_pri					11, 2, pilum, 35, 2, thrown, blade, piercing, spear, 25, 1.3
+stat_pri					7, 2, pilum, 35, 2, thrown, blade, piercing, spear, 25, 1.3
 stat_pri_attr				prec, thrown ap
 stat_sec					7, 2, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
 stat_sec_attr				no
@@ -7446,7 +7446,7 @@ officer						roman_standard
 attributes					sea_faring, hide_forest, can_sap, hardy, legionary_name
 formation					1, 2, 2, 3, 4, square, testudo
 stat_health					1, 0
-stat_pri					13, 3, pilum, 35, 2, thrown, blade, piercing, spear, 25, 1.3
+stat_pri					7, 3, pilum, 35, 2, thrown, blade, piercing, spear, 25, 1.3
 stat_pri_attr				prec, thrown ap
 stat_sec					9, 3, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
 stat_sec_attr				no
@@ -7479,7 +7479,7 @@ officer						roman_standard
 attributes					sea_faring, hide_forest, can_sap, hardy, command, legionary_name
 formation					1, 2, 2, 3, 4, square, testudo
 stat_health					1, 0
-stat_pri					13, 3, pilum, 35, 2, thrown, blade, piercing, spear, 25, 1.3
+stat_pri					7, 3, pilum, 35, 2, thrown, blade, piercing, spear, 25, 1.3
 stat_pri_attr				prec, thrown ap
 stat_sec					9, 3, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
 stat_sec_attr				no
@@ -7511,7 +7511,7 @@ officer						roman_standard
 attributes					sea_faring, hide_forest, can_sap, hardy, legionary_name
 formation					1, 2, 2, 3, 4, square, testudo
 stat_health					1, 0
-stat_pri					13, 3, pilum, 35, 2, thrown, blade, piercing, spear, 25, 1.3
+stat_pri					7, 3, pilum, 35, 2, thrown, blade, piercing, spear, 25, 1.3
 stat_pri_attr				prec, thrown ap
 stat_sec					9, 3, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
 stat_sec_attr				no
@@ -7523,7 +7523,7 @@ stat_mental					11, disciplined, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					1, 888, 300, 80, 120, 740
+stat_cost					2, 888, 320, 80, 120, 740
 recruit_priority_offset		0
 ownership					slave, rebel_slave, roman
 ethnicity					romans_brutii, Bruttium
@@ -7544,7 +7544,7 @@ officer						roman_standard
 attributes					sea_faring, hide_forest, can_sap, hardy, command, legionary_name
 formation					1, 2, 2, 3, 4, square, testudo
 stat_health					1, 0
-stat_pri					13, 3, pilum, 35, 2, thrown, blade, piercing, spear, 25, 1.3
+stat_pri					7, 3, pilum, 35, 2, thrown, blade, piercing, spear, 25, 1.3
 stat_pri_attr				prec, thrown ap
 stat_sec					9, 3, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
 stat_sec_attr				no
@@ -7576,7 +7576,7 @@ officer						roman_centurion
 attributes					sea_faring, hide_forest, can_sap
 formation					1, 2, 2, 3, 4, square, testudo
 stat_health					1, 0
-stat_pri					16, 3, pilum, 35, 2, thrown, blade, piercing, spear, 25, 1.3
+stat_pri					7, 3, pilum, 35, 2, thrown, blade, piercing, spear, 25, 1.3
 stat_pri_attr				prec, thrown ap
 stat_sec					12, 3, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
 stat_sec_attr				no
@@ -7609,7 +7609,7 @@ officer						roman_standard
 attributes					sea_faring, hide_forest, can_sap, hardy
 formation					1, 2, 2, 3, 4, square, testudo
 stat_health					1, 0
-stat_pri					18, 3, pilum, 35, 2, thrown, blade, piercing, spear, 25, 1.3
+stat_pri					7, 3, pilum, 35, 2, thrown, blade, piercing, spear, 25, 1.3
 stat_pri_attr				prec, thrown ap
 stat_sec					14, 3, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
 stat_sec_attr				no
@@ -10759,7 +10759,7 @@ mount_effect     			elephant +6, chariot +6
 attributes					sea_faring, hide_forest, can_sap, hardy
 formation					1, 1, 2, 2, 5, square
 stat_health					1, 0
-stat_pri					12, 3, javelin, 50, 4, thrown, archery, piercing, spear, 25, 1.3
+stat_pri					7, 3, javelin, 50, 4, thrown, archery, piercing, spear, 25, 1.3
 stat_pri_attr				prec, thrown ap
 stat_sec					8, 3, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
 stat_sec_attr				spear, spear_bonus_8
@@ -11389,7 +11389,7 @@ officer						spanish_standard
 attributes					sea_faring, hide_improved_forest, hardy
 formation					1, 2, 2, 3, 3, square
 stat_health					2, 0
-stat_pri					17, 4, pilum, 35, 2, thrown, blade, piercing, spear, 25, 1
+stat_pri					7, 4, pilum, 35, 2, thrown, blade, piercing, spear, 25, 1
 stat_pri_attr				prec, thrown ap
 stat_sec					13, 4, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
 stat_sec_attr				no
@@ -11629,7 +11629,7 @@ mount_effect     			elephant +6, chariot +6
 attributes					sea_faring, hide_forest, hardy
 formation					1, 2, 2, 3, 4, square, shield_wall
 stat_health					1, 0
-stat_pri					13, 4, javelin, 35, 2, thrown, blade, piercing, spear, 25, 1.3
+stat_pri					7, 4, javelin, 35, 2, thrown, blade, piercing, spear, 25, 1.3
 stat_pri_attr				prec, thrown ap
 stat_sec					11, 4, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
 stat_sec_attr				no
@@ -14027,7 +14027,7 @@ stat_mental					11, disciplined, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 960, 220, 100, 130, 960
+stat_cost					2, 960, 320, 100, 130, 960
 recruit_priority_offset		0
 ownership					slave, rebel_slave, pontus, caucasian_faction_04
 ethnicity					pontus, Pontus
@@ -14044,7 +14044,7 @@ officer						east_heavy_standard
 attributes					sea_faring, hide_forest, can_sap, hardy
 formation					1, 1, 2, 2, 4, square, shield_wall
 stat_health					1, 0
-stat_pri					13, 3, pilum, 35, 2, thrown, blade, piercing, spear, 25, 1.3
+stat_pri					7, 3, pilum, 35, 2, thrown, blade, piercing, spear, 25, 1.3
 stat_pri_attr				prec, thrown ap
 stat_sec					11, 3, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
 stat_sec_attr				no
@@ -14056,7 +14056,7 @@ stat_mental					11, disciplined, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 960, 220, 100, 130, 960
+stat_cost					2, 960, 320, 100, 130, 960
 recruit_priority_offset		0
 ownership					slave, rebel_slave, egyptian
 ethnicity					egypt, Nile_Delta
@@ -14074,7 +14074,7 @@ officer						east_heavy_standard
 attributes					sea_faring, hide_forest, can_sap, hardy
 formation					1, 1, 2, 2, 4, square, shield_wall
 stat_health					1, 0
-stat_pri					13, 3, pilum, 35, 2, thrown, blade, piercing, spear, 25, 1.3
+stat_pri					7, 3, pilum, 35, 2, thrown, blade, piercing, spear, 25, 1.3
 stat_pri_attr				prec, thrown ap
 stat_sec					11, 3, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
 stat_sec_attr				no
@@ -14086,7 +14086,7 @@ stat_mental					11, disciplined, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
-stat_cost					2, 960, 220, 100, 130, 960
+stat_cost					2, 960, 320, 100, 130, 960
 recruit_priority_offset		0
 ownership					slave, rebel_slave, carthage, carthage_barcid, carthage_hannonid, carthage_magonid, rebel_carthage
 ethnicity					carthage, Africa

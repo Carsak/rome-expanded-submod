@@ -11120,7 +11120,7 @@
 		"shadow max provinces": -1,
 
 		;;victorious rebels switch back to the regular Egyptian identity
-		"allow shadow switchback": true,
+		"allow shadow switchback": false,
 		
 		"emergence":
 		{

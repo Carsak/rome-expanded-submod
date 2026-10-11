@@ -2,6 +2,18 @@
 
 This file records notable player-facing changes to Rome Expanded Submod. The newest changes are listed first.
 
+## 2026-10-11
+
+### Changed
+
+- AI-controlled Roman factions now start the civil war against the Senate after controlling 20 settlements instead of 30.
+- Reduced pilum damage for units whose primary weapon is a sword or spear. Their previous pilum damage gave them an excessive advantage in auto-resolved battles.
+- Egyptian rebels now remain Rebel Egypt after defeating Egypt, instead of taking on the regular Egyptian faction identity.
+
+### Fixed
+
+- Fixed a crash that occurred when Egypt was eliminated by setting `switchback` to `false` for `Rebel_egypt`.
+
 ## 2026-10-04 — Steam Workshop Release
 
 ### Added
