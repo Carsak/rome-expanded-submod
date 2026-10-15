@@ -806,7 +806,7 @@ stat_fire_delay				0
 stat_food					60, 300
 stat_cost					1, 420, 200, 50, 70, 420
 recruit_priority_offset		0
-ownership					slave, rebel_slave, dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, thracian_faction_02
+ownership					slave, rebel_slave, dacia, dacian_faction_01, dacian_faction_02, dacian_faction_03, thracian_faction_02, anatolian_faction_01
 ethnicity					dacia, Dacia
 
 
@@ -1129,7 +1129,7 @@ stat_fire_delay				0
 stat_food					60, 300
 stat_cost					1, 500, 170, 50, 80, 500
 recruit_priority_offset		0
-ownership					slave, rebel_slave, thrace, thracian_faction_01, thracian_faction_02
+ownership					slave, rebel_slave, thrace, thracian_faction_01, thracian_faction_02, anatolian_faction_01
 ethnicity					thrace, Thrace
 
 

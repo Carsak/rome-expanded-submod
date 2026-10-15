@@ -2146,6 +2146,10 @@ settlement
 	{
 		type port_buildings port
 	}
+	building
+	{
+		type temple_of_battle temple_of_battle_shrine
+	}
 }
 
 settlement
@@ -2530,9 +2534,9 @@ traits hellenic 1 , LoyaltyStarter 1 , AIBattleBonus 1 , GoodCommander 2 , Natur
 ancillaries shieldbearer, drillmaster
 army
 unit		greek general's guard cavalry early				exp 2 armour 0 weapon_lvl 0
-unit		greek levy pikemen				exp 1 armour 0 weapon_lvl 0
-unit		greek levy pikemen				exp 1 armour 0 weapon_lvl 0
-unit		greek levy pikemen				exp 1 armour 0 weapon_lvl 0
+unit		greek pikemen				exp 1 armour 0 weapon_lvl 0
+unit		greek pikemen				exp 1 armour 0 weapon_lvl 0
+unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
 unit		greek heavy cavalry				exp 1 armour 0 weapon_lvl 0
 unit		greek heavy cavalry				exp 1 armour 0 weapon_lvl 0
 unit		greek light lancer				exp 1 armour 0 weapon_lvl 0
@@ -2542,8 +2546,8 @@ traits hellenic 1 , LoyaltyStarter 1 , AIBattleBonus 1 , GoodCommander 1 , Natur
 ancillaries actor
 army
 unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
-unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
+unit		greek pikemen				exp 1 armour 0 weapon_lvl 0
+unit		greek pikemen				exp 1 armour 0 weapon_lvl 0
 unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
 unit		greek heavy cavalry				exp 0 armour 0 weapon_lvl 0
 unit		greek light lancer				exp 0 armour 0 weapon_lvl 0
@@ -2565,7 +2569,7 @@ traits hellenic 1 , LoyaltyStarter 1 , AIBattleBonus 1 , NaturalMilitarySkill 1 
 ancillaries swordbearer
 army
 unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
+unit		greek pikemen				exp 1 armour 0 weapon_lvl 0
 unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
 unit		greek heavy cavalry				exp 0 armour 0 weapon_lvl 0
 unit		greek light lancer				exp 0 armour 0 weapon_lvl 0
@@ -2576,10 +2580,10 @@ traits hellenic 1 , LoyaltyStarter 1 , AIBattleBonus 1 , NaturalPhilosophySkill 
 ancillaries freeman_clerk, doctor
 army
 unit		greek general's guard cavalry early				exp 0 armour 0 weapon_lvl 0
+unit		greek pikemen				exp 1 armour 0 weapon_lvl 0
+unit		greek pikemen				exp 1 armour 0 weapon_lvl 0
 unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
 unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
-unit		greek heavy cavalry				exp 0 armour 0 weapon_lvl 0
-unit		greek light lancer				exp 0 armour 0 weapon_lvl 0
 unit		greek archer				exp 0 armour 0 weapon_lvl 0
 
 ;Messenia
@@ -2685,7 +2689,7 @@ settlement
 	}
 	building
 	{
-		type temple_of_one_god temple_of_one_god_shrine
+		type temple_of_one_god temple_of_one_god_temple
 	}
 }
 
@@ -2996,6 +3000,10 @@ settlement
 	building
 	{
 		type port_buildings port
+	}
+	building
+	{
+		type temple_of_hunting temple_of_hunting_temple
 	}
 }
 
@@ -3359,6 +3367,10 @@ settlement
 	{
 		type port_buildings port
 	}
+	building
+	{
+		type temple_of_justice temple_of_justice_temple
+	}
 }
 
 settlement
@@ -3498,6 +3510,10 @@ settlement
 	building
 	{
 		type market trader
+	}
+	building
+	{
+		type temple_of_governors temple_of_governors_shrine
 	}
 }
 
@@ -3650,6 +3666,10 @@ settlement
 	{
 		type barracks muster_field
 	}
+	building
+	{
+		type temple_of_law temple_of_law_temple
+	}
 }
 
 settlement
@@ -3715,6 +3735,10 @@ settlement
 	building
 	{
 		type barracks muster_field
+	}
+	building
+	{
+		type temple_of_hunting temple_of_hunting_shrine
 	}
 }
 
@@ -3981,7 +4005,7 @@ army
 unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 1 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 1 armour 0 weapon_lvl 0
-unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
+unit		greek pikemen				exp 0 armour 0 weapon_lvl 0
 unit		greek pikemen				exp 0 armour 0 weapon_lvl 0
 unit		greek pikemen				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
@@ -3992,8 +4016,9 @@ traits hellenic 1 , LoyaltyStarter 1 , AIBattleBonus 1 , NaturalPhilosophySkill 
 ancillaries idiot_savant
 army
 unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
-unit		greek levy pikemen				exp 1 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 1 armour 0 weapon_lvl 0
+unit		greek pikemen				exp 1 armour 0 weapon_lvl 0
+unit		greek pikemen				exp 0 armour 0 weapon_lvl 0
 unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
@@ -4014,9 +4039,9 @@ ancillaries desert_scout
 army
 unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
-unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
 unit		greek pikemen				exp 0 armour 0 weapon_lvl 0
 unit		greek pikemen				exp 0 armour 0 weapon_lvl 0
+unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 ; mesopotamia
@@ -4041,7 +4066,7 @@ unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 ; mygdonius
 character	Charax, general, age 20, , x 222, y 65
 army
-unit		greek levy pikemen				exp 1 armour 0 weapon_lvl 0
+unit		greek pikemen				exp 0 armour 0 weapon_lvl 0
 unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
 unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
@@ -4049,7 +4074,7 @@ unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 ; urartu
 character	Charidimos, general, age 20, , x 225, y 78
 army
-unit		greek levy pikemen				exp 1 armour 0 weapon_lvl 0
+unit		greek pikemen				exp 0 armour 0 weapon_lvl 0
 unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
 unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
@@ -5401,6 +5426,10 @@ settlement
 	{
 		type hinterland_roads roads
 	}
+	building
+	{
+		type temple_of_leadership temple_of_leadership_temple
+	}
 }
 
 character	Hiero, named character, leader, age 38, , x 106, y 46
@@ -5915,7 +5944,7 @@ settlement
 	}
 	building
 	{
-		type temple_of_victory temple_of_victory_temple
+		type temple_of_leadership temple_of_leadership_temple
 	}
 }
 
@@ -6022,6 +6051,10 @@ settlement
 	building
 	{
 		type barracks muster_field
+	}
+	building
+	{
+		type temple_of_hunting temple_of_hunting_shrine
 	}
 }
 
@@ -6296,6 +6329,10 @@ settlement
 	{
 		type missiles practice_field
 	}
+	building
+	{
+		type temple_of_governors temple_of_governors_temple
+	}
 }
 
 settlement
@@ -6340,7 +6377,7 @@ settlement
 	}
 	building
 	{
-		type temple_of_leadership temple_of_leadership_shrine
+		type temple_of_justice temple_of_justice_shrine
 	}
 }
 
@@ -6475,6 +6512,10 @@ settlement
 	{
 		type barracks muster_field
 	}
+	building
+	{
+		type temple_of_leadership temple_of_leadership_temple
+	}
 }
 
 character	Memnon of Rhodes, named character, leader, age 29, , x 161, y 45
@@ -6602,21 +6643,26 @@ settlement
 	{
 		type port_buildings port
 	}
+	building
+	{
+		type temple_of_governors temple_of_governors_shrine
+	}
 }
 
 character	Magas, named character, leader, age 50, , x 130, y 19
 traits hellenic 1 , LoyaltyStarter 1 , AIBattleBonus 1 , Energetic 1 , Brave 2 , NaturalMilitarySkill 2 , GoodDefender 2 , PublicFaith 3 , HaleAndHearty 2
 army
 unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		libyan infantry				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
 
 character	Demetrius, named character, heir, age 16, , x 131, y 20
 traits hellenic 1 , LoyaltyStarter 1 , AIBattleBonus 1 , NaturalPhilosophySkill 2 , Handsome 3 , GoodTaxman 1 , PublicFaith 1 , Girls 1 , Fertile 1 , Brave 2 , HaleAndHearty 2
 army
 unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		libyan infantry				exp 0 armour 0 weapon_lvl 0
 
 character_record	Ptolemaic, 		male, command 0, influence 0, management 0, subterfuge 0, age 85, dead, never_a_leader
 character_record	Berenice, 		female, command 0, influence 0, management 0, subterfuge 0, age 70, dead, never_a_leader
@@ -6669,6 +6715,10 @@ settlement
 	building
 	{
 		type temple_of_leadership temple_of_leadership_large_temple
+	}
+	building
+	{
+		type temple_of_governors temple_of_governors_shrine
 	}
 }
 
