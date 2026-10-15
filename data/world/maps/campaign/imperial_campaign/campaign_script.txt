@@ -10422,7 +10422,7 @@ script
 			terminate_monitor
 		end_if
 
-		if I_NumberOfSettlements romans_julii >= 20
+		if I_NumberOfSettlements romans_julii >= 15
 		and DiplomaticStanceFromFaction romans_senate = Allied
 			set_counter rome_civil_war 1
 
@@ -10459,7 +10459,7 @@ script
 			terminate_monitor
 		end_if
 
-		if I_NumberOfSettlements romans_brutii >= 20
+		if I_NumberOfSettlements romans_brutii >= 15
 		and DiplomaticStanceFromFaction romans_senate = Allied
 			set_counter rome_civil_war 1
 
@@ -10496,7 +10496,7 @@ script
 			terminate_monitor
 		end_if
 
-		if I_NumberOfSettlements romans_scipii >= 20
+		if I_NumberOfSettlements romans_scipii >= 15
 		and DiplomaticStanceFromFaction romans_senate = Allied
 			set_counter rome_civil_war 1
 
@@ -10537,7 +10537,7 @@ script
 			terminate_monitor
 		end_if
 
-		if I_NumberOfSettlements carthage_barcid >= 20
+		if I_NumberOfSettlements carthage_barcid >= 18
 		and DiplomaticStanceFromFaction carthage = Allied
 			set_counter carthage_civil_war 1
 
@@ -10574,7 +10574,7 @@ script
 			terminate_monitor
 		end_if
 
-		if I_NumberOfSettlements carthage_hannonid >= 20
+		if I_NumberOfSettlements carthage_hannonid >= 18
 		and DiplomaticStanceFromFaction carthage = Allied
 			set_counter carthage_civil_war 1
 
@@ -10611,7 +10611,7 @@ script
 			terminate_monitor
 		end_if
 
-		if I_NumberOfSettlements carthage_magonid >= 20
+		if I_NumberOfSettlements carthage_magonid >= 18
 		and DiplomaticStanceFromFaction carthage = Allied
 			set_counter carthage_civil_war 1
 
