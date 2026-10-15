@@ -5,6 +5,8 @@ script
 ;
 
 	declare_persistent_counter first_time_setup
+	declare_persistent_counter early_marian_reforms_prompt_answered
+	declare_persistent_counter early_marian_reforms_enabled
 	declare_persistent_counter greek_wars_setup
 	declare_persistent_counter punic_wars_setup
 	declare_persistent_counter socii_wars_setup
@@ -850,8 +852,20 @@ script
 
 	monitor_event FactionTurnEnd
 		declare_counter still_alive
-
+		
 		if FactionIsLocal
+			if I_CompareCounter early_marian_reforms_prompt_answered = 0
+				message_prompt
+				{
+					flag_counter early_marian_reforms_prompt_answered
+					result_counter early_marian_reforms_enabled
+
+					title ROME_EXPANDED_EARLY_MARIAN_REFORMS_TITLE
+					body ROME_EXPANDED_EARLY_MARIAN_REFORMS_BODY
+					image marian_reform
+				}
+			end_if
+
 			if DiplomaticStanceFromFaction romans_senate = AtWar
 			and I_CompareCounter rome_is_in_danger = 0
 				set_counter rome_is_in_danger 1
@@ -2230,6 +2244,10 @@ script
 			terminate_monitor
 		end_if
 	end_monitor
+
+;
+; Rebel Spawn
+;
 
 	monitor_event FactionTurnStart FactionType rebel_romans
 		if I_CompareCounter rebel_rome_spawned = 0
@@ -10404,7 +10422,7 @@ script
 			terminate_monitor
 		end_if
 
-		if I_NumberOfSettlements romans_julii >= 30
+		if I_NumberOfSettlements romans_julii >= 15
 		and DiplomaticStanceFromFaction romans_senate = Allied
 			set_counter rome_civil_war 1
 
@@ -10441,7 +10459,7 @@ script
 			terminate_monitor
 		end_if
 
-		if I_NumberOfSettlements romans_brutii >= 30
+		if I_NumberOfSettlements romans_brutii >= 15
 		and DiplomaticStanceFromFaction romans_senate = Allied
 			set_counter rome_civil_war 1
 
@@ -10478,7 +10496,7 @@ script
 			terminate_monitor
 		end_if
 
-		if I_NumberOfSettlements romans_scipii >= 30
+		if I_NumberOfSettlements romans_scipii >= 15
 		and DiplomaticStanceFromFaction romans_senate = Allied
 			set_counter rome_civil_war 1
 
@@ -10519,7 +10537,7 @@ script
 			terminate_monitor
 		end_if
 
-		if I_NumberOfSettlements carthage_barcid >= 30
+		if I_NumberOfSettlements carthage_barcid >= 18
 		and DiplomaticStanceFromFaction carthage = Allied
 			set_counter carthage_civil_war 1
 
@@ -10556,7 +10574,7 @@ script
 			terminate_monitor
 		end_if
 
-		if I_NumberOfSettlements carthage_hannonid >= 30
+		if I_NumberOfSettlements carthage_hannonid >= 18
 		and DiplomaticStanceFromFaction carthage = Allied
 			set_counter carthage_civil_war 1
 
@@ -10593,7 +10611,7 @@ script
 			terminate_monitor
 		end_if
 
-		if I_NumberOfSettlements carthage_magonid >= 30
+		if I_NumberOfSettlements carthage_magonid >= 18
 		and DiplomaticStanceFromFaction carthage = Allied
 			set_counter carthage_civil_war 1
 
@@ -11262,6 +11280,62 @@ script
 					console_command add_money rebel_latin, 10000
 				end_if
 			end_for
+		end_if
+	end_monitor
+
+	; Player imperial corruption
+
+	monitor_event FactionTurnStart
+		if FactionIsLocal
+			declare_counter player_settlements
+			set_counter player_settlements 0
+
+			for_each settlement in faction
+				inc_counter player_settlements 1
+			end_for
+
+			if I_CompareCounter player_settlements < 15
+				console_command add_expenditure local_faction pip_corruption 0
+			end_if
+
+			if I_CompareCounter player_settlements >= 15
+			and I_CompareCounter player_settlements < 20
+				console_command add_expenditure local_faction pip_corruption 1500
+			end_if
+
+			if I_CompareCounter player_settlements >= 20
+			and I_CompareCounter player_settlements < 25
+				console_command add_expenditure local_faction pip_corruption 2500
+			end_if
+
+			if I_CompareCounter player_settlements >= 25
+			and I_CompareCounter player_settlements < 30
+				console_command add_expenditure local_faction pip_corruption 5000
+			end_if
+
+			if I_CompareCounter player_settlements >= 30
+			and I_CompareCounter player_settlements < 35
+				console_command add_expenditure local_faction pip_corruption 8000
+			end_if
+
+			if I_CompareCounter player_settlements >= 35
+			and I_CompareCounter player_settlements < 40
+				console_command add_expenditure local_faction pip_corruption 11000
+			end_if
+
+			if I_CompareCounter player_settlements >= 40
+			and I_CompareCounter player_settlements < 45
+				console_command add_expenditure local_faction pip_corruption 14000
+			end_if
+
+			if I_CompareCounter player_settlements >= 45
+			and I_CompareCounter player_settlements < 50
+				console_command add_expenditure local_faction pip_corruption 17000
+			end_if
+
+			if I_CompareCounter player_settlements >= 50
+				console_command add_expenditure local_faction pip_corruption 20000
+			end_if
 		end_if
 	end_monitor
 end_script

@@ -3906,3 +3906,7 @@ wooden_wall_roman_desc
 wooden_wall_tracian_illyrian_desc_short
 wooden_wall_tracian_illyrian_desc
 wooden_wall
+rhodes_colossus_desc_short
+rhodes_colossus_desc
+rhodes_colossus_name
+rhodes_colossus
