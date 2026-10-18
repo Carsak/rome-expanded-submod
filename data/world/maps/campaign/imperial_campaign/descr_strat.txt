@@ -6514,7 +6514,7 @@ settlement
 	}
 	building
 	{
-		type rhodes_colossus rhodes_colossus
+		type hinterland_rhodes_colossus rhodes_colossus
 	}
 	building
 	{

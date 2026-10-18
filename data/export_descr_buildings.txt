@@ -6806,33 +6806,6 @@ building hinterland_natives
 	{
 	}
 }
-building rhodes_colossus
-{
-	classification trade
-	icon trade
-	levels rhodes_colossus
-	{
-		rhodes_colossus requires not factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
-		{
-			capability
-			{
-			}
-			faction_capability
-			{
-				trade_base_income_bonus bonus -4
-			}
-			construction  1
-			cost  1000
-			settlement_min village
-			upgrades
-			{
-			}
-		}
-	}
-	plugins
-	{
-	}
-}
 building temporary
 {
 	classification culture
@@ -6902,6 +6875,60 @@ building convert
 		}
 	}
 	plugins 
+	{
+	}
+}
+building hinterland_rhodes_colossus
+{
+	classification trade
+	icon trade
+	levels rhodes_colossus
+	{
+		rhodes_colossus requires not factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
+		{
+			capability
+			{
+			}
+			faction_capability
+			{
+				trade_base_income_bonus bonus -4
+			}
+			construction  1
+			cost  1000
+			settlement_min village
+			upgrades
+			{
+			}
+		}
+	}
+	plugins
+	{
+	}
+}
+building rhodes_colossus
+{
+	classification trade
+	icon trade
+	levels rhodes_colossus
+	{
+		rhodes_colossus requires not factions { tracian_illyrian, barbarian, carthaginian, eastern, egyptian, greek, roman, italic, }
+		{
+			capability
+			{
+			}
+			faction_capability
+			{
+				trade_base_income_bonus bonus -4
+			}
+			construction  1
+			cost  1000
+			settlement_min village
+			upgrades
+			{
+			}
+		}
+	}
+	plugins
 	{
 	}
 }

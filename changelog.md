@@ -2,6 +2,12 @@
 
 This file records notable player-facing changes to Rome Expanded Submod. The newest changes are listed first.
 
+## 2026-10-18
+
+### Fixed
+
+- Made the Colossus of Rhodes indestructible in new campaigns while retaining its previous building definition for saved-game compatibility.
+
 ## 2026-10-11
 
 ### Changed
