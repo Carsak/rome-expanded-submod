@@ -180,6 +180,7 @@ script
 			faction macedon
 			character Archelaus of Pella, named character, age 25, , x 143, y 69
 			unit greek general's guard cavalry early, exp 0 armour 0 weapon_lvl 0
+			unit greek pikemen, exp 1 armour 0 weapon_lvl 0
 			unit greek levy pikemen, exp 0 armour 0 weapon_lvl 0
 			unit greek levy pikemen, exp 0 armour 0 weapon_lvl 0
 			unit greek archer, exp 0 armour 0 weapon_lvl 0
@@ -484,7 +485,7 @@ script
 			character Patroclus of Macedonia, named character, age 64, , x 179, y 59
 			unit greek general's guard cavalry early, exp 1 armour 0 weapon_lvl 0
 			unit greek cavalry, exp 0 armour 0 weapon_lvl 0
-			unit greek levy pikemen, exp 0 armour 0 weapon_lvl 0
+			unit greek pikemen, exp 0 armour 0 weapon_lvl 0
 			unit greek levy pikemen, exp 0 armour 0 weapon_lvl 0
 			unit greek peltast, exp 0 armour 0 weapon_lvl 0
 		end
@@ -509,7 +510,7 @@ script
 			character Pleistarchus Antipatrid, named character, age 64, , x 193, y 58
 			unit greek general's guard cavalry early, exp 3 armour 0 weapon_lvl 0
 			unit greek cavalry, exp 0 armour 0 weapon_lvl 0
-			unit greek cavalry, exp 0 armour 0 weapon_lvl 0
+			unit greek pikemen, exp 0 armour 0 weapon_lvl 0
 			unit greek levy pikemen, exp 0 armour 0 weapon_lvl 0
 			unit greek levy pikemen, exp 0 armour 0 weapon_lvl 0
 			unit greek peltast, exp 0 armour 0 weapon_lvl 0
@@ -558,8 +559,8 @@ script
 			character Heraclitus of Laodicea, named character, age 20, , x 205, y 50
 			unit greek general's guard cavalry early, exp 1 armour 0 weapon_lvl 0
 			unit greek pikemen, exp 0 armour 0 weapon_lvl 0
-			unit greek levy pikemen, exp 0 armour 0 weapon_lvl 0
-			unit greek levy pikemen, exp 0 armour 0 weapon_lvl 0
+			unit greek pikemen, exp 0 armour 0 weapon_lvl 0
+			unit greek pikemen, exp 0 armour 0 weapon_lvl 0
 			unit greek peltast, exp 0 armour 0 weapon_lvl 0
 		end
 
@@ -599,7 +600,7 @@ script
 			faction seleucid
 			character Philotas of Pella, named character, age 20, , x 212, y 46
 			unit greek general's guard cavalry early, exp 1 armour 0 weapon_lvl 0
-			unit greek levy pikemen, exp 0 armour 0 weapon_lvl 0
+			unit greek pikemen, exp 0 armour 0 weapon_lvl 0
 			unit greek levy pikemen, exp 0 armour 0 weapon_lvl 0
 			unit greek levy pikemen, exp 0 armour 0 weapon_lvl 0
 			unit greek peltast, exp 0 armour 0 weapon_lvl 0
@@ -620,7 +621,7 @@ script
 			faction seleucid
 			character Molon of Arbela, named character, age 20, , x 212, y 59
 			unit greek general's guard cavalry early, exp 1 armour 0 weapon_lvl 0
-			unit greek levy pikemen, exp 0 armour 0 weapon_lvl 0
+			unit greek pikemen, exp 0 armour 0 weapon_lvl 0
 			unit greek levy pikemen, exp 0 armour 0 weapon_lvl 0
 			unit greek levy pikemen, exp 0 armour 0 weapon_lvl 0
 			unit greek peltast, exp 0 armour 0 weapon_lvl 0
@@ -662,7 +663,7 @@ script
 			faction seleucid
 			character Zeuxis of Macedonia, named character, age 20, , x 205, y 58
 			unit greek general's guard cavalry early, exp 1 armour 0 weapon_lvl 0
-			unit greek levy pikemen, exp 0 armour 0 weapon_lvl 0
+			unit greek pikemen, exp 0 armour 0 weapon_lvl 0
 			unit greek levy pikemen, exp 0 armour 0 weapon_lvl 0
 			unit greek levy pikemen, exp 0 armour 0 weapon_lvl 0
 			unit greek peltast, exp 0 armour 0 weapon_lvl 0
@@ -703,8 +704,8 @@ script
 			faction seleucid
 			character Theodotus of Rhodes, named character, age 20, , x 205, y 43
 			unit greek general's guard cavalry early, exp 1 armour 0 weapon_lvl 0
-			unit greek levy pikemen, exp 0 armour 0 weapon_lvl 0
-			unit greek levy pikemen, exp 0 armour 0 weapon_lvl 0
+			unit greek pikemen, exp 0 armour 0 weapon_lvl 0
+			unit greek pikemen, exp 0 armour 0 weapon_lvl 0
 			unit merc rhodian slingers, exp 0 armour 0 weapon_lvl 0
 			unit merc rhodian slingers, exp 0 armour 0 weapon_lvl 0
 		end
@@ -743,6 +744,7 @@ script
 			faction hellenic_faction_08
 			character Theaetetus of Cyrene, named character, age 29, , x 132, y 20
 			unit greek general's guard cavalry early, exp 0 armour 0 weapon_lvl 0
+			unit greek hoplite militia, exp 0 armour 0 weapon_lvl 0
 		end
 
 		console_command give_trait "Theaetetus of Cyrene" hellenic 1
@@ -760,6 +762,7 @@ script
 			faction hellenic_faction_08
 			character Theodoros of Cyrene, named character, age 70, , x 132, y 21
 			unit greek general's guard cavalry early, exp 0 armour 0 weapon_lvl 0
+			unit greek hoplite militia, exp 0 armour 0 weapon_lvl 0
 		end
 
 		console_command give_trait "Theodoros of Cyrene" hellenic 1
@@ -780,6 +783,7 @@ script
 			faction hellenic_faction_09
 			character Cleanthes of Assos, named character, age 60, , x 143, y 53
 			unit greek general's guard cavalry early, exp 0 armour 0 weapon_lvl 0
+			unit greek hoplite militia, exp 0 armour 0 weapon_lvl 0
 		end
 
 		console_command give_trait "Cleanthes of Assos" hellenic 1
