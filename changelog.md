@@ -4,6 +4,11 @@ This file records notable player-facing changes to Rome Expanded Submod. The new
 
 ## 2026-10-18
 
+### Added
+
+- Added non-playable independent Seleucids as a recurring shadow faction for Seleucid settlement revolts. They share the regular Seleucid roster and buildings, remain independent if they win the civil war, and are available in custom battles.
+- Added distinct brown faction icons, campaign flags, settlement banners, and battle standards for the independent Seleucids while retaining their Seleucid anchor emblem.
+
 ### Fixed
 
 - Made the Colossus of Rhodes indestructible in new campaigns while retaining its previous building definition for saved-game compatibility.

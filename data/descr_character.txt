@@ -1,0 +1,5030 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+starting_action_points	80
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+type			named character
+
+actions			moving_normal, moving_quickmarch, garrison, assault, attack, besiege, entrench, ambush, diplomacy, bribe, exchange, building_fort, building_watchtower
+wage_base		200
+
+faction			romans_julii
+dictionary		15
+strat_model		sm_roman_general
+battle_model	roman_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			romans_brutii
+dictionary		15
+strat_model		sm_roman_general
+battle_model	roman_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			romans_scipii
+dictionary		15
+strat_model		sm_roman_general
+battle_model	roman_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			romans_senate
+dictionary		15
+strat_model		sm_roman_general
+battle_model	roman_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			rebel_romans
+dictionary		15
+strat_model		sm_roman_general
+battle_model	roman_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			macedon
+dictionary		2
+strat_model		sm_greek_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			egypt
+dictionary		2
+strat_model		sm_greek_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			seleucid
+dictionary		2
+strat_model		sm_greek_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			rebel_seleucid
+dictionary		2
+strat_model		sm_greek_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			greek_cities
+dictionary		2
+strat_model		sm_greek_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			thrace
+dictionary		2
+strat_model		sm_greek_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_01
+dictionary		2
+strat_model		sm_greek_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_02
+dictionary		2
+strat_model		sm_greek_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_03
+dictionary		2
+strat_model		sm_greek_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_04
+dictionary		2
+strat_model		sm_greek_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_05
+dictionary		2
+strat_model		sm_greek_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_06
+dictionary		2
+strat_model		sm_greek_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_07
+dictionary		2
+strat_model		sm_greek_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_08
+dictionary		2
+strat_model		sm_greek_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_09
+dictionary		2
+strat_model		sm_greek_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_10
+dictionary		2
+strat_model		sm_greek_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_11
+dictionary		2
+strat_model		sm_greek_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_12
+dictionary		2
+strat_model		sm_greek_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_13
+dictionary		2
+strat_model		sm_greek_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_14
+dictionary		2
+strat_model		sm_greek_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_15
+dictionary		2
+strat_model		sm_greek_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_16
+dictionary		2
+strat_model		sm_greek_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_17
+dictionary		2
+strat_model		sm_greek_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_18
+dictionary		2
+strat_model		sm_greek_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			rebel_greek
+dictionary		2
+strat_model		sm_greek_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			rebel_egypt
+dictionary		2
+strat_model		sm_egypt_general
+battle_model	egyptian_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			carthage
+dictionary		1
+strat_model		sm_carthage_general
+battle_model	carthaginian_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			carthage_barcid
+dictionary		1
+strat_model		sm_carthage_general
+battle_model	carthaginian_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			carthage_hannonid
+dictionary		1
+strat_model		sm_carthage_general
+battle_model	carthaginian_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			carthage_magonid
+dictionary		1
+strat_model		sm_carthage_general
+battle_model	carthaginian_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			rebel_carthage
+dictionary		1
+strat_model		sm_carthage_general
+battle_model	carthaginian_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			anatolian_faction_02
+dictionary		2
+strat_model		sm_carthage_general
+battle_model	carthaginian_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			rebel_judea
+dictionary		2
+strat_model		sm_carthage_general
+battle_model	carthaginian_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			numidia
+dictionary		2
+strat_model		sm_carthage_general
+battle_model	numidian_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			desert_faction_01
+dictionary		2
+strat_model		sm_carthage_general
+battle_model	numidian_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			desert_faction_02
+dictionary		2
+strat_model		sm_carthage_general
+battle_model	numidian_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			desert_faction_03
+dictionary		2
+strat_model		sm_carthage_general
+battle_model	numidian_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			desert_faction_04
+dictionary		2
+strat_model		sm_carthage_general
+battle_model	numidian_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			desert_faction_05
+dictionary		2
+strat_model		sm_carthage_general
+battle_model	numidian_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			desert_faction_06
+dictionary		2
+strat_model		sm_carthage_general
+battle_model	numidian_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			desert_faction_07
+dictionary		2
+strat_model		sm_carthage_general
+battle_model	numidian_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			desert_faction_08
+dictionary		2
+strat_model		sm_carthage_general
+battle_model	numidian_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			rebel_desert
+dictionary		2
+strat_model		sm_carthage_general
+battle_model	numidian_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			parthia
+dictionary		2
+strat_model		sm_eastern_general
+battle_model	east_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			rebel_parthia
+dictionary		2
+strat_model		sm_eastern_general
+battle_model	east_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			pontus
+dictionary		2
+strat_model		sm_eastern_general
+battle_model	east_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			armenia
+dictionary		2
+strat_model		sm_eastern_general
+battle_model	east_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			anatolian_faction_01
+dictionary		2
+strat_model		sm_eastern_general
+battle_model	east_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			caucasian_faction_01
+dictionary		2
+strat_model		sm_eastern_general
+battle_model	east_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			caucasian_faction_02
+dictionary		2
+strat_model		sm_eastern_general
+battle_model	east_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			caucasian_faction_03
+dictionary		2
+strat_model		sm_eastern_general
+battle_model	east_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			caucasian_faction_04
+dictionary		2
+strat_model		sm_eastern_general
+battle_model	east_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gauls
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			britons
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			spain
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_01
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_02
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_03
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_04
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_05
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_06
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_07
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_08
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_09
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_10
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_11
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_12
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_13
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_14
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_15
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_16
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_17
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_18
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			iberian_faction_01
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			iberian_faction_02
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			iberian_faction_03
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			iberian_faction_04
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			iberian_faction_05
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			iberian_faction_06
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			iberian_faction_07
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			iberian_faction_08
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			rebel_nuragic
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			britanic_faction_01
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			britanic_faction_02
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			britanic_faction_03
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			britanic_faction_04
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			britanic_faction_05
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			germans
+dictionary		2
+strat_model		sm_barb_general
+battle_model	german_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			dacia
+dictionary		2
+strat_model		sm_barb_general
+battle_model	german_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			scythia
+dictionary		2
+strat_model		sm_barb_general
+battle_model	german_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			germanic_faction_01
+dictionary		2
+strat_model		sm_barb_general
+battle_model	german_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			germanic_faction_02
+dictionary		2
+strat_model		sm_barb_general
+battle_model	german_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			germanic_faction_03
+dictionary		2
+strat_model		sm_barb_general
+battle_model	german_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			germanic_faction_04
+dictionary		2
+strat_model		sm_barb_general
+battle_model	german_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			germanic_faction_05
+dictionary		2
+strat_model		sm_barb_general
+battle_model	german_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			germanic_faction_06
+dictionary		2
+strat_model		sm_barb_general
+battle_model	german_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			germanic_faction_07
+dictionary		2
+strat_model		sm_barb_general
+battle_model	german_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			germanic_faction_08
+dictionary		2
+strat_model		sm_barb_general
+battle_model	german_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			germanic_faction_09
+dictionary		2
+strat_model		sm_barb_general
+battle_model	german_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			germanic_faction_10
+dictionary		2
+strat_model		sm_barb_general
+battle_model	german_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			dacian_faction_01
+dictionary		2
+strat_model		sm_barb_general
+battle_model	german_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			dacian_faction_02
+dictionary		2
+strat_model		sm_barb_general
+battle_model	german_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			dacian_faction_03
+dictionary		2
+strat_model		sm_barb_general
+battle_model	german_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			steppe_faction_01
+dictionary		2
+strat_model		sm_barb_general
+battle_model	german_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			steppe_faction_02
+dictionary		2
+strat_model		sm_barb_general
+battle_model	german_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			steppe_faction_03
+dictionary		2
+strat_model		sm_barb_general
+battle_model	german_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			steppe_faction_04
+dictionary		2
+strat_model		sm_barb_general
+battle_model	german_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			steppe_faction_05
+dictionary		2
+strat_model		sm_barb_general
+battle_model	german_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			steppe_faction_06
+dictionary		2
+strat_model		sm_barb_general
+battle_model	german_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			steppe_faction_07
+dictionary		2
+strat_model		sm_barb_general
+battle_model	german_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			steppe_faction_08
+dictionary		2
+strat_model		sm_barb_general
+battle_model	german_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			illyrian_faction_01
+dictionary		2
+strat_model		sm_barb_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			illyrian_faction_02
+dictionary		2
+strat_model		sm_barb_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			illyrian_faction_03
+dictionary		2
+strat_model		sm_barb_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			illyrian_faction_04
+dictionary		2
+strat_model		sm_barb_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			illyrian_faction_05
+dictionary		2
+strat_model		sm_barb_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			thracian_faction_01
+dictionary		2
+strat_model		sm_barb_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			thracian_faction_02
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			latin_faction_01
+dictionary		15
+strat_model		sm_samnite_general
+battle_model	italic_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			latin_faction_02
+dictionary		15
+strat_model		sm_samnite_general
+battle_model	italic_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			latin_faction_03
+dictionary		15
+strat_model		sm_samnite_general
+battle_model	italic_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			latin_faction_04
+dictionary		15
+strat_model		sm_samnite_general
+battle_model	italic_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			latin_faction_05
+dictionary		15
+strat_model		sm_samnite_general
+battle_model	italic_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			rebel_latin
+dictionary		15
+strat_model		sm_samnite_general
+battle_model	italic_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			rebel_slave
+dictionary		2
+strat_model		sm_rebel_general
+battle_model	slave_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			slave
+dictionary		2
+strat_model		sm_rebel_general
+battle_model	slave_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+type			general
+
+actions	moving_normal, moving_quickmarch, garrison, assault, attack, besiege, entrench, ambush, exchange
+wage_base		0
+
+faction			romans_julii
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			romans_brutii
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			romans_scipii
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			romans_senate
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			rebel_romans
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			latin_faction_01
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_samnite_cap
+battle_model	italic_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			latin_faction_02
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_samnite_cap
+battle_model	italic_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			latin_faction_03
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_samnite_cap
+battle_model	italic_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			latin_faction_04
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_samnite_cap
+battle_model	italic_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			latin_faction_05
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_samnite_cap
+battle_model	italic_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			rebel_latin
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_samnite_cap
+battle_model	italic_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			macedon
+dictionary		2
+strat_card		data/ui/barbarian/portraits/captain_card_gaul.tga
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			egypt
+dictionary		2
+strat_card		data/ui/barbarian/portraits/captain_card_gaul.tga
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			seleucid
+dictionary		2
+strat_card		data/ui/barbarian/portraits/captain_card_gaul.tga
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			rebel_seleucid
+dictionary		2
+strat_card		data/ui/barbarian/portraits/captain_card_gaul.tga
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			greek_cities
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			thrace
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_04
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_05
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_06
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_07
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_08
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_09
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_10
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_11
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_12
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_13
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_14
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_15
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_16
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_17
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hellenic_faction_18
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			rebel_greek
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			rebel_egypt
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_egypt_lesser_general
+battle_model	egyptian_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			carthage
+dictionary		1
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_carthage_lesser_general
+battle_model	carthaginian_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			carthage_barcid
+dictionary		1
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_carthage_lesser_general
+battle_model	carthaginian_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			carthage_hannonid
+dictionary		1
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_carthage_lesser_general
+battle_model	carthaginian_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			carthage_magonid
+dictionary		1
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_carthage_lesser_general
+battle_model	carthaginian_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			rebel_carthage
+dictionary		1
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_carthage_lesser_general
+battle_model	carthaginian_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			parthia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_eastern_lesser_general
+battle_model	east_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			rebel_parthia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_eastern_lesser_general
+battle_model	east_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			pontus
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_eastern_lesser_general
+battle_model	east_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			armenia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_eastern_lesser_general
+battle_model	east_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			anatolian_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_eastern_lesser_general
+battle_model	east_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			anatolian_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_eastern_lesser_general
+battle_model	east_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			rebel_judea
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_eastern_lesser_general
+battle_model	east_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			caucasian_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_eastern_lesser_general
+battle_model	east_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			caucasian_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_eastern_lesser_general
+battle_model	east_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			caucasian_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_eastern_lesser_general
+battle_model	east_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			caucasian_faction_04
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_eastern_lesser_general
+battle_model	east_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gauls
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			britons
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			spain
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_04
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_05
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_06
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_07
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_08
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_09
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_10
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_11
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_12
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_13
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_14
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_15
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_16
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_17
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gallic_faction_18
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			iberian_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			iberian_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			iberian_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			iberian_faction_04
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			iberian_faction_05
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			iberian_faction_06
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			iberian_faction_07
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			iberian_faction_08
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			rebel_nuragic
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			britanic_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			britanic_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			britanic_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			britanic_faction_04
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			britanic_faction_05
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			germans
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	german_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			dacia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	german_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			scythia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	german_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			germanic_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	german_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			germanic_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	german_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			germanic_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	german_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			germanic_faction_04
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	german_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			germanic_faction_05
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	german_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			germanic_faction_06
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	german_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			germanic_faction_07
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	german_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			germanic_faction_08
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	german_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			germanic_faction_09
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	german_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			germanic_faction_10
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	german_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			dacian_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	german_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			dacian_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	german_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			dacian_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	german_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			steppe_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	german_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			steppe_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	german_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			steppe_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	german_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			steppe_faction_04
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	german_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			steppe_faction_05
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	german_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			steppe_faction_06
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	german_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			steppe_faction_07
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	german_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			steppe_faction_08
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	german_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			illyrian_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			illyrian_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			illyrian_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			illyrian_faction_04
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			illyrian_faction_05
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			thracian_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			thracian_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			numidia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_carthage_lesser_general
+battle_model	numidian_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			desert_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_carthage_lesser_general
+battle_model	numidian_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			desert_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_carthage_lesser_general
+battle_model	numidian_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			desert_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_carthage_lesser_general
+battle_model	numidian_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			desert_faction_04
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_carthage_lesser_general
+battle_model	numidian_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			desert_faction_05
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_carthage_lesser_general
+battle_model	numidian_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			desert_faction_06
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_carthage_lesser_general
+battle_model	numidian_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			desert_faction_07
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_carthage_lesser_general
+battle_model	numidian_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			desert_faction_08
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_carthage_lesser_general
+battle_model	numidian_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			rebel_desert
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_carthage_lesser_general
+battle_model	numidian_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			rebel_slave
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_rebel_lesser_general
+battle_model	slave_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			slave
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_rebel_lesser_general
+battle_model	slave_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+type			spy
+
+actions			moving_normal, spying
+wage_base		100
+
+faction			romans_julii
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			romans_brutii
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			romans_scipii
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			romans_senate
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			rebel_romans
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			latin_faction_01
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			latin_faction_02
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			latin_faction_03
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			latin_faction_04
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			latin_faction_05
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			rebel_latin
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			macedon
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			egypt
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			seleucid
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			rebel_seleucid
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			greek_cities
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			thrace
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			hellenic_faction_01
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			hellenic_faction_02
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			hellenic_faction_03
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			hellenic_faction_04
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			hellenic_faction_05
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			hellenic_faction_06
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			hellenic_faction_07
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			hellenic_faction_08
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			hellenic_faction_09
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			hellenic_faction_10
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			hellenic_faction_11
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			hellenic_faction_12
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			hellenic_faction_13
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			hellenic_faction_14
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			hellenic_faction_15
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			hellenic_faction_16
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			hellenic_faction_17
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			hellenic_faction_18
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			rebel_greek
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			rebel_egypt
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_greek
+
+faction			gauls
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			britons
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			spain
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			gallic_faction_01
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			gallic_faction_02
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			gallic_faction_03
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			gallic_faction_04
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			gallic_faction_05
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			gallic_faction_06
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			gallic_faction_07
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			gallic_faction_08
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			gallic_faction_09
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			gallic_faction_10
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			gallic_faction_11
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			gallic_faction_12
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			gallic_faction_13
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			gallic_faction_14
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			gallic_faction_15
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			gallic_faction_16
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			gallic_faction_17
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			gallic_faction_18
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			iberian_faction_01
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			iberian_faction_02
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			iberian_faction_03
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			iberian_faction_04
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			iberian_faction_05
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			iberian_faction_06
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			iberian_faction_07
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			iberian_faction_08
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			rebel_nuragic
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			britanic_faction_01
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			britanic_faction_02
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			britanic_faction_03
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			britanic_faction_04
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			britanic_faction_05
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			germans
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			dacia
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			germanic_faction_01
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			germanic_faction_02
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			germanic_faction_03
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			germanic_faction_04
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			germanic_faction_05
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			germanic_faction_06
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			germanic_faction_07
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			germanic_faction_08
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			germanic_faction_09
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			germanic_faction_10
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			dacian_faction_01
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			dacian_faction_02
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			dacian_faction_03
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			steppe_faction_01
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			steppe_faction_02
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			steppe_faction_03
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			steppe_faction_04
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			steppe_faction_05
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			steppe_faction_06
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			steppe_faction_07
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			steppe_faction_08
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			thracian_faction_01
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			thracian_faction_02
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			illyrian_faction_01
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			illyrian_faction_02
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			illyrian_faction_03
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			illyrian_faction_04
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			illyrian_faction_05
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			rebel_slave
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			slave
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_barbarian
+
+faction			carthage
+dictionary		1
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_east
+
+faction			carthage_barcid
+dictionary		1
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_east
+
+faction			carthage_hannonid
+dictionary		1
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_east
+
+faction			carthage_magonid
+dictionary		1
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_east
+
+faction			rebel_carthage
+dictionary		1
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_east
+
+faction			parthia
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_east
+
+faction			rebel_parthia
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_east
+
+faction			pontus
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_east
+
+faction			armenia
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_east
+
+faction			anatolian_faction_01
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_east
+
+faction			anatolian_faction_02
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_east
+
+faction			rebel_judea
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_east
+
+faction			caucasian_faction_01
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_east
+
+faction			caucasian_faction_02
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_east
+
+faction			caucasian_faction_03
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_east
+
+faction			caucasian_faction_04
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_east
+
+faction			numidia
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_east
+
+faction			scythia
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_east
+
+faction			desert_faction_01
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_east
+
+faction			desert_faction_02
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_east
+
+faction			desert_faction_03
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_east
+
+faction			desert_faction_04
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_east
+
+faction			desert_faction_05
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_east
+
+faction			desert_faction_06
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_east
+
+faction			desert_faction_07
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_east
+
+faction			desert_faction_08
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_east
+
+faction			rebel_desert
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy_east
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+type			assassin
+
+actions			moving_normal, assassinate, sabotage
+wage_base		200
+
+faction			romans_julii
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			romans_brutii
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			romans_scipii
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			romans_senate
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			rebel_romans
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			latin_faction_01
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			latin_faction_02
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			latin_faction_03
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			latin_faction_04
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			latin_faction_05
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			rebel_latin
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			macedon
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			egypt
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			seleucid
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			rebel_seleucid
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			greek_cities
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			thrace
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			hellenic_faction_01
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			hellenic_faction_02
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			hellenic_faction_03
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			hellenic_faction_04
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			hellenic_faction_05
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			hellenic_faction_06
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			hellenic_faction_07
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			hellenic_faction_08
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			hellenic_faction_09
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			hellenic_faction_10
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			hellenic_faction_11
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			hellenic_faction_12
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			hellenic_faction_13
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			hellenic_faction_14
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			hellenic_faction_15
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			hellenic_faction_16
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			hellenic_faction_17
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			hellenic_faction_18
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			rebel_greek
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			rebel_egypt
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_greek
+
+faction			gauls
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			britons
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			spain
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			gallic_faction_01
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			gallic_faction_02
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			gallic_faction_03
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			gallic_faction_04
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			gallic_faction_05
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			gallic_faction_06
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			gallic_faction_07
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			gallic_faction_08
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			gallic_faction_09
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			gallic_faction_10
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			gallic_faction_11
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			gallic_faction_12
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			gallic_faction_13
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			gallic_faction_14
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			gallic_faction_15
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			gallic_faction_16
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			gallic_faction_17
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			gallic_faction_18
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			iberian_faction_01
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			iberian_faction_02
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			iberian_faction_03
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			iberian_faction_04
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			iberian_faction_05
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			iberian_faction_06
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			iberian_faction_07
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			iberian_faction_08
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			rebel_nuragic
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			britanic_faction_01
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			britanic_faction_02
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			britanic_faction_03
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			britanic_faction_04
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			britanic_faction_05
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			germans
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			dacia
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			germanic_faction_01
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			germanic_faction_02
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			germanic_faction_03
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			germanic_faction_04
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			germanic_faction_05
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			germanic_faction_06
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			germanic_faction_07
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			germanic_faction_08
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			germanic_faction_09
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			germanic_faction_10
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			dacian_faction_01
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			dacian_faction_02
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			dacian_faction_03
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			steppe_faction_01
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			steppe_faction_02
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			steppe_faction_03
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			steppe_faction_04
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			steppe_faction_05
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			steppe_faction_06
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			steppe_faction_07
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			steppe_faction_08
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			thracian_faction_01
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			thracian_faction_02
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			illyrian_faction_01
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			illyrian_faction_02
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			illyrian_faction_03
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			illyrian_faction_04
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			illyrian_faction_05
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			rebel_slave
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			slave
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin_barbarian
+
+faction			carthage
+dictionary		1
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			carthage_barcid
+dictionary		1
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			carthage_hannonid
+dictionary		1
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			carthage_magonid
+dictionary		1
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			rebel_carthage
+dictionary		1
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			parthia
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			rebel_parthia
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			pontus
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			armenia
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			anatolian_faction_01
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			anatolian_faction_02
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			rebel_judea
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			caucasian_faction_01
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			caucasian_faction_02
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			caucasian_faction_03
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			caucasian_faction_04
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			numidia
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			scythia
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			desert_faction_01
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			desert_faction_02
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			desert_faction_03
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			desert_faction_04
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			desert_faction_05
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			desert_faction_06
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			desert_faction_07
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			desert_faction_08
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			rebel_desert
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+type			diplomat
+
+actions			moving_normal, diplomacy, bribe 
+wage_base		50
+
+faction			romans_julii
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat_greek
+
+faction			romans_brutii
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat_greek
+
+faction			romans_scipii
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat_greek
+
+faction			romans_senate
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat_greek
+
+faction			rebel_romans
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat_greek
+
+faction			latin_faction_01
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat_greek
+
+faction			latin_faction_02
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat_greek
+
+faction			latin_faction_03
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat_greek
+
+faction			latin_faction_04
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat_greek
+
+faction			latin_faction_05
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat_greek
+
+faction			rebel_latin
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat_greek
+
+faction			macedon
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_greek
+
+faction			egypt
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_greek
+
+faction			seleucid
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_greek
+
+faction			rebel_seleucid
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_greek
+
+faction			greek_cities
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_greek
+
+faction			thrace
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_greek
+
+faction			hellenic_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_greek
+
+faction			hellenic_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_greek
+
+faction			hellenic_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_greek
+
+faction			hellenic_faction_04
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_greek
+
+faction			hellenic_faction_05
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_greek
+
+faction			hellenic_faction_06
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_greek
+
+faction			hellenic_faction_07
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_greek
+
+faction			hellenic_faction_08
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_greek
+
+faction			hellenic_faction_09
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_greek
+
+faction			hellenic_faction_10
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_greek
+
+faction			hellenic_faction_11
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_greek
+
+faction			hellenic_faction_12
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_greek
+
+faction			hellenic_faction_13
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_greek
+
+faction			hellenic_faction_14
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_greek
+
+faction			hellenic_faction_15
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_greek
+
+faction			hellenic_faction_16
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_greek
+
+faction			hellenic_faction_17
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_greek
+
+faction			hellenic_faction_18
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_greek
+
+faction			rebel_greek
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_greek
+
+faction			rebel_egypt
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_greek
+
+faction			carthage
+dictionary		1
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_east
+
+faction			carthage_barcid
+dictionary		1
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_east
+
+faction			carthage_hannonid
+dictionary		1
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_east
+
+faction			carthage_magonid
+dictionary		1
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_east
+
+faction			rebel_carthage
+dictionary		1
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_east
+
+faction			parthia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_east
+
+faction			rebel_parthia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_east
+
+faction			pontus
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_east
+
+faction			armenia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_east
+
+faction			anatolian_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_east
+
+faction			anatolian_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_east
+
+faction			rebel_judea
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_east
+
+faction			caucasian_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_east
+
+faction			caucasian_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_east
+
+faction			caucasian_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_east
+
+faction			caucasian_faction_04
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_east
+
+faction			numidia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_east
+
+faction			scythia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_east
+
+faction			desert_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_east
+
+faction			desert_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_east
+
+faction			desert_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_east
+
+faction			desert_faction_04
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_east
+
+faction			desert_faction_05
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_east
+
+faction			desert_faction_06
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_east
+
+faction			desert_faction_07
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_east
+
+faction			desert_faction_08
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_east
+
+faction			rebel_desert
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_east
+
+faction			gauls
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			britons
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			spain
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			gallic_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			gallic_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			gallic_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			gallic_faction_04
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			gallic_faction_05
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			gallic_faction_06
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			gallic_faction_07
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			gallic_faction_08
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			gallic_faction_09
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			gallic_faction_10
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			gallic_faction_11
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			gallic_faction_12
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			gallic_faction_13
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			gallic_faction_14
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			gallic_faction_15
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			gallic_faction_16
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			gallic_faction_17
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			gallic_faction_18
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			iberian_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			iberian_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			iberian_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			iberian_faction_04
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			iberian_faction_05
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			iberian_faction_06
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			iberian_faction_07
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			iberian_faction_08
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			rebel_nuragic
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			britanic_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			britanic_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			britanic_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			britanic_faction_04
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			britanic_faction_05
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			germans
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			dacia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			germanic_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			germanic_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			germanic_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			germanic_faction_04
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			germanic_faction_05
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			germanic_faction_06
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			germanic_faction_07
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			germanic_faction_08
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			germanic_faction_09
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			germanic_faction_10
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			dacian_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			dacian_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			dacian_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			thracian_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			thracian_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			illyrian_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			illyrian_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			illyrian_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			illyrian_faction_04
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			illyrian_faction_05
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			steppe_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			steppe_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			steppe_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			steppe_faction_04
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			steppe_faction_05
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			steppe_faction_06
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			steppe_faction_07
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			steppe_faction_08
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			rebel_slave
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+faction			slave
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat_barbarian
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+type			merchant
+
+actions			moving_normal
+wage_base		0
+
+faction			romans_julii
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant_greek
+
+faction			romans_brutii
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant_greek
+
+faction			romans_scipii
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant_greek
+
+faction			romans_senate
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant_greek
+
+faction			rebel_romans
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant_greek
+
+faction			latin_faction_01
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant_greek
+
+faction			latin_faction_02
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant_greek
+
+faction			latin_faction_03
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant_greek
+
+faction			latin_faction_04
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant_greek
+
+faction			latin_faction_05
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant_greek
+
+faction			rebel_latin
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant_greek
+
+faction			macedon
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_greek
+
+faction			greek_cities
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_greek
+
+faction			thrace
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_greek
+
+faction			hellenic_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_greek
+
+faction			hellenic_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_greek
+
+faction			hellenic_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_greek
+
+faction			hellenic_faction_04
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_greek
+
+faction			hellenic_faction_05
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_greek
+
+faction			hellenic_faction_06
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_greek
+
+faction			hellenic_faction_07
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_greek
+
+faction			hellenic_faction_08
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_greek
+
+faction			hellenic_faction_09
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_greek
+
+faction			hellenic_faction_10
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_greek
+
+faction			hellenic_faction_11
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_greek
+
+faction			hellenic_faction_12
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_greek
+
+faction			hellenic_faction_13
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_greek
+
+faction			hellenic_faction_14
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_greek
+
+faction			hellenic_faction_15
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_greek
+
+faction			hellenic_faction_16
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_greek
+
+faction			hellenic_faction_17
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_greek
+
+faction			hellenic_faction_18
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_greek
+
+faction			rebel_greek
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_greek
+
+faction			gauls
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			britons
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			spain
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			germans
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			dacia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			rebel_slave
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			slave
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			gallic_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			gallic_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			gallic_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			gallic_faction_04
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			gallic_faction_05
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			gallic_faction_06
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			gallic_faction_07
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			gallic_faction_08
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			gallic_faction_09
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			gallic_faction_10
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			gallic_faction_11
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			gallic_faction_12
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			gallic_faction_13
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			gallic_faction_14
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			gallic_faction_15
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			gallic_faction_16
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			gallic_faction_17
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			gallic_faction_18
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			iberian_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			iberian_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			iberian_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			iberian_faction_04
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			iberian_faction_05
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			iberian_faction_06
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			iberian_faction_07
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			iberian_faction_08
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			rebel_nuragic
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			britanic_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			britanic_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			britanic_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			britanic_faction_04
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			britanic_faction_05
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			germanic_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			germanic_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			germanic_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			germanic_faction_04
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			germanic_faction_05
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			germanic_faction_06
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			germanic_faction_07
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			germanic_faction_08
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			germanic_faction_09
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			germanic_faction_10
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			dacian_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			dacian_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			dacian_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			steppe_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			steppe_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			steppe_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			steppe_faction_04
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			steppe_faction_05
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			steppe_faction_06
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			steppe_faction_07
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			steppe_faction_08
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			thracian_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			thracian_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			illyrian_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			illyrian_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			illyrian_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			illyrian_faction_04
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			illyrian_faction_05
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_barbarian
+
+faction			carthage
+dictionary		1
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_east
+
+faction			carthage_barcid
+dictionary		1
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_east
+
+faction			carthage_hannonid
+dictionary		1
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_east
+
+faction			carthage_magonid
+dictionary		1
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_east
+
+faction			rebel_carthage
+dictionary		1
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_east
+
+faction			armenia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_east
+
+faction			egypt
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_east
+
+faction			rebel_egypt
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_east
+
+faction			numidia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_east
+
+faction			parthia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_east
+
+faction			rebel_parthia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_east
+
+faction			pontus
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_east
+
+faction			scythia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_east
+
+faction			seleucid
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_east
+
+faction			rebel_seleucid
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_east
+
+faction			anatolian_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_east
+
+faction			anatolian_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_east
+
+faction			rebel_judea
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_east
+
+faction			caucasian_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_east
+
+faction			caucasian_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_east
+
+faction			caucasian_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_east
+
+faction			caucasian_faction_04
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_east
+
+faction			desert_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_east
+
+faction			desert_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_east
+
+faction			desert_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_east
+
+faction			desert_faction_04
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_east
+
+faction			desert_faction_05
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_east
+
+faction			desert_faction_06
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_east
+
+faction			desert_faction_07
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_east
+
+faction			desert_faction_08
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_east
+
+faction			rebel_desert
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant_east
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+type			admiral
+
+actions			moving_normal, quick_sail, blockade, disembark, exchange
+wage_base		50
+
+faction			romans_julii
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		admiral_roman
+
+faction			romans_brutii
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		admiral_roman
+
+faction			romans_scipii
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		admiral_roman
+
+faction			romans_senate
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		admiral_roman
+
+faction			rebel_romans
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		admiral_roman
+
+faction			latin_faction_01
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		admiral_roman
+
+faction			latin_faction_02
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		admiral_roman
+
+faction			latin_faction_03
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		admiral_roman
+
+faction			latin_faction_04
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		admiral_roman
+
+faction			latin_faction_05
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		admiral_roman
+
+faction			rebel_latin
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		admiral_roman
+
+faction			macedon
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			egypt
+dictionary		2
+strat_card		data/ui/egyptian/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			rebel_egypt
+dictionary		2
+strat_card		data/ui/egyptian/agents/temp_admiral.tga
+strat_model		admiral_egyptian
+
+faction			seleucid
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			rebel_seleucid
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			greek_cities
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			hellenic_faction_01
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			hellenic_faction_02
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			hellenic_faction_03
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			hellenic_faction_04
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			hellenic_faction_05
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			hellenic_faction_06
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			hellenic_faction_07
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			hellenic_faction_08
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			hellenic_faction_09
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			hellenic_faction_10
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			hellenic_faction_11
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			hellenic_faction_12
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			hellenic_faction_13
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			hellenic_faction_14
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			hellenic_faction_15
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			hellenic_faction_16
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			hellenic_faction_17
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			hellenic_faction_18
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			rebel_greek
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			thrace
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			thracian_faction_01
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			thracian_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			illyrian_faction_01
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			illyrian_faction_02
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			illyrian_faction_03
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			illyrian_faction_04
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			illyrian_faction_05
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			rebel_slave
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			slave
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			carthage
+dictionary		1
+strat_card		data/ui/carthaginian/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			carthage_barcid
+dictionary		1
+strat_card		data/ui/carthaginian/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			carthage_hannonid
+dictionary		1
+strat_card		data/ui/carthaginian/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			carthage_magonid
+dictionary		1
+strat_card		data/ui/carthaginian/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			rebel_carthage
+dictionary		1
+strat_card		data/ui/carthaginian/agents/temp_admiral.tga
+strat_model		admiral_greek
+
+faction			armenia
+dictionary		2
+strat_card		data/ui/eastern/agents/temp_admiral.tga
+strat_model		admiral_east
+
+faction			caucasian_faction_01
+dictionary		2
+strat_card		data/ui/eastern/agents/temp_admiral.tga
+strat_model		admiral_east
+
+faction			caucasian_faction_02
+dictionary		2
+strat_card		data/ui/eastern/agents/temp_admiral.tga
+strat_model		admiral_east
+
+faction			caucasian_faction_03
+dictionary		2
+strat_card		data/ui/eastern/agents/temp_admiral.tga
+strat_model		admiral_east
+
+faction			caucasian_faction_04
+dictionary		2
+strat_card		data/ui/eastern/agents/temp_admiral.tga
+strat_model		admiral_east
+
+faction			parthia
+dictionary		2
+strat_card		data/ui/eastern/agents/temp_admiral.tga
+strat_model		admiral_east
+
+faction			rebel_parthia
+dictionary		2
+strat_card		data/ui/eastern/agents/temp_admiral.tga
+strat_model		admiral_east
+
+faction			pontus
+dictionary		2
+strat_card		data/ui/eastern/agents/temp_admiral.tga
+strat_model		admiral_east
+
+faction			anatolian_faction_01
+dictionary		2
+strat_card		data/ui/eastern/agents/temp_admiral.tga
+strat_model		admiral_east
+
+faction			anatolian_faction_02
+dictionary		2
+strat_card		data/ui/eastern/agents/temp_admiral.tga
+strat_model		admiral_east
+
+faction			rebel_judea
+dictionary		2
+strat_card		data/ui/eastern/agents/temp_admiral.tga
+strat_model		admiral_east
+
+faction			numidia
+dictionary		2
+strat_card		data/ui/egyptian/agents/temp_admiral.tga
+strat_model		admiral_desert
+
+faction			desert_faction_01
+dictionary		2
+strat_card		data/ui/egyptian/agents/temp_admiral.tga
+strat_model		admiral_desert
+
+faction			desert_faction_02
+dictionary		2
+strat_card		data/ui/egyptian/agents/temp_admiral.tga
+strat_model		admiral_desert
+
+faction			desert_faction_03
+dictionary		2
+strat_card		data/ui/egyptian/agents/temp_admiral.tga
+strat_model		admiral_desert
+
+faction			desert_faction_04
+dictionary		2
+strat_card		data/ui/egyptian/agents/temp_admiral.tga
+strat_model		admiral_desert
+
+faction			desert_faction_05
+dictionary		2
+strat_card		data/ui/egyptian/agents/temp_admiral.tga
+strat_model		admiral_desert
+
+faction			desert_faction_06
+dictionary		2
+strat_card		data/ui/egyptian/agents/temp_admiral.tga
+strat_model		admiral_desert
+
+faction			desert_faction_07
+dictionary		2
+strat_card		data/ui/egyptian/agents/temp_admiral.tga
+strat_model		admiral_desert
+
+faction			desert_faction_08
+dictionary		2
+strat_card		data/ui/egyptian/agents/temp_admiral.tga
+strat_model		admiral_desert
+
+faction			rebel_desert
+dictionary		2
+strat_card		data/ui/egyptian/agents/temp_admiral.tga
+strat_model		admiral_desert
+
+faction			britons
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			britanic_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			britanic_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			britanic_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			britanic_faction_04
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			britanic_faction_05
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			dacia
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			dacian_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			dacian_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			dacian_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			gauls
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			gallic_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			gallic_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			gallic_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			gallic_faction_04
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			gallic_faction_05
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			gallic_faction_06
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			gallic_faction_07
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			gallic_faction_08
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			gallic_faction_09
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			gallic_faction_10
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			gallic_faction_11
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			gallic_faction_12
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			gallic_faction_13
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			gallic_faction_14
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			gallic_faction_15
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			gallic_faction_16
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			gallic_faction_17
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			gallic_faction_18
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			germans
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			germanic_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			germanic_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			germanic_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			germanic_faction_04
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			germanic_faction_05
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			germanic_faction_06
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			germanic_faction_07
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			germanic_faction_08
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			germanic_faction_09
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			germanic_faction_10
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			spain
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			iberian_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			iberian_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			iberian_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			iberian_faction_04
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			iberian_faction_05
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			iberian_faction_06
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			iberian_faction_07
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			iberian_faction_08
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			rebel_nuragic
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			scythia
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			steppe_faction_01
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			steppe_faction_02
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			steppe_faction_03
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			steppe_faction_04
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			steppe_faction_05
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			steppe_faction_06
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			steppe_faction_07
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian
+
+faction			steppe_faction_08
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		admiral_barbarian

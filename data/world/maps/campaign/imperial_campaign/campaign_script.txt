@@ -3494,6 +3494,12 @@ script
 			end_if
 
 			if I_CompareCounter is_war = 0
+			if FactionType rebel_seleucid
+				set_counter is_war 1
+				console_command diplomatic_stance rebel_slave rebel_seleucid war
+			end_if
+
+			if I_CompareCounter is_war = 0
 			if FactionType rebel_latin
 				set_counter is_war 1
 				console_command diplomatic_stance rebel_slave rebel_latin war
@@ -3521,6 +3527,7 @@ script
 			if FactionType carthage
 				set_counter is_war 1
 				console_command diplomatic_stance rebel_slave carthage war
+			end_if
 			end_if
 			end_if
 			end_if
@@ -5452,6 +5459,7 @@ script
 					if I_CompareCounter merc_assist = 0
 						if FactionCultureType greek
 							if FactionType seleucid
+							|| FactionType rebel_seleucid
 								inc_counter merc_assist 1
 								console_command add_money local -400
 								console_command create_unit local_settlement "greek silver shield pikemen" 1

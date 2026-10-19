@@ -4,12 +4,32 @@
 		"checksum": 452237
 	},
 	{
+		"filename": "data\/descr_banners.txt",
+		"checksum": 1091604351
+	},
+	{
+		"filename": "data\/descr_building_battle.txt",
+		"checksum": 436517603
+	},
+	{
+		"filename": "data\/descr_character.txt",
+		"checksum": 1007196662
+	},
+	{
 		"filename": "data\/descr_engines.txt",
 		"checksum": 3463764858
 	},
 	{
+		"filename": "data\/descr_sm_faction_logos.txt",
+		"checksum": 3263561993
+	},
+	{
 		"filename": "data\/descr_sm_factions.txt",
-		"checksum": 3705556393
+		"checksum": 149162699
+	},
+	{
+		"filename": "data\/descr_sm_factions_difficulty.json",
+		"checksum": 593277086
 	},
 	{
 		"filename": "data\/descr_sm_resources.txt",
@@ -17,11 +37,11 @@
 	},
 	{
 		"filename": "data\/export_descr_buildings.txt",
-		"checksum": 2788289971
+		"checksum": 2298824440
 	},
 	{
 		"filename": "data\/export_descr_buildings_enums.txt",
-		"checksum": 2552781803
+		"checksum": 3968761394
 	},
 	{
 		"filename": "data\/export_descr_character_traits.txt",
@@ -29,7 +49,7 @@
 	},
 	{
 		"filename": "data\/export_descr_unit.txt",
-		"checksum": 2913638166
+		"checksum": 1710188077
 	},
 	{
 		"filename": "data\/feral_descr_movement_multipliers.txt",
@@ -38,6 +58,38 @@
 	{
 		"filename": "data\/major_event_scripts\/marian_reforms_trigger.txt",
 		"checksum": 3721754022
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_rebel_seleucid.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_rebel_seleucid_grey.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_rebel_seleucid_roll.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_rebel_seleucid_select.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/models\/textures\/standard_rebel_seleucid.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/models_building\/textures\/##standard_rebel_seleucid.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/models_strat\/rebel_seleucid.cas",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/models_strat\/textures\/#banner_symbol_rebel_seleucid.tga.dds",
+		"checksum": "Blacklisted"
 	},
 	{
 		"filename": "data\/string_overrides\/de.strings",
@@ -69,59 +121,59 @@
 	},
 	{
 		"filename": "data\/text\/expanded_bi.txt",
-		"checksum": 1193337204
+		"checksum": 2610915095
 	},
 	{
 		"filename": "data\/text\/expanded_bi_mac_de.txt",
-		"checksum": 234403363
+		"checksum": 1414534960
 	},
 	{
 		"filename": "data\/text\/expanded_bi_mac_es.txt",
-		"checksum": 1862118513
+		"checksum": 1593279923
 	},
 	{
 		"filename": "data\/text\/expanded_bi_mac_fr.txt",
-		"checksum": 871984855
+		"checksum": 1456729904
 	},
 	{
 		"filename": "data\/text\/expanded_bi_mac_it.txt",
-		"checksum": 4285028602
+		"checksum": 1639561086
 	},
 	{
 		"filename": "data\/text\/expanded_bi_mac_ru.txt",
-		"checksum": 2932215606
+		"checksum": 2797494891
 	},
 	{
 		"filename": "data\/text\/expanded_bi_mac_zh_cn.txt",
-		"checksum": 1664964421
+		"checksum": 1830146494
 	},
 	{
 		"filename": "data\/text\/export_buildings.txt",
-		"checksum": 655734479
+		"checksum": 165266638
 	},
 	{
 		"filename": "data\/text\/export_buildings_mac_de.txt",
-		"checksum": 3766973547
+		"checksum": 2653899487
 	},
 	{
 		"filename": "data\/text\/export_buildings_mac_es.txt",
-		"checksum": 1156116703
+		"checksum": 2792048727
 	},
 	{
 		"filename": "data\/text\/export_buildings_mac_fr.txt",
-		"checksum": 2242653978
+		"checksum": 2798700385
 	},
 	{
 		"filename": "data\/text\/export_buildings_mac_it.txt",
-		"checksum": 124412767
+		"checksum": 4067240312
 	},
 	{
 		"filename": "data\/text\/export_buildings_mac_ru.txt",
-		"checksum": 899660700
+		"checksum": 3492921176
 	},
 	{
 		"filename": "data\/text\/export_buildings_mac_zh_cn.txt",
-		"checksum": 3468624613
+		"checksum": 2885607732
 	},
 	{
 		"filename": "data\/ui\/barbarian\/buildings\/#barbarian_rhodes_colossus.tga",
@@ -133,6 +185,26 @@
 	},
 	{
 		"filename": "data\/ui\/barbarian\/buildings\/construction\/#barbarian_rhodes_colossus.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/captain banners\/captain_card_rebel_seleucid.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/captain banners\/captain_card_rebel_seleucid_rebel.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/captain banners\/captain_portrait_rebel_seleucid.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/captain banners\/captain_portrait_rebel_seleucid_rebel.tga.dds",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/captain banners\/dead\/captain_card_rebel_seleucid.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -169,6 +241,10 @@
 	},
 	{
 		"filename": "data\/ui\/egyptian\/buildings\/construction\/#egyptian_rhodes_colossus.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/faction_icons\/rebel_seleucid.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -220,8 +296,276 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/unit_info\/rebel_seleucid\/assassin_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/rebel_seleucid\/desert_levy_camel_riders_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/rebel_seleucid\/diplomat_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/rebel_seleucid\/east_heavy_cataphract_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/rebel_seleucid\/greek_archer_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/rebel_seleucid\/greek_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/rebel_seleucid\/greek_elephant_african_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/rebel_seleucid\/greek_elephant_armoured_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/rebel_seleucid\/greek_elephant_small_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/rebel_seleucid\/greek_generals_guard_cavalry_early_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/rebel_seleucid\/greek_generals_guard_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/rebel_seleucid\/greek_hellenic_cataphract_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/rebel_seleucid\/greek_hoplite_militia_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/rebel_seleucid\/greek_legionary_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/rebel_seleucid\/greek_levy_pikemen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/rebel_seleucid\/greek_medium_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/rebel_seleucid\/greek_onagers_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/rebel_seleucid\/greek_peasant_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/rebel_seleucid\/greek_peltast_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/rebel_seleucid\/greek_pike_militia_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/rebel_seleucid\/greek_pikemen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/rebel_seleucid\/greek_royal_cavalry_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/rebel_seleucid\/greek_scythed_chariots_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/rebel_seleucid\/greek_silver_shields_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/rebel_seleucid\/greek_syrian_archer_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/rebel_seleucid\/hypaspists_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/rebel_seleucid\/merchant_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/rebel_seleucid\/naval_bireme_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/rebel_seleucid\/naval_quinquireme_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/rebel_seleucid\/naval_trireme_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/rebel_seleucid\/spy_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/#carthaginian_elephant_african.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/#carthaginian_elephant_african_cataphract.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/#carthaginian_elephant_forest.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/#desert_levy_camel_riders.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/#east_chariot.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/#east_heavy_cataphract.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/#greek_archer.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/#greek_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/#greek_elephant_african.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/#greek_elephant_armoured.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/#greek_elephant_small.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/#greek_generals_guard_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/#greek_generals_guard_cavalry_early.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/#greek_hellenic_cataphract.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/#greek_hoplite_militia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/#greek_legionary.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/#greek_levy_pikemen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/#greek_medium_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/#greek_onagers.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/#greek_peasant.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/#greek_peltast.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/#greek_pike_militia.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/#greek_pikemen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/#greek_royal_cavalry.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/#greek_royal_pikemen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/#greek_scythed_chariots.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/#greek_silver_shields.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/#greek_syrian_archer.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/#hypaspists.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/#naval_bireme.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/#naval_quinquireme.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/#naval_trireme.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/assassin.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/diplomat.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/merchant.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/rebel_seleucid\/spy.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/campaign_script.txt",
-		"checksum": 789466228
+		"checksum": 3633372847
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_disasters.txt",
@@ -245,7 +589,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 895526201
+		"checksum": 1536271475
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_terrain.txt",
@@ -253,7 +597,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_win_conditions.txt",
-		"checksum": 3046727944
+		"checksum": 3145234177
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/disasters.tga",

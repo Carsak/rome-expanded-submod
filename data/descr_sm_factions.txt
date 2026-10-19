@@ -844,6 +844,15 @@
 			"surnames": "seleucid_surnames",
 		},
 
+		;;independent Seleucid faction used by settlement revolts
+		"shadow faction": "rebel_seleucid",
+
+		;;unlimited rebel provinces may join the Seleucid civil war
+		"shadow max provinces": -1,
+
+		;;the loyalist faction never switches identity to the rebels
+		"allow shadow switchback": false,
+
 		;;horde information
 		"horde":
 		{
@@ -11196,6 +11205,71 @@
 		"prefer naval invasions": false,
 		"default religion": "egyptian",
 		"default battle ai personality": "barbarian_personality",
+		"allow reproduction": true,
+	},
+
+	"rebel_seleucid":
+	{
+		"string":      "REBEL_SELEUCID",
+		"description": "REBEL_SELEUCID_DESCR",
+
+		"culture":   "greek",
+		"ethnicity": "arabic",
+
+		"tags": [ "fgroup_forge_temple", "fgroup_fun_temple", "fgroup_healing_temple", ],
+
+		"namelists":
+		{
+			"men":      "seleucid_men",
+			"women":    "seleucid_women",
+			"surnames": "seleucid_surnames",
+		},
+
+		;;explicitly circular shadow relationship for civil-war revolts
+		"shadow faction": "seleucid",
+
+		;;unlimited loyalist provinces may return through revolt
+		"shadow max provinces": -1,
+
+		;;the independent faction never switches to the regular Seleucid identity
+		"allow shadow switchback": false,
+
+		"logos":
+		{
+			"loading screen icon": "data/ui/faction_icons/rebel_seleucid.tga",
+			"standard index":       6,
+			"rebel standard index": 23,
+			"logo index":       134,
+			"rebel logo index": 20,
+			"strat symbol model":       "data/models_strat/rebel_seleucid.CAS",
+			"strat rebel symbol model": "data/models_strat/symbol_greek_rebel.CAS",
+		},
+
+		"colours":
+		{
+			"primary":   [ 155, 145, 120, ],
+			"secondary": [ 90, 75, 40, ],
+
+			"family tree":
+			{
+				"background":      [ 160, 160, 160, ],
+				"font":            [ 255, 255, 255, ],
+
+				"selected line":   [ 255, 255, 255, ],
+				"unselected line": [ 200, 187, 187, ],
+			},
+		},
+
+		"movies":
+		{
+			"victory": "data/fmv/victory/greek_outro.wmv",
+			"defeat": "data/fmv/lose/rebels_eliminated.wmv",
+		},
+
+		"available in custom battles": true,
+		"prefer naval invasions": false,
+		"default religion": "hellenic",
+		"default battle ai personality": "greek_personality",
 		"allow reproduction": true,
 	},
 

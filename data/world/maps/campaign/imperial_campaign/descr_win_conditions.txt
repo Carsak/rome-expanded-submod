@@ -29,7 +29,13 @@ seleucid
 hold_regions Antioch Pella Seleucia Alexandria Thessalonica
 take_regions 45
 short_campaign outlive_factions
-egypt macedon
+egypt
+
+rebel_seleucid
+hold_regions Antioch Pella Seleucia Alexandria Thessalonica
+take_regions 45
+short_campaign outlive_factions
+egypt seleucid
 
 parthia
 hold_regions Arsakia Antioch Seleucia Uruk Phraaspa

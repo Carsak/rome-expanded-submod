@@ -1,0 +1,876 @@
+
+banner		roman
+model		data/models/standard_general_julii.cas			; generals banner
+skeleton	general_legion_pole
+outline		data/models/standard_battle_glow_general.cas
+model		data/models/standard_julii.cas					; standard unit banner
+skeleton	standard_legion_pole
+outline		data/models/standard_battle_glow_units.cas
+model		data/models/standard_general_julii.cas			; mini banner
+skeleton	standard_legion_pole
+outline		data/models/standard_battle_glow_general.cas
+
+banner		barbarian
+model		data/models/standard_general_gaul.cas
+skeleton	general_legion_pole
+outline		data/models/standard_battle_glow_barb_general.cas
+model		data/models/standard_gaul.cas
+skeleton	standard_legion_pole
+outline		data/models/standard_battle_glow_barb_units.cas
+model		data/models/standard_general_gaul.cas
+skeleton	general_legion_pole
+outline		data/models/standard_battle_glow_barb_general.cas
+
+banner		carthaginian
+model		data/models/standard_general_carthage.cas
+skeleton	general_legion_pole
+outline		data/models/standard_battle_glow_general.cas
+model		data/models/standard_carthage.cas
+skeleton	standard_legion_pole
+outline		data/models/standard_battle_glow_units.cas
+model		data/models/standard_general_carthage.cas
+skeleton	general_legion_pole
+outline		data/models/standard_battle_glow_general.cas
+
+banner		greek
+model		data/models/standard_general_macedonia.cas
+skeleton	general_legion_pole
+outline		data/models/standard_battle_glow_general.cas
+model		data/models/standard_macedonia.cas
+skeleton	standard_legion_pole
+outline		data/models/standard_battle_glow_units.cas
+model		data/models/standard_general_macedonia.cas
+skeleton	general_legion_pole
+outline		data/models/standard_battle_glow_general.cas
+
+banner		egyptian
+model		data/models/standard_general_egypt.cas
+skeleton	general_legion_pole
+outline		data/models/standard_battle_glow_general.cas
+model		data/models/standard_julii.cas
+skeleton	standard_legion_pole
+outline		data/models/standard_battle_glow_units.cas
+model		data/models/standard_general_egypt.cas
+skeleton	general_legion_pole
+outline		data/models/standard_battle_glow_general.cas
+
+banner		eastern
+model		data/models/standard_general_julii.cas
+skeleton	general_legion_pole
+outline		data/models/standard_battle_glow_eastern.cas
+model		data/models/standard_julii.cas
+skeleton	standard_legion_pole
+outline		data/models/standard_battle_glow_eastern_units.cas
+model		data/models/standard_general_julii.cas
+skeleton	general_legion_pole
+outline		data/models/standard_battle_glow_eastern.cas
+
+banner		tracian_illyrian
+model		data/models/standard_general_gaul.cas
+skeleton	general_legion_pole
+outline		data/models/standard_battle_glow_barb_general.cas
+model		data/models/standard_gaul.cas
+skeleton	standard_legion_pole
+outline		data/models/standard_battle_glow_barb_units.cas
+model		data/models/standard_general_gaul.cas
+skeleton	general_legion_pole
+outline		data/models/standard_battle_glow_barb_general.cas
+
+banner		italic
+model		data/models/standard_general_julii.cas			; generals banner
+skeleton	general_legion_pole
+outline		data/models/standard_battle_glow_general.cas
+model		data/models/standard_julii.cas					; standard unit banner
+skeleton	standard_legion_pole
+outline		data/models/standard_battle_glow_units.cas
+model		data/models/standard_general_julii.cas			; mini banner
+skeleton	standard_legion_pole
+outline		data/models/standard_battle_glow_general.cas
+
+faction				romans_julii
+standard_texture	models/textures/standard_julii.tga
+rebels_texture		models/textures/standard_slave.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/standard_julii.tga
+
+faction				romans_brutii
+standard_texture	models/textures/standard_brutii.tga
+rebels_texture		models/textures/standard_slave.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/standard_brutii.tga
+
+faction				romans_scipii
+standard_texture	models/textures/standard_scipii.tga
+rebels_texture		models/textures/standard_slave.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/standard_scipii.tga
+
+faction				romans_senate
+standard_texture	models/textures/standard_senate.tga
+rebels_texture		models/textures/standard_slave.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/standard_senate.tga
+
+faction				macedon
+standard_texture	models/textures/standard_macedonia.tga
+rebels_texture		models/textures/standard_greek_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/standard_macedonia.tga
+
+faction				egypt
+standard_texture	models/textures/standard_egypt.tga
+rebels_texture		models/textures/standard_egyptian_rebels.tga
+routing_texture		models/textures/standard_routing_eastern.tga
+ally_texture		models/textures/standard_egypt.tga
+
+faction				seleucid
+standard_texture	models/textures/standard_seleucid.tga
+rebels_texture		models/textures/standard_greek_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/standard_seleucid.tga
+
+faction				rebel_seleucid
+standard_texture	models/textures/standard_rebel_seleucid.tga
+rebels_texture		models/textures/standard_greek_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/standard_rebel_seleucid.tga
+
+faction				carthage
+standard_texture	models/textures/standard_carthage.tga
+rebels_texture		models/textures/standard_carthage_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/standard_carthage.tga
+
+faction				parthia
+standard_texture	models/textures/standard_parthia.tga
+rebels_texture		models/textures/standard_eastern_rebels.tga
+routing_texture		models/textures/standard_routing_eastern.tga
+ally_texture		models/textures/standard_parthia.tga
+
+faction				pontus
+standard_texture	models/textures/standard_pontus.tga
+rebels_texture		models/textures/standard_eastern_rebels.tga
+routing_texture		models/textures/standard_routing_eastern.tga
+ally_texture		models/textures/standard_pontus.tga
+
+faction				gauls
+standard_texture	models/textures/standard_gaul.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/standard_gaul.tga
+
+faction				germans
+standard_texture	models/textures/standard_german.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/standard_german.tga
+
+faction				britons
+standard_texture	models/textures/standard_briton.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/standard_briton.tga
+
+faction				armenia
+standard_texture	models/textures/standard_armenia.tga
+rebels_texture		models/textures/standard_eastern_rebels.tga
+routing_texture		models/textures/standard_routing_eastern.tga
+ally_texture		models/textures/standard_armenia.tga
+
+faction				dacia
+standard_texture	models/textures/standard_dacia.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/standard_dacia.tga
+
+faction				greek_cities
+standard_texture	models/textures/standard_greek_cities.tga
+rebels_texture		models/textures/standard_greek_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/standard_greek_cities.tga
+
+faction				numidia
+standard_texture	models/textures/standard_numidia.tga
+rebels_texture		models/textures/standard_egyptian_rebels.tga
+routing_texture		models/textures/standard_routing_eastern.tga
+ally_texture		models/textures/standard_numidia.tga
+
+faction				scythia
+standard_texture	models/textures/standard_scythia.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/standard_scythia.tga
+
+faction				spain
+standard_texture	models/textures/standard_spain.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/standard_spain.tga
+
+faction				thrace
+standard_texture	models/textures/standard_thrace.tga
+rebels_texture		models/textures/standard_greek_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/standard_thrace.tga
+
+faction				slave
+standard_texture	models/textures/standard_slave.tga
+rebels_texture		models/textures/standard_slave.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/standard_slave.tga
+
+faction             hellenic_faction_01
+standard_texture	models/textures/hellenic_faction_01.tga
+rebels_texture		models/textures/standard_greek_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/hellenic_faction_01.tga
+
+faction             hellenic_faction_02
+standard_texture	models/textures/hellenic_faction_02.tga
+rebels_texture		models/textures/standard_greek_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/hellenic_faction_02.tga
+
+faction             hellenic_faction_03
+standard_texture	models/textures/hellenic_faction_03.tga
+rebels_texture		models/textures/standard_greek_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/hellenic_faction_03.tga
+
+faction             hellenic_faction_04
+standard_texture	models/textures/hellenic_faction_04.tga
+rebels_texture		models/textures/standard_greek_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/hellenic_faction_04.tga
+
+faction             hellenic_faction_05
+standard_texture	models/textures/hellenic_faction_05.tga
+rebels_texture		models/textures/standard_greek_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/hellenic_faction_05.tga
+
+faction             hellenic_faction_06
+standard_texture	models/textures/hellenic_faction_06.tga
+rebels_texture		models/textures/standard_greek_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/hellenic_faction_06.tga
+
+faction             hellenic_faction_07
+standard_texture	models/textures/hellenic_faction_07.tga
+rebels_texture		models/textures/standard_greek_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/hellenic_faction_07.tga
+
+faction             hellenic_faction_08
+standard_texture	models/textures/hellenic_faction_08.tga
+rebels_texture		models/textures/standard_greek_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/hellenic_faction_08.tga
+
+faction             hellenic_faction_09
+standard_texture	models/textures/hellenic_faction_09.tga
+rebels_texture		models/textures/standard_greek_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/hellenic_faction_09.tga
+
+faction             hellenic_faction_10
+standard_texture	models/textures/hellenic_faction_10.tga
+rebels_texture		models/textures/standard_greek_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/hellenic_faction_10.tga
+
+faction             hellenic_faction_11
+standard_texture	models/textures/hellenic_faction_11.tga
+rebels_texture		models/textures/standard_greek_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/hellenic_faction_11.tga
+
+faction             hellenic_faction_12
+standard_texture	models/textures/hellenic_faction_12.tga
+rebels_texture		models/textures/standard_greek_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/hellenic_faction_12.tga
+
+faction             hellenic_faction_13
+standard_texture	models/textures/hellenic_faction_13.tga
+rebels_texture		models/textures/standard_greek_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/hellenic_faction_13.tga
+
+faction             hellenic_faction_14
+standard_texture	models/textures/hellenic_faction_14.tga
+rebels_texture		models/textures/standard_greek_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/hellenic_faction_14.tga
+
+faction             hellenic_faction_15
+standard_texture	models/textures/hellenic_faction_15.tga
+rebels_texture		models/textures/standard_greek_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/hellenic_faction_15.tga
+
+faction             hellenic_faction_16
+standard_texture	models/textures/hellenic_faction_16.tga
+rebels_texture		models/textures/standard_greek_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/hellenic_faction_16.tga
+
+faction             hellenic_faction_17
+standard_texture	models/textures/hellenic_faction_17.tga
+rebels_texture		models/textures/standard_greek_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/hellenic_faction_17.tga
+
+faction             hellenic_faction_18
+standard_texture	models/textures/hellenic_faction_18.tga
+rebels_texture		models/textures/standard_greek_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/hellenic_faction_18.tga
+
+faction             latin_faction_01
+standard_texture	models/textures/latin_faction_01.tga
+rebels_texture		models/textures/standard_slave.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/latin_faction_01.tga
+
+faction             latin_faction_02
+standard_texture	models/textures/latin_faction_02.tga
+rebels_texture		models/textures/standard_slave.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/latin_faction_02.tga
+
+faction             latin_faction_03
+standard_texture	models/textures/latin_faction_03.tga
+rebels_texture		models/textures/standard_slave.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/latin_faction_03.tga
+
+faction             latin_faction_04
+standard_texture	models/textures/latin_faction_04.tga
+rebels_texture		models/textures/standard_slave.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/latin_faction_04.tga
+
+faction             latin_faction_05
+standard_texture	models/textures/latin_faction_05.tga
+rebels_texture		models/textures/standard_slave.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/latin_faction_05.tga
+
+faction             gallic_faction_01
+standard_texture	models/textures/gallic_faction_01.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/gallic_faction_01.tga
+
+faction             gallic_faction_02
+standard_texture	models/textures/gallic_faction_02.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/gallic_faction_02.tga
+
+faction             gallic_faction_03
+standard_texture	models/textures/gallic_faction_03.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/gallic_faction_03.tga
+
+faction             gallic_faction_04
+standard_texture	models/textures/gallic_faction_04.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/gallic_faction_04.tga
+
+faction             gallic_faction_05
+standard_texture	models/textures/gallic_faction_05.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/gallic_faction_05.tga
+
+faction             gallic_faction_06
+standard_texture	models/textures/gallic_faction_06.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/gallic_faction_06.tga
+
+faction             gallic_faction_07
+standard_texture	models/textures/gallic_faction_07.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/gallic_faction_07.tga
+
+faction             gallic_faction_08
+standard_texture	models/textures/gallic_faction_08.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/gallic_faction_08.tga
+
+faction             gallic_faction_09
+standard_texture	models/textures/gallic_faction_09.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/gallic_faction_09.tga
+
+faction             gallic_faction_10
+standard_texture	models/textures/gallic_faction_10.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/gallic_faction_10.tga
+
+faction             gallic_faction_11
+standard_texture	models/textures/gallic_faction_11.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/gallic_faction_11.tga
+
+faction             gallic_faction_12
+standard_texture	models/textures/gallic_faction_12.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/gallic_faction_12.tga
+
+faction             gallic_faction_13
+standard_texture	models/textures/gallic_faction_13.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/gallic_faction_13.tga
+
+faction             gallic_faction_14
+standard_texture	models/textures/gallic_faction_14.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/gallic_faction_14.tga
+
+faction             gallic_faction_15
+standard_texture	models/textures/gallic_faction_15.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/gallic_faction_15.tga
+
+faction             gallic_faction_16
+standard_texture	models/textures/gallic_faction_16.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/gallic_faction_16.tga
+
+faction             gallic_faction_17
+standard_texture	models/textures/gallic_faction_17.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/gallic_faction_17.tga
+
+faction             gallic_faction_18
+standard_texture	models/textures/gallic_faction_18.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/gallic_faction_18.tga
+
+faction             desert_faction_01
+standard_texture	models/textures/desert_faction_01.tga
+rebels_texture		models/textures/standard_carthage_rebels.tga
+routing_texture		models/textures/standard_routing_eastern.tga
+ally_texture		models/textures/desert_faction_01.tga
+
+faction             desert_faction_02
+standard_texture	models/textures/desert_faction_02.tga
+rebels_texture		models/textures/standard_carthage_rebels.tga
+routing_texture		models/textures/standard_routing_eastern.tga
+ally_texture		models/textures/desert_faction_02.tga
+
+faction             desert_faction_03
+standard_texture	models/textures/desert_faction_03.tga
+rebels_texture		models/textures/standard_egyptian_rebels.tga
+routing_texture		models/textures/standard_routing_eastern.tga
+ally_texture		models/textures/desert_faction_03.tga
+
+faction             desert_faction_04
+standard_texture	models/textures/desert_faction_04.tga
+rebels_texture		models/textures/standard_carthage_rebels.tga
+routing_texture		models/textures/standard_routing_eastern.tga
+ally_texture		models/textures/desert_faction_04.tga
+
+faction             desert_faction_05
+standard_texture	models/textures/desert_faction_05.tga
+rebels_texture		models/textures/standard_carthage_rebels.tga
+routing_texture		models/textures/standard_routing_eastern.tga
+ally_texture		models/textures/desert_faction_05.tga
+
+faction             desert_faction_06
+standard_texture	models/textures/desert_faction_06.tga
+rebels_texture		models/textures/standard_egyptian_rebels.tga
+routing_texture		models/textures/standard_routing_eastern.tga
+ally_texture		models/textures/desert_faction_06.tga
+
+faction             desert_faction_07
+standard_texture	models/textures/desert_faction_07.tga
+rebels_texture		models/textures/standard_carthage_rebels.tga
+routing_texture		models/textures/standard_routing_eastern.tga
+ally_texture		models/textures/desert_faction_07.tga
+
+faction             desert_faction_08
+standard_texture	models/textures/desert_faction_08.tga
+rebels_texture		models/textures/standard_egyptian_rebels.tga
+routing_texture		models/textures/standard_routing_eastern.tga
+ally_texture		models/textures/desert_faction_08.tga
+
+faction             iberian_faction_01
+standard_texture	models/textures/iberian_faction_01.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/iberian_faction_01.tga
+
+faction             iberian_faction_02
+standard_texture	models/textures/iberian_faction_02.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/iberian_faction_02.tga
+
+faction             iberian_faction_03
+standard_texture	models/textures/iberian_faction_03.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/iberian_faction_03.tga
+
+faction             iberian_faction_04
+standard_texture	models/textures/iberian_faction_04.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/iberian_faction_04.tga
+
+faction             iberian_faction_05
+standard_texture	models/textures/iberian_faction_05.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/iberian_faction_05.tga
+
+faction             iberian_faction_06
+standard_texture	models/textures/iberian_faction_06.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/iberian_faction_06.tga
+
+faction             iberian_faction_07
+standard_texture	models/textures/iberian_faction_07.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/iberian_faction_07.tga
+
+faction             iberian_faction_08
+standard_texture	models/textures/iberian_faction_08.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/iberian_faction_08.tga
+
+faction             britanic_faction_01
+standard_texture	models/textures/britanic_faction_01.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/britanic_faction_01.tga
+
+faction             britanic_faction_02
+standard_texture	models/textures/britanic_faction_02.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/britanic_faction_02.tga
+
+faction             britanic_faction_03
+standard_texture	models/textures/britanic_faction_03.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/britanic_faction_03.tga
+
+faction             britanic_faction_04
+standard_texture	models/textures/britanic_faction_04.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/britanic_faction_04.tga
+
+faction             britanic_faction_05
+standard_texture	models/textures/britanic_faction_05.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/britanic_faction_05.tga
+
+faction             germanic_faction_01
+standard_texture	models/textures/germanic_faction_01.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/germanic_faction_01.tga
+
+faction             germanic_faction_02
+standard_texture	models/textures/germanic_faction_02.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/germanic_faction_02.tga
+
+faction             germanic_faction_03
+standard_texture	models/textures/germanic_faction_03.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/germanic_faction_03.tga
+
+faction             germanic_faction_04
+standard_texture	models/textures/germanic_faction_04.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/germanic_faction_04.tga
+
+faction             germanic_faction_05
+standard_texture	models/textures/germanic_faction_05.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/germanic_faction_05.tga
+
+faction             germanic_faction_06
+standard_texture	models/textures/germanic_faction_06.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/germanic_faction_06.tga
+
+faction             germanic_faction_07
+standard_texture	models/textures/germanic_faction_07.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/germanic_faction_07.tga
+
+faction             germanic_faction_08
+standard_texture	models/textures/germanic_faction_08.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/germanic_faction_08.tga
+
+faction             germanic_faction_09
+standard_texture	models/textures/germanic_faction_09.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/germanic_faction_09.tga
+
+faction             germanic_faction_10
+standard_texture	models/textures/germanic_faction_10.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/germanic_faction_10.tga
+
+faction             dacian_faction_01
+standard_texture	models/textures/dacian_faction_01.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/dacian_faction_01.tga
+
+faction             dacian_faction_02
+standard_texture	models/textures/dacian_faction_02.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/dacian_faction_02.tga
+
+faction             dacian_faction_03
+standard_texture	models/textures/dacian_faction_03.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/dacian_faction_03.tga
+
+faction             illyrian_faction_01
+standard_texture	models/textures/illyrian_faction_01.tga
+rebels_texture		models/textures/standard_greek_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/illyrian_faction_01.tga
+
+faction             illyrian_faction_02
+standard_texture	models/textures/illyrian_faction_02.tga
+rebels_texture		models/textures/standard_greek_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/illyrian_faction_02.tga
+
+faction             illyrian_faction_03
+standard_texture	models/textures/illyrian_faction_03.tga
+rebels_texture		models/textures/standard_greek_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/illyrian_faction_03.tga
+
+faction             illyrian_faction_04
+standard_texture	models/textures/illyrian_faction_04.tga
+rebels_texture		models/textures/standard_greek_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/illyrian_faction_04.tga
+
+faction             illyrian_faction_05
+standard_texture	models/textures/illyrian_faction_05.tga
+rebels_texture		models/textures/standard_greek_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/illyrian_faction_05.tga
+
+faction             anatolian_faction_01
+standard_texture	models/textures/anatolian_faction_01.tga
+rebels_texture		models/textures/standard_eastern_rebels.tga
+routing_texture		models/textures/standard_routing_eastern.tga
+ally_texture		models/textures/anatolian_faction_01.tga
+
+faction             anatolian_faction_02
+standard_texture	models/textures/anatolian_faction_02.tga
+rebels_texture		models/textures/standard_eastern_rebels.tga
+routing_texture		models/textures/standard_routing_eastern.tga
+ally_texture		models/textures/anatolian_faction_02.tga
+
+faction             caucasian_faction_01
+standard_texture	models/textures/caucasian_faction_01.tga
+rebels_texture		models/textures/standard_eastern_rebels.tga
+routing_texture		models/textures/standard_routing_eastern.tga
+ally_texture		models/textures/caucasian_faction_01.tga
+
+faction             caucasian_faction_02
+standard_texture	models/textures/caucasian_faction_02.tga
+rebels_texture		models/textures/standard_eastern_rebels.tga
+routing_texture		models/textures/standard_routing_eastern.tga
+ally_texture		models/textures/caucasian_faction_02.tga
+
+faction             caucasian_faction_03
+standard_texture	models/textures/caucasian_faction_03.tga
+rebels_texture		models/textures/standard_eastern_rebels.tga
+routing_texture		models/textures/standard_routing_eastern.tga
+ally_texture		models/textures/caucasian_faction_03.tga
+
+faction             caucasian_faction_04
+standard_texture	models/textures/caucasian_faction_04.tga
+rebels_texture		models/textures/standard_eastern_rebels.tga
+routing_texture		models/textures/standard_routing_eastern.tga
+ally_texture		models/textures/caucasian_faction_04.tga
+
+faction             steppe_faction_01
+standard_texture	models/textures/steppe_faction_01.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/steppe_faction_01.tga
+
+faction             steppe_faction_02
+standard_texture	models/textures/steppe_faction_02.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/steppe_faction_02.tga
+
+faction             steppe_faction_03
+standard_texture	models/textures/steppe_faction_03.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/steppe_faction_03.tga
+
+faction             steppe_faction_04
+standard_texture	models/textures/steppe_faction_04.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/steppe_faction_04.tga
+
+faction             steppe_faction_05
+standard_texture	models/textures/steppe_faction_05.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/steppe_faction_05.tga
+
+faction             steppe_faction_06
+standard_texture	models/textures/steppe_faction_06.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/steppe_faction_06.tga
+
+faction             steppe_faction_07
+standard_texture	models/textures/steppe_faction_07.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/steppe_faction_07.tga
+
+faction             steppe_faction_08
+standard_texture	models/textures/steppe_faction_08.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/steppe_faction_08.tga
+
+faction             thracian_faction_01
+standard_texture	models/textures/thracian_faction_01.tga
+rebels_texture		models/textures/standard_greek_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/thracian_faction_01.tga
+
+faction             thracian_faction_02
+standard_texture	models/textures/thracian_faction_02.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		models/textures/standard_routing_barbarian.tga
+ally_texture		models/textures/thracian_faction_02.tga
+
+faction				carthage_barcid
+standard_texture	models/textures/standard_carthage_barcid.tga
+rebels_texture		models/textures/standard_carthage_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/standard_carthage_barcid.tga
+
+faction				carthage_hannonid
+standard_texture	models/textures/standard_carthage_hannonid.tga
+rebels_texture		models/textures/standard_carthage_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/standard_carthage_hannonid.tga
+
+faction				carthage_magonid
+standard_texture	models/textures/standard_carthage_magonid.tga
+rebels_texture		models/textures/standard_carthage_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/standard_carthage_magonid.tga
+
+faction				rebel_romans
+standard_texture	models/textures/standard_rebel_romans.tga
+rebels_texture		models/textures/standard_slave.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/standard_rebel_romans.tga
+
+faction				rebel_carthage
+standard_texture	models/textures/standard_rebel_carthage.tga
+rebels_texture		models/textures/standard_carthage_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/standard_rebel_carthage.tga
+
+faction				rebel_parthia
+standard_texture	models/textures/standard_rebel_parthia.tga
+rebels_texture		models/textures/standard_eastern_rebels.tga
+routing_texture		models/textures/standard_routing_eastern.tga
+ally_texture		models/textures/standard_rebel_parthia.tga
+
+faction             rebel_judea
+standard_texture	models/textures/standard_rebel_judea.tga
+rebels_texture		models/textures/standard_slave.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/standard_rebel_judea.tga
+
+faction				rebel_greek
+standard_texture	models/textures/standard_rebel_greek.tga
+rebels_texture		models/textures/standard_greek_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/standard_rebel_greek.tga
+
+faction				rebel_egypt
+standard_texture	models/textures/standard_rebel_egypt.tga
+rebels_texture		models/textures/standard_egyptian_rebels.tga
+routing_texture		models/textures/standard_routing_eastern.tga
+ally_texture		models/textures/standard_rebel_egypt.tga
+
+faction				rebel_latin
+standard_texture	models/textures/standard_rebel_latin.tga
+rebels_texture		models/textures/standard_slave.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/standard_rebel_latin.tga
+
+faction				rebel_desert
+standard_texture	models/textures/standard_rebel_desert.tga
+rebels_texture		models/textures/standard_carthage_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/standard_rebel_desert.tga
+
+faction				rebel_nuragic
+standard_texture	models/textures/standard_rebel_nuragic.tga
+rebels_texture		models/textures/standard_slave.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/standard_rebel_nuragic.tga
+
+faction				rebel_slave
+standard_texture	models/textures/standard_slave.tga
+rebels_texture		models/textures/standard_slave.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/standard_slave.tga
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
