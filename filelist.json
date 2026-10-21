@@ -25,7 +25,7 @@
 	},
 	{
 		"filename": "data\/descr_sm_factions.txt",
-		"checksum": 149162699
+		"checksum": 3114041452
 	},
 	{
 		"filename": "data\/descr_sm_factions_difficulty.json",
@@ -565,7 +565,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/campaign_script.txt",
-		"checksum": 3633372847
+		"checksum": 119286325
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_disasters.txt",
