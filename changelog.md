@@ -2,6 +2,16 @@
 
 This file records notable player-facing changes to Rome Expanded Submod. The newest changes are listed first.
 
+## 2026-10-22 — Steam Workshop Release
+
+### Changed
+
+- Removed swimming from all remaining melee infantry because `can_swim` caused them to stall when pathfinding in battles. Only foot javelin skirmishers can now swim.
+- Increased Roman Principes morale from 7 to 8.
+- Rebalanced AI capital taxable-income bonuses: Roman and Carthaginian houses now receive 40%, while other factions receive 25%, regardless of poverty.
+
+## 2026-10-21 — Steam Workshop Release
+
 ## 2026-10-18
 
 ### Added
@@ -69,17 +79,25 @@ This file records notable player-facing changes to Rome Expanded Submod. The new
 
 - Exterminating settlements now give 20% public order bonus.
 
-## 2026-09-24
+## 2026-09-25 — Steam Workshop Release
 
 ### Changed
 
-- Temporarily disabled the submod's conversion of captured barracks, stables, and missile ranges because the upstream Rome Expanded mod now provides its own military-building conversion system.
 - Restored Rome Expanded's upkeep values for barbarian foot and missile units while retaining the submod's targeted upkeep balance for Naked Fanatics and Chosen Swordsmen. Cavalry upkeep remains unchanged.
 - Increased the conversion building's construction time from 3 to 7 turns and its cost from 3,000 to 9,900 denarii because a single conversion affects all eligible buildings in the settlement.
 
 ### Fixed
 
 - Fixed overly passive campaign behavior for Carthage by greatly reducing the chance for its AI governors to become immovable.
+
+## 2026-09-24 — Steam Workshop Release
+
+### Changed
+
+- Temporarily disabled the submod's conversion of captured barracks, stables, and missile ranges because the upstream Rome Expanded mod now provides its own military-building conversion system.
+
+### Fixed
+
 - Restored 0.55 lethality for every melee weapon after the latest Rome Expanded merge reset several units to higher values.
 
 ## 2026-09-23
@@ -156,7 +174,7 @@ This file records notable player-facing changes to Rome Expanded Submod. The new
 
 - Fixed AI-controlled factions becoming stuck at the first settlement level and failing to upgrade their settlements.
 
-## 2026-09-02
+## 2026-09-02 — Steam Workshop Release
 
 ### Added
 

@@ -755,7 +755,7 @@ voice_type					Light_1
 voice_indexes				0 1 2
 soldier						barb_infantry_longshield_britons, 60, 0, 1.2
 officer						barb_standard
-attributes					sea_faring, hide_improved_forest, can_swim, warcry
+attributes					sea_faring, hide_improved_forest, warcry
 formation					1.2, 1.2, 2.4, 2.4, 5, square
 stat_health					1, 0
 stat_pri					7, 4, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
@@ -789,7 +789,7 @@ voice_type					Light_1
 voice_indexes				0 1 2
 soldier						barb_infantry_longshield, 60, 0, 1.2
 officer						barb_standard_dacia
-attributes					sea_faring, hide_improved_forest, can_swim, warcry
+attributes					sea_faring, hide_improved_forest, warcry
 formation					1.2, 1.2, 2.4, 2.4, 5, square
 stat_health					1, 0
 stat_pri					7, 4, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
@@ -818,7 +818,7 @@ voice_type					Light_1
 voice_indexes				0 1 2
 soldier						barb_infantry_longshield_gauls, 60, 0, 1.2
 officer						barb_standard_gauls
-attributes					sea_faring, hide_improved_forest, can_swim, warcry
+attributes					sea_faring, hide_improved_forest, warcry
 formation					1.2, 1.2, 2.4, 2.4, 5, square
 stat_health					1, 0
 stat_pri					7, 4, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
@@ -865,7 +865,7 @@ class						light
 voice_type					Light_1
 voice_indexes				0 1 2
 soldier						barb_infantry, 60, 0, 1.2
-attributes					sea_faring, hide_improved_forest, can_swim, warcry
+attributes					sea_faring, hide_improved_forest, warcry
 formation					1.2, 1.2, 2.4, 2.4, 5, square
 stat_health					1, 0
 stat_pri					7, 4, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
@@ -3314,7 +3314,7 @@ class						light
 voice_type					Light_1
 voice_indexes				0 1 2
 soldier						carthaginian_infantry, 40, 0, 1
-attributes					sea_faring, hide_forest, can_sap, can_swim
+attributes					sea_faring, hide_forest, can_sap
 formation					1, 1, 2, 2, 4, square
 stat_health					1, 0
 stat_pri					7, 2, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
@@ -3349,7 +3349,7 @@ ethnicity					iberian_faction_08, Aquitania_Inferior
 ethnicity					rebel_nuragic, Sardinia
 rebalance_statblock
 soldier						carthaginian_infantry, 60, 0, 1
-attributes					sea_faring, hide_forest, can_sap, can_swim
+attributes					sea_faring, hide_forest, can_sap
 formation					1, 1, 2, 2, 4, square
 stat_health					1, 0
 stat_pri					7, 2, no, 0, 0, melee, simple, piercing, sword, 25, 0.55
@@ -7370,7 +7370,7 @@ stat_pri_armour				7, 4, 5, metal
 stat_sec_armour				0, 1, flesh
 stat_heat					4
 stat_ground					2, 0, 0, 0
-stat_mental					7, disciplined, highly_trained
+stat_mental					8, disciplined, highly_trained
 stat_charge_dist			30
 stat_fire_delay				0
 stat_food					60, 300
@@ -8566,7 +8566,7 @@ class						light
 voice_type					Medium_1
 voice_indexes				0 1 2
 soldier						greek_thracoan, 40, 0, 1.2
-attributes					sea_faring, hide_improved_forest, can_sap, can_swim, warcry, mercenary_unit
+attributes					sea_faring, hide_improved_forest, can_sap, warcry, mercenary_unit
 formation					1.2, 1.2, 2.4, 2.4, 4, square
 stat_health					1, 0
 stat_pri					11, 5, no, 0, 0, melee, blade, piercing, axe, 25, 0.55
@@ -9046,7 +9046,7 @@ class						light
 voice_type					Light_1
 voice_indexes				0 1 2
 soldier						barb_infantry_merc, 60, 0, 1.2
-attributes					sea_faring, hide_improved_forest, can_sap, can_swim, warcry, mercenary_unit
+attributes					sea_faring, hide_improved_forest, can_sap, warcry, mercenary_unit
 formation					1.2, 1.2, 2.4, 2.4, 5, square
 stat_health					1, 0
 stat_pri					8, 4, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
@@ -9795,7 +9795,7 @@ class						light
 voice_type					Light_1
 voice_indexes				0 1 2
 soldier						guerilla_fighters_merc, 40, 0, 1.2
-attributes					sea_faring, hide_improved_forest, hide_long_grass, can_swim, warcry, mercenary_unit
+attributes					sea_faring, hide_improved_forest, hide_long_grass, warcry, mercenary_unit
 formation					1.2, 1.2, 2.4, 2.4, 5, square
 stat_health					1, 0
 stat_pri					9, 4, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
@@ -11757,7 +11757,7 @@ class						light
 voice_type					Light_1
 voice_indexes				0 1 2
 soldier						guerilla_fighters_spain, 40, 0, 1.2
-attributes					sea_faring, hide_improved_forest, hide_long_grass, can_swim, warcry
+attributes					sea_faring, hide_improved_forest, hide_long_grass, warcry
 formation					1.2, 1.2, 2.4, 2.4, 5, square
 stat_health					1, 0
 stat_pri					8, 4, no, 0, 0, melee, simple, piercing, spear, 25, 0.55
@@ -13106,7 +13106,7 @@ voice_type					Light_1
 voice_indexes				0 1 2
 soldier						barb_infantry_scythia, 60, 0, 1.2
 officer						barb_standard
-attributes					sea_faring, hide_improved_forest, can_swim, warcry
+attributes					sea_faring, hide_improved_forest, warcry
 formation					1.2, 1.2, 2.4, 2.4, 5, square
 stat_health					1, 0
 stat_pri					7, 4, no, 0, 0, melee, simple, piercing, spear, 25, 0.55

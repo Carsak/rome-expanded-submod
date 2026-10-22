@@ -6578,13 +6578,10 @@ building hinterland_natives
 			capability
 			{
 				; AI only handicap bonus
-				; Capital and no poverty
-				taxable_income_bonus bonus 25 requires not is_player and factions { romans_julii, romans_brutii, romans_scipii, carthage_barcid, carthage_hannonid, carthage_magonid, } and not hidden_resource poverty and hidden_resource capital
-				taxable_income_bonus bonus 15 requires not is_player and not factions { romans_julii, romans_brutii, romans_scipii, carthage_barcid, carthage_hannonid, carthage_magonid, } and not hidden_resource poverty and hidden_resource capital
 
 				; Capital and poverty
-				taxable_income_bonus bonus 50 requires not is_player and factions { romans_julii, romans_brutii, romans_scipii, carthage_barcid, carthage_hannonid, carthage_magonid, } and hidden_resource poverty and hidden_resource capital
-				taxable_income_bonus bonus 30 requires not is_player and not factions { romans_julii, romans_brutii, romans_scipii, carthage_barcid, carthage_hannonid, carthage_magonid, } and hidden_resource poverty and hidden_resource capital
+				taxable_income_bonus bonus 40 requires not is_player and factions { romans_julii, romans_brutii, romans_scipii, carthage_barcid, carthage_hannonid, carthage_magonid, } and hidden_resource capital
+				taxable_income_bonus bonus 25 requires not is_player and not factions { romans_julii, romans_brutii, romans_scipii, carthage_barcid, carthage_hannonid, carthage_magonid, } and hidden_resource capital
 
 				; No Capital and no poverty
 				taxable_income_bonus bonus 4 requires not is_player and factions { romans_julii, romans_brutii, romans_scipii, carthage_barcid, carthage_hannonid, carthage_magonid, } and not hidden_resource poverty and not hidden_resource capital
