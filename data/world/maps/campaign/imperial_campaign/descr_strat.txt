@@ -163,1165 +163,1165 @@ landmark	mausoleum				160,	50
 
 ;; JNF 2021-06-01 - resources with resource quantity enabled
 resource_quantity_enabled
-	resource	marble,         1,         55,   63
-	resource	glass,          1,         201,  36			;Tyre
-	resource	purple_dye,     3,         201,  39			;Tyre
-	resource	gold,           1,         46,   135
-	resource	gold,           1,         20,   83
-	resource	gold,           1,         140,  64
-	resource	grain,          1,         109,  94
-	resource	grain,          1,         116,  92
-	resource	grain,          1,         184,  18
-	resource	grain,          1,         186,  5
-	resource	grain,          2,         184,  8
-	resource	grain,          2,         182,  2
-	resource	grain,          2,         84,   31
-	resource	grain,          2,         44,   47
-	resource	grain,          1,         103,  44
-	resource	grain,          2,         84,   41
-	resource	grain,          1,         88,   21
-	resource	grain,          1,         70,   42
-	resource	furs,           1,         130,  99
-	resource	furs,           1,         97,   131
-	resource	furs,           1,         126,  112
-	resource	furs,           1,         115,  132
-	resource	furs,           1,         192,  140
-	resource	furs,           1,         169,  141
-	resource	furs,           1,         148,  144
-	resource	lead,           2,         92,   105
-	resource	lead,           2,         56,   142
-	resource	amber,          3,         142,  125		;Pripet
-	resource	amber,          3,         93,   136
-	resource	wild_animals,   1,         215,  144
-	resource	timber,         1,         208,  145
-	resource	timber,         1,         176,  141
-	resource	timber,         1,         158,  142
-	resource	timber,         1,         223,  93
-	resource	timber,         1,         229,  100
-	resource	timber,         1,         96,   106
-	resource	timber,         1,         92,   117
-	resource	timber,         1,         84,   124
-	resource	timber,         1,         86,   145
-	resource	timber,         1,         89,   128
-	resource	timber,         1,         62,   111
-	resource	timber,         1,         72,   111
-	resource	timber,         1,         125,  137
-	resource	timber,         1,         128,  114
-	resource	timber,         1,         117,  123
-	resource	timber,         1,         116,  110
-	resource	timber,         1,         103,  118
-	resource	timber,         1,         95,   133
-	resource	timber,         1,         52,   130		;Britannia_Superior
-	resource	amber,          3,         123,  143
-	resource	camels,         1,         251,  117
-	resource	hides,			1,         170,  128
-	resource	hides,			1,         238,  147
-	resource	hides,			1,         219,  124
-	resource	silver,         1,         216,  108
-	resource	lead,           2,         47,   136
-	resource	amber,          3,         113,  136
-	resource	silver,         1,         107,  132
-	resource	iron,           2,         232,  81
-	resource	iron,           2,         105,  134
-	resource	iron,           2,         49,   129
-	resource	iron,           2,         78,   132
-	resource	iron,           2,         107,  125
-	resource	textiles,       1,         69,   122
-	resource	textiles,       1,         56,   129
-	resource	pottery,        1,         66,   123
-	resource	grain,          1,         190,  115
-	resource	hides,          1,         84,   113
-	resource	timber,         1,         41,   110
-	resource	glass,          1,         46,   111
-	resource	iron,           2,         109,  110
-	resource	iron,           2,         171,  111
-	resource	iron,           2,         53,   103
-	resource	lead,           1,         54,   99
-	resource	lead,           1,         54,   98
-	resource	gold,           1,         136,  98
-	resource	iron,           2,         139,  101
-	resource	timber,         1,         160,  99
-	resource	grain,          1,         174,  101
-	resource	grain,          3,         178,  99
-	resource	wine,          	2,         250,  94
-	resource	wine,          	2,         196,  103
-	resource	wine,          	2,         182,  102
-	resource	wine,           2,         47,   91
-	resource	pottery,        1,         67,   91			;Lugdinensis
-	resource	iron,           2,         54,   91
-	resource	gold,           1,         212,  92
-	resource	glass,          1,         96,   91
-	resource	textiles,       2,         91,   90
-	resource	textiles,       1,         49,   85
-	resource	wine,           1,         65,   86
-	resource	wine,           3,         55,   82
-	resource	silver,         1,         59,   84
-	resource	iron,           2,         112,  84
-	resource	wine,           3,         106,  88
-	resource	gold,           1,         148,  78
-	resource	iron,           2,         16,   88
-	resource	tin,            1,         23,   86
-	resource	timber,         1,         24,   82
-	resource	gold,           1,         117,  76
-	resource	olive_oil,      2,         123,  73
-	resource	iron,           2,         223,  80
-	resource	wine,           2,         220,  86
-	resource	pottery,        1,         86,   83
-	resource	timber,         1,         78,   84
-	resource	timber,         1,         197,  81
-	resource	iron,           2,         188,  74
-	resource	silver,         1,         202,  78
-	resource	iron,           2,         28,   74
-	resource	lead,           2,         30,   80
-	resource	iron,           2,         89,   78
-	resource	marble,         1,         90,   82
-	resource	silver,         1,         47,   76
-	resource	marble,         1,         50,   72
-	resource	pottery,        1,         100,  77
-	resource	iron,           2,         241,  64
-	resource	elephants,      1,         253,  75
-	resource	camels,         1,         250,  68
-	resource	timber,         1,         138,  69
-	resource	timber,         1,         155,  70
-	resource	wine,           2,         166,  70
-	resource	textiles,       1,         171,  64
-	resource	silver,         1,         38,   67
-	resource	pottery,        1,         40,   65
-	resource	olive_oil,      2,         111,  68			;Apulia
-	resource	copper,         2,         108,  66			;Apulia
-	resource	timber,         1,         115,  65
-	resource	camels,         1,         217,  58
-	resource	elephants,      1,         216,  62
-	resource	textiles,       1,         218,  60
-	resource	wine,           2,         18,   54
-	resource	olive_oil,      2,         12,   54
-	resource	gold,           1,         16,   53
-	resource	timber,         1,         156,  65
-	resource	silver,         1,         160,  63
-	resource	wine,           2,         161,  65
-	resource	silver,         1,         195,  59
-	resource	lead,           1,         55,   62
-	resource	wine,           2,         54,   61
-	resource	silver,         1,         167,  56
-	resource	timber,         1,         156,  55
-	resource	marble,         1,         152,  62			;Mysia
-	resource	marble,         1,         164,  55			;Lydia
-	resource	textiles,       1,         160,  54
-	resource	iron,           2,         201,  57
-	resource	camels,         1,         206,  54
-	resource	elephants,      1,         201,  50
-	resource	textiles,       1,         198,  56
-	resource	elephants,      1,         238,  55
-	resource	camels,         1,         240,  49
-	resource	marble,         1,         143,  54			;Athens
-	resource	silver,         1,         144,  53			;Athens
-	resource	marble,         1,         148,  51			;Euboea
-	resource	grain,          1,         80,   64			;Sardinia_Superior
-	resource	silver,         1,         82,   63			;Sardinia_Superior
-	resource	silver,         1,         82,   60			;Sardinia_Inferior
-	resource	olive_oil,      2,         142,  55
-	resource	pottery,        2,         147,  53
-	resource	camels,         1,         251,  43
-	resource	elephants,      1,         254,  43
-	resource	iron,           2,         251,  52
-	resource	timber,         1,         134,  46
-	resource	wine,           2,         166,  49			;Lycia
-	resource	olive_oil,      2,         173,  48			;Lycia
-	resource	textiles,       1,         164,  51
-	resource	camels,         1,         2,    23
-	resource	timber,         1,         15,   44
-	resource	copper,         2,         26,   39			;Siga
-	resource	camels,         1,         215,  42
-	resource	elephants,      1,         58,   39
-	resource	camels,         1,         60,   31
-	resource	marble,         1,         64,   38
-	resource	timber,         1,         58,   45
-	resource	timber,         1,         86,   42
-	resource	elephants,      1,         73,   42
-	resource	camels,         1,         80,   40
-	resource	olive_oil,      2,         78,   44
-	resource	timber,         1,         104,  45
-	resource	camels,         1,         209,  47
-	resource	elephants,      1,         206,  45
-	resource	elephants,      1,         209,  51
-	resource	camels,         1,         227,  14
-	resource	camels,         1,         227,  8
-	resource	camels,         1,         81,   30
-	resource	olive_oil,      2,         85,   37
-	resource	purple_dye,     3,         152,  37
-	resource	purple_dye,     3,         197,  22
-	resource	wine,           2,         200,  27
-	resource	camels,         1,         105,  14
-	resource	purple_dye,     3,         94,   21
-	resource	timber,         1,         132,  17
-	resource	camels,         1,         139,  16
-	resource	camels,         1,         190,  20
-	resource	glass,          1,         180,  19
-	resource	grain,          3,         182,  17
-	resource	textiles,       1,         184,  22
-	resource	camels,         1,         195,  19
-	resource	camels,         1,         167,  13
-	resource	camels,         1,         185,  12
-	resource	camels,         1,         181,  9
-	resource	grain,          2,         185,  9
-	resource	gold,           1,         192,  4
-	resource	camels,         1,         181,  3
-	resource	purple_dye,     3,         191,  45
-	resource	wine,           2,         105,  64
-	resource	wine,           2,         79,   59
-	resource	incense,        3,         215,  1			;Hejaz
-	resource	incense,        3,         206,  10
-	resource	incense,        3,         218,  44
-	resource	silk,           3,         208,  43
-	resource	silk,           3,         202,  56			;Antioch
-	resource	wine,           1,         203,  58			;Cyrrhus
-	resource	olive_oil,      2,         203,  54			;Apamene
-	resource	tin,            2,         38,   126		;Cornovae
-	resource	wild_animals,   3,         83,   23
-	resource	wild_animals,   3,         191,  1
-	resource	camels,   		1,         197,  1
-	resource	incense,        3,         187,  7
-	resource	wild_animals,   3,         129,  143
-	resource	wild_animals,   2,         41,   42
-	resource	wild_animals,   1,         53,   43
-	resource	wild_animals,   3,         112,  120
-	resource	wild_animals,   1,         51,   152		;Caledonia
-	resource	wild_animals,   1,         15,   38			;Mauretania
-	resource	wild_animals,   1,         41,   30			;Sahara
-	resource	wild_animals,   1,         13,   46			;Tingitana
-	resource	wild_animals,   1,         90,   122		;Chauci
-	resource	wild_animals,   1,         145,  87			;Argedava
-	resource	wild_animals,   1,         211,  94			;Colchis
-	resource	wild_animals,   1,         214,  114		;Siracena
-	resource	iron,           2,         106,  99
-	resource	iron,           3,         139,  54
-	resource	timber,         1,         191,  57
-	resource	pottery,        1,         195,  57
-	resource	pottery,        1,         161,  44			;Rhodes
-	resource	pottery,        1,         187,  82			;Sinope
-	resource	gold,           1,         188,  43
-	resource	timber,         1,         186,  46
-	resource	copper,         2,         185,  43			;Cyprus
-	resource	timber,         1,         110,  80
-	resource	gold,           1,         114,  83
-	resource	marble,         1,         136,  48
-	resource	gold,           2,         148,  69
-	resource	pottery,        1,         196,  58
-	resource	olive_oil,      2,         200,  32
-	resource	camels,         1,         203,  24
-	resource	silk,           3,         254,  81
-	resource	silk,           3,         224,  63
-	resource	silk,           3,         239,  57			;Babylon
-	resource	lead,           2,         197,  67
-	resource	elephants,      1,         80,   32
-	resource	elephants,      1,         13,   42
-	resource	camels,         1,         32,   31
-	resource	camels,         1,         60,   5
-	resource	wine,           3,         41,   80
-	resource	hides,          1,         68,   109
-	resource	hides,          1,         80,   129
-	resource	silver,         1,         111,  54
-	resource	silver,         1,         111,  83
-	resource	camels,         1,         100,  10
-	resource	camels,         1,         115,  10
-	resource	camels,         1,         132,  10
-	resource	camels,         1,         140,  10
-	resource	camels,         1,         154,  10
-	resource	camels,         1,         177,  15
-	resource	camels,         1,         208,  17
-	resource	camels,         1,         210,  34
-	resource	incense,        3,         219,  1
-	resource	timber,         1,         35,   147		;Hibernia
-	resource	timber,         1,         47,   153		;Scotland
-	resource	elephants,      1,         34,   38			;Siga
-	resource	glass,          1,         200,  40			;Sidon
-	resource	silver,         1,         132,  94			;Zarmizegetusa
-	resource	gold,           1,         132,  96			;Zarmizegetusa
-	resource	silver,         1,         136,  50			;Arcadia
-	resource	marble,         1,         134,  57			;Delphi
-	resource	marble,         1,         141,  50			;Argolis
-	resource	furs,           1,         85,   129		;Cherusci
-	resource	furs,           1,         85,   152		;Alabu
-	resource	furs,           1,         104,  118		;Suebi
-	resource	furs,           1,         230,  152		;Massagetae
-	resource	grain,          1,         153,  106		;Getae
-	resource	grain,          1,         153,  83			;Shumen
-	resource	grain,          1,         138,  70			;Pella
-	resource	grain,          1,         114,  95			;Pannonia
-	resource	olive_oil,      1,         135,  50			;Elis
-	resource	olive_oil,      1,         41,   60			;Hispania
-	resource	olive_oil,      1,         45,   70			;Saguntum
-	resource	wine,           1,         107,  51			;Messenia
-	resource	wine,           1,         56,   79			;Emporium
-	resource	wine,           1,         142,  58			;Thessaly
-	resource	iron,           2,         227,  78			;Urartu
-	resource	iron,           2,         126,  67			;Epidamnos
-	resource	iron,           2,         104,  100		;Noricum
-	resource	tin,            1,         19,   70			;Lusitani
-	resource	iron,           2,         131,  78			;Serdica
-	resource	iron,           2,         85,   102		;Helvetis
-	resource	timber,         1,         73,   96			;Helvetis
-	resource	grain,          1,         81,   92			;Cisalpine_Gaul
-	resource	pottery,        1,         159,  58			;Pergamon
-	resource	textiles,       1,         157,  57			;Pergamon
-	resource	timber,         1,         80,   74			;Corsica
-	resource	timber,         1,         69,   81			;Massilia
+	resource	marble,         1,         55,   63		; region: Baliares | settlement: Palma | faction: carthage_barcid
+	resource	glass,          1,         201,  36		; region: Tyrea | settlement: Tyre | faction: egypt
+	resource	purple_dye,     3,         201,  39		; region: Tyrea | settlement: Tyre | faction: egypt
+	resource	gold,           1,         46,   135		; region: Tribus_Silurii | settlement: Deva | faction: britanic_faction_02
+	resource	gold,           1,         20,   83		; region: Gallaecia | settlement: Asturica | faction: iberian_faction_02
+	resource	gold,           1,         140,  64		; region: Chalkidiki | settlement: Thessalonica | faction: macedon
+	resource	grain,          1,         109,  94		; region: Pannonia_Inferior | settlement: Segestica | faction: gallic_faction_15
+	resource	grain,          1,         116,  92		; region: Scorcouw | settlement: Singidun | faction: gallic_faction_13
+	resource	grain,          1,         184,  18		; region: Pelousion | settlement: Pelousion | faction: egypt
+	resource	grain,          1,         186,  5		; region: Thebais | settlement: Waset | faction: egypt
+	resource	grain,          2,         184,  8		; region: Hare | settlement: Hermopolis | faction: egypt
+	resource	grain,          2,         182,  2		; region: Thinis | settlement: Ptolemais | faction: egypt
+	resource	grain,          2,         84,   31		; region: Byzacium | settlement: Thapsus | faction: carthage_hannonid
+	resource	grain,          2,         44,   47		; region: Iol | settlement: Iol | faction: carthage_barcid
+	resource	grain,          1,         103,  44		; region: Sicilia_Graecus | settlement: Syracuse | faction: greek_cities
+	resource	grain,          2,         84,   41		; region: Africa | settlement: Carthage | faction: carthage
+	resource	grain,          1,         88,   21		; region: Tripolitania | settlement: Lepcis_Magna | faction: carthage_hannonid
+	resource	grain,          1,         70,   42		; region: Numidia | settlement: Cirta | faction: numidia
+	resource	furs,           1,         130,  99		; region: Locus_Biephi | settlement: Zarmizegetusa | faction: dacian_faction_02
+	resource	furs,           1,         97,   131		; region: Luppia | settlement: Luppia | faction: germans
+	resource	furs,           1,         126,  112		; region: Tribus_Iazyges | settlement: Campus_Iazyges | faction: dacian_faction_03
+	resource	furs,           1,         115,  132		; region: Locus_Gothi | settlement: Vicus_Gothi | faction: germanic_faction_07
+	resource	furs,           1,         192,  140		; region: Tribus_Thyssagetae | settlement: Campus_Thyssagetae | faction: steppe_faction_07
+	resource	furs,           1,         169,  141		; region: Kamianka | settlement: Kamianka | faction: scythia
+	resource	furs,           1,         148,  144		; region: Pripet | settlement: Vicus_Venedae | faction: steppe_faction_03
+	resource	lead,           2,         92,   105		; region: Raetia | settlement: Kambodunon | faction: latin_faction_05
+	resource	lead,           2,         56,   142		; region: Britannia_Inferior | settlement: Eburacum | faction: britanic_faction_01
+	resource	amber,          3,         142,  125		; region: Pripet | settlement: Vicus_Venedae | faction: steppe_faction_03
+	resource	amber,          3,         93,   136		; region: Tribus_Saxones | settlement: Bordesholm | faction: germanic_faction_02
+	resource	wild_animals,   1,         215,  144		; region: Tribus_Thyssagetae | settlement: Campus_Thyssagetae | faction: steppe_faction_07
+	resource	timber,         1,         208,  145		; region: Tribus_Thyssagetae | settlement: Campus_Thyssagetae | faction: steppe_faction_07
+	resource	timber,         1,         176,  141		; region: Kamianka | settlement: Kamianka | faction: scythia
+	resource	timber,         1,         158,  142		; region: Pripet | settlement: Vicus_Venedae | faction: steppe_faction_03
+	resource	timber,         1,         223,  93		; region: Tribus_Sarmatae | settlement: Campus_Sarmatae | faction: caucasian_faction_01
+	resource	timber,         1,         229,  100		; region: Tribus_Alanni | settlement: Campus_Alanni | faction: steppe_faction_08
+	resource	timber,         1,         96,   106		; region: Noricum | settlement: Iuvavum | faction: gallic_faction_04
+	resource	timber,         1,         92,   117		; region: Agri_Decumates | settlement: Mogontiacum | faction: germanic_faction_03
+	resource	timber,         1,         84,   124		; region: Locus_Chatti | settlement: Vicus_Chatti | faction: germanic_faction_08
+	resource	timber,         1,         86,   145		; region: Kimbrike_Chersonesos | settlement: Alabu | faction: germanic_faction_02
+	resource	timber,         1,         89,   128		; region: Locus_Cherusci | settlement: Vicus_Cherusci | faction: germanic_faction_04
+	resource	timber,         1,         62,   111		; region: Central_Gaul | settlement: Alesia | faction: gallic_faction_09
+	resource	timber,         1,         72,   111		; region: Belgica | settlement: Mediomatrici | faction: gallic_faction_17
+	resource	timber,         1,         125,  137		; region: Locus_Gepidae | settlement: Domus_Dulcis_Domus | faction: germanic_faction_06
+	resource	timber,         1,         128,  114		; region: Tribus_Iazyges | settlement: Campus_Iazyges | faction: dacian_faction_03
+	resource	timber,         1,         117,  123		; region: Regnum_Marcomannii | settlement: Vicus_Marcomannii | faction: germanic_faction_05
+	resource	timber,         1,         116,  110		; region: Locus_Boii | settlement: Vicus_Boii | faction: gallic_faction_10
+	resource	timber,         1,         103,  118		; region: Locus_Suebi | settlement: Vicus_Suebi | faction: germans
+	resource	timber,         1,         95,   133		; region: Luppia | settlement: Luppia | faction: germans
+	resource	timber,         1,         52,   130		; region: Britannia_Superior | settlement: Londinium | faction: britons
+	resource	amber,          3,         123,  143		; region: Locus_Gepidae | settlement: Domus_Dulcis_Domus | faction: germanic_faction_06
+	resource	camels,         1,         251,  117		; region: Tribus_Dahae | settlement: Campus_Dahae | faction: steppe_faction_06
+	resource	hides,			1,         170,  128		; region: Kamianka | settlement: Kamianka | faction: scythia
+	resource	hides,			1,         238,  147		; region: Tribus_Massagetae | settlement: Campus_Massagetae | faction: steppe_faction_01
+	resource	hides,			1,         219,  124		; region: Tribus_Aorsi | settlement: Campus_Aorsi | faction: steppe_faction_01
+	resource	silver,         1,         216,  108		; region: Siracena | settlement: Siracena | faction: steppe_faction_08
+	resource	lead,           2,         47,   136		; region: Tribus_Silurii | settlement: Deva | faction: britanic_faction_02
+	resource	amber,          3,         113,  136		; region: Locus_Rugii | settlement: Vicus_Rugii | faction: germanic_faction_10
+	resource	silver,         1,         107,  132		; region: Locus_Rugii | settlement: Vicus_Rugii | faction: germanic_faction_10
+	resource	iron,           2,         232,  81		; region: Atropatene | settlement: Phraaspa | faction: caucasian_faction_03
+	resource	iron,           2,         105,  134		; region: Locus_Rugii | settlement: Vicus_Rugii | faction: germanic_faction_10
+	resource	iron,           2,         49,   129		; region: Britannia_Superior | settlement: Londinium | faction: britons
+	resource	iron,           2,         78,   132		; region: Locus_Chauci | settlement: Vicus_Chauci | faction: germanic_faction_09
+	resource	iron,           2,         107,  125		; region: Locus_Suebi | settlement: Vicus_Suebi | faction: germans
+	resource	textiles,       1,         69,   122		; region: Tongeren | settlement: Atuatuca | faction: gallic_faction_08
+	resource	textiles,       1,         56,   129		; region: Britannia_Superior | settlement: Londinium | faction: britons
+	resource	pottery,        1,         66,   123		; region: Locus_Ambiani | settlement: Samarobriva | faction: gallic_faction_08
+	resource	grain,          1,         190,  115		; region: Maeotis | settlement: Tanais | faction: scythia
+	resource	hides,          1,         84,   113		; region: Agri_Decumates | settlement: Mogontiacum | faction: germanic_faction_03
+	resource	timber,         1,         41,   110		; region: Armorica | settlement: Condate_Redonum | faction: gallic_faction_07
+	resource	glass,          1,         46,   111		; region: Armorica | settlement: Condate_Redonum | faction: gallic_faction_07
+	resource	iron,           2,         109,  110		; region: Boihaemum | settlement: Lovosice | faction: gallic_faction_10
+	resource	iron,           2,         171,  111		; region: Scythia | settlement: Campus_Scythii | faction: scythia
+	resource	iron,           2,         53,   103		; region: Central_Gaul | settlement: Alesia | faction: gallic_faction_09
+	resource	lead,           1,         54,   99		; region: Aquitania | settlement: Lemonum | faction: gallic_faction_05
+	resource	lead,           1,         54,   98		; region: Aquitania | settlement: Lemonum | faction: gallic_faction_05
+	resource	gold,           1,         136,  98		; region: Dacia | settlement: Porrolissum | faction: dacia
+	resource	iron,           2,         139,  101		; region: Dacia | settlement: Porrolissum | faction: dacia
+	resource	timber,         1,         160,  99		; region: Tyragetae | settlement: Tyras | faction: steppe_faction_02
+	resource	grain,          1,         174,  101		; region: Scythica_Chersonesos | settlement: Kalos_Limen | faction: hellenic_faction_17
+	resource	grain,          3,         178,  99		; region: Theodosian_Bosphorus | settlement: Theodosia | faction: hellenic_faction_04
+	resource	wine,          	2,         250,  94		; region: Tribus_Sakae | settlement: Campus_Sakae | faction: caucasian_faction_02
+	resource	wine,          	2,         196,  103		; region: Sindica | settlement: Phanagoreia | faction: hellenic_faction_04
+	resource	wine,          	2,         182,  102		; region: Bosphorus | settlement: Pantikapaion | faction: hellenic_faction_04
+	resource	wine,           2,         47,   91		; region: Aquitania_Inferior | settlement: Burdigala | faction: iberian_faction_08
+	resource	pottery,        1,         67,   91		; region: Lugdinensis | settlement: Lugdunum | faction: gauls
+	resource	iron,           2,         54,   91		; region: Aquitania_Inferior | settlement: Burdigala | faction: iberian_faction_08
+	resource	gold,           1,         212,  92		; region: Colchis | settlement: Kotais | faction: hellenic_faction_10
+	resource	glass,          1,         96,   91		; region: Venetia | settlement: Patavium | faction: gallic_faction_03
+	resource	textiles,       2,         91,   90		; region: Venetia | settlement: Patavium | faction: gallic_faction_03
+	resource	textiles,       1,         49,   85		; region: Aquitania_Inferior | settlement: Burdigala | faction: iberian_faction_08
+	resource	wine,           1,         65,   86		; region: Transalpine_Gaul | settlement: Massilia | faction: hellenic_faction_02
+	resource	wine,           3,         55,   82		; region: Narbonensis | settlement: Narbo_Martius | faction: gallic_faction_06
+	resource	silver,         1,         59,   84		; region: Narbonensis | settlement: Narbo_Martius | faction: gallic_faction_06
+	resource	iron,           2,         112,  84		; region: Dalmatia | settlement: Deliminium | faction: illyrian_faction_02
+	resource	wine,           3,         106,  88		; region: Illyria_Pannonia | settlement: Salona | faction: illyrian_faction_01
+	resource	gold,           1,         148,  78		; region: Tylis | settlement: Tylis | faction: gallic_faction_14
+	resource	iron,           2,         16,   88		; region: Gallaecia | settlement: Asturica | faction: iberian_faction_02
+	resource	tin,            1,         23,   86		; region: Cantabria | settlement: Vellika | faction: iberian_faction_07
+	resource	timber,         1,         24,   82		; region: Cantabria | settlement: Vellika | faction: iberian_faction_07
+	resource	gold,           1,         117,  76		; region: Illyria | settlement: Scodra | faction: illyrian_faction_03
+	resource	olive_oil,      2,         123,  73		; region: Illyria | settlement: Scodra | faction: illyrian_faction_03
+	resource	iron,           2,         223,  80		; region: Sophene | settlement: Arsamosata | faction: armenia
+	resource	wine,           2,         220,  86		; region: Armenia | settlement: Artaxarta | faction: armenia
+	resource	pottery,        1,         86,   83		; region: Liguria | settlement: Segesta | faction: gallic_faction_01
+	resource	timber,         1,         78,   84		; region: Liguria | settlement: Segesta | faction: gallic_faction_01
+	resource	timber,         1,         197,  81		; region: Pontos_Paralios | settlement: Trapezous | faction: hellenic_faction_16
+	resource	iron,           2,         188,  74		; region: Pontus | settlement: Sinope | faction: pontus
+	resource	silver,         1,         202,  78		; region: Pontos_Paralios | settlement: Trapezous | faction: hellenic_faction_16
+	resource	iron,           2,         28,   74		; region: Celtiberia | settlement: Numantia | faction: spain
+	resource	lead,           2,         30,   80		; region: Cantabria | settlement: Vellika | faction: iberian_faction_07
+	resource	iron,           2,         89,   78		; region: Etruria | settlement: Arretium | faction: latin_faction_03
+	resource	marble,         1,         90,   82		; region: Etruria | settlement: Arretium | faction: latin_faction_03
+	resource	silver,         1,         47,   76		; region: Taraconenis | settlement: Osca | faction: iberian_faction_03
+	resource	marble,         1,         50,   72		; region: Taraconenis | settlement: Osca | faction: iberian_faction_03
+	resource	pottery,        1,         100,  77		; region: Picenum | settlement: Asculum | faction: latin_faction_02
+	resource	iron,           2,         241,  64		; region: Media | settlement: Ecbatana | faction: seleucid
+	resource	elephants,      1,         253,  75		; region: Rhages | settlement: Arsakia | faction: seleucid
+	resource	camels,         1,         250,  68		; region: Media | settlement: Ecbatana | faction: seleucid
+	resource	timber,         1,         138,  69		; region: Macedonia | settlement: Pella | faction: macedon
+	resource	timber,         1,         155,  70		; region: Thrace | settlement: Uscudama | faction: thrace
+	resource	wine,           2,         166,  70		; region: Bithynia | settlement: Nicomedia | faction: anatolian_faction_01
+	resource	textiles,       1,         171,  64		; region: Phrygia | settlement: Phrygia_Apameia | faction: seleucid
+	resource	silver,         1,         38,   67		; region: Saguntum | settlement: Bostra | faction: iberian_faction_04
+	resource	pottery,        1,         40,   65		; region: Saguntum | settlement: Bostra | faction: iberian_faction_04
+	resource	olive_oil,      2,         111,  68		; region: Apulia | settlement: Venusia | faction: romans_brutii
+	resource	copper,         2,         108,  66		; region: Apulia | settlement: Venusia | faction: romans_brutii
+	resource	timber,         1,         115,  65		; region: Calabria | settlement: Tarentum | faction: romans_brutii
+	resource	camels,         1,         217,  58		; region: Osrhoene | settlement: Harran | faction: seleucid
+	resource	elephants,      1,         216,  62		; region: Osrhoene | settlement: Harran | faction: seleucid
+	resource	textiles,       1,         218,  60		; region: Osrhoene | settlement: Harran | faction: seleucid
+	resource	wine,           2,         18,   54		; region: Baetica | settlement: Corduba | faction: carthage_barcid
+	resource	olive_oil,      2,         12,   54		; region: Baetica | settlement: Corduba | faction: carthage_barcid
+	resource	gold,           1,         16,   53		; region: Baetica | settlement: Corduba | faction: carthage_barcid
+	resource	timber,         1,         156,  65		; region: Mysia | settlement: Abydos | faction: seleucid
+	resource	silver,         1,         160,  63		; region: Aeolia | settlement: Pergamum | faction: hellenic_faction_03
+	resource	wine,           2,         161,  65		; region: Mysia | settlement: Abydos | faction: seleucid
+	resource	silver,         1,         195,  59		; region: Cilicia | settlement: Tarsus | faction: seleucid
+	resource	lead,           1,         55,   62		; region: Baliares | settlement: Palma | faction: carthage_barcid
+	resource	wine,           2,         54,   61		; region: Baliares | settlement: Palma | faction: carthage_barcid
+	resource	silver,         1,         167,  56		; region: Lydia | settlement: Sardis | faction: seleucid
+	resource	timber,         1,         156,  55		; region: Ionia | settlement: Miletus | faction: egypt
+	resource	marble,         1,         152,  62		; region: Mysia | settlement: Abydos | faction: seleucid
+	resource	marble,         1,         164,  55		; region: Lydia | settlement: Sardis | faction: seleucid
+	resource	textiles,       1,         160,  54		; region: Ionia | settlement: Miletus | faction: egypt
+	resource	iron,           2,         201,  57		; region: Syria | settlement: Antioch | faction: seleucid
+	resource	camels,         1,         206,  54		; region: Apamene | settlement: Apameia | faction: seleucid
+	resource	elephants,      1,         201,  50		; region: Syria | settlement: Antioch | faction: seleucid
+	resource	textiles,       1,         198,  56		; region: Syria | settlement: Antioch | faction: seleucid
+	resource	elephants,      1,         238,  55		; region: Babylonia | settlement: Seleucia | faction: seleucid
+	resource	camels,         1,         240,  49		; region: Babylonia | settlement: Seleucia | faction: seleucid
+	resource	marble,         1,         143,  54		; region: Attica | settlement: Athens | faction: hellenic_faction_09
+	resource	silver,         1,         144,  53		; region: Attica | settlement: Athens | faction: hellenic_faction_09
+	resource	marble,         1,         148,  51		; region: Euboea | settlement: Chalkis | faction: macedon
+	resource	grain,          1,         80,   64		; region: Sardinia | settlement: Olbia | faction: carthage_magonid
+	resource	silver,         1,         82,   63		; region: Sardinia | settlement: Olbia | faction: carthage_magonid
+	resource	silver,         1,         82,   60		; region: Sardinia_Inferior | settlement: Caralis | faction: carthage_magonid
+	resource	olive_oil,      2,         142,  55		; region: Boeotia | settlement: Thebes | faction: macedon
+	resource	pottery,        2,         147,  53		; region: Euboea | settlement: Chalkis | faction: macedon
+	resource	camels,         1,         251,  43		; region: Elymais | settlement: Susa | faction: seleucid
+	resource	elephants,      1,         254,  43		; region: Elymais | settlement: Susa | faction: seleucid
+	resource	iron,           2,         251,  52		; region: Elymais | settlement: Susa | faction: seleucid
+	resource	timber,         1,         134,  46		; region: Messenia | settlement: Messeni | faction: macedon
+	resource	wine,           2,         166,  49		; region: Lycia | settlement: Xanthos | faction: egypt
+	resource	olive_oil,      2,         173,  48		; region: Lycia | settlement: Xanthos | faction: egypt
+	resource	textiles,       1,         164,  51		; region: Caria | settlement: Halicarnasus | faction: egypt
+	resource	camels,         1,         2,    23		; region: Gaetulia | settlement: Dimmidi | faction: rebel_slave
+	resource	timber,         1,         15,   44		; region: Mauretania | settlement: Walilt | faction: desert_faction_01
+	resource	copper,         2,         26,   39		; region: Siga | settlement: Siga | faction: desert_faction_02
+	resource	camels,         1,         215,  42		; region: Regnum_Palmyrae | settlement: Palmyra | faction: seleucid
+	resource	elephants,      1,         58,   39		; region: Numidia | settlement: Cirta | faction: numidia
+	resource	camels,         1,         60,   31		; region: Cydamus | settlement: Cydamus | faction: desert_faction_05
+	resource	marble,         1,         64,   38		; region: Numidia | settlement: Cirta | faction: numidia
+	resource	timber,         1,         58,   45		; region: Iol | settlement: Iol | faction: carthage_barcid
+	resource	timber,         1,         86,   42		; region: Africa | settlement: Carthage | faction: carthage
+	resource	elephants,      1,         73,   42		; region: Africa | settlement: Carthage | faction: carthage
+	resource	camels,         1,         80,   40		; region: Africa | settlement: Carthage | faction: carthage
+	resource	olive_oil,      2,         78,   44		; region: Africa | settlement: Carthage | faction: carthage
+	resource	timber,         1,         104,  45		; region: Sicilia_Graecus | settlement: Syracuse | faction: greek_cities
+	resource	camels,         1,         209,  47		; region: Coele_Syria | settlement: Damascus | faction: seleucid
+	resource	elephants,      1,         206,  45		; region: Coele_Syria | settlement: Damascus | faction: seleucid
+	resource	elephants,      1,         209,  51		; region: Apamene | settlement: Apameia | faction: seleucid
+	resource	camels,         1,         227,  14		; region: Jawf | settlement: Dumat | faction: desert_faction_07
+	resource	camels,         1,         227,  8		; region: Tayma | settlement: Tayma | faction: desert_faction_06
+	resource	camels,         1,         81,   30		; region: Byzacium | settlement: Thapsus | faction: carthage_hannonid
+	resource	olive_oil,      2,         85,   37		; region: Byzacium | settlement: Thapsus | faction: carthage_hannonid
+	resource	purple_dye,     3,         152,  37		; region: Crete | settlement: Knossos | faction: hellenic_faction_07
+	resource	purple_dye,     3,         197,  22		; region: Rhinocorura | settlement: Rhinocorura | faction: egypt
+	resource	wine,           2,         200,  27		; region: Judaea | settlement: Jerusalem | faction: anatolian_faction_02
+	resource	camels,         1,         105,  14		; region: Tripolitania | settlement: Lepcis_Magna | faction: carthage_hannonid
+	resource	purple_dye,     3,         94,   21		; region: Tripolitania | settlement: Lepcis_Magna | faction: carthage_hannonid
+	resource	timber,         1,         132,  17		; region: Cyrenaica | settlement: Cyrene | faction: hellenic_faction_08
+	resource	camels,         1,         139,  16		; region: Cyrenaica | settlement: Cyrene | faction: hellenic_faction_08
+	resource	camels,         1,         190,  20		; region: Pelousion | settlement: Pelousion | faction: egypt
+	resource	glass,          1,         180,  19		; region: Nile_Delta | settlement: Alexandria | faction: egypt
+	resource	grain,          3,         182,  17		; region: Nile_Delta | settlement: Alexandria | faction: egypt
+	resource	textiles,       1,         184,  22		; region: Pelousion | settlement: Pelousion | faction: egypt
+	resource	camels,         1,         195,  19		; region: Rhinocorura | settlement: Rhinocorura | faction: egypt
+	resource	camels,         1,         167,  13		; region: Libya | settlement: Paraitonion | faction: egypt
+	resource	camels,         1,         185,  12		; region: Middle_Egypt | settlement: Memphis | faction: egypt
+	resource	camels,         1,         181,  9		; region: Hare | settlement: Hermopolis | faction: egypt
+	resource	grain,          2,         185,  9		; region: Middle_Egypt | settlement: Memphis | faction: egypt
+	resource	gold,           1,         192,  4		; region: Thebais | settlement: Waset | faction: egypt
+	resource	camels,         1,         181,  3		; region: Thinis | settlement: Ptolemais | faction: egypt
+	resource	purple_dye,     3,         191,  45		; region: Cyprus | settlement: Salamis | faction: egypt
+	resource	wine,           2,         105,  64		; region: Campania | settlement: Capua | faction: romans_scipii
+	resource	wine,           2,         79,   59		; region: Sardinia_Inferior | settlement: Caralis | faction: carthage_magonid
+	resource	incense,        3,         215,  1		; region: Hejaz | settlement: Hegra | faction: desert_faction_06
+	resource	incense,        3,         206,  10		; region: Nabataea | settlement: Petra | faction: desert_faction_03
+	resource	incense,        3,         218,  44		; region: Regnum_Palmyrae | settlement: Palmyra | faction: seleucid
+	resource	silk,           3,         208,  43		; region: Coele_Syria | settlement: Damascus | faction: seleucid
+	resource	silk,           3,         202,  56		; region: Syria | settlement: Antioch | faction: seleucid
+	resource	wine,           1,         203,  58		; region: Cyrrhestica | settlement: Cyrrhus | faction: seleucid
+	resource	olive_oil,      2,         203,  54		; region: Apamene | settlement: Apameia | faction: seleucid
+	resource	tin,            2,         38,   126		; region: Cornovae | settlement: Iska | faction: britanic_faction_03
+	resource	wild_animals,   3,         83,   23		; region: Tripolitania | settlement: Lepcis_Magna | faction: carthage_hannonid
+	resource	wild_animals,   3,         191,  1		; region: Thebais | settlement: Waset | faction: egypt
+	resource	camels,   		1,         197,  1		; region: Thebais | settlement: Waset | faction: egypt
+	resource	incense,        3,         187,  7		; region: Middle_Egypt | settlement: Memphis | faction: egypt
+	resource	wild_animals,   3,         129,  143		; region: Locus_Gepidae | settlement: Domus_Dulcis_Domus | faction: germanic_faction_06
+	resource	wild_animals,   2,         41,   42		; region: Siga | settlement: Siga | faction: desert_faction_02
+	resource	wild_animals,   1,         53,   43		; region: Numidia | settlement: Cirta | faction: numidia
+	resource	wild_animals,   3,         112,  120		; region: Regnum_Marcomannii | settlement: Vicus_Marcomannii | faction: germanic_faction_05
+	resource	wild_animals,   1,         51,   152		; region: Caledonia | settlement: Vanduara | faction: britanic_faction_05
+	resource	wild_animals,   1,         15,   38		; region: Mauretania | settlement: Walilt | faction: desert_faction_01
+	resource	wild_animals,   1,         41,   30		; region: Sahara | settlement: Nepte | faction: desert_faction_02
+	resource	wild_animals,   1,         13,   46		; region: Tingitana | settlement: Tingi | faction: carthage_barcid
+	resource	wild_animals,   1,         90,   122		; region: Locus_Chatti | settlement: Vicus_Chatti | faction: germanic_faction_08
+	resource	wild_animals,   1,         145,  87		; region: Argedava | settlement: Argedava | faction: dacia
+	resource	wild_animals,   1,         211,  94		; region: Colchis | settlement: Kotais | faction: hellenic_faction_10
+	resource	wild_animals,   1,         214,  114		; region: Siracena | settlement: Siracena | faction: steppe_faction_08
+	resource	iron,           2,         106,  99		; region: Pannonia | settlement: Aquincum | faction: gallic_faction_18
+	resource	iron,           3,         139,  54		; region: Phocis | settlement: Delphi | faction: hellenic_faction_05
+	resource	timber,         1,         191,  57		; region: Cilicia | settlement: Tarsus | faction: seleucid
+	resource	pottery,        1,         195,  57		; region: Cilicia | settlement: Tarsus | faction: seleucid
+	resource	pottery,        1,         161,  44		; region: Rhodos | settlement: Rhodes | faction: hellenic_faction_06
+	resource	pottery,        1,         187,  82		; region: Hyperboria | settlement: Themiskyra | faction: hellenic_faction_15
+	resource	gold,           1,         188,  43		; region: Cyprus | settlement: Salamis | faction: egypt
+	resource	timber,         1,         186,  46		; region: Cyprus | settlement: Salamis | faction: egypt
+	resource	copper,         2,         185,  43		; region: Cyprus | settlement: Salamis | faction: egypt
+	resource	timber,         1,         110,  80		; region: Dalmatia | settlement: Deliminium | faction: illyrian_faction_02
+	resource	gold,           1,         114,  83		; region: Dalmatia | settlement: Deliminium | faction: illyrian_faction_02
+	resource	marble,         1,         136,  48		; region: Arcadia | settlement: Megalopolis | faction: macedon
+	resource	gold,           2,         148,  69		; region: Thrace | settlement: Uscudama | faction: thrace
+	resource	pottery,        1,         196,  58		; region: Cilicia | settlement: Tarsus | faction: seleucid
+	resource	olive_oil,      2,         200,  32		; region: Judaea | settlement: Jerusalem | faction: anatolian_faction_02
+	resource	camels,         1,         203,  24		; region: Negev | settlement: Avdat | faction: desert_faction_03
+	resource	silk,           3,         254,  81		; region: Rhages | settlement: Arsakia | faction: seleucid
+	resource	silk,           3,         224,  63		; region: Mygdonius | settlement: Nisibis | faction: seleucid
+	resource	silk,           3,         239,  57		; region: Babylonia | settlement: Seleucia | faction: seleucid
+	resource	lead,           2,         197,  67		; region: Cappadocia | settlement: Mazaka | faction: caucasian_faction_04
+	resource	elephants,      1,         80,   32		; region: Byzacium | settlement: Thapsus | faction: carthage_hannonid
+	resource	elephants,      1,         13,   42		; region: Mauretania | settlement: Walilt | faction: desert_faction_01
+	resource	camels,         1,         32,   31		; region: Sahara | settlement: Nepte | faction: desert_faction_02
+	resource	camels,         1,         60,   5		; region: Gaetulia | settlement: Dimmidi | faction: rebel_slave
+	resource	wine,           3,         41,   80		; region: Taraconenis | settlement: Osca | faction: iberian_faction_03
+	resource	hides,          1,         68,   109		; region: Central_Gaul | settlement: Alesia | faction: gallic_faction_09
+	resource	hides,          1,         80,   129		; region: Germania_Inferior | settlement: Batavodurum | faction: germanic_faction_01
+	resource	silver,         1,         111,  54		; region: Bruttium | settlement: Croton | faction: romans_scipii
+	resource	silver,         1,         111,  83		; region: Dalmatia | settlement: Deliminium | faction: illyrian_faction_02
+	resource	camels,         1,         100,  10		; region: Fezzan | settlement: Garama | faction: desert_faction_05
+	resource	camels,         1,         115,  10		; region: Syrtica | settlement: Charax | faction: carthage_hannonid
+	resource	camels,         1,         132,  10		; region: Libyan_Syrtica | settlement: Automala | faction: desert_faction_04
+	resource	camels,         1,         140,  10		; region: Nasamonea | settlement: Augila | faction: desert_faction_04
+	resource	camels,         1,         154,  10		; region: Qattara | settlement: Siwa | faction: egypt
+	resource	camels,         1,         177,  15		; region: Nile_Delta | settlement: Alexandria | faction: egypt
+	resource	camels,         1,         208,  17		; region: Nabataea | settlement: Petra | faction: desert_faction_03
+	resource	camels,         1,         210,  34		; region: Arab_Syria | settlement: Bosra | faction: desert_faction_03
+	resource	incense,        3,         219,  1		; region: Khaybar | settlement: Khaybar | faction: desert_faction_08
+	resource	timber,         1,         35,   147		; region: Hibernia | settlement: Tara | faction: britanic_faction_04
+	resource	timber,         1,         47,   153		; region: Caledonia | settlement: Vanduara | faction: britanic_faction_05
+	resource	elephants,      1,         34,   38		; region: Siga | settlement: Siga | faction: desert_faction_02
+	resource	glass,          1,         200,  40		; region: Phoenicia | settlement: Sidon | faction: egypt
+	resource	silver,         1,         132,  94		; region: Locus_Biephi | settlement: Zarmizegetusa | faction: dacian_faction_02
+	resource	gold,           1,         132,  96		; region: Locus_Biephi | settlement: Zarmizegetusa | faction: dacian_faction_02
+	resource	silver,         1,         136,  50		; region: Arcadia | settlement: Megalopolis | faction: macedon
+	resource	marble,         1,         134,  57		; region: Phocis | settlement: Delphi | faction: hellenic_faction_05
+	resource	marble,         1,         141,  50		; region: Argolis | settlement: Argos | faction: macedon
+	resource	furs,           1,         85,   129		; region: Locus_Cherusci | settlement: Vicus_Cherusci | faction: germanic_faction_04
+	resource	furs,           1,         85,   152		; region: Kimbrike_Chersonesos | settlement: Alabu | faction: germanic_faction_02
+	resource	furs,           1,         104,  118		; region: Locus_Suebi | settlement: Vicus_Suebi | faction: germans
+	resource	furs,           1,         230,  152		; region: Tribus_Massagetae | settlement: Campus_Massagetae | faction: steppe_faction_01
+	resource	grain,          1,         153,  106		; region: Tribus_Getae | settlement: Campus_Getae | faction: dacian_faction_01
+	resource	grain,          1,         153,  83		; region: Shumen | settlement: Shumen | faction: thrace
+	resource	grain,          1,         138,  70		; region: Macedonia | settlement: Pella | faction: macedon
+	resource	grain,          1,         114,  95		; region: Pannonia | settlement: Aquincum | faction: gallic_faction_18
+	resource	olive_oil,      1,         135,  50		; region: Elis | settlement: Elis | faction: hellenic_faction_05
+	resource	olive_oil,      1,         41,   60		; region: Hispania | settlement: Carthago_Nova | faction: iberian_faction_05
+	resource	olive_oil,      1,         45,   70		; region: Saguntum | settlement: Bostra | faction: iberian_faction_04
+	resource	wine,           1,         107,  51		; region: Sicilia_Romanus | settlement: Messana | faction: latin_faction_01
+	resource	wine,           1,         56,   79		; region: Emporium | settlement: Dumatha | faction: hellenic_faction_12
+	resource	wine,           1,         142,  58		; region: Thessalia | settlement: Larissa | faction: macedon
+	resource	iron,           2,         227,  78		; region: Urartu | settlement: Tushpa | faction: seleucid
+	resource	iron,           2,         126,  67		; region: Epidamnia | settlement: Epidamnos | faction: illyrian_faction_05
+	resource	iron,           2,         104,  100		; region: Noricum | settlement: Iuvavum | faction: gallic_faction_04
+	resource	tin,            1,         19,   70		; region: Lusitania | settlement: Scallabis | faction: iberian_faction_01
+	resource	iron,           2,         131,  78		; region: Locus_Serdi | settlement: Vicus_Serdi | faction: thracian_faction_02
+	resource	iron,           2,         85,   102		; region: Helvetis | settlement: Aventicos | faction: gallic_faction_16
+	resource	timber,         1,         73,   96		; region: Helvetis | settlement: Aventicos | faction: gallic_faction_16
+	resource	grain,          1,         81,   92		; region: Cisalpine_Gaul | settlement: Mediolanium | faction: gallic_faction_02
+	resource	pottery,        1,         159,  58		; region: Aeolia | settlement: Pergamum | faction: hellenic_faction_03
+	resource	textiles,       1,         157,  57		; region: Aeolia | settlement: Pergamum | faction: hellenic_faction_03
+	resource	timber,         1,         80,   74		; region: Corsica | settlement: Alalia | faction: latin_faction_03
+	resource	timber,         1,         69,   81		; region: Transalpine_Gaul | settlement: Massilia | faction: hellenic_faction_02
 ;;;;;;;;;;;;;;;new regions
-	resource	slaves,         1,         184,  82			;Sinope
-	resource	slaves,         1,         220,  93			;Mtskheta
-	resource	slaves,         1,         236,  91			;Kabalak
-	resource	slaves,         1,         57,   77			;Emporium
-	resource	slaves,         1,         39,   66			;Saguntum
-	resource	slaves,         1,         48,   33			;Dimmidi
-	resource	slaves,         1,         202,  83			;Trapezous
-	resource	slaves,         1,         15,   62			;Ispal
-	resource	slaves,         1,         26,   81			;Velliki
-	resource	slaves,         1,         53,   45			;Iol
-	resource	slaves,         1,         92,   85			;Bononia
-	resource	slaves,         1,         124,  97			;Zarmizegetusa
-	resource	slaves,         1,         119,  135		;Twangste
-	resource	slaves,         1,         44,   127		;Iska
-	resource	slaves,         1,         123,  77			;Scodra
-	resource	slaves,         1,         84,   104		;Aventicos
-	resource	slaves,         1,         118,  90			;Singidun
-	resource	slaves,         1,         124,  67			;Epidamnos
-	resource	slaves,         1,         218,  78			;Arsamosata
-	resource	slaves,         1,         178,  77			;Gangra
-	resource	slaves,         1,         223,  120		;Campus Alanni
-	resource	slaves,         1,         114,  79			;Deliminium
-	resource	slaves,         1,         128,  60			;Ambracia
-	resource	slaves,         1,         161,  17			;Paraitonion
-	resource	slaves,         1,         57,   140		;Eburacum
-	resource	slaves,         1,         59,   129		;Londinium
-	resource	slaves,         1,         49,   138		;Deva
-	resource	slaves,         1,         60,   117		;Samarobriva
-	resource	slaves,         1,         47,   112		;Candate Redonum
-	resource	slaves,         1,         47,   98			;Lemonum
-	resource	slaves,         1,         58,   83			;Narbo Martius
-	resource	slaves,         1,         68,   81			;Massilia
-	resource	slaves,         1,         67,   91			;Lugdunum
-	resource	slaves,         1,         65,   105		;Alesia
-	resource	slaves,         1,         85,   126		;Mattium
-	resource	slaves,         1,         86,   141		;Bordesholm
-	resource	slaves,         1,         89,   119		;Uburzis
-	resource	slaves,         1,         79,   113		;Mediomatrici
-	resource	slaves,         1,         95,   129		;Luppia
-	resource	slaves,         1,         109,  136		;Rougion
-	resource	slaves,         1,         116,  124		;Budorgis
-	resource	slaves,         1,         147,  127		;Vicus Venedae
-	resource	slaves,         1,         188,  114		;Tanais
-	resource	slaves,         1,         173,  98			;Charsonesos
-	resource	slaves,         1,         159,  106		;Campus Scythii
-	resource	slaves,         1,         128,  87			;Naisos
-	resource	slaves,         1,         153,  82			;Shumen
-	resource	slaves,         1,         146,  70			;Edonis
-	resource	slaves,         1,         131,  71			;Bylazora
-	resource	slaves,         1,         158,  72			;Byzantium
-	resource	slaves,         1,         150,  74			;Tylis
-	resource	slaves,         1,         138,  48			;Arcadia
-	resource	slaves,         1,         141,  49			;Argolis
-	resource	slaves,         1,         140,  51			;Peloponnesus
-	resource	slaves,         1,         142,  54			;Megara
-	resource	slaves,         1,         136,  54			;Delphi
-	resource	slaves,         1,         136,  52			;Achaea
-	resource	slaves,         1,         135,  67			;Pella
-	resource	slaves,         1,         141,  65			;
-	resource	slaves,         1,         177,  59			;
-	resource	slaves,         1,         175,  52			;
-	resource	slaves,         1,         135,  58			;Trikke
-	resource	slaves,         1,         155,  62			;
-	resource	slaves,         1,         132,  54			;Thermon
-	resource	slaves,         1,         143,  53			;
-	resource	slaves,         1,         101,  48			;
-	resource	slaves,         1,         138,  45			;Laconia
-	resource	slaves,         1,         147,  37
-	resource	slaves,         1,         160,  43
-	resource	slaves,         1,         134,  47			;Messenia
-	resource	slaves,         1,         134,  48			;Elis
-	resource	slaves,         1,         170,  47			;Lycia
-	resource	slaves,         1,         172,  60			;Phrygia
-	resource	slaves,         1,         125,  63			;Apollonia
-	resource	slaves,         1,         107,  91
-	resource	slaves,         1,         116,  99			;Pannonia Superior
-	resource	slaves,         1,         98,   103		;Noricum
-	resource	slaves,         1,         132,  116		;Locus Anartes
-	resource	slaves,         1,         139,  100
-	resource	slaves,         1,         83,   78
-	resource	slaves,         1,         98,   79			;Asculum
-	resource	slaves,         1,         135,  76			;Serdica
-	resource	slaves,         1,         100,  72			;Narnia
-	resource	slaves,         1,         109,  71
-	resource	slaves,         1,         103,  67
-	resource	slaves,         1,         93,   89
-	resource	slaves,         1,         97,   81
-	resource	slaves,         1,         89,   80
-	resource	slaves,         1,         83,   92
-	resource	slaves,         1,         95,   69
-	resource	slaves,         1,         101,  69
-	resource	slaves,         1,         113,  65
-	resource	slaves,         1,         79,   60
-	resource	slaves,         1,         105,  46
-	resource	slaves,         1,         96,   48
-	resource	slaves,         1,         107,  50
-	resource	slaves,         1,         54,   62
-	resource	slaves,         1,         42,   77			;Osca
-	resource	slaves,         1,         25,   74			;Numantia
-	resource	slaves,         1,         18,   87			;Asturica
-	resource	slaves,         1,         8,    70			;Oxtraca
-	resource	slaves,         1,         16,   59
-	resource	slaves,         1,         38,   59
-	resource	slaves,         1,         11,   45
-	resource	slaves,         1,         61,   39			;Cirta
-	resource	slaves,         1,         80,   46
-	resource	slaves,         1,         81,   34
-	resource	slaves,         1,         97,   17
-	resource	slaves,         1,         130,  17
-	resource	slaves,         1,         186,  4
-	resource	slaves,         1,         183,  10
-	resource	slaves,         1,         177,  18
-	resource	slaves,         1,         207,  16
-	resource	slaves,         1,         198,  25
-	resource	slaves,         1,         210,  25			;Karak
-	resource	slaves,         1,         196,  20			;Rhinocorura
-	resource	slaves,         1,         239,  23			;Barbaricum
-	resource	slaves,         1,         200,  33			;Tyre
-	resource	slaves,         1,         203,  34			;Judaea
-	resource	slaves,         1,         210,  36			;Bosra
-	resource	slaves,         1,         199,  40			;Sidon
-	resource	slaves,         1,         198,  50			;Antioch
-	resource	slaves,         1,         188,  45
-	resource	slaves,         1,         193,  57
-	resource	slaves,         1,         190,  67
-	resource	slaves,         1,         191,  78
-	resource	slaves,         1,         173,  68
-	resource	slaves,         1,         167,  72
-	resource	slaves,         1,         161,  56
-	resource	slaves,         1,         159,  51
-	resource	slaves,         1,         226,  89
-	resource	slaves,         1,         215,  90
-	resource	slaves,         1,         214,  59
-	resource	slaves,         1,         211,  48			;Palmyra
-	resource	slaves,         1,         243,  53			;Seleucia
-	resource	slaves,         1,         251,  49			;Susa
-	resource	slaves,         1,         251,  78			;Europos
-	resource	slaves,         1,         238,  82			;Ganzak
-	resource	slaves,         1,         206,  42			;Damascus
-	resource	slaves,         1,         113,  59			;Croton
-	resource	slaves,         1,         85,   84			;Segesta
-	resource	slaves,         1,         113,  113		;Zavist
-	resource	slaves,         1,         157,  61			;Aeolia
-	resource	slaves,         1,         159,  56 		;Ionia
-	resource	slaves,         1,         148,  52 		;Euboea
-	resource	slaves,         1,         139,  56 		;Boeotia
-	resource	slaves,         1,         35,   144 		;Hibernia
-	resource	slaves,         1,         211,  4			;Hejaz
-	resource	slaves,         1,         220,  9			;Jawf
-	resource	slaves,         1,         203,  22			;Avdat
-	resource	slaves,         1,         207,  84			;Rize
-	resource	slaves,         1,         152,  57			;Lesbos
-	resource	slaves,         1,         140,  59			;Thessalia
-	resource	slaves,         1,         207,  51			;Apamene
-	resource	slaves,         1,         206,  59			;Cyrrhestica
-	resource	slaves,         1,         182,  101		;Bosphorus
-	resource	slaves,         1,         179,  98			;Theodosius
-	resource	slaves,         1,         189,  103		;Sindica
-	resource	slaves,         1,         177,  94			;Scythica Chersonesos
-	resource	slaves,         1,         212,  63			;Commagene
-	resource	slaves,         1,         215,  70			;Arzanene
-	resource	slaves,         1,         224,  55			;Assyria
-	resource	slaves,         1,         220,  65			;Mygdonius
-	resource	slaves,         1,         236,  62			;Adiabene
-	resource	slaves,         1,         226,  76			;Urartu
-	resource	slaves,         1,         246,  44			;Mesopotamia
-	resource	slaves,         1,         246,  66			;Media
-	resource	slaves,         1,         137,  5			;Nasamonea
-	resource	slaves,         1,         130,  9			;Libyan Syrtica
-	resource	slaves,         1,         115,  11			;Syrtica
-	resource	slaves,         1,         98,   7			;Fezzan
-	resource	slaves,         1,         97,   50			;Panormus
-	resource	slaves,         1,         156,  87			;Tomis
-	resource	slaves,         1,         162,  100		;Tyras
-	resource	slaves,         1,         162,  8			;Qattara
-	resource	slaves,         1,         153,  70			;Thracia Odrysus
-	resource	slaves,         1,         143,  89			;Argedava
-	resource	slaves,         1,         81,   134		;Tekelia
-	resource	slaves,         1,         86,   130		;Cherusci
-	resource	slaves,         1,         91,   149		;Alabu
-	resource	slaves,         1,         105,  121		;Suebi
-	resource	slaves,         1,         150,  100		;Getae
-	resource	slaves,         1,         73,   127		;Batavodurum
-	resource	slaves,         1,         117,  130		;Ascaucalis
-	resource	slaves,         1,         120,  107		;Eburodunum
-	resource	slaves,         1,         154,  80			;Odessos
-	resource	slaves,         1,         150,  78			;Arkovna
-	resource	slaves,         1,         144,  74			;Seuthopolis
-	resource	slaves,         1,         141,  76			;Thracia Hellenike
-	resource	slaves,         1,         151,  66			;Thracia Chersonesos
-	resource	slaves,         1,         69,   118		;Atuatuca
-	resource	slaves,         1,         81,   115		;Trier
-	resource	slaves,         1,         103,  88			;Iader
-	resource	slaves,         1,         88,   106		;Raeti
-	resource	slaves,         1,         46,   91			;Aquitania Inferior
-	resource	slaves,         1,         30,   41			;Siga
-	resource	slaves,         1,         191,  20			;Pelousion
-	resource	slaves,         1,         179,  7			;Hare
-	resource	slaves,         1,         180,  4			;Thinis
-	resource	slaves,         1,         9,    46			;Tingis
-	resource	slaves,         1,         83,   62			;Sardinia
-	resource	slaves,         1,         227,  19			;Dumat
-	resource	slaves,         1,         223,  2			;Khaybar
-	resource	slaves,         1,         178,  107		;Kamianka
-	resource	slaves,         1,         233,  109		;Campus Aorsi
-	resource	slaves,         1,         76,   15			;Cydamus
-	resource	slaves,         1,         44,   149		;Scotland
-	resource	slaves,         1,         209,  111		;Siracena
-	resource	slaves,         1,         248,  119		;Dahae
-	resource	slaves,         1,         239,  140		;Massagetae
-	resource	slaves,         1,         215,  150		;Thyssagetae
+	resource	slaves,         1,         184,  82		; region: Hyperboria | settlement: Themiskyra | faction: hellenic_faction_15
+	resource	slaves,         1,         220,  93		; region: Tribus_Sarmatae | settlement: Campus_Sarmatae | faction: caucasian_faction_01
+	resource	slaves,         1,         236,  91		; region: Tribus_Sakae | settlement: Campus_Sakae | faction: caucasian_faction_02
+	resource	slaves,         1,         57,   77		; region: Emporium | settlement: Dumatha | faction: hellenic_faction_12
+	resource	slaves,         1,         39,   66		; region: Saguntum | settlement: Bostra | faction: iberian_faction_04
+	resource	slaves,         1,         48,   33		; region: Sahara | settlement: Nepte | faction: desert_faction_02
+	resource	slaves,         1,         202,  83		; region: Pontos_Paralios | settlement: Trapezous | faction: hellenic_faction_16
+	resource	slaves,         1,         15,   62		; region: Turdulia | settlement: Ispal | faction: iberian_faction_06
+	resource	slaves,         1,         26,   81		; region: Cantabria | settlement: Vellika | faction: iberian_faction_07
+	resource	slaves,         1,         53,   45		; region: Iol | settlement: Iol | faction: carthage_barcid
+	resource	slaves,         1,         92,   85		; region: Aemilia | settlement: Bononia | faction: gallic_faction_10
+	resource	slaves,         1,         124,  97		; region: Locus_Biephi | settlement: Zarmizegetusa | faction: dacian_faction_02
+	resource	slaves,         1,         119,  135		; region: Locus_Gepidae | settlement: Domus_Dulcis_Domus | faction: germanic_faction_06
+	resource	slaves,         1,         44,   127		; region: Cornovae | settlement: Iska | faction: britanic_faction_03
+	resource	slaves,         1,         123,  77		; region: Illyria | settlement: Scodra | faction: illyrian_faction_03
+	resource	slaves,         1,         84,   104		; region: Helvetis | settlement: Aventicos | faction: gallic_faction_16
+	resource	slaves,         1,         118,  90		; region: Scorcouw | settlement: Singidun | faction: gallic_faction_13
+	resource	slaves,         1,         124,  67		; region: Epidamnia | settlement: Epidamnos | faction: illyrian_faction_05
+	resource	slaves,         1,         218,  78		; region: Sophene | settlement: Arsamosata | faction: armenia
+	resource	slaves,         1,         178,  77		; region: Paphlagonia | settlement: Gangra | faction: pontus
+	resource	slaves,         1,         223,  120		; region: Tribus_Aorsi | settlement: Campus_Aorsi | faction: steppe_faction_01
+	resource	slaves,         1,         114,  79		; region: Dalmatia | settlement: Deliminium | faction: illyrian_faction_02
+	resource	slaves,         1,         128,  60		; region: Epirus | settlement: Ambracia | faction: hellenic_faction_13
+	resource	slaves,         1,         161,  17		; region: Libya | settlement: Paraitonion | faction: egypt
+	resource	slaves,         1,         57,   140		; region: Britannia_Inferior | settlement: Eburacum | faction: britanic_faction_01
+	resource	slaves,         1,         59,   129		; region: Britannia_Superior | settlement: Londinium | faction: britons
+	resource	slaves,         1,         49,   138		; region: Tribus_Silurii | settlement: Deva | faction: britanic_faction_02
+	resource	slaves,         1,         60,   117		; region: Locus_Ambiani | settlement: Samarobriva | faction: gallic_faction_08
+	resource	slaves,         1,         47,   112		; region: Armorica | settlement: Condate_Redonum | faction: gallic_faction_07
+	resource	slaves,         1,         47,   98		; region: Aquitania | settlement: Lemonum | faction: gallic_faction_05
+	resource	slaves,         1,         58,   83		; region: Narbonensis | settlement: Narbo_Martius | faction: gallic_faction_06
+	resource	slaves,         1,         68,   81		; region: Transalpine_Gaul | settlement: Massilia | faction: hellenic_faction_02
+	resource	slaves,         1,         67,   91		; region: Lugdinensis | settlement: Lugdunum | faction: gauls
+	resource	slaves,         1,         65,   105		; region: Central_Gaul | settlement: Alesia | faction: gallic_faction_09
+	resource	slaves,         1,         85,   126		; region: Locus_Chatti | settlement: Vicus_Chatti | faction: germanic_faction_08
+	resource	slaves,         1,         86,   141		; region: Tribus_Saxones | settlement: Bordesholm | faction: germanic_faction_02
+	resource	slaves,         1,         89,   119		; region: Agri_Decumates | settlement: Mogontiacum | faction: germanic_faction_03
+	resource	slaves,         1,         79,   113		; region: Belgica | settlement: Mediomatrici | faction: gallic_faction_17
+	resource	slaves,         1,         95,   129		; region: Luppia | settlement: Luppia | faction: germans
+	resource	slaves,         1,         109,  136		; region: Locus_Rugii | settlement: Vicus_Rugii | faction: germanic_faction_10
+	resource	slaves,         1,         116,  124		; region: Regnum_Marcomannii | settlement: Vicus_Marcomannii | faction: germanic_faction_05
+	resource	slaves,         1,         147,  127		; region: Pripet | settlement: Vicus_Venedae | faction: steppe_faction_03
+	resource	slaves,         1,         188,  114		; region: Maeotis | settlement: Tanais | faction: scythia
+	resource	slaves,         1,         173,  98		; region: Scythica_Chersonesos | settlement: Kalos_Limen | faction: hellenic_faction_17
+	resource	slaves,         1,         159,  106		; region: Scythia | settlement: Campus_Scythii | faction: scythia
+	resource	slaves,         1,         128,  87		; region: Dardania | settlement: Naissos | faction: illyrian_faction_04
+	resource	slaves,         1,         153,  82		; region: Shumen | settlement: Shumen | faction: thrace
+	resource	slaves,         1,         146,  70		; region: Edonis | settlement: Philippoi | faction: macedon
+	resource	slaves,         1,         131,  71		; region: Paionia | settlement: Bylazora | faction: thracian_faction_01
+	resource	slaves,         1,         158,  72		; region: Propontis | settlement: Byzantium | faction: hellenic_faction_11
+	resource	slaves,         1,         150,  74		; region: Tylis | settlement: Tylis | faction: gallic_faction_14
+	resource	slaves,         1,         138,  48		; region: Arcadia | settlement: Megalopolis | faction: macedon
+	resource	slaves,         1,         141,  49		; region: Argolis | settlement: Argos | faction: macedon
+	resource	slaves,         1,         140,  51		; region: Peloponnesus | settlement: Corinth | faction: macedon
+	resource	slaves,         1,         142,  54		; region: Megaris | settlement: Megara | faction: macedon
+	resource	slaves,         1,         136,  54		; region: Phocis | settlement: Delphi | faction: hellenic_faction_05
+	resource	slaves,         1,         136,  52		; region: Achaea | settlement: Aigion | faction: hellenic_faction_14
+	resource	slaves,         1,         135,  67		; region: Macedonia | settlement: Pella | faction: macedon
+	resource	slaves,         1,         141,  65		; region: Chalkidiki | settlement: Thessalonica | faction: macedon
+	resource	slaves,         1,         177,  59		; region: Pisidia | settlement: Pisidia_Antioch | faction: seleucid
+	resource	slaves,         1,         175,  52		; region: Pamphylia | settlement: Perge | faction: egypt
+	resource	slaves,         1,         135,  58		; region: Estaiotis | settlement: Trikke | faction: macedon
+	resource	slaves,         1,         155,  62		; region: Mysia | settlement: Abydos | faction: seleucid
+	resource	slaves,         1,         132,  54		; region: Aetolia | settlement: Thermon | faction: hellenic_faction_05
+	resource	slaves,         1,         143,  53		; region: Attica | settlement: Athens | faction: hellenic_faction_09
+	resource	slaves,         1,         101,  48		; region: Akragas | settlement: Akragas | faction: carthage_hannonid
+	resource	slaves,         1,         138,  45		; region: Laconia | settlement: Sparta | faction: hellenic_faction_01
+	resource	slaves,         1,         147,  37		; region: Crete | settlement: Knossos | faction: hellenic_faction_07
+	resource	slaves,         1,         160,  43		; region: Rhodos | settlement: Rhodes | faction: hellenic_faction_06
+	resource	slaves,         1,         134,  47		; region: Messenia | settlement: Messeni | faction: macedon
+	resource	slaves,         1,         134,  48		; region: Elis | settlement: Elis | faction: hellenic_faction_05
+	resource	slaves,         1,         170,  47		; region: Lycia | settlement: Xanthos | faction: egypt
+	resource	slaves,         1,         172,  60		; region: Phrygia | settlement: Phrygia_Apameia | faction: seleucid
+	resource	slaves,         1,         125,  63		; region: Taulantii | settlement: Apollonia | faction: illyrian_faction_05
+	resource	slaves,         1,         107,  91		; region: Pannonia_Inferior | settlement: Segestica | faction: gallic_faction_15
+	resource	slaves,         1,         116,  99		; region: Pannonia | settlement: Aquincum | faction: gallic_faction_18
+	resource	slaves,         1,         98,   103		; region: Noricum | settlement: Iuvavum | faction: gallic_faction_04
+	resource	slaves,         1,         132,  116		; region: Tribus_Iazyges | settlement: Campus_Iazyges | faction: dacian_faction_03
+	resource	slaves,         1,         139,  100		; region: Dacia | settlement: Porrolissum | faction: dacia
+	resource	slaves,         1,         83,   78		; region: Corsica | settlement: Alalia | faction: latin_faction_03
+	resource	slaves,         1,         98,   79		; region: Picenum | settlement: Asculum | faction: latin_faction_02
+	resource	slaves,         1,         135,  76		; region: Locus_Serdi | settlement: Vicus_Serdi | faction: thracian_faction_02
+	resource	slaves,         1,         100,  72		; region: Sabinum | settlement: Narnia | faction: romans_julii
+	resource	slaves,         1,         109,  71		; region: Apulia | settlement: Venusia | faction: romans_brutii
+	resource	slaves,         1,         103,  67		; region: Samnium | settlement: Maleventum | faction: latin_faction_04
+	resource	slaves,         1,         93,   89		; region: Venetia | settlement: Patavium | faction: gallic_faction_03
+	resource	slaves,         1,         97,   81		; region: Umbria | settlement: Ariminum | faction: romans_julii
+	resource	slaves,         1,         89,   80		; region: Etruria | settlement: Arretium | faction: latin_faction_03
+	resource	slaves,         1,         83,   92		; region: Cisalpine_Gaul | settlement: Mediolanium | faction: gallic_faction_02
+	resource	slaves,         1,         95,   69		; region: Latium | settlement: Rome | faction: romans_senate
+	resource	slaves,         1,         101,  69		; region: Campania | settlement: Capua | faction: romans_scipii
+	resource	slaves,         1,         113,  65		; region: Calabria | settlement: Tarentum | faction: romans_brutii
+	resource	slaves,         1,         79,   60		; region: Sardinia_Inferior | settlement: Caralis | faction: carthage_magonid
+	resource	slaves,         1,         105,  46		; region: Sicilia_Graecus | settlement: Syracuse | faction: greek_cities
+	resource	slaves,         1,         96,   48		; region: Sicilia_Poeni | settlement: Lilybaeum | faction: carthage_magonid
+	resource	slaves,         1,         107,  50		; region: Sicilia_Romanus | settlement: Messana | faction: latin_faction_01
+	resource	slaves,         1,         54,   62		; region: Baliares | settlement: Palma | faction: carthage_barcid
+	resource	slaves,         1,         42,   77		; region: Taraconenis | settlement: Osca | faction: iberian_faction_03
+	resource	slaves,         1,         25,   74		; region: Celtiberia | settlement: Numantia | faction: spain
+	resource	slaves,         1,         18,   87		; region: Gallaecia | settlement: Asturica | faction: iberian_faction_02
+	resource	slaves,         1,         8,    70		; region: Lusitania | settlement: Scallabis | faction: iberian_faction_01
+	resource	slaves,         1,         16,   59		; region: Baetica | settlement: Corduba | faction: carthage_barcid
+	resource	slaves,         1,         38,   59		; region: Hispania | settlement: Carthago_Nova | faction: iberian_faction_05
+	resource	slaves,         1,         11,   45		; region: Mauretania | settlement: Walilt | faction: desert_faction_01
+	resource	slaves,         1,         61,   39		; region: Numidia | settlement: Cirta | faction: numidia
+	resource	slaves,         1,         80,   46		; region: Africa | settlement: Carthage | faction: carthage
+	resource	slaves,         1,         81,   34		; region: Byzacium | settlement: Thapsus | faction: carthage_hannonid
+	resource	slaves,         1,         97,   17		; region: Tripolitania | settlement: Lepcis_Magna | faction: carthage_hannonid
+	resource	slaves,         1,         130,  17		; region: Cyrenaica | settlement: Cyrene | faction: hellenic_faction_08
+	resource	slaves,         1,         186,  4		; region: Thebais | settlement: Waset | faction: egypt
+	resource	slaves,         1,         183,  10		; region: Middle_Egypt | settlement: Memphis | faction: egypt
+	resource	slaves,         1,         177,  18		; region: Nile_Delta | settlement: Alexandria | faction: egypt
+	resource	slaves,         1,         207,  16		; region: Nabataea | settlement: Petra | faction: desert_faction_03
+	resource	slaves,         1,         198,  25		; region: Gaza | settlement: Gaza | faction: egypt
+	resource	slaves,         1,         210,  25		; region: Karak | settlement: Kharkha | faction: desert_faction_03
+	resource	slaves,         1,         196,  20		; region: Rhinocorura | settlement: Rhinocorura | faction: egypt
+	resource	slaves,         1,         239,  23		; region: Gaetulia | settlement: Dimmidi | faction: rebel_slave
+	resource	slaves,         1,         200,  33		; region: Tyrea | settlement: Tyre | faction: egypt
+	resource	slaves,         1,         203,  34		; region: Judaea | settlement: Jerusalem | faction: anatolian_faction_02
+	resource	slaves,         1,         210,  36		; region: Arab_Syria | settlement: Bosra | faction: desert_faction_03
+	resource	slaves,         1,         199,  40		; region: Phoenicia | settlement: Sidon | faction: egypt
+	resource	slaves,         1,         198,  50		; region: Syria | settlement: Antioch | faction: seleucid
+	resource	slaves,         1,         188,  45		; region: Cyprus | settlement: Salamis | faction: egypt
+	resource	slaves,         1,         193,  57		; region: Cilicia | settlement: Tarsus | faction: seleucid
+	resource	slaves,         1,         190,  67		; region: Cappadocia | settlement: Mazaka | faction: caucasian_faction_04
+	resource	slaves,         1,         191,  78		; region: Pontus | settlement: Sinope | faction: pontus
+	resource	slaves,         1,         173,  68		; region: Galatia | settlement: Ancyra | faction: gallic_faction_11
+	resource	slaves,         1,         167,  72		; region: Bithynia | settlement: Nicomedia | faction: anatolian_faction_01
+	resource	slaves,         1,         161,  56		; region: Lydia | settlement: Sardis | faction: seleucid
+	resource	slaves,         1,         159,  51		; region: Caria | settlement: Halicarnasus | faction: egypt
+	resource	slaves,         1,         226,  89		; region: Armenia | settlement: Artaxarta | faction: armenia
+	resource	slaves,         1,         215,  90		; region: Colchis | settlement: Kotais | faction: hellenic_faction_10
+	resource	slaves,         1,         214,  59		; region: Osrhoene | settlement: Harran | faction: seleucid
+	resource	slaves,         1,         211,  48		; region: Regnum_Palmyrae | settlement: Palmyra | faction: seleucid
+	resource	slaves,         1,         243,  53		; region: Babylonia | settlement: Seleucia | faction: seleucid
+	resource	slaves,         1,         251,  49		; region: Elymais | settlement: Susa | faction: seleucid
+	resource	slaves,         1,         251,  78		; region: Rhages | settlement: Arsakia | faction: seleucid
+	resource	slaves,         1,         238,  82		; region: Atropatene | settlement: Phraaspa | faction: caucasian_faction_03
+	resource	slaves,         1,         206,  42		; region: Coele_Syria | settlement: Damascus | faction: seleucid
+	resource	slaves,         1,         113,  59		; region: Bruttium | settlement: Croton | faction: romans_scipii
+	resource	slaves,         1,         85,   84		; region: Liguria | settlement: Segesta | faction: gallic_faction_01
+	resource	slaves,         1,         113,  113		; region: Boihaemum | settlement: Lovosice | faction: gallic_faction_10
+	resource	slaves,         1,         157,  61		; region: Aeolia | settlement: Pergamum | faction: hellenic_faction_03
+	resource	slaves,         1,         159,  56		; region: Ionia | settlement: Miletus | faction: egypt
+	resource	slaves,         1,         148,  52		; region: Euboea | settlement: Chalkis | faction: macedon
+	resource	slaves,         1,         139,  56		; region: Boeotia | settlement: Thebes | faction: macedon
+	resource	slaves,         1,         35,   144		; region: Hibernia | settlement: Tara | faction: britanic_faction_04
+	resource	slaves,         1,         211,  4		; region: Hejaz | settlement: Hegra | faction: desert_faction_06
+	resource	slaves,         1,         220,  9		; region: Tayma | settlement: Tayma | faction: desert_faction_06
+	resource	slaves,         1,         203,  22		; region: Negev | settlement: Avdat | faction: desert_faction_03
+	resource	slaves,         1,         207,  84		; region: Rize | settlement: Rize | faction: hellenic_faction_16
+	resource	slaves,         1,         152,  57		; region: Lesbos | settlement: Mytilene | faction: egypt
+	resource	slaves,         1,         140,  59		; region: Thessalia | settlement: Larissa | faction: macedon
+	resource	slaves,         1,         207,  51		; region: Apamene | settlement: Apameia | faction: seleucid
+	resource	slaves,         1,         206,  59		; region: Cyrrhestica | settlement: Cyrrhus | faction: seleucid
+	resource	slaves,         1,         182,  101		; region: Bosphorus | settlement: Pantikapaion | faction: hellenic_faction_04
+	resource	slaves,         1,         179,  98		; region: Theodosian_Bosphorus | settlement: Theodosia | faction: hellenic_faction_04
+	resource	slaves,         1,         189,  103		; region: Sindica | settlement: Phanagoreia | faction: hellenic_faction_04
+	resource	slaves,         1,         177,  94		; region: Tauroi_Chersonesos | settlement: Chersonesos | faction: hellenic_faction_17
+	resource	slaves,         1,         212,  63		; region: Commagene | settlement: Samosata | faction: armenia
+	resource	slaves,         1,         215,  70		; region: Arzanene | settlement: Carcathiocerta | faction: armenia
+	resource	slaves,         1,         224,  55		; region: Assyria | settlement: Hatra | faction: seleucid
+	resource	slaves,         1,         220,  65		; region: Mygdonius | settlement: Nisibis | faction: seleucid
+	resource	slaves,         1,         236,  62		; region: Adiabene | settlement: Arbela | faction: seleucid
+	resource	slaves,         1,         226,  76		; region: Urartu | settlement: Tushpa | faction: seleucid
+	resource	slaves,         1,         246,  44		; region: Mesopotamia | settlement: Uruk | faction: seleucid
+	resource	slaves,         1,         246,  66		; region: Media | settlement: Ecbatana | faction: seleucid
+	resource	slaves,         1,         137,  5		; region: Nasamonea | settlement: Augila | faction: desert_faction_04
+	resource	slaves,         1,         130,  9		; region: Libyan_Syrtica | settlement: Automala | faction: desert_faction_04
+	resource	slaves,         1,         115,  11		; region: Syrtica | settlement: Charax | faction: carthage_hannonid
+	resource	slaves,         1,         98,   7		; region: Fezzan | settlement: Garama | faction: desert_faction_05
+	resource	slaves,         1,         97,   50		; region: Panormus | settlement: Panormus | faction: carthage_magonid
+	resource	slaves,         1,         156,  87		; region: Tomis | settlement: Tomis | faction: hellenic_faction_18
+	resource	slaves,         1,         162,  100		; region: Tyragetae | settlement: Tyras | faction: steppe_faction_02
+	resource	slaves,         1,         162,  8		; region: Qattara | settlement: Siwa | faction: egypt
+	resource	slaves,         1,         153,  70		; region: Thrace | settlement: Uscudama | faction: thrace
+	resource	slaves,         1,         143,  89		; region: Argedava | settlement: Argedava | faction: dacia
+	resource	slaves,         1,         81,   134		; region: Locus_Chauci | settlement: Vicus_Chauci | faction: germanic_faction_09
+	resource	slaves,         1,         86,   130		; region: Locus_Cherusci | settlement: Vicus_Cherusci | faction: germanic_faction_04
+	resource	slaves,         1,         91,   149		; region: Kimbrike_Chersonesos | settlement: Alabu | faction: germanic_faction_02
+	resource	slaves,         1,         105,  121		; region: Locus_Suebi | settlement: Vicus_Suebi | faction: germans
+	resource	slaves,         1,         150,  100		; region: Tribus_Getae | settlement: Campus_Getae | faction: dacian_faction_01
+	resource	slaves,         1,         73,   127		; region: Germania_Inferior | settlement: Batavodurum | faction: germanic_faction_01
+	resource	slaves,         1,         117,  130		; region: Locus_Gothi | settlement: Vicus_Gothi | faction: germanic_faction_07
+	resource	slaves,         1,         120,  107		; region: Locus_Boii | settlement: Vicus_Boii | faction: gallic_faction_10
+	resource	slaves,         1,         154,  80		; region: Odessos | settlement: Odessos | faction: hellenic_faction_18
+	resource	slaves,         1,         150,  78		; region: Arkovna | settlement: Arkovna | faction: gallic_faction_14
+	resource	slaves,         1,         144,  74		; region: Moesia | settlement: Seuthopolis | faction: thrace
+	resource	slaves,         1,         141,  76		; region: Bulgaria | settlement: Philippopolis | faction: thrace
+	resource	slaves,         1,         151,  66		; region: Thracia_Chersonesos | settlement: Lysimachia | faction: hellenic_faction_05
+	resource	slaves,         1,         69,   118		; region: Tongeren | settlement: Atuatuca | faction: gallic_faction_08
+	resource	slaves,         1,         81,   115		; region: Germania_Superior | settlement: Trier | faction: gallic_faction_12
+	resource	slaves,         1,         103,  88		; region: Illyria_Pannonia | settlement: Salona | faction: illyrian_faction_01
+	resource	slaves,         1,         88,   106		; region: Raetia | settlement: Kambodunon | faction: latin_faction_05
+	resource	slaves,         1,         46,   91		; region: Aquitania_Inferior | settlement: Burdigala | faction: iberian_faction_08
+	resource	slaves,         1,         30,   41		; region: Siga | settlement: Siga | faction: desert_faction_02
+	resource	slaves,         1,         191,  20		; region: Pelousion | settlement: Pelousion | faction: egypt
+	resource	slaves,         1,         179,  7		; region: Hare | settlement: Hermopolis | faction: egypt
+	resource	slaves,         1,         180,  4		; region: Thinis | settlement: Ptolemais | faction: egypt
+	resource	slaves,         1,         9,    46		; region: Tingitana | settlement: Tingi | faction: carthage_barcid
+	resource	slaves,         1,         83,   62		; region: Sardinia | settlement: Olbia | faction: carthage_magonid
+	resource	slaves,         1,         227,  19		; region: Jawf | settlement: Dumat | faction: desert_faction_07
+	resource	slaves,         1,         223,  2		; region: Khaybar | settlement: Khaybar | faction: desert_faction_08
+	resource	slaves,         1,         178,  107		; region: Kamianka | settlement: Kamianka | faction: scythia
+	resource	slaves,         1,         233,  109		; region: Tribus_Alanni | settlement: Campus_Alanni | faction: steppe_faction_08
+	resource	slaves,         1,         76,   15		; region: Cydamus | settlement: Cydamus | faction: desert_faction_05
+	resource	slaves,         1,         44,   149		; region: Caledonia | settlement: Vanduara | faction: britanic_faction_05
+	resource	slaves,         1,         209,  111		; region: Siracena | settlement: Siracena | faction: steppe_faction_08
+	resource	slaves,         1,         248,  119		; region: Tribus_Dahae | settlement: Campus_Dahae | faction: steppe_faction_06
+	resource	slaves,         1,         239,  140		; region: Tribus_Massagetae | settlement: Campus_Massagetae | faction: steppe_faction_01
+	resource	slaves,         1,         215,  150		; region: Tribus_Thyssagetae | settlement: Campus_Thyssagetae | faction: steppe_faction_07
 end
 
 ;; JNF 2021-06-01 - resources with resource quantity disabled
 resource_quantity_disabled
-	resource	iron,           1,         83,   128
-	resource	wine,           1,         53,   63
-	resource	marble,         1,         55,   63
-	resource	glass,          1,         201,  36			;Tyre
-	resource	purple_dye,     1,         201,  37			;Tyre
-	resource	purple_dye,     1,         201,  38			;Tyre
-	resource	purple_dye,     1,         201,  39			;Tyre
-	resource	gold,           1,         45,   135
-	resource	gold,           1,         20,   84
-	resource	gold,           1,         140,  64
-	resource	grain,          1,         109,  94
-	resource	grain,          1,         116,  92
-	resource	grain,          1,         184,  18
-	resource	grain,          1,         186,  5
-	resource	grain,          1,         184,  9
-	resource	grain,          1,         184,  8
-	resource	grain,          1,         183,  2
-	resource	grain,          1,         182,  2
-	resource	grain,          1,         83,   31
-	resource	grain,          1,         84,   31
-	resource	grain,          1,         43,   47
-	resource	grain,          1,         44,   47
-	resource	grain,          1,         103,  44
-	resource	grain,          1,         83,   41
-	resource	grain,          1,         84,   41
-	resource	grain,          1,         88,   21
-	resource	grain,          1,         70,   42
-	resource	furs,           1,         130,  99
-	resource	furs,           1,         97,   131
-	resource	furs,           1,         126,  112
-	resource	furs,           1,         115,  132
-	resource	furs,           1,         192,  140
-	resource	furs,           1,         169,  141
-	resource	furs,           1,         148,  144
-	resource	lead,           1,         89,   106
-	resource	lead,           1,         92,   105
-	resource	lead,           1,         52,   143
-	resource	lead,           1,         52,   139
-	resource	amber,          1,         140,  125		;Pripet
-	resource	amber,          1,         141,  125		;Pripet
-	resource	amber,          1,         142,  125		;Pripet
-	resource	amber,          1,         96,   137
-	resource	amber,          1,         98,   138
-	resource	amber,          1,         93,   136
-	resource	wild_animals,   1,         215,  144
-	resource	timber,         1,         208,  145
-	resource	timber,         1,         176,  141
-	resource	timber,         1,         158,  142
-	resource	timber,         1,         223,  93
-	resource	timber,         1,         229,  100
-	resource	timber,         1,         96,   106
-	resource	timber,         1,         92,   117
-	resource	timber,         1,         84,   124
-	resource	timber,         1,         86,   145
-	resource	timber,         1,         89,   128
-	resource	timber,         1,         62,   111
-	resource	timber,         1,         72,   111
-	resource	timber,         1,         125,  137
-	resource	timber,         1,         128,  114
-	resource	timber,         1,         117,  123
-	resource	timber,         1,         116,  110
-	resource	timber,         1,         103,  118
-	resource	timber,         1,         95,   133
-	resource	timber,         1,         52,   130		;Britannia_Superior
-	resource	amber,          1,         123,  144
-	resource	amber,          1,         123,  143
-	resource	amber,          1,         123,  142
-	resource	camels,         1,         251,  117
-	resource	hides,			1,         170,  128
-	resource	hides,			1,         238,  147
-	resource	hides,			1,         219,  124
-	resource	silver,         1,         216,  108
-	resource	lead,           1,         45,   133
-	resource	lead,           1,         44,   137
-	resource	amber,          1,         113,  136
-	resource	silver,         1,         107,  132
-	resource	iron,           1,         232,  81
-	resource	iron,           1,         232,  82
-	resource	iron,           1,         105,  133
-	resource	iron,           1,         105,  134
-	resource	iron,           1,         49,   129
-	resource	iron,           1,         50,   130
-	resource	iron,           1,         83,   127
-	resource	iron,           1,         108,  124
-	resource	iron,           1,         107,  125
-	resource	textiles,       1,         69,   122
-	resource	textiles,       1,         56,   129
-	resource	pottery,        1,         66,   123
-	resource	grain,          1,         190,  115
-	resource	hides,          1,         84,   113
-	resource	timber,         1,         41,   110
-	resource	glass,          1,         46,   111
-	resource	iron,           1,         110,  111
-	resource	iron,           1,         109,  110
-	resource	iron,           1,         173,  113
-	resource	iron,           1,         171,  111
-	resource	iron,           1,         54,   104
-	resource	iron,           1,         53,   103
-	resource	lead,           1,         54,   99
-	resource	lead,           1,         54,   98
-	resource	gold,           1,         136,  98
-	resource	iron,           1,         142,  98
-	resource	iron,           1,         141,  99
-	resource	timber,         1,         160,  99
-	resource	grain,          1,         174,  101
-	resource	grain,          1,         178,  99
-	resource	grain,          1,         179,  99
-	resource	grain,          1,         180,  99
-	resource	wine,          	1,         250,  94
-	resource	wine,          	1,         251,  94
-	resource	wine,          	1,         194,  102
-	resource	wine,          	1,         196,  103
-	resource	wine,          	1,         182,  102
-	resource	wine,          	1,         183,  100
-	resource	wine,           1,         47,   91
-	resource	wine,           1,         45,   89
-	resource	pottery,        1,         67,   91			;Lugdinensis
-	resource	iron,           1,         54,   90
-	resource	iron,           1,         55,   90
-	resource	gold,           1,         214,  92
-	resource	glass,          1,         96,   91
-	resource	textiles,       1,         91,   90
-	resource	textiles,       1,         49,   85
-	resource	wine,           1,         65,   86
-	resource	wine,           1,         55,   82
-	resource	wine,           1,         57,   83
-	resource	silver,         1,         59,   85
-	resource	iron,           1,         112,  85
-	resource	wine,           1,         106,  89
-	resource	wine,           1,         107,  88
-	resource	wine,           1,         106,  88
-	resource	gold,           1,         148,  79
-	resource	iron,           1,         16,   89
-	resource	iron,           1,         18,   89
-	resource	tin,            1,         23,   87
-	resource	timber,         1,         24,   82
-	resource	gold,           1,         117,  77
-	resource	olive_oil,      1,         121,  73
-	resource	olive_oil,      1,         123,  73
-	resource	iron,           1,         223,  81
-	resource	iron,           1,         225,  82
-	resource	wine,           1,         220,  86
-	resource	wine,           1,         221,  88
-	resource	pottery,        1,         86,   83
-	resource	timber,         1,         78,   84
-	resource	timber,         1,         197,  81
-	resource	iron,           1,         188,  74
-	resource	iron,           1,         189,  75
-	resource	silver,         1,         201,  79
-	resource	iron,           1,         31,   74
-	resource	iron,           1,         32,   74
-	resource	lead,           1,         30,   80
-	resource	lead,           1,         31,   81
-	resource	iron,           1,         90,   77
-	resource	iron,           1,         91,   76
-	resource	marble,         1,         91,   82
-	resource	silver,         1,         47,   77
-	resource	marble,         1,         50,   72
-	resource	wine,           1,         44,   79
-	resource	wine,           1,         40,   81
-	resource	pottery,        1,         99,   79
-	resource	iron,           1,         240,  67
-	resource	iron,           1,         240,  64
-	resource	elephants,      1,         253,  75
-	resource	camels,         1,         250,  68
-	resource	timber,         1,         140,  66
-	resource	timber,         1,         155,  70
-	resource	wine,           1,         163,  69
-	resource	wine,           1,         166,  70
-	resource	textiles,       1,         171,  64
-	resource	lead,           1,         196,  68
-	resource	silver,         1,         38,   68
-	resource	pottery,        1,         40,   65
-	resource	olive_oil,      1,         111,  67			;Apulia
-	resource	olive_oil,      1,         111,  68			;Apulia
-	resource	copper,         1,         108,  66			;Apulia
-	resource	copper,         1,         108,  67			;Apulia
-	resource	timber,         1,         115,  65
-	resource	camels,         1,         217,  58
-	resource	elephants,      1,         216,  62
-	resource	textiles,       1,         218,  60
-	resource	wine,           1,         18,   54
-	resource	wine,           1,         19,   57
-	resource	olive_oil,      1,         16,   58
-	resource	olive_oil,      1,         12,   54
-	resource	gold,           1,         16,   54
-	resource	timber,         1,         156,  65
-	resource	silver,         1,         160,  63
-	resource	wine,           1,         161,  65
-	resource	silver,         1,         195,  60
-	resource	lead,           1,         47,   60
-	resource	wine,           1,         54,   61
-	resource	silver,         1,         167,  56
-	resource	timber,         1,         156,  55
-	resource	marble,         1,         152,  62			;Mysia
-	resource	marble,         1,         164,  55			;Lydia
-	resource	textiles,       1,         160,  54
-	resource	iron,           1,         202,  58
-	resource	iron,           1,         201,  58
-	resource	camels,         1,         206,  54
-	resource	elephants,      1,         201,  50
-	resource	textiles,       1,         198,  56
-	resource	elephants,      1,         238,  55
-	resource	camels,         1,         240,  49
-	resource	marble,         1,         143,  54			;Athens
-	resource	silver,         1,         144,  53			;Athens
-	resource	marble,         1,         148,  51			;Euboea
-	resource	grain,          1,         80,   64			;Sardinia_Superior
-	resource	silver,         1,         82,   63			;Sardinia_Superior
-	resource	silver,         1,         82,   60			;Sardinia_Inferior
-	resource	olive_oil,      1,         142,  55
-	resource	olive_oil,      1,         146,  54
-	resource	camels,         1,         251,  43
-	resource	elephants,      1,         254,  43
-	resource	iron,           1,         251,  53
-	resource	iron,           1,         252,  54
-	resource	timber,         1,         134,  46
-	resource	wine,           1,         166,  49			;Lycia
-	resource	wine,           1,         167,  49			;Lycia
-	resource	olive_oil,      1,         173,  48			;Lycia
-	resource	olive_oil,      1,         173,  49			;Lycia
-	resource	textiles,       1,         164,  51
-	resource	camels,         1,         2,    23
-	resource	timber,         1,         15,   44
-	resource	copper,         1,         26,   39
-	resource	copper,         1,         27,   39
-	resource	camels,         1,         215,  42
-	resource	elephants,      1,         58,   39
-	resource	camels,         1,         60,   31
-	resource	marble,         1,         64,   38
-	resource	timber,         1,         58,   45
-	resource	timber,         1,         86,   42
-	resource	elephants,      1,         73,   42
-	resource	camels,         1,         80,   40
-	resource	olive_oil,      1,         76,   44
-	resource	olive_oil,      1,         78,   44
-	resource	timber,         1,         104,  45
-	resource	camels,         1,         209,  47
-	resource	elephants,      1,         206,  45
-	resource	elephants,      1,         209,  51
-	resource	camels,         1,         227,  14
-	resource	camels,         1,         227,  8
-	resource	camels,         1,         81,   30
-	resource	olive_oil,      1,         85,   37
-	resource	purple_dye,     1,         150,  36
-	resource	purple_dye,     1,         145,  37
-	resource	purple_dye,     1,         151,  36
-	resource	iron,           1,         150,  38
-	resource	iron,           1,         152,  37
-	resource	purple_dye,     1,         199,  31
-	resource	purple_dye,     1,         197,  22
-	resource	olive_oil,      1,         200,  34
-	resource	wine,           1,         202,  35
-	resource	wine,           1,         200,  27
-	resource	camels,         1,         105,  14
-	resource	purple_dye,     1,         94,   21
-	resource	purple_dye,     1,         99,   21
-	resource	purple_dye,     1,         89,   23
-	resource	timber,         1,         132,  17
-	resource	camels,         1,         139,  16
-	resource	camels,         1,         190,  20
-	resource	glass,          1,         180,  19
-	resource	grain,          1,         182,  17
-	resource	grain,          1,         182,  16
-	resource	grain,          1,         183,  16
-	resource	textiles,       1,         184,  22
-	resource	camels,         1,         195,  19
-	resource	camels,         1,         167,  13
-	resource	camels,         1,         185,  12
-	resource	camels,         1,         181,  9
-	resource	grain,          1,         183,  9
-	resource	grain,          1,         185,  9
-	resource	gold,           1,         192,  4
-	resource	camels,         1,         181,  3
-	resource	purple_dye,     1,         191,  45
-	resource	purple_dye,     1,         192,  48
-	resource	purple_dye,     1,         187,  42
-	resource	wine,           1,         105,  64
-	resource	wine,           1,         78,   57
-	resource	wine,           1,         79,   59
-	resource	incense,        1,         213,  1			;Hejaz
-	resource	incense,        1,         214,  1			;Hejaz
-	resource	incense,        1,         215,  1			;Hejaz
-	resource	incense,        1,         211,  26
-	resource	incense,        1,         207,  8
-	resource	incense,        1,         206,  10
-	resource	incense,        1,         207,  12
-	resource	incense,        1,         217,  47
-	resource	incense,        1,         216,  45
-	resource	incense,        1,         218,  44
-	resource	silk,           1,         208,  43
-	resource	silk,           1,         208,  44
-	resource	silk,           1,         208,  45
-	resource	silk,           1,         199,  58
-	resource	silk,           1,         200,  58
-	resource	silk,           1,         202,  56			;Antioch
-	resource	wine,           1,         203,  58			;Cyrrhus
-	resource	olive_oil,      1,         203,  53			;Apamene
-	resource	olive_oil,      1,         203,  54			;Apamene
-	resource	tin,            1,         38,   126		;Cornovae
-	resource	tin,            1,         40,   126		;Cornovae
-	resource	wild_animals,   1,         79,   26
-	resource	wild_animals,   1,         82,   25
-	resource	wild_animals,   1,         83,   23
-	resource	wild_animals,   1,         191,  1
-	resource	wild_animals,   1,         193,  1
-	resource	camels,   		1,         197,  1
-	resource	wild_animals,   1,         189,  1
-	resource	incense,        1,         187,  10
-	resource	incense,        1,         183,  12
-	resource	incense,        1,         187,  7
-	resource	wild_animals,   1,         133,  148
-	resource	wild_animals,   1,         129,  143
-	resource	wild_animals,   1,         136,  137
-	resource	wild_animals,   1,         41,   42
-	resource	wild_animals,   1,         53,   43
-	resource	wild_animals,   1,         45,   41
-	resource	wild_animals,   1,         103,  122
-	resource	wild_animals,   1,         110,  122
-	resource	wild_animals,   1,         112,  120
-	resource	wild_animals,   1,         51,   152		;Caledonia
-	resource	wild_animals,   1,         15,   38			;Mauretania
-	resource	wild_animals,   1,         41,   30			;Sahara
-	resource	wild_animals,   1,         13,   46			;Tingitana
-	resource	wild_animals,   1,         90,   122		;Chauci
-	resource	wild_animals,   1,         145,  87			;Argedava
-	resource	wild_animals,   1,         211,  94			;Colchis
-	resource	wild_animals,   1,         214,  114		;Siracena
-	resource	wine,           1,         101,  67
-	resource	textiles,       1,         94,   93
-	resource	iron,           1,         106,  99
-	resource	iron,           1,         105,  100
-	resource	incense,        1,         212,  21
-	resource	iron,           1,         139,  54
-	resource	timber,         1,         191,  57
-	resource	pottery,        1,         195,  57
-	resource	pottery,        1,         161,  44			;Rhodes
-	resource	pottery,        1,         187,  82			;Sinope
-	resource	purple_dye,     1,         197,  25
-	resource	gold,           1,         187,  43
-	resource	timber,         1,         186,  46
-	resource	copper,         1,         184,  42			;Cyprus
-	resource	copper,         1,         185,  43			;Cyprus
-	resource	timber,         1,         110,  80
-	resource	iron,           1,         111,  85
-	resource	gold,           1,         114,  84
-	resource	marble,         1,         136,  49
-	resource	iron,           1,         139,  55
-	resource	iron,           1,         141,  55
-	resource	gold,           1,         151,  69
-	resource	pottery,        1,         196,  58
-	resource	olive_oil,      1,         200,  32
-	resource	camels,         1,         203,  24
-	resource	amber,          1,         108,  137
-	resource	amber,          1,         114,  137
-	resource	silk,           1,         254,  81
-	resource	silk,           1,         254,  76
-	resource	silk,           1,         252,  77
-	resource	silk,           1,         220,  60
-	resource	silk,           1,         222,  61
-	resource	silk,           1,         224,  63
-	resource	silk,           1,         239,  57			;Babylon
-	resource	silk,           1,         241,  56			;Babylon
-	resource	silk,           1,         243,  55			;Babylon
-	resource	lead,           1,         197,  68
-	resource	wine,           1,         159,  64
-	resource	olive_oil,      1,         83,   38
-	resource	elephants,      1,         80,   32
-	resource	elephants,      1,         13,   42
-	resource	camels,         1,         32,   31
-	resource	camels,         1,         60,   5
-	resource	wine,           1,         41,   80
-	resource	wine,           1,         63,   87
-	resource	hides,          1,         68,   109
-	resource	hides,          1,         80,   129
-	resource	silver,         1,         112,  55
-	resource	silver,         1,         111,  82
-	resource	camels,         1,         100,  10
-	resource	camels,         1,         115,  10
-	resource	camels,         1,         132,  10
-	resource	camels,         1,         140,  10
-	resource	camels,         1,         154,  10
-	resource	camels,         1,         177,  15
-	resource	camels,         1,         208,  17
-	resource	camels,         1,         210,  34
-	resource	incense,        1,         219,  1
-	resource	incense,        1,         217,  2
-	resource	incense,        1,         226,  3
-	resource	timber,         1,         35,   147		;Hibernia
-	resource	timber,         1,         47,   153		;Scotland
-	resource	elephants,      1,         34,   38			;Siga
-	resource	glass,          1,         200,  40			;Sidon
-	resource	silver,         1,         132,  94			;Zarmizegetusa
-	resource	gold,           1,         132,  96			;Zarmizegetusa
-	resource	silver,         1,         136,  50			;Arcadia
-	resource	marble,         1,         134,  57			;Delphi
-	resource	marble,         1,         141,  50			;Argolis
-	resource	furs,           1,         85,   129		;Cherusci
-	resource	furs,           1,         85,   152		;Alabu
-	resource	furs,           1,         104,  118		;Suebi
-	resource	furs,           1,         230,  152		;Massagetae
-	resource	grain,          1,         153,  106		;Getae
-	resource	grain,          1,         153,  83			;Shumen
-	resource	grain,          1,         138,  70			;Pella
-	resource	grain,          1,         114,  95			;Pannonia
-	resource	olive_oil,      1,         135,  50			;Elis
-	resource	olive_oil,      1,         41,   60			;Hispania
-	resource	olive_oil,      1,         45,   70			;Saguntum
-	resource	wine,           1,         107,  51			;Messenia
-	resource	wine,           1,         56,   79			;Emporium
-	resource	wine,           1,         142,  58			;Thessaly
-	resource	iron,           1,         226,  78			;Urartu
-	resource	iron,           1,         227,  78			;Urartu
-	resource	iron,           1,         126,  67			;Epidamnos
-	resource	iron,           1,         127,  67			;Epidamnos
-	resource	iron,           1,         104,  100		;Noricum
-	resource	iron,           1,         105,  100		;Noricum
-	resource	tin,            1,         19,   70			;Lusitani
-	resource	iron,           1,         131,  78			;Serdica
-	resource	iron,           1,         132,  78			;Serdica
-	resource	iron,           1,         85,   102		;Helvetis
-	resource	iron,           1,         85,   103		;Helvetis
-	resource	timber,         1,         73,   96			;Helvetis
-	resource	grain,          1,         81,   92			;Cisalpine_Gaul
-	resource	pottery,        1,         159,  58			;Pergamon
-	resource	textiles,       1,         157,  57			;Pergamon
-	resource	timber,         1,         80,   74			;Corsica
-	resource	timber,         1,         69,   81			;Massilia
+	resource	iron,           1,         83,   128		; region: Locus_Chatti | settlement: Vicus_Chatti | faction: germanic_faction_08
+	resource	wine,           1,         53,   63		; region: Baliares | settlement: Palma | faction: carthage_barcid
+	resource	marble,         1,         55,   63		; region: Baliares | settlement: Palma | faction: carthage_barcid
+	resource	glass,          1,         201,  36		; region: Tyrea | settlement: Tyre | faction: egypt
+	resource	purple_dye,     1,         201,  37		; region: Tyrea | settlement: Tyre | faction: egypt
+	resource	purple_dye,     1,         201,  38		; region: Tyrea | settlement: Tyre | faction: egypt
+	resource	purple_dye,     1,         201,  39		; region: Tyrea | settlement: Tyre | faction: egypt
+	resource	gold,           1,         45,   135		; region: Tribus_Silurii | settlement: Deva | faction: britanic_faction_02
+	resource	gold,           1,         20,   84		; region: Gallaecia | settlement: Asturica | faction: iberian_faction_02
+	resource	gold,           1,         140,  64		; region: Chalkidiki | settlement: Thessalonica | faction: macedon
+	resource	grain,          1,         109,  94		; region: Pannonia_Inferior | settlement: Segestica | faction: gallic_faction_15
+	resource	grain,          1,         116,  92		; region: Scorcouw | settlement: Singidun | faction: gallic_faction_13
+	resource	grain,          1,         184,  18		; region: Pelousion | settlement: Pelousion | faction: egypt
+	resource	grain,          1,         186,  5		; region: Thebais | settlement: Waset | faction: egypt
+	resource	grain,          1,         184,  9		; region: Middle_Egypt | settlement: Memphis | faction: egypt
+	resource	grain,          1,         184,  8		; region: Hare | settlement: Hermopolis | faction: egypt
+	resource	grain,          1,         183,  2		; region: Thinis | settlement: Ptolemais | faction: egypt
+	resource	grain,          1,         182,  2		; region: Thinis | settlement: Ptolemais | faction: egypt
+	resource	grain,          1,         83,   31		; region: Byzacium | settlement: Thapsus | faction: carthage_hannonid
+	resource	grain,          1,         84,   31		; region: Byzacium | settlement: Thapsus | faction: carthage_hannonid
+	resource	grain,          1,         43,   47		; region: Iol | settlement: Iol | faction: carthage_barcid
+	resource	grain,          1,         44,   47		; region: Iol | settlement: Iol | faction: carthage_barcid
+	resource	grain,          1,         103,  44		; region: Sicilia_Graecus | settlement: Syracuse | faction: greek_cities
+	resource	grain,          1,         83,   41		; region: Africa | settlement: Carthage | faction: carthage
+	resource	grain,          1,         84,   41		; region: Africa | settlement: Carthage | faction: carthage
+	resource	grain,          1,         88,   21		; region: Tripolitania | settlement: Lepcis_Magna | faction: carthage_hannonid
+	resource	grain,          1,         70,   42		; region: Numidia | settlement: Cirta | faction: numidia
+	resource	furs,           1,         130,  99		; region: Locus_Biephi | settlement: Zarmizegetusa | faction: dacian_faction_02
+	resource	furs,           1,         97,   131		; region: Luppia | settlement: Luppia | faction: germans
+	resource	furs,           1,         126,  112		; region: Tribus_Iazyges | settlement: Campus_Iazyges | faction: dacian_faction_03
+	resource	furs,           1,         115,  132		; region: Locus_Gothi | settlement: Vicus_Gothi | faction: germanic_faction_07
+	resource	furs,           1,         192,  140		; region: Tribus_Thyssagetae | settlement: Campus_Thyssagetae | faction: steppe_faction_07
+	resource	furs,           1,         169,  141		; region: Kamianka | settlement: Kamianka | faction: scythia
+	resource	furs,           1,         148,  144		; region: Pripet | settlement: Vicus_Venedae | faction: steppe_faction_03
+	resource	lead,           1,         89,   106		; region: Raetia | settlement: Kambodunon | faction: latin_faction_05
+	resource	lead,           1,         92,   105		; region: Raetia | settlement: Kambodunon | faction: latin_faction_05
+	resource	lead,           1,         52,   143		; region: Britannia_Inferior | settlement: Eburacum | faction: britanic_faction_01
+	resource	lead,           1,         52,   139		; region: Britannia_Inferior | settlement: Eburacum | faction: britanic_faction_01
+	resource	amber,          1,         140,  125		; region: Pripet | settlement: Vicus_Venedae | faction: steppe_faction_03
+	resource	amber,          1,         141,  125		; region: Pripet | settlement: Vicus_Venedae | faction: steppe_faction_03
+	resource	amber,          1,         142,  125		; region: Pripet | settlement: Vicus_Venedae | faction: steppe_faction_03
+	resource	amber,          1,         96,   137		; region: Tribus_Saxones | settlement: Bordesholm | faction: germanic_faction_02
+	resource	amber,          1,         98,   138		; region: Tribus_Saxones | settlement: Bordesholm | faction: germanic_faction_02
+	resource	amber,          1,         93,   136		; region: Tribus_Saxones | settlement: Bordesholm | faction: germanic_faction_02
+	resource	wild_animals,   1,         215,  144		; region: Tribus_Thyssagetae | settlement: Campus_Thyssagetae | faction: steppe_faction_07
+	resource	timber,         1,         208,  145		; region: Tribus_Thyssagetae | settlement: Campus_Thyssagetae | faction: steppe_faction_07
+	resource	timber,         1,         176,  141		; region: Kamianka | settlement: Kamianka | faction: scythia
+	resource	timber,         1,         158,  142		; region: Pripet | settlement: Vicus_Venedae | faction: steppe_faction_03
+	resource	timber,         1,         223,  93		; region: Tribus_Sarmatae | settlement: Campus_Sarmatae | faction: caucasian_faction_01
+	resource	timber,         1,         229,  100		; region: Tribus_Alanni | settlement: Campus_Alanni | faction: steppe_faction_08
+	resource	timber,         1,         96,   106		; region: Noricum | settlement: Iuvavum | faction: gallic_faction_04
+	resource	timber,         1,         92,   117		; region: Agri_Decumates | settlement: Mogontiacum | faction: germanic_faction_03
+	resource	timber,         1,         84,   124		; region: Locus_Chatti | settlement: Vicus_Chatti | faction: germanic_faction_08
+	resource	timber,         1,         86,   145		; region: Kimbrike_Chersonesos | settlement: Alabu | faction: germanic_faction_02
+	resource	timber,         1,         89,   128		; region: Locus_Cherusci | settlement: Vicus_Cherusci | faction: germanic_faction_04
+	resource	timber,         1,         62,   111		; region: Central_Gaul | settlement: Alesia | faction: gallic_faction_09
+	resource	timber,         1,         72,   111		; region: Belgica | settlement: Mediomatrici | faction: gallic_faction_17
+	resource	timber,         1,         125,  137		; region: Locus_Gepidae | settlement: Domus_Dulcis_Domus | faction: germanic_faction_06
+	resource	timber,         1,         128,  114		; region: Tribus_Iazyges | settlement: Campus_Iazyges | faction: dacian_faction_03
+	resource	timber,         1,         117,  123		; region: Regnum_Marcomannii | settlement: Vicus_Marcomannii | faction: germanic_faction_05
+	resource	timber,         1,         116,  110		; region: Locus_Boii | settlement: Vicus_Boii | faction: gallic_faction_10
+	resource	timber,         1,         103,  118		; region: Locus_Suebi | settlement: Vicus_Suebi | faction: germans
+	resource	timber,         1,         95,   133		; region: Luppia | settlement: Luppia | faction: germans
+	resource	timber,         1,         52,   130		; region: Britannia_Superior | settlement: Londinium | faction: britons
+	resource	amber,          1,         123,  144		; region: Locus_Gepidae | settlement: Domus_Dulcis_Domus | faction: germanic_faction_06
+	resource	amber,          1,         123,  143		; region: Locus_Gepidae | settlement: Domus_Dulcis_Domus | faction: germanic_faction_06
+	resource	amber,          1,         123,  142		; region: Locus_Gepidae | settlement: Domus_Dulcis_Domus | faction: germanic_faction_06
+	resource	camels,         1,         251,  117		; region: Tribus_Dahae | settlement: Campus_Dahae | faction: steppe_faction_06
+	resource	hides,			1,         170,  128		; region: Kamianka | settlement: Kamianka | faction: scythia
+	resource	hides,			1,         238,  147		; region: Tribus_Massagetae | settlement: Campus_Massagetae | faction: steppe_faction_01
+	resource	hides,			1,         219,  124		; region: Tribus_Aorsi | settlement: Campus_Aorsi | faction: steppe_faction_01
+	resource	silver,         1,         216,  108		; region: Siracena | settlement: Siracena | faction: steppe_faction_08
+	resource	lead,           1,         45,   133		; region: Tribus_Silurii | settlement: Deva | faction: britanic_faction_02
+	resource	lead,           1,         44,   137		; region: Tribus_Silurii | settlement: Deva | faction: britanic_faction_02
+	resource	amber,          1,         113,  136		; region: Locus_Rugii | settlement: Vicus_Rugii | faction: germanic_faction_10
+	resource	silver,         1,         107,  132		; region: Locus_Rugii | settlement: Vicus_Rugii | faction: germanic_faction_10
+	resource	iron,           1,         232,  81		; region: Atropatene | settlement: Phraaspa | faction: caucasian_faction_03
+	resource	iron,           1,         232,  82		; region: Atropatene | settlement: Phraaspa | faction: caucasian_faction_03
+	resource	iron,           1,         105,  133		; region: Locus_Rugii | settlement: Vicus_Rugii | faction: germanic_faction_10
+	resource	iron,           1,         105,  134		; region: Locus_Rugii | settlement: Vicus_Rugii | faction: germanic_faction_10
+	resource	iron,           1,         49,   129		; region: Britannia_Superior | settlement: Londinium | faction: britons
+	resource	iron,           1,         50,   130		; region: Britannia_Superior | settlement: Londinium | faction: britons
+	resource	iron,           1,         83,   127		; region: Locus_Chatti | settlement: Vicus_Chatti | faction: germanic_faction_08
+	resource	iron,           1,         108,  124		; region: Locus_Suebi | settlement: Vicus_Suebi | faction: germans
+	resource	iron,           1,         107,  125		; region: Locus_Suebi | settlement: Vicus_Suebi | faction: germans
+	resource	textiles,       1,         69,   122		; region: Tongeren | settlement: Atuatuca | faction: gallic_faction_08
+	resource	textiles,       1,         56,   129		; region: Britannia_Superior | settlement: Londinium | faction: britons
+	resource	pottery,        1,         66,   123		; region: Locus_Ambiani | settlement: Samarobriva | faction: gallic_faction_08
+	resource	grain,          1,         190,  115		; region: Maeotis | settlement: Tanais | faction: scythia
+	resource	hides,          1,         84,   113		; region: Agri_Decumates | settlement: Mogontiacum | faction: germanic_faction_03
+	resource	timber,         1,         41,   110		; region: Armorica | settlement: Condate_Redonum | faction: gallic_faction_07
+	resource	glass,          1,         46,   111		; region: Armorica | settlement: Condate_Redonum | faction: gallic_faction_07
+	resource	iron,           1,         110,  111		; region: Boihaemum | settlement: Lovosice | faction: gallic_faction_10
+	resource	iron,           1,         109,  110		; region: Boihaemum | settlement: Lovosice | faction: gallic_faction_10
+	resource	iron,           1,         173,  113		; region: Scythia | settlement: Campus_Scythii | faction: scythia
+	resource	iron,           1,         171,  111		; region: Scythia | settlement: Campus_Scythii | faction: scythia
+	resource	iron,           1,         54,   104		; region: Central_Gaul | settlement: Alesia | faction: gallic_faction_09
+	resource	iron,           1,         53,   103		; region: Central_Gaul | settlement: Alesia | faction: gallic_faction_09
+	resource	lead,           1,         54,   99		; region: Aquitania | settlement: Lemonum | faction: gallic_faction_05
+	resource	lead,           1,         54,   98		; region: Aquitania | settlement: Lemonum | faction: gallic_faction_05
+	resource	gold,           1,         136,  98		; region: Dacia | settlement: Porrolissum | faction: dacia
+	resource	iron,           1,         142,  98		; region: Dacia | settlement: Porrolissum | faction: dacia
+	resource	iron,           1,         141,  99		; region: Dacia | settlement: Porrolissum | faction: dacia
+	resource	timber,         1,         160,  99		; region: Tyragetae | settlement: Tyras | faction: steppe_faction_02
+	resource	grain,          1,         174,  101		; region: Scythica_Chersonesos | settlement: Kalos_Limen | faction: hellenic_faction_17
+	resource	grain,          1,         178,  99		; region: Theodosian_Bosphorus | settlement: Theodosia | faction: hellenic_faction_04
+	resource	grain,          1,         179,  99		; region: Theodosian_Bosphorus | settlement: Theodosia | faction: hellenic_faction_04
+	resource	grain,          1,         180,  99		; region: Theodosian_Bosphorus | settlement: Theodosia | faction: hellenic_faction_04
+	resource	wine,          	1,         250,  94		; region: Tribus_Sakae | settlement: Campus_Sakae | faction: caucasian_faction_02
+	resource	wine,          	1,         251,  94		; region: Tribus_Sakae | settlement: Campus_Sakae | faction: caucasian_faction_02
+	resource	wine,          	1,         194,  102		; region: Sindica | settlement: Phanagoreia | faction: hellenic_faction_04
+	resource	wine,          	1,         196,  103		; region: Sindica | settlement: Phanagoreia | faction: hellenic_faction_04
+	resource	wine,          	1,         182,  102		; region: Bosphorus | settlement: Pantikapaion | faction: hellenic_faction_04
+	resource	wine,          	1,         183,  100		; region: Bosphorus | settlement: Pantikapaion | faction: hellenic_faction_04
+	resource	wine,           1,         47,   91		; region: Aquitania_Inferior | settlement: Burdigala | faction: iberian_faction_08
+	resource	wine,           1,         45,   89		; region: Aquitania_Inferior | settlement: Burdigala | faction: iberian_faction_08
+	resource	pottery,        1,         67,   91		; region: Lugdinensis | settlement: Lugdunum | faction: gauls
+	resource	iron,           1,         54,   90		; region: Aquitania_Inferior | settlement: Burdigala | faction: iberian_faction_08
+	resource	iron,           1,         55,   90		; region: Aquitania_Inferior | settlement: Burdigala | faction: iberian_faction_08
+	resource	gold,           1,         214,  92		; region: Colchis | settlement: Kotais | faction: hellenic_faction_10
+	resource	glass,          1,         96,   91		; region: Venetia | settlement: Patavium | faction: gallic_faction_03
+	resource	textiles,       1,         91,   90		; region: Venetia | settlement: Patavium | faction: gallic_faction_03
+	resource	textiles,       1,         49,   85		; region: Aquitania_Inferior | settlement: Burdigala | faction: iberian_faction_08
+	resource	wine,           1,         65,   86		; region: Transalpine_Gaul | settlement: Massilia | faction: hellenic_faction_02
+	resource	wine,           1,         55,   82		; region: Narbonensis | settlement: Narbo_Martius | faction: gallic_faction_06
+	resource	wine,           1,         57,   83		; region: Narbonensis | settlement: Narbo_Martius | faction: gallic_faction_06
+	resource	silver,         1,         59,   85		; region: Narbonensis | settlement: Narbo_Martius | faction: gallic_faction_06
+	resource	iron,           1,         112,  85		; region: Dalmatia | settlement: Deliminium | faction: illyrian_faction_02
+	resource	wine,           1,         106,  89		; region: Illyria_Pannonia | settlement: Salona | faction: illyrian_faction_01
+	resource	wine,           1,         107,  88		; region: Illyria_Pannonia | settlement: Salona | faction: illyrian_faction_01
+	resource	wine,           1,         106,  88		; region: Illyria_Pannonia | settlement: Salona | faction: illyrian_faction_01
+	resource	gold,           1,         148,  79		; region: Tylis | settlement: Tylis | faction: gallic_faction_14
+	resource	iron,           1,         16,   89		; region: Gallaecia | settlement: Asturica | faction: iberian_faction_02
+	resource	iron,           1,         18,   89		; region: Gallaecia | settlement: Asturica | faction: iberian_faction_02
+	resource	tin,            1,         23,   87		; region: Cantabria | settlement: Vellika | faction: iberian_faction_07
+	resource	timber,         1,         24,   82		; region: Cantabria | settlement: Vellika | faction: iberian_faction_07
+	resource	gold,           1,         117,  77		; region: Illyria | settlement: Scodra | faction: illyrian_faction_03
+	resource	olive_oil,      1,         121,  73		; region: Illyria | settlement: Scodra | faction: illyrian_faction_03
+	resource	olive_oil,      1,         123,  73		; region: Illyria | settlement: Scodra | faction: illyrian_faction_03
+	resource	iron,           1,         223,  81		; region: Sophene | settlement: Arsamosata | faction: armenia
+	resource	iron,           1,         225,  82		; region: Armenia | settlement: Artaxarta | faction: armenia
+	resource	wine,           1,         220,  86		; region: Armenia | settlement: Artaxarta | faction: armenia
+	resource	wine,           1,         221,  88		; region: Armenia | settlement: Artaxarta | faction: armenia
+	resource	pottery,        1,         86,   83		; region: Liguria | settlement: Segesta | faction: gallic_faction_01
+	resource	timber,         1,         78,   84		; region: Liguria | settlement: Segesta | faction: gallic_faction_01
+	resource	timber,         1,         197,  81		; region: Pontos_Paralios | settlement: Trapezous | faction: hellenic_faction_16
+	resource	iron,           1,         188,  74		; region: Pontus | settlement: Sinope | faction: pontus
+	resource	iron,           1,         189,  75		; region: Pontus | settlement: Sinope | faction: pontus
+	resource	silver,         1,         201,  79		; region: Pontos_Paralios | settlement: Trapezous | faction: hellenic_faction_16
+	resource	iron,           1,         31,   74		; region: Celtiberia | settlement: Numantia | faction: spain
+	resource	iron,           1,         32,   74		; region: Celtiberia | settlement: Numantia | faction: spain
+	resource	lead,           1,         30,   80		; region: Cantabria | settlement: Vellika | faction: iberian_faction_07
+	resource	lead,           1,         31,   81		; region: Cantabria | settlement: Vellika | faction: iberian_faction_07
+	resource	iron,           1,         90,   77		; region: Etruria | settlement: Arretium | faction: latin_faction_03
+	resource	iron,           1,         91,   76		; region: Etruria | settlement: Arretium | faction: latin_faction_03
+	resource	marble,         1,         91,   82		; region: Etruria | settlement: Arretium | faction: latin_faction_03
+	resource	silver,         1,         47,   77		; region: Taraconenis | settlement: Osca | faction: iberian_faction_03
+	resource	marble,         1,         50,   72		; region: Taraconenis | settlement: Osca | faction: iberian_faction_03
+	resource	wine,           1,         44,   79		; region: Taraconenis | settlement: Osca | faction: iberian_faction_03
+	resource	wine,           1,         40,   81		; region: Taraconenis | settlement: Osca | faction: iberian_faction_03
+	resource	pottery,        1,         99,   79		; region: Picenum | settlement: Asculum | faction: latin_faction_02
+	resource	iron,           1,         240,  67		; region: Media | settlement: Ecbatana | faction: seleucid
+	resource	iron,           1,         240,  64		; region: Media | settlement: Ecbatana | faction: seleucid
+	resource	elephants,      1,         253,  75		; region: Rhages | settlement: Arsakia | faction: seleucid
+	resource	camels,         1,         250,  68		; region: Media | settlement: Ecbatana | faction: seleucid
+	resource	timber,         1,         140,  66		; region: Chalkidiki | settlement: Thessalonica | faction: macedon
+	resource	timber,         1,         155,  70		; region: Thrace | settlement: Uscudama | faction: thrace
+	resource	wine,           1,         163,  69		; region: Bithynia | settlement: Nicomedia | faction: anatolian_faction_01
+	resource	wine,           1,         166,  70		; region: Bithynia | settlement: Nicomedia | faction: anatolian_faction_01
+	resource	textiles,       1,         171,  64		; region: Phrygia | settlement: Phrygia_Apameia | faction: seleucid
+	resource	lead,           1,         196,  68		; region: Cappadocia | settlement: Mazaka | faction: caucasian_faction_04
+	resource	silver,         1,         38,   68		; region: Saguntum | settlement: Bostra | faction: iberian_faction_04
+	resource	pottery,        1,         40,   65		; region: Saguntum | settlement: Bostra | faction: iberian_faction_04
+	resource	olive_oil,      1,         111,  67		; region: Apulia | settlement: Venusia | faction: romans_brutii
+	resource	olive_oil,      1,         111,  68		; region: Apulia | settlement: Venusia | faction: romans_brutii
+	resource	copper,         1,         108,  66		; region: Apulia | settlement: Venusia | faction: romans_brutii
+	resource	copper,         1,         108,  67		; region: Apulia | settlement: Venusia | faction: romans_brutii
+	resource	timber,         1,         115,  65		; region: Calabria | settlement: Tarentum | faction: romans_brutii
+	resource	camels,         1,         217,  58		; region: Osrhoene | settlement: Harran | faction: seleucid
+	resource	elephants,      1,         216,  62		; region: Osrhoene | settlement: Harran | faction: seleucid
+	resource	textiles,       1,         218,  60		; region: Osrhoene | settlement: Harran | faction: seleucid
+	resource	wine,           1,         18,   54		; region: Baetica | settlement: Corduba | faction: carthage_barcid
+	resource	wine,           1,         19,   57		; region: Baetica | settlement: Corduba | faction: carthage_barcid
+	resource	olive_oil,      1,         16,   58		; region: Baetica | settlement: Corduba | faction: carthage_barcid
+	resource	olive_oil,      1,         12,   54		; region: Baetica | settlement: Corduba | faction: carthage_barcid
+	resource	gold,           1,         16,   54		; region: Baetica | settlement: Corduba | faction: carthage_barcid
+	resource	timber,         1,         156,  65		; region: Mysia | settlement: Abydos | faction: seleucid
+	resource	silver,         1,         160,  63		; region: Aeolia | settlement: Pergamum | faction: hellenic_faction_03
+	resource	wine,           1,         161,  65		; region: Mysia | settlement: Abydos | faction: seleucid
+	resource	silver,         1,         195,  60		; region: Cilicia | settlement: Tarsus | faction: seleucid
+	resource	lead,           1,         47,   60		; region: Baliares | settlement: Palma | faction: carthage_barcid
+	resource	wine,           1,         54,   61		; region: Baliares | settlement: Palma | faction: carthage_barcid
+	resource	silver,         1,         167,  56		; region: Lydia | settlement: Sardis | faction: seleucid
+	resource	timber,         1,         156,  55		; region: Ionia | settlement: Miletus | faction: egypt
+	resource	marble,         1,         152,  62		; region: Mysia | settlement: Abydos | faction: seleucid
+	resource	marble,         1,         164,  55		; region: Lydia | settlement: Sardis | faction: seleucid
+	resource	textiles,       1,         160,  54		; region: Ionia | settlement: Miletus | faction: egypt
+	resource	iron,           1,         202,  58		; region: Cyrrhestica | settlement: Cyrrhus | faction: seleucid
+	resource	iron,           1,         201,  58		; region: Syria | settlement: Antioch | faction: seleucid
+	resource	camels,         1,         206,  54		; region: Apamene | settlement: Apameia | faction: seleucid
+	resource	elephants,      1,         201,  50		; region: Syria | settlement: Antioch | faction: seleucid
+	resource	textiles,       1,         198,  56		; region: Syria | settlement: Antioch | faction: seleucid
+	resource	elephants,      1,         238,  55		; region: Babylonia | settlement: Seleucia | faction: seleucid
+	resource	camels,         1,         240,  49		; region: Babylonia | settlement: Seleucia | faction: seleucid
+	resource	marble,         1,         143,  54		; region: Attica | settlement: Athens | faction: hellenic_faction_09
+	resource	silver,         1,         144,  53		; region: Attica | settlement: Athens | faction: hellenic_faction_09
+	resource	marble,         1,         148,  51		; region: Euboea | settlement: Chalkis | faction: macedon
+	resource	grain,          1,         80,   64		; region: Sardinia | settlement: Olbia | faction: carthage_magonid
+	resource	silver,         1,         82,   63		; region: Sardinia | settlement: Olbia | faction: carthage_magonid
+	resource	silver,         1,         82,   60		; region: Sardinia_Inferior | settlement: Caralis | faction: carthage_magonid
+	resource	olive_oil,      1,         142,  55		; region: Boeotia | settlement: Thebes | faction: macedon
+	resource	olive_oil,      1,         146,  54		; region: Euboea | settlement: Chalkis | faction: macedon
+	resource	camels,         1,         251,  43		; region: Elymais | settlement: Susa | faction: seleucid
+	resource	elephants,      1,         254,  43		; region: Elymais | settlement: Susa | faction: seleucid
+	resource	iron,           1,         251,  53		; region: Elymais | settlement: Susa | faction: seleucid
+	resource	iron,           1,         252,  54		; region: Elymais | settlement: Susa | faction: seleucid
+	resource	timber,         1,         134,  46		; region: Messenia | settlement: Messeni | faction: macedon
+	resource	wine,           1,         166,  49		; region: Lycia | settlement: Xanthos | faction: egypt
+	resource	wine,           1,         167,  49		; region: Lycia | settlement: Xanthos | faction: egypt
+	resource	olive_oil,      1,         173,  48		; region: Lycia | settlement: Xanthos | faction: egypt
+	resource	olive_oil,      1,         173,  49		; region: Lycia | settlement: Xanthos | faction: egypt
+	resource	textiles,       1,         164,  51		; region: Caria | settlement: Halicarnasus | faction: egypt
+	resource	camels,         1,         2,    23		; region: Gaetulia | settlement: Dimmidi | faction: rebel_slave
+	resource	timber,         1,         15,   44		; region: Mauretania | settlement: Walilt | faction: desert_faction_01
+	resource	copper,         1,         26,   39		; region: Siga | settlement: Siga | faction: desert_faction_02
+	resource	copper,         1,         27,   39		; region: Siga | settlement: Siga | faction: desert_faction_02
+	resource	camels,         1,         215,  42		; region: Regnum_Palmyrae | settlement: Palmyra | faction: seleucid
+	resource	elephants,      1,         58,   39		; region: Numidia | settlement: Cirta | faction: numidia
+	resource	camels,         1,         60,   31		; region: Cydamus | settlement: Cydamus | faction: desert_faction_05
+	resource	marble,         1,         64,   38		; region: Numidia | settlement: Cirta | faction: numidia
+	resource	timber,         1,         58,   45		; region: Iol | settlement: Iol | faction: carthage_barcid
+	resource	timber,         1,         86,   42		; region: Africa | settlement: Carthage | faction: carthage
+	resource	elephants,      1,         73,   42		; region: Africa | settlement: Carthage | faction: carthage
+	resource	camels,         1,         80,   40		; region: Africa | settlement: Carthage | faction: carthage
+	resource	olive_oil,      1,         76,   44		; region: Africa | settlement: Carthage | faction: carthage
+	resource	olive_oil,      1,         78,   44		; region: Africa | settlement: Carthage | faction: carthage
+	resource	timber,         1,         104,  45		; region: Sicilia_Graecus | settlement: Syracuse | faction: greek_cities
+	resource	camels,         1,         209,  47		; region: Coele_Syria | settlement: Damascus | faction: seleucid
+	resource	elephants,      1,         206,  45		; region: Coele_Syria | settlement: Damascus | faction: seleucid
+	resource	elephants,      1,         209,  51		; region: Apamene | settlement: Apameia | faction: seleucid
+	resource	camels,         1,         227,  14		; region: Jawf | settlement: Dumat | faction: desert_faction_07
+	resource	camels,         1,         227,  8		; region: Tayma | settlement: Tayma | faction: desert_faction_06
+	resource	camels,         1,         81,   30		; region: Byzacium | settlement: Thapsus | faction: carthage_hannonid
+	resource	olive_oil,      1,         85,   37		; region: Byzacium | settlement: Thapsus | faction: carthage_hannonid
+	resource	purple_dye,     1,         150,  36		; region: Crete | settlement: Knossos | faction: hellenic_faction_07
+	resource	purple_dye,     1,         145,  37		; region: Crete | settlement: Knossos | faction: hellenic_faction_07
+	resource	purple_dye,     1,         151,  36		; region: Crete | settlement: Knossos | faction: hellenic_faction_07
+	resource	iron,           1,         150,  38		; region: Crete | settlement: Knossos | faction: hellenic_faction_07
+	resource	iron,           1,         152,  37		; region: Crete | settlement: Knossos | faction: hellenic_faction_07
+	resource	purple_dye,     1,         199,  31		; region: Judaea | settlement: Jerusalem | faction: anatolian_faction_02
+	resource	purple_dye,     1,         197,  22		; region: Rhinocorura | settlement: Rhinocorura | faction: egypt
+	resource	olive_oil,      1,         200,  34		; region: Tyrea | settlement: Tyre | faction: egypt
+	resource	wine,           1,         202,  35		; region: Judaea | settlement: Jerusalem | faction: anatolian_faction_02
+	resource	wine,           1,         200,  27		; region: Judaea | settlement: Jerusalem | faction: anatolian_faction_02
+	resource	camels,         1,         105,  14		; region: Tripolitania | settlement: Lepcis_Magna | faction: carthage_hannonid
+	resource	purple_dye,     1,         94,   21		; region: Tripolitania | settlement: Lepcis_Magna | faction: carthage_hannonid
+	resource	purple_dye,     1,         99,   21		; region: Tripolitania | settlement: Lepcis_Magna | faction: carthage_hannonid
+	resource	purple_dye,     1,         89,   23		; region: Tripolitania | settlement: Lepcis_Magna | faction: carthage_hannonid
+	resource	timber,         1,         132,  17		; region: Cyrenaica | settlement: Cyrene | faction: hellenic_faction_08
+	resource	camels,         1,         139,  16		; region: Cyrenaica | settlement: Cyrene | faction: hellenic_faction_08
+	resource	camels,         1,         190,  20		; region: Pelousion | settlement: Pelousion | faction: egypt
+	resource	glass,          1,         180,  19		; region: Nile_Delta | settlement: Alexandria | faction: egypt
+	resource	grain,          1,         182,  17		; region: Nile_Delta | settlement: Alexandria | faction: egypt
+	resource	grain,          1,         182,  16		; region: Nile_Delta | settlement: Alexandria | faction: egypt
+	resource	grain,          1,         183,  16		; region: Nile_Delta | settlement: Alexandria | faction: egypt
+	resource	textiles,       1,         184,  22		; region: Pelousion | settlement: Pelousion | faction: egypt
+	resource	camels,         1,         195,  19		; region: Rhinocorura | settlement: Rhinocorura | faction: egypt
+	resource	camels,         1,         167,  13		; region: Libya | settlement: Paraitonion | faction: egypt
+	resource	camels,         1,         185,  12		; region: Middle_Egypt | settlement: Memphis | faction: egypt
+	resource	camels,         1,         181,  9		; region: Hare | settlement: Hermopolis | faction: egypt
+	resource	grain,          1,         183,  9		; region: Hare | settlement: Hermopolis | faction: egypt
+	resource	grain,          1,         185,  9		; region: Middle_Egypt | settlement: Memphis | faction: egypt
+	resource	gold,           1,         192,  4		; region: Thebais | settlement: Waset | faction: egypt
+	resource	camels,         1,         181,  3		; region: Thinis | settlement: Ptolemais | faction: egypt
+	resource	purple_dye,     1,         191,  45		; region: Cyprus | settlement: Salamis | faction: egypt
+	resource	purple_dye,     1,         192,  48		; region: Cyprus | settlement: Salamis | faction: egypt
+	resource	purple_dye,     1,         187,  42		; region: Cyprus | settlement: Salamis | faction: egypt
+	resource	wine,           1,         105,  64		; region: Campania | settlement: Capua | faction: romans_scipii
+	resource	wine,           1,         78,   57		; region: Sardinia_Inferior | settlement: Caralis | faction: carthage_magonid
+	resource	wine,           1,         79,   59		; region: Sardinia_Inferior | settlement: Caralis | faction: carthage_magonid
+	resource	incense,        1,         213,  1		; region: Hejaz | settlement: Hegra | faction: desert_faction_06
+	resource	incense,        1,         214,  1		; region: Hejaz | settlement: Hegra | faction: desert_faction_06
+	resource	incense,        1,         215,  1		; region: Hejaz | settlement: Hegra | faction: desert_faction_06
+	resource	incense,        1,         211,  26		; region: Karak | settlement: Kharkha | faction: desert_faction_03
+	resource	incense,        1,         207,  8		; region: Hejaz | settlement: Hegra | faction: desert_faction_06
+	resource	incense,        1,         206,  10		; region: Nabataea | settlement: Petra | faction: desert_faction_03
+	resource	incense,        1,         207,  12		; region: Nabataea | settlement: Petra | faction: desert_faction_03
+	resource	incense,        1,         217,  47		; region: Regnum_Palmyrae | settlement: Palmyra | faction: seleucid
+	resource	incense,        1,         216,  45		; region: Regnum_Palmyrae | settlement: Palmyra | faction: seleucid
+	resource	incense,        1,         218,  44		; region: Regnum_Palmyrae | settlement: Palmyra | faction: seleucid
+	resource	silk,           1,         208,  43		; region: Coele_Syria | settlement: Damascus | faction: seleucid
+	resource	silk,           1,         208,  44		; region: Coele_Syria | settlement: Damascus | faction: seleucid
+	resource	silk,           1,         208,  45		; region: Coele_Syria | settlement: Damascus | faction: seleucid
+	resource	silk,           1,         199,  58		; region: Syria | settlement: Antioch | faction: seleucid
+	resource	silk,           1,         200,  58		; region: Syria | settlement: Antioch | faction: seleucid
+	resource	silk,           1,         202,  56		; region: Syria | settlement: Antioch | faction: seleucid
+	resource	wine,           1,         203,  58		; region: Cyrrhestica | settlement: Cyrrhus | faction: seleucid
+	resource	olive_oil,      1,         203,  53		; region: Apamene | settlement: Apameia | faction: seleucid
+	resource	olive_oil,      1,         203,  54		; region: Apamene | settlement: Apameia | faction: seleucid
+	resource	tin,            1,         38,   126		; region: Cornovae | settlement: Iska | faction: britanic_faction_03
+	resource	tin,            1,         40,   126		; region: Cornovae | settlement: Iska | faction: britanic_faction_03
+	resource	wild_animals,   1,         79,   26		; region: Tripolitania | settlement: Lepcis_Magna | faction: carthage_hannonid
+	resource	wild_animals,   1,         82,   25		; region: Tripolitania | settlement: Lepcis_Magna | faction: carthage_hannonid
+	resource	wild_animals,   1,         83,   23		; region: Tripolitania | settlement: Lepcis_Magna | faction: carthage_hannonid
+	resource	wild_animals,   1,         191,  1		; region: Thebais | settlement: Waset | faction: egypt
+	resource	wild_animals,   1,         193,  1		; region: Thebais | settlement: Waset | faction: egypt
+	resource	camels,   		1,         197,  1		; region: Thebais | settlement: Waset | faction: egypt
+	resource	wild_animals,   1,         189,  1		; region: Thebais | settlement: Waset | faction: egypt
+	resource	incense,        1,         187,  10		; region: Middle_Egypt | settlement: Memphis | faction: egypt
+	resource	incense,        1,         183,  12		; region: Middle_Egypt | settlement: Memphis | faction: egypt
+	resource	incense,        1,         187,  7		; region: Middle_Egypt | settlement: Memphis | faction: egypt
+	resource	wild_animals,   1,         133,  148		; region: Gaetulia | settlement: Dimmidi | faction: rebel_slave
+	resource	wild_animals,   1,         129,  143		; region: Locus_Gepidae | settlement: Domus_Dulcis_Domus | faction: germanic_faction_06
+	resource	wild_animals,   1,         136,  137		; region: Locus_Gepidae | settlement: Domus_Dulcis_Domus | faction: germanic_faction_06
+	resource	wild_animals,   1,         41,   42		; region: Siga | settlement: Siga | faction: desert_faction_02
+	resource	wild_animals,   1,         53,   43		; region: Numidia | settlement: Cirta | faction: numidia
+	resource	wild_animals,   1,         45,   41		; region: Siga | settlement: Siga | faction: desert_faction_02
+	resource	wild_animals,   1,         103,  122		; region: Locus_Suebi | settlement: Vicus_Suebi | faction: germans
+	resource	wild_animals,   1,         110,  122		; region: Regnum_Marcomannii | settlement: Vicus_Marcomannii | faction: germanic_faction_05
+	resource	wild_animals,   1,         112,  120		; region: Regnum_Marcomannii | settlement: Vicus_Marcomannii | faction: germanic_faction_05
+	resource	wild_animals,   1,         51,   152		; region: Caledonia | settlement: Vanduara | faction: britanic_faction_05
+	resource	wild_animals,   1,         15,   38		; region: Mauretania | settlement: Walilt | faction: desert_faction_01
+	resource	wild_animals,   1,         41,   30		; region: Sahara | settlement: Nepte | faction: desert_faction_02
+	resource	wild_animals,   1,         13,   46		; region: Tingitana | settlement: Tingi | faction: carthage_barcid
+	resource	wild_animals,   1,         90,   122		; region: Locus_Chatti | settlement: Vicus_Chatti | faction: germanic_faction_08
+	resource	wild_animals,   1,         145,  87		; region: Argedava | settlement: Argedava | faction: dacia
+	resource	wild_animals,   1,         211,  94		; region: Colchis | settlement: Kotais | faction: hellenic_faction_10
+	resource	wild_animals,   1,         214,  114		; region: Siracena | settlement: Siracena | faction: steppe_faction_08
+	resource	wine,           1,         101,  67		; region: Campania | settlement: Capua | faction: romans_scipii
+	resource	textiles,       1,         94,   93		; region: Venetia | settlement: Patavium | faction: gallic_faction_03
+	resource	iron,           1,         106,  99		; region: Pannonia | settlement: Aquincum | faction: gallic_faction_18
+	resource	iron,           1,         105,  100		; region: Noricum | settlement: Iuvavum | faction: gallic_faction_04
+	resource	incense,        1,         212,  21		; region: Karak | settlement: Kharkha | faction: desert_faction_03
+	resource	iron,           1,         139,  54		; region: Phocis | settlement: Delphi | faction: hellenic_faction_05
+	resource	timber,         1,         191,  57		; region: Cilicia | settlement: Tarsus | faction: seleucid
+	resource	pottery,        1,         195,  57		; region: Cilicia | settlement: Tarsus | faction: seleucid
+	resource	pottery,        1,         161,  44		; region: Rhodos | settlement: Rhodes | faction: hellenic_faction_06
+	resource	pottery,        1,         187,  82		; region: Hyperboria | settlement: Themiskyra | faction: hellenic_faction_15
+	resource	purple_dye,     1,         197,  25		; region: Gaza | settlement: Gaza | faction: egypt
+	resource	gold,           1,         187,  43		; region: Cyprus | settlement: Salamis | faction: egypt
+	resource	timber,         1,         186,  46		; region: Cyprus | settlement: Salamis | faction: egypt
+	resource	copper,         1,         184,  42		; region: Cyprus | settlement: Salamis | faction: egypt
+	resource	copper,         1,         185,  43		; region: Cyprus | settlement: Salamis | faction: egypt
+	resource	timber,         1,         110,  80		; region: Dalmatia | settlement: Deliminium | faction: illyrian_faction_02
+	resource	iron,           1,         111,  85		; region: Dalmatia | settlement: Deliminium | faction: illyrian_faction_02
+	resource	gold,           1,         114,  84		; region: Dalmatia | settlement: Deliminium | faction: illyrian_faction_02
+	resource	marble,         1,         136,  49		; region: Arcadia | settlement: Megalopolis | faction: macedon
+	resource	iron,           1,         139,  55		; region: Phocis | settlement: Delphi | faction: hellenic_faction_05
+	resource	iron,           1,         141,  55		; region: Boeotia | settlement: Thebes | faction: macedon
+	resource	gold,           1,         151,  69		; region: Thracia_Chersonesos | settlement: Lysimachia | faction: hellenic_faction_05
+	resource	pottery,        1,         196,  58		; region: Cilicia | settlement: Tarsus | faction: seleucid
+	resource	olive_oil,      1,         200,  32		; region: Judaea | settlement: Jerusalem | faction: anatolian_faction_02
+	resource	camels,         1,         203,  24		; region: Negev | settlement: Avdat | faction: desert_faction_03
+	resource	amber,          1,         108,  137		; region: Locus_Rugii | settlement: Vicus_Rugii | faction: germanic_faction_10
+	resource	amber,          1,         114,  137		; region: Locus_Rugii | settlement: Vicus_Rugii | faction: germanic_faction_10
+	resource	silk,           1,         254,  81		; region: Rhages | settlement: Arsakia | faction: seleucid
+	resource	silk,           1,         254,  76		; region: Rhages | settlement: Arsakia | faction: seleucid
+	resource	silk,           1,         252,  77		; region: Rhages | settlement: Arsakia | faction: seleucid
+	resource	silk,           1,         220,  60		; region: Osrhoene | settlement: Harran | faction: seleucid
+	resource	silk,           1,         222,  61		; region: Mygdonius | settlement: Nisibis | faction: seleucid
+	resource	silk,           1,         224,  63		; region: Mygdonius | settlement: Nisibis | faction: seleucid
+	resource	silk,           1,         239,  57		; region: Babylonia | settlement: Seleucia | faction: seleucid
+	resource	silk,           1,         241,  56		; region: Babylonia | settlement: Seleucia | faction: seleucid
+	resource	silk,           1,         243,  55		; region: Babylonia | settlement: Seleucia | faction: seleucid
+	resource	lead,           1,         197,  68		; region: Cappadocia | settlement: Mazaka | faction: caucasian_faction_04
+	resource	wine,           1,         159,  64		; region: Mysia | settlement: Abydos | faction: seleucid
+	resource	olive_oil,      1,         83,   38		; region: Byzacium | settlement: Thapsus | faction: carthage_hannonid
+	resource	elephants,      1,         80,   32		; region: Byzacium | settlement: Thapsus | faction: carthage_hannonid
+	resource	elephants,      1,         13,   42		; region: Mauretania | settlement: Walilt | faction: desert_faction_01
+	resource	camels,         1,         32,   31		; region: Sahara | settlement: Nepte | faction: desert_faction_02
+	resource	camels,         1,         60,   5		; region: Gaetulia | settlement: Dimmidi | faction: rebel_slave
+	resource	wine,           1,         41,   80		; region: Taraconenis | settlement: Osca | faction: iberian_faction_03
+	resource	wine,           1,         63,   87		; region: Narbonensis | settlement: Narbo_Martius | faction: gallic_faction_06
+	resource	hides,          1,         68,   109		; region: Central_Gaul | settlement: Alesia | faction: gallic_faction_09
+	resource	hides,          1,         80,   129		; region: Germania_Inferior | settlement: Batavodurum | faction: germanic_faction_01
+	resource	silver,         1,         112,  55		; region: Bruttium | settlement: Croton | faction: romans_scipii
+	resource	silver,         1,         111,  82		; region: Dalmatia | settlement: Deliminium | faction: illyrian_faction_02
+	resource	camels,         1,         100,  10		; region: Fezzan | settlement: Garama | faction: desert_faction_05
+	resource	camels,         1,         115,  10		; region: Syrtica | settlement: Charax | faction: carthage_hannonid
+	resource	camels,         1,         132,  10		; region: Libyan_Syrtica | settlement: Automala | faction: desert_faction_04
+	resource	camels,         1,         140,  10		; region: Nasamonea | settlement: Augila | faction: desert_faction_04
+	resource	camels,         1,         154,  10		; region: Qattara | settlement: Siwa | faction: egypt
+	resource	camels,         1,         177,  15		; region: Nile_Delta | settlement: Alexandria | faction: egypt
+	resource	camels,         1,         208,  17		; region: Nabataea | settlement: Petra | faction: desert_faction_03
+	resource	camels,         1,         210,  34		; region: Arab_Syria | settlement: Bosra | faction: desert_faction_03
+	resource	incense,        1,         219,  1		; region: Khaybar | settlement: Khaybar | faction: desert_faction_08
+	resource	incense,        1,         217,  2		; region: Hejaz | settlement: Hegra | faction: desert_faction_06
+	resource	incense,        1,         226,  3		; region: Khaybar | settlement: Khaybar | faction: desert_faction_08
+	resource	timber,         1,         35,   147		; region: Hibernia | settlement: Tara | faction: britanic_faction_04
+	resource	timber,         1,         47,   153		; region: Caledonia | settlement: Vanduara | faction: britanic_faction_05
+	resource	elephants,      1,         34,   38		; region: Siga | settlement: Siga | faction: desert_faction_02
+	resource	glass,          1,         200,  40		; region: Phoenicia | settlement: Sidon | faction: egypt
+	resource	silver,         1,         132,  94		; region: Locus_Biephi | settlement: Zarmizegetusa | faction: dacian_faction_02
+	resource	gold,           1,         132,  96		; region: Locus_Biephi | settlement: Zarmizegetusa | faction: dacian_faction_02
+	resource	silver,         1,         136,  50		; region: Arcadia | settlement: Megalopolis | faction: macedon
+	resource	marble,         1,         134,  57		; region: Phocis | settlement: Delphi | faction: hellenic_faction_05
+	resource	marble,         1,         141,  50		; region: Argolis | settlement: Argos | faction: macedon
+	resource	furs,           1,         85,   129		; region: Locus_Cherusci | settlement: Vicus_Cherusci | faction: germanic_faction_04
+	resource	furs,           1,         85,   152		; region: Kimbrike_Chersonesos | settlement: Alabu | faction: germanic_faction_02
+	resource	furs,           1,         104,  118		; region: Locus_Suebi | settlement: Vicus_Suebi | faction: germans
+	resource	furs,           1,         230,  152		; region: Tribus_Massagetae | settlement: Campus_Massagetae | faction: steppe_faction_01
+	resource	grain,          1,         153,  106		; region: Tribus_Getae | settlement: Campus_Getae | faction: dacian_faction_01
+	resource	grain,          1,         153,  83		; region: Shumen | settlement: Shumen | faction: thrace
+	resource	grain,          1,         138,  70		; region: Macedonia | settlement: Pella | faction: macedon
+	resource	grain,          1,         114,  95		; region: Pannonia | settlement: Aquincum | faction: gallic_faction_18
+	resource	olive_oil,      1,         135,  50		; region: Elis | settlement: Elis | faction: hellenic_faction_05
+	resource	olive_oil,      1,         41,   60		; region: Hispania | settlement: Carthago_Nova | faction: iberian_faction_05
+	resource	olive_oil,      1,         45,   70		; region: Saguntum | settlement: Bostra | faction: iberian_faction_04
+	resource	wine,           1,         107,  51		; region: Sicilia_Romanus | settlement: Messana | faction: latin_faction_01
+	resource	wine,           1,         56,   79		; region: Emporium | settlement: Dumatha | faction: hellenic_faction_12
+	resource	wine,           1,         142,  58		; region: Thessalia | settlement: Larissa | faction: macedon
+	resource	iron,           1,         226,  78		; region: Urartu | settlement: Tushpa | faction: seleucid
+	resource	iron,           1,         227,  78		; region: Urartu | settlement: Tushpa | faction: seleucid
+	resource	iron,           1,         126,  67		; region: Epidamnia | settlement: Epidamnos | faction: illyrian_faction_05
+	resource	iron,           1,         127,  67		; region: Epidamnia | settlement: Epidamnos | faction: illyrian_faction_05
+	resource	iron,           1,         104,  100		; region: Noricum | settlement: Iuvavum | faction: gallic_faction_04
+	resource	iron,           1,         105,  100		; region: Noricum | settlement: Iuvavum | faction: gallic_faction_04
+	resource	tin,            1,         19,   70		; region: Lusitania | settlement: Scallabis | faction: iberian_faction_01
+	resource	iron,           1,         131,  78		; region: Locus_Serdi | settlement: Vicus_Serdi | faction: thracian_faction_02
+	resource	iron,           1,         132,  78		; region: Locus_Serdi | settlement: Vicus_Serdi | faction: thracian_faction_02
+	resource	iron,           1,         85,   102		; region: Helvetis | settlement: Aventicos | faction: gallic_faction_16
+	resource	iron,           1,         85,   103		; region: Helvetis | settlement: Aventicos | faction: gallic_faction_16
+	resource	timber,         1,         73,   96		; region: Helvetis | settlement: Aventicos | faction: gallic_faction_16
+	resource	grain,          1,         81,   92		; region: Cisalpine_Gaul | settlement: Mediolanium | faction: gallic_faction_02
+	resource	pottery,        1,         159,  58		; region: Aeolia | settlement: Pergamum | faction: hellenic_faction_03
+	resource	textiles,       1,         157,  57		; region: Aeolia | settlement: Pergamum | faction: hellenic_faction_03
+	resource	timber,         1,         80,   74		; region: Corsica | settlement: Alalia | faction: latin_faction_03
+	resource	timber,         1,         69,   81		; region: Transalpine_Gaul | settlement: Massilia | faction: hellenic_faction_02
 ;;;;;;;;;;;;;;;new regions
-	resource	slaves,         1,         184,  82			;Sinope
-	resource	slaves,         1,         220,  93			;Mtskheta
-	resource	slaves,         1,         236,  91			;Kabalak
-	resource	slaves,         1,         57,   77			;Emporium
-	resource	slaves,         1,         39,   66			;Saguntum
-	resource	slaves,         1,         48,   33			;Dimmidi
-	resource	slaves,         1,         202,  83			;Trapezous
-	resource	slaves,         1,         15,   62			;Ispal
-	resource	slaves,         1,         26,   81			;Velliki
-	resource	slaves,         1,         53,   45			;Iol
-	resource	slaves,         1,         92,   85			;Bononia
-	resource	slaves,         1,         124,  97			;Zarmizegetusa
-	resource	slaves,         1,         119,  135		;Twangste
-	resource	slaves,         1,         44,   127		;Iska
-	resource	slaves,         1,         123,  77			;Scodra
-	resource	slaves,         1,         84,   104		;Aventicos
-	resource	slaves,         1,         118,  90			;Singidun
-	resource	slaves,         1,         124,  67			;Epidamnos
-	resource	slaves,         1,         218,  78			;Arsamosata
-	resource	slaves,         1,         178,  77			;Gangra
-	resource	slaves,         1,         223,  120		;Campus Alanni
-	resource	slaves,         1,         114,  79			;Deliminium
-	resource	slaves,         1,         128,  60			;Ambracia
-	resource	slaves,         1,         161,  17			;Paraitonion
-	resource	slaves,         1,         57,   140		;Eburacum
-	resource	slaves,         1,         59,   129		;Londinium
-	resource	slaves,         1,         49,   138		;Deva
-	resource	slaves,         1,         60,   117		;Samarobriva
-	resource	slaves,         1,         47,   112		;Candate Redonum
-	resource	slaves,         1,         47,   98			;Lemonum
-	resource	slaves,         1,         58,   83			;Narbo Martius
-	resource	slaves,         1,         68,   81			;Massilia
-	resource	slaves,         1,         67,   91			;Lugdunum
-	resource	slaves,         1,         65,   105		;Alesia
-	resource	slaves,         1,         85,   126		;Mattium
-	resource	slaves,         1,         86,   141		;Bordesholm
-	resource	slaves,         1,         89,   119		;Uburzis
-	resource	slaves,         1,         79,   113		;Mediomatrici
-	resource	slaves,         1,         95,   129		;Luppia
-	resource	slaves,         1,         109,  136		;Rougion
-	resource	slaves,         1,         116,  124		;Budorgis
-	resource	slaves,         1,         147,  127		;Vicus Venedae
-	resource	slaves,         1,         188,  114		;Tanais
-	resource	slaves,         1,         173,  98			;Charsonesos
-	resource	slaves,         1,         159,  106		;Campus Scythii
-	resource	slaves,         1,         128,  87			;Naisos
-	resource	slaves,         1,         153,  82			;Shumen
-	resource	slaves,         1,         146,  70			;Edonis
-	resource	slaves,         1,         131,  71			;Bylazora
-	resource	slaves,         1,         158,  72			;Byzantium
-	resource	slaves,         1,         150,  74			;Tylis
-	resource	slaves,         1,         138,  48			;Arcadia
-	resource	slaves,         1,         141,  49			;Argolis
-	resource	slaves,         1,         140,  51			;Peloponnesus
-	resource	slaves,         1,         142,  54			;Megara
-	resource	slaves,         1,         136,  54			;Delphi
-	resource	slaves,         1,         136,  52			;Achaea
-	resource	slaves,         1,         135,  67			;Pella
-	resource	slaves,         1,         141,  65			;
-	resource	slaves,         1,         177,  59			;
-	resource	slaves,         1,         175,  52			;
-	resource	slaves,         1,         135,  58			;Trikke
-	resource	slaves,         1,         155,  62			;
-	resource	slaves,         1,         132,  54			;Thermon
-	resource	slaves,         1,         143,  53			;
-	resource	slaves,         1,         101,  48			;
-	resource	slaves,         1,         138,  45			;Laconia
-	resource	slaves,         1,         147,  37
-	resource	slaves,         1,         160,  43
-	resource	slaves,         1,         134,  47			;Messenia
-	resource	slaves,         1,         134,  48			;Elis
-	resource	slaves,         1,         170,  47			;Lycia
-	resource	slaves,         1,         172,  60			;Phrygia
-	resource	slaves,         1,         125,  63			;Apollonia
-	resource	slaves,         1,         107,  91
-	resource	slaves,         1,         116,  99			;Pannonia Superior
-	resource	slaves,         1,         98,   103		;Noricum
-	resource	slaves,         1,         132,  116		;Locus Anartes
-	resource	slaves,         1,         139,  100
-	resource	slaves,         1,         83,   78
-	resource	slaves,         1,         98,   79			;Asculum
-	resource	slaves,         1,         135,  76			;Serdica
-	resource	slaves,         1,         100,  72			;Narnia
-	resource	slaves,         1,         109,  71
-	resource	slaves,         1,         103,  67
-	resource	slaves,         1,         93,   89
-	resource	slaves,         1,         97,   81
-	resource	slaves,         1,         89,   80
-	resource	slaves,         1,         83,   92
-	resource	slaves,         1,         95,   69
-	resource	slaves,         1,         101,  69
-	resource	slaves,         1,         113,  65
-	resource	slaves,         1,         79,   60
-	resource	slaves,         1,         105,  46
-	resource	slaves,         1,         96,   48
-	resource	slaves,         1,         107,  50
-	resource	slaves,         1,         54,   62
-	resource	slaves,         1,         42,   77			;Osca
-	resource	slaves,         1,         25,   74			;Numantia
-	resource	slaves,         1,         18,   87			;Asturica
-	resource	slaves,         1,         8,    70			;Oxtraca
-	resource	slaves,         1,         16,   59
-	resource	slaves,         1,         38,   59
-	resource	slaves,         1,         11,   45
-	resource	slaves,         1,         61,   39			;Cirta
-	resource	slaves,         1,         80,   46
-	resource	slaves,         1,         81,   34
-	resource	slaves,         1,         97,   17
-	resource	slaves,         1,         130,  17
-	resource	slaves,         1,         186,  4
-	resource	slaves,         1,         183,  10
-	resource	slaves,         1,         177,  18
-	resource	slaves,         1,         207,  16
-	resource	slaves,         1,         198,  25
-	resource	slaves,         1,         210,  25			;Karak
-	resource	slaves,         1,         196,  20			;Rhinocorura
-	resource	slaves,         1,         239,  23			;Barbaricum
-	resource	slaves,         1,         200,  33			;Tyre
-	resource	slaves,         1,         203,  34			;Judaea
-	resource	slaves,         1,         210,  36			;Bosra
-	resource	slaves,         1,         199,  40			;Sidon
-	resource	slaves,         1,         198,  50			;Antioch
-	resource	slaves,         1,         188,  45
-	resource	slaves,         1,         193,  57
-	resource	slaves,         1,         190,  67
-	resource	slaves,         1,         191,  78
-	resource	slaves,         1,         173,  68
-	resource	slaves,         1,         167,  72
-	resource	slaves,         1,         161,  56
-	resource	slaves,         1,         159,  51
-	resource	slaves,         1,         226,  89
-	resource	slaves,         1,         215,  90
-	resource	slaves,         1,         214,  59
-	resource	slaves,         1,         211,  48			;Palmyra
-	resource	slaves,         1,         243,  53			;Seleucia
-	resource	slaves,         1,         251,  49			;Susa
-	resource	slaves,         1,         251,  78			;Europos
-	resource	slaves,         1,         238,  82			;Ganzak
-	resource	slaves,         1,         206,  42			;Damascus
-	resource	slaves,         1,         113,  59			;Croton
-	resource	slaves,         1,         85,   84			;Segesta
-	resource	slaves,         1,         113,  113		;Zavist
-	resource	slaves,         1,         157,  61			;Aeolia
-	resource	slaves,         1,         159,  56 		;Ionia
-	resource	slaves,         1,         148,  52 		;Euboea
-	resource	slaves,         1,         139,  56 		;Boeotia
-	resource	slaves,         1,         35,   144 		;Hibernia
-	resource	slaves,         1,         211,  4			;Hejaz
-	resource	slaves,         1,         220,  12			;Jawf
-	resource	slaves,         1,         203,  22			;Avdat
-	resource	slaves,         1,         207,  84			;Rize
-	resource	slaves,         1,         152,  57			;Lesbos
-	resource	slaves,         1,         140,  59			;Thessalia
-	resource	slaves,         1,         207,  51			;Apamene
-	resource	slaves,         1,         206,  59			;Cyrrhestica
-	resource	slaves,         1,         182,  101		;Bosphorus
-	resource	slaves,         1,         179,  98			;Theodosius
-	resource	slaves,         1,         189,  103		;Sindica
-	resource	slaves,         1,         177,  94			;Scythica Chersonesos
-	resource	slaves,         1,         212,  63			;Commagene
-	resource	slaves,         1,         215,  70			;Arzanene
-	resource	slaves,         1,         224,  55			;Assyria
-	resource	slaves,         1,         220,  65			;Mygdonius
-	resource	slaves,         1,         236,  62			;Adiabene
-	resource	slaves,         1,         226,  76			;Urartu
-	resource	slaves,         1,         246,  44			;Mesopotamia
-	resource	slaves,         1,         246,  66			;Media
-	resource	slaves,         1,         137,  5			;Nasamonea
-	resource	slaves,         1,         130,  9			;Libyan Syrtica
-	resource	slaves,         1,         115,  11			;Syrtica
-	resource	slaves,         1,         98,   7			;Fezzan
-	resource	slaves,         1,         97,   50			;Panormus
-	resource	slaves,         1,         156,  87			;Tomis
-	resource	slaves,         1,         162,  100		;Tyras
-	resource	slaves,         1,         162,  8			;Qattara
-	resource	slaves,         1,         153,  70			;Thracia Odrysus
-	resource	slaves,         1,         143,  89			;Argedava
-	resource	slaves,         1,         81,   134		;Tekelia
-	resource	slaves,         1,         86,   130		;Cherusci
-	resource	slaves,         1,         91,   149		;Alabu
-	resource	slaves,         1,         105,  121		;Suebi
-	resource	slaves,         1,         150,  100		;Getae
-	resource	slaves,         1,         73,   127		;Batavodurum
-	resource	slaves,         1,         117,  130		;Ascaucalis
-	resource	slaves,         1,         120,  107		;Eburodunum
-	resource	slaves,         1,         154,  80			;Odessos
-	resource	slaves,         1,         150,  78			;Arkovna
-	resource	slaves,         1,         144,  74			;Seuthopolis
-	resource	slaves,         1,         141,  76			;Thracia Hellenike
-	resource	slaves,         1,         151,  66			;Thracia Chersonesos
-	resource	slaves,         1,         69,   118		;Atuatuca
-	resource	slaves,         1,         81,   115		;Trier
-	resource	slaves,         1,         103,  88			;Iader
-	resource	slaves,         1,         88,   106		;Raeti
-	resource	slaves,         1,         46,   91			;Aquitania Inferior
-	resource	slaves,         1,         30,   41			;Siga
-	resource	slaves,         1,         191,  20			;Pelousion
-	resource	slaves,         1,         179,  7			;Hare
-	resource	slaves,         1,         180,  4			;Thinis
-	resource	slaves,         1,         9,    46			;Tingis
-	resource	slaves,         1,         83,   62			;Sardinia
-	resource	slaves,         1,         227,  19			;Dumat
-	resource	slaves,         1,         223,  2			;Khaybar
-	resource	slaves,         1,         178,  107		;Kamianka
-	resource	slaves,         1,         233,  109		;Campus Aorsi
-	resource	slaves,         1,         76,   15			;Cydamus
-	resource	slaves,         1,         44,   149		;Scotland
-	resource	slaves,         1,         209,  111		;Siracena
-	resource	slaves,         1,         248,  119		;Dahae
-	resource	slaves,         1,         239,  140		;Massagetae
-	resource	slaves,         1,         215,  150		;Thyssagetae
+	resource	slaves,         1,         184,  82		; region: Hyperboria | settlement: Themiskyra | faction: hellenic_faction_15
+	resource	slaves,         1,         220,  93		; region: Tribus_Sarmatae | settlement: Campus_Sarmatae | faction: caucasian_faction_01
+	resource	slaves,         1,         236,  91		; region: Tribus_Sakae | settlement: Campus_Sakae | faction: caucasian_faction_02
+	resource	slaves,         1,         57,   77		; region: Emporium | settlement: Dumatha | faction: hellenic_faction_12
+	resource	slaves,         1,         39,   66		; region: Saguntum | settlement: Bostra | faction: iberian_faction_04
+	resource	slaves,         1,         48,   33		; region: Sahara | settlement: Nepte | faction: desert_faction_02
+	resource	slaves,         1,         202,  83		; region: Pontos_Paralios | settlement: Trapezous | faction: hellenic_faction_16
+	resource	slaves,         1,         15,   62		; region: Turdulia | settlement: Ispal | faction: iberian_faction_06
+	resource	slaves,         1,         26,   81		; region: Cantabria | settlement: Vellika | faction: iberian_faction_07
+	resource	slaves,         1,         53,   45		; region: Iol | settlement: Iol | faction: carthage_barcid
+	resource	slaves,         1,         92,   85		; region: Aemilia | settlement: Bononia | faction: gallic_faction_10
+	resource	slaves,         1,         124,  97		; region: Locus_Biephi | settlement: Zarmizegetusa | faction: dacian_faction_02
+	resource	slaves,         1,         119,  135		; region: Locus_Gepidae | settlement: Domus_Dulcis_Domus | faction: germanic_faction_06
+	resource	slaves,         1,         44,   127		; region: Cornovae | settlement: Iska | faction: britanic_faction_03
+	resource	slaves,         1,         123,  77		; region: Illyria | settlement: Scodra | faction: illyrian_faction_03
+	resource	slaves,         1,         84,   104		; region: Helvetis | settlement: Aventicos | faction: gallic_faction_16
+	resource	slaves,         1,         118,  90		; region: Scorcouw | settlement: Singidun | faction: gallic_faction_13
+	resource	slaves,         1,         124,  67		; region: Epidamnia | settlement: Epidamnos | faction: illyrian_faction_05
+	resource	slaves,         1,         218,  78		; region: Sophene | settlement: Arsamosata | faction: armenia
+	resource	slaves,         1,         178,  77		; region: Paphlagonia | settlement: Gangra | faction: pontus
+	resource	slaves,         1,         223,  120		; region: Tribus_Aorsi | settlement: Campus_Aorsi | faction: steppe_faction_01
+	resource	slaves,         1,         114,  79		; region: Dalmatia | settlement: Deliminium | faction: illyrian_faction_02
+	resource	slaves,         1,         128,  60		; region: Epirus | settlement: Ambracia | faction: hellenic_faction_13
+	resource	slaves,         1,         161,  17		; region: Libya | settlement: Paraitonion | faction: egypt
+	resource	slaves,         1,         57,   140		; region: Britannia_Inferior | settlement: Eburacum | faction: britanic_faction_01
+	resource	slaves,         1,         59,   129		; region: Britannia_Superior | settlement: Londinium | faction: britons
+	resource	slaves,         1,         49,   138		; region: Tribus_Silurii | settlement: Deva | faction: britanic_faction_02
+	resource	slaves,         1,         60,   117		; region: Locus_Ambiani | settlement: Samarobriva | faction: gallic_faction_08
+	resource	slaves,         1,         47,   112		; region: Armorica | settlement: Condate_Redonum | faction: gallic_faction_07
+	resource	slaves,         1,         47,   98		; region: Aquitania | settlement: Lemonum | faction: gallic_faction_05
+	resource	slaves,         1,         58,   83		; region: Narbonensis | settlement: Narbo_Martius | faction: gallic_faction_06
+	resource	slaves,         1,         68,   81		; region: Transalpine_Gaul | settlement: Massilia | faction: hellenic_faction_02
+	resource	slaves,         1,         67,   91		; region: Lugdinensis | settlement: Lugdunum | faction: gauls
+	resource	slaves,         1,         65,   105		; region: Central_Gaul | settlement: Alesia | faction: gallic_faction_09
+	resource	slaves,         1,         85,   126		; region: Locus_Chatti | settlement: Vicus_Chatti | faction: germanic_faction_08
+	resource	slaves,         1,         86,   141		; region: Tribus_Saxones | settlement: Bordesholm | faction: germanic_faction_02
+	resource	slaves,         1,         89,   119		; region: Agri_Decumates | settlement: Mogontiacum | faction: germanic_faction_03
+	resource	slaves,         1,         79,   113		; region: Belgica | settlement: Mediomatrici | faction: gallic_faction_17
+	resource	slaves,         1,         95,   129		; region: Luppia | settlement: Luppia | faction: germans
+	resource	slaves,         1,         109,  136		; region: Locus_Rugii | settlement: Vicus_Rugii | faction: germanic_faction_10
+	resource	slaves,         1,         116,  124		; region: Regnum_Marcomannii | settlement: Vicus_Marcomannii | faction: germanic_faction_05
+	resource	slaves,         1,         147,  127		; region: Pripet | settlement: Vicus_Venedae | faction: steppe_faction_03
+	resource	slaves,         1,         188,  114		; region: Maeotis | settlement: Tanais | faction: scythia
+	resource	slaves,         1,         173,  98		; region: Scythica_Chersonesos | settlement: Kalos_Limen | faction: hellenic_faction_17
+	resource	slaves,         1,         159,  106		; region: Scythia | settlement: Campus_Scythii | faction: scythia
+	resource	slaves,         1,         128,  87		; region: Dardania | settlement: Naissos | faction: illyrian_faction_04
+	resource	slaves,         1,         153,  82		; region: Shumen | settlement: Shumen | faction: thrace
+	resource	slaves,         1,         146,  70		; region: Edonis | settlement: Philippoi | faction: macedon
+	resource	slaves,         1,         131,  71		; region: Paionia | settlement: Bylazora | faction: thracian_faction_01
+	resource	slaves,         1,         158,  72		; region: Propontis | settlement: Byzantium | faction: hellenic_faction_11
+	resource	slaves,         1,         150,  74		; region: Tylis | settlement: Tylis | faction: gallic_faction_14
+	resource	slaves,         1,         138,  48		; region: Arcadia | settlement: Megalopolis | faction: macedon
+	resource	slaves,         1,         141,  49		; region: Argolis | settlement: Argos | faction: macedon
+	resource	slaves,         1,         140,  51		; region: Peloponnesus | settlement: Corinth | faction: macedon
+	resource	slaves,         1,         142,  54		; region: Megaris | settlement: Megara | faction: macedon
+	resource	slaves,         1,         136,  54		; region: Phocis | settlement: Delphi | faction: hellenic_faction_05
+	resource	slaves,         1,         136,  52		; region: Achaea | settlement: Aigion | faction: hellenic_faction_14
+	resource	slaves,         1,         135,  67		; region: Macedonia | settlement: Pella | faction: macedon
+	resource	slaves,         1,         141,  65		; region: Chalkidiki | settlement: Thessalonica | faction: macedon
+	resource	slaves,         1,         177,  59		; region: Pisidia | settlement: Pisidia_Antioch | faction: seleucid
+	resource	slaves,         1,         175,  52		; region: Pamphylia | settlement: Perge | faction: egypt
+	resource	slaves,         1,         135,  58		; region: Estaiotis | settlement: Trikke | faction: macedon
+	resource	slaves,         1,         155,  62		; region: Mysia | settlement: Abydos | faction: seleucid
+	resource	slaves,         1,         132,  54		; region: Aetolia | settlement: Thermon | faction: hellenic_faction_05
+	resource	slaves,         1,         143,  53		; region: Attica | settlement: Athens | faction: hellenic_faction_09
+	resource	slaves,         1,         101,  48		; region: Akragas | settlement: Akragas | faction: carthage_hannonid
+	resource	slaves,         1,         138,  45		; region: Laconia | settlement: Sparta | faction: hellenic_faction_01
+	resource	slaves,         1,         147,  37		; region: Crete | settlement: Knossos | faction: hellenic_faction_07
+	resource	slaves,         1,         160,  43		; region: Rhodos | settlement: Rhodes | faction: hellenic_faction_06
+	resource	slaves,         1,         134,  47		; region: Messenia | settlement: Messeni | faction: macedon
+	resource	slaves,         1,         134,  48		; region: Elis | settlement: Elis | faction: hellenic_faction_05
+	resource	slaves,         1,         170,  47		; region: Lycia | settlement: Xanthos | faction: egypt
+	resource	slaves,         1,         172,  60		; region: Phrygia | settlement: Phrygia_Apameia | faction: seleucid
+	resource	slaves,         1,         125,  63		; region: Taulantii | settlement: Apollonia | faction: illyrian_faction_05
+	resource	slaves,         1,         107,  91		; region: Pannonia_Inferior | settlement: Segestica | faction: gallic_faction_15
+	resource	slaves,         1,         116,  99		; region: Pannonia | settlement: Aquincum | faction: gallic_faction_18
+	resource	slaves,         1,         98,   103		; region: Noricum | settlement: Iuvavum | faction: gallic_faction_04
+	resource	slaves,         1,         132,  116		; region: Tribus_Iazyges | settlement: Campus_Iazyges | faction: dacian_faction_03
+	resource	slaves,         1,         139,  100		; region: Dacia | settlement: Porrolissum | faction: dacia
+	resource	slaves,         1,         83,   78		; region: Corsica | settlement: Alalia | faction: latin_faction_03
+	resource	slaves,         1,         98,   79		; region: Picenum | settlement: Asculum | faction: latin_faction_02
+	resource	slaves,         1,         135,  76		; region: Locus_Serdi | settlement: Vicus_Serdi | faction: thracian_faction_02
+	resource	slaves,         1,         100,  72		; region: Sabinum | settlement: Narnia | faction: romans_julii
+	resource	slaves,         1,         109,  71		; region: Apulia | settlement: Venusia | faction: romans_brutii
+	resource	slaves,         1,         103,  67		; region: Samnium | settlement: Maleventum | faction: latin_faction_04
+	resource	slaves,         1,         93,   89		; region: Venetia | settlement: Patavium | faction: gallic_faction_03
+	resource	slaves,         1,         97,   81		; region: Umbria | settlement: Ariminum | faction: romans_julii
+	resource	slaves,         1,         89,   80		; region: Etruria | settlement: Arretium | faction: latin_faction_03
+	resource	slaves,         1,         83,   92		; region: Cisalpine_Gaul | settlement: Mediolanium | faction: gallic_faction_02
+	resource	slaves,         1,         95,   69		; region: Latium | settlement: Rome | faction: romans_senate
+	resource	slaves,         1,         101,  69		; region: Campania | settlement: Capua | faction: romans_scipii
+	resource	slaves,         1,         113,  65		; region: Calabria | settlement: Tarentum | faction: romans_brutii
+	resource	slaves,         1,         79,   60		; region: Sardinia_Inferior | settlement: Caralis | faction: carthage_magonid
+	resource	slaves,         1,         105,  46		; region: Sicilia_Graecus | settlement: Syracuse | faction: greek_cities
+	resource	slaves,         1,         96,   48		; region: Sicilia_Poeni | settlement: Lilybaeum | faction: carthage_magonid
+	resource	slaves,         1,         107,  50		; region: Sicilia_Romanus | settlement: Messana | faction: latin_faction_01
+	resource	slaves,         1,         54,   62		; region: Baliares | settlement: Palma | faction: carthage_barcid
+	resource	slaves,         1,         42,   77		; region: Taraconenis | settlement: Osca | faction: iberian_faction_03
+	resource	slaves,         1,         25,   74		; region: Celtiberia | settlement: Numantia | faction: spain
+	resource	slaves,         1,         18,   87		; region: Gallaecia | settlement: Asturica | faction: iberian_faction_02
+	resource	slaves,         1,         8,    70		; region: Lusitania | settlement: Scallabis | faction: iberian_faction_01
+	resource	slaves,         1,         16,   59		; region: Baetica | settlement: Corduba | faction: carthage_barcid
+	resource	slaves,         1,         38,   59		; region: Hispania | settlement: Carthago_Nova | faction: iberian_faction_05
+	resource	slaves,         1,         11,   45		; region: Mauretania | settlement: Walilt | faction: desert_faction_01
+	resource	slaves,         1,         61,   39		; region: Numidia | settlement: Cirta | faction: numidia
+	resource	slaves,         1,         80,   46		; region: Africa | settlement: Carthage | faction: carthage
+	resource	slaves,         1,         81,   34		; region: Byzacium | settlement: Thapsus | faction: carthage_hannonid
+	resource	slaves,         1,         97,   17		; region: Tripolitania | settlement: Lepcis_Magna | faction: carthage_hannonid
+	resource	slaves,         1,         130,  17		; region: Cyrenaica | settlement: Cyrene | faction: hellenic_faction_08
+	resource	slaves,         1,         186,  4		; region: Thebais | settlement: Waset | faction: egypt
+	resource	slaves,         1,         183,  10		; region: Middle_Egypt | settlement: Memphis | faction: egypt
+	resource	slaves,         1,         177,  18		; region: Nile_Delta | settlement: Alexandria | faction: egypt
+	resource	slaves,         1,         207,  16		; region: Nabataea | settlement: Petra | faction: desert_faction_03
+	resource	slaves,         1,         198,  25		; region: Gaza | settlement: Gaza | faction: egypt
+	resource	slaves,         1,         210,  25		; region: Karak | settlement: Kharkha | faction: desert_faction_03
+	resource	slaves,         1,         196,  20		; region: Rhinocorura | settlement: Rhinocorura | faction: egypt
+	resource	slaves,         1,         239,  23		; region: Gaetulia | settlement: Dimmidi | faction: rebel_slave
+	resource	slaves,         1,         200,  33		; region: Tyrea | settlement: Tyre | faction: egypt
+	resource	slaves,         1,         203,  34		; region: Judaea | settlement: Jerusalem | faction: anatolian_faction_02
+	resource	slaves,         1,         210,  36		; region: Arab_Syria | settlement: Bosra | faction: desert_faction_03
+	resource	slaves,         1,         199,  40		; region: Phoenicia | settlement: Sidon | faction: egypt
+	resource	slaves,         1,         198,  50		; region: Syria | settlement: Antioch | faction: seleucid
+	resource	slaves,         1,         188,  45		; region: Cyprus | settlement: Salamis | faction: egypt
+	resource	slaves,         1,         193,  57		; region: Cilicia | settlement: Tarsus | faction: seleucid
+	resource	slaves,         1,         190,  67		; region: Cappadocia | settlement: Mazaka | faction: caucasian_faction_04
+	resource	slaves,         1,         191,  78		; region: Pontus | settlement: Sinope | faction: pontus
+	resource	slaves,         1,         173,  68		; region: Galatia | settlement: Ancyra | faction: gallic_faction_11
+	resource	slaves,         1,         167,  72		; region: Bithynia | settlement: Nicomedia | faction: anatolian_faction_01
+	resource	slaves,         1,         161,  56		; region: Lydia | settlement: Sardis | faction: seleucid
+	resource	slaves,         1,         159,  51		; region: Caria | settlement: Halicarnasus | faction: egypt
+	resource	slaves,         1,         226,  89		; region: Armenia | settlement: Artaxarta | faction: armenia
+	resource	slaves,         1,         215,  90		; region: Colchis | settlement: Kotais | faction: hellenic_faction_10
+	resource	slaves,         1,         214,  59		; region: Osrhoene | settlement: Harran | faction: seleucid
+	resource	slaves,         1,         211,  48		; region: Regnum_Palmyrae | settlement: Palmyra | faction: seleucid
+	resource	slaves,         1,         243,  53		; region: Babylonia | settlement: Seleucia | faction: seleucid
+	resource	slaves,         1,         251,  49		; region: Elymais | settlement: Susa | faction: seleucid
+	resource	slaves,         1,         251,  78		; region: Rhages | settlement: Arsakia | faction: seleucid
+	resource	slaves,         1,         238,  82		; region: Atropatene | settlement: Phraaspa | faction: caucasian_faction_03
+	resource	slaves,         1,         206,  42		; region: Coele_Syria | settlement: Damascus | faction: seleucid
+	resource	slaves,         1,         113,  59		; region: Bruttium | settlement: Croton | faction: romans_scipii
+	resource	slaves,         1,         85,   84		; region: Liguria | settlement: Segesta | faction: gallic_faction_01
+	resource	slaves,         1,         113,  113		; region: Boihaemum | settlement: Lovosice | faction: gallic_faction_10
+	resource	slaves,         1,         157,  61		; region: Aeolia | settlement: Pergamum | faction: hellenic_faction_03
+	resource	slaves,         1,         159,  56		; region: Ionia | settlement: Miletus | faction: egypt
+	resource	slaves,         1,         148,  52		; region: Euboea | settlement: Chalkis | faction: macedon
+	resource	slaves,         1,         139,  56		; region: Boeotia | settlement: Thebes | faction: macedon
+	resource	slaves,         1,         35,   144		; region: Hibernia | settlement: Tara | faction: britanic_faction_04
+	resource	slaves,         1,         211,  4		; region: Hejaz | settlement: Hegra | faction: desert_faction_06
+	resource	slaves,         1,         220,  12		; region: Jawf | settlement: Dumat | faction: desert_faction_07
+	resource	slaves,         1,         203,  22		; region: Negev | settlement: Avdat | faction: desert_faction_03
+	resource	slaves,         1,         207,  84		; region: Rize | settlement: Rize | faction: hellenic_faction_16
+	resource	slaves,         1,         152,  57		; region: Lesbos | settlement: Mytilene | faction: egypt
+	resource	slaves,         1,         140,  59		; region: Thessalia | settlement: Larissa | faction: macedon
+	resource	slaves,         1,         207,  51		; region: Apamene | settlement: Apameia | faction: seleucid
+	resource	slaves,         1,         206,  59		; region: Cyrrhestica | settlement: Cyrrhus | faction: seleucid
+	resource	slaves,         1,         182,  101		; region: Bosphorus | settlement: Pantikapaion | faction: hellenic_faction_04
+	resource	slaves,         1,         179,  98		; region: Theodosian_Bosphorus | settlement: Theodosia | faction: hellenic_faction_04
+	resource	slaves,         1,         189,  103		; region: Sindica | settlement: Phanagoreia | faction: hellenic_faction_04
+	resource	slaves,         1,         177,  94		; region: Tauroi_Chersonesos | settlement: Chersonesos | faction: hellenic_faction_17
+	resource	slaves,         1,         212,  63		; region: Commagene | settlement: Samosata | faction: armenia
+	resource	slaves,         1,         215,  70		; region: Arzanene | settlement: Carcathiocerta | faction: armenia
+	resource	slaves,         1,         224,  55		; region: Assyria | settlement: Hatra | faction: seleucid
+	resource	slaves,         1,         220,  65		; region: Mygdonius | settlement: Nisibis | faction: seleucid
+	resource	slaves,         1,         236,  62		; region: Adiabene | settlement: Arbela | faction: seleucid
+	resource	slaves,         1,         226,  76		; region: Urartu | settlement: Tushpa | faction: seleucid
+	resource	slaves,         1,         246,  44		; region: Mesopotamia | settlement: Uruk | faction: seleucid
+	resource	slaves,         1,         246,  66		; region: Media | settlement: Ecbatana | faction: seleucid
+	resource	slaves,         1,         137,  5		; region: Nasamonea | settlement: Augila | faction: desert_faction_04
+	resource	slaves,         1,         130,  9		; region: Libyan_Syrtica | settlement: Automala | faction: desert_faction_04
+	resource	slaves,         1,         115,  11		; region: Syrtica | settlement: Charax | faction: carthage_hannonid
+	resource	slaves,         1,         98,   7		; region: Fezzan | settlement: Garama | faction: desert_faction_05
+	resource	slaves,         1,         97,   50		; region: Panormus | settlement: Panormus | faction: carthage_magonid
+	resource	slaves,         1,         156,  87		; region: Tomis | settlement: Tomis | faction: hellenic_faction_18
+	resource	slaves,         1,         162,  100		; region: Tyragetae | settlement: Tyras | faction: steppe_faction_02
+	resource	slaves,         1,         162,  8		; region: Qattara | settlement: Siwa | faction: egypt
+	resource	slaves,         1,         153,  70		; region: Thrace | settlement: Uscudama | faction: thrace
+	resource	slaves,         1,         143,  89		; region: Argedava | settlement: Argedava | faction: dacia
+	resource	slaves,         1,         81,   134		; region: Locus_Chauci | settlement: Vicus_Chauci | faction: germanic_faction_09
+	resource	slaves,         1,         86,   130		; region: Locus_Cherusci | settlement: Vicus_Cherusci | faction: germanic_faction_04
+	resource	slaves,         1,         91,   149		; region: Kimbrike_Chersonesos | settlement: Alabu | faction: germanic_faction_02
+	resource	slaves,         1,         105,  121		; region: Locus_Suebi | settlement: Vicus_Suebi | faction: germans
+	resource	slaves,         1,         150,  100		; region: Tribus_Getae | settlement: Campus_Getae | faction: dacian_faction_01
+	resource	slaves,         1,         73,   127		; region: Germania_Inferior | settlement: Batavodurum | faction: germanic_faction_01
+	resource	slaves,         1,         117,  130		; region: Locus_Gothi | settlement: Vicus_Gothi | faction: germanic_faction_07
+	resource	slaves,         1,         120,  107		; region: Locus_Boii | settlement: Vicus_Boii | faction: gallic_faction_10
+	resource	slaves,         1,         154,  80		; region: Odessos | settlement: Odessos | faction: hellenic_faction_18
+	resource	slaves,         1,         150,  78		; region: Arkovna | settlement: Arkovna | faction: gallic_faction_14
+	resource	slaves,         1,         144,  74		; region: Moesia | settlement: Seuthopolis | faction: thrace
+	resource	slaves,         1,         141,  76		; region: Bulgaria | settlement: Philippopolis | faction: thrace
+	resource	slaves,         1,         151,  66		; region: Thracia_Chersonesos | settlement: Lysimachia | faction: hellenic_faction_05
+	resource	slaves,         1,         69,   118		; region: Tongeren | settlement: Atuatuca | faction: gallic_faction_08
+	resource	slaves,         1,         81,   115		; region: Germania_Superior | settlement: Trier | faction: gallic_faction_12
+	resource	slaves,         1,         103,  88		; region: Illyria_Pannonia | settlement: Salona | faction: illyrian_faction_01
+	resource	slaves,         1,         88,   106		; region: Raetia | settlement: Kambodunon | faction: latin_faction_05
+	resource	slaves,         1,         46,   91		; region: Aquitania_Inferior | settlement: Burdigala | faction: iberian_faction_08
+	resource	slaves,         1,         30,   41		; region: Siga | settlement: Siga | faction: desert_faction_02
+	resource	slaves,         1,         191,  20		; region: Pelousion | settlement: Pelousion | faction: egypt
+	resource	slaves,         1,         179,  7		; region: Hare | settlement: Hermopolis | faction: egypt
+	resource	slaves,         1,         180,  4		; region: Thinis | settlement: Ptolemais | faction: egypt
+	resource	slaves,         1,         9,    46		; region: Tingitana | settlement: Tingi | faction: carthage_barcid
+	resource	slaves,         1,         83,   62		; region: Sardinia | settlement: Olbia | faction: carthage_magonid
+	resource	slaves,         1,         227,  19		; region: Jawf | settlement: Dumat | faction: desert_faction_07
+	resource	slaves,         1,         223,  2		; region: Khaybar | settlement: Khaybar | faction: desert_faction_08
+	resource	slaves,         1,         178,  107		; region: Kamianka | settlement: Kamianka | faction: scythia
+	resource	slaves,         1,         233,  109		; region: Tribus_Alanni | settlement: Campus_Alanni | faction: steppe_faction_08
+	resource	slaves,         1,         76,   15		; region: Cydamus | settlement: Cydamus | faction: desert_faction_05
+	resource	slaves,         1,         44,   149		; region: Caledonia | settlement: Vanduara | faction: britanic_faction_05
+	resource	slaves,         1,         209,  111		; region: Siracena | settlement: Siracena | faction: steppe_faction_08
+	resource	slaves,         1,         248,  119		; region: Tribus_Dahae | settlement: Campus_Dahae | faction: steppe_faction_06
+	resource	slaves,         1,         239,  140		; region: Tribus_Massagetae | settlement: Campus_Massagetae | faction: steppe_faction_01
+	resource	slaves,         1,         215,  150		; region: Tribus_Thyssagetae | settlement: Campus_Thyssagetae | faction: steppe_faction_07
 end
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -11555,7 +11555,7 @@ dead_until_resurrected
 re_emergent
 denari	0
 
-faction	rebel_carthage, craftsman_henry
+faction	rebel_carthage, craftsman_stalin
 dead_until_resurrected
 re_emergent
 denari	0

@@ -280,7 +280,7 @@ siege_artillery 80
 special 48
 sally_agression 50
 sally_desperate 50
-attack_risk_taker 2
+attack_risk_taker 1
 subterfuge_risk_taker 2
 
 military_priority napoleon

@@ -2,6 +2,14 @@
 
 This file records notable player-facing changes to Rome Expanded Submod. The newest changes are listed first.
 
+## 2026-10-23
+
+### Changed
+
+- Removed Barcid Carthage's preference for naval invasions so it places greater emphasis on overland expansion.
+- Reduced invasion force allocation for factions using the Stalin military AI profile from parity with the target region to half its estimated strength, encouraging earlier but riskier attacks.
+- Changed Carthaginian rebels from the Henry military AI profile to Stalin, shifting their recruitment emphasis toward heavy infantry and siege units.
+
 ## 2026-10-22 — Steam Workshop Release
 
 ### Changed

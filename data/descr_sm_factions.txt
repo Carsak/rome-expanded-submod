@@ -395,7 +395,7 @@
 		},
 
 		"available in custom battles": true,
-		"prefer naval invasions": true,
+		"prefer naval invasions": false,
 		"default religion": "punic",
 		"default battle ai personality": "scythian_personality",
 		"allow reproduction": true,
