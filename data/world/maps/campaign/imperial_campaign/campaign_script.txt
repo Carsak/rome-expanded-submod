@@ -11350,6 +11350,29 @@ script
 			end_if
 		end_if
 	end_monitor
+
+	; Western Greek infantry doctrine
+
+	declare_persistent_counter western_greek_phalanx_choice_answered
+	declare_persistent_counter western_greek_phalanx_enabled
+
+	monitor_event FactionTurnStart
+		if FactionIsLocal
+		and I_CompareCounter western_greek_phalanx_choice_answered = 0
+			if FactionType hellenic_faction_02
+			|| FactionType hellenic_faction_12
+				message_prompt
+				{
+					flag_counter western_greek_phalanx_choice_answered
+					result_counter western_greek_phalanx_enabled
+
+					title ROME_EXPANDED_WESTERN_GREEK_PHALANX_TITLE
+					body ROME_EXPANDED_WESTERN_GREEK_PHALANX_BODY
+					image greek_wars
+				}
+			end_if
+		end_if
+	end_monitor
 end_script
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

@@ -6300,7 +6300,7 @@ stat_fire_delay				0
 stat_food					60, 300
 stat_cost					1, 410, 150, 40, 50, 410
 recruit_priority_offset		0
-ownership					slave, rebel_slave, macedon, hellenic_faction_03, hellenic_faction_13, seleucid, rebel_seleucid, pontus
+ownership					slave, rebel_slave, macedon, hellenic_faction_02, hellenic_faction_03, hellenic_faction_12, hellenic_faction_13, seleucid, rebel_seleucid, pontus
 ethnicity					macedon, Macedonia
 ethnicity					seleucid, Syria
 ethnicity					rebel_seleucid, Syria
@@ -6330,7 +6330,7 @@ stat_fire_delay				0
 stat_food					60, 300
 stat_cost					1, 680, 250, 60, 90, 680
 recruit_priority_offset		0
-ownership					slave, rebel_slave, macedon, hellenic_faction_03, hellenic_faction_13, seleucid, rebel_seleucid
+ownership					slave, rebel_slave, macedon, hellenic_faction_02, hellenic_faction_03, hellenic_faction_12, hellenic_faction_13, seleucid, rebel_seleucid
 ethnicity					macedon, Macedonia
 ethnicity					seleucid, Syria
 ethnicity					rebel_seleucid, Syria

@@ -573,4 +573,27 @@
 		{
 		},
 	},
+
+	"western_greek_phalanx_reform":
+	{
+		"affects": [ "hellenic_faction_02", "hellenic_faction_12", ],
+		"global": false,
+		"priority": 0,
+
+		"activation":
+		{
+			"trigger conditions": "major_event_scripts/western_greek_phalanx_reform_trigger.txt",
+			"unit switches":
+			{
+			},
+			"use big panel": false,
+			"title":	"SMT_WESTERN_GREEK_PHALANX_REFORM_TITLE",
+			"body":		"SMT_WESTERN_GREEK_PHALANX_REFORM_BODY",
+			"image":	"greek_wars",
+		},
+
+		"deactivation":
+		{
+		},
+	},
 ],

@@ -568,12 +568,13 @@ building barracks
 				recruit "greek levy pikemen" 0 requires building_factions { eastern, } and factions { pontus, } and is_player and religion hellenic >= 10
 				recruit "east infantry" 0 requires building_factions { eastern, egyptian, } and factions { anatolian_faction_02, rebel_judea, } and is_player and religion judaism >= 10
 				recruit "east infantry" 0 requires building_factions { carthaginian, } and factions { desert_faction_03, desert_faction_06, desert_faction_07, desert_faction_08, } and is_player and religion arab >= 10
-				recruit "greek hoplite militia" 0 requires building_factions { greek, } and factions { greek, } and is_player and religion hellenic >= 10 or religion oscan >= 10
+				recruit "greek hoplite militia" 0 requires not major_event "western_greek_phalanx_reform" and building_factions { greek, } and factions { greek, } and is_player and religion hellenic >= 10 or religion oscan >= 10
 				recruit "greek hoplite militia" 0 requires building_factions { tracian_illyrian, } and factions { tracian_illyrian, } and is_player and religion b_paganism >= 10
 				recruit "roman city militia" 0 requires building_factions { roman, } and is_player and religion roman >= 10
 				recruit "egyptian nubian spearmen" 0 requires building_factions { egyptian, } and is_player and religion egyptian >= 10
 				recruit "egyptian nile infantry" 0 requires building_factions { egyptian, } and is_player and religion egyptian >= 10
-				recruit "greek levy pikemen" 0 requires building_factions { greek, } and is_player and religion hellenic >= 10
+				recruit "greek levy pikemen" 0 requires not factions { hellenic_faction_02, hellenic_faction_12, } and building_factions { greek, } and is_player and religion hellenic >= 10
+				recruit "greek levy pikemen" 0 requires major_event "western_greek_phalanx_reform" and building_factions { greek, } and factions { hellenic_faction_02, hellenic_faction_12, } and is_player and religion hellenic >= 10 or religion oscan >= 10
 				recruit "italian spearmen" 0 requires building_factions { italic, } and factions { latin_faction_03, latin_faction_05, } and is_player and religion etruscan >= 10
 				recruit "italian spearmen" 0 requires building_factions { italic, } and factions { latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, } and is_player and religion samnite >= 10
 				recruit "numidian levy" 0 requires building_factions { carthaginian, } and factions { numidia, desert_faction_01, desert_faction_02, desert_faction_04, desert_faction_05, rebel_desert, } and not major_event "marian_reforms" and is_player and religion berber >= 10
@@ -663,19 +664,21 @@ building barracks
 				recruit "egyptian nubian spearmen" 1 requires building_factions { egyptian, } and is_player and religion egyptian >= 10
 				recruit "nile infantry" 0 requires building_factions { egyptian, } and is_player and religion egyptian >= 10
 				recruit "egyptian nile infantry" 1 requires building_factions { egyptian, } and is_player and religion egyptian >= 10
-				recruit "greek hoplite militia" 1 requires building_factions { greek, } and factions { greek, } and is_player and religion hellenic >= 10 or religion oscan >= 10
+				recruit "greek hoplite militia" 1 requires not major_event "western_greek_phalanx_reform" and building_factions { greek, } and factions { greek, } and is_player and religion hellenic >= 10 or religion oscan >= 10
 				recruit "greek hoplite militia" 1 requires building_factions { tracian_illyrian, } and factions { tracian_illyrian, } and is_player and religion b_paganism >= 10
-				recruit "greek levy pikemen" 1 requires building_factions { greek, } and is_player and religion hellenic >= 10
+				recruit "greek levy pikemen" 1 requires not factions { hellenic_faction_02, hellenic_faction_12, } and building_factions { greek, } and is_player and religion hellenic >= 10
+				recruit "greek levy pikemen" 1 requires major_event "western_greek_phalanx_reform" and building_factions { greek, } and factions { hellenic_faction_02, hellenic_faction_12, } and is_player and religion hellenic >= 10 or religion oscan >= 10
 				recruit "warband spear illyrian" 0 requires building_factions { tracian_illyrian, } and is_player and religion b_paganism >= 10
 				recruit "warband falx thracian" 0 requires building_factions { tracian_illyrian, eastern, } and is_player and religion b_paganism >= 10
-				recruit "greek hoplite" 0 requires building_factions { greek, } and is_player and religion hellenic >= 10 or religion oscan >= 10
+				recruit "greek hoplite" 0 requires not major_event "western_greek_phalanx_reform" and building_factions { greek, } and is_player and religion hellenic >= 10 or religion oscan >= 10
 				recruit "roman city militia" 1 requires building_factions { roman, } and is_player and religion roman >= 10
 				recruit "roman hastati" 0 requires building_factions { roman, } and not major_event "marian_reforms" and is_player and religion roman >= 10
 				recruit "roman italian spearmen" 0 requires building_factions { roman, } and hidden_resource mercenary and not major_event "marian_reforms" and is_player and religion samnite >= 10 or religion etruscan >= 10
 				recruit "roman sword auxillia" 0 requires building_factions { roman, } and hidden_resource mercenary and not major_event "marian_reforms" and is_player and religion c_paganism >= 10
 				recruit "roman infantry auxillia" 0 requires building_factions { roman, } and major_event "marian_reforms" and is_player and religion roman >= 10
 				recruit "egyptian infantry" 0 requires building_factions { egyptian, } and is_player and religion egyptian >= 10
-				recruit "greek pikemen" 0 requires building_factions { greek, } and is_player and religion hellenic >= 10
+				recruit "greek pikemen" 0 requires not factions { hellenic_faction_02, hellenic_faction_12, } and building_factions { greek, } and is_player and religion hellenic >= 10
+				recruit "greek pikemen" 0 requires major_event "western_greek_phalanx_reform" and building_factions { greek, } and factions { hellenic_faction_02, hellenic_faction_12, } and is_player and religion hellenic >= 10 or religion oscan >= 10
 				recruit "italian spearmen" 1 requires building_factions { italic, } and factions { latin_faction_03, latin_faction_05, } and is_player and religion etruscan >= 10
 				recruit "italian spearmen" 1 requires building_factions { italic, } and factions { latin_faction_01, latin_faction_02, latin_faction_04, rebel_latin, } and is_player and religion samnite >= 10
 				recruit "samnite" 0 requires building_factions { italic, } and is_player and religion samnite >= 10 or religion etruscan >= 10
@@ -826,14 +829,16 @@ building barracks
 				recruit "nile axemen" 0 requires building_factions { egyptian, } and is_player and religion egyptian >= 10
 				recruit "egyptian nile infantry" 2 requires building_factions { egyptian, } and is_player and religion egyptian >= 10
 				recruit "egyptian infantry" 1 requires building_factions { egyptian, } and is_player and religion egyptian >= 10
-				recruit "greek hoplite militia" 2 requires building_factions { greek, } and factions { greek, } and is_player and religion hellenic >= 10 or religion oscan >= 10
+				recruit "greek hoplite militia" 2 requires not major_event "western_greek_phalanx_reform" and building_factions { greek, } and factions { greek, } and is_player and religion hellenic >= 10 or religion oscan >= 10
 				recruit "greek hoplite militia" 2 requires building_factions { tracian_illyrian, } and factions { tracian_illyrian, } and is_player and religion b_paganism >= 10
-				recruit "greek levy pikemen" 2 requires building_factions { greek, } and is_player and religion hellenic >= 10
+				recruit "greek levy pikemen" 2 requires not factions { hellenic_faction_02, hellenic_faction_12, } and building_factions { greek, } and is_player and religion hellenic >= 10
+				recruit "greek levy pikemen" 2 requires major_event "western_greek_phalanx_reform" and building_factions { greek, } and factions { hellenic_faction_02, hellenic_faction_12, } and is_player and religion hellenic >= 10 or religion oscan >= 10
 				recruit "warband spear illyrian" 1 requires building_factions { tracian_illyrian, } and is_player and religion b_paganism >= 10
 				recruit "warband falx thracian" 1 requires building_factions { tracian_illyrian, eastern, } and is_player and religion b_paganism >= 10
 				recruit "illyrian ravager" 0 requires building_factions { tracian_illyrian, } and is_player and religion b_paganism >= 10
-				recruit "greek hoplite" 1 requires building_factions { greek, } and is_player and religion hellenic >= 10 or religion oscan >= 10
-				recruit "greek pikemen" 1 requires building_factions { greek, } and is_player and religion hellenic >= 10
+				recruit "greek hoplite" 1 requires not major_event "western_greek_phalanx_reform" and building_factions { greek, } and is_player and religion hellenic >= 10 or religion oscan >= 10
+				recruit "greek pikemen" 1 requires not factions { hellenic_faction_02, hellenic_faction_12, } and building_factions { greek, } and is_player and religion hellenic >= 10
+				recruit "greek pikemen" 1 requires major_event "western_greek_phalanx_reform" and building_factions { greek, } and factions { hellenic_faction_02, hellenic_faction_12, } and is_player and religion hellenic >= 10 or religion oscan >= 10
 				recruit "greek bastarnae" 0 requires building_factions { barbarian, } and factions { barbarian, } and is_player and religion b_paganism >= 10
 				recruit "greek bastarnae" 0 requires building_factions { tracian_illyrian, } and factions { tracian_illyrian, } and is_player and religion b_paganism >= 10
 				recruit "roman city militia" 2 requires building_factions { roman, } and is_player and religion roman >= 10
@@ -1050,15 +1055,17 @@ building barracks
 				recruit "egyptian nile infantry" 4 requires building_factions { egyptian, } and is_player and religion egyptian >= 10
 				recruit "egyptian infantry" 2 requires building_factions { egyptian, } and is_player and religion egyptian >= 10
 				recruit "egyptian elite guards" 0 requires building_factions { egyptian, } and is_player and religion egyptian >= 10
-				recruit "greek hoplite militia" 4 requires building_factions { greek, } and factions { greek, } and is_player and religion hellenic >= 10 or religion oscan >= 10
+				recruit "greek hoplite militia" 4 requires not major_event "western_greek_phalanx_reform" and building_factions { greek, } and factions { greek, } and is_player and religion hellenic >= 10 or religion oscan >= 10
 				recruit "greek hoplite militia" 4 requires building_factions { tracian_illyrian, } and factions { tracian_illyrian, } and is_player and religion b_paganism >= 10
-				recruit "greek levy pikemen" 4 requires building_factions { greek, } and is_player and religion hellenic >= 10
+				recruit "greek levy pikemen" 4 requires not factions { hellenic_faction_02, hellenic_faction_12, } and building_factions { greek, } and is_player and religion hellenic >= 10
+				recruit "greek levy pikemen" 4 requires major_event "western_greek_phalanx_reform" and building_factions { greek, } and factions { hellenic_faction_02, hellenic_faction_12, } and is_player and religion hellenic >= 10 or religion oscan >= 10
 				recruit "warband spear illyrian" 2 requires building_factions { tracian_illyrian, } and is_player and religion b_paganism >= 10
 				recruit "warband falx thracian" 2 requires building_factions { tracian_illyrian, eastern, } and is_player and religion b_paganism >= 10
 				recruit "illyrian ravager" 1 requires building_factions { tracian_illyrian, } and is_player and religion b_paganism >= 10
 				recruit "illyrian guard" 0 requires building_factions { tracian_illyrian, } and is_player and religion b_paganism >= 10
-				recruit "greek hoplite" 2 requires building_factions { greek, } and is_player and religion hellenic >= 10 or religion oscan >= 10
-				recruit "greek pikemen" 2 requires building_factions { greek, } and is_player and religion hellenic >= 10
+				recruit "greek hoplite" 2 requires not major_event "western_greek_phalanx_reform" and building_factions { greek, } and is_player and religion hellenic >= 10 or religion oscan >= 10
+				recruit "greek pikemen" 2 requires not factions { hellenic_faction_02, hellenic_faction_12, } and building_factions { greek, } and is_player and religion hellenic >= 10
+				recruit "greek pikemen" 2 requires major_event "western_greek_phalanx_reform" and building_factions { greek, } and factions { hellenic_faction_02, hellenic_faction_12, } and is_player and religion hellenic >= 10 or religion oscan >= 10
 				recruit "greek bastarnae" 1 requires building_factions { barbarian, } and factions { barbarian, } and is_player and religion b_paganism >= 10
 				recruit "greek bastarnae" 1 requires building_factions { tracian_illyrian, } and factions { tracian_illyrian, } and is_player and religion b_paganism >= 10
 				recruit "thracian elite warrior" 0 requires building_factions { tracian_illyrian, } and is_player and religion b_paganism >= 10
@@ -1333,15 +1340,17 @@ building barracks
 				recruit "egyptian elite hypaspists" 0 requires building_factions { egyptian, } and is_player and religion egyptian >= 10
 				recruit "ptolemaic royal guard" 0 requires building_factions { egyptian, } and is_player and religion egyptian >= 10
 				recruit "egyptian legionaries" 0 requires building_factions { egyptian, } and major_event "marian_reforms" and is_player and religion egyptian >= 10
-				recruit "greek hoplite militia" 6 requires building_factions { greek, } and factions { greek, } and is_player and religion hellenic >= 10 or religion oscan >= 10
+				recruit "greek hoplite militia" 6 requires not major_event "western_greek_phalanx_reform" and building_factions { greek, } and factions { greek, } and is_player and religion hellenic >= 10 or religion oscan >= 10
 				recruit "greek hoplite militia" 6 requires building_factions { tracian_illyrian, } and factions { tracian_illyrian, } and is_player and religion b_paganism >= 10
-				recruit "greek levy pikemen" 6 requires building_factions { greek, } and is_player and religion hellenic >= 10
+				recruit "greek levy pikemen" 6 requires not factions { hellenic_faction_02, hellenic_faction_12, } and building_factions { greek, } and is_player and religion hellenic >= 10
+				recruit "greek levy pikemen" 6 requires major_event "western_greek_phalanx_reform" and building_factions { greek, } and factions { hellenic_faction_02, hellenic_faction_12, } and is_player and religion hellenic >= 10 or religion oscan >= 10
 				recruit "warband spear illyrian" 4 requires building_factions { tracian_illyrian, } and is_player and religion b_paganism >= 10
 				recruit "warband falx thracian" 4 requires building_factions { tracian_illyrian, eastern, } and is_player and religion b_paganism >= 10
 				recruit "illyrian ravager" 2 requires building_factions { tracian_illyrian, } and is_player and religion b_paganism >= 10
 				recruit "illyrian guard" 1 requires building_factions { tracian_illyrian, } and is_player and religion b_paganism >= 10
-				recruit "greek hoplite" 4 requires building_factions { greek, } and is_player and religion hellenic >= 10 or religion oscan >= 10
-				recruit "greek pikemen" 4 requires building_factions { greek, } and is_player and religion hellenic >= 10
+				recruit "greek hoplite" 4 requires not major_event "western_greek_phalanx_reform" and building_factions { greek, } and is_player and religion hellenic >= 10 or religion oscan >= 10
+				recruit "greek pikemen" 4 requires not factions { hellenic_faction_02, hellenic_faction_12, } and building_factions { greek, } and is_player and religion hellenic >= 10
+				recruit "greek pikemen" 4 requires major_event "western_greek_phalanx_reform" and building_factions { greek, } and factions { hellenic_faction_02, hellenic_faction_12, } and is_player and religion hellenic >= 10 or religion oscan >= 10
 				recruit "greek bastarnae" 2 requires building_factions { barbarian, } and factions { barbarian, } and is_player and religion b_paganism >= 10
 				recruit "greek bastarnae" 2 requires building_factions { tracian_illyrian, } and factions { tracian_illyrian, } and is_player and religion b_paganism >= 10
 				recruit "thracian elite warrior" 1 requires building_factions { tracian_illyrian, } and is_player and religion b_paganism >= 10

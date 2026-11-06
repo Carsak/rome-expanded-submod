@@ -1,0 +1,8 @@
+script
+	if FactionIsLocal
+	and I_CompareCounter western_greek_phalanx_enabled = 1
+		return true
+	end_if
+
+	return false
+end_script

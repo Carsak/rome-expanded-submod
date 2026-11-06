@@ -2,6 +2,12 @@
 
 This file records notable player-facing changes to Rome Expanded Submod. The newest changes are listed first.
 
+## 2026-11-05
+
+### Added
+
+- Added a new-campaign choice for player-controlled Massilia and Emporion to replace their tier-one and tier-two hoplites with equivalent Macedonian-style pikemen. AI-controlled factions retain their original hoplite roster.
+
 ## 2026-10-23
 
 ### Changed

@@ -25,11 +25,15 @@
 	},
 	{
 		"filename": "data\/descr_sm_factions.txt",
-		"checksum": 3114041452
+		"checksum": 3940786946
 	},
 	{
 		"filename": "data\/descr_sm_factions_difficulty.json",
 		"checksum": 593277086
+	},
+	{
+		"filename": "data\/descr_sm_major_events.txt",
+		"checksum": 1882936226
 	},
 	{
 		"filename": "data\/descr_sm_resources.txt",
@@ -37,7 +41,7 @@
 	},
 	{
 		"filename": "data\/export_descr_buildings.txt",
-		"checksum": 3583922759
+		"checksum": 2175334041
 	},
 	{
 		"filename": "data\/export_descr_buildings_enums.txt",
@@ -49,7 +53,11 @@
 	},
 	{
 		"filename": "data\/export_descr_unit.txt",
-		"checksum": 3948939592
+		"checksum": 4147504877
+	},
+	{
+		"filename": "data\/feral_descr_ai_personality.txt",
+		"checksum": 1288394116
 	},
 	{
 		"filename": "data\/feral_descr_movement_multipliers.txt",
@@ -58,6 +66,10 @@
 	{
 		"filename": "data\/major_event_scripts\/marian_reforms_trigger.txt",
 		"checksum": 3721754022
+	},
+	{
+		"filename": "data\/major_event_scripts\/western_greek_phalanx_reform_trigger.txt",
+		"checksum": 438549292
 	},
 	{
 		"filename": "data\/menu\/symbols\/fe_buttons_feral\/symbol128_rebel_seleucid.tga",
@@ -121,31 +133,31 @@
 	},
 	{
 		"filename": "data\/text\/expanded_bi.txt",
-		"checksum": 2610915095
+		"checksum": 3989931035
 	},
 	{
 		"filename": "data\/text\/expanded_bi_mac_de.txt",
-		"checksum": 1414534960
+		"checksum": 2354669885
 	},
 	{
 		"filename": "data\/text\/expanded_bi_mac_es.txt",
-		"checksum": 1593279923
+		"checksum": 2252539983
 	},
 	{
 		"filename": "data\/text\/expanded_bi_mac_fr.txt",
-		"checksum": 1456729904
+		"checksum": 2294394230
 	},
 	{
 		"filename": "data\/text\/expanded_bi_mac_it.txt",
-		"checksum": 1639561086
+		"checksum": 2728943524
 	},
 	{
 		"filename": "data\/text\/expanded_bi_mac_ru.txt",
-		"checksum": 2797494891
+		"checksum": 3878920259
 	},
 	{
 		"filename": "data\/text\/expanded_bi_mac_zh_cn.txt",
-		"checksum": 1830146494
+		"checksum": 3362553518
 	},
 	{
 		"filename": "data\/text\/export_buildings.txt",
@@ -174,6 +186,34 @@
 	{
 		"filename": "data\/text\/export_buildings_mac_zh_cn.txt",
 		"checksum": 2885607732
+	},
+	{
+		"filename": "data\/text\/major_events.txt",
+		"checksum": 2353420213
+	},
+	{
+		"filename": "data\/text\/major_events_mac_de.txt",
+		"checksum": 3936164955
+	},
+	{
+		"filename": "data\/text\/major_events_mac_es.txt",
+		"checksum": 8108352
+	},
+	{
+		"filename": "data\/text\/major_events_mac_fr.txt",
+		"checksum": 332636
+	},
+	{
+		"filename": "data\/text\/major_events_mac_it.txt",
+		"checksum": 3610512152
+	},
+	{
+		"filename": "data\/text\/major_events_mac_ru.txt",
+		"checksum": 375329392
+	},
+	{
+		"filename": "data\/text\/major_events_mac_zh_cn.txt",
+		"checksum": 2543877827
 	},
 	{
 		"filename": "data\/ui\/barbarian\/buildings\/#barbarian_rhodes_colossus.tga",
@@ -293,6 +333,22 @@
 	},
 	{
 		"filename": "data\/ui\/tracian_illyrian\/buildings\/construction\/#tracian_illyrian_rhodes_colossus.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/hellenic_faction_02\/greek_levy_pikemen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/hellenic_faction_02\/greek_pikemen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/hellenic_faction_12\/greek_levy_pikemen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info\/hellenic_faction_12\/greek_pikemen_info.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -417,6 +473,38 @@
 	},
 	{
 		"filename": "data\/ui\/unit_info\/rebel_seleucid\/spy_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/hellenic_faction_02\/greek_levy_pikemen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/hellenic_faction_02\/greek_pikemen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/hellenic_faction_12\/greek_levy_pikemen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/hellenic_faction_12\/greek_pikemen_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/hellenic_faction_02\/#greek_levy_pikemen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/hellenic_faction_02\/#greek_pikemen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/hellenic_faction_12\/#greek_levy_pikemen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/hellenic_faction_12\/#greek_pikemen.tga",
 		"checksum": "Blacklisted"
 	},
 	{
@@ -564,8 +652,24 @@
 		"checksum": "Blacklisted"
 	},
 	{
+		"filename": "data\/ui\/units_classic\/hellenic_faction_02\/#greek_levy_pikemen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/hellenic_faction_02\/#greek_pikemen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/hellenic_faction_12\/#greek_levy_pikemen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/hellenic_faction_12\/#greek_pikemen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/campaign_script.txt",
-		"checksum": 119286325
+		"checksum": 3698184824
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_disasters.txt",
@@ -589,7 +693,7 @@
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
-		"checksum": 1536271475
+		"checksum": 1533118563
 	},
 	{
 		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_terrain.txt",
