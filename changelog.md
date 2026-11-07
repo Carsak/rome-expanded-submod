@@ -2,6 +2,12 @@
 
 This file records notable player-facing changes to Rome Expanded Submod. The newest changes are listed first.
 
+## 2026-11-07
+
+### Fixed
+
+- Added the missing emergence army for independent Seleucid settlement revolts, using units available to the independent Seleucid faction.
+
 ## 2026-11-05
 
 ### Added

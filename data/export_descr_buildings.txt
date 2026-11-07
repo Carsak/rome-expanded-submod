@@ -6599,7 +6599,9 @@ building hinterland_natives
 				; No Capital and poverty
 				taxable_income_bonus bonus 8 requires not is_player and factions { romans_julii, romans_brutii, romans_scipii, carthage_barcid, carthage_hannonid, carthage_magonid, } and hidden_resource poverty and not hidden_resource capital
 				taxable_income_bonus bonus 4 requires not is_player and not factions { romans_julii, romans_brutii, romans_scipii, } and hidden_resource poverty and not hidden_resource capital
-
+				
+				extra_recruitment_points bonus 1 requires factions { rebel_seleucid, rebel_romans, rebel_egypt, }
+			
 				; Happiness bonus because the old traditions become a source of entertainment rather than an identity - Also gives us something to look at when no religious bonus is applied
 				happiness_bonus bonus 1 requires is_player and not hidden_resource b_paganism and not hidden_resource c_paganism and not hidden_resource i_paganism and not hidden_resource g_paganism and not hidden_resource s_paganism and not hidden_resource arab and not hidden_resource berber and not hidden_resource egyptian and not hidden_resource etruscan and not hidden_resource hellenic and not hidden_resource judaism and not hidden_resource mesopotamian and not hidden_resource nuragic and not hidden_resource oscan and not hidden_resource punic and not hidden_resource roman and not hidden_resource samnite and not hidden_resource zoroastrian
 				

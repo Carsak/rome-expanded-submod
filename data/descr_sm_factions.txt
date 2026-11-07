@@ -11234,6 +11234,39 @@
 		;;the independent faction never switches to the regular Seleucid identity
 		"allow shadow switchback": false,
 
+		"emergence":
+		{
+			;;units to use if we emerge inside a settlement
+			"settlement units":
+			[
+				"greek pikemen",
+				"greek pikemen",
+				"greek pikemen",
+				"greek pikemen",
+				"greek silver shield pikemen",
+				"greek silver shield pikemen",
+				"greek syrian archer",
+				"east heavy cataphract",
+			],
+			;;units to use if we emerge as a horde
+			"horde units":
+			[
+				"greek pikemen",
+				"greek pikemen",
+				"greek pikemen",
+				"greek pikemen",
+				"greek pikemen",
+				"greek silver shield pikemen",
+				"greek silver shield pikemen",
+				"greek syrian archer",
+				"greek syrian archer",
+				"east heavy cataphract",
+				"east heavy cataphract",
+			],
+			;;strength multiplier (compared to the strength of a regular revolt from the settlement)
+			"strength": 1.5,
+		},
+
 		"logos":
 		{
 			"loading screen icon": "data/ui/faction_icons/rebel_seleucid.tga",
